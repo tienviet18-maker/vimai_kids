@@ -55,4 +55,7 @@ tool/.env.audio.v3
 tool/audio_v3_preview/**/*.wav
 tool/audio_v3_production_snapshot.json
 
-
+# Keystore & Android release keys
+*.jks
+*.keystore
+key.properties
