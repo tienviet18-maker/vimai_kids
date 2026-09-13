@@ -31,9 +31,14 @@ dev_dependencies:
 flutter_launcher_icons:
   android: true
   ios: false
-  image_path: assets/images/branding/app_icon.png
+  web:
+    generate: true
+    image_path: "assets/icon/vimai-kids.jpg"
+    background_color: "#FF7E40"
+    theme_color: "#FF7E40"
+  image_path: "assets/icon/vimai-kids.jpg"
   adaptive_icon_background: "#FF7E40"
-  adaptive_icon_foreground: assets/images/branding/app_icon_foreground.png
+  adaptive_icon_foreground: "assets/icon/vimai-kids.jpg"
   adaptive_icon_padding: true
   min_sdk_android: 21
   remove_alpha_ios: true
@@ -42,6 +47,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/branding/
+    - assets/icon/
     - assets/data/
     - assets/data/vietnamese/
     - assets/data/japanese/

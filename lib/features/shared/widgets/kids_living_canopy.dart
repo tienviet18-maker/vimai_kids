@@ -265,12 +265,19 @@ class _LeafPainter extends CustomPainter {
   bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
 }
 
-/// Bronze acorn parent gate — hold 3s with circular progress.
+/// Bronze acorn parent gate — hold 3s with circular progress + subtle hint.
 class ParentOakGate extends StatefulWidget {
-  const ParentOakGate({super.key, required this.onUnlocked, this.label = 'Phụ huynh'});
+  const ParentOakGate({
+    super.key,
+    required this.onUnlocked,
+    this.label = 'Phụ huynh',
+    this.hint = 'Giữ 3s để mở',
+  });
 
   final VoidCallback onUnlocked;
   final String label;
+  /// Small adult-facing hint under the lock (kept low-contrast for kids).
+  final String hint;
 
   @override
   State<ParentOakGate> createState() => _ParentOakGateState();
@@ -310,28 +317,58 @@ class _ParentOakGateState extends State<ParentOakGate> with SingleTickerProvider
 
   @override
   Widget build(BuildContext context) {
+    final width = MediaQuery.sizeOf(context).width;
+    final compact = width < 380;
+    final hintSize = compact ? 8.5 : 9.5;
+
     return Semantics(
       button: true,
-      label: widget.label,
+      label: '${widget.label}. ${widget.hint}',
       child: GestureDetector(
         behavior: HitTestBehavior.opaque,
         onTapDown: (_) => _start(),
         onTapUp: (_) => _cancel(),
         onTapCancel: _cancel,
-        child: SizedBox(
-          width: kKidTouchMin,
-          height: kKidTouchMin,
-          child: AnimatedBuilder(
-            animation: _progress,
-            builder: (context, child) {
-              return CustomPaint(
-                painter: _OakGatePainter(progress: _progress.value),
-                child: child,
-              );
-            },
-            child: const Center(
-              child: Icon(Icons.lock_rounded, size: 26, color: Color(0xFF5C3A1E)),
-            ),
+        child: ConstrainedBox(
+          constraints: const BoxConstraints(minWidth: kKidTouchMin),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              SizedBox(
+                width: kKidTouchMin,
+                height: kKidTouchMin,
+                child: AnimatedBuilder(
+                  animation: _progress,
+                  builder: (context, child) {
+                    return CustomPaint(
+                      painter: _OakGatePainter(progress: _progress.value),
+                      child: child,
+                    );
+                  },
+                  child: const Center(
+                    child: Icon(Icons.lock_rounded, size: 26, color: Color(0xFF5C3A1E)),
+                  ),
+                ),
+              ),
+              const SizedBox(height: 2),
+              SizedBox(
+                width: compact ? 64 : 72,
+                child: Text(
+                  widget.hint,
+                  textAlign: TextAlign.center,
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(
+                    fontSize: hintSize,
+                    height: 1.15,
+                    fontWeight: FontWeight.w600,
+                    letterSpacing: -0.1,
+                    // Soft earth tone — readable for parents, low contrast for kids.
+                    color: const Color(0xFF5C3A1E).withValues(alpha: 0.55),
+                  ),
+                ),
+              ),
+            ],
           ),
         ),
       ),
