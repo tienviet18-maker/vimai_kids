@@ -265,19 +265,16 @@ class _LeafPainter extends CustomPainter {
   bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
 }
 
-/// Bronze acorn parent gate — hold 3s with circular progress + subtle hint.
+/// Bronze acorn parent gate — hold 3s with circular progress + visible hint.
 class ParentOakGate extends StatefulWidget {
   const ParentOakGate({
     super.key,
     required this.onUnlocked,
     this.label = 'Phụ huynh',
-    this.hint = 'Giữ 3s để mở',
   });
 
   final VoidCallback onUnlocked;
   final String label;
-  /// Small adult-facing hint under the lock (kept low-contrast for kids).
-  final String hint;
 
   @override
   State<ParentOakGate> createState() => _ParentOakGateState();
@@ -285,7 +282,10 @@ class ParentOakGate extends StatefulWidget {
 
 class _ParentOakGateState extends State<ParentOakGate> with SingleTickerProviderStateMixin {
   static const _hold = Duration(seconds: 3);
+  static const _hintMessage = 'Nhấn và giữ 3 giây để mở khóa phụ huynh';
+
   late final AnimationController _progress;
+  bool _didUnlock = false;
 
   @override
   void initState() {
@@ -293,6 +293,7 @@ class _ParentOakGateState extends State<ParentOakGate> with SingleTickerProvider
     _progress = AnimationController(vsync: this, duration: _hold);
     _progress.addStatusListener((status) {
       if (status == AnimationStatus.completed) {
+        _didUnlock = true;
         HapticFeedback.mediumImpact();
         widget.onUnlocked();
         _progress.value = 0;
@@ -307,69 +308,76 @@ class _ParentOakGateState extends State<ParentOakGate> with SingleTickerProvider
   }
 
   void _start() {
+    _didUnlock = false;
     _progress.forward(from: 0);
   }
 
   void _cancel() {
+    final incomplete = !_didUnlock && _progress.value < 1.0;
     _progress.stop();
     _progress.value = 0;
+    if (incomplete && mounted) {
+      _showHoldHint();
+    }
+    _didUnlock = false;
+  }
+
+  void _showHoldHint() {
+    final messenger = ScaffoldMessenger.maybeOf(context);
+    if (messenger == null) return;
+    messenger
+      ..hideCurrentSnackBar()
+      ..showSnackBar(
+        const SnackBar(
+          content: Text(_hintMessage),
+          duration: Duration(seconds: 2),
+          behavior: SnackBarBehavior.floating,
+          margin: EdgeInsets.fromLTRB(16, 0, 16, 16),
+        ),
+      );
   }
 
   @override
   Widget build(BuildContext context) {
-    final width = MediaQuery.sizeOf(context).width;
-    final compact = width < 380;
-    final hintSize = compact ? 8.5 : 9.5;
-
     return Semantics(
       button: true,
-      label: '${widget.label}. ${widget.hint}',
+      label: '${widget.label}. Giữ 3 giây để mở',
       child: GestureDetector(
         behavior: HitTestBehavior.opaque,
         onTapDown: (_) => _start(),
         onTapUp: (_) => _cancel(),
         onTapCancel: _cancel,
-        child: ConstrainedBox(
-          constraints: const BoxConstraints(minWidth: kKidTouchMin),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              SizedBox(
-                width: kKidTouchMin,
-                height: kKidTouchMin,
-                child: AnimatedBuilder(
-                  animation: _progress,
-                  builder: (context, child) {
-                    return CustomPaint(
-                      painter: _OakGatePainter(progress: _progress.value),
-                      child: child,
-                    );
-                  },
-                  child: const Center(
-                    child: Icon(Icons.lock_rounded, size: 26, color: Color(0xFF5C3A1E)),
-                  ),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            SizedBox(
+              width: kKidTouchMin,
+              height: kKidTouchMin,
+              child: AnimatedBuilder(
+                animation: _progress,
+                builder: (context, child) {
+                  return CustomPaint(
+                    painter: _OakGatePainter(progress: _progress.value),
+                    child: child,
+                  );
+                },
+                child: const Center(
+                  child: Icon(Icons.lock_rounded, size: 26, color: Color(0xFF5C3A1E)),
                 ),
               ),
-              const SizedBox(height: 2),
-              SizedBox(
-                width: compact ? 64 : 72,
-                child: Text(
-                  widget.hint,
-                  textAlign: TextAlign.center,
-                  maxLines: 2,
-                  overflow: TextOverflow.ellipsis,
-                  style: TextStyle(
-                    fontSize: hintSize,
-                    height: 1.15,
-                    fontWeight: FontWeight.w600,
-                    letterSpacing: -0.1,
-                    // Soft earth tone — readable for parents, low contrast for kids.
-                    color: const Color(0xFF5C3A1E).withValues(alpha: 0.55),
-                  ),
-                ),
+            ),
+            const SizedBox(height: 2),
+            Text(
+              'Giữ 3s',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 11,
+                fontWeight: FontWeight.w600,
+                color: Colors.brown[700],
+                height: 1.1,
               ),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
     );
