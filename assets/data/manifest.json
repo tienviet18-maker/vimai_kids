@@ -1,0 +1,56 @@
+{
+  "version": "1.0.0",
+  "modules": [
+    {
+      "id": "vietnamese",
+      "name": "Tiếng Việt",
+      "languageCode": "vi-VN",
+      "audioPrefix": "v_",
+      "voice": "vi-VN-HoaiMyNeural",
+      "dataPath": "assets/data/vietnamese",
+      "files": {
+        "alphabet": "alphabet.json",
+        "vocabulary": "vocabulary.json",
+        "phonics": "phonics.json",
+        "words": "words.json",
+        "rimes": "rimes.json",
+        "sentences": "sentences.json",
+        "lessons": "lessons.json"
+      }
+    },
+    {
+      "id": "japanese",
+      "name": "Tiếng Nhật",
+      "languageCode": "ja-JP",
+      "audioPrefix": "j_",
+      "voice": "ja-JP-NanamiNeural",
+      "dataPath": "assets/data/japanese",
+      "files": {
+        "hiragana": "hiragana.json",
+        "katakana": "katakana.json"
+      }
+    },
+    {
+      "id": "math",
+      "name": "Toán học",
+      "languageCode": "vi-VN",
+      "audioPrefix": "v_math_",
+      "voice": "vi-VN-HoaiMyNeural",
+      "dataPath": "assets/data/math",
+      "files": {
+        "questions": "questions.json"
+      }
+    },
+    {
+      "id": "thinking",
+      "name": "Tư duy",
+      "languageCode": "vi-VN",
+      "audioPrefix": "v_",
+      "voice": "vi-VN-HoaiMyNeural",
+      "dataPath": "assets/data/thinking",
+      "files": {
+        "patterns": "patterns.json"
+      }
+    }
+  ]
+}

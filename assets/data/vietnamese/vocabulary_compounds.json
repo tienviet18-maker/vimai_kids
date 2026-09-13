@@ -1,0 +1,122 @@
+[
+  {
+    "id": "v_vocab_baba",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 2,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ ghép",
+    "instruction": "Nghe và chọn từ đúng",
+    "question": "ba ba",
+    "answer": "ba ba",
+    "choices": [
+      "ba ba"
+    ],
+    "metadata": {
+      "audioText": "ba ba",
+      "audioLocale": "vi-VN",
+      "audioId": "v_vocab_baba",
+      "wordAudioId": "v_vocab_baba",
+      "exampleWordAudioId": "v_vocab_baba",
+      "syllable": "baba"
+    }
+  },
+  {
+    "id": "v_vocab_caca",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 2,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ ghép",
+    "instruction": "Nghe và chọn từ đúng",
+    "question": "ca ca",
+    "answer": "ca ca",
+    "choices": [
+      "ca ca"
+    ],
+    "metadata": {
+      "audioText": "ca ca",
+      "audioLocale": "vi-VN",
+      "audioId": "v_vocab_caca",
+      "wordAudioId": "v_vocab_caca",
+      "exampleWordAudioId": "v_vocab_caca",
+      "syllable": "caca"
+    }
+  },
+  {
+    "id": "v_vocab_bobi",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 2,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ ghép",
+    "instruction": "Nghe và chọn từ đúng",
+    "question": "bo bi",
+    "answer": "bo bi",
+    "choices": [
+      "bo bi"
+    ],
+    "metadata": {
+      "audioText": "bo bi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_vocab_bobi",
+      "wordAudioId": "v_vocab_bobi",
+      "exampleWordAudioId": "v_vocab_bobi",
+      "syllable": "bobi"
+    }
+  },
+  {
+    "id": "v_vocab_bame",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 2,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ ghép",
+    "instruction": "Nghe và chọn từ đúng",
+    "question": "ba mẹ",
+    "answer": "ba mẹ",
+    "choices": [
+      "ba mẹ"
+    ],
+    "metadata": {
+      "audioText": "ba mẹ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_vocab_bame",
+      "wordAudioId": "v_vocab_bame",
+      "exampleWordAudioId": "v_vocab_bame",
+      "syllable": "bamẹ"
+    }
+  },
+  {
+    "id": "v_vocab_dodo",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 2,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ ghép",
+    "instruction": "Nghe và chọn từ đúng",
+    "question": "đo đỏ",
+    "answer": "đo đỏ",
+    "choices": [
+      "đo đỏ"
+    ],
+    "metadata": {
+      "audioText": "đo đỏ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_vocab_dodo",
+      "wordAudioId": "v_vocab_dodo",
+      "exampleWordAudioId": "v_vocab_dodo",
+      "syllable": "đođỏ"
+    }
+  }
+]

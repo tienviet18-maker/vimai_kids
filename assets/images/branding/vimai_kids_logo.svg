@@ -1,0 +1,8 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 96" fill="none">
+  <rect width="320" height="96" rx="24" fill="#FDFBF4"/>
+  <circle cx="48" cy="48" r="28" fill="#FF2A6D"/>
+  <circle cx="48" cy="42" r="10" fill="#FFF4E8"/>
+  <path d="M34 58c6 10 22 10 28 0" stroke="#FFF4E8" stroke-width="4" stroke-linecap="round"/>
+  <text x="92" y="42" font-family="Poppins, Arial, sans-serif" font-size="28" font-weight="800" fill="#1E2229">ViMai Kids</text>
+  <text x="94" y="68" font-family="Baloo 2, Arial, sans-serif" font-size="14" font-weight="700" fill="#FF7E40">Hoc vui moi ngay</text>
+</svg>

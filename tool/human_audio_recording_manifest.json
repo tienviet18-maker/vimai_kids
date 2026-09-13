@@ -1,0 +1,1355 @@
+{
+  "human_recordings_present": 0,
+  "items": [
+    {
+      "id": "vi_letter_a_name",
+      "language": "vi",
+      "text": "a",
+      "pronunciation_note": "a",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/a_name.wav"
+    },
+    {
+      "id": "vi_letter_a_sound",
+      "language": "vi",
+      "text": "a",
+      "pronunciation_note": "a",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/a_sound.wav"
+    },
+    {
+      "id": "vi_letter_aw_name",
+      "language": "vi",
+      "text": "ă",
+      "pronunciation_note": "ă",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/aw_name.wav"
+    },
+    {
+      "id": "vi_letter_aw_sound",
+      "language": "vi",
+      "text": "ă",
+      "pronunciation_note": "ă",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/aw_sound.wav"
+    },
+    {
+      "id": "vi_letter_aa_name",
+      "language": "vi",
+      "text": "â",
+      "pronunciation_note": "â",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/aa_name.wav"
+    },
+    {
+      "id": "vi_letter_aa_sound",
+      "language": "vi",
+      "text": "â",
+      "pronunciation_note": "â",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/aa_sound.wav"
+    },
+    {
+      "id": "vi_letter_b_name",
+      "language": "vi",
+      "text": "bê",
+      "pronunciation_note": "bê",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/b_name.wav"
+    },
+    {
+      "id": "vi_letter_b_sound",
+      "language": "vi",
+      "text": "bờ",
+      "pronunciation_note": "bờ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/b_sound.wav"
+    },
+    {
+      "id": "vi_letter_c_name",
+      "language": "vi",
+      "text": "xê",
+      "pronunciation_note": "xê",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/c_name.wav"
+    },
+    {
+      "id": "vi_letter_c_sound",
+      "language": "vi",
+      "text": "cờ",
+      "pronunciation_note": "cờ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/c_sound.wav"
+    },
+    {
+      "id": "vi_letter_d_name",
+      "language": "vi",
+      "text": "dê",
+      "pronunciation_note": "dê",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/d_name.wav"
+    },
+    {
+      "id": "vi_letter_d_sound",
+      "language": "vi",
+      "text": "dờ",
+      "pronunciation_note": "dờ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/d_sound.wav"
+    },
+    {
+      "id": "vi_letter_dd_name",
+      "language": "vi",
+      "text": "đê",
+      "pronunciation_note": "đê",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/dd_name.wav"
+    },
+    {
+      "id": "vi_letter_dd_sound",
+      "language": "vi",
+      "text": "đờ",
+      "pronunciation_note": "đờ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/dd_sound.wav"
+    },
+    {
+      "id": "vi_letter_e_name",
+      "language": "vi",
+      "text": "e",
+      "pronunciation_note": "e",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/e_name.wav"
+    },
+    {
+      "id": "vi_letter_e_sound",
+      "language": "vi",
+      "text": "e",
+      "pronunciation_note": "e",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/e_sound.wav"
+    },
+    {
+      "id": "vi_letter_ee_name",
+      "language": "vi",
+      "text": "ê",
+      "pronunciation_note": "ê",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/ee_name.wav"
+    },
+    {
+      "id": "vi_letter_ee_sound",
+      "language": "vi",
+      "text": "ê",
+      "pronunciation_note": "ê",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/ee_sound.wav"
+    },
+    {
+      "id": "vi_letter_g_name",
+      "language": "vi",
+      "text": "giê",
+      "pronunciation_note": "giê",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/g_name.wav"
+    },
+    {
+      "id": "vi_letter_g_sound",
+      "language": "vi",
+      "text": "gờ",
+      "pronunciation_note": "gờ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/g_sound.wav"
+    },
+    {
+      "id": "vi_letter_h_name",
+      "language": "vi",
+      "text": "hát",
+      "pronunciation_note": "hát",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/h_name.wav"
+    },
+    {
+      "id": "vi_letter_h_sound",
+      "language": "vi",
+      "text": "hờ",
+      "pronunciation_note": "hờ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/h_sound.wav"
+    },
+    {
+      "id": "vi_letter_i_name",
+      "language": "vi",
+      "text": "i",
+      "pronunciation_note": "i",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/i_name.wav"
+    },
+    {
+      "id": "vi_letter_i_sound",
+      "language": "vi",
+      "text": "i",
+      "pronunciation_note": "i",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/i_sound.wav"
+    },
+    {
+      "id": "vi_letter_k_name",
+      "language": "vi",
+      "text": "ca",
+      "pronunciation_note": "ca",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/k_name.wav"
+    },
+    {
+      "id": "vi_letter_k_sound",
+      "language": "vi",
+      "text": "cờ",
+      "pronunciation_note": "cờ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/k_sound.wav"
+    },
+    {
+      "id": "vi_letter_l_name",
+      "language": "vi",
+      "text": "e-lờ",
+      "pronunciation_note": "e-lờ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/l_name.wav"
+    },
+    {
+      "id": "vi_letter_l_sound",
+      "language": "vi",
+      "text": "lờ",
+      "pronunciation_note": "lờ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/l_sound.wav"
+    },
+    {
+      "id": "vi_letter_m_name",
+      "language": "vi",
+      "text": "em-mờ",
+      "pronunciation_note": "em-mờ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/m_name.wav"
+    },
+    {
+      "id": "vi_letter_m_sound",
+      "language": "vi",
+      "text": "mờ",
+      "pronunciation_note": "mờ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/m_sound.wav"
+    },
+    {
+      "id": "vi_letter_n_name",
+      "language": "vi",
+      "text": "en-nờ",
+      "pronunciation_note": "en-nờ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/n_name.wav"
+    },
+    {
+      "id": "vi_letter_n_sound",
+      "language": "vi",
+      "text": "nờ",
+      "pronunciation_note": "nờ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/n_sound.wav"
+    },
+    {
+      "id": "vi_letter_o_name",
+      "language": "vi",
+      "text": "o",
+      "pronunciation_note": "o",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/o_name.wav"
+    },
+    {
+      "id": "vi_letter_o_sound",
+      "language": "vi",
+      "text": "o",
+      "pronunciation_note": "o",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/o_sound.wav"
+    },
+    {
+      "id": "vi_letter_oo_name",
+      "language": "vi",
+      "text": "ô",
+      "pronunciation_note": "ô",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/oo_name.wav"
+    },
+    {
+      "id": "vi_letter_oo_sound",
+      "language": "vi",
+      "text": "ô",
+      "pronunciation_note": "ô",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/oo_sound.wav"
+    },
+    {
+      "id": "vi_letter_ow_name",
+      "language": "vi",
+      "text": "ơ",
+      "pronunciation_note": "ơ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/ow_name.wav"
+    },
+    {
+      "id": "vi_letter_ow_sound",
+      "language": "vi",
+      "text": "ơ",
+      "pronunciation_note": "ơ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/ow_sound.wav"
+    },
+    {
+      "id": "vi_letter_p_name",
+      "language": "vi",
+      "text": "pê",
+      "pronunciation_note": "pê",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/p_name.wav"
+    },
+    {
+      "id": "vi_letter_p_sound",
+      "language": "vi",
+      "text": "pờ",
+      "pronunciation_note": "pờ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/p_sound.wav"
+    },
+    {
+      "id": "vi_letter_q_name",
+      "language": "vi",
+      "text": "quy",
+      "pronunciation_note": "quy",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/q_name.wav"
+    },
+    {
+      "id": "vi_letter_q_sound",
+      "language": "vi",
+      "text": "quờ",
+      "pronunciation_note": "quờ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/q_sound.wav"
+    },
+    {
+      "id": "vi_letter_r_name",
+      "language": "vi",
+      "text": "e-rờ",
+      "pronunciation_note": "e-rờ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/r_name.wav"
+    },
+    {
+      "id": "vi_letter_r_sound",
+      "language": "vi",
+      "text": "rờ",
+      "pronunciation_note": "rờ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/r_sound.wav"
+    },
+    {
+      "id": "vi_letter_s_name",
+      "language": "vi",
+      "text": "ét",
+      "pronunciation_note": "ét",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/s_name.wav"
+    },
+    {
+      "id": "vi_letter_s_sound",
+      "language": "vi",
+      "text": "sờ",
+      "pronunciation_note": "sờ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/s_sound.wav"
+    },
+    {
+      "id": "vi_letter_t_name",
+      "language": "vi",
+      "text": "tê",
+      "pronunciation_note": "tê",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/t_name.wav"
+    },
+    {
+      "id": "vi_letter_t_sound",
+      "language": "vi",
+      "text": "tờ",
+      "pronunciation_note": "tờ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/t_sound.wav"
+    },
+    {
+      "id": "vi_letter_u_name",
+      "language": "vi",
+      "text": "u",
+      "pronunciation_note": "u",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/u_name.wav"
+    },
+    {
+      "id": "vi_letter_u_sound",
+      "language": "vi",
+      "text": "u",
+      "pronunciation_note": "u",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/u_sound.wav"
+    },
+    {
+      "id": "vi_letter_uw_name",
+      "language": "vi",
+      "text": "ư",
+      "pronunciation_note": "ư",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/uw_name.wav"
+    },
+    {
+      "id": "vi_letter_uw_sound",
+      "language": "vi",
+      "text": "ư",
+      "pronunciation_note": "ư",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/uw_sound.wav"
+    },
+    {
+      "id": "vi_letter_v_name",
+      "language": "vi",
+      "text": "vê",
+      "pronunciation_note": "vê",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/v_name.wav"
+    },
+    {
+      "id": "vi_letter_v_sound",
+      "language": "vi",
+      "text": "vờ",
+      "pronunciation_note": "vờ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/v_sound.wav"
+    },
+    {
+      "id": "vi_letter_x_name",
+      "language": "vi",
+      "text": "ích",
+      "pronunciation_note": "ích",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/x_name.wav"
+    },
+    {
+      "id": "vi_letter_x_sound",
+      "language": "vi",
+      "text": "xờ",
+      "pronunciation_note": "xờ",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/x_sound.wav"
+    },
+    {
+      "id": "vi_letter_y_name",
+      "language": "vi",
+      "text": "i",
+      "pronunciation_note": "i",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/y_name.wav"
+    },
+    {
+      "id": "vi_letter_y_sound",
+      "language": "vi",
+      "text": "i",
+      "pronunciation_note": "i",
+      "recommended_duration_ms": 650,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/vi/letters/y_sound.wav"
+    },
+    {
+      "id": "ja_h_a",
+      "language": "ja",
+      "text": "あ",
+      "pronunciation_note": "あ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_a.wav"
+    },
+    {
+      "id": "ja_h_i",
+      "language": "ja",
+      "text": "い",
+      "pronunciation_note": "い",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_i.wav"
+    },
+    {
+      "id": "ja_h_u",
+      "language": "ja",
+      "text": "う",
+      "pronunciation_note": "う",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_u.wav"
+    },
+    {
+      "id": "ja_h_e",
+      "language": "ja",
+      "text": "え",
+      "pronunciation_note": "え",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_e.wav"
+    },
+    {
+      "id": "ja_h_o",
+      "language": "ja",
+      "text": "お",
+      "pronunciation_note": "お",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_o.wav"
+    },
+    {
+      "id": "ja_h_ka",
+      "language": "ja",
+      "text": "か",
+      "pronunciation_note": "か",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_ka.wav"
+    },
+    {
+      "id": "ja_h_ki",
+      "language": "ja",
+      "text": "き",
+      "pronunciation_note": "き",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_ki.wav"
+    },
+    {
+      "id": "ja_h_ku",
+      "language": "ja",
+      "text": "く",
+      "pronunciation_note": "く",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_ku.wav"
+    },
+    {
+      "id": "ja_h_ke",
+      "language": "ja",
+      "text": "け",
+      "pronunciation_note": "け",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_ke.wav"
+    },
+    {
+      "id": "ja_h_ko",
+      "language": "ja",
+      "text": "こ",
+      "pronunciation_note": "こ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_ko.wav"
+    },
+    {
+      "id": "ja_h_sa",
+      "language": "ja",
+      "text": "さ",
+      "pronunciation_note": "さ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_sa.wav"
+    },
+    {
+      "id": "ja_h_shi",
+      "language": "ja",
+      "text": "し",
+      "pronunciation_note": "し",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_shi.wav"
+    },
+    {
+      "id": "ja_h_su",
+      "language": "ja",
+      "text": "す",
+      "pronunciation_note": "す",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_su.wav"
+    },
+    {
+      "id": "ja_h_se",
+      "language": "ja",
+      "text": "せ",
+      "pronunciation_note": "せ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_se.wav"
+    },
+    {
+      "id": "ja_h_so",
+      "language": "ja",
+      "text": "そ",
+      "pronunciation_note": "そ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_so.wav"
+    },
+    {
+      "id": "ja_h_ta",
+      "language": "ja",
+      "text": "た",
+      "pronunciation_note": "た",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_ta.wav"
+    },
+    {
+      "id": "ja_h_chi",
+      "language": "ja",
+      "text": "ち",
+      "pronunciation_note": "ち",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_chi.wav"
+    },
+    {
+      "id": "ja_h_tsu",
+      "language": "ja",
+      "text": "つ",
+      "pronunciation_note": "つ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_tsu.wav"
+    },
+    {
+      "id": "ja_h_te",
+      "language": "ja",
+      "text": "て",
+      "pronunciation_note": "て",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_te.wav"
+    },
+    {
+      "id": "ja_h_to",
+      "language": "ja",
+      "text": "と",
+      "pronunciation_note": "と",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_to.wav"
+    },
+    {
+      "id": "ja_h_na",
+      "language": "ja",
+      "text": "な",
+      "pronunciation_note": "な",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_na.wav"
+    },
+    {
+      "id": "ja_h_ni",
+      "language": "ja",
+      "text": "に",
+      "pronunciation_note": "に",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_ni.wav"
+    },
+    {
+      "id": "ja_h_nu",
+      "language": "ja",
+      "text": "ぬ",
+      "pronunciation_note": "ぬ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_nu.wav"
+    },
+    {
+      "id": "ja_h_ne",
+      "language": "ja",
+      "text": "ね",
+      "pronunciation_note": "ね",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_ne.wav"
+    },
+    {
+      "id": "ja_h_no",
+      "language": "ja",
+      "text": "の",
+      "pronunciation_note": "の",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_no.wav"
+    },
+    {
+      "id": "ja_h_ha",
+      "language": "ja",
+      "text": "は",
+      "pronunciation_note": "は",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_ha.wav"
+    },
+    {
+      "id": "ja_h_hi",
+      "language": "ja",
+      "text": "ひ",
+      "pronunciation_note": "ひ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_hi.wav"
+    },
+    {
+      "id": "ja_h_fu",
+      "language": "ja",
+      "text": "ふ",
+      "pronunciation_note": "ふ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_fu.wav"
+    },
+    {
+      "id": "ja_h_he",
+      "language": "ja",
+      "text": "へ",
+      "pronunciation_note": "へ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_he.wav"
+    },
+    {
+      "id": "ja_h_ho",
+      "language": "ja",
+      "text": "ほ",
+      "pronunciation_note": "ほ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_ho.wav"
+    },
+    {
+      "id": "ja_h_ma",
+      "language": "ja",
+      "text": "ま",
+      "pronunciation_note": "ま",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_ma.wav"
+    },
+    {
+      "id": "ja_h_mi",
+      "language": "ja",
+      "text": "み",
+      "pronunciation_note": "み",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_mi.wav"
+    },
+    {
+      "id": "ja_h_mu",
+      "language": "ja",
+      "text": "む",
+      "pronunciation_note": "む",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_mu.wav"
+    },
+    {
+      "id": "ja_h_me",
+      "language": "ja",
+      "text": "め",
+      "pronunciation_note": "め",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_me.wav"
+    },
+    {
+      "id": "ja_h_mo",
+      "language": "ja",
+      "text": "も",
+      "pronunciation_note": "も",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_mo.wav"
+    },
+    {
+      "id": "ja_h_ya",
+      "language": "ja",
+      "text": "や",
+      "pronunciation_note": "や",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_ya.wav"
+    },
+    {
+      "id": "ja_h_yu",
+      "language": "ja",
+      "text": "ゆ",
+      "pronunciation_note": "ゆ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_yu.wav"
+    },
+    {
+      "id": "ja_h_yo",
+      "language": "ja",
+      "text": "よ",
+      "pronunciation_note": "よ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_yo.wav"
+    },
+    {
+      "id": "ja_h_ra",
+      "language": "ja",
+      "text": "ら",
+      "pronunciation_note": "ら",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_ra.wav"
+    },
+    {
+      "id": "ja_h_ri",
+      "language": "ja",
+      "text": "り",
+      "pronunciation_note": "り",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_ri.wav"
+    },
+    {
+      "id": "ja_h_ru",
+      "language": "ja",
+      "text": "る",
+      "pronunciation_note": "る",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_ru.wav"
+    },
+    {
+      "id": "ja_h_re",
+      "language": "ja",
+      "text": "れ",
+      "pronunciation_note": "れ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_re.wav"
+    },
+    {
+      "id": "ja_h_ro",
+      "language": "ja",
+      "text": "ろ",
+      "pronunciation_note": "ろ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_ro.wav"
+    },
+    {
+      "id": "ja_h_wa",
+      "language": "ja",
+      "text": "わ",
+      "pronunciation_note": "わ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_wa.wav"
+    },
+    {
+      "id": "ja_h_wo",
+      "language": "ja",
+      "text": "を",
+      "pronunciation_note": "を",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_wo.wav"
+    },
+    {
+      "id": "ja_h_n",
+      "language": "ja",
+      "text": "ん",
+      "pronunciation_note": "ん",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/h_n.wav"
+    },
+    {
+      "id": "ja_k_a",
+      "language": "ja",
+      "text": "ア",
+      "pronunciation_note": "ア",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_a.wav"
+    },
+    {
+      "id": "ja_k_i",
+      "language": "ja",
+      "text": "イ",
+      "pronunciation_note": "イ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_i.wav"
+    },
+    {
+      "id": "ja_k_u",
+      "language": "ja",
+      "text": "ウ",
+      "pronunciation_note": "ウ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_u.wav"
+    },
+    {
+      "id": "ja_k_e",
+      "language": "ja",
+      "text": "エ",
+      "pronunciation_note": "エ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_e.wav"
+    },
+    {
+      "id": "ja_k_o",
+      "language": "ja",
+      "text": "オ",
+      "pronunciation_note": "オ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_o.wav"
+    },
+    {
+      "id": "ja_k_ka",
+      "language": "ja",
+      "text": "カ",
+      "pronunciation_note": "カ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_ka.wav"
+    },
+    {
+      "id": "ja_k_ki",
+      "language": "ja",
+      "text": "キ",
+      "pronunciation_note": "キ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_ki.wav"
+    },
+    {
+      "id": "ja_k_ku",
+      "language": "ja",
+      "text": "ク",
+      "pronunciation_note": "ク",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_ku.wav"
+    },
+    {
+      "id": "ja_k_ke",
+      "language": "ja",
+      "text": "ケ",
+      "pronunciation_note": "ケ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_ke.wav"
+    },
+    {
+      "id": "ja_k_ko",
+      "language": "ja",
+      "text": "コ",
+      "pronunciation_note": "コ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_ko.wav"
+    },
+    {
+      "id": "ja_k_sa",
+      "language": "ja",
+      "text": "サ",
+      "pronunciation_note": "サ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_sa.wav"
+    },
+    {
+      "id": "ja_k_shi",
+      "language": "ja",
+      "text": "シ",
+      "pronunciation_note": "シ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_shi.wav"
+    },
+    {
+      "id": "ja_k_su",
+      "language": "ja",
+      "text": "ス",
+      "pronunciation_note": "ス",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_su.wav"
+    },
+    {
+      "id": "ja_k_se",
+      "language": "ja",
+      "text": "セ",
+      "pronunciation_note": "セ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_se.wav"
+    },
+    {
+      "id": "ja_k_so",
+      "language": "ja",
+      "text": "ソ",
+      "pronunciation_note": "ソ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_so.wav"
+    },
+    {
+      "id": "ja_k_ta",
+      "language": "ja",
+      "text": "タ",
+      "pronunciation_note": "タ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_ta.wav"
+    },
+    {
+      "id": "ja_k_chi",
+      "language": "ja",
+      "text": "チ",
+      "pronunciation_note": "チ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_chi.wav"
+    },
+    {
+      "id": "ja_k_tsu",
+      "language": "ja",
+      "text": "ツ",
+      "pronunciation_note": "ツ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_tsu.wav"
+    },
+    {
+      "id": "ja_k_te",
+      "language": "ja",
+      "text": "テ",
+      "pronunciation_note": "テ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_te.wav"
+    },
+    {
+      "id": "ja_k_to",
+      "language": "ja",
+      "text": "ト",
+      "pronunciation_note": "ト",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_to.wav"
+    },
+    {
+      "id": "ja_k_na",
+      "language": "ja",
+      "text": "ナ",
+      "pronunciation_note": "ナ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_na.wav"
+    },
+    {
+      "id": "ja_k_ni",
+      "language": "ja",
+      "text": "ニ",
+      "pronunciation_note": "ニ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_ni.wav"
+    },
+    {
+      "id": "ja_k_nu",
+      "language": "ja",
+      "text": "ヌ",
+      "pronunciation_note": "ヌ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_nu.wav"
+    },
+    {
+      "id": "ja_k_ne",
+      "language": "ja",
+      "text": "ネ",
+      "pronunciation_note": "ネ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_ne.wav"
+    },
+    {
+      "id": "ja_k_no",
+      "language": "ja",
+      "text": "ノ",
+      "pronunciation_note": "ノ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_no.wav"
+    },
+    {
+      "id": "ja_k_ha",
+      "language": "ja",
+      "text": "ハ",
+      "pronunciation_note": "ハ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_ha.wav"
+    },
+    {
+      "id": "ja_k_hi",
+      "language": "ja",
+      "text": "ヒ",
+      "pronunciation_note": "ヒ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_hi.wav"
+    },
+    {
+      "id": "ja_k_fu",
+      "language": "ja",
+      "text": "フ",
+      "pronunciation_note": "フ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_fu.wav"
+    },
+    {
+      "id": "ja_k_he",
+      "language": "ja",
+      "text": "ヘ",
+      "pronunciation_note": "ヘ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_he.wav"
+    },
+    {
+      "id": "ja_k_ho",
+      "language": "ja",
+      "text": "ホ",
+      "pronunciation_note": "ホ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_ho.wav"
+    },
+    {
+      "id": "ja_k_ma",
+      "language": "ja",
+      "text": "マ",
+      "pronunciation_note": "マ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_ma.wav"
+    },
+    {
+      "id": "ja_k_mi",
+      "language": "ja",
+      "text": "ミ",
+      "pronunciation_note": "ミ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_mi.wav"
+    },
+    {
+      "id": "ja_k_mu",
+      "language": "ja",
+      "text": "ム",
+      "pronunciation_note": "ム",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_mu.wav"
+    },
+    {
+      "id": "ja_k_me",
+      "language": "ja",
+      "text": "メ",
+      "pronunciation_note": "メ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_me.wav"
+    },
+    {
+      "id": "ja_k_mo",
+      "language": "ja",
+      "text": "モ",
+      "pronunciation_note": "モ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_mo.wav"
+    },
+    {
+      "id": "ja_k_ya",
+      "language": "ja",
+      "text": "ヤ",
+      "pronunciation_note": "ヤ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_ya.wav"
+    },
+    {
+      "id": "ja_k_yu",
+      "language": "ja",
+      "text": "ユ",
+      "pronunciation_note": "ユ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_yu.wav"
+    },
+    {
+      "id": "ja_k_yo",
+      "language": "ja",
+      "text": "ヨ",
+      "pronunciation_note": "ヨ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_yo.wav"
+    },
+    {
+      "id": "ja_k_ra",
+      "language": "ja",
+      "text": "ラ",
+      "pronunciation_note": "ラ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_ra.wav"
+    },
+    {
+      "id": "ja_k_ri",
+      "language": "ja",
+      "text": "リ",
+      "pronunciation_note": "リ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_ri.wav"
+    },
+    {
+      "id": "ja_k_ru",
+      "language": "ja",
+      "text": "ル",
+      "pronunciation_note": "ル",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_ru.wav"
+    },
+    {
+      "id": "ja_k_re",
+      "language": "ja",
+      "text": "レ",
+      "pronunciation_note": "レ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_re.wav"
+    },
+    {
+      "id": "ja_k_ro",
+      "language": "ja",
+      "text": "ロ",
+      "pronunciation_note": "ロ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_ro.wav"
+    },
+    {
+      "id": "ja_k_wa",
+      "language": "ja",
+      "text": "ワ",
+      "pronunciation_note": "ワ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_wa.wav"
+    },
+    {
+      "id": "ja_k_wo",
+      "language": "ja",
+      "text": "ヲ",
+      "pronunciation_note": "ヲ",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_wo.wav"
+    },
+    {
+      "id": "ja_k_n",
+      "language": "ja",
+      "text": "ン",
+      "pronunciation_note": "ン",
+      "recommended_duration_ms": 700,
+      "recording_status": "NOT_RECORDED",
+      "target_path": "assets/audio/ja/kana/k_n.wav"
+    }
+  ]
+}

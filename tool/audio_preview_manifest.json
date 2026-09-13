@@ -1,0 +1,211 @@
+{
+  "version": 3,
+  "outputRoot": "tool/audio_v3_preview",
+  "note": "Preview writes ONLY under tool/audio_v3_preview. Production assets/audio/vi and assets/audio/ja must not be touched. á and ớ are listening samples, not curriculum letter IDs. じょうず / Đúng rồi / Thử lại nhé have no production IDs in the 913-file contract.",
+  "items": [
+    {
+      "id": "preview_vi_a",
+      "language": "vi-VN",
+      "displayText": "A",
+      "spokenText": "a",
+      "voiceProfile": "vi_teacher_gentle",
+      "style": "warm_kindergarten_teacher",
+      "pauseAfterMs": 220,
+      "previewPath": "tool/audio_v3_preview/vi/a.wav",
+      "mapsToProductionId": "vi_letter_a_sound"
+    },
+    {
+      "id": "preview_vi_as",
+      "language": "vi-VN",
+      "displayText": "á",
+      "spokenText": "á",
+      "voiceProfile": "vi_teacher_gentle",
+      "style": "warm_kindergarten_teacher",
+      "pauseAfterMs": 220,
+      "previewPath": "tool/audio_v3_preview/vi/as.wav",
+      "mapsToProductionId": null,
+      "note": "Tone sample. Not a separate alphabet letter in ViMai Kids."
+    },
+    {
+      "id": "preview_vi_ows",
+      "language": "vi-VN",
+      "displayText": "ớ",
+      "spokenText": "ớ",
+      "voiceProfile": "vi_teacher_gentle",
+      "style": "warm_kindergarten_teacher",
+      "pauseAfterMs": 220,
+      "previewPath": "tool/audio_v3_preview/vi/ows.wav",
+      "mapsToProductionId": null,
+      "note": "Listening sample only. Curriculum Â remains spokenText â."
+    },
+    {
+      "id": "preview_vi_bo",
+      "language": "vi-VN",
+      "displayText": "B",
+      "spokenText": "bờ",
+      "voiceProfile": "vi_teacher_gentle",
+      "style": "warm_kindergarten_teacher",
+      "pauseAfterMs": 220,
+      "previewPath": "tool/audio_v3_preview/vi/bo.wav",
+      "mapsToProductionId": "vi_letter_b_sound"
+    },
+    {
+      "id": "preview_vi_co",
+      "language": "vi-VN",
+      "displayText": "C",
+      "spokenText": "cờ",
+      "voiceProfile": "vi_teacher_gentle",
+      "style": "warm_kindergarten_teacher",
+      "pauseAfterMs": 220,
+      "previewPath": "tool/audio_v3_preview/vi/co.wav",
+      "mapsToProductionId": "vi_letter_c_sound"
+    },
+    {
+      "id": "preview_vi_do",
+      "language": "vi-VN",
+      "displayText": "D",
+      "spokenText": "dờ",
+      "voiceProfile": "vi_teacher_gentle",
+      "style": "warm_kindergarten_teacher",
+      "pauseAfterMs": 220,
+      "previewPath": "tool/audio_v3_preview/vi/do.wav",
+      "mapsToProductionId": "vi_letter_d_sound"
+    },
+    {
+      "id": "preview_vi_ddo",
+      "language": "vi-VN",
+      "displayText": "Đ",
+      "spokenText": "đờ",
+      "voiceProfile": "vi_teacher_gentle",
+      "style": "warm_kindergarten_teacher",
+      "pauseAfterMs": 220,
+      "previewPath": "tool/audio_v3_preview/vi/ddo.wav",
+      "mapsToProductionId": "vi_letter_dd_sound"
+    },
+    {
+      "id": "preview_vi_gioi_lam",
+      "language": "vi-VN",
+      "displayText": "Giỏi lắm!",
+      "spokenText": "Giỏi lắm",
+      "voiceProfile": "vi_teacher_gentle",
+      "style": "warm_kindergarten_teacher",
+      "pauseAfterMs": 380,
+      "previewPath": "tool/audio_v3_preview/vi/gioi_lam.wav",
+      "mapsToProductionId": "vi_phrase_gioi_lam",
+      "note": "Existing production ID, TTS_ACCEPTABLE. Preview only until production is approved."
+    },
+    {
+      "id": "preview_vi_dung_roi",
+      "language": "vi-VN",
+      "displayText": "Đúng rồi!",
+      "spokenText": "Đúng rồi",
+      "voiceProfile": "vi_teacher_gentle",
+      "style": "warm_kindergarten_teacher",
+      "pauseAfterMs": 380,
+      "previewPath": "tool/audio_v3_preview/vi/dung_roi.wav",
+      "mapsToProductionId": null,
+      "note": "No production ID in the 913-file contract. Do not invent one."
+    },
+    {
+      "id": "preview_vi_thu_lai",
+      "language": "vi-VN",
+      "displayText": "Thử lại nhé!",
+      "spokenText": "Thử lại nhé",
+      "voiceProfile": "vi_teacher_gentle",
+      "style": "warm_kindergarten_teacher",
+      "pauseAfterMs": 380,
+      "previewPath": "tool/audio_v3_preview/vi/thu_lai.wav",
+      "mapsToProductionId": null,
+      "note": "No production ID in the 913-file contract. Do not invent one."
+    },
+    {
+      "id": "preview_ja_h_a",
+      "language": "ja-JP",
+      "displayText": "あ",
+      "spokenText": "あ",
+      "voiceProfile": "ja_teacher_gentle",
+      "style": "warm_kindergarten_teacher",
+      "pauseAfterMs": 200,
+      "previewPath": "tool/audio_v3_preview/ja/h_a.wav",
+      "mapsToProductionId": "ja_h_a"
+    },
+    {
+      "id": "preview_ja_h_i",
+      "language": "ja-JP",
+      "displayText": "い",
+      "spokenText": "い",
+      "voiceProfile": "ja_teacher_gentle",
+      "style": "warm_kindergarten_teacher",
+      "pauseAfterMs": 200,
+      "previewPath": "tool/audio_v3_preview/ja/h_i.wav",
+      "mapsToProductionId": "ja_h_i"
+    },
+    {
+      "id": "preview_ja_h_u",
+      "language": "ja-JP",
+      "displayText": "う",
+      "spokenText": "う",
+      "voiceProfile": "ja_teacher_gentle",
+      "style": "warm_kindergarten_teacher",
+      "pauseAfterMs": 200,
+      "previewPath": "tool/audio_v3_preview/ja/h_u.wav",
+      "mapsToProductionId": "ja_h_u"
+    },
+    {
+      "id": "preview_ja_h_e",
+      "language": "ja-JP",
+      "displayText": "え",
+      "spokenText": "え",
+      "voiceProfile": "ja_teacher_gentle",
+      "style": "warm_kindergarten_teacher",
+      "pauseAfterMs": 200,
+      "previewPath": "tool/audio_v3_preview/ja/h_e.wav",
+      "mapsToProductionId": "ja_h_e"
+    },
+    {
+      "id": "preview_ja_h_o",
+      "language": "ja-JP",
+      "displayText": "お",
+      "spokenText": "お",
+      "voiceProfile": "ja_teacher_gentle",
+      "style": "warm_kindergarten_teacher",
+      "pauseAfterMs": 200,
+      "previewPath": "tool/audio_v3_preview/ja/h_o.wav",
+      "mapsToProductionId": "ja_h_o"
+    },
+    {
+      "id": "preview_ja_h_ka",
+      "language": "ja-JP",
+      "displayText": "か",
+      "spokenText": "か",
+      "voiceProfile": "ja_teacher_gentle",
+      "style": "warm_kindergarten_teacher",
+      "pauseAfterMs": 200,
+      "previewPath": "tool/audio_v3_preview/ja/h_ka.wav",
+      "mapsToProductionId": "ja_h_ka"
+    },
+    {
+      "id": "preview_ja_h_ki",
+      "language": "ja-JP",
+      "displayText": "き",
+      "spokenText": "き",
+      "voiceProfile": "ja_teacher_gentle",
+      "style": "warm_kindergarten_teacher",
+      "pauseAfterMs": 200,
+      "previewPath": "tool/audio_v3_preview/ja/h_ki.wav",
+      "mapsToProductionId": "ja_h_ki"
+    },
+    {
+      "id": "preview_ja_jouzu",
+      "language": "ja-JP",
+      "displayText": "じょうず！",
+      "spokenText": "じょうず",
+      "voiceProfile": "ja_teacher_gentle",
+      "style": "warm_kindergarten_teacher",
+      "pauseAfterMs": 350,
+      "previewPath": "tool/audio_v3_preview/ja/jouzu.wav",
+      "mapsToProductionId": null,
+      "note": "No production Japanese praise ID exists. Do not invent one."
+    }
+  ]
+}

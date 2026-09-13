@@ -1,0 +1,10 @@
+[
+  {"id":"t_match_1","subject":"thinking","ageMin":4,"ageMax":6,"level":1,"skill":"matching","difficulty":1,"title":"Ghép cặp","instruction":"Tìm hình giống nhau","question":"🐶","answer":"🐶","choices":["🐱","🐭","🐶","🐰"]},
+  {"id":"t_odd_1","subject":"thinking","ageMin":4,"ageMax":6,"level":1,"skill":"odd_one_out","difficulty":1,"title":"Hình khác","instruction":"Hình nào khác với các hình còn lại?","question":"🍎","answer":"🍌","choices":["🍎","🍎","🍌","🍎"]},
+  {"id":"t_odd_2","subject":"thinking","ageMin":4,"ageMax":6,"level":1,"skill":"odd_one_out","difficulty":1,"title":"Hình khác","instruction":"Hình nào khác?","question":"🐱","answer":"🐶","choices":["🐱","🐱","🐶","🐱"]},
+  {"id":"t_pattern_1","subject":"thinking","ageMin":5,"ageMax":6,"level":2,"skill":"patterns","difficulty":2,"title":"Quy luật","instruction":"Hình tiếp theo là gì?","question":"🔴🔵🔴🔵 ?","answer":"🔴","choices":["🔴","🔵","🟡","🟢"]},
+  {"id":"t_pattern_2","subject":"thinking","ageMin":5,"ageMax":6,"level":2,"skill":"patterns","difficulty":2,"title":"Quy luật","instruction":"Hình tiếp theo là gì?","question":"⭐⭐🌙⭐⭐🌙 ?","answer":"⭐","choices":["⭐","🌙","☀️","🌈"]},
+  {"id":"t_seq_1","subject":"thinking","ageMin":5,"ageMax":6,"level":2,"skill":"sequence","difficulty":2,"title":"Thứ tự","instruction":"Số nào tiếp theo?","question":"1 2 3 ?","answer":"4","choices":["4","5","2","0"]},
+  {"id":"t_class_1","subject":"thinking","ageMin":4,"ageMax":6,"level":1,"skill":"classification","difficulty":1,"title":"Phân loại","instruction":"Đâu là con vật?","question":"con vật","answer":"🐱","choices":["🚗","🌸","🐱","🍎"]},
+  {"id":"t_spatial_1","subject":"thinking","ageMin":5,"ageMax":6,"level":2,"skill":"spatial","difficulty":2,"title":"Không gian","instruction":"Hình nào ở trên?","question":"⬆️","answer":"⬆️","choices":["⬆️","⬇️","⬅️","➡️"]}
+]

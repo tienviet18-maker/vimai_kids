@@ -1,0 +1,24 @@
+[
+  {
+    "id": "k_choonpu",
+    "script": "katakana",
+    "kanaType": "choon",
+    "character": "ー",
+    "romaji": "-",
+    "pronunciation": "",
+    "baseCharacter": null,
+    "strokeCount": 1,
+    "strokeOrderAsset": null,
+    "audioAsset": null,
+    "confusionGroup": null,
+    "ageMin": 3,
+    "ageMax": 7,
+    "difficulty": 1,
+    "exampleWord": null,
+    "exampleMeaningVietnamese": null,
+    "row": null,
+    "displayText": "ー",
+    "type": "choon",
+    "category": "choon"
+  }
+]

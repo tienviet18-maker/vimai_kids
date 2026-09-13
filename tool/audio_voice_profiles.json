@@ -1,0 +1,22 @@
+{
+  "vi_teacher_gentle": {
+    "language": "vi-VN",
+    "description": "Warm female kindergarten teacher, natural Vietnamese pronunciation. Not an announcer. Not theatrical.",
+    "speed": 0.82,
+    "stability": 0.30,
+    "style": "gentle, warm, encouraging, natural",
+    "provider": "configurable",
+    "trailingSilenceMs": 220,
+    "peakDbTarget": -2.0
+  },
+  "ja_teacher_gentle": {
+    "language": "ja-JP",
+    "description": "Warm Japanese female kindergarten teacher. Standard Japanese, one mora, calm.",
+    "speed": 0.88,
+    "stability": 0.30,
+    "style": "gentle, clear, natural",
+    "provider": "configurable",
+    "trailingSilenceMs": 200,
+    "peakDbTarget": -2.0
+  }
+}

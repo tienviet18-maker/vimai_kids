@@ -1,0 +1,6 @@
+{
+  "generatedAt": null,
+  "qualityPolicy": "PREMIUM_AI_VOICE is AI-generated. Never HUMAN_RECORDING unless a human file exists.",
+  "records": [],
+  "note": "Empty until python tool/generate_audio_v3.py writes preview or production results. Existing 913 WAV files remain TTS_TEMPORARY."
+}

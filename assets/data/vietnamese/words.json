@@ -1,0 +1,7142 @@
+[
+  {
+    "id": "w_ba",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "ba",
+    "answer": "ba",
+    "choices": [
+      "ba",
+      "mẹ",
+      "bé",
+      "bà"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cha",
+      "image": "👨",
+      "audioText": "ba",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_ba"
+    }
+  },
+  {
+    "id": "w_mej",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "mẹ",
+    "answer": "mẹ",
+    "choices": [
+      "mẹ",
+      "ba",
+      "bé",
+      "bà"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "mẹ",
+      "image": "👩",
+      "audioText": "mẹ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_mej"
+    }
+  },
+  {
+    "id": "w_bes",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bé",
+    "answer": "bé",
+    "choices": [
+      "bé",
+      "ba",
+      "mẹ",
+      "bà"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "em bé",
+      "image": "👶",
+      "audioText": "bé",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_bes"
+    }
+  },
+  {
+    "id": "w_baf",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bà",
+    "answer": "bà",
+    "choices": [
+      "bà",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bà",
+      "image": "👵",
+      "audioText": "bà",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_baf"
+    }
+  },
+  {
+    "id": "w_boos",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bố",
+    "answer": "bố",
+    "choices": [
+      "bố",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bố",
+      "image": "👨",
+      "audioText": "bố",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_boos"
+    }
+  },
+  {
+    "id": "w_oong",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "ông",
+    "answer": "ông",
+    "choices": [
+      "ông",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "ông",
+      "image": "👴",
+      "audioText": "ông",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_oong"
+    }
+  },
+  {
+    "id": "w_anh",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "anh",
+    "answer": "anh",
+    "choices": [
+      "anh",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "anh",
+      "image": "👦",
+      "audioText": "anh",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_anh"
+    }
+  },
+  {
+    "id": "w_chij",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "chị",
+    "answer": "chị",
+    "choices": [
+      "chị",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "chị",
+      "image": "👧",
+      "audioText": "chị",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_chij"
+    }
+  },
+  {
+    "id": "w_cas",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "cá",
+    "answer": "cá",
+    "choices": [
+      "cá",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "con cá",
+      "image": "🐟",
+      "audioText": "cá",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_cas"
+    }
+  },
+  {
+    "id": "w_gaf",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "gà",
+    "answer": "gà",
+    "choices": [
+      "gà",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "con gà",
+      "image": "🐔",
+      "audioText": "gà",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_gaf"
+    }
+  },
+  {
+    "id": "w_bof",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bò",
+    "answer": "bò",
+    "choices": [
+      "bò",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "con bò",
+      "image": "🐮",
+      "audioText": "bò",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_bof"
+    }
+  },
+  {
+    "id": "w_mefo",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "mèo",
+    "answer": "mèo",
+    "choices": [
+      "mèo",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "con mèo",
+      "image": "🐱",
+      "audioText": "mèo",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_mefo"
+    }
+  },
+  {
+    "id": "w_chos",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "chó",
+    "answer": "chó",
+    "choices": [
+      "chó",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "con chó",
+      "image": "🐶",
+      "audioText": "chó",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_chos"
+    }
+  },
+  {
+    "id": "w_heo",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "heo",
+    "answer": "heo",
+    "choices": [
+      "heo",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "con heo",
+      "image": "🐷",
+      "audioText": "heo",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_heo"
+    }
+  },
+  {
+    "id": "w_vijt",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "vịt",
+    "answer": "vịt",
+    "choices": [
+      "vịt",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "con vịt",
+      "image": "🦆",
+      "audioText": "vịt",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_vijt"
+    }
+  },
+  {
+    "id": "w_nguwja",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "ngựa",
+    "answer": "ngựa",
+    "choices": [
+      "ngựa",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "con ngựa",
+      "image": "🐴",
+      "audioText": "ngựa",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_nguwja"
+    }
+  },
+  {
+    "id": "w_voi",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "voi",
+    "answer": "voi",
+    "choices": [
+      "voi",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "con voi",
+      "image": "🐘",
+      "audioText": "voi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_voi"
+    }
+  },
+  {
+    "id": "w_thor",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "thỏ",
+    "answer": "thỏ",
+    "choices": [
+      "thỏ",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "con thỏ",
+      "image": "🐰",
+      "audioText": "thỏ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_thor"
+    }
+  },
+  {
+    "id": "w_chim",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "chim",
+    "answer": "chim",
+    "choices": [
+      "chim",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "con chim",
+      "image": "🐦",
+      "audioText": "chim",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_chim"
+    }
+  },
+  {
+    "id": "w_toom",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "tôm",
+    "answer": "tôm",
+    "choices": [
+      "tôm",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "con tôm",
+      "image": "🦐",
+      "audioText": "tôm",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_toom"
+    }
+  },
+  {
+    "id": "w_hoa",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "hoa",
+    "answer": "hoa",
+    "choices": [
+      "hoa",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bông hoa",
+      "image": "🌸",
+      "audioText": "hoa",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_hoa"
+    }
+  },
+  {
+    "id": "w_caay",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "cây",
+    "answer": "cây",
+    "choices": [
+      "cây",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cây",
+      "image": "🌳",
+      "audioText": "cây",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_caay"
+    }
+  },
+  {
+    "id": "w_las",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "lá",
+    "answer": "lá",
+    "choices": [
+      "lá",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "lá cây",
+      "image": "🍃",
+      "audioText": "lá",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_las"
+    }
+  },
+  {
+    "id": "w_quar",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "quả",
+    "answer": "quả",
+    "choices": [
+      "quả",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "quả",
+      "image": "🍎",
+      "audioText": "quả",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_quar"
+    }
+  },
+  {
+    "id": "w_nhaf",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "nhà",
+    "answer": "nhà",
+    "choices": [
+      "nhà",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "ngôi nhà",
+      "image": "🏠",
+      "audioText": "nhà",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_nhaf"
+    }
+  },
+  {
+    "id": "w_xe",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "xe",
+    "answer": "xe",
+    "choices": [
+      "xe",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "xe",
+      "image": "🚗",
+      "audioText": "xe",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_xe"
+    }
+  },
+  {
+    "id": "w_aso",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "áo",
+    "answer": "áo",
+    "choices": [
+      "áo",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cái áo",
+      "image": "👕",
+      "audioText": "áo",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_aso"
+    }
+  },
+  {
+    "id": "w_mux",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "mũ",
+    "answer": "mũ",
+    "choices": [
+      "mũ",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cái mũ",
+      "image": "🧢",
+      "audioText": "mũ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_mux"
+    }
+  },
+  {
+    "id": "w_cowm",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "cơm",
+    "answer": "cơm",
+    "choices": [
+      "cơm",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cơm",
+      "image": "🍚",
+      "audioText": "cơm",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_cowm"
+    }
+  },
+  {
+    "id": "w_suwxa",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "sữa",
+    "answer": "sữa",
+    "choices": [
+      "sữa",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "sữa",
+      "image": "🥛",
+      "audioText": "sữa",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_suwxa"
+    }
+  },
+  {
+    "id": "w_basnh",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bánh",
+    "answer": "bánh",
+    "choices": [
+      "bánh",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bánh",
+      "image": "🍞",
+      "audioText": "bánh",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_basnh"
+    }
+  },
+  {
+    "id": "w_kejo",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "kẹo",
+    "answer": "kẹo",
+    "choices": [
+      "kẹo",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "kẹo",
+      "image": "🍬",
+      "audioText": "kẹo",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_kejo"
+    }
+  },
+  {
+    "id": "w_nuwowsc",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "nước",
+    "answer": "nước",
+    "choices": [
+      "nước",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "nước",
+      "image": "💧",
+      "audioText": "nước",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_nuwowsc"
+    }
+  },
+  {
+    "id": "w_traf",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "trà",
+    "answer": "trà",
+    "choices": [
+      "trà",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "trà",
+      "image": "🍵",
+      "audioText": "trà",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_traf"
+    }
+  },
+  {
+    "id": "w_awn",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "ăn",
+    "answer": "ăn",
+    "choices": [
+      "ăn",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "ăn",
+      "image": "🍚",
+      "audioText": "ăn",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_awn"
+    }
+  },
+  {
+    "id": "w_uoosng",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "uống",
+    "answer": "uống",
+    "choices": [
+      "uống",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "uống",
+      "image": "🥤",
+      "audioText": "uống",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_uoosng"
+    }
+  },
+  {
+    "id": "w_ngur",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "ngủ",
+    "answer": "ngủ",
+    "choices": [
+      "ngủ",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "ngủ",
+      "image": "😴",
+      "audioText": "ngủ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_ngur"
+    }
+  },
+  {
+    "id": "w_chowi",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "chơi",
+    "answer": "chơi",
+    "choices": [
+      "chơi",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "chơi",
+      "image": "🎲",
+      "audioText": "chơi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_chowi"
+    }
+  },
+  {
+    "id": "w_ddi",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "đi",
+    "answer": "đi",
+    "choices": [
+      "đi",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "đi",
+      "image": "🚶",
+      "audioText": "đi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_ddi"
+    }
+  },
+  {
+    "id": "w_chajy",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "chạy",
+    "answer": "chạy",
+    "choices": [
+      "chạy",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "chạy",
+      "image": "🏃",
+      "audioText": "chạy",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_chajy"
+    }
+  },
+  {
+    "id": "w_nhary",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "nhảy",
+    "answer": "nhảy",
+    "choices": [
+      "nhảy",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "nhảy",
+      "image": "🤸",
+      "audioText": "nhảy",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_nhary"
+    }
+  },
+  {
+    "id": "w_hast",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "hát",
+    "answer": "hát",
+    "choices": [
+      "hát",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "hát",
+      "image": "🎤",
+      "audioText": "hát",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_hast"
+    }
+  },
+  {
+    "id": "w_ddor",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "đỏ",
+    "answer": "đỏ",
+    "choices": [
+      "đỏ",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "màu đỏ",
+      "image": "🔴",
+      "audioText": "đỏ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_ddor"
+    }
+  },
+  {
+    "id": "w_xanh",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "xanh",
+    "answer": "xanh",
+    "choices": [
+      "xanh",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "màu xanh",
+      "image": "🟢",
+      "audioText": "xanh",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_xanh"
+    }
+  },
+  {
+    "id": "w_vafng",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "vàng",
+    "answer": "vàng",
+    "choices": [
+      "vàng",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "màu vàng",
+      "image": "🟡",
+      "audioText": "vàng",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_vafng"
+    }
+  },
+  {
+    "id": "w_tism",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "tím",
+    "answer": "tím",
+    "choices": [
+      "tím",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "màu tím",
+      "image": "🟣",
+      "audioText": "tím",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_tism"
+    }
+  },
+  {
+    "id": "w_moojt",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "một",
+    "answer": "một",
+    "choices": [
+      "một",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "số một",
+      "image": "1",
+      "audioText": "một",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_moojt"
+    }
+  },
+  {
+    "id": "w_hai",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "hai",
+    "answer": "hai",
+    "choices": [
+      "hai",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "số hai",
+      "image": "2",
+      "audioText": "hai",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_hai"
+    }
+  },
+  {
+    "id": "w_boosn",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bốn",
+    "answer": "bốn",
+    "choices": [
+      "bốn",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "số bốn",
+      "image": "4",
+      "audioText": "bốn",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_boosn"
+    }
+  },
+  {
+    "id": "w_nawm",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "năm",
+    "answer": "năm",
+    "choices": [
+      "năm",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "số năm",
+      "image": "5",
+      "audioText": "năm",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_nawm"
+    }
+  },
+  {
+    "id": "w_tay",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "tay",
+    "answer": "tay",
+    "choices": [
+      "tay",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bàn tay",
+      "image": "✋",
+      "audioText": "tay",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_tay"
+    }
+  },
+  {
+    "id": "w_chaan",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "chân",
+    "answer": "chân",
+    "choices": [
+      "chân",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bàn chân",
+      "image": "🦶",
+      "audioText": "chân",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_chaan"
+    }
+  },
+  {
+    "id": "w_mawst",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "mắt",
+    "answer": "mắt",
+    "choices": [
+      "mắt",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "mắt",
+      "image": "👁️",
+      "audioText": "mắt",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_mawst"
+    }
+  },
+  {
+    "id": "w_muxi",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "mũi",
+    "answer": "mũi",
+    "choices": [
+      "mũi",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "mũi",
+      "image": "👃",
+      "audioText": "mũi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_muxi"
+    }
+  },
+  {
+    "id": "w_mieejng",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "miệng",
+    "answer": "miệng",
+    "choices": [
+      "miệng",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "miệng",
+      "image": "👄",
+      "audioText": "miệng",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_mieejng"
+    }
+  },
+  {
+    "id": "w_tosc",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "tóc",
+    "answer": "tóc",
+    "choices": [
+      "tóc",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "tóc",
+      "image": "💇",
+      "audioText": "tóc",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_tosc"
+    }
+  },
+  {
+    "id": "w_tai",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "tai",
+    "answer": "tai",
+    "choices": [
+      "tai",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "tai",
+      "image": "👂",
+      "audioText": "tai",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_tai"
+    }
+  },
+  {
+    "id": "w_bust",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bút",
+    "answer": "bút",
+    "choices": [
+      "bút",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bút",
+      "image": "✏️",
+      "audioText": "bút",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_bust"
+    }
+  },
+  {
+    "id": "w_sasch",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "sách",
+    "answer": "sách",
+    "choices": [
+      "sách",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "sách",
+      "image": "📖",
+      "audioText": "sách",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_sasch"
+    }
+  },
+  {
+    "id": "w_barng",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bảng",
+    "answer": "bảng",
+    "choices": [
+      "bảng",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bảng",
+      "image": "🟩",
+      "audioText": "bảng",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_barng"
+    }
+  },
+  {
+    "id": "w_cawjp",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "cặp",
+    "answer": "cặp",
+    "choices": [
+      "cặp",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cặp sách",
+      "image": "🎒",
+      "audioText": "cặp",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_cawjp"
+    }
+  },
+  {
+    "id": "w_truwowfng",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "trường",
+    "answer": "trường",
+    "choices": [
+      "trường",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "trường học",
+      "image": "🏫",
+      "audioText": "trường",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_truwowfng"
+    }
+  },
+  {
+    "id": "w_coo",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "cô",
+    "answer": "cô",
+    "choices": [
+      "cô",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cô giáo",
+      "image": "👩‍🏫",
+      "audioText": "cô",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_coo"
+    }
+  },
+  {
+    "id": "w_bajn",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bạn",
+    "answer": "bạn",
+    "choices": [
+      "bạn",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bạn",
+      "image": "🧒",
+      "audioText": "bạn",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_bajn"
+    }
+  },
+  {
+    "id": "w_muwa",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "mưa",
+    "answer": "mưa",
+    "choices": [
+      "mưa",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "mưa",
+      "image": "🌧️",
+      "audioText": "mưa",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_muwa"
+    }
+  },
+  {
+    "id": "w_nawsng",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "nắng",
+    "answer": "nắng",
+    "choices": [
+      "nắng",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "nắng",
+      "image": "☀️",
+      "audioText": "nắng",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_nawsng"
+    }
+  },
+  {
+    "id": "w_gios",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "gió",
+    "answer": "gió",
+    "choices": [
+      "gió",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "gió",
+      "image": "💨",
+      "audioText": "gió",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_gios"
+    }
+  },
+  {
+    "id": "w_maay",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "mây",
+    "answer": "mây",
+    "choices": [
+      "mây",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "mây",
+      "image": "☁️",
+      "audioText": "mây",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_maay"
+    }
+  },
+  {
+    "id": "w_sao",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "sao",
+    "answer": "sao",
+    "choices": [
+      "sao",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "ngôi sao",
+      "image": "⭐",
+      "audioText": "sao",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_sao"
+    }
+  },
+  {
+    "id": "w_trawng",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "trăng",
+    "answer": "trăng",
+    "choices": [
+      "trăng",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "mặt trăng",
+      "image": "🌙",
+      "audioText": "trăng",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_trawng"
+    }
+  },
+  {
+    "id": "w_trowfi",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "trời",
+    "answer": "trời",
+    "choices": [
+      "trời",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bầu trời",
+      "image": "🌌",
+      "audioText": "trời",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_trowfi"
+    }
+  },
+  {
+    "id": "w_bafn",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bàn",
+    "answer": "bàn",
+    "choices": [
+      "bàn",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cái bàn",
+      "image": "🪵",
+      "audioText": "bàn",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_bafn"
+    }
+  },
+  {
+    "id": "w_ghees",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "ghế",
+    "answer": "ghế",
+    "choices": [
+      "ghế",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cái ghế",
+      "image": "🪑",
+      "audioText": "ghế",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_ghees"
+    }
+  },
+  {
+    "id": "w_cuwra",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "cửa",
+    "answer": "cửa",
+    "choices": [
+      "cửa",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cánh cửa",
+      "image": "🚪",
+      "audioText": "cửa",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_cuwra"
+    }
+  },
+  {
+    "id": "w_ddefn",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "đèn",
+    "answer": "đèn",
+    "choices": [
+      "đèn",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cái đèn",
+      "image": "💡",
+      "audioText": "đèn",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_ddefn"
+    }
+  },
+  {
+    "id": "w_chesn",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "chén",
+    "answer": "chén",
+    "choices": [
+      "chén",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cái chén",
+      "image": "🥣",
+      "audioText": "chén",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_chesn"
+    }
+  },
+  {
+    "id": "w_dduxa",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "đũa",
+    "answer": "đũa",
+    "choices": [
+      "đũa",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "đôi đũa",
+      "image": "🥢",
+      "audioText": "đũa",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_dduxa"
+    }
+  },
+  {
+    "id": "w_thifa",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "thìa",
+    "answer": "thìa",
+    "choices": [
+      "thìa",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cái thìa",
+      "image": "🥄",
+      "audioText": "thìa",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_thifa"
+    }
+  },
+  {
+    "id": "w_noofi",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "nồi",
+    "answer": "nồi",
+    "choices": [
+      "nồi",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cái nồi",
+      "image": "🍲",
+      "audioText": "nồi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_noofi"
+    }
+  },
+  {
+    "id": "w_bosng",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bóng",
+    "answer": "bóng",
+    "choices": [
+      "bóng",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "quả bóng",
+      "image": "⚽",
+      "audioText": "bóng",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_bosng"
+    }
+  },
+  {
+    "id": "w_gaasu",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "gấu",
+    "answer": "gấu",
+    "choices": [
+      "gấu",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "gấu bông",
+      "image": "🧸",
+      "audioText": "gấu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_gaasu"
+    }
+  },
+  {
+    "id": "w_busp",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "búp",
+    "answer": "búp",
+    "choices": [
+      "búp",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "búp bê",
+      "image": "🪆",
+      "audioText": "búp",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_busp"
+    }
+  },
+  {
+    "id": "w_taso",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "táo",
+    "answer": "táo",
+    "choices": [
+      "táo",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "quả táo",
+      "image": "🍎",
+      "audioText": "táo",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_taso"
+    }
+  },
+  {
+    "id": "w_chuoosi",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "chuối",
+    "answer": "chuối",
+    "choices": [
+      "chuối",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "quả chuối",
+      "image": "🍌",
+      "audioText": "chuối",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_chuoosi"
+    }
+  },
+  {
+    "id": "w_cam",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "cam",
+    "answer": "cam",
+    "choices": [
+      "cam",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "quả cam",
+      "image": "🍊",
+      "audioText": "cam",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_cam"
+    }
+  },
+  {
+    "id": "w_nho",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "nho",
+    "answer": "nho",
+    "choices": [
+      "nho",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "quả nho",
+      "image": "🍇",
+      "audioText": "nho",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_nho"
+    }
+  },
+  {
+    "id": "w_duwa",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "dưa",
+    "answer": "dưa",
+    "choices": [
+      "dưa",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "dưa hấu",
+      "image": "🍉",
+      "audioText": "dưa",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_duwa"
+    }
+  },
+  {
+    "id": "w_xoafi",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "xoài",
+    "answer": "xoài",
+    "choices": [
+      "xoài",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "quả xoài",
+      "image": "🥭",
+      "audioText": "xoài",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_xoafi"
+    }
+  },
+  {
+    "id": "w_daau",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "dâu",
+    "answer": "dâu",
+    "choices": [
+      "dâu",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "quả dâu",
+      "image": "🍓",
+      "audioText": "dâu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_daau"
+    }
+  },
+  {
+    "id": "w_phowr",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "phở",
+    "answer": "phở",
+    "choices": [
+      "phở",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "phở",
+      "image": "🍜",
+      "audioText": "phở",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_phowr"
+    }
+  },
+  {
+    "id": "w_chaso",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "cháo",
+    "answer": "cháo",
+    "choices": [
+      "cháo",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cháo",
+      "image": "🥣",
+      "audioText": "cháo",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_chaso"
+    }
+  },
+  {
+    "id": "w_basnh_mif",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bánh mì",
+    "answer": "bánh mì",
+    "choices": [
+      "bánh mì",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bánh mì",
+      "image": "🥖",
+      "audioText": "bánh mì",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_basnh_mif"
+    }
+  },
+  {
+    "id": "w_suwxa_chua",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "sữa chua",
+    "answer": "sữa chua",
+    "choices": [
+      "sữa chua",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "sữa chua",
+      "image": "🥛",
+      "audioText": "sữa chua",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_suwxa_chua"
+    }
+  },
+  {
+    "id": "w_kem",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "kem",
+    "answer": "kem",
+    "choices": [
+      "kem",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "kem",
+      "image": "🍦",
+      "audioText": "kem",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_kem"
+    }
+  },
+  {
+    "id": "w_yeeu",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "yêu",
+    "answer": "yêu",
+    "choices": [
+      "yêu",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "yêu",
+      "image": "❤️",
+      "audioText": "yêu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_yeeu"
+    }
+  },
+  {
+    "id": "w_vui",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "vui",
+    "answer": "vui",
+    "choices": [
+      "vui",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "vui",
+      "image": "😊",
+      "audioText": "vui",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_vui"
+    }
+  },
+  {
+    "id": "w_buoofn",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "buồn",
+    "answer": "buồn",
+    "choices": [
+      "buồn",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "buồn",
+      "image": "😢",
+      "audioText": "buồn",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_buoofn"
+    }
+  },
+  {
+    "id": "w_khore",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "khỏe",
+    "answer": "khỏe",
+    "choices": [
+      "khỏe",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "khỏe",
+      "image": "💪",
+      "audioText": "khỏe",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_khore"
+    }
+  },
+  {
+    "id": "w_to",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "to",
+    "answer": "to",
+    "choices": [
+      "to",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "to",
+      "image": "⬜",
+      "audioText": "to",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_to"
+    }
+  },
+  {
+    "id": "w_nhor",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "nhỏ",
+    "answer": "nhỏ",
+    "choices": [
+      "nhỏ",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "nhỏ",
+      "image": "◽",
+      "audioText": "nhỏ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_nhor"
+    }
+  },
+  {
+    "id": "w_cao",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "cao",
+    "answer": "cao",
+    "choices": [
+      "cao",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cao",
+      "image": "📏",
+      "audioText": "cao",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_cao"
+    }
+  },
+  {
+    "id": "w_thaasp",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "thấp",
+    "answer": "thấp",
+    "choices": [
+      "thấp",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "thấp",
+      "image": "📐",
+      "audioText": "thấp",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_thaasp"
+    }
+  },
+  {
+    "id": "w_ngafy",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "ngày",
+    "answer": "ngày",
+    "choices": [
+      "ngày",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "ban ngày",
+      "image": "🌞",
+      "audioText": "ngày",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_ngafy"
+    }
+  },
+  {
+    "id": "w_ddeem",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "đêm",
+    "answer": "đêm",
+    "choices": [
+      "đêm",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "ban đêm",
+      "image": "🌃",
+      "audioText": "đêm",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_ddeem"
+    }
+  },
+  {
+    "id": "w_sasng",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "sáng",
+    "answer": "sáng",
+    "choices": [
+      "sáng",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "buổi sáng",
+      "image": "🌅",
+      "audioText": "sáng",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_sasng"
+    }
+  },
+  {
+    "id": "w_toosi",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "tối",
+    "answer": "tối",
+    "choices": [
+      "tối",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "buổi tối",
+      "image": "🌙",
+      "audioText": "tối",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_toosi"
+    }
+  },
+  {
+    "id": "w_em",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "em",
+    "answer": "em",
+    "choices": [
+      "em",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "em",
+      "image": "👶",
+      "audioText": "em",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_em"
+    }
+  },
+  {
+    "id": "w_cujc",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "cục",
+    "answer": "cục",
+    "choices": [
+      "cục",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cục tẩy",
+      "image": "🧽",
+      "audioText": "cục",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_cujc"
+    }
+  },
+  {
+    "id": "w_thuwowsc",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "thước",
+    "answer": "thước",
+    "choices": [
+      "thước",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "thước kẻ",
+      "image": "📏",
+      "audioText": "thước",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_thuwowsc"
+    }
+  },
+  {
+    "id": "w_mafu",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "màu",
+    "answer": "màu",
+    "choices": [
+      "màu",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "màu vẽ",
+      "image": "🎨",
+      "audioText": "màu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_mafu"
+    }
+  },
+  {
+    "id": "w_giaasy",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "giấy",
+    "answer": "giấy",
+    "choices": [
+      "giấy",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "tờ giấy",
+      "image": "📄",
+      "audioText": "giấy",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_giaasy"
+    }
+  },
+  {
+    "id": "w_keso",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "kéo",
+    "answer": "kéo",
+    "choices": [
+      "kéo",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cây kéo",
+      "image": "✂️",
+      "audioText": "kéo",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_keso"
+    }
+  },
+  {
+    "id": "w_soong",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "sông",
+    "answer": "sông",
+    "choices": [
+      "sông",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "sông",
+      "image": "🏞️",
+      "audioText": "sông",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_soong"
+    }
+  },
+  {
+    "id": "w_nusi",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "núi",
+    "answer": "núi",
+    "choices": [
+      "núi",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "núi",
+      "image": "⛰️",
+      "audioText": "núi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_nusi"
+    }
+  },
+  {
+    "id": "w_bieern",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "biển",
+    "answer": "biển",
+    "choices": [
+      "biển",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "biển",
+      "image": "🌊",
+      "audioText": "biển",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_bieern"
+    }
+  },
+  {
+    "id": "w_ruwfng",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "rừng",
+    "answer": "rừng",
+    "choices": [
+      "rừng",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "rừng",
+      "image": "🌲",
+      "audioText": "rừng",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_ruwfng"
+    }
+  },
+  {
+    "id": "w_masy_bay",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "máy bay",
+    "answer": "máy bay",
+    "choices": [
+      "máy bay",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "máy bay",
+      "image": "✈️",
+      "audioText": "máy bay",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_masy_bay"
+    }
+  },
+  {
+    "id": "w_tafu",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "tàu",
+    "answer": "tàu",
+    "choices": [
+      "tàu",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "tàu hỏa",
+      "image": "🚆",
+      "audioText": "tàu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_tafu"
+    }
+  },
+  {
+    "id": "w_thuyeefn",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "thuyền",
+    "answer": "thuyền",
+    "choices": [
+      "thuyền",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "thuyền",
+      "image": "⛵",
+      "audioText": "thuyền",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_thuyeefn"
+    }
+  },
+  {
+    "id": "w_basc_six",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bác sĩ",
+    "answer": "bác sĩ",
+    "choices": [
+      "bác sĩ",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bác sĩ",
+      "image": "👨‍⚕️",
+      "audioText": "bác sĩ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_basc_six"
+    }
+  },
+  {
+    "id": "w_coong_an",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "công an",
+    "answer": "công an",
+    "choices": [
+      "công an",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "công an",
+      "image": "👮",
+      "audioText": "công an",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_coong_an"
+    }
+  },
+  {
+    "id": "w_noong",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "nông",
+    "answer": "nông",
+    "choices": [
+      "nông",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "nông dân",
+      "image": "👨‍🌾",
+      "audioText": "nông",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_noong"
+    }
+  },
+  {
+    "id": "w_chowj",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "chợ",
+    "answer": "chợ",
+    "choices": [
+      "chợ",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "chợ",
+      "image": "🛒",
+      "audioText": "chợ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_chowj"
+    }
+  },
+  {
+    "id": "w_coong_vieen",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "công viên",
+    "answer": "công viên",
+    "choices": [
+      "công viên",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "công viên",
+      "image": "🛝",
+      "audioText": "công viên",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_coong_vieen"
+    }
+  },
+  {
+    "id": "w_beejnh_vieejn",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bệnh viện",
+    "answer": "bệnh viện",
+    "choices": [
+      "bệnh viện",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bệnh viện",
+      "image": "🏥",
+      "audioText": "bệnh viện",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_beejnh_vieejn"
+    }
+  },
+  {
+    "id": "w_rawng",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "răng",
+    "answer": "răng",
+    "choices": [
+      "răng",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "răng",
+      "image": "🦷",
+      "audioText": "răng",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_rawng"
+    }
+  },
+  {
+    "id": "w_tim",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "tim",
+    "answer": "tim",
+    "choices": [
+      "tim",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "trái tim",
+      "image": "❤️",
+      "audioText": "tim",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_tim"
+    }
+  },
+  {
+    "id": "w_bujng",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bụng",
+    "answer": "bụng",
+    "choices": [
+      "bụng",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bụng",
+      "image": "🫄",
+      "audioText": "bụng",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_bujng"
+    }
+  },
+  {
+    "id": "w_cuwowfi",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "cười",
+    "answer": "cười",
+    "choices": [
+      "cười",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cười",
+      "image": "😄",
+      "audioText": "cười",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_cuwowfi"
+    }
+  },
+  {
+    "id": "w_khosc",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "khóc",
+    "answer": "khóc",
+    "choices": [
+      "khóc",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "khóc",
+      "image": "😭",
+      "audioText": "khóc",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_khosc"
+    }
+  },
+  {
+    "id": "w_oom",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "ôm",
+    "answer": "ôm",
+    "choices": [
+      "ôm",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "ôm",
+      "image": "🤗",
+      "audioText": "ôm",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_oom"
+    }
+  },
+  {
+    "id": "w_xin",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "xin",
+    "answer": "xin",
+    "choices": [
+      "xin",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "xin chào",
+      "image": "👋",
+      "audioText": "xin",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_xin"
+    }
+  },
+  {
+    "id": "w_carm_own",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "cảm ơn",
+    "answer": "cảm ơn",
+    "choices": [
+      "cảm ơn",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cảm ơn",
+      "image": "🙏",
+      "audioText": "cảm ơn",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_carm_own"
+    }
+  },
+  {
+    "id": "w_xin_looxi",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "xin lỗi",
+    "answer": "xin lỗi",
+    "choices": [
+      "xin lỗi",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "xin lỗi",
+      "image": "🙇",
+      "audioText": "xin lỗi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_xin_looxi"
+    }
+  },
+  {
+    "id": "w_sajch",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "sạch",
+    "answer": "sạch",
+    "choices": [
+      "sạch",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "sạch",
+      "image": "✨",
+      "audioText": "sạch",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_sajch"
+    }
+  },
+  {
+    "id": "w_baarn",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bẩn",
+    "answer": "bẩn",
+    "choices": [
+      "bẩn",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bẩn",
+      "image": "🫧",
+      "audioText": "bẩn",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_baarn"
+    }
+  },
+  {
+    "id": "w_nosng",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "nóng",
+    "answer": "nóng",
+    "choices": [
+      "nóng",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "nóng",
+      "image": "🔥",
+      "audioText": "nóng",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_nosng"
+    }
+  },
+  {
+    "id": "w_lajnh",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "lạnh",
+    "answer": "lạnh",
+    "choices": [
+      "lạnh",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "lạnh",
+      "image": "❄️",
+      "audioText": "lạnh",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_lajnh"
+    }
+  },
+  {
+    "id": "w_nhanh",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "nhanh",
+    "answer": "nhanh",
+    "choices": [
+      "nhanh",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "nhanh",
+      "image": "⚡",
+      "audioText": "nhanh",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_nhanh"
+    }
+  },
+  {
+    "id": "w_chaajm",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "chậm",
+    "answer": "chậm",
+    "choices": [
+      "chậm",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "chậm",
+      "image": "🐢",
+      "audioText": "chậm",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_chaajm"
+    }
+  },
+  {
+    "id": "w_sasch_vowr",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "sách vở",
+    "answer": "sách vở",
+    "choices": [
+      "sách vở",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "sách vở",
+      "image": "📚",
+      "audioText": "sách vở",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_sasch_vowr"
+    }
+  },
+  {
+    "id": "w_bafi_taajp",
+    "subject": "vietnamese",
+    "ageMin": 7,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bài tập",
+    "answer": "bài tập",
+    "choices": [
+      "bài tập",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bài tập",
+      "image": "📝",
+      "audioText": "bài tập",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_bafi_taajp"
+    }
+  },
+  {
+    "id": "w_ddi_hojc",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "đi học",
+    "answer": "đi học",
+    "choices": [
+      "đi học",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "đi học",
+      "image": "🎒",
+      "audioText": "đi học",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_ddi_hojc"
+    }
+  },
+  {
+    "id": "w_veef_nhaf",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "về nhà",
+    "answer": "về nhà",
+    "choices": [
+      "về nhà",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "về nhà",
+      "image": "🏠",
+      "audioText": "về nhà",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_veef_nhaf"
+    }
+  },
+  {
+    "id": "w_ngur_ngon",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "ngủ ngon",
+    "answer": "ngủ ngon",
+    "choices": [
+      "ngủ ngon",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "ngủ ngon",
+      "image": "😴",
+      "audioText": "ngủ ngon",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_ngur_ngon"
+    }
+  },
+  {
+    "id": "w_basnh_bao",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bánh bao",
+    "answer": "bánh bao",
+    "choices": [
+      "bánh bao",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bánh bao",
+      "image": "🥟",
+      "audioText": "bánh bao",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_basnh_bao"
+    }
+  },
+  {
+    "id": "w_xooi",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "xôi",
+    "answer": "xôi",
+    "choices": [
+      "xôi",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "xôi",
+      "image": "🍚",
+      "audioText": "xôi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_xooi"
+    }
+  },
+  {
+    "id": "w_chef",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "chè",
+    "answer": "chè",
+    "choices": [
+      "chè",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "chè",
+      "image": "🍮",
+      "audioText": "chè",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_chef"
+    }
+  },
+  {
+    "id": "w_canh",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "canh",
+    "answer": "canh",
+    "choices": [
+      "canh",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "canh",
+      "image": "🍲",
+      "audioText": "canh",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_canh"
+    }
+  },
+  {
+    "id": "w_rau",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "rau",
+    "answer": "rau",
+    "choices": [
+      "rau",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "rau",
+      "image": "🥬",
+      "audioText": "rau",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_rau"
+    }
+  },
+  {
+    "id": "w_thijt",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "thịt",
+    "answer": "thịt",
+    "choices": [
+      "thịt",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "thịt",
+      "image": "🍖",
+      "audioText": "thịt",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_thijt"
+    }
+  },
+  {
+    "id": "w_truwsng",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "trứng",
+    "answer": "trứng",
+    "choices": [
+      "trứng",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "trứng",
+      "image": "🥚",
+      "audioText": "trứng",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_truwsng"
+    }
+  },
+  {
+    "id": "w_muoosi",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "muối",
+    "answer": "muối",
+    "choices": [
+      "muối",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "muối",
+      "image": "🧂",
+      "audioText": "muối",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_muoosi"
+    }
+  },
+  {
+    "id": "w_dduwowfng",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "đường",
+    "answer": "đường",
+    "choices": [
+      "đường",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "đường",
+      "image": "🍬",
+      "audioText": "đường",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_dduwowfng"
+    }
+  },
+  {
+    "id": "w_gajo",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "gạo",
+    "answer": "gạo",
+    "choices": [
+      "gạo",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "gạo",
+      "image": "🌾",
+      "audioText": "gạo",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_gajo"
+    }
+  },
+  {
+    "id": "w_chaso_gaf",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "cháo gà",
+    "answer": "cháo gà",
+    "choices": [
+      "cháo gà",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cháo gà",
+      "image": "🥣",
+      "audioText": "cháo gà",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_chaso_gaf"
+    }
+  },
+  {
+    "id": "w_susp",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "súp",
+    "answer": "súp",
+    "choices": [
+      "súp",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "súp",
+      "image": "🍲",
+      "audioText": "súp",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_susp"
+    }
+  },
+  {
+    "id": "w_basnh_chuwng",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bánh chưng",
+    "answer": "bánh chưng",
+    "choices": [
+      "bánh chưng",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bánh chưng",
+      "image": "🟩",
+      "audioText": "bánh chưng",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_basnh_chuwng"
+    }
+  },
+  {
+    "id": "w_teest",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "tết",
+    "answer": "tết",
+    "choices": [
+      "tết",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "tết",
+      "image": "🧧",
+      "audioText": "tết",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_teest"
+    }
+  },
+  {
+    "id": "w_lif_xif",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "lì xì",
+    "answer": "lì xì",
+    "choices": [
+      "lì xì",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "lì xì",
+      "image": "🧧",
+      "audioText": "lì xì",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_lif_xif"
+    }
+  },
+  {
+    "id": "w_bust_chif",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bút chì",
+    "answer": "bút chì",
+    "choices": [
+      "bút chì",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bút chì",
+      "image": "✏️",
+      "audioText": "bút chì",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_bust_chif"
+    }
+  },
+  {
+    "id": "w_taary",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "tẩy",
+    "answer": "tẩy",
+    "choices": [
+      "tẩy",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cục tẩy",
+      "image": "🧽",
+      "audioText": "tẩy",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_taary"
+    }
+  },
+  {
+    "id": "w_hoojp",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "hộp",
+    "answer": "hộp",
+    "choices": [
+      "hộp",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cái hộp",
+      "image": "📦",
+      "audioText": "hộp",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_hoojp"
+    }
+  },
+  {
+    "id": "w_tusi",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "túi",
+    "answer": "túi",
+    "choices": [
+      "túi",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "túi",
+      "image": "👜",
+      "audioText": "túi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_tusi"
+    }
+  },
+  {
+    "id": "w_khawn",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "khăn",
+    "answer": "khăn",
+    "choices": [
+      "khăn",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "khăn",
+      "image": "🧻",
+      "audioText": "khăn",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_khawn"
+    }
+  },
+  {
+    "id": "w_xaf_phofng",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "xà phòng",
+    "answer": "xà phòng",
+    "choices": [
+      "xà phòng",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "xà phòng",
+      "image": "🧼",
+      "audioText": "xà phòng",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_xaf_phofng"
+    }
+  },
+  {
+    "id": "w_bafn_chari",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bàn chải",
+    "answer": "bàn chải",
+    "choices": [
+      "bàn chải",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bàn chải",
+      "image": "🪥",
+      "audioText": "bàn chải",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_bafn_chari"
+    }
+  },
+  {
+    "id": "w_goosi",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "gối",
+    "answer": "gối",
+    "choices": [
+      "gối",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cái gối",
+      "image": "🛏️",
+      "audioText": "gối",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_goosi"
+    }
+  },
+  {
+    "id": "w_chawn",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "chăn",
+    "answer": "chăn",
+    "choices": [
+      "chăn",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cái chăn",
+      "image": "🛏️",
+      "audioText": "chăn",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_chawn"
+    }
+  },
+  {
+    "id": "w_tur",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "tủ",
+    "answer": "tủ",
+    "choices": [
+      "tủ",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cái tủ",
+      "image": "🗄️",
+      "audioText": "tủ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_tur"
+    }
+  },
+  {
+    "id": "w_quajt",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "quạt",
+    "answer": "quạt",
+    "choices": [
+      "quạt",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cái quạt",
+      "image": "🪭",
+      "audioText": "quạt",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_quajt"
+    }
+  },
+  {
+    "id": "w_masy",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "máy",
+    "answer": "máy",
+    "choices": [
+      "máy",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "máy móc",
+      "image": "⚙️",
+      "audioText": "máy",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_masy"
+    }
+  },
+  {
+    "id": "w_chuoong",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "chuông",
+    "answer": "chuông",
+    "choices": [
+      "chuông",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "chuông",
+      "image": "🔔",
+      "audioText": "chuông",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_chuoong"
+    }
+  },
+  {
+    "id": "w_cofi",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "còi",
+    "answer": "còi",
+    "choices": [
+      "còi",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "còi",
+      "image": "📯",
+      "audioText": "còi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_cofi"
+    }
+  },
+  {
+    "id": "w_troosng",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "trống",
+    "answer": "trống",
+    "choices": [
+      "trống",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cái trống",
+      "image": "🥁",
+      "audioText": "trống",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_troosng"
+    }
+  },
+  {
+    "id": "w_saso",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "sáo",
+    "answer": "sáo",
+    "choices": [
+      "sáo",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cây sáo",
+      "image": "🪈",
+      "audioText": "sáo",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_saso"
+    }
+  },
+  {
+    "id": "w_ddafn",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "đàn",
+    "answer": "đàn",
+    "choices": [
+      "đàn",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cây đàn",
+      "image": "🎸",
+      "audioText": "đàn",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_ddafn"
+    }
+  },
+  {
+    "id": "w_nhajc",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "nhạc",
+    "answer": "nhạc",
+    "choices": [
+      "nhạc",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "âm nhạc",
+      "image": "🎵",
+      "audioText": "nhạc",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_nhajc"
+    }
+  },
+  {
+    "id": "w_vex",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "vẽ",
+    "answer": "vẽ",
+    "choices": [
+      "vẽ",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "vẽ",
+      "image": "🎨",
+      "audioText": "vẽ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_vex"
+    }
+  },
+  {
+    "id": "w_too",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "tô",
+    "answer": "tô",
+    "choices": [
+      "tô",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "tô màu",
+      "image": "🖍️",
+      "audioText": "tô",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_too"
+    }
+  },
+  {
+    "id": "w_ddojc",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "đọc",
+    "answer": "đọc",
+    "choices": [
+      "đọc",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "đọc",
+      "image": "📖",
+      "audioText": "đọc",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_ddojc"
+    }
+  },
+  {
+    "id": "w_vieest",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "viết",
+    "answer": "viết",
+    "choices": [
+      "viết",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "viết",
+      "image": "✍️",
+      "audioText": "viết",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_vieest"
+    }
+  },
+  {
+    "id": "w_hojc",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "học",
+    "answer": "học",
+    "choices": [
+      "học",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "học",
+      "image": "📚",
+      "audioText": "học",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_hojc"
+    }
+  },
+  {
+    "id": "w_chuwx",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "chữ",
+    "answer": "chữ",
+    "choices": [
+      "chữ",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "chữ",
+      "image": "🔤",
+      "audioText": "chữ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_chuwx"
+    }
+  },
+  {
+    "id": "w_soos",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "số",
+    "answer": "số",
+    "choices": [
+      "số",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "số",
+      "image": "🔢",
+      "audioText": "số",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_soos"
+    }
+  },
+  {
+    "id": "w_hifnh",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "hình",
+    "answer": "hình",
+    "choices": [
+      "hình",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "hình",
+      "image": "🔷",
+      "audioText": "hình",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_hifnh"
+    }
+  },
+  {
+    "id": "w_mafu_sawsc",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "màu sắc",
+    "answer": "màu sắc",
+    "choices": [
+      "màu sắc",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "màu sắc",
+      "image": "🌈",
+      "audioText": "màu sắc",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_mafu_sawsc"
+    }
+  },
+  {
+    "id": "w_vafng_anh",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "vàng anh",
+    "answer": "vàng anh",
+    "choices": [
+      "vàng anh",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "màu vàng",
+      "image": "🟡",
+      "audioText": "vàng anh",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_vafng_anh"
+    }
+  },
+  {
+    "id": "w_hoofng",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "hồng",
+    "answer": "hồng",
+    "choices": [
+      "hồng",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "màu hồng",
+      "image": "🩷",
+      "audioText": "hồng",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_hoofng"
+    }
+  },
+  {
+    "id": "w_naau",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "nâu",
+    "answer": "nâu",
+    "choices": [
+      "nâu",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "màu nâu",
+      "image": "🟤",
+      "audioText": "nâu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_naau"
+    }
+  },
+  {
+    "id": "w_xasm",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "xám",
+    "answer": "xám",
+    "choices": [
+      "xám",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "màu xám",
+      "image": "⚪",
+      "audioText": "xám",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_xasm"
+    }
+  },
+  {
+    "id": "w_dden",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "đen",
+    "answer": "đen",
+    "choices": [
+      "đen",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "màu đen",
+      "image": "⚫",
+      "audioText": "đen",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_dden"
+    }
+  },
+  {
+    "id": "w_trawsng",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "trắng",
+    "answer": "trắng",
+    "choices": [
+      "trắng",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "màu trắng",
+      "image": "⬜",
+      "audioText": "trắng",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_trawsng"
+    }
+  },
+  {
+    "id": "w_boosn_chaan",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bốn chân",
+    "answer": "bốn chân",
+    "choices": [
+      "bốn chân",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bốn chân",
+      "image": "🐾",
+      "audioText": "bốn chân",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_boosn_chaan"
+    }
+  },
+  {
+    "id": "w_casnh",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "cánh",
+    "answer": "cánh",
+    "choices": [
+      "cánh",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cánh",
+      "image": "🪽",
+      "audioText": "cánh",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_casnh"
+    }
+  },
+  {
+    "id": "w_dduooi",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "đuôi",
+    "answer": "đuôi",
+    "choices": [
+      "đuôi",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "đuôi",
+      "image": "🐕",
+      "audioText": "đuôi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_dduooi"
+    }
+  },
+  {
+    "id": "w_suwfng",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "sừng",
+    "answer": "sừng",
+    "choices": [
+      "sừng",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "sừng",
+      "image": "🦌",
+      "audioText": "sừng",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_suwfng"
+    }
+  },
+  {
+    "id": "w_loong",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "lông",
+    "answer": "lông",
+    "choices": [
+      "lông",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "lông",
+      "image": "🪶",
+      "audioText": "lông",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_loong"
+    }
+  },
+  {
+    "id": "w_vary",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "vảy",
+    "answer": "vảy",
+    "choices": [
+      "vảy",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "vảy",
+      "image": "🐟",
+      "audioText": "vảy",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_vary"
+    }
+  },
+  {
+    "id": "w_toor",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "tổ",
+    "answer": "tổ",
+    "choices": [
+      "tổ",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "tổ chim",
+      "image": "🪺",
+      "audioText": "tổ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_toor"
+    }
+  },
+  {
+    "id": "w_hoof",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "hồ",
+    "answer": "hồ",
+    "choices": [
+      "hồ",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "hồ nước",
+      "image": "🏞️",
+      "audioText": "hồ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_hoof"
+    }
+  },
+  {
+    "id": "w_suoosi",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "suối",
+    "answer": "suối",
+    "choices": [
+      "suối",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "suối",
+      "image": "💦",
+      "audioText": "suối",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_suoosi"
+    }
+  },
+  {
+    "id": "w_ddas",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "đá",
+    "answer": "đá",
+    "choices": [
+      "đá",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "hòn đá",
+      "image": "🪨",
+      "audioText": "đá",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_ddas"
+    }
+  },
+  {
+    "id": "w_cast",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "cát",
+    "answer": "cát",
+    "choices": [
+      "cát",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cát",
+      "image": "🏖️",
+      "audioText": "cát",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_cast"
+    }
+  },
+  {
+    "id": "w_sosng",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "sóng",
+    "answer": "sóng",
+    "choices": [
+      "sóng",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "sóng",
+      "image": "🌊",
+      "audioText": "sóng",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_sosng"
+    }
+  },
+  {
+    "id": "w_thuyeefn_buoofm",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "thuyền buồm",
+    "answer": "thuyền buồm",
+    "choices": [
+      "thuyền buồm",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "thuyền buồm",
+      "image": "⛵",
+      "audioText": "thuyền buồm",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_thuyeefn_buoofm"
+    }
+  },
+  {
+    "id": "w_caafu",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "cầu",
+    "answer": "cầu",
+    "choices": [
+      "cầu",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cây cầu",
+      "image": "🌉",
+      "audioText": "cầu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_caafu"
+    }
+  },
+  {
+    "id": "w_dduwowfng_ddi",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "đường đi",
+    "answer": "đường đi",
+    "choices": [
+      "đường đi",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "đường",
+      "image": "🛣️",
+      "audioText": "đường đi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_dduwowfng_ddi"
+    }
+  },
+  {
+    "id": "w_ddefn_ddor",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "đèn đỏ",
+    "answer": "đèn đỏ",
+    "choices": [
+      "đèn đỏ",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "đèn đỏ",
+      "image": "🚦",
+      "audioText": "đèn đỏ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_ddefn_ddor"
+    }
+  },
+  {
+    "id": "w_bieern_baso",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "biển báo",
+    "answer": "biển báo",
+    "choices": [
+      "biển báo",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "biển báo",
+      "image": "🛑",
+      "audioText": "biển báo",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_bieern_baso"
+    }
+  },
+  {
+    "id": "w_mux_baro_hieerm",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "mũ bảo hiểm",
+    "answer": "mũ bảo hiểm",
+    "choices": [
+      "mũ bảo hiểm",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "mũ bảo hiểm",
+      "image": "⛑️",
+      "audioText": "mũ bảo hiểm",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_mux_baro_hieerm"
+    }
+  },
+  {
+    "id": "w_basc",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bác",
+    "answer": "bác",
+    "choices": [
+      "bác",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bác",
+      "image": "👨",
+      "audioText": "bác",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_basc"
+    }
+  },
+  {
+    "id": "w_caaju",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "cậu",
+    "answer": "cậu",
+    "choices": [
+      "cậu",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cậu",
+      "image": "👨",
+      "audioText": "cậu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_caaju"
+    }
+  },
+  {
+    "id": "w_dif",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "dì",
+    "answer": "dì",
+    "choices": [
+      "dì",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "dì",
+      "image": "👩",
+      "audioText": "dì",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_dif"
+    }
+  },
+  {
+    "id": "w_coo_chus",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "cô chú",
+    "answer": "cô chú",
+    "choices": [
+      "cô chú",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cô chú",
+      "image": "👨‍👩‍👧",
+      "audioText": "cô chú",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_coo_chus"
+    }
+  },
+  {
+    "id": "w_em_bes",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "em bé",
+    "answer": "em bé",
+    "choices": [
+      "em bé",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "em bé",
+      "image": "👶",
+      "audioText": "em bé",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_em_bes"
+    }
+  },
+  {
+    "id": "w_bajn_thaan",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bạn thân",
+    "answer": "bạn thân",
+    "choices": [
+      "bạn thân",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bạn thân",
+      "image": "🤝",
+      "audioText": "bạn thân",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_bajn_thaan"
+    }
+  },
+  {
+    "id": "w_lowsp",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "lớp",
+    "answer": "lớp",
+    "choices": [
+      "lớp",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "lớp học",
+      "image": "🏫",
+      "audioText": "lớp",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_lowsp"
+    }
+  },
+  {
+    "id": "w_coo_hieeju",
+    "subject": "vietnamese",
+    "ageMin": 7,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "cô hiệu",
+    "answer": "cô hiệu",
+    "choices": [
+      "cô hiệu",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cô hiệu trưởng",
+      "image": "👩‍💼",
+      "audioText": "cô hiệu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_coo_hieeju"
+    }
+  },
+  {
+    "id": "w_saan_chowi",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "sân chơi",
+    "answer": "sân chơi",
+    "choices": [
+      "sân chơi",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "sân chơi",
+      "image": "🛝",
+      "audioText": "sân chơi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_saan_chowi"
+    }
+  },
+  {
+    "id": "w_xisch_ddu",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "xích đu",
+    "answer": "xích đu",
+    "choices": [
+      "xích đu",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "xích đu",
+      "image": "🎠",
+      "audioText": "xích đu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_xisch_ddu"
+    }
+  },
+  {
+    "id": "w_caafu_truwowjt",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "cầu trượt",
+    "answer": "cầu trượt",
+    "choices": [
+      "cầu trượt",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cầu trượt",
+      "image": "🛝",
+      "audioText": "cầu trượt",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_caafu_truwowjt"
+    }
+  },
+  {
+    "id": "w_bosng_roor",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bóng rổ",
+    "answer": "bóng rổ",
+    "choices": [
+      "bóng rổ",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bóng rổ",
+      "image": "🏀",
+      "audioText": "bóng rổ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_bosng_roor"
+    }
+  },
+  {
+    "id": "w_bowi",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "bơi",
+    "answer": "bơi",
+    "choices": [
+      "bơi",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "bơi",
+      "image": "🏊",
+      "audioText": "bơi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_bowi"
+    }
+  },
+  {
+    "id": "w_ddas_bosng",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "đá bóng",
+    "answer": "đá bóng",
+    "choices": [
+      "đá bóng",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "đá bóng",
+      "image": "⚽",
+      "audioText": "đá bóng",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_ddas_bosng"
+    }
+  },
+  {
+    "id": "w_nhary_daay",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "nhảy dây",
+    "answer": "nhảy dây",
+    "choices": [
+      "nhảy dây",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "nhảy dây",
+      "image": "🪢",
+      "audioText": "nhảy dây",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_nhary_daay"
+    }
+  },
+  {
+    "id": "w_cuwowsp_cowf",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "cướp cờ",
+    "answer": "cướp cờ",
+    "choices": [
+      "cướp cờ",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "cướp cờ",
+      "image": "🚩",
+      "audioText": "cướp cờ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_cuwowsp_cowf"
+    }
+  },
+  {
+    "id": "w_chusc_ngur",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "chúc ngủ",
+    "answer": "chúc ngủ",
+    "choices": [
+      "chúc ngủ",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "chúc ngủ ngon",
+      "image": "🌙",
+      "audioText": "chúc ngủ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_chusc_ngur"
+    }
+  },
+  {
+    "id": "w_chafo_buoori",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "chào buổi",
+    "answer": "chào buổi",
+    "choices": [
+      "chào buổi",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "chào buổi sáng",
+      "image": "🌅",
+      "audioText": "chào buổi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_chafo_buoori"
+    }
+  },
+  {
+    "id": "w_xin_chafo",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "xin chào",
+    "answer": "xin chào",
+    "choices": [
+      "xin chào",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "xin chào",
+      "image": "👋",
+      "audioText": "xin chào",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_xin_chafo"
+    }
+  },
+  {
+    "id": "w_tajm_bieejt",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "tạm biệt",
+    "answer": "tạm biệt",
+    "choices": [
+      "tạm biệt",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "tạm biệt",
+      "image": "👋",
+      "audioText": "tạm biệt",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_tajm_bieejt"
+    }
+  },
+  {
+    "id": "w_lafm_own",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 2,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "làm ơn",
+    "answer": "làm ơn",
+    "choices": [
+      "làm ơn",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "làm ơn",
+      "image": "🙏",
+      "audioText": "làm ơn",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_lafm_own"
+    }
+  },
+  {
+    "id": "w_vaang",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "vâng",
+    "answer": "vâng",
+    "choices": [
+      "vâng",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "vâng",
+      "image": "🙆",
+      "audioText": "vâng",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_vaang"
+    }
+  },
+  {
+    "id": "w_daj",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ đơn",
+    "instruction": "Đọc từ này",
+    "question": "dạ",
+    "answer": "dạ",
+    "choices": [
+      "dạ",
+      "ba",
+      "mẹ",
+      "bé"
+    ],
+    "tags": [
+      "vietnamese",
+      "word"
+    ],
+    "metadata": {
+      "meaning": "dạ",
+      "image": "🙇",
+      "audioText": "dạ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_word_daj"
+    }
+  },
+  {
+    "id": "v_vocab_baba",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 2,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ ghép",
+    "instruction": "Nghe và chọn từ đúng",
+    "question": "ba ba",
+    "answer": "ba ba",
+    "choices": [
+      "ba ba"
+    ],
+    "metadata": {
+      "audioText": "ba ba",
+      "audioLocale": "vi-VN",
+      "audioId": "v_vocab_baba",
+      "wordAudioId": "v_vocab_baba",
+      "exampleWordAudioId": "v_vocab_baba",
+      "syllable": "baba"
+    }
+  },
+  {
+    "id": "v_vocab_caca",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 2,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ ghép",
+    "instruction": "Nghe và chọn từ đúng",
+    "question": "ca ca",
+    "answer": "ca ca",
+    "choices": [
+      "ca ca"
+    ],
+    "metadata": {
+      "audioText": "ca ca",
+      "audioLocale": "vi-VN",
+      "audioId": "v_vocab_caca",
+      "wordAudioId": "v_vocab_caca",
+      "exampleWordAudioId": "v_vocab_caca",
+      "syllable": "caca"
+    }
+  },
+  {
+    "id": "v_vocab_bobi",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 2,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ ghép",
+    "instruction": "Nghe và chọn từ đúng",
+    "question": "bo bi",
+    "answer": "bo bi",
+    "choices": [
+      "bo bi"
+    ],
+    "metadata": {
+      "audioText": "bo bi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_vocab_bobi",
+      "wordAudioId": "v_vocab_bobi",
+      "exampleWordAudioId": "v_vocab_bobi",
+      "syllable": "bobi"
+    }
+  },
+  {
+    "id": "v_vocab_bame",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 2,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ ghép",
+    "instruction": "Nghe và chọn từ đúng",
+    "question": "ba mẹ",
+    "answer": "ba mẹ",
+    "choices": [
+      "ba mẹ"
+    ],
+    "metadata": {
+      "audioText": "ba mẹ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_vocab_bame",
+      "wordAudioId": "v_vocab_bame",
+      "exampleWordAudioId": "v_vocab_bame",
+      "syllable": "bamẹ"
+    }
+  },
+  {
+    "id": "v_vocab_dodo",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 2,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ ghép",
+    "instruction": "Nghe và chọn từ đúng",
+    "question": "đo đỏ",
+    "answer": "đo đỏ",
+    "choices": [
+      "đo đỏ"
+    ],
+    "metadata": {
+      "audioText": "đo đỏ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_vocab_dodo",
+      "wordAudioId": "v_vocab_dodo",
+      "exampleWordAudioId": "v_vocab_dodo",
+      "syllable": "đođỏ"
+    }
+  }
+]

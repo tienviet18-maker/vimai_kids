@@ -1,0 +1,34 @@
+{
+  "provider": "google_cloud_texttospeech",
+  "client": "google.cloud.texttospeech",
+  "note": "Vietnamese audio for ViMai Kids uses Google Cloud TTS. Preferred voice vi-VN-Neural2-A; fallback vi-VN-Wavenet-A. Japanese remains edge-tts (ja-JP-NanamiNeural).",
+  "audio_encoding": "MP3",
+  "sample_rate_hertz": null,
+  "pitch": 0.0,
+  "volume_gain_db": 0.0,
+  "speaking_rate": 0.9,
+  "use_ssml_for_praise": true,
+  "use_ssml_for_letters": false,
+  "vietnamese": {
+    "language": "vi",
+    "language_code": "vi-VN",
+    "voice_name": "vi-VN-Neural2-A",
+    "fallback_voice_name": "vi-VN-Wavenet-A",
+    "ssml_gender": "FEMALE"
+  },
+  "japanese": {
+    "language": "ja",
+    "language_code": "ja-JP",
+    "voice_name": "",
+    "note": "Japanese is synthesized via edge-tts ja-JP-NanamiNeural, not Google Cloud TTS.",
+    "ssml_gender": "FEMALE"
+  },
+  "speaking_rate_by_category": {
+    "LETTER_NAME": 0.9,
+    "PHONICS": 0.9,
+    "SYLLABLE": 0.9,
+    "WORD": 0.9,
+    "SENTENCE": 0.9,
+    "PRAISE": 0.9
+  }
+}

@@ -1,0 +1,914 @@
+id,language,text,asset_path,type,duration_ms,sample_rate,channels,peak_db,loudness,status,used_by,notes
+vi_letter_a_name,vi,a,assets/audio/vi/letters/a_name.wav,letter,577,22050,1,-3.46,-18.74,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_a_sound,vi,a,assets/audio/vi/letters/a_sound.wav,letter,588,22050,1,-3.46,-17.88,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_aw_name,vi,ă,assets/audio/vi/letters/aw_name.wav,letter,461,22050,1,-3.46,-20.56,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_aw_sound,vi,ă,assets/audio/vi/letters/aw_sound.wav,letter,496,22050,1,-3.46,-19.51,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_aa_name,vi,â,assets/audio/vi/letters/aa_name.wav,letter,496,22050,1,-3.46,-20.04,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_aa_sound,vi,â,assets/audio/vi/letters/aa_sound.wav,letter,507,22050,1,-3.46,-18.41,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_b_name,vi,bê,assets/audio/vi/letters/b_name.wav,letter,554,22050,1,-3.46,-17.74,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_b_sound,vi,bờ,assets/audio/vi/letters/b_sound.wav,letter,623,22050,1,-3.46,-16.85,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_c_name,vi,xê,assets/audio/vi/letters/c_name.wav,letter,542,22050,1,-3.46,-19.71,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_c_sound,vi,cờ,assets/audio/vi/letters/c_sound.wav,letter,577,22050,1,-3.46,-16.31,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_d_name,vi,dê,assets/audio/vi/letters/d_name.wav,letter,519,22050,1,-3.46,-18.89,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_d_sound,vi,dờ,assets/audio/vi/letters/d_sound.wav,letter,612,22050,1,-3.46,-18.26,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_dd_name,vi,đê,assets/audio/vi/letters/dd_name.wav,letter,565,22050,1,-3.46,-17.77,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_dd_sound,vi,đờ,assets/audio/vi/letters/dd_sound.wav,letter,647,22050,1,-3.46,-16.31,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_e_name,vi,e,assets/audio/vi/letters/e_name.wav,letter,542,22050,1,-3.46,-18.89,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_e_sound,vi,e,assets/audio/vi/letters/e_sound.wav,letter,519,22050,1,-3.46,-18.38,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_ee_name,vi,ê,assets/audio/vi/letters/ee_name.wav,letter,530,22050,1,-3.46,-18.49,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_ee_sound,vi,ê,assets/audio/vi/letters/ee_sound.wav,letter,519,22050,1,-3.46,-19.0,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_g_name,vi,giê,assets/audio/vi/letters/g_name.wav,letter,588,22050,1,-3.46,-17.24,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_g_sound,vi,gờ,assets/audio/vi/letters/g_sound.wav,letter,658,22050,1,-3.46,-16.01,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_h_name,vi,hát,assets/audio/vi/letters/h_name.wav,letter,587,22050,1,-3.46,-20.04,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_h_sound,vi,hờ,assets/audio/vi/letters/h_sound.wav,letter,647,22050,1,-3.46,-16.59,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_i_name,vi,i,assets/audio/vi/letters/i_name.wav,letter,507,22050,1,-3.46,-16.8,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_i_sound,vi,i,assets/audio/vi/letters/i_sound.wav,letter,519,22050,1,-3.46,-17.81,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_k_name,vi,ca,assets/audio/vi/letters/k_name.wav,letter,647,22050,1,-3.46,-17.75,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_k_sound,vi,cờ,assets/audio/vi/letters/k_sound.wav,letter,623,22050,1,-3.46,-17.01,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_l_name,vi,e-lờ,assets/audio/vi/letters/l_name.wav,letter,739,22050,1,-3.46,-16.49,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_l_sound,vi,lờ,assets/audio/vi/letters/l_sound.wav,letter,635,22050,1,-3.46,-16.77,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_m_name,vi,em-mờ,assets/audio/vi/letters/m_name.wav,letter,762,22050,1,-3.46,-16.68,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_m_sound,vi,mờ,assets/audio/vi/letters/m_sound.wav,letter,646,22050,1,-3.46,-16.8,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_n_name,vi,en-nờ,assets/audio/vi/letters/n_name.wav,letter,716,22050,1,-3.46,-17.52,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_n_sound,vi,nờ,assets/audio/vi/letters/n_sound.wav,letter,647,22050,1,-3.46,-16.85,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_o_name,vi,o,assets/audio/vi/letters/o_name.wav,letter,484,22050,1,-3.46,-19.86,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_o_sound,vi,o,assets/audio/vi/letters/o_sound.wav,letter,507,22050,1,-3.46,-18.93,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_oo_name,vi,ô,assets/audio/vi/letters/oo_name.wav,letter,472,22050,1,-3.46,-18.93,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_oo_sound,vi,ô,assets/audio/vi/letters/oo_sound.wav,letter,484,22050,1,-3.46,-18.89,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_ow_name,vi,ơ,assets/audio/vi/letters/ow_name.wav,letter,565,22050,1,-3.46,-17.28,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_ow_sound,vi,ơ,assets/audio/vi/letters/ow_sound.wav,letter,565,22050,1,-3.46,-17.63,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_p_name,vi,pê,assets/audio/vi/letters/p_name.wav,letter,588,22050,1,-3.46,-17.94,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_p_sound,vi,pờ,assets/audio/vi/letters/p_sound.wav,letter,635,22050,1,-3.46,-15.69,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_q_name,vi,quy,assets/audio/vi/letters/q_name.wav,letter,577,22050,1,-3.46,-17.13,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_q_sound,vi,quờ,assets/audio/vi/letters/q_sound.wav,letter,635,22050,1,-3.46,-18.05,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_r_name,vi,e-rờ,assets/audio/vi/letters/r_name.wav,letter,681,22050,1,-3.46,-15.44,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_r_sound,vi,rờ,assets/audio/vi/letters/r_sound.wav,letter,612,22050,1,-3.46,-17.2,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_s_name,vi,ét,assets/audio/vi/letters/s_name.wav,letter,553,22050,1,-3.46,-19.78,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_s_sound,vi,sờ,assets/audio/vi/letters/s_sound.wav,letter,670,22050,1,-3.46,-15.78,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_t_name,vi,tê,assets/audio/vi/letters/t_name.wav,letter,542,22050,1,-3.46,-18.34,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_t_sound,vi,tờ,assets/audio/vi/letters/t_sound.wav,letter,635,22050,1,-3.46,-16.82,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_u_name,vi,u,assets/audio/vi/letters/u_name.wav,letter,484,22050,1,-3.46,-19.58,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_u_sound,vi,u,assets/audio/vi/letters/u_sound.wav,letter,542,22050,1,-3.46,-17.38,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_uw_name,vi,ư,assets/audio/vi/letters/uw_name.wav,letter,472,22050,1,-3.46,-19.15,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_uw_sound,vi,ư,assets/audio/vi/letters/uw_sound.wav,letter,507,22050,1,-3.46,-19.41,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_v_name,vi,vê,assets/audio/vi/letters/v_name.wav,letter,507,22050,1,-3.46,-18.78,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_v_sound,vi,vờ,assets/audio/vi/letters/v_sound.wav,letter,623,22050,1,-3.46,-16.76,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_x_name,vi,ích,assets/audio/vi/letters/x_name.wav,letter,552,22050,1,-3.46,-17.51,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_x_sound,vi,xờ,assets/audio/vi/letters/x_sound.wav,letter,623,22050,1,-3.46,-17.75,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_y_name,vi,i,assets/audio/vi/letters/y_name.wav,letter,496,22050,1,-3.46,-17.66,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_letter_y_sound,vi,i,assets/audio/vi/letters/y_sound.wav,letter,507,22050,1,-3.46,-17.21,VALID,assets/content/vietnamese/alphabet.json,ok
+vi_phonics_ba,vi,ba,assets/audio/vi/phonics/ba.wav,content,542,22050,1,-3.46,-20.43,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_be,vi,be,assets/audio/vi/phonics/be.wav,content,542,22050,1,-3.46,-18.47,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_bi,vi,bi,assets/audio/vi/phonics/bi.wav,content,507,22050,1,-3.46,-18.63,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_bo,vi,bo,assets/audio/vi/phonics/bo.wav,content,507,22050,1,-3.46,-19.88,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_bu,vi,bu,assets/audio/vi/phonics/bu.wav,content,530,22050,1,-3.46,-18.47,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ca,vi,ca,assets/audio/vi/phonics/ca.wav,content,600,22050,1,-3.46,-19.16,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_co,vi,co,assets/audio/vi/phonics/co.wav,content,484,22050,1,-3.46,-19.21,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_cu,vi,cu,assets/audio/vi/phonics/cu.wav,content,542,22050,1,-3.46,-18.02,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_da,vi,da,assets/audio/vi/phonics/da.wav,content,588,22050,1,-3.46,-18.37,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_de,vi,de,assets/audio/vi/phonics/de.wav,content,542,22050,1,-3.46,-19.56,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_di,vi,di,assets/audio/vi/phonics/di.wav,content,554,22050,1,-3.46,-16.73,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_do,vi,do,assets/audio/vi/phonics/do.wav,content,530,22050,1,-3.46,-18.6,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_du,vi,du,assets/audio/vi/phonics/du.wav,content,507,22050,1,-3.46,-18.61,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_dda,vi,đa,assets/audio/vi/phonics/dda.wav,content,600,22050,1,-3.46,-18.72,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_dde,vi,đe,assets/audio/vi/phonics/dde.wav,content,542,22050,1,-3.46,-18.8,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ddi,vi,đi,assets/audio/vi/phonics/ddi.wav,content,565,22050,1,-3.46,-16.91,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ddo,vi,đo,assets/audio/vi/phonics/ddo.wav,content,565,22050,1,-3.46,-18.73,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ddu,vi,đu,assets/audio/vi/phonics/ddu.wav,content,588,22050,1,-3.46,-16.93,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ga,vi,ga,assets/audio/vi/phonics/ga.wav,content,647,22050,1,-3.46,-16.89,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_go,vi,go,assets/audio/vi/phonics/go.wav,content,554,22050,1,-3.46,-19.29,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_gu,vi,gu,assets/audio/vi/phonics/gu.wav,content,530,22050,1,-3.46,-18.22,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ha,vi,ha,assets/audio/vi/phonics/ha.wav,content,577,22050,1,-3.46,-18.21,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_he,vi,he,assets/audio/vi/phonics/he.wav,content,565,22050,1,-3.46,-18.58,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_hi,vi,hi,assets/audio/vi/phonics/hi.wav,content,565,22050,1,-3.46,-16.77,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ho,vi,ho,assets/audio/vi/phonics/ho.wav,content,554,22050,1,-3.46,-18.28,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_hu,vi,hu,assets/audio/vi/phonics/hu.wav,content,542,22050,1,-3.46,-17.89,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ke,vi,ke,assets/audio/vi/phonics/ke.wav,content,577,22050,1,-3.46,-18.43,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ki,vi,ki,assets/audio/vi/phonics/ki.wav,content,530,22050,1,-3.46,-17.68,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_la,vi,la,assets/audio/vi/phonics/la.wav,content,635,22050,1,-3.46,-17.19,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_le,vi,le,assets/audio/vi/phonics/le.wav,content,577,22050,1,-3.46,-17.63,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_li,vi,li,assets/audio/vi/phonics/li.wav,content,542,22050,1,-3.46,-17.48,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_lo,vi,lo,assets/audio/vi/phonics/lo.wav,content,507,22050,1,-3.46,-20.02,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_lu,vi,lu,assets/audio/vi/phonics/lu.wav,content,519,22050,1,-3.46,-19.01,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ma,vi,ma,assets/audio/vi/phonics/ma.wav,content,530,22050,1,-3.46,-19.31,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_me,vi,me,assets/audio/vi/phonics/me.wav,content,554,22050,1,-3.46,-18.38,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_mi,vi,mi,assets/audio/vi/phonics/mi.wav,content,542,22050,1,-3.46,-17.19,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_mo,vi,mo,assets/audio/vi/phonics/mo.wav,content,519,22050,1,-3.46,-19.77,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_mu,vi,mu,assets/audio/vi/phonics/mu.wav,content,519,22050,1,-3.46,-17.48,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_na,vi,na,assets/audio/vi/phonics/na.wav,content,600,22050,1,-3.46,-18.47,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ne,vi,ne,assets/audio/vi/phonics/ne.wav,content,577,22050,1,-3.46,-18.12,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ni,vi,ni,assets/audio/vi/phonics/ni.wav,content,554,22050,1,-3.46,-17.89,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_no,vi,no,assets/audio/vi/phonics/no.wav,content,542,22050,1,-3.46,-18.73,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_nu,vi,nu,assets/audio/vi/phonics/nu.wav,content,542,22050,1,-3.46,-17.56,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_pa,vi,pa,assets/audio/vi/phonics/pa.wav,content,542,22050,1,-3.46,-18.68,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_pi,vi,pi,assets/audio/vi/phonics/pi.wav,content,542,22050,1,-3.46,-16.62,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_po,vi,po,assets/audio/vi/phonics/po.wav,content,496,22050,1,-3.46,-22.01,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_qua,vi,qua,assets/audio/vi/phonics/qua.wav,content,634,22050,1,-3.46,-18.39,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ra,vi,ra,assets/audio/vi/phonics/ra.wav,content,554,22050,1,-3.46,-19.21,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_re,vi,re,assets/audio/vi/phonics/re.wav,content,542,22050,1,-3.46,-18.81,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ri,vi,ri,assets/audio/vi/phonics/ri.wav,content,542,22050,1,-3.46,-16.58,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ro,vi,ro,assets/audio/vi/phonics/ro.wav,content,530,22050,1,-3.46,-18.65,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ru,vi,ru,assets/audio/vi/phonics/ru.wav,content,530,22050,1,-3.46,-19.63,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_sa,vi,sa,assets/audio/vi/phonics/sa.wav,content,577,22050,1,-3.46,-19.55,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_so,vi,so,assets/audio/vi/phonics/so.wav,content,530,22050,1,-3.46,-19.3,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_su,vi,su,assets/audio/vi/phonics/su.wav,content,588,22050,1,-3.46,-18.18,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ta,vi,ta,assets/audio/vi/phonics/ta.wav,content,565,22050,1,-3.46,-19.68,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_te,vi,te,assets/audio/vi/phonics/te.wav,content,588,22050,1,-3.46,-17.96,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ti,vi,ti,assets/audio/vi/phonics/ti.wav,content,554,22050,1,-3.46,-17.45,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_to,vi,to,assets/audio/vi/phonics/to.wav,content,565,22050,1,-3.46,-19.07,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_tu,vi,tu,assets/audio/vi/phonics/tu.wav,content,519,22050,1,-3.46,-21.3,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_va,vi,va,assets/audio/vi/phonics/va.wav,content,577,22050,1,-3.46,-18.54,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ve,vi,ve,assets/audio/vi/phonics/ve.wav,content,565,22050,1,-3.46,-18.33,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_vi,vi,vi,assets/audio/vi/phonics/vi.wav,content,565,22050,1,-3.46,-18.47,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_vo,vi,vo,assets/audio/vi/phonics/vo.wav,content,507,22050,1,-3.46,-19.05,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_vu,vi,vu,assets/audio/vi/phonics/vu.wav,content,530,22050,1,-3.46,-18.41,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_xa,vi,xa,assets/audio/vi/phonics/xa.wav,content,542,22050,1,-3.46,-20.69,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_xe,vi,xe,assets/audio/vi/phonics/xe.wav,content,565,22050,1,-3.46,-19.06,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_xi,vi,xi,assets/audio/vi/phonics/xi.wav,content,530,22050,1,-3.46,-19.24,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_xo,vi,xo,assets/audio/vi/phonics/xo.wav,content,530,22050,1,-3.46,-19.57,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_xu,vi,xu,assets/audio/vi/phonics/xu.wav,content,612,22050,1,-3.46,-17.75,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_pha,vi,pha,assets/audio/vi/phonics/pha.wav,content,554,22050,1,-3.46,-19.67,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_pho,vi,pho,assets/audio/vi/phonics/pho.wav,content,507,22050,1,-3.46,-19.97,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_phu,vi,phu,assets/audio/vi/phonics/phu.wav,content,565,22050,1,-3.46,-16.15,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_tha,vi,tha,assets/audio/vi/phonics/tha.wav,content,565,22050,1,-3.46,-19.42,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_the,vi,the,assets/audio/vi/phonics/the.wav,content,542,22050,1,-3.46,-18.52,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_thi,vi,thi,assets/audio/vi/phonics/thi.wav,content,530,22050,1,-3.46,-18.2,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_tho,vi,tho,assets/audio/vi/phonics/tho.wav,content,542,22050,1,-3.46,-19.6,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_thu,vi,thu,assets/audio/vi/phonics/thu.wav,content,519,22050,1,-3.46,-19.98,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_kha,vi,kha,assets/audio/vi/phonics/kha.wav,content,542,22050,1,-3.46,-20.7,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_khe,vi,khe,assets/audio/vi/phonics/khe.wav,content,519,22050,1,-3.46,-20.75,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_kho,vi,kho,assets/audio/vi/phonics/kho.wav,content,507,22050,1,-3.46,-18.32,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_khu,vi,khu,assets/audio/vi/phonics/khu.wav,content,542,22050,1,-3.46,-17.34,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_nha,vi,nha,assets/audio/vi/phonics/nha.wav,content,577,22050,1,-3.46,-18.14,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_nhe,vi,nhe,assets/audio/vi/phonics/nhe.wav,content,542,22050,1,-3.46,-18.15,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_nhi,vi,nhi,assets/audio/vi/phonics/nhi.wav,content,519,22050,1,-3.46,-18.36,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_nho,vi,nho,assets/audio/vi/phonics/nho.wav,content,519,22050,1,-3.46,-18.64,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_nhu,vi,nhu,assets/audio/vi/phonics/nhu.wav,content,530,22050,1,-3.46,-17.42,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_cha,vi,cha,assets/audio/vi/phonics/cha.wav,content,635,22050,1,-3.46,-19.11,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_che,vi,che,assets/audio/vi/phonics/che.wav,content,612,22050,1,-3.46,-19.75,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_chi,vi,chi,assets/audio/vi/phonics/chi.wav,content,588,22050,1,-3.46,-18.69,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_cho,vi,cho,assets/audio/vi/phonics/cho.wav,content,565,22050,1,-3.46,-19.42,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_chu,vi,chu,assets/audio/vi/phonics/chu.wav,content,565,22050,1,-3.46,-19.39,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_tra,vi,tra,assets/audio/vi/phonics/tra.wav,content,611,22050,1,-3.46,-19.13,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_tre,vi,tre,assets/audio/vi/phonics/tre.wav,content,600,22050,1,-3.46,-17.61,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_tri,vi,tri,assets/audio/vi/phonics/tri.wav,content,577,22050,1,-3.46,-18.26,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_tro,vi,tro,assets/audio/vi/phonics/tro.wav,content,542,22050,1,-3.46,-19.82,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_tru,vi,tru,assets/audio/vi/phonics/tru.wav,content,612,22050,1,-3.46,-19.11,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ghe,vi,ghe,assets/audio/vi/phonics/ghe.wav,content,577,22050,1,-3.46,-18.34,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ghi,vi,ghi,assets/audio/vi/phonics/ghi.wav,content,542,22050,1,-3.46,-19.02,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_nga,vi,nga,assets/audio/vi/phonics/nga.wav,content,623,22050,1,-3.46,-18.33,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ngo,vi,ngo,assets/audio/vi/phonics/ngo.wav,content,542,22050,1,-3.46,-18.99,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_ngu,vi,ngu,assets/audio/vi/phonics/ngu.wav,content,530,22050,1,-3.46,-20.52,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_nghe,vi,nghe,assets/audio/vi/phonics/nghe.wav,content,530,22050,1,-3.46,-18.5,VALID,assets/content/vietnamese/phonics.json,ok
+vi_phonics_nghi,vi,nghi,assets/audio/vi/phonics/nghi.wav,content,519,22050,1,-3.46,-17.97,VALID,assets/content/vietnamese/phonics.json,ok
+vi_rime_an,vi,ban,assets/audio/vi/rimes/an.wav,content,612,22050,1,-3.46,-19.25,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_ang,vi,bang,assets/audio/vi/rimes/ang.wav,content,612,22050,1,-3.46,-19.66,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_anh,vi,banh,assets/audio/vi/rimes/anh.wav,content,577,22050,1,-3.46,-18.78,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_ao,vi,bao,assets/audio/vi/rimes/ao.wav,content,472,22050,1,-3.46,-17.65,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_au,vi,bau,assets/audio/vi/rimes/au.wav,content,472,22050,1,-3.46,-17.58,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_ay,vi,bay,assets/audio/vi/rimes/ay.wav,content,425,22050,1,-3.46,-18.69,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_am,vi,bam,assets/audio/vi/rimes/am.wav,content,425,22050,1,-3.46,-17.59,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_ap,vi,bap,assets/audio/vi/rimes/ap.wav,content,390,22050,1,-3.46,-19.34,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_at,vi,bat,assets/audio/vi/rimes/at.wav,content,460,22050,1,-3.46,-17.94,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_ac,vi,bac,assets/audio/vi/rimes/ac.wav,content,460,22050,1,-3.46,-18.4,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_awn,vi,băn,assets/audio/vi/rimes/awn.wav,content,437,22050,1,-3.46,-20.0,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_awng,vi,băng,assets/audio/vi/rimes/awng.wav,content,437,22050,1,-3.46,-19.81,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_aan,vi,bân,assets/audio/vi/rimes/aan.wav,content,507,22050,1,-3.46,-16.98,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_aang,vi,bâng,assets/audio/vi/rimes/aang.wav,content,472,22050,1,-3.46,-19.65,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_aau,vi,bâu,assets/audio/vi/rimes/aau.wav,content,425,22050,1,-3.46,-16.93,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_aay,vi,bây,assets/audio/vi/rimes/aay.wav,content,390,22050,1,-3.46,-17.29,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_em,vi,bem,assets/audio/vi/rimes/em.wav,content,448,22050,1,-3.46,-17.31,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_en,vi,ben,assets/audio/vi/rimes/en.wav,content,483,22050,1,-3.46,-17.9,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_eng,vi,beng,assets/audio/vi/rimes/eng.wav,content,448,22050,1,-3.46,-18.75,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_eet,vi,bêt,assets/audio/vi/rimes/eet.wav,content,482,22050,1,-3.46,-18.35,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_eech,vi,bêch,assets/audio/vi/rimes/eech.wav,content,437,22050,1,-3.46,-19.13,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_eeu,vi,bêu,assets/audio/vi/rimes/eeu.wav,content,425,22050,1,-3.46,-16.91,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_een,vi,bên,assets/audio/vi/rimes/een.wav,content,414,22050,1,-3.46,-18.12,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_im,vi,bim,assets/audio/vi/rimes/im.wav,content,437,22050,1,-3.46,-16.32,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_in,vi,bin,assets/audio/vi/rimes/in.wav,content,437,22050,1,-3.46,-16.43,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_inh,vi,binh,assets/audio/vi/rimes/inh.wav,content,367,22050,1,-3.46,-17.76,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_ich,vi,bich,assets/audio/vi/rimes/ich.wav,content,390,22050,1,-3.46,-20.16,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_ip,vi,bip,assets/audio/vi/rimes/ip.wav,content,367,22050,1,-3.46,-18.88,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_it,vi,bit,assets/audio/vi/rimes/it.wav,content,379,22050,1,-3.46,-17.61,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_ong,vi,bong,assets/audio/vi/rimes/ong.wav,content,414,22050,1,-3.46,-18.42,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_oc,vi,boc,assets/audio/vi/rimes/oc.wav,content,379,22050,1,-3.46,-17.68,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_ot,vi,bot,assets/audio/vi/rimes/ot.wav,content,437,22050,1,-3.46,-20.21,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_om,vi,bom,assets/audio/vi/rimes/om.wav,content,414,22050,1,-3.46,-19.16,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_op,vi,bop,assets/audio/vi/rimes/op.wav,content,414,22050,1,-3.46,-17.23,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_oi,vi,boi,assets/audio/vi/rimes/oi.wav,content,390,22050,1,-3.46,-17.43,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_oong,vi,bông,assets/audio/vi/rimes/oong.wav,content,425,22050,1,-3.46,-17.51,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_ooc,vi,bôc,assets/audio/vi/rimes/ooc.wav,content,414,22050,1,-3.46,-16.63,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_oot,vi,bôt,assets/audio/vi/rimes/oot.wav,content,402,22050,1,-3.46,-18.86,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_oom,vi,bôm,assets/audio/vi/rimes/oom.wav,content,390,22050,1,-3.46,-18.8,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_ung,vi,bung,assets/audio/vi/rimes/ung.wav,content,436,22050,1,-3.46,-17.99,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_uc,vi,buc,assets/audio/vi/rimes/uc.wav,content,414,22050,1,-3.46,-17.5,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_ut,vi,but,assets/audio/vi/rimes/ut.wav,content,390,22050,1,-3.46,-17.67,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_um,vi,bum,assets/audio/vi/rimes/um.wav,content,414,22050,1,-3.46,-17.41,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_ui,vi,bui,assets/audio/vi/rimes/ui.wav,content,448,22050,1,-3.46,-15.93,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_uwng,vi,bưng,assets/audio/vi/rimes/uwng.wav,content,379,22050,1,-3.46,-16.85,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_uwt,vi,bưt,assets/audio/vi/rimes/uwt.wav,content,390,22050,1,-3.46,-20.56,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_uwu,vi,bưu,assets/audio/vi/rimes/uwu.wav,content,437,22050,1,-3.46,-18.21,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_uwown,vi,bươn,assets/audio/vi/rimes/uwown.wav,content,425,22050,1,-3.46,-16.38,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_uwowng,vi,bương,assets/audio/vi/rimes/uwowng.wav,content,414,22050,1,-3.46,-16.88,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_uwowm,vi,bươm,assets/audio/vi/rimes/uwowm.wav,content,437,22050,1,-3.46,-17.41,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_uwowst,vi,bướt,assets/audio/vi/rimes/uwowst.wav,content,437,22050,1,-3.46,-17.19,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_uwowsc,vi,bước,assets/audio/vi/rimes/uwowsc.wav,content,448,22050,1,-3.46,-18.36,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_ieen,vi,biên,assets/audio/vi/rimes/ieen.wav,content,460,22050,1,-3.46,-16.2,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_ieeng,vi,biêng,assets/audio/vi/rimes/ieeng.wav,content,506,22050,1,-3.46,-18.08,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_ieet,vi,biêt,assets/audio/vi/rimes/ieet.wav,content,424,22050,1,-3.46,-19.05,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_ieeu,vi,biêu,assets/audio/vi/rimes/ieeu.wav,content,402,22050,1,-3.46,-17.46,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_uyeen,vi,buyên,assets/audio/vi/rimes/uyeen.wav,content,530,22050,1,-3.46,-15.54,VALID,assets/content/vietnamese/rimes.json,ok
+vi_rime_uyeest,vi,buyết,assets/audio/vi/rimes/uyeest.wav,content,818,22050,1,-3.46,-17.39,VALID,assets/content/vietnamese/rimes.json,ok
+vi_word_ba,vi,ba,assets/audio/vi/words/ba.wav,content,414,22050,1,-3.46,-18.75,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_mej,vi,mẹ,assets/audio/vi/words/mej.wav,content,483,22050,1,-3.46,-17.36,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_bes,vi,bé,assets/audio/vi/words/bes.wav,content,460,22050,1,-3.46,-18.2,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_baf,vi,bà,assets/audio/vi/words/baf.wav,content,460,22050,1,-3.46,-17.11,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_boos,vi,bố,assets/audio/vi/words/boos.wav,content,414,22050,1,-3.46,-16.08,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_oong,vi,ông,assets/audio/vi/words/oong.wav,content,390,22050,1,-3.46,-18.34,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_anh,vi,anh,assets/audio/vi/words/anh.wav,content,425,22050,1,-3.46,-18.4,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_chij,vi,chị,assets/audio/vi/words/chij.wav,content,467,22050,1,-3.46,-17.17,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_cas,vi,cá,assets/audio/vi/words/cas.wav,content,437,22050,1,-3.46,-17.48,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_gaf,vi,gà,assets/audio/vi/words/gaf.wav,content,472,22050,1,-3.46,-16.06,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_bof,vi,bò,assets/audio/vi/words/bof.wav,content,414,22050,1,-3.46,-17.84,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_mefo,vi,mèo,assets/audio/vi/words/mefo.wav,content,518,22050,1,-3.46,-18.12,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_chos,vi,chó,assets/audio/vi/words/chos.wav,content,507,22050,1,-3.46,-17.33,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_heo,vi,heo,assets/audio/vi/words/heo.wav,content,507,22050,1,-3.46,-16.85,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_vijt,vi,vịt,assets/audio/vi/words/vijt.wav,content,425,22050,1,-3.46,-18.88,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_nguwja,vi,ngựa,assets/audio/vi/words/nguwja.wav,content,493,22050,1,-3.46,-17.6,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_voi,vi,voi,assets/audio/vi/words/voi.wav,content,379,22050,1,-3.46,-19.13,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_thor,vi,thỏ,assets/audio/vi/words/thor.wav,content,472,22050,1,-3.46,-18.5,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_chim,vi,chim,assets/audio/vi/words/chim.wav,content,495,22050,1,-3.46,-17.04,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_toom,vi,tôm,assets/audio/vi/words/toom.wav,content,460,22050,1,-3.46,-18.0,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_hoa,vi,hoa,assets/audio/vi/words/hoa.wav,content,472,22050,1,-3.46,-18.21,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_caay,vi,cây,assets/audio/vi/words/caay.wav,content,425,22050,1,-3.46,-16.9,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_las,vi,lá,assets/audio/vi/words/las.wav,content,506,22050,1,-3.46,-17.2,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_quar,vi,quả,assets/audio/vi/words/quar.wav,content,483,22050,1,-3.46,-18.37,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_nhaf,vi,nhà,assets/audio/vi/words/nhaf.wav,content,506,22050,1,-3.46,-17.47,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_xe,vi,xe,assets/audio/vi/words/xe.wav,content,402,22050,1,-3.46,-17.35,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_aso,vi,áo,assets/audio/vi/words/aso.wav,content,518,22050,1,-3.46,-17.85,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_mux,vi,mũ,assets/audio/vi/words/mux.wav,content,425,22050,1,-3.46,-18.46,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_cowm,vi,cơm,assets/audio/vi/words/cowm.wav,content,460,22050,1,-3.46,-16.85,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_suwxa,vi,sữa,assets/audio/vi/words/suwxa.wav,content,483,22050,1,-3.46,-19.3,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_basnh,vi,bánh,assets/audio/vi/words/basnh.wav,content,495,22050,1,-3.46,-17.32,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_kejo,vi,kẹo,assets/audio/vi/words/kejo.wav,content,460,22050,1,-3.46,-17.5,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_nuwowsc,vi,nước,assets/audio/vi/words/nuwowsc.wav,content,599,22050,1,-3.46,-16.45,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_traf,vi,trà,assets/audio/vi/words/traf.wav,content,541,22050,1,-3.46,-18.92,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_awn,vi,ăn,assets/audio/vi/words/awn.wav,content,402,22050,1,-3.46,-17.86,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_uoosng,vi,uống,assets/audio/vi/words/uoosng.wav,content,444,22050,1,-3.46,-18.93,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_ngur,vi,ngủ,assets/audio/vi/words/ngur.wav,content,472,22050,1,-3.46,-16.01,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_chowi,vi,chơi,assets/audio/vi/words/chowi.wav,content,495,22050,1,-3.46,-16.43,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_ddi,vi,đi,assets/audio/vi/words/ddi.wav,content,414,22050,1,-3.46,-14.5,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_chajy,vi,chạy,assets/audio/vi/words/chajy.wav,content,414,22050,1,-3.46,-20.59,VALID,assets/content/vietnamese/vocabulary.json|assets/content/vietnamese/words.json,ok
+vi_word_nhary,vi,nhảy,assets/audio/vi/words/nhary.wav,content,437,22050,1,-3.46,-17.14,VALID,assets/content/vietnamese/words.json,ok
+vi_word_hast,vi,hát,assets/audio/vi/words/hast.wav,content,459,22050,1,-3.46,-18.46,VALID,assets/content/vietnamese/words.json,ok
+vi_word_ddor,vi,đỏ,assets/audio/vi/words/ddor.wav,content,460,22050,1,-3.46,-18.37,VALID,assets/content/vietnamese/words.json,ok
+vi_word_xanh,vi,xanh,assets/audio/vi/words/xanh.wav,content,471,22050,1,-3.46,-17.26,VALID,assets/content/vietnamese/words.json,ok
+vi_word_vafng,vi,vàng,assets/audio/vi/words/vafng.wav,content,518,22050,1,-3.46,-17.09,VALID,assets/content/vietnamese/words.json,ok
+vi_word_tism,vi,tím,assets/audio/vi/words/tism.wav,content,483,22050,1,-3.46,-17.81,VALID,assets/content/vietnamese/words.json,ok
+vi_word_moojt,vi,một,assets/audio/vi/words/moojt.wav,content,414,22050,1,-3.46,-18.86,VALID,assets/content/vietnamese/words.json,ok
+vi_word_hai,vi,hai,assets/audio/vi/words/hai.wav,content,437,22050,1,-3.46,-17.9,VALID,assets/content/vietnamese/words.json,ok
+vi_word_boosn,vi,bốn,assets/audio/vi/words/boosn.wav,content,483,22050,1,-3.46,-16.24,VALID,assets/content/vietnamese/words.json,ok
+vi_word_nawm,vi,năm,assets/audio/vi/words/nawm.wav,content,460,22050,1,-3.46,-16.69,VALID,assets/content/vietnamese/words.json,ok
+vi_word_tay,vi,tay,assets/audio/vi/words/tay.wav,content,436,22050,1,-3.46,-19.09,VALID,assets/content/vietnamese/words.json,ok
+vi_word_chaan,vi,chân,assets/audio/vi/words/chaan.wav,content,448,22050,1,-3.46,-19.18,VALID,assets/content/vietnamese/words.json,ok
+vi_word_mawst,vi,mắt,assets/audio/vi/words/mawst.wav,content,414,22050,1,-3.46,-19.32,VALID,assets/content/vietnamese/words.json,ok
+vi_word_muxi,vi,mũi,assets/audio/vi/words/muxi.wav,content,471,22050,1,-3.46,-17.45,VALID,assets/content/vietnamese/words.json,ok
+vi_word_mieejng,vi,miệng,assets/audio/vi/words/mieejng.wav,content,448,22050,1,-3.46,-16.91,VALID,assets/content/vietnamese/words.json,ok
+vi_word_tosc,vi,tóc,assets/audio/vi/words/tosc.wav,content,414,22050,1,-3.46,-22.32,VALID,assets/content/vietnamese/words.json,ok
+vi_word_tai,vi,tai,assets/audio/vi/words/tai.wav,content,483,22050,1,-3.46,-16.91,VALID,assets/content/vietnamese/words.json,ok
+vi_word_bust,vi,bút,assets/audio/vi/words/bust.wav,content,413,22050,1,-3.46,-19.96,VALID,assets/content/vietnamese/words.json,ok
+vi_word_sasch,vi,sách,assets/audio/vi/words/sasch.wav,content,448,22050,1,-3.46,-16.46,VALID,assets/content/vietnamese/words.json,ok
+vi_word_barng,vi,bảng,assets/audio/vi/words/barng.wav,content,483,22050,1,-3.46,-18.47,VALID,assets/content/vietnamese/words.json,ok
+vi_word_cawjp,vi,cặp,assets/audio/vi/words/cawjp.wav,content,390,22050,1,-3.46,-20.74,VALID,assets/content/vietnamese/words.json,ok
+vi_word_truwowfng,vi,trường,assets/audio/vi/words/truwowfng.wav,content,530,22050,1,-3.46,-19.65,VALID,assets/content/vietnamese/words.json,ok
+vi_word_coo,vi,cô,assets/audio/vi/words/coo.wav,content,390,22050,1,-3.46,-15.99,VALID,assets/content/vietnamese/words.json,ok
+vi_word_bajn,vi,bạn,assets/audio/vi/words/bajn.wav,content,448,22050,1,-3.46,-18.09,VALID,assets/content/vietnamese/words.json,ok
+vi_word_muwa,vi,mưa,assets/audio/vi/words/muwa.wav,content,460,22050,1,-3.46,-15.77,VALID,assets/content/vietnamese/words.json,ok
+vi_word_nawsng,vi,nắng,assets/audio/vi/words/nawsng.wav,content,504,22050,1,-3.46,-17.72,VALID,assets/content/vietnamese/words.json,ok
+vi_word_gios,vi,gió,assets/audio/vi/words/gios.wav,content,379,22050,1,-3.46,-17.03,VALID,assets/content/vietnamese/words.json,ok
+vi_word_maay,vi,mây,assets/audio/vi/words/maay.wav,content,437,22050,1,-3.46,-17.15,VALID,assets/content/vietnamese/words.json,ok
+vi_word_sao,vi,sao,assets/audio/vi/words/sao.wav,content,507,22050,1,-3.46,-16.88,VALID,assets/content/vietnamese/words.json,ok
+vi_word_trawng,vi,trăng,assets/audio/vi/words/trawng.wav,content,425,22050,1,-3.46,-18.37,VALID,assets/content/vietnamese/words.json,ok
+vi_word_trowfi,vi,trời,assets/audio/vi/words/trowfi.wav,content,495,22050,1,-3.46,-17.68,VALID,assets/content/vietnamese/words.json,ok
+vi_word_bafn,vi,bàn,assets/audio/vi/words/bafn.wav,content,495,22050,1,-3.46,-16.5,VALID,assets/content/vietnamese/words.json,ok
+vi_word_ghees,vi,ghế,assets/audio/vi/words/ghees.wav,content,448,22050,1,-3.46,-16.07,VALID,assets/content/vietnamese/words.json,ok
+vi_word_cuwra,vi,cửa,assets/audio/vi/words/cuwra.wav,content,529,22050,1,-3.46,-18.27,VALID,assets/content/vietnamese/words.json,ok
+vi_word_ddefn,vi,đèn,assets/audio/vi/words/ddefn.wav,content,460,22050,1,-3.46,-17.69,VALID,assets/content/vietnamese/words.json,ok
+vi_word_chesn,vi,chén,assets/audio/vi/words/chesn.wav,content,495,22050,1,-3.46,-18.51,VALID,assets/content/vietnamese/words.json,ok
+vi_word_dduxa,vi,đũa,assets/audio/vi/words/dduxa.wav,content,507,22050,1,-3.46,-18.32,VALID,assets/content/vietnamese/words.json,ok
+vi_word_thifa,vi,thìa,assets/audio/vi/words/thifa.wav,content,507,22050,1,-3.46,-17.13,VALID,assets/content/vietnamese/words.json,ok
+vi_word_noofi,vi,nồi,assets/audio/vi/words/noofi.wav,content,489,22050,1,-3.46,-16.36,VALID,assets/content/vietnamese/words.json,ok
+vi_word_bosng,vi,bóng,assets/audio/vi/words/bosng.wav,content,460,22050,1,-3.46,-18.67,VALID,assets/content/vietnamese/words.json,ok
+vi_word_gaasu,vi,gấu,assets/audio/vi/words/gaasu.wav,content,472,22050,1,-3.46,-16.86,VALID,assets/content/vietnamese/words.json,ok
+vi_word_busp,vi,búp,assets/audio/vi/words/busp.wav,content,412,22050,1,-3.46,-17.09,VALID,assets/content/vietnamese/words.json,ok
+vi_word_taso,vi,táo,assets/audio/vi/words/taso.wav,content,529,22050,1,-3.46,-18.04,VALID,assets/content/vietnamese/words.json,ok
+vi_word_chuoosi,vi,chuối,assets/audio/vi/words/chuoosi.wav,content,472,22050,1,-3.46,-15.53,VALID,assets/content/vietnamese/words.json,ok
+vi_word_cam,vi,cam,assets/audio/vi/words/cam.wav,content,425,22050,1,-3.46,-19.37,VALID,assets/content/vietnamese/words.json,ok
+vi_word_nho,vi,nho,assets/audio/vi/words/nho.wav,content,425,22050,1,-3.46,-16.23,VALID,assets/content/vietnamese/words.json,ok
+vi_word_duwa,vi,dưa,assets/audio/vi/words/duwa.wav,content,379,22050,1,-3.46,-17.29,VALID,assets/content/vietnamese/words.json,ok
+vi_word_xoafi,vi,xoài,assets/audio/vi/words/xoafi.wav,content,576,22050,1,-3.46,-16.72,VALID,assets/content/vietnamese/words.json,ok
+vi_word_daau,vi,dâu,assets/audio/vi/words/daau.wav,content,337,22050,1,-3.46,-16.45,VALID,assets/content/vietnamese/words.json,ok
+vi_word_phowr,vi,phở,assets/audio/vi/words/phowr.wav,content,383,22050,1,-3.46,-16.78,VALID,assets/content/vietnamese/words.json,ok
+vi_word_chaso,vi,cháo,assets/audio/vi/words/chaso.wav,content,292,22050,1,-1.37,-13.55,VALID,assets/content/vietnamese/words.json,ok
+vi_word_basnh_mif,vi,bánh mì,assets/audio/vi/words/basnh_mif.wav,content,459,22050,1,-1.37,-13.23,VALID,assets/content/vietnamese/words.json,ok
+vi_word_suwxa_chua,vi,sữa chua,assets/audio/vi/words/suwxa_chua.wav,content,481,22050,1,-1.37,-13.7,VALID,assets/content/vietnamese/words.json,ok
+vi_word_kem,vi,kem,assets/audio/vi/words/kem.wav,content,314,22050,1,-3.46,-17.55,VALID,assets/content/vietnamese/words.json,ok
+vi_word_yeeu,vi,yêu,assets/audio/vi/words/yeeu.wav,content,325,22050,1,-3.46,-17.22,VALID,assets/content/vietnamese/words.json,ok
+vi_word_vui,vi,vui,assets/audio/vi/words/vui.wav,content,325,22050,1,-3.46,-15.34,VALID,assets/content/vietnamese/words.json,ok
+vi_word_buoofn,vi,buồn,assets/audio/vi/words/buoofn.wav,content,295,22050,1,-1.37,-13.11,VALID,assets/content/vietnamese/words.json,ok
+vi_word_khore,vi,khỏe,assets/audio/vi/words/khore.wav,content,401,22050,1,-3.46,-18.44,VALID,assets/content/vietnamese/words.json,ok
+vi_word_to,vi,to,assets/audio/vi/words/to.wav,content,202,22050,1,-1.37,-13.65,VALID,assets/content/vietnamese/words.json,ok
+vi_word_nhor,vi,nhỏ,assets/audio/vi/words/nhor.wav,content,337,22050,1,-3.46,-16.76,VALID,assets/content/vietnamese/words.json,ok
+vi_word_cao,vi,cao,assets/audio/vi/words/cao.wav,content,372,22050,1,-3.46,-16.32,VALID,assets/content/vietnamese/words.json,ok
+vi_word_thaasp,vi,thấp,assets/audio/vi/words/thaasp.wav,content,320,22050,1,-3.46,-17.63,VALID,assets/content/vietnamese/words.json,ok
+vi_word_ngafy,vi,ngày,assets/audio/vi/words/ngafy.wav,content,402,22050,1,-3.46,-16.57,VALID,assets/content/vietnamese/words.json,ok
+vi_word_ddeem,vi,đêm,assets/audio/vi/words/ddeem.wav,content,314,22050,1,-3.46,-15.93,VALID,assets/content/vietnamese/words.json,ok
+vi_word_sasng,vi,sáng,assets/audio/vi/words/sasng.wav,content,295,22050,1,-1.37,-13.6,VALID,assets/content/vietnamese/words.json,ok
+vi_word_toosi,vi,tối,assets/audio/vi/words/toosi.wav,content,314,22050,1,-3.46,-16.55,VALID,assets/content/vietnamese/words.json,ok
+vi_word_em,vi,em,assets/audio/vi/words/em.wav,content,179,22050,1,-1.37,-12.76,VALID,assets/content/vietnamese/words.json,ok
+vi_word_cujc,vi,cục,assets/audio/vi/words/cujc.wav,content,314,22050,1,-3.46,-15.99,VALID,assets/content/vietnamese/words.json,ok
+vi_word_thuwowsc,vi,thước,assets/audio/vi/words/thuwowsc.wav,content,343,22050,1,-3.46,-16.7,VALID,assets/content/vietnamese/words.json,ok
+vi_word_mafu,vi,màu,assets/audio/vi/words/mafu.wav,content,360,22050,1,-3.46,-17.2,VALID,assets/content/vietnamese/words.json,ok
+vi_word_giaasy,vi,giấy,assets/audio/vi/words/giaasy.wav,content,320,22050,1,-3.46,-17.12,VALID,assets/content/vietnamese/words.json,ok
+vi_word_keso,vi,kéo,assets/audio/vi/words/keso.wav,content,301,22050,1,-1.37,-12.95,VALID,assets/content/vietnamese/words.json,ok
+vi_word_soong,vi,sông,assets/audio/vi/words/soong.wav,content,343,22050,1,-3.46,-16.91,VALID,assets/content/vietnamese/words.json,ok
+vi_word_nusi,vi,núi,assets/audio/vi/words/nusi.wav,content,299,22050,1,-1.37,-11.81,VALID,assets/content/vietnamese/words.json,ok
+vi_word_bieern,vi,biển,assets/audio/vi/words/bieern.wav,content,378,22050,1,-3.46,-17.61,VALID,assets/content/vietnamese/words.json,ok
+vi_word_ruwfng,vi,rừng,assets/audio/vi/words/ruwfng.wav,content,355,22050,1,-3.46,-14.2,VALID,assets/content/vietnamese/words.json,ok
+vi_word_masy_bay,vi,máy bay,assets/audio/vi/words/masy_bay.wav,content,353,22050,1,-1.37,-12.62,VALID,assets/content/vietnamese/words.json,ok
+vi_word_tafu,vi,tàu,assets/audio/vi/words/tafu.wav,content,337,22050,1,-3.46,-15.49,VALID,assets/content/vietnamese/words.json,ok
+vi_word_thuyeefn,vi,thuyền,assets/audio/vi/words/thuyeefn.wav,content,436,22050,1,-3.46,-17.47,VALID,assets/content/vietnamese/words.json,ok
+vi_word_basc_six,vi,bác sĩ,assets/audio/vi/words/basc_six.wav,content,489,22050,1,-1.37,-16.3,VALID,assets/content/vietnamese/words.json,ok
+vi_word_coong_an,vi,công an,assets/audio/vi/words/coong_an.wav,content,398,22050,1,-1.37,-12.72,VALID,assets/content/vietnamese/words.json,ok
+vi_word_noong,vi,nông,assets/audio/vi/words/noong.wav,content,344,22050,1,-3.46,-18.62,VALID,assets/content/vietnamese/words.json,ok
+vi_word_chowj,vi,chợ,assets/audio/vi/words/chowj.wav,content,348,22050,1,-3.46,-16.98,VALID,assets/content/vietnamese/words.json,ok
+vi_word_coong_vieen,vi,công viên,assets/audio/vi/words/coong_vieen.wav,content,376,22050,1,-1.37,-14.66,VALID,assets/content/vietnamese/words.json,ok
+vi_word_beejnh_vieejn,vi,bệnh viện,assets/audio/vi/words/beejnh_vieejn.wav,content,409,22050,1,-1.37,-14.99,VALID,assets/content/vietnamese/words.json,ok
+vi_word_rawng,vi,răng,assets/audio/vi/words/rawng.wav,content,390,22050,1,-3.46,-17.27,VALID,assets/content/vietnamese/words.json,ok
+vi_word_tim,vi,tim,assets/audio/vi/words/tim.wav,content,337,22050,1,-3.46,-16.2,VALID,assets/content/vietnamese/words.json,ok
+vi_word_bujng,vi,bụng,assets/audio/vi/words/bujng.wav,content,402,22050,1,-3.46,-16.87,VALID,assets/content/vietnamese/words.json,ok
+vi_word_cuwowfi,vi,cười,assets/audio/vi/words/cuwowfi.wav,content,413,22050,1,-3.46,-16.36,VALID,assets/content/vietnamese/words.json,ok
+vi_word_khosc,vi,khóc,assets/audio/vi/words/khosc.wav,content,332,22050,1,-3.46,-19.17,VALID,assets/content/vietnamese/words.json,ok
+vi_word_oom,vi,ôm,assets/audio/vi/words/oom.wav,content,179,22050,1,-1.37,-13.64,VALID,assets/content/vietnamese/words.json,ok
+vi_word_xin,vi,xin,assets/audio/vi/words/xin.wav,content,348,22050,1,-3.46,-15.74,VALID,assets/content/vietnamese/words.json,ok
+vi_word_carm_own,vi,cảm ơn,assets/audio/vi/words/carm_own.wav,content,422,22050,1,-1.37,-11.85,VALID,assets/content/vietnamese/words.json,ok
+vi_word_xin_looxi,vi,xin lỗi,assets/audio/vi/words/xin_looxi.wav,content,423,22050,1,-1.37,-13.7,VALID,assets/content/vietnamese/words.json,ok
+vi_word_sajch,vi,sạch,assets/audio/vi/words/sajch.wav,content,305,22050,1,-1.37,-15.21,VALID,assets/content/vietnamese/words.json,ok
+vi_word_baarn,vi,bẩn,assets/audio/vi/words/baarn.wav,content,360,22050,1,-3.46,-17.47,VALID,assets/content/vietnamese/words.json,ok
+vi_word_nosng,vi,nóng,assets/audio/vi/words/nosng.wav,content,483,22050,1,-3.46,-16.82,VALID,assets/content/vietnamese/words.json,ok
+vi_word_lajnh,vi,lạnh,assets/audio/vi/words/lajnh.wav,content,378,22050,1,-3.46,-17.62,VALID,assets/content/vietnamese/words.json,ok
+vi_word_nhanh,vi,nhanh,assets/audio/vi/words/nhanh.wav,content,355,22050,1,-3.46,-17.15,VALID,assets/content/vietnamese/words.json,ok
+vi_word_chaajm,vi,chậm,assets/audio/vi/words/chaajm.wav,content,402,22050,1,-3.46,-18.93,VALID,assets/content/vietnamese/words.json,ok
+vi_word_sasch_vowr,vi,sách vở,assets/audio/vi/words/sasch_vowr.wav,content,503,22050,1,-1.37,-13.62,VALID,assets/content/vietnamese/words.json,ok
+vi_word_bafi_taajp,vi,bài tập,assets/audio/vi/words/bafi_taajp.wav,content,434,22050,1,-1.37,-14.39,VALID,assets/content/vietnamese/words.json,ok
+vi_word_ddi_hojc,vi,đi học,assets/audio/vi/words/ddi_hojc.wav,content,375,22050,1,-1.37,-13.4,VALID,assets/content/vietnamese/words.json,ok
+vi_word_veef_nhaf,vi,về nhà,assets/audio/vi/words/veef_nhaf.wav,content,457,22050,1,-1.37,-15.08,VALID,assets/content/vietnamese/words.json,ok
+vi_word_ngur_ngon,vi,ngủ ngon,assets/audio/vi/words/ngur_ngon.wav,content,468,22050,1,-1.37,-12.66,VALID,assets/content/vietnamese/words.json,ok
+vi_word_basnh_bao,vi,bánh bao,assets/audio/vi/words/basnh_bao.wav,content,457,22050,1,-1.37,-13.33,VALID,assets/content/vietnamese/words.json,ok
+vi_word_xooi,vi,xôi,assets/audio/vi/words/xooi.wav,content,325,22050,1,-3.46,-15.56,VALID,assets/content/vietnamese/words.json,ok
+vi_word_chef,vi,chè,assets/audio/vi/words/chef.wav,content,395,22050,1,-3.46,-16.98,VALID,assets/content/vietnamese/words.json,ok
+vi_word_canh,vi,canh,assets/audio/vi/words/canh.wav,content,378,22050,1,-3.46,-18.53,VALID,assets/content/vietnamese/words.json,ok
+vi_word_rau,vi,rau,assets/audio/vi/words/rau.wav,content,325,22050,1,-3.46,-16.95,VALID,assets/content/vietnamese/words.json,ok
+vi_word_thijt,vi,thịt,assets/audio/vi/words/thijt.wav,content,366,22050,1,-3.46,-18.47,VALID,assets/content/vietnamese/words.json,ok
+vi_word_truwsng,vi,trứng,assets/audio/vi/words/truwsng.wav,content,355,22050,1,-3.46,-16.85,VALID,assets/content/vietnamese/words.json,ok
+vi_word_muoosi,vi,muối,assets/audio/vi/words/muoosi.wav,content,295,22050,1,-1.37,-12.3,VALID,assets/content/vietnamese/words.json,ok
+vi_word_dduwowfng,vi,đường,assets/audio/vi/words/dduwowfng.wav,content,307,22050,1,-1.37,-10.98,VALID,assets/content/vietnamese/words.json,ok
+vi_word_gajo,vi,gạo,assets/audio/vi/words/gajo.wav,content,383,22050,1,-3.46,-19.46,VALID,assets/content/vietnamese/words.json,ok
+vi_word_chaso_gaf,vi,cháo gà,assets/audio/vi/words/chaso_gaf.wav,content,452,22050,1,-1.37,-15.32,VALID,assets/content/vietnamese/words.json,ok
+vi_word_susp,vi,súp,assets/audio/vi/words/susp.wav,content,369,22050,1,-3.46,-16.71,VALID,assets/content/vietnamese/words.json,ok
+vi_word_basnh_chuwng,vi,bánh chưng,assets/audio/vi/words/basnh_chuwng.wav,content,388,22050,1,-1.37,-13.4,VALID,assets/content/vietnamese/words.json,ok
+vi_word_teest,vi,tết,assets/audio/vi/words/teest.wav,content,335,22050,1,-3.46,-16.37,VALID,assets/content/vietnamese/words.json,ok
+vi_word_lif_xif,vi,lì xì,assets/audio/vi/words/lif_xif.wav,content,433,22050,1,-1.37,-12.81,VALID,assets/content/vietnamese/words.json,ok
+vi_word_bust_chif,vi,bút chì,assets/audio/vi/words/bust_chif.wav,content,423,22050,1,-1.37,-14.01,VALID,assets/content/vietnamese/words.json,ok
+vi_word_taary,vi,tẩy,assets/audio/vi/words/taary.wav,content,395,22050,1,-3.46,-15.64,VALID,assets/content/vietnamese/words.json,ok
+vi_word_hoojp,vi,hộp,assets/audio/vi/words/hoojp.wav,content,302,22050,1,-3.46,-17.68,VALID,assets/content/vietnamese/words.json,ok
+vi_word_tusi,vi,túi,assets/audio/vi/words/tusi.wav,content,347,22050,1,-3.46,-16.87,VALID,assets/content/vietnamese/words.json,ok
+vi_word_khawn,vi,khăn,assets/audio/vi/words/khawn.wav,content,344,22050,1,-3.46,-17.82,VALID,assets/content/vietnamese/words.json,ok
+vi_word_xaf_phofng,vi,xà phòng,assets/audio/vi/words/xaf_phofng.wav,content,434,22050,1,-1.37,-13.49,VALID,assets/content/vietnamese/words.json,ok
+vi_word_bafn_chari,vi,bàn chải,assets/audio/vi/words/bafn_chari.wav,content,446,22050,1,-1.37,-16.24,VALID,assets/content/vietnamese/words.json,ok
+vi_word_goosi,vi,gối,assets/audio/vi/words/goosi.wav,content,337,22050,1,-3.46,-16.34,VALID,assets/content/vietnamese/words.json,ok
+vi_word_chawn,vi,chăn,assets/audio/vi/words/chawn.wav,content,378,22050,1,-3.46,-18.29,VALID,assets/content/vietnamese/words.json,ok
+vi_word_tur,vi,tủ,assets/audio/vi/words/tur.wav,content,247,22050,1,-1.37,-11.93,VALID,assets/content/vietnamese/words.json,ok
+vi_word_quajt,vi,quạt,assets/audio/vi/words/quajt.wav,content,284,22050,1,-1.37,-14.54,VALID,assets/content/vietnamese/words.json,ok
+vi_word_masy,vi,máy,assets/audio/vi/words/masy.wav,content,314,22050,1,-3.46,-16.94,VALID,assets/content/vietnamese/words.json,ok
+vi_word_chuoong,vi,chuông,assets/audio/vi/words/chuoong.wav,content,284,22050,1,-1.37,-13.45,VALID,assets/content/vietnamese/words.json,ok
+vi_word_cofi,vi,còi,assets/audio/vi/words/cofi.wav,content,397,22050,1,-3.46,-16.8,VALID,assets/content/vietnamese/words.json,ok
+vi_word_troosng,vi,trống,assets/audio/vi/words/troosng.wav,content,292,22050,1,-1.37,-13.77,VALID,assets/content/vietnamese/words.json,ok
+vi_word_saso,vi,sáo,assets/audio/vi/words/saso.wav,content,283,22050,1,-1.37,-13.96,VALID,assets/content/vietnamese/words.json,ok
+vi_word_ddafn,vi,đàn,assets/audio/vi/words/ddafn.wav,content,282,22050,1,-1.37,-13.68,VALID,assets/content/vietnamese/words.json,ok
+vi_word_nhajc,vi,nhạc,assets/audio/vi/words/nhajc.wav,content,401,22050,1,-3.46,-16.09,VALID,assets/content/vietnamese/words.json,ok
+vi_word_vex,vi,vẽ,assets/audio/vi/words/vex.wav,content,225,22050,1,-1.37,-13.21,VALID,assets/content/vietnamese/words.json,ok
+vi_word_too,vi,tô,assets/audio/vi/words/too.wav,content,202,22050,1,-1.37,-12.82,VALID,assets/content/vietnamese/words.json,ok
+vi_word_ddojc,vi,đọc,assets/audio/vi/words/ddojc.wav,content,325,22050,1,-3.46,-17.52,VALID,assets/content/vietnamese/words.json,ok
+vi_word_vieest,vi,viết,assets/audio/vi/words/vieest.wav,content,402,22050,1,-3.46,-17.22,VALID,assets/content/vietnamese/words.json,ok
+vi_word_hojc,vi,học,assets/audio/vi/words/hojc.wav,content,314,22050,1,-3.46,-18.81,VALID,assets/content/vietnamese/words.json,ok
+vi_word_chuwx,vi,chữ,assets/audio/vi/words/chuwx.wav,content,348,22050,1,-3.46,-19.14,VALID,assets/content/vietnamese/words.json,ok
+vi_word_soos,vi,số,assets/audio/vi/words/soos.wav,content,202,22050,1,-1.37,-12.73,VALID,assets/content/vietnamese/words.json,ok
+vi_word_hifnh,vi,hình,assets/audio/vi/words/hifnh.wav,content,413,22050,1,-3.46,-15.37,VALID,assets/content/vietnamese/words.json,ok
+vi_word_mafu_sawsc,vi,màu sắc,assets/audio/vi/words/mafu_sawsc.wav,content,433,22050,1,-1.37,-12.85,VALID,assets/content/vietnamese/words.json,ok
+vi_word_vafng_anh,vi,vàng anh,assets/audio/vi/words/vafng_anh.wav,content,433,22050,1,-1.37,-14.06,VALID,assets/content/vietnamese/words.json,ok
+vi_word_hoofng,vi,hồng,assets/audio/vi/words/hoofng.wav,content,378,22050,1,-3.46,-17.71,VALID,assets/content/vietnamese/words.json,ok
+vi_word_naau,vi,nâu,assets/audio/vi/words/naau.wav,content,383,22050,1,-3.46,-15.04,VALID,assets/content/vietnamese/words.json,ok
+vi_word_xasm,vi,xám,assets/audio/vi/words/xasm.wav,content,280,22050,1,-1.37,-13.89,VALID,assets/content/vietnamese/words.json,ok
+vi_word_dden,vi,đen,assets/audio/vi/words/dden.wav,content,314,22050,1,-3.46,-15.26,VALID,assets/content/vietnamese/words.json,ok
+vi_word_trawsng,vi,trắng,assets/audio/vi/words/trawsng.wav,content,459,22050,1,-3.46,-17.98,VALID,assets/content/vietnamese/words.json,ok
+vi_word_boosn_chaan,vi,bốn chân,assets/audio/vi/words/boosn_chaan.wav,content,411,22050,1,-1.37,-14.23,VALID,assets/content/vietnamese/words.json,ok
+vi_word_casnh,vi,cánh,assets/audio/vi/words/casnh.wav,content,298,22050,1,-1.37,-13.5,VALID,assets/content/vietnamese/words.json,ok
+vi_word_dduooi,vi,đuôi,assets/audio/vi/words/dduooi.wav,content,402,22050,1,-3.46,-16.08,VALID,assets/content/vietnamese/words.json,ok
+vi_word_suwfng,vi,sừng,assets/audio/vi/words/suwfng.wav,content,378,22050,1,-3.46,-16.53,VALID,assets/content/vietnamese/words.json,ok
+vi_word_loong,vi,lông,assets/audio/vi/words/loong.wav,content,367,22050,1,-3.46,-16.74,VALID,assets/content/vietnamese/words.json,ok
+vi_word_vary,vi,vảy,assets/audio/vi/words/vary.wav,content,372,22050,1,-3.46,-17.67,VALID,assets/content/vietnamese/words.json,ok
+vi_word_toor,vi,tổ,assets/audio/vi/words/toor.wav,content,256,22050,1,-1.37,-11.98,VALID,assets/content/vietnamese/words.json,ok
+vi_word_hoof,vi,hồ,assets/audio/vi/words/hoof.wav,content,190,22050,1,-1.37,-11.08,VALID,assets/content/vietnamese/words.json,ok
+vi_word_suoosi,vi,suối,assets/audio/vi/words/suoosi.wav,content,316,22050,1,-1.37,-13.22,VALID,assets/content/vietnamese/words.json,ok
+vi_word_ddas,vi,đá,assets/audio/vi/words/ddas.wav,content,288,22050,1,-1.37,-13.01,VALID,assets/content/vietnamese/words.json,ok
+vi_word_cast,vi,cát,assets/audio/vi/words/cast.wav,content,344,22050,1,-3.46,-18.39,VALID,assets/content/vietnamese/words.json,ok
+vi_word_sosng,vi,sóng,assets/audio/vi/words/sosng.wav,content,307,22050,1,-1.37,-13.37,VALID,assets/content/vietnamese/words.json,ok
+vi_word_thuyeefn_buoofm,vi,thuyền buồm,assets/audio/vi/words/thuyeefn_buoofm.wav,content,483,22050,1,-1.37,-11.77,VALID,assets/content/vietnamese/words.json,ok
+vi_word_caafu,vi,cầu,assets/audio/vi/words/caafu.wav,content,360,22050,1,-3.46,-15.15,VALID,assets/content/vietnamese/words.json,ok
+vi_word_dduwowfng_ddi,vi,đường đi,assets/audio/vi/words/dduwowfng_ddi.wav,content,365,22050,1,-1.37,-11.93,VALID,assets/content/vietnamese/words.json,ok
+vi_word_ddefn_ddor,vi,đèn đỏ,assets/audio/vi/words/ddefn_ddor.wav,content,399,22050,1,-1.37,-14.49,VALID,assets/content/vietnamese/words.json,ok
+vi_word_bieern_baso,vi,biển báo,assets/audio/vi/words/bieern_baso.wav,content,492,22050,1,-1.37,-12.72,VALID,assets/content/vietnamese/words.json,ok
+vi_word_mux_baro_hieerm,vi,mũ bảo hiểm,assets/audio/vi/words/mux_baro_hieerm.wav,content,574,22050,1,-1.37,-14.2,VALID,assets/content/vietnamese/words.json,ok
+vi_word_basc,vi,bác,assets/audio/vi/words/basc.wav,content,341,22050,1,-3.46,-19.21,VALID,assets/content/vietnamese/words.json,ok
+vi_word_caaju,vi,cậu,assets/audio/vi/words/caaju.wav,content,325,22050,1,-3.46,-17.21,VALID,assets/content/vietnamese/words.json,ok
+vi_word_dif,vi,dì,assets/audio/vi/words/dif.wav,content,269,22050,1,-1.37,-12.87,VALID,assets/content/vietnamese/words.json,ok
+vi_word_coo_chus,vi,cô chú,assets/audio/vi/words/coo_chus.wav,content,374,22050,1,-1.37,-13.01,VALID,assets/content/vietnamese/words.json,ok
+vi_word_em_bes,vi,em bé,assets/audio/vi/words/em_bes.wav,content,330,22050,1,-1.37,-14.01,VALID,assets/content/vietnamese/words.json,ok
+vi_word_bajn_thaan,vi,bạn thân,assets/audio/vi/words/bajn_thaan.wav,content,423,22050,1,-1.37,-14.18,VALID,assets/content/vietnamese/words.json,ok
+vi_word_lowsp,vi,lớp,assets/audio/vi/words/lowsp.wav,content,348,22050,1,-3.46,-16.86,VALID,assets/content/vietnamese/words.json,ok
+vi_word_coo_hieeju,vi,cô hiệu,assets/audio/vi/words/coo_hieeju.wav,content,383,22050,1,-1.37,-15.2,VALID,assets/content/vietnamese/words.json,ok
+vi_word_saan_chowi,vi,sân chơi,assets/audio/vi/words/saan_chowi.wav,content,456,22050,1,-1.37,-13.67,VALID,assets/content/vietnamese/words.json,ok
+vi_word_xisch_ddu,vi,xích đu,assets/audio/vi/words/xisch_ddu.wav,content,446,22050,1,-1.37,-12.48,VALID,assets/content/vietnamese/words.json,ok
+vi_word_caafu_truwowjt,vi,cầu trượt,assets/audio/vi/words/caafu_truwowjt.wav,content,418,22050,1,-1.37,-14.88,VALID,assets/content/vietnamese/words.json,ok
+vi_word_bosng_roor,vi,bóng rổ,assets/audio/vi/words/bosng_roor.wav,content,469,22050,1,-1.37,-14.25,VALID,assets/content/vietnamese/words.json,ok
+vi_word_bowi,vi,bơi,assets/audio/vi/words/bowi.wav,content,348,22050,1,-3.46,-15.59,VALID,assets/content/vietnamese/words.json,ok
+vi_word_ddas_bosng,vi,đá bóng,assets/audio/vi/words/ddas_bosng.wav,content,457,22050,1,-1.37,-14.21,VALID,assets/content/vietnamese/words.json,ok
+vi_word_nhary_daay,vi,nhảy dây,assets/audio/vi/words/nhary_daay.wav,content,423,22050,1,-1.37,-12.77,VALID,assets/content/vietnamese/words.json,ok
+vi_word_cuwowsp_cowf,vi,cướp cờ,assets/audio/vi/words/cuwowsp_cowf.wav,content,447,22050,1,-1.37,-13.03,VALID,assets/content/vietnamese/words.json,ok
+vi_word_chusc_ngur,vi,chúc ngủ,assets/audio/vi/words/chusc_ngur.wav,content,410,22050,1,-1.37,-12.66,VALID,assets/content/vietnamese/words.json,ok
+vi_word_chafo_buoori,vi,chào buổi,assets/audio/vi/words/chafo_buoori.wav,content,455,22050,1,-1.37,-15.02,VALID,assets/content/vietnamese/words.json,ok
+vi_word_xin_chafo,vi,xin chào,assets/audio/vi/words/xin_chafo.wav,content,444,22050,1,-1.37,-13.37,VALID,assets/content/vietnamese/words.json,ok
+vi_word_tajm_bieejt,vi,tạm biệt,assets/audio/vi/words/tajm_bieejt.wav,content,430,22050,1,-1.37,-14.1,VALID,assets/content/vietnamese/words.json,ok
+vi_word_lafm_own,vi,làm ơn,assets/audio/vi/words/lafm_own.wav,content,423,22050,1,-1.37,-13.66,VALID,assets/content/vietnamese/words.json,ok
+vi_word_vaang,vi,vâng,assets/audio/vi/words/vaang.wav,content,344,22050,1,-3.46,-17.66,VALID,assets/content/vietnamese/words.json,ok
+vi_word_daj,vi,dạ,assets/audio/vi/words/daj.wav,content,212,22050,1,-1.37,-13.98,VALID,assets/content/vietnamese/words.json,ok
+vi_sentence_001,vi,Mẹ yêu bé.,assets/audio/vi/sentences/s_001.wav,content,668,22050,1,-1.37,-15.49,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_002,vi,Ba yêu con.,assets/audio/vi/sentences/s_002.wav,content,623,22050,1,-1.37,-16.36,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_003,vi,Con mèo ngủ.,assets/audio/vi/sentences/s_003.wav,content,584,22050,1,-1.37,-12.31,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_004,vi,Bé ăn cơm.,assets/audio/vi/sentences/s_004.wav,content,620,22050,1,-1.37,-16.95,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_005,vi,Bé uống sữa.,assets/audio/vi/sentences/s_005.wav,content,663,22050,1,-1.37,-16.43,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_006,vi,Gà kêu ó o.,assets/audio/vi/sentences/s_006.wav,content,711,22050,1,-1.37,-13.72,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_007,vi,Cá bơi dưới nước.,assets/audio/vi/sentences/s_007.wav,content,784,22050,1,-1.37,-14.72,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_008,vi,Hoa rất đẹp.,assets/audio/vi/sentences/s_008.wav,content,520,22050,1,-1.37,-16.2,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_009,vi,Trời đang nắng.,assets/audio/vi/sentences/s_009.wav,content,695,22050,1,-1.37,-15.23,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_010,vi,Bé đi học.,assets/audio/vi/sentences/s_010.wav,content,459,22050,1,-1.37,-15.43,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_011,vi,Cô giáo vui.,assets/audio/vi/sentences/s_011.wav,content,632,22050,1,-1.37,-13.95,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_012,vi,Bạn chơi bóng.,assets/audio/vi/sentences/s_012.wav,content,676,22050,1,-1.37,-15.08,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_013,vi,Nhà có cửa.,assets/audio/vi/sentences/s_013.wav,content,665,22050,1,-1.37,-15.06,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_014,vi,Xe chạy nhanh.,assets/audio/vi/sentences/s_014.wav,content,612,22050,1,-1.37,-15.36,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_015,vi,Chim bay trên trời.,assets/audio/vi/sentences/s_015.wav,content,873,22050,1,-1.37,-13.33,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_016,vi,Thỏ ăn cà rốt.,assets/audio/vi/sentences/s_016.wav,content,784,22050,1,-1.37,-14.43,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_017,vi,Bé rửa tay.,assets/audio/vi/sentences/s_017.wav,content,647,22050,1,-1.37,-16.54,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_018,vi,Mẹ nấu cơm.,assets/audio/vi/sentences/s_018.wav,content,682,22050,1,-1.37,-14.84,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_019,vi,Ba đọc sách.,assets/audio/vi/sentences/s_019.wav,content,554,22050,1,-1.37,-16.29,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_020,vi,Em bé khóc.,assets/audio/vi/sentences/s_020.wav,content,448,22050,1,-1.37,-15.68,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_021,vi,Chị hát hay.,assets/audio/vi/sentences/s_021.wav,content,527,22050,1,-1.37,-13.12,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_022,vi,Ông kể chuyện.,assets/audio/vi/sentences/s_022.wav,content,627,22050,1,-1.37,-14.38,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_023,vi,Bà nấu canh.,assets/audio/vi/sentences/s_023.wav,content,651,22050,1,-1.37,-14.45,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_024,vi,Bé đánh răng.,assets/audio/vi/sentences/s_024.wav,content,634,22050,1,-1.37,-16.63,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_025,vi,Trăng tròn đêm.,assets/audio/vi/sentences/s_025.wav,content,629,22050,1,-1.37,-13.95,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_026,vi,Mưa rơi nhẹ.,assets/audio/vi/sentences/s_026.wav,content,632,22050,1,-1.37,-14.41,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_027,vi,Lá xanh trên cây.,assets/audio/vi/sentences/s_027.wav,content,879,22050,1,-1.37,-14.22,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_028,vi,Quả táo đỏ.,assets/audio/vi/sentences/s_028.wav,content,660,22050,1,-1.37,-15.08,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_029,vi,Bé chào cô.,assets/audio/vi/sentences/s_029.wav,content,753,22050,1,-1.37,-14.42,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_030,vi,Con yêu mẹ.,assets/audio/vi/sentences/s_030.wav,content,484,22050,1,-1.37,-16.37,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_031,vi,Bé ngồi ghế.,assets/audio/vi/sentences/s_031.wav,content,712,22050,1,-1.37,-13.18,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_032,vi,Sách ở trên bàn.,assets/audio/vi/sentences/s_032.wav,content,805,22050,1,-1.37,-14.2,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_033,vi,Đèn sáng rồi.,assets/audio/vi/sentences/s_033.wav,content,805,22050,1,-1.37,-13.55,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_034,vi,Chó chạy ngoài sân.,assets/audio/vi/sentences/s_034.wav,content,883,22050,1,-1.37,-14.37,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_035,vi,Mèo ngồi im.,assets/audio/vi/sentences/s_035.wav,content,607,22050,1,-1.37,-12.67,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_036,vi,Bé mặc áo.,assets/audio/vi/sentences/s_036.wav,content,713,22050,1,-1.37,-16.22,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_037,vi,Mẹ đi chợ.,assets/audio/vi/sentences/s_037.wav,content,615,22050,1,-1.37,-14.28,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_038,vi,Ba về nhà.,assets/audio/vi/sentences/s_038.wav,content,656,22050,1,-1.37,-14.26,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_039,vi,Bé ngủ ngon.,assets/audio/vi/sentences/s_039.wav,content,641,22050,1,-1.37,-15.01,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_040,vi,Hôm nay vui.,assets/audio/vi/sentences/s_040.wav,content,519,22050,1,-1.37,-12.66,VALID,assets/content/vietnamese/sentences.json,ok
+vi_sentence_041,vi,Con cảm ơn mẹ.,assets/audio/vi/sentences/s_041.wav,content,782,22050,1,-1.37,-15.74,VALID,assets/content/vietnamese/sentences.json,ok
+vi_phrase_gioi_lam,vi,Giỏi lắm,assets/audio/vi/phrases/gioi_lam.wav,phrase,877,22050,1,-3.46,-18.82,VALID,lib/core/audio/vietnamese_speech_catalog.dart|lib/features/creativity/presentation/creativity_screen.dart|lib/features/japanese/presentation/kana_lesson_screen.dart|lib/features/vietnamese/presentation/vietnamese_letter_lesson_screen.dart,ok
+vi_ph,vi,phờ,assets/audio/vi/phonics/vi_ph.wav,content,337,22050,1,-3.46,-16.34,UNUSED,,not referenced from dart/content
+vi_th,vi,thờ,assets/audio/vi/phonics/vi_th.wav,content,295,22050,1,-1.37,-11.24,UNUSED,,not referenced from dart/content
+vi_kh,vi,khờ,assets/audio/vi/phonics/vi_kh.wav,content,336,22050,1,-3.46,-15.83,UNUSED,,not referenced from dart/content
+vi_nh,vi,nhờ,assets/audio/vi/phonics/vi_nh.wav,content,283,22050,1,-1.37,-12.05,UNUSED,,not referenced from dart/content
+vi_ch,vi,chờ,assets/audio/vi/phonics/vi_ch.wav,content,307,22050,1,-1.37,-13.39,UNUSED,,not referenced from dart/content
+vi_tr,vi,trờ,assets/audio/vi/phonics/vi_tr.wav,content,283,22050,1,-1.37,-12.47,UNUSED,,not referenced from dart/content
+vi_gh,vi,gờ,assets/audio/vi/phonics/vi_gh.wav,content,306,22050,1,-1.37,-10.4,UNUSED,,not referenced from dart/content
+vi_ng,vi,ngờ,assets/audio/vi/phonics/vi_ng.wav,content,383,22050,1,-3.46,-15.74,UNUSED,,not referenced from dart/content
+vi_ngh,vi,nghờ,assets/audio/vi/phonics/vi_ngh.wav,content,348,22050,1,-3.46,-16.69,UNUSED,,not referenced from dart/content
+ja_h_a,ja,あ,assets/audio/ja/kana/h_a.wav,kana,220,22050,1,-1.37,-19.98,UNUSED,,not referenced from dart/content
+ja_h_a_example,ja,あめ,assets/audio/ja/examples/h_a.wav,kana,387,22050,1,-1.37,-14.35,VALID,,ok
+ja_h_i,ja,い,assets/audio/ja/kana/h_i.wav,kana,220,22050,1,-1.37,-14.77,UNUSED,,not referenced from dart/content
+ja_h_i_example,ja,いぬ,assets/audio/ja/examples/h_i.wav,kana,369,22050,1,-1.37,-13.23,VALID,,ok
+ja_h_u,ja,う,assets/audio/ja/kana/h_u.wav,kana,222,22050,1,-1.37,-13.92,UNUSED,,not referenced from dart/content
+ja_h_u_example,ja,うま,assets/audio/ja/examples/h_u.wav,kana,370,22050,1,-1.37,-13.77,VALID,,ok
+ja_h_e,ja,え,assets/audio/ja/kana/h_e.wav,kana,220,22050,1,-1.37,-16.22,UNUSED,,not referenced from dart/content
+ja_h_e_example,ja,えき,assets/audio/ja/examples/h_e.wav,kana,407,22050,1,-1.37,-17.09,VALID,,ok
+ja_h_o,ja,お,assets/audio/ja/kana/h_o.wav,kana,226,22050,1,-1.37,-15.41,UNUSED,,not referenced from dart/content
+ja_h_o_example,ja,おに,assets/audio/ja/examples/h_o.wav,kana,356,22050,1,-1.37,-16.13,VALID,,ok
+ja_h_ka,ja,か,assets/audio/ja/kana/h_ka.wav,kana,230,22050,1,-1.37,-19.19,UNUSED,,not referenced from dart/content
+ja_h_ka_example,ja,かさ,assets/audio/ja/examples/h_ka.wav,kana,414,22050,1,-1.37,-17.03,VALID,,ok
+ja_h_ki,ja,き,assets/audio/ja/kana/h_ki.wav,kana,273,22050,1,-1.37,-14.78,UNUSED,,not referenced from dart/content
+ja_h_ku,ja,く,assets/audio/ja/kana/h_ku.wav,kana,246,22050,1,-1.37,-14.48,UNUSED,,not referenced from dart/content
+ja_h_ku_example,ja,くち,assets/audio/ja/examples/h_ku.wav,kana,433,22050,1,-1.37,-17.38,VALID,,ok
+ja_h_ke,ja,け,assets/audio/ja/kana/h_ke.wav,kana,208,22050,1,-1.37,-18.66,UNUSED,,not referenced from dart/content
+ja_h_ko,ja,こ,assets/audio/ja/kana/h_ko.wav,kana,217,22050,1,-1.37,-18.5,UNUSED,,not referenced from dart/content
+ja_h_sa,ja,さ,assets/audio/ja/kana/h_sa.wav,kana,261,22050,1,-1.37,-20.95,UNUSED,,not referenced from dart/content
+ja_h_sa_example,ja,さかな,assets/audio/ja/examples/h_sa.wav,kana,551,22050,1,-1.37,-16.71,VALID,,ok
+ja_h_shi,ja,し,assets/audio/ja/kana/h_shi.wav,kana,332,22050,1,-1.37,-16.13,UNUSED,,not referenced from dart/content
+ja_h_shi_example,ja,しろ,assets/audio/ja/examples/h_shi.wav,kana,428,22050,1,-1.37,-16.04,VALID,,ok
+ja_h_su,ja,す,assets/audio/ja/kana/h_su.wav,kana,336,22050,1,-1.37,-18.06,UNUSED,,not referenced from dart/content
+ja_h_su_example,ja,すいか,assets/audio/ja/examples/h_su.wav,kana,544,22050,1,-1.37,-15.99,VALID,,ok
+ja_h_se,ja,せ,assets/audio/ja/kana/h_se.wav,kana,259,22050,1,-1.37,-19.94,UNUSED,,not referenced from dart/content
+ja_h_se_example,ja,せなか,assets/audio/ja/examples/h_se.wav,kana,608,22050,1,-1.37,-16.2,VALID,,ok
+ja_h_so,ja,そ,assets/audio/ja/kana/h_so.wav,kana,261,22050,1,-1.37,-18.65,UNUSED,,not referenced from dart/content
+ja_h_so_example,ja,そら,assets/audio/ja/examples/h_so.wav,kana,372,22050,1,-1.37,-16.78,VALID,,ok
+ja_h_ta,ja,た,assets/audio/ja/kana/h_ta.wav,kana,195,22050,1,-1.37,-19.01,UNUSED,,not referenced from dart/content
+ja_h_ta_example,ja,たまご,assets/audio/ja/examples/h_ta.wav,kana,537,22050,1,-1.37,-14.4,VALID,,ok
+ja_h_chi,ja,ち,assets/audio/ja/kana/h_chi.wav,kana,284,22050,1,-1.37,-14.53,UNUSED,,not referenced from dart/content
+ja_h_chi_example,ja,ちず,assets/audio/ja/examples/h_chi.wav,kana,429,22050,1,-1.37,-15.37,VALID,,ok
+ja_h_tsu,ja,つ,assets/audio/ja/kana/h_tsu.wav,kana,291,22050,1,-1.37,-15.2,UNUSED,,not referenced from dart/content
+ja_h_tsu_example,ja,つき,assets/audio/ja/examples/h_tsu.wav,kana,442,22050,1,-1.37,-18.85,VALID,,ok
+ja_h_te,ja,て,assets/audio/ja/kana/h_te.wav,kana,207,22050,1,-1.37,-17.34,UNUSED,,not referenced from dart/content
+ja_h_to,ja,と,assets/audio/ja/kana/h_to.wav,kana,223,22050,1,-1.37,-18.07,UNUSED,,not referenced from dart/content
+ja_h_to_example,ja,とり,assets/audio/ja/examples/h_to.wav,kana,280,22050,1,-1.37,-16.17,VALID,,ok
+ja_h_na,ja,な,assets/audio/ja/kana/h_na.wav,kana,224,22050,1,-1.37,-17.23,UNUSED,,not referenced from dart/content
+ja_h_na_example,ja,なまえ,assets/audio/ja/examples/h_na.wav,kana,512,22050,1,-1.37,-13.57,VALID,,ok
+ja_h_ni,ja,に,assets/audio/ja/kana/h_ni.wav,kana,266,22050,1,-1.37,-13.66,UNUSED,,not referenced from dart/content
+ja_h_ni_example,ja,にわ,assets/audio/ja/examples/h_ni.wav,kana,401,22050,1,-1.37,-14.41,VALID,,ok
+ja_h_nu,ja,ぬ,assets/audio/ja/kana/h_nu.wav,kana,256,22050,1,-1.37,-15.28,UNUSED,,not referenced from dart/content
+ja_h_nu_example,ja,ぬいぐるみ,assets/audio/ja/examples/h_nu.wav,kana,697,22050,1,-1.37,-12.22,VALID,,ok
+ja_h_ne,ja,ね,assets/audio/ja/kana/h_ne.wav,kana,235,22050,1,-1.37,-15.42,UNUSED,,not referenced from dart/content
+ja_h_ne_example,ja,ねこ,assets/audio/ja/examples/h_ne.wav,kana,399,22050,1,-1.37,-15.78,VALID,,ok
+ja_h_no,ja,の,assets/audio/ja/kana/h_no.wav,kana,234,22050,1,-1.37,-14.03,UNUSED,,not referenced from dart/content
+ja_h_no_example,ja,のり,assets/audio/ja/examples/h_no.wav,kana,340,22050,1,-1.37,-13.61,VALID,,ok
+ja_h_ha,ja,は,assets/audio/ja/kana/h_ha.wav,kana,219,22050,1,-1.37,-18.78,UNUSED,,not referenced from dart/content
+ja_h_ha_example,ja,はな,assets/audio/ja/examples/h_ha.wav,kana,358,22050,1,-1.37,-15.85,VALID,,ok
+ja_h_hi,ja,ひ,assets/audio/ja/kana/h_hi.wav,kana,254,22050,1,-1.37,-13.9,UNUSED,,not referenced from dart/content
+ja_h_hi_example,ja,ひこうき,assets/audio/ja/examples/h_hi.wav,kana,603,22050,1,-1.37,-17.84,VALID,,ok
+ja_h_fu,ja,ふ,assets/audio/ja/kana/h_fu.wav,kana,263,22050,1,-1.37,-14.98,UNUSED,,not referenced from dart/content
+ja_h_fu_example,ja,ふね,assets/audio/ja/examples/h_fu.wav,kana,338,22050,1,-1.37,-15.33,VALID,,ok
+ja_h_he,ja,へ,assets/audio/ja/kana/h_he.wav,kana,230,22050,1,-1.37,-18.19,UNUSED,,not referenced from dart/content
+ja_h_he_example,ja,へび,assets/audio/ja/examples/h_he.wav,kana,348,22050,1,-1.37,-16.22,VALID,,ok
+ja_h_ho,ja,ほ,assets/audio/ja/kana/h_ho.wav,kana,205,22050,1,-1.37,-17.98,UNUSED,,not referenced from dart/content
+ja_h_ho_example,ja,ほし,assets/audio/ja/examples/h_ho.wav,kana,399,22050,1,-1.37,-19.39,VALID,,ok
+ja_h_ma,ja,ま,assets/audio/ja/kana/h_ma.wav,kana,233,22050,1,-1.37,-18.14,UNUSED,,not referenced from dart/content
+ja_h_ma_example,ja,まど,assets/audio/ja/examples/h_ma.wav,kana,376,22050,1,-1.37,-15.41,VALID,,ok
+ja_h_mi,ja,み,assets/audio/ja/kana/h_mi.wav,kana,250,22050,1,-1.37,-14.96,UNUSED,,not referenced from dart/content
+ja_h_mi_example,ja,みず,assets/audio/ja/examples/h_mi.wav,kana,382,22050,1,-1.37,-16.13,VALID,,ok
+ja_h_mu,ja,む,assets/audio/ja/kana/h_mu.wav,kana,266,22050,1,-1.37,-13.93,UNUSED,,not referenced from dart/content
+ja_h_mu_example,ja,むし,assets/audio/ja/examples/h_mu.wav,kana,461,22050,1,-1.37,-16.31,VALID,,ok
+ja_h_me,ja,め,assets/audio/ja/kana/h_me.wav,kana,256,22050,1,-1.37,-16.43,UNUSED,,not referenced from dart/content
+ja_h_mo,ja,も,assets/audio/ja/kana/h_mo.wav,kana,237,22050,1,-1.37,-16.78,UNUSED,,not referenced from dart/content
+ja_h_mo_example,ja,もも,assets/audio/ja/examples/h_mo.wav,kana,376,22050,1,-1.37,-16.11,VALID,,ok
+ja_h_ya,ja,や,assets/audio/ja/kana/h_ya.wav,kana,233,22050,1,-1.37,-16.46,UNUSED,,not referenced from dart/content
+ja_h_ya_example,ja,やま,assets/audio/ja/examples/h_ya.wav,kana,388,22050,1,-1.37,-16.62,VALID,,ok
+ja_h_yu,ja,ゆ,assets/audio/ja/kana/h_yu.wav,kana,197,22050,1,-1.37,-14.54,UNUSED,,not referenced from dart/content
+ja_h_yu_example,ja,ゆき,assets/audio/ja/examples/h_yu.wav,kana,444,22050,1,-1.37,-16.33,VALID,,ok
+ja_h_yo,ja,よ,assets/audio/ja/kana/h_yo.wav,kana,242,22050,1,-1.37,-15.23,UNUSED,,not referenced from dart/content
+ja_h_yo_example,ja,よる,assets/audio/ja/examples/h_yo.wav,kana,355,22050,1,-1.37,-16.25,VALID,,ok
+ja_h_ra,ja,ら,assets/audio/ja/kana/h_ra.wav,kana,235,22050,1,-1.37,-16.05,UNUSED,,not referenced from dart/content
+ja_h_ra_example,ja,らいおん,assets/audio/ja/examples/h_ra.wav,kana,565,22050,1,-1.37,-13.16,VALID,,ok
+ja_h_ri,ja,り,assets/audio/ja/kana/h_ri.wav,kana,210,22050,1,-1.37,-14.4,UNUSED,,not referenced from dart/content
+ja_h_ri_example,ja,りんご,assets/audio/ja/examples/h_ri.wav,kana,511,22050,1,-1.37,-13.78,VALID,,ok
+ja_h_ru,ja,る,assets/audio/ja/kana/h_ru.wav,kana,232,22050,1,-1.37,-13.36,UNUSED,,not referenced from dart/content
+ja_h_ru_example,ja,るす,assets/audio/ja/examples/h_ru.wav,kana,465,22050,1,-1.37,-17.17,VALID,,ok
+ja_h_re,ja,れ,assets/audio/ja/kana/h_re.wav,kana,237,22050,1,-1.37,-16.45,UNUSED,,not referenced from dart/content
+ja_h_re_example,ja,れもん,assets/audio/ja/examples/h_re.wav,kana,470,22050,1,-1.37,-13.99,VALID,,ok
+ja_h_ro,ja,ろ,assets/audio/ja/kana/h_ro.wav,kana,230,22050,1,-1.37,-15.46,UNUSED,,not referenced from dart/content
+ja_h_ro_example,ja,ろうそく,assets/audio/ja/examples/h_ro.wav,kana,709,22050,1,-1.37,-16.03,VALID,,ok
+ja_h_wa,ja,わ,assets/audio/ja/kana/h_wa.wav,kana,232,22050,1,-1.37,-18.05,UNUSED,,not referenced from dart/content
+ja_h_wa_example,ja,わたし,assets/audio/ja/examples/h_wa.wav,kana,595,22050,1,-1.37,-17.32,VALID,,ok
+ja_h_wo,ja,を,assets/audio/ja/kana/h_wo.wav,kana,226,22050,1,-1.37,-15.41,UNUSED,,not referenced from dart/content
+ja_h_n,ja,ん,assets/audio/ja/kana/h_n.wav,kana,200,22050,1,-1.37,-15.24,UNUSED,,not referenced from dart/content
+ja_h_choon,ja,ー,assets/audio/ja/kana/h_choon.wav,kana,370,22050,1,-1.37,-16.34,UNUSED,,not referenced from dart/content
+ja_h_ga,ja,が,assets/audio/ja/kana/h_ga.wav,kana,241,22050,1,-1.37,-17.73,UNUSED,,not referenced from dart/content
+ja_h_ga_example,ja,がっこう,assets/audio/ja/examples/h_ga.wav,kana,641,22050,1,-1.37,-17.16,VALID,,ok
+ja_h_gi,ja,ぎ,assets/audio/ja/kana/h_gi.wav,kana,278,22050,1,-1.37,-15.72,UNUSED,,not referenced from dart/content
+ja_h_gi_example,ja,ぎゅうにゅう,assets/audio/ja/examples/h_gi.wav,kana,648,22050,1,-1.37,-12.31,VALID,,ok
+ja_h_gu,ja,ぐ,assets/audio/ja/kana/h_gu.wav,kana,284,22050,1,-1.37,-13.55,UNUSED,,not referenced from dart/content
+ja_h_gu_example,ja,ぐみ,assets/audio/ja/examples/h_gu.wav,kana,401,22050,1,-1.37,-13.2,VALID,,ok
+ja_h_ge,ja,げ,assets/audio/ja/kana/h_ge.wav,kana,231,22050,1,-1.37,-15.69,UNUSED,,not referenced from dart/content
+ja_h_ge_example,ja,げんき,assets/audio/ja/examples/h_ge.wav,kana,548,22050,1,-1.37,-15.98,VALID,,ok
+ja_h_go,ja,ご,assets/audio/ja/kana/h_go.wav,kana,234,22050,1,-1.37,-17.17,UNUSED,,not referenced from dart/content
+ja_h_go_example,ja,ごはん,assets/audio/ja/examples/h_go.wav,kana,515,22050,1,-1.37,-17.49,VALID,,ok
+ja_h_za,ja,ざ,assets/audio/ja/kana/h_za.wav,kana,251,22050,1,-1.37,-19.0,UNUSED,,not referenced from dart/content
+ja_h_za_example,ja,ざっし,assets/audio/ja/examples/h_za.wav,kana,585,22050,1,-1.37,-17.87,VALID,,ok
+ja_h_ji,ja,じ,assets/audio/ja/kana/h_ji.wav,kana,281,22050,1,-1.37,-13.97,UNUSED,,not referenced from dart/content
+ja_h_ji_example,ja,じかん,assets/audio/ja/examples/h_ji.wav,kana,524,22050,1,-1.37,-16.7,VALID,,ok
+ja_h_zu,ja,ず,assets/audio/ja/kana/h_zu.wav,kana,316,22050,1,-1.37,-14.19,UNUSED,,not referenced from dart/content
+ja_h_zu_example,ja,みず,assets/audio/ja/examples/h_zu.wav,kana,382,22050,1,-1.37,-16.13,VALID,,ok
+ja_h_ze,ja,ぜ,assets/audio/ja/kana/h_ze.wav,kana,249,22050,1,-1.37,-18.09,UNUSED,,not referenced from dart/content
+ja_h_ze_example,ja,ぜんぶ,assets/audio/ja/examples/h_ze.wav,kana,547,22050,1,-1.37,-15.87,VALID,,ok
+ja_h_zo,ja,ぞ,assets/audio/ja/kana/h_zo.wav,kana,269,22050,1,-1.37,-18.75,UNUSED,,not referenced from dart/content
+ja_h_zo_example,ja,ぞう,assets/audio/ja/examples/h_zo.wav,kana,371,22050,1,-1.37,-15.86,VALID,,ok
+ja_h_da,ja,だ,assets/audio/ja/kana/h_da.wav,kana,214,22050,1,-1.37,-18.33,UNUSED,,not referenced from dart/content
+ja_h_da_example,ja,だれ,assets/audio/ja/examples/h_da.wav,kana,372,22050,1,-1.37,-16.39,VALID,,ok
+ja_h_dji,ja,ぢ,assets/audio/ja/kana/h_dji.wav,kana,281,22050,1,-1.37,-13.97,UNUSED,,not referenced from dart/content
+ja_h_dji_example,ja,はなぢ,assets/audio/ja/examples/h_dji.wav,kana,520,22050,1,-1.37,-15.43,VALID,,ok
+ja_h_dzu,ja,づ,assets/audio/ja/kana/h_dzu.wav,kana,316,22050,1,-1.37,-14.19,UNUSED,,not referenced from dart/content
+ja_h_dzu_example,ja,つづく,assets/audio/ja/examples/h_dzu.wav,kana,560,22050,1,-1.37,-15.22,VALID,,ok
+ja_h_de,ja,で,assets/audio/ja/kana/h_de.wav,kana,214,22050,1,-1.37,-16.99,UNUSED,,not referenced from dart/content
+ja_h_de_example,ja,でんしゃ,assets/audio/ja/examples/h_de.wav,kana,584,22050,1,-1.37,-16.63,VALID,,ok
+ja_h_do,ja,ど,assets/audio/ja/kana/h_do.wav,kana,222,22050,1,-1.37,-18.07,UNUSED,,not referenced from dart/content
+ja_h_do_example,ja,ドア,assets/audio/ja/examples/h_do.wav,kana,417,22050,1,-1.37,-15.83,VALID,,ok
+ja_h_ba,ja,ば,assets/audio/ja/kana/h_ba.wav,kana,227,22050,1,-1.37,-19.17,UNUSED,,not referenced from dart/content
+ja_h_ba_example,ja,ばなな,assets/audio/ja/examples/h_ba.wav,kana,497,22050,1,-1.37,-15.4,VALID,,ok
+ja_h_bi,ja,び,assets/audio/ja/kana/h_bi.wav,kana,237,22050,1,-1.37,-15.44,UNUSED,,not referenced from dart/content
+ja_h_bi_example,ja,びょういん,assets/audio/ja/examples/h_bi.wav,kana,575,22050,1,-1.37,-12.32,VALID,,ok
+ja_h_bu,ja,ぶ,assets/audio/ja/kana/h_bu.wav,kana,260,22050,1,-1.37,-13.54,UNUSED,,not referenced from dart/content
+ja_h_bu_example,ja,ぶた,assets/audio/ja/examples/h_bu.wav,kana,406,22050,1,-1.37,-16.43,VALID,,ok
+ja_h_be,ja,べ,assets/audio/ja/kana/h_be.wav,kana,230,22050,1,-1.37,-16.88,UNUSED,,not referenced from dart/content
+ja_h_be_example,ja,べんとう,assets/audio/ja/examples/h_be.wav,kana,582,22050,1,-1.37,-15.43,VALID,,ok
+ja_h_bo,ja,ぼ,assets/audio/ja/kana/h_bo.wav,kana,225,22050,1,-1.37,-17.13,UNUSED,,not referenced from dart/content
+ja_h_bo_example,ja,ぼうし,assets/audio/ja/examples/h_bo.wav,kana,564,22050,1,-1.37,-16.33,VALID,,ok
+ja_h_pa,ja,ぱ,assets/audio/ja/kana/h_pa.wav,kana,211,22050,1,-1.37,-18.8,UNUSED,,not referenced from dart/content
+ja_h_pa_example,ja,パン,assets/audio/ja/examples/h_pa.wav,kana,303,22050,1,-1.37,-17.8,VALID,,ok
+ja_h_pi,ja,ぴ,assets/audio/ja/kana/h_pi.wav,kana,240,22050,1,-1.37,-13.07,UNUSED,,not referenced from dart/content
+ja_h_pi_example,ja,ピアノ,assets/audio/ja/examples/h_pi.wav,kana,450,22050,1,-1.37,-13.71,VALID,,ok
+ja_h_pu,ja,ぷ,assets/audio/ja/kana/h_pu.wav,kana,226,22050,1,-1.37,-13.81,UNUSED,,not referenced from dart/content
+ja_h_pu_example,ja,プール,assets/audio/ja/examples/h_pu.wav,kana,409,22050,1,-1.37,-12.75,VALID,,ok
+ja_h_pe,ja,ぺ,assets/audio/ja/kana/h_pe.wav,kana,217,22050,1,-1.37,-18.94,UNUSED,,not referenced from dart/content
+ja_h_pe_example,ja,ペン,assets/audio/ja/examples/h_pe.wav,kana,272,22050,1,-1.37,-14.35,VALID,,ok
+ja_h_po,ja,ぽ,assets/audio/ja/kana/h_po.wav,kana,211,22050,1,-1.37,-18.52,UNUSED,,not referenced from dart/content
+ja_h_po_example,ja,ポスト,assets/audio/ja/examples/h_po.wav,kana,538,22050,1,-1.37,-18.66,VALID,,ok
+ja_h_small_a,ja,ぁ,assets/audio/ja/kana/h_small_a.wav,kana,220,22050,1,-1.37,-19.98,UNUSED,,not referenced from dart/content
+ja_h_small_i,ja,ぃ,assets/audio/ja/kana/h_small_i.wav,kana,219,22050,1,-1.37,-14.77,UNUSED,,not referenced from dart/content
+ja_h_small_u,ja,ぅ,assets/audio/ja/kana/h_small_u.wav,kana,222,22050,1,-1.37,-13.92,UNUSED,,not referenced from dart/content
+ja_h_small_e,ja,ぇ,assets/audio/ja/kana/h_small_e.wav,kana,220,22050,1,-1.37,-16.22,UNUSED,,not referenced from dart/content
+ja_h_small_o,ja,ぉ,assets/audio/ja/kana/h_small_o.wav,kana,226,22050,1,-1.37,-15.41,UNUSED,,not referenced from dart/content
+ja_h_small_ya,ja,ゃ,assets/audio/ja/kana/h_small_ya.wav,kana,233,22050,1,-1.37,-16.46,UNUSED,,not referenced from dart/content
+ja_h_small_yu,ja,ゅ,assets/audio/ja/kana/h_small_yu.wav,kana,197,22050,1,-1.37,-14.54,UNUSED,,not referenced from dart/content
+ja_h_small_yo,ja,ょ,assets/audio/ja/kana/h_small_yo.wav,kana,236,22050,1,-1.37,-15.1,UNUSED,,not referenced from dart/content
+ja_h_sokuon,ja,っ,assets/audio/ja/kana/h_sokuon.wav,kana,100,22050,1,-1.37,-12.29,UNUSED,,not referenced from dart/content
+ja_h_kya,ja,きゃ,assets/audio/ja/kana/h_kya.wav,kana,281,22050,1,-1.37,-16.28,UNUSED,,not referenced from dart/content
+ja_h_kya_example,ja,きゃべつ,assets/audio/ja/examples/h_kya.wav,kana,615,22050,1,-1.37,-17.22,VALID,,ok
+ja_h_kyu,ja,きゅ,assets/audio/ja/kana/h_kyu.wav,kana,256,22050,1,-1.37,-13.49,UNUSED,,not referenced from dart/content
+ja_h_kyu_example,ja,きゅうり,assets/audio/ja/examples/h_kyu.wav,kana,474,22050,1,-1.37,-11.92,VALID,,ok
+ja_h_kyo,ja,きょ,assets/audio/ja/kana/h_kyo.wav,kana,290,22050,1,-1.37,-14.69,UNUSED,,not referenced from dart/content
+ja_h_kyo_example,ja,きょう,assets/audio/ja/examples/h_kyo.wav,kana,348,22050,1,-1.37,-15.41,VALID,,ok
+ja_h_sha,ja,しゃ,assets/audio/ja/kana/h_sha.wav,kana,334,22050,1,-1.37,-17.32,UNUSED,,not referenced from dart/content
+ja_h_sha_example,ja,しゃしん,assets/audio/ja/examples/h_sha.wav,kana,583,22050,1,-1.37,-16.04,VALID,,ok
+ja_h_shu,ja,しゅ,assets/audio/ja/kana/h_shu.wav,kana,335,22050,1,-1.37,-15.27,UNUSED,,not referenced from dart/content
+ja_h_shu_example,ja,しゅみ,assets/audio/ja/examples/h_shu.wav,kana,454,22050,1,-1.37,-14.03,VALID,,ok
+ja_h_sho,ja,しょ,assets/audio/ja/kana/h_sho.wav,kana,349,22050,1,-1.37,-15.96,UNUSED,,not referenced from dart/content
+ja_h_sho_example,ja,しょうゆ,assets/audio/ja/examples/h_sho.wav,kana,507,22050,1,-1.37,-12.78,VALID,,ok
+ja_h_cha,ja,ちゃ,assets/audio/ja/kana/h_cha.wav,kana,264,22050,1,-1.37,-16.74,UNUSED,,not referenced from dart/content
+ja_h_chu,ja,ちゅ,assets/audio/ja/kana/h_chu.wav,kana,259,22050,1,-1.37,-14.2,UNUSED,,not referenced from dart/content
+ja_h_chu_example,ja,ちゅうい,assets/audio/ja/examples/h_chu.wav,kana,487,22050,1,-1.37,-12.86,VALID,,ok
+ja_h_cho,ja,ちょ,assets/audio/ja/kana/h_cho.wav,kana,290,22050,1,-1.37,-14.6,UNUSED,,not referenced from dart/content
+ja_h_cho_example,ja,チョコ,assets/audio/ja/examples/h_cho.wav,kana,382,22050,1,-1.37,-16.45,VALID,,ok
+ja_h_nya,ja,にゃ,assets/audio/ja/kana/h_nya.wav,kana,276,22050,1,-1.37,-14.98,UNUSED,,not referenced from dart/content
+ja_h_nya_example,ja,にゃんこ,assets/audio/ja/examples/h_nya.wav,kana,574,22050,1,-1.37,-15.18,VALID,,ok
+ja_h_nyu,ja,にゅ,assets/audio/ja/kana/h_nyu.wav,kana,238,22050,1,-1.37,-12.78,UNUSED,,not referenced from dart/content
+ja_h_nyu_example,ja,にゅうがく,assets/audio/ja/examples/h_nyu.wav,kana,664,22050,1,-1.37,-13.89,VALID,,ok
+ja_h_nyo,ja,にょ,assets/audio/ja/kana/h_nyo.wav,kana,287,22050,1,-1.37,-13.44,UNUSED,,not referenced from dart/content
+ja_h_nyo_example,ja,にょろにょろ,assets/audio/ja/examples/h_nyo.wav,kana,655,22050,1,-1.37,-14.08,VALID,,ok
+ja_h_hya,ja,ひゃ,assets/audio/ja/kana/h_hya.wav,kana,276,22050,1,-1.37,-16.17,UNUSED,,not referenced from dart/content
+ja_h_hyu,ja,ひゅ,assets/audio/ja/kana/h_hyu.wav,kana,258,22050,1,-1.37,-15.71,UNUSED,,not referenced from dart/content
+ja_h_hyo,ja,ひょ,assets/audio/ja/kana/h_hyo.wav,kana,279,22050,1,-1.37,-14.68,UNUSED,,not referenced from dart/content
+ja_h_mya,ja,みゃ,assets/audio/ja/kana/h_mya.wav,kana,288,22050,1,-1.37,-15.4,UNUSED,,not referenced from dart/content
+ja_h_myu,ja,みゅ,assets/audio/ja/kana/h_myu.wav,kana,248,22050,1,-1.37,-13.17,UNUSED,,not referenced from dart/content
+ja_h_myo,ja,みょ,assets/audio/ja/kana/h_myo.wav,kana,297,22050,1,-1.37,-13.8,UNUSED,,not referenced from dart/content
+ja_h_rya,ja,りゃ,assets/audio/ja/kana/h_rya.wav,kana,287,22050,1,-1.37,-15.06,UNUSED,,not referenced from dart/content
+ja_h_ryu,ja,りゅ,assets/audio/ja/kana/h_ryu.wav,kana,253,22050,1,-1.37,-13.35,UNUSED,,not referenced from dart/content
+ja_h_ryo,ja,りょ,assets/audio/ja/kana/h_ryo.wav,kana,305,22050,1,-1.37,-13.37,UNUSED,,not referenced from dart/content
+ja_h_gya,ja,ぎゃ,assets/audio/ja/kana/h_gya.wav,kana,285,22050,1,-1.37,-16.35,UNUSED,,not referenced from dart/content
+ja_h_gyu,ja,ぎゅ,assets/audio/ja/kana/h_gyu.wav,kana,259,22050,1,-1.37,-13.66,UNUSED,,not referenced from dart/content
+ja_h_gyo,ja,ぎょ,assets/audio/ja/kana/h_gyo.wav,kana,309,22050,1,-1.37,-13.75,UNUSED,,not referenced from dart/content
+ja_h_ja,ja,じゃ,assets/audio/ja/kana/h_ja.wav,kana,294,22050,1,-1.37,-16.8,UNUSED,,not referenced from dart/content
+ja_h_ju,ja,じゅ,assets/audio/ja/kana/h_ju.wav,kana,268,22050,1,-1.37,-12.86,UNUSED,,not referenced from dart/content
+ja_h_jo,ja,じょ,assets/audio/ja/kana/h_jo.wav,kana,305,22050,1,-1.37,-14.47,UNUSED,,not referenced from dart/content
+ja_h_bya,ja,びゃ,assets/audio/ja/kana/h_bya.wav,kana,278,22050,1,-1.37,-15.88,UNUSED,,not referenced from dart/content
+ja_h_byu,ja,びゅ,assets/audio/ja/kana/h_byu.wav,kana,259,22050,1,-1.37,-12.92,UNUSED,,not referenced from dart/content
+ja_h_byo,ja,びょ,assets/audio/ja/kana/h_byo.wav,kana,291,22050,1,-1.37,-13.85,UNUSED,,not referenced from dart/content
+ja_h_pya,ja,ぴゃ,assets/audio/ja/kana/h_pya.wav,kana,259,22050,1,-1.37,-16.09,UNUSED,,not referenced from dart/content
+ja_h_pyu,ja,ぴゅ,assets/audio/ja/kana/h_pyu.wav,kana,238,22050,1,-1.37,-13.03,UNUSED,,not referenced from dart/content
+ja_h_pyo,ja,ぴょ,assets/audio/ja/kana/h_pyo.wav,kana,285,22050,1,-1.37,-13.94,UNUSED,,not referenced from dart/content
+ja_k_a,ja,ア,assets/audio/ja/kana/k_a.wav,kana,220,22050,1,-1.37,-19.98,UNUSED,,not referenced from dart/content
+ja_k_a_example,ja,アイス,assets/audio/ja/examples/k_a.wav,kana,516,22050,1,-1.37,-14.72,VALID,,ok
+ja_k_i,ja,イ,assets/audio/ja/kana/k_i.wav,kana,220,22050,1,-1.37,-14.77,UNUSED,,not referenced from dart/content
+ja_k_i_example,ja,イス,assets/audio/ja/examples/k_i.wav,kana,457,22050,1,-1.37,-16.82,VALID,,ok
+ja_k_u,ja,ウ,assets/audio/ja/kana/k_u.wav,kana,222,22050,1,-1.37,-13.92,UNUSED,,not referenced from dart/content
+ja_k_u_example,ja,ウサギ,assets/audio/ja/examples/k_u.wav,kana,580,22050,1,-1.37,-16.06,VALID,,ok
+ja_k_e,ja,エ,assets/audio/ja/kana/k_e.wav,kana,220,22050,1,-1.37,-16.22,UNUSED,,not referenced from dart/content
+ja_k_e_example,ja,エビ,assets/audio/ja/examples/k_e.wav,kana,371,22050,1,-1.37,-15.77,VALID,,ok
+ja_k_o,ja,オ,assets/audio/ja/kana/k_o.wav,kana,226,22050,1,-1.37,-15.41,UNUSED,,not referenced from dart/content
+ja_k_o_example,ja,オレンジ,assets/audio/ja/examples/k_o.wav,kana,568,22050,1,-1.37,-13.11,VALID,,ok
+ja_k_ka,ja,カ,assets/audio/ja/kana/k_ka.wav,kana,230,22050,1,-1.37,-19.18,UNUSED,,not referenced from dart/content
+ja_k_ka_example,ja,カメ,assets/audio/ja/examples/k_ka.wav,kana,400,22050,1,-1.37,-17.0,VALID,,ok
+ja_k_ki,ja,キ,assets/audio/ja/kana/k_ki.wav,kana,273,22050,1,-1.37,-14.78,UNUSED,,not referenced from dart/content
+ja_k_ki_example,ja,キリン,assets/audio/ja/examples/k_ki.wav,kana,438,22050,1,-1.37,-15.27,VALID,,ok
+ja_k_ku,ja,ク,assets/audio/ja/kana/k_ku.wav,kana,245,22050,1,-1.37,-14.56,UNUSED,,not referenced from dart/content
+ja_k_ku_example,ja,クマ,assets/audio/ja/examples/k_ku.wav,kana,359,22050,1,-1.37,-16.58,VALID,,ok
+ja_k_ke,ja,ケ,assets/audio/ja/kana/k_ke.wav,kana,208,22050,1,-1.37,-18.66,UNUSED,,not referenced from dart/content
+ja_k_ke_example,ja,ケーキ,assets/audio/ja/examples/k_ke.wav,kana,531,22050,1,-1.37,-15.84,VALID,,ok
+ja_k_ko,ja,コ,assets/audio/ja/kana/k_ko.wav,kana,217,22050,1,-1.37,-18.5,UNUSED,,not referenced from dart/content
+ja_k_ko_example,ja,コアラ,assets/audio/ja/examples/k_ko.wav,kana,451,22050,1,-1.37,-15.8,VALID,,ok
+ja_k_sa,ja,サ,assets/audio/ja/kana/k_sa.wav,kana,261,22050,1,-1.37,-20.95,UNUSED,,not referenced from dart/content
+ja_k_sa_example,ja,サル,assets/audio/ja/examples/k_sa.wav,kana,354,22050,1,-1.37,-18.48,VALID,,ok
+ja_k_shi,ja,シ,assets/audio/ja/kana/k_shi.wav,kana,332,22050,1,-1.37,-16.13,UNUSED,,not referenced from dart/content
+ja_k_shi_example,ja,シマ,assets/audio/ja/examples/k_shi.wav,kana,425,22050,1,-1.37,-17.6,VALID,,ok
+ja_k_su,ja,ス,assets/audio/ja/kana/k_su.wav,kana,349,22050,1,-1.37,-18.93,UNUSED,,not referenced from dart/content
+ja_k_su_example,ja,スイカ,assets/audio/ja/examples/k_su.wav,kana,544,22050,1,-1.37,-15.99,VALID,,ok
+ja_k_se,ja,セ,assets/audio/ja/kana/k_se.wav,kana,259,22050,1,-1.37,-19.94,UNUSED,,not referenced from dart/content
+ja_k_se_example,ja,セミ,assets/audio/ja/examples/k_se.wav,kana,408,22050,1,-1.37,-15.55,VALID,,ok
+ja_k_so,ja,ソ,assets/audio/ja/kana/k_so.wav,kana,260,22050,1,-1.37,-18.65,UNUSED,,not referenced from dart/content
+ja_k_so_example,ja,ソファ,assets/audio/ja/examples/k_so.wav,kana,507,22050,1,-1.37,-17.52,VALID,,ok
+ja_k_ta,ja,タ,assets/audio/ja/kana/k_ta.wav,kana,195,22050,1,-1.37,-19.01,UNUSED,,not referenced from dart/content
+ja_k_ta_example,ja,タコ,assets/audio/ja/examples/k_ta.wav,kana,398,22050,1,-1.37,-17.05,VALID,,ok
+ja_k_chi,ja,チ,assets/audio/ja/kana/k_chi.wav,kana,284,22050,1,-1.37,-14.53,UNUSED,,not referenced from dart/content
+ja_k_chi_example,ja,チーズ,assets/audio/ja/examples/k_chi.wav,kana,483,22050,1,-1.37,-13.84,VALID,,ok
+ja_k_tsu,ja,ツ,assets/audio/ja/kana/k_tsu.wav,kana,281,22050,1,-1.37,-14.83,UNUSED,,not referenced from dart/content
+ja_k_tsu_example,ja,ツナ,assets/audio/ja/examples/k_tsu.wav,kana,363,22050,1,-1.37,-16.77,VALID,,ok
+ja_k_te,ja,テ,assets/audio/ja/kana/k_te.wav,kana,207,22050,1,-1.37,-17.34,UNUSED,,not referenced from dart/content
+ja_k_te_example,ja,テレビ,assets/audio/ja/examples/k_te.wav,kana,466,22050,1,-1.37,-15.78,VALID,,ok
+ja_k_to,ja,ト,assets/audio/ja/kana/k_to.wav,kana,223,22050,1,-1.37,-18.07,UNUSED,,not referenced from dart/content
+ja_k_to_example,ja,トマト,assets/audio/ja/examples/k_to.wav,kana,491,22050,1,-1.37,-15.92,VALID,,ok
+ja_k_na,ja,ナ,assets/audio/ja/kana/k_na.wav,kana,224,22050,1,-1.37,-17.23,UNUSED,,not referenced from dart/content
+ja_k_na_example,ja,ナシ,assets/audio/ja/examples/k_na.wav,kana,485,22050,1,-1.37,-15.83,VALID,,ok
+ja_k_ni,ja,ニ,assets/audio/ja/kana/k_ni.wav,kana,266,22050,1,-1.37,-13.66,UNUSED,,not referenced from dart/content
+ja_k_ni_example,ja,ニワトリ,assets/audio/ja/examples/k_ni.wav,kana,607,22050,1,-1.37,-15.22,VALID,,ok
+ja_k_nu,ja,ヌ,assets/audio/ja/kana/k_nu.wav,kana,256,22050,1,-1.37,-14.97,UNUSED,,not referenced from dart/content
+ja_k_nu_example,ja,ヌードル,assets/audio/ja/examples/k_nu.wav,kana,541,22050,1,-1.37,-13.48,VALID,,ok
+ja_k_ne,ja,ネ,assets/audio/ja/kana/k_ne.wav,kana,235,22050,1,-1.37,-15.42,UNUSED,,not referenced from dart/content
+ja_k_ne_example,ja,ネコ,assets/audio/ja/examples/k_ne.wav,kana,399,22050,1,-1.37,-15.78,VALID,,ok
+ja_k_no,ja,ノ,assets/audio/ja/kana/k_no.wav,kana,235,22050,1,-1.37,-14.02,UNUSED,,not referenced from dart/content
+ja_k_no_example,ja,ノート,assets/audio/ja/examples/k_no.wav,kana,460,22050,1,-1.37,-15.51,VALID,,ok
+ja_k_ha,ja,ハ,assets/audio/ja/kana/k_ha.wav,kana,224,22050,1,-1.37,-18.62,UNUSED,,not referenced from dart/content
+ja_k_ha_example,ja,ハチ,assets/audio/ja/examples/k_ha.wav,kana,432,22050,1,-1.37,-17.81,VALID,,ok
+ja_k_hi,ja,ヒ,assets/audio/ja/kana/k_hi.wav,kana,254,22050,1,-1.37,-13.9,UNUSED,,not referenced from dart/content
+ja_k_hi_example,ja,ヒツジ,assets/audio/ja/examples/k_hi.wav,kana,523,22050,1,-1.37,-15.61,VALID,,ok
+ja_k_fu,ja,フ,assets/audio/ja/kana/k_fu.wav,kana,263,22050,1,-1.37,-14.98,UNUSED,,not referenced from dart/content
+ja_k_fu_example,ja,フルーツ,assets/audio/ja/examples/k_fu.wav,kana,666,22050,1,-1.37,-13.7,VALID,,ok
+ja_k_he,ja,ヘ,assets/audio/ja/kana/k_he.wav,kana,230,22050,1,-1.37,-18.19,UNUSED,,not referenced from dart/content
+ja_k_he_example,ja,ヘリ,assets/audio/ja/examples/k_he.wav,kana,295,22050,1,-1.37,-16.67,VALID,,ok
+ja_k_ho,ja,ホ,assets/audio/ja/kana/k_ho.wav,kana,205,22050,1,-1.37,-17.98,UNUSED,,not referenced from dart/content
+ja_k_ho_example,ja,ホシ,assets/audio/ja/examples/k_ho.wav,kana,442,22050,1,-1.37,-18.93,VALID,,ok
+ja_k_ma,ja,マ,assets/audio/ja/kana/k_ma.wav,kana,233,22050,1,-1.37,-18.14,UNUSED,,not referenced from dart/content
+ja_k_ma_example,ja,マスク,assets/audio/ja/examples/k_ma.wav,kana,545,22050,1,-1.37,-19.34,VALID,,ok
+ja_k_mi,ja,ミ,assets/audio/ja/kana/k_mi.wav,kana,250,22050,1,-1.37,-14.96,UNUSED,,not referenced from dart/content
+ja_k_mi_example,ja,ミカン,assets/audio/ja/examples/k_mi.wav,kana,456,22050,1,-1.37,-16.3,VALID,,ok
+ja_k_mu,ja,ム,assets/audio/ja/kana/k_mu.wav,kana,266,22050,1,-1.37,-13.93,UNUSED,,not referenced from dart/content
+ja_k_mu_example,ja,ムシ,assets/audio/ja/examples/k_mu.wav,kana,461,22050,1,-1.37,-16.31,VALID,,ok
+ja_k_me,ja,メ,assets/audio/ja/kana/k_me.wav,kana,256,22050,1,-1.37,-16.43,UNUSED,,not referenced from dart/content
+ja_k_me_example,ja,メロン,assets/audio/ja/examples/k_me.wav,kana,442,22050,1,-1.37,-14.41,VALID,,ok
+ja_k_mo,ja,モ,assets/audio/ja/kana/k_mo.wav,kana,237,22050,1,-1.37,-16.78,UNUSED,,not referenced from dart/content
+ja_k_mo_example,ja,モモ,assets/audio/ja/examples/k_mo.wav,kana,385,22050,1,-1.37,-16.58,VALID,,ok
+ja_k_ya,ja,ヤ,assets/audio/ja/kana/k_ya.wav,kana,233,22050,1,-1.37,-16.46,UNUSED,,not referenced from dart/content
+ja_k_ya_example,ja,ヤマ,assets/audio/ja/examples/k_ya.wav,kana,388,22050,1,-1.37,-16.62,VALID,,ok
+ja_k_yu,ja,ユ,assets/audio/ja/kana/k_yu.wav,kana,197,22050,1,-1.37,-14.54,UNUSED,,not referenced from dart/content
+ja_k_yu_example,ja,ユキ,assets/audio/ja/examples/k_yu.wav,kana,421,22050,1,-1.37,-16.36,VALID,,ok
+ja_k_yo,ja,ヨ,assets/audio/ja/kana/k_yo.wav,kana,236,22050,1,-1.37,-15.1,UNUSED,,not referenced from dart/content
+ja_k_yo_example,ja,ヨガ,assets/audio/ja/examples/k_yo.wav,kana,399,22050,1,-1.37,-14.26,VALID,,ok
+ja_k_ra,ja,ラ,assets/audio/ja/kana/k_ra.wav,kana,235,22050,1,-1.37,-16.05,UNUSED,,not referenced from dart/content
+ja_k_ra_example,ja,ライオン,assets/audio/ja/examples/k_ra.wav,kana,580,22050,1,-1.37,-13.46,VALID,,ok
+ja_k_ri,ja,リ,assets/audio/ja/kana/k_ri.wav,kana,210,22050,1,-1.37,-14.4,UNUSED,,not referenced from dart/content
+ja_k_ri_example,ja,リンゴ,assets/audio/ja/examples/k_ri.wav,kana,511,22050,1,-1.37,-13.78,VALID,,ok
+ja_k_ru,ja,ル,assets/audio/ja/kana/k_ru.wav,kana,232,22050,1,-1.37,-13.36,UNUSED,,not referenced from dart/content
+ja_k_ru_example,ja,ルーペ,assets/audio/ja/examples/k_ru.wav,kana,491,22050,1,-1.37,-12.99,VALID,,ok
+ja_k_re,ja,レ,assets/audio/ja/kana/k_re.wav,kana,237,22050,1,-1.37,-16.45,UNUSED,,not referenced from dart/content
+ja_k_re_example,ja,レモン,assets/audio/ja/examples/k_re.wav,kana,454,22050,1,-1.37,-14.78,VALID,,ok
+ja_k_ro,ja,ロ,assets/audio/ja/kana/k_ro.wav,kana,230,22050,1,-1.37,-15.47,UNUSED,,not referenced from dart/content
+ja_k_ro_example,ja,ロボット,assets/audio/ja/examples/k_ro.wav,kana,689,22050,1,-1.37,-16.15,VALID,,ok
+ja_k_wa,ja,ワ,assets/audio/ja/kana/k_wa.wav,kana,232,22050,1,-1.37,-18.05,UNUSED,,not referenced from dart/content
+ja_k_wa_example,ja,ワニ,assets/audio/ja/examples/k_wa.wav,kana,380,22050,1,-1.37,-14.64,VALID,,ok
+ja_k_wo,ja,ヲ,assets/audio/ja/kana/k_wo.wav,kana,226,22050,1,-1.37,-15.41,UNUSED,,not referenced from dart/content
+ja_k_n,ja,ン,assets/audio/ja/kana/k_n.wav,kana,200,22050,1,-1.37,-15.24,UNUSED,,not referenced from dart/content
+ja_k_choonpu,ja,ー,assets/audio/ja/kana/k_choonpu.wav,kana,370,22050,1,-1.37,-16.34,UNUSED,,not referenced from dart/content
+ja_k_ga,ja,ガ,assets/audio/ja/kana/k_ga.wav,kana,239,22050,1,-1.37,-17.71,UNUSED,,not referenced from dart/content
+ja_k_ga_example,ja,ガス,assets/audio/ja/examples/k_ga.wav,kana,482,22050,1,-1.37,-18.3,VALID,,ok
+ja_k_gi,ja,ギ,assets/audio/ja/kana/k_gi.wav,kana,278,22050,1,-1.37,-15.72,UNUSED,,not referenced from dart/content
+ja_k_gi_example,ja,ギター,assets/audio/ja/examples/k_gi.wav,kana,559,22050,1,-1.37,-15.87,VALID,,ok
+ja_k_gu,ja,グ,assets/audio/ja/kana/k_gu.wav,kana,284,22050,1,-1.37,-13.63,UNUSED,,not referenced from dart/content
+ja_k_gu_example,ja,ブドウ,assets/audio/ja/examples/k_gu.wav,kana,449,22050,1,-1.37,-15.19,VALID,,ok
+ja_k_ge,ja,ゲ,assets/audio/ja/kana/k_ge.wav,kana,231,22050,1,-1.37,-15.69,UNUSED,,not referenced from dart/content
+ja_k_ge_example,ja,ゲーム,assets/audio/ja/examples/k_ge.wav,kana,487,22050,1,-1.37,-15.53,VALID,,ok
+ja_k_go,ja,ゴ,assets/audio/ja/kana/k_go.wav,kana,234,22050,1,-1.37,-17.17,UNUSED,,not referenced from dart/content
+ja_k_go_example,ja,ゴリラ,assets/audio/ja/examples/k_go.wav,kana,493,22050,1,-1.37,-15.39,VALID,,ok
+ja_k_za,ja,ザ,assets/audio/ja/kana/k_za.wav,kana,251,22050,1,-1.37,-19.0,UNUSED,,not referenced from dart/content
+ja_k_za_example,ja,ザクロ,assets/audio/ja/examples/k_za.wav,kana,547,22050,1,-1.37,-17.29,VALID,,ok
+ja_k_ji,ja,ジ,assets/audio/ja/kana/k_ji.wav,kana,281,22050,1,-1.37,-13.97,UNUSED,,not referenced from dart/content
+ja_k_ji_example,ja,ジグソー,assets/audio/ja/examples/k_ji.wav,kana,561,22050,1,-1.37,-15.86,VALID,,ok
+ja_k_zu,ja,ズ,assets/audio/ja/kana/k_zu.wav,kana,316,22050,1,-1.37,-14.19,UNUSED,,not referenced from dart/content
+ja_k_zu_example,ja,ズック,assets/audio/ja/examples/k_zu.wav,kana,624,22050,1,-1.37,-15.23,VALID,,ok
+ja_k_ze,ja,ゼ,assets/audio/ja/kana/k_ze.wav,kana,254,22050,1,-1.37,-18.17,UNUSED,,not referenced from dart/content
+ja_k_ze_example,ja,ゼリー,assets/audio/ja/examples/k_ze.wav,kana,508,22050,1,-1.37,-12.62,VALID,,ok
+ja_k_zo,ja,ゾ,assets/audio/ja/kana/k_zo.wav,kana,269,22050,1,-1.37,-18.75,UNUSED,,not referenced from dart/content
+ja_k_zo_example,ja,ゾウ,assets/audio/ja/examples/k_zo.wav,kana,361,22050,1,-1.37,-15.46,VALID,,ok
+ja_k_da,ja,ダ,assets/audio/ja/kana/k_da.wav,kana,214,22050,1,-1.37,-18.33,UNUSED,,not referenced from dart/content
+ja_k_da_example,ja,ダンス,assets/audio/ja/examples/k_da.wav,kana,548,22050,1,-1.37,-15.52,VALID,,ok
+ja_k_dji,ja,ヂ,assets/audio/ja/kana/k_dji.wav,kana,281,22050,1,-1.37,-13.97,UNUSED,,not referenced from dart/content
+ja_k_dzu,ja,ヅ,assets/audio/ja/kana/k_dzu.wav,kana,316,22050,1,-1.37,-14.19,UNUSED,,not referenced from dart/content
+ja_k_de,ja,デ,assets/audio/ja/kana/k_de.wav,kana,214,22050,1,-1.37,-16.99,UNUSED,,not referenced from dart/content
+ja_k_de_example,ja,デスク,assets/audio/ja/examples/k_de.wav,kana,612,22050,1,-1.37,-16.59,VALID,,ok
+ja_k_do,ja,ド,assets/audio/ja/kana/k_do.wav,kana,222,22050,1,-1.37,-18.07,UNUSED,,not referenced from dart/content
+ja_k_do_example,ja,ドア,assets/audio/ja/examples/k_do.wav,kana,417,22050,1,-1.37,-15.83,VALID,,ok
+ja_k_ba,ja,バ,assets/audio/ja/kana/k_ba.wav,kana,229,22050,1,-1.37,-19.22,UNUSED,,not referenced from dart/content
+ja_k_ba_example,ja,バス,assets/audio/ja/examples/k_ba.wav,kana,461,22050,1,-1.37,-20.36,VALID,,ok
+ja_k_bi,ja,ビ,assets/audio/ja/kana/k_bi.wav,kana,237,22050,1,-1.37,-15.44,UNUSED,,not referenced from dart/content
+ja_k_bi_example,ja,ビル,assets/audio/ja/examples/k_bi.wav,kana,341,22050,1,-1.37,-14.95,VALID,,ok
+ja_k_bu,ja,ブ,assets/audio/ja/kana/k_bu.wav,kana,260,22050,1,-1.37,-13.74,UNUSED,,not referenced from dart/content
+ja_k_bu_example,ja,ブドウ,assets/audio/ja/examples/k_bu.wav,kana,449,22050,1,-1.37,-15.19,VALID,,ok
+ja_k_be,ja,ベ,assets/audio/ja/kana/k_be.wav,kana,230,22050,1,-1.37,-16.88,UNUSED,,not referenced from dart/content
+ja_k_be_example,ja,ベッド,assets/audio/ja/examples/k_be.wav,kana,508,22050,1,-1.37,-15.93,VALID,,ok
+ja_k_bo,ja,ボ,assets/audio/ja/kana/k_bo.wav,kana,225,22050,1,-1.37,-17.14,UNUSED,,not referenced from dart/content
+ja_k_bo_example,ja,ボール,assets/audio/ja/examples/k_bo.wav,kana,416,22050,1,-1.37,-16.96,VALID,,ok
+ja_k_fa,ja,ファ,assets/audio/ja/kana/k_fa.wav,kana,277,22050,1,-1.37,-18.0,UNUSED,,not referenced from dart/content
+ja_k_fa_example,ja,ファン,assets/audio/ja/examples/k_fa.wav,kana,277,22050,1,-1.37,-18.11,VALID,,ok
+ja_k_fi,ja,フィ,assets/audio/ja/kana/k_fi.wav,kana,294,22050,1,-1.37,-14.59,UNUSED,,not referenced from dart/content
+ja_k_fi_example,ja,フィッシュ,assets/audio/ja/examples/k_fi.wav,kana,461,22050,1,-1.37,-17.45,VALID,,ok
+ja_k_fe,ja,フェ,assets/audio/ja/kana/k_fe.wav,kana,291,22050,1,-1.37,-15.71,UNUSED,,not referenced from dart/content
+ja_k_fe_example,ja,カフェ,assets/audio/ja/examples/k_fe.wav,kana,463,22050,1,-1.37,-18.46,VALID,,ok
+ja_k_fo,ja,フォ,assets/audio/ja/kana/k_fo.wav,kana,273,22050,1,-1.37,-17.27,UNUSED,,not referenced from dart/content
+ja_k_fo_example,ja,フォーク,assets/audio/ja/examples/k_fo.wav,kana,446,22050,1,-1.37,-15.83,VALID,,ok
+ja_k_ti,ja,ティ,assets/audio/ja/kana/k_ti.wav,kana,222,22050,1,-1.37,-13.97,UNUSED,,not referenced from dart/content
+ja_k_ti_example,ja,ティー,assets/audio/ja/examples/k_ti.wav,kana,360,22050,1,-1.37,-12.53,VALID,,ok
+ja_k_di,ja,ディ,assets/audio/ja/kana/k_di.wav,kana,255,22050,1,-1.37,-14.32,UNUSED,,not referenced from dart/content
+ja_k_di_example,ja,ディスク,assets/audio/ja/examples/k_di.wav,kana,586,22050,1,-1.37,-16.77,VALID,,ok
+ja_k_che,ja,チェ,assets/audio/ja/kana/k_che.wav,kana,288,22050,1,-1.37,-16.14,UNUSED,,not referenced from dart/content
+ja_k_che_example,ja,チェリー,assets/audio/ja/examples/k_che.wav,kana,497,22050,1,-1.37,-13.55,VALID,,ok
+ja_k_je,ja,ジェ,assets/audio/ja/kana/k_je.wav,kana,301,22050,1,-1.37,-16.01,UNUSED,,not referenced from dart/content
+ja_k_je_example,ja,ジェット,assets/audio/ja/examples/k_je.wav,kana,578,22050,1,-1.37,-15.47,VALID,,ok
+ja_k_wi,ja,ウィ,assets/audio/ja/kana/k_wi.wav,kana,293,22050,1,-1.37,-13.48,UNUSED,,not referenced from dart/content
+ja_k_wi_example,ja,ウィンドウ,assets/audio/ja/examples/k_wi.wav,kana,601,22050,1,-1.37,-13.83,VALID,,ok
+ja_k_we,ja,ウェ,assets/audio/ja/kana/k_we.wav,kana,315,22050,1,-1.37,-15.37,UNUSED,,not referenced from dart/content
+ja_k_we_example,ja,ウエスト,assets/audio/ja/examples/k_we.wav,kana,665,22050,1,-1.37,-15.15,VALID,,ok
+ja_k_wo_ex,ja,ウォ,assets/audio/ja/kana/k_wo_ex.wav,kana,308,22050,1,-1.37,-16.69,UNUSED,,not referenced from dart/content
+ja_k_wo_ex_example,ja,ウォーク,assets/audio/ja/examples/k_wo_ex.wav,kana,533,22050,1,-1.37,-14.54,VALID,,ok
+ja_k_she,ja,シェ,assets/audio/ja/kana/k_she.wav,kana,354,22050,1,-1.37,-17.25,UNUSED,,not referenced from dart/content
+ja_k_she_example,ja,シェイク,assets/audio/ja/examples/k_she.wav,kana,592,22050,1,-1.37,-14.2,VALID,,ok
+ja_k_tsa,ja,ツァ,assets/audio/ja/kana/k_tsa.wav,kana,319,22050,1,-1.37,-18.31,UNUSED,,not referenced from dart/content
+ja_k_tsa_example,ja,ピッツァ,assets/audio/ja/examples/k_tsa.wav,kana,628,22050,1,-1.37,-20.93,VALID,,ok
+ja_k_tsi,ja,ツィ,assets/audio/ja/kana/k_tsi.wav,kana,335,22050,1,-1.37,-15.0,UNUSED,,not referenced from dart/content
+ja_k_tse,ja,ツェ,assets/audio/ja/kana/k_tse.wav,kana,334,22050,1,-1.37,-16.2,UNUSED,,not referenced from dart/content
+ja_k_tso,ja,ツォ,assets/audio/ja/kana/k_tso.wav,kana,311,22050,1,-1.37,-17.33,UNUSED,,not referenced from dart/content
+ja_k_pa,ja,パ,assets/audio/ja/kana/k_pa.wav,kana,211,22050,1,-1.37,-18.8,UNUSED,,not referenced from dart/content
+ja_k_pa_example,ja,パン,assets/audio/ja/examples/k_pa.wav,kana,303,22050,1,-1.37,-17.8,VALID,,ok
+ja_k_pi,ja,ピ,assets/audio/ja/kana/k_pi.wav,kana,240,22050,1,-1.37,-13.07,UNUSED,,not referenced from dart/content
+ja_k_pi_example,ja,ピアノ,assets/audio/ja/examples/k_pi.wav,kana,450,22050,1,-1.37,-13.71,VALID,,ok
+ja_k_pu,ja,プ,assets/audio/ja/kana/k_pu.wav,kana,226,22050,1,-1.37,-13.81,UNUSED,,not referenced from dart/content
+ja_k_pu_example,ja,プール,assets/audio/ja/examples/k_pu.wav,kana,409,22050,1,-1.37,-12.75,VALID,,ok
+ja_k_pe,ja,ペ,assets/audio/ja/kana/k_pe.wav,kana,217,22050,1,-1.37,-18.94,UNUSED,,not referenced from dart/content
+ja_k_pe_example,ja,ペン,assets/audio/ja/examples/k_pe.wav,kana,272,22050,1,-1.37,-14.35,VALID,,ok
+ja_k_po,ja,ポ,assets/audio/ja/kana/k_po.wav,kana,211,22050,1,-1.37,-18.52,UNUSED,,not referenced from dart/content
+ja_k_po_example,ja,ポスト,assets/audio/ja/examples/k_po.wav,kana,538,22050,1,-1.37,-18.66,VALID,,ok
+ja_k_small_a,ja,ァ,assets/audio/ja/kana/k_small_a.wav,kana,220,22050,1,-1.37,-19.98,UNUSED,,not referenced from dart/content
+ja_k_small_i,ja,ィ,assets/audio/ja/kana/k_small_i.wav,kana,219,22050,1,-1.37,-14.77,UNUSED,,not referenced from dart/content
+ja_k_small_u,ja,ゥ,assets/audio/ja/kana/k_small_u.wav,kana,222,22050,1,-1.37,-13.92,UNUSED,,not referenced from dart/content
+ja_k_small_e,ja,ェ,assets/audio/ja/kana/k_small_e.wav,kana,220,22050,1,-1.37,-16.22,UNUSED,,not referenced from dart/content
+ja_k_small_o,ja,ォ,assets/audio/ja/kana/k_small_o.wav,kana,226,22050,1,-1.37,-15.41,UNUSED,,not referenced from dart/content
+ja_k_small_ya,ja,ャ,assets/audio/ja/kana/k_small_ya.wav,kana,233,22050,1,-1.37,-16.46,UNUSED,,not referenced from dart/content
+ja_k_small_yu,ja,ュ,assets/audio/ja/kana/k_small_yu.wav,kana,197,22050,1,-1.37,-14.54,UNUSED,,not referenced from dart/content
+ja_k_small_yo,ja,ョ,assets/audio/ja/kana/k_small_yo.wav,kana,236,22050,1,-1.37,-15.1,UNUSED,,not referenced from dart/content
+ja_k_sokuon,ja,ッ,assets/audio/ja/kana/k_sokuon.wav,kana,100,22050,1,-1.37,-12.29,UNUSED,,not referenced from dart/content
+ja_k_kya,ja,キャ,assets/audio/ja/kana/k_kya.wav,kana,281,22050,1,-1.37,-16.29,UNUSED,,not referenced from dart/content
+ja_k_kya_example,ja,キャベツ,assets/audio/ja/examples/k_kya.wav,kana,601,22050,1,-1.37,-16.36,VALID,,ok
+ja_k_kyu,ja,キュ,assets/audio/ja/kana/k_kyu.wav,kana,256,22050,1,-1.37,-13.49,UNUSED,,not referenced from dart/content
+ja_k_kyu_example,ja,キュウリ,assets/audio/ja/examples/k_kyu.wav,kana,472,22050,1,-1.37,-12.9,VALID,,ok
+ja_k_kyo,ja,キョ,assets/audio/ja/kana/k_kyo.wav,kana,290,22050,1,-1.37,-14.69,UNUSED,,not referenced from dart/content
+ja_k_kyo_example,ja,キョウ,assets/audio/ja/examples/k_kyo.wav,kana,351,22050,1,-1.37,-15.34,VALID,,ok
+ja_k_sha,ja,シャ,assets/audio/ja/kana/k_sha.wav,kana,331,22050,1,-1.37,-17.29,UNUSED,,not referenced from dart/content
+ja_k_sha_example,ja,シャツ,assets/audio/ja/examples/k_sha.wav,kana,490,22050,1,-1.37,-19.11,VALID,,ok
+ja_k_shu,ja,シュ,assets/audio/ja/kana/k_shu.wav,kana,335,22050,1,-1.37,-15.27,UNUSED,,not referenced from dart/content
+ja_k_shu_example,ja,シューズ,assets/audio/ja/examples/k_shu.wav,kana,565,22050,1,-1.37,-12.65,VALID,,ok
+ja_k_sho,ja,ショ,assets/audio/ja/kana/k_sho.wav,kana,349,22050,1,-1.37,-15.97,UNUSED,,not referenced from dart/content
+ja_k_sho_example,ja,ショート,assets/audio/ja/examples/k_sho.wav,kana,509,22050,1,-1.37,-16.8,VALID,,ok
+ja_k_cha,ja,チャ,assets/audio/ja/kana/k_cha.wav,kana,264,22050,1,-1.37,-16.74,UNUSED,,not referenced from dart/content
+ja_k_cha_example,ja,チャンス,assets/audio/ja/examples/k_cha.wav,kana,569,22050,1,-1.37,-15.59,VALID,,ok
+ja_k_chu,ja,チュ,assets/audio/ja/kana/k_chu.wav,kana,259,22050,1,-1.37,-14.2,UNUSED,,not referenced from dart/content
+ja_k_chu_example,ja,チューブ,assets/audio/ja/examples/k_chu.wav,kana,510,22050,1,-1.37,-12.48,VALID,,ok
+ja_k_cho,ja,チョ,assets/audio/ja/kana/k_cho.wav,kana,290,22050,1,-1.37,-14.6,UNUSED,,not referenced from dart/content
+ja_k_cho_example,ja,チョコ,assets/audio/ja/examples/k_cho.wav,kana,382,22050,1,-1.37,-16.45,VALID,,ok
+ja_k_nya,ja,ニャ,assets/audio/ja/kana/k_nya.wav,kana,276,22050,1,-1.37,-14.98,UNUSED,,not referenced from dart/content
+ja_k_nyu,ja,ニュ,assets/audio/ja/kana/k_nyu.wav,kana,238,22050,1,-1.37,-12.78,UNUSED,,not referenced from dart/content
+ja_k_nyo,ja,ニョ,assets/audio/ja/kana/k_nyo.wav,kana,287,22050,1,-1.37,-13.44,UNUSED,,not referenced from dart/content
+ja_k_hya,ja,ヒャ,assets/audio/ja/kana/k_hya.wav,kana,276,22050,1,-1.37,-16.17,UNUSED,,not referenced from dart/content
+ja_k_hyu,ja,ヒュ,assets/audio/ja/kana/k_hyu.wav,kana,258,22050,1,-1.37,-15.71,UNUSED,,not referenced from dart/content
+ja_k_hyo,ja,ヒョ,assets/audio/ja/kana/k_hyo.wav,kana,279,22050,1,-1.37,-14.68,UNUSED,,not referenced from dart/content
+ja_k_mya,ja,ミャ,assets/audio/ja/kana/k_mya.wav,kana,288,22050,1,-1.37,-15.4,UNUSED,,not referenced from dart/content
+ja_k_myu,ja,ミュ,assets/audio/ja/kana/k_myu.wav,kana,248,22050,1,-1.37,-13.17,UNUSED,,not referenced from dart/content
+ja_k_myo,ja,ミョ,assets/audio/ja/kana/k_myo.wav,kana,297,22050,1,-1.37,-13.8,UNUSED,,not referenced from dart/content
+ja_k_rya,ja,リャ,assets/audio/ja/kana/k_rya.wav,kana,287,22050,1,-1.37,-15.06,UNUSED,,not referenced from dart/content
+ja_k_ryu,ja,リュ,assets/audio/ja/kana/k_ryu.wav,kana,253,22050,1,-1.37,-13.35,UNUSED,,not referenced from dart/content
+ja_k_ryo,ja,リョ,assets/audio/ja/kana/k_ryo.wav,kana,305,22050,1,-1.37,-13.37,UNUSED,,not referenced from dart/content
+ja_k_gya,ja,ギャ,assets/audio/ja/kana/k_gya.wav,kana,285,22050,1,-1.37,-16.35,UNUSED,,not referenced from dart/content
+ja_k_gyu,ja,ギュ,assets/audio/ja/kana/k_gyu.wav,kana,259,22050,1,-1.37,-13.66,UNUSED,,not referenced from dart/content
+ja_k_gyo,ja,ギョ,assets/audio/ja/kana/k_gyo.wav,kana,318,22050,1,-1.37,-13.88,UNUSED,,not referenced from dart/content
+ja_k_ja,ja,ジャ,assets/audio/ja/kana/k_ja.wav,kana,294,22050,1,-1.37,-16.81,UNUSED,,not referenced from dart/content
+ja_k_ju,ja,ジュ,assets/audio/ja/kana/k_ju.wav,kana,268,22050,1,-1.37,-12.86,UNUSED,,not referenced from dart/content
+ja_k_jo,ja,ジョ,assets/audio/ja/kana/k_jo.wav,kana,305,22050,1,-1.37,-14.47,UNUSED,,not referenced from dart/content
+ja_k_bya,ja,ビャ,assets/audio/ja/kana/k_bya.wav,kana,278,22050,1,-1.37,-15.88,UNUSED,,not referenced from dart/content
+ja_k_byu,ja,ビュ,assets/audio/ja/kana/k_byu.wav,kana,259,22050,1,-1.37,-12.92,UNUSED,,not referenced from dart/content
+ja_k_byo,ja,ビョ,assets/audio/ja/kana/k_byo.wav,kana,291,22050,1,-1.37,-13.85,UNUSED,,not referenced from dart/content
+ja_k_pya,ja,ピャ,assets/audio/ja/kana/k_pya.wav,kana,259,22050,1,-1.37,-16.09,UNUSED,,not referenced from dart/content
+ja_k_pyu,ja,ピュ,assets/audio/ja/kana/k_pyu.wav,kana,238,22050,1,-1.37,-13.03,UNUSED,,not referenced from dart/content
+ja_k_pyo,ja,ピョ,assets/audio/ja/kana/k_pyo.wav,kana,285,22050,1,-1.37,-13.94,UNUSED,,not referenced from dart/content

@@ -1,0 +1,3173 @@
+[
+  {
+    "id": "ph_ba",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "b + a = ?",
+    "question": "b + a",
+    "answer": "ba",
+    "choices": [
+      "ba",
+      "be",
+      "bi",
+      "bo"
+    ],
+    "metadata": {
+      "onset": "b",
+      "rime": "a",
+      "syllable": "ba",
+      "audioText": "bờ - a - ba",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ba",
+      "blendAudioId": "v_blend_ba",
+      "exampleWordAudioId": "v_blend_ba"
+    }
+  },
+  {
+    "id": "ph_be",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "b + e = ?",
+    "question": "b + e",
+    "answer": "be",
+    "choices": [
+      "be",
+      "ba",
+      "bi",
+      "bo"
+    ],
+    "metadata": {
+      "onset": "b",
+      "rime": "e",
+      "syllable": "be",
+      "audioText": "bờ - e - be",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_be",
+      "blendAudioId": "v_blend_be",
+      "exampleWordAudioId": "v_blend_be"
+    }
+  },
+  {
+    "id": "ph_bi",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "b + i = ?",
+    "question": "b + i",
+    "answer": "bi",
+    "choices": [
+      "bi",
+      "ba",
+      "be",
+      "bo"
+    ],
+    "metadata": {
+      "onset": "b",
+      "rime": "i",
+      "syllable": "bi",
+      "audioText": "bờ - i - bi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_bi",
+      "blendAudioId": "v_blend_bi",
+      "exampleWordAudioId": "v_blend_bi"
+    }
+  },
+  {
+    "id": "ph_bo",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "b + o = ?",
+    "question": "b + o",
+    "answer": "bo",
+    "choices": [
+      "bo",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "b",
+      "rime": "o",
+      "syllable": "bo",
+      "audioText": "bờ - o - bo",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_bo",
+      "blendAudioId": "v_blend_bo",
+      "exampleWordAudioId": "v_blend_bo"
+    }
+  },
+  {
+    "id": "ph_bu",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "b + u = ?",
+    "question": "b + u",
+    "answer": "bu",
+    "choices": [
+      "bu",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "b",
+      "rime": "u",
+      "syllable": "bu",
+      "audioText": "bu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_bu",
+      "blendAudioId": "v_blend_bu"
+    }
+  },
+  {
+    "id": "ph_ca",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "c + a = ?",
+    "question": "c + a",
+    "answer": "ca",
+    "choices": [
+      "ca",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "c",
+      "rime": "a",
+      "syllable": "ca",
+      "audioText": "cờ - a - ca",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ca",
+      "blendAudioId": "v_blend_ca",
+      "exampleWordAudioId": "v_blend_ca"
+    }
+  },
+  {
+    "id": "ph_co",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "c + o = ?",
+    "question": "c + o",
+    "answer": "co",
+    "choices": [
+      "co",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "c",
+      "rime": "o",
+      "syllable": "co",
+      "audioText": "cờ - o - co",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_co",
+      "blendAudioId": "v_blend_co",
+      "exampleWordAudioId": "v_blend_co"
+    }
+  },
+  {
+    "id": "ph_cu",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "c + u = ?",
+    "question": "c + u",
+    "answer": "cu",
+    "choices": [
+      "cu",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "c",
+      "rime": "u",
+      "syllable": "cu",
+      "audioText": "cu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_cu",
+      "blendAudioId": "v_blend_cu"
+    }
+  },
+  {
+    "id": "ph_da",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "d + a = ?",
+    "question": "d + a",
+    "answer": "da",
+    "choices": [
+      "da",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "d",
+      "rime": "a",
+      "syllable": "da",
+      "audioText": "dờ - a - da",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_da",
+      "blendAudioId": "v_blend_da",
+      "exampleWordAudioId": "v_blend_da"
+    }
+  },
+  {
+    "id": "ph_de",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "d + e = ?",
+    "question": "d + e",
+    "answer": "de",
+    "choices": [
+      "de",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "d",
+      "rime": "e",
+      "syllable": "de",
+      "audioText": "de",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_de",
+      "blendAudioId": "v_blend_de"
+    }
+  },
+  {
+    "id": "ph_di",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "d + i = ?",
+    "question": "d + i",
+    "answer": "di",
+    "choices": [
+      "di",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "d",
+      "rime": "i",
+      "syllable": "di",
+      "audioText": "di",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_di",
+      "blendAudioId": "v_blend_di"
+    }
+  },
+  {
+    "id": "ph_do",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "d + o = ?",
+    "question": "d + o",
+    "answer": "do",
+    "choices": [
+      "do",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "d",
+      "rime": "o",
+      "syllable": "do",
+      "audioText": "do",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_do",
+      "blendAudioId": "v_blend_do"
+    }
+  },
+  {
+    "id": "ph_du",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "d + u = ?",
+    "question": "d + u",
+    "answer": "du",
+    "choices": [
+      "du",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "d",
+      "rime": "u",
+      "syllable": "du",
+      "audioText": "du",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_du",
+      "blendAudioId": "v_blend_du"
+    }
+  },
+  {
+    "id": "ph_dda",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "đ + a = ?",
+    "question": "đ + a",
+    "answer": "đa",
+    "choices": [
+      "đa",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "đ",
+      "rime": "a",
+      "syllable": "đa",
+      "audioText": "đa",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_dda",
+      "blendAudioId": "v_blend_dda"
+    }
+  },
+  {
+    "id": "ph_dde",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "đ + e = ?",
+    "question": "đ + e",
+    "answer": "đe",
+    "choices": [
+      "đe",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "đ",
+      "rime": "e",
+      "syllable": "đe",
+      "audioText": "đe",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_dde",
+      "blendAudioId": "v_blend_dde"
+    }
+  },
+  {
+    "id": "ph_ddi",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "đ + i = ?",
+    "question": "đ + i",
+    "answer": "đi",
+    "choices": [
+      "đi",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "đ",
+      "rime": "i",
+      "syllable": "đi",
+      "audioText": "đi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ddi",
+      "blendAudioId": "v_blend_ddi"
+    }
+  },
+  {
+    "id": "ph_ddo",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "đ + o = ?",
+    "question": "đ + o",
+    "answer": "đo",
+    "choices": [
+      "đo",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "đ",
+      "rime": "o",
+      "syllable": "đo",
+      "audioText": "đo",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ddo",
+      "blendAudioId": "v_blend_ddo"
+    }
+  },
+  {
+    "id": "ph_ddu",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "đ + u = ?",
+    "question": "đ + u",
+    "answer": "đu",
+    "choices": [
+      "đu",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "đ",
+      "rime": "u",
+      "syllable": "đu",
+      "audioText": "đu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ddu",
+      "blendAudioId": "v_blend_ddu"
+    }
+  },
+  {
+    "id": "ph_ga",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "g + a = ?",
+    "question": "g + a",
+    "answer": "ga",
+    "choices": [
+      "ga",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "g",
+      "rime": "a",
+      "syllable": "ga",
+      "audioText": "ga",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ga",
+      "blendAudioId": "v_blend_ga"
+    }
+  },
+  {
+    "id": "ph_go",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "g + o = ?",
+    "question": "g + o",
+    "answer": "go",
+    "choices": [
+      "go",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "g",
+      "rime": "o",
+      "syllable": "go",
+      "audioText": "go",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_go",
+      "blendAudioId": "v_blend_go"
+    }
+  },
+  {
+    "id": "ph_gu",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "g + u = ?",
+    "question": "g + u",
+    "answer": "gu",
+    "choices": [
+      "gu",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "g",
+      "rime": "u",
+      "syllable": "gu",
+      "audioText": "gu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_gu",
+      "blendAudioId": "v_blend_gu"
+    }
+  },
+  {
+    "id": "ph_ha",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "h + a = ?",
+    "question": "h + a",
+    "answer": "ha",
+    "choices": [
+      "ha",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "h",
+      "rime": "a",
+      "syllable": "ha",
+      "audioText": "ha",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ha",
+      "blendAudioId": "v_blend_ha"
+    }
+  },
+  {
+    "id": "ph_he",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "h + e = ?",
+    "question": "h + e",
+    "answer": "he",
+    "choices": [
+      "he",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "h",
+      "rime": "e",
+      "syllable": "he",
+      "audioText": "he",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_he",
+      "blendAudioId": "v_blend_he"
+    }
+  },
+  {
+    "id": "ph_hi",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "h + i = ?",
+    "question": "h + i",
+    "answer": "hi",
+    "choices": [
+      "hi",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "h",
+      "rime": "i",
+      "syllable": "hi",
+      "audioText": "hi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_hi",
+      "blendAudioId": "v_blend_hi"
+    }
+  },
+  {
+    "id": "ph_ho",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "h + o = ?",
+    "question": "h + o",
+    "answer": "ho",
+    "choices": [
+      "ho",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "h",
+      "rime": "o",
+      "syllable": "ho",
+      "audioText": "ho",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ho",
+      "blendAudioId": "v_blend_ho"
+    }
+  },
+  {
+    "id": "ph_hu",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "h + u = ?",
+    "question": "h + u",
+    "answer": "hu",
+    "choices": [
+      "hu",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "h",
+      "rime": "u",
+      "syllable": "hu",
+      "audioText": "hu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_hu",
+      "blendAudioId": "v_blend_hu"
+    }
+  },
+  {
+    "id": "ph_ke",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "k + e = ?",
+    "question": "k + e",
+    "answer": "ke",
+    "choices": [
+      "ke",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "k",
+      "rime": "e",
+      "syllable": "ke",
+      "audioText": "ke",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ke",
+      "blendAudioId": "v_blend_ke"
+    }
+  },
+  {
+    "id": "ph_ki",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "k + i = ?",
+    "question": "k + i",
+    "answer": "ki",
+    "choices": [
+      "ki",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "k",
+      "rime": "i",
+      "syllable": "ki",
+      "audioText": "ki",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ki",
+      "blendAudioId": "v_blend_ki"
+    }
+  },
+  {
+    "id": "ph_la",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "l + a = ?",
+    "question": "l + a",
+    "answer": "la",
+    "choices": [
+      "la",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "l",
+      "rime": "a",
+      "syllable": "la",
+      "audioText": "la",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_la",
+      "blendAudioId": "v_blend_la"
+    }
+  },
+  {
+    "id": "ph_le",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "l + e = ?",
+    "question": "l + e",
+    "answer": "le",
+    "choices": [
+      "le",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "l",
+      "rime": "e",
+      "syllable": "le",
+      "audioText": "le",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_le",
+      "blendAudioId": "v_blend_le"
+    }
+  },
+  {
+    "id": "ph_li",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "l + i = ?",
+    "question": "l + i",
+    "answer": "li",
+    "choices": [
+      "li",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "l",
+      "rime": "i",
+      "syllable": "li",
+      "audioText": "li",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_li",
+      "blendAudioId": "v_blend_li"
+    }
+  },
+  {
+    "id": "ph_lo",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "l + o = ?",
+    "question": "l + o",
+    "answer": "lo",
+    "choices": [
+      "lo",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "l",
+      "rime": "o",
+      "syllable": "lo",
+      "audioText": "lo",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_lo",
+      "blendAudioId": "v_blend_lo"
+    }
+  },
+  {
+    "id": "ph_lu",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "l + u = ?",
+    "question": "l + u",
+    "answer": "lu",
+    "choices": [
+      "lu",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "l",
+      "rime": "u",
+      "syllable": "lu",
+      "audioText": "lu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_lu",
+      "blendAudioId": "v_blend_lu"
+    }
+  },
+  {
+    "id": "ph_ma",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "m + a = ?",
+    "question": "m + a",
+    "answer": "ma",
+    "choices": [
+      "ma",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "m",
+      "rime": "a",
+      "syllable": "ma",
+      "audioText": "ma",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ma",
+      "blendAudioId": "v_blend_ma"
+    }
+  },
+  {
+    "id": "ph_me",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "m + e = ?",
+    "question": "m + e",
+    "answer": "me",
+    "choices": [
+      "me",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "m",
+      "rime": "e",
+      "syllable": "me",
+      "audioText": "me",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_me",
+      "blendAudioId": "v_blend_me"
+    }
+  },
+  {
+    "id": "ph_mi",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "m + i = ?",
+    "question": "m + i",
+    "answer": "mi",
+    "choices": [
+      "mi",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "m",
+      "rime": "i",
+      "syllable": "mi",
+      "audioText": "mi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_mi",
+      "blendAudioId": "v_blend_mi"
+    }
+  },
+  {
+    "id": "ph_mo",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "m + o = ?",
+    "question": "m + o",
+    "answer": "mo",
+    "choices": [
+      "mo",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "m",
+      "rime": "o",
+      "syllable": "mo",
+      "audioText": "mo",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_mo",
+      "blendAudioId": "v_blend_mo"
+    }
+  },
+  {
+    "id": "ph_mu",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "m + u = ?",
+    "question": "m + u",
+    "answer": "mu",
+    "choices": [
+      "mu",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "m",
+      "rime": "u",
+      "syllable": "mu",
+      "audioText": "mu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_mu",
+      "blendAudioId": "v_blend_mu"
+    }
+  },
+  {
+    "id": "ph_na",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "n + a = ?",
+    "question": "n + a",
+    "answer": "na",
+    "choices": [
+      "na",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "n",
+      "rime": "a",
+      "syllable": "na",
+      "audioText": "na",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_na",
+      "blendAudioId": "v_blend_na"
+    }
+  },
+  {
+    "id": "ph_ne",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "n + e = ?",
+    "question": "n + e",
+    "answer": "ne",
+    "choices": [
+      "ne",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "n",
+      "rime": "e",
+      "syllable": "ne",
+      "audioText": "ne",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ne",
+      "blendAudioId": "v_blend_ne"
+    }
+  },
+  {
+    "id": "ph_ni",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "n + i = ?",
+    "question": "n + i",
+    "answer": "ni",
+    "choices": [
+      "ni",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "n",
+      "rime": "i",
+      "syllable": "ni",
+      "audioText": "ni",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ni",
+      "blendAudioId": "v_blend_ni"
+    }
+  },
+  {
+    "id": "ph_no",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "n + o = ?",
+    "question": "n + o",
+    "answer": "no",
+    "choices": [
+      "no",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "n",
+      "rime": "o",
+      "syllable": "no",
+      "audioText": "no",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_no",
+      "blendAudioId": "v_blend_no"
+    }
+  },
+  {
+    "id": "ph_nu",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "n + u = ?",
+    "question": "n + u",
+    "answer": "nu",
+    "choices": [
+      "nu",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "n",
+      "rime": "u",
+      "syllable": "nu",
+      "audioText": "nu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_nu",
+      "blendAudioId": "v_blend_nu"
+    }
+  },
+  {
+    "id": "ph_pa",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "p + a = ?",
+    "question": "p + a",
+    "answer": "pa",
+    "choices": [
+      "pa",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "p",
+      "rime": "a",
+      "syllable": "pa",
+      "audioText": "pa",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_pa",
+      "blendAudioId": "v_blend_pa"
+    }
+  },
+  {
+    "id": "ph_pi",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "p + i = ?",
+    "question": "p + i",
+    "answer": "pi",
+    "choices": [
+      "pi",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "p",
+      "rime": "i",
+      "syllable": "pi",
+      "audioText": "pi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_pi",
+      "blendAudioId": "v_blend_pi"
+    }
+  },
+  {
+    "id": "ph_po",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "p + o = ?",
+    "question": "p + o",
+    "answer": "po",
+    "choices": [
+      "po",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "p",
+      "rime": "o",
+      "syllable": "po",
+      "audioText": "po",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_po",
+      "blendAudioId": "v_blend_po"
+    }
+  },
+  {
+    "id": "ph_qua",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "q + ua = ?",
+    "question": "q + ua",
+    "answer": "qua",
+    "choices": [
+      "qua",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "q",
+      "rime": "ua",
+      "syllable": "qua",
+      "audioText": "qua",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_qua",
+      "blendAudioId": "v_blend_qua"
+    }
+  },
+  {
+    "id": "ph_ra",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "r + a = ?",
+    "question": "r + a",
+    "answer": "ra",
+    "choices": [
+      "ra",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "r",
+      "rime": "a",
+      "syllable": "ra",
+      "audioText": "ra",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ra",
+      "blendAudioId": "v_blend_ra"
+    }
+  },
+  {
+    "id": "ph_re",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "r + e = ?",
+    "question": "r + e",
+    "answer": "re",
+    "choices": [
+      "re",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "r",
+      "rime": "e",
+      "syllable": "re",
+      "audioText": "re",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_re",
+      "blendAudioId": "v_blend_re"
+    }
+  },
+  {
+    "id": "ph_ri",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "r + i = ?",
+    "question": "r + i",
+    "answer": "ri",
+    "choices": [
+      "ri",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "r",
+      "rime": "i",
+      "syllable": "ri",
+      "audioText": "ri",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ri",
+      "blendAudioId": "v_blend_ri"
+    }
+  },
+  {
+    "id": "ph_ro",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "r + o = ?",
+    "question": "r + o",
+    "answer": "ro",
+    "choices": [
+      "ro",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "r",
+      "rime": "o",
+      "syllable": "ro",
+      "audioText": "ro",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ro",
+      "blendAudioId": "v_blend_ro"
+    }
+  },
+  {
+    "id": "ph_ru",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "r + u = ?",
+    "question": "r + u",
+    "answer": "ru",
+    "choices": [
+      "ru",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "r",
+      "rime": "u",
+      "syllable": "ru",
+      "audioText": "ru",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ru",
+      "blendAudioId": "v_blend_ru"
+    }
+  },
+  {
+    "id": "ph_sa",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "s + a = ?",
+    "question": "s + a",
+    "answer": "sa",
+    "choices": [
+      "sa",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "s",
+      "rime": "a",
+      "syllable": "sa",
+      "audioText": "sa",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_sa",
+      "blendAudioId": "v_blend_sa"
+    }
+  },
+  {
+    "id": "ph_so",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "s + o = ?",
+    "question": "s + o",
+    "answer": "so",
+    "choices": [
+      "so",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "s",
+      "rime": "o",
+      "syllable": "so",
+      "audioText": "so",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_so",
+      "blendAudioId": "v_blend_so"
+    }
+  },
+  {
+    "id": "ph_su",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "s + u = ?",
+    "question": "s + u",
+    "answer": "su",
+    "choices": [
+      "su",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "s",
+      "rime": "u",
+      "syllable": "su",
+      "audioText": "su",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_su",
+      "blendAudioId": "v_blend_su"
+    }
+  },
+  {
+    "id": "ph_ta",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "t + a = ?",
+    "question": "t + a",
+    "answer": "ta",
+    "choices": [
+      "ta",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "t",
+      "rime": "a",
+      "syllable": "ta",
+      "audioText": "ta",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ta",
+      "blendAudioId": "v_blend_ta"
+    }
+  },
+  {
+    "id": "ph_te",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "t + e = ?",
+    "question": "t + e",
+    "answer": "te",
+    "choices": [
+      "te",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "t",
+      "rime": "e",
+      "syllable": "te",
+      "audioText": "te",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_te",
+      "blendAudioId": "v_blend_te"
+    }
+  },
+  {
+    "id": "ph_ti",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "t + i = ?",
+    "question": "t + i",
+    "answer": "ti",
+    "choices": [
+      "ti",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "t",
+      "rime": "i",
+      "syllable": "ti",
+      "audioText": "ti",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ti",
+      "blendAudioId": "v_blend_ti"
+    }
+  },
+  {
+    "id": "ph_to",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "t + o = ?",
+    "question": "t + o",
+    "answer": "to",
+    "choices": [
+      "to",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "t",
+      "rime": "o",
+      "syllable": "to",
+      "audioText": "to",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_to",
+      "blendAudioId": "v_blend_to"
+    }
+  },
+  {
+    "id": "ph_tu",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "t + u = ?",
+    "question": "t + u",
+    "answer": "tu",
+    "choices": [
+      "tu",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "t",
+      "rime": "u",
+      "syllable": "tu",
+      "audioText": "tờ - u - tu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_tu",
+      "blendAudioId": "v_blend_tu",
+      "exampleWordAudioId": "v_blend_tu"
+    }
+  },
+  {
+    "id": "ph_va",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "v + a = ?",
+    "question": "v + a",
+    "answer": "va",
+    "choices": [
+      "va",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "v",
+      "rime": "a",
+      "syllable": "va",
+      "audioText": "va",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_va",
+      "blendAudioId": "v_blend_va"
+    }
+  },
+  {
+    "id": "ph_ve",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "v + e = ?",
+    "question": "v + e",
+    "answer": "ve",
+    "choices": [
+      "ve",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "v",
+      "rime": "e",
+      "syllable": "ve",
+      "audioText": "ve",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ve",
+      "blendAudioId": "v_blend_ve"
+    }
+  },
+  {
+    "id": "ph_vi",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "v + i = ?",
+    "question": "v + i",
+    "answer": "vi",
+    "choices": [
+      "vi",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "v",
+      "rime": "i",
+      "syllable": "vi",
+      "audioText": "vi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_vi",
+      "blendAudioId": "v_blend_vi"
+    }
+  },
+  {
+    "id": "ph_vo",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "v + o = ?",
+    "question": "v + o",
+    "answer": "vo",
+    "choices": [
+      "vo",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "v",
+      "rime": "o",
+      "syllable": "vo",
+      "audioText": "vo",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_vo",
+      "blendAudioId": "v_blend_vo"
+    }
+  },
+  {
+    "id": "ph_vu",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "v + u = ?",
+    "question": "v + u",
+    "answer": "vu",
+    "choices": [
+      "vu",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "v",
+      "rime": "u",
+      "syllable": "vu",
+      "audioText": "vờ - u - vu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_vu",
+      "blendAudioId": "v_blend_vu",
+      "exampleWordAudioId": "v_blend_vu"
+    }
+  },
+  {
+    "id": "ph_xa",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "x + a = ?",
+    "question": "x + a",
+    "answer": "xa",
+    "choices": [
+      "xa",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "x",
+      "rime": "a",
+      "syllable": "xa",
+      "audioText": "xa",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_xa",
+      "blendAudioId": "v_blend_xa"
+    }
+  },
+  {
+    "id": "ph_xe",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "x + e = ?",
+    "question": "x + e",
+    "answer": "xe",
+    "choices": [
+      "xe",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "x",
+      "rime": "e",
+      "syllable": "xe",
+      "audioText": "xe",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_xe",
+      "blendAudioId": "v_blend_xe"
+    }
+  },
+  {
+    "id": "ph_xi",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "x + i = ?",
+    "question": "x + i",
+    "answer": "xi",
+    "choices": [
+      "xi",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "x",
+      "rime": "i",
+      "syllable": "xi",
+      "audioText": "xi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_xi",
+      "blendAudioId": "v_blend_xi"
+    }
+  },
+  {
+    "id": "ph_xo",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "x + o = ?",
+    "question": "x + o",
+    "answer": "xo",
+    "choices": [
+      "xo",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "x",
+      "rime": "o",
+      "syllable": "xo",
+      "audioText": "xo",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_xo",
+      "blendAudioId": "v_blend_xo"
+    }
+  },
+  {
+    "id": "ph_xu",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "x + u = ?",
+    "question": "x + u",
+    "answer": "xu",
+    "choices": [
+      "xu",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "x",
+      "rime": "u",
+      "syllable": "xu",
+      "audioText": "xu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_xu",
+      "blendAudioId": "v_blend_xu"
+    }
+  },
+  {
+    "id": "ph_pha",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "ph + a = ?",
+    "question": "ph + a",
+    "answer": "pha",
+    "choices": [
+      "pha",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "ph",
+      "rime": "a",
+      "syllable": "pha",
+      "audioText": "pha",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_pha",
+      "blendAudioId": "v_blend_pha"
+    }
+  },
+  {
+    "id": "ph_pho",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "ph + o = ?",
+    "question": "ph + o",
+    "answer": "pho",
+    "choices": [
+      "pho",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "ph",
+      "rime": "o",
+      "syllable": "pho",
+      "audioText": "pho",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_pho",
+      "blendAudioId": "v_blend_pho"
+    }
+  },
+  {
+    "id": "ph_phu",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "ph + u = ?",
+    "question": "ph + u",
+    "answer": "phu",
+    "choices": [
+      "phu",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "ph",
+      "rime": "u",
+      "syllable": "phu",
+      "audioText": "phu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_phu",
+      "blendAudioId": "v_blend_phu"
+    }
+  },
+  {
+    "id": "ph_tha",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "th + a = ?",
+    "question": "th + a",
+    "answer": "tha",
+    "choices": [
+      "tha",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "th",
+      "rime": "a",
+      "syllable": "tha",
+      "audioText": "tha",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_tha",
+      "blendAudioId": "v_blend_tha"
+    }
+  },
+  {
+    "id": "ph_the",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "th + e = ?",
+    "question": "th + e",
+    "answer": "the",
+    "choices": [
+      "the",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "th",
+      "rime": "e",
+      "syllable": "the",
+      "audioText": "the",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_the",
+      "blendAudioId": "v_blend_the"
+    }
+  },
+  {
+    "id": "ph_thi",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "th + i = ?",
+    "question": "th + i",
+    "answer": "thi",
+    "choices": [
+      "thi",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "th",
+      "rime": "i",
+      "syllable": "thi",
+      "audioText": "thi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_thi",
+      "blendAudioId": "v_blend_thi"
+    }
+  },
+  {
+    "id": "ph_tho",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "th + o = ?",
+    "question": "th + o",
+    "answer": "tho",
+    "choices": [
+      "tho",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "th",
+      "rime": "o",
+      "syllable": "tho",
+      "audioText": "tho",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_tho",
+      "blendAudioId": "v_blend_tho"
+    }
+  },
+  {
+    "id": "ph_thu",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "th + u = ?",
+    "question": "th + u",
+    "answer": "thu",
+    "choices": [
+      "thu",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "th",
+      "rime": "u",
+      "syllable": "thu",
+      "audioText": "thu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_thu",
+      "blendAudioId": "v_blend_thu"
+    }
+  },
+  {
+    "id": "ph_kha",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "kh + a = ?",
+    "question": "kh + a",
+    "answer": "kha",
+    "choices": [
+      "kha",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "kh",
+      "rime": "a",
+      "syllable": "kha",
+      "audioText": "kha",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_kha",
+      "blendAudioId": "v_blend_kha"
+    }
+  },
+  {
+    "id": "ph_khe",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "kh + e = ?",
+    "question": "kh + e",
+    "answer": "khe",
+    "choices": [
+      "khe",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "kh",
+      "rime": "e",
+      "syllable": "khe",
+      "audioText": "khe",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_khe",
+      "blendAudioId": "v_blend_khe"
+    }
+  },
+  {
+    "id": "ph_kho",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "kh + o = ?",
+    "question": "kh + o",
+    "answer": "kho",
+    "choices": [
+      "kho",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "kh",
+      "rime": "o",
+      "syllable": "kho",
+      "audioText": "kho",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_kho",
+      "blendAudioId": "v_blend_kho"
+    }
+  },
+  {
+    "id": "ph_khu",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "kh + u = ?",
+    "question": "kh + u",
+    "answer": "khu",
+    "choices": [
+      "khu",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "kh",
+      "rime": "u",
+      "syllable": "khu",
+      "audioText": "khu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_khu",
+      "blendAudioId": "v_blend_khu"
+    }
+  },
+  {
+    "id": "ph_nha",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "nh + a = ?",
+    "question": "nh + a",
+    "answer": "nha",
+    "choices": [
+      "nha",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "nh",
+      "rime": "a",
+      "syllable": "nha",
+      "audioText": "nha",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_nha",
+      "blendAudioId": "v_blend_nha"
+    }
+  },
+  {
+    "id": "ph_nhe",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "nh + e = ?",
+    "question": "nh + e",
+    "answer": "nhe",
+    "choices": [
+      "nhe",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "nh",
+      "rime": "e",
+      "syllable": "nhe",
+      "audioText": "nhe",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_nhe",
+      "blendAudioId": "v_blend_nhe"
+    }
+  },
+  {
+    "id": "ph_nhi",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "nh + i = ?",
+    "question": "nh + i",
+    "answer": "nhi",
+    "choices": [
+      "nhi",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "nh",
+      "rime": "i",
+      "syllable": "nhi",
+      "audioText": "nhi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_nhi",
+      "blendAudioId": "v_blend_nhi"
+    }
+  },
+  {
+    "id": "ph_nho",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "nh + o = ?",
+    "question": "nh + o",
+    "answer": "nho",
+    "choices": [
+      "nho",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "nh",
+      "rime": "o",
+      "syllable": "nho",
+      "audioText": "nho",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_nho",
+      "blendAudioId": "v_blend_nho"
+    }
+  },
+  {
+    "id": "ph_nhu",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "nh + u = ?",
+    "question": "nh + u",
+    "answer": "nhu",
+    "choices": [
+      "nhu",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "nh",
+      "rime": "u",
+      "syllable": "nhu",
+      "audioText": "nhu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_nhu",
+      "blendAudioId": "v_blend_nhu"
+    }
+  },
+  {
+    "id": "ph_cha",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "ch + a = ?",
+    "question": "ch + a",
+    "answer": "cha",
+    "choices": [
+      "cha",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "ch",
+      "rime": "a",
+      "syllable": "cha",
+      "audioText": "cha",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_cha",
+      "blendAudioId": "v_blend_cha"
+    }
+  },
+  {
+    "id": "ph_che",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "ch + e = ?",
+    "question": "ch + e",
+    "answer": "che",
+    "choices": [
+      "che",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "ch",
+      "rime": "e",
+      "syllable": "che",
+      "audioText": "che",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_che",
+      "blendAudioId": "v_blend_che"
+    }
+  },
+  {
+    "id": "ph_chi",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "ch + i = ?",
+    "question": "ch + i",
+    "answer": "chi",
+    "choices": [
+      "chi",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "ch",
+      "rime": "i",
+      "syllable": "chi",
+      "audioText": "chi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_chi",
+      "blendAudioId": "v_blend_chi"
+    }
+  },
+  {
+    "id": "ph_cho",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "ch + o = ?",
+    "question": "ch + o",
+    "answer": "cho",
+    "choices": [
+      "cho",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "ch",
+      "rime": "o",
+      "syllable": "cho",
+      "audioText": "cho",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_cho",
+      "blendAudioId": "v_blend_cho"
+    }
+  },
+  {
+    "id": "ph_chu",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "ch + u = ?",
+    "question": "ch + u",
+    "answer": "chu",
+    "choices": [
+      "chu",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "ch",
+      "rime": "u",
+      "syllable": "chu",
+      "audioText": "chu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_chu",
+      "blendAudioId": "v_blend_chu"
+    }
+  },
+  {
+    "id": "ph_tra",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "tr + a = ?",
+    "question": "tr + a",
+    "answer": "tra",
+    "choices": [
+      "tra",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "tr",
+      "rime": "a",
+      "syllable": "tra",
+      "audioText": "tra",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_tra",
+      "blendAudioId": "v_blend_tra"
+    }
+  },
+  {
+    "id": "ph_tre",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "tr + e = ?",
+    "question": "tr + e",
+    "answer": "tre",
+    "choices": [
+      "tre",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "tr",
+      "rime": "e",
+      "syllable": "tre",
+      "audioText": "tre",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_tre",
+      "blendAudioId": "v_blend_tre"
+    }
+  },
+  {
+    "id": "ph_tri",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "tr + i = ?",
+    "question": "tr + i",
+    "answer": "tri",
+    "choices": [
+      "tri",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "tr",
+      "rime": "i",
+      "syllable": "tri",
+      "audioText": "tri",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_tri",
+      "blendAudioId": "v_blend_tri"
+    }
+  },
+  {
+    "id": "ph_tro",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "tr + o = ?",
+    "question": "tr + o",
+    "answer": "tro",
+    "choices": [
+      "tro",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "tr",
+      "rime": "o",
+      "syllable": "tro",
+      "audioText": "tro",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_tro",
+      "blendAudioId": "v_blend_tro"
+    }
+  },
+  {
+    "id": "ph_tru",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "tr + u = ?",
+    "question": "tr + u",
+    "answer": "tru",
+    "choices": [
+      "tru",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "tr",
+      "rime": "u",
+      "syllable": "tru",
+      "audioText": "tru",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_tru",
+      "blendAudioId": "v_blend_tru"
+    }
+  },
+  {
+    "id": "ph_ghe",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "gh + e = ?",
+    "question": "gh + e",
+    "answer": "ghe",
+    "choices": [
+      "ghe",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "gh",
+      "rime": "e",
+      "syllable": "ghe",
+      "audioText": "ghe",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ghe",
+      "blendAudioId": "v_blend_ghe"
+    }
+  },
+  {
+    "id": "ph_ghi",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "gh + i = ?",
+    "question": "gh + i",
+    "answer": "ghi",
+    "choices": [
+      "ghi",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "gh",
+      "rime": "i",
+      "syllable": "ghi",
+      "audioText": "ghi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ghi",
+      "blendAudioId": "v_blend_ghi"
+    }
+  },
+  {
+    "id": "ph_nga",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "ng + a = ?",
+    "question": "ng + a",
+    "answer": "nga",
+    "choices": [
+      "nga",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "ng",
+      "rime": "a",
+      "syllable": "nga",
+      "audioText": "nga",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_nga",
+      "blendAudioId": "v_blend_nga"
+    }
+  },
+  {
+    "id": "ph_ngo",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "ng + o = ?",
+    "question": "ng + o",
+    "answer": "ngo",
+    "choices": [
+      "ngo",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "ng",
+      "rime": "o",
+      "syllable": "ngo",
+      "audioText": "ngo",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ngo",
+      "blendAudioId": "v_blend_ngo"
+    }
+  },
+  {
+    "id": "ph_ngu",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "ng + u = ?",
+    "question": "ng + u",
+    "answer": "ngu",
+    "choices": [
+      "ngu",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "ng",
+      "rime": "u",
+      "syllable": "ngu",
+      "audioText": "ngu",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ngu",
+      "blendAudioId": "v_blend_ngu"
+    }
+  },
+  {
+    "id": "ph_nghe",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "ngh + e = ?",
+    "question": "ngh + e",
+    "answer": "nghe",
+    "choices": [
+      "nghe",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "ngh",
+      "rime": "e",
+      "syllable": "nghe",
+      "audioText": "nghe",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_nghe",
+      "blendAudioId": "v_blend_nghe"
+    }
+  },
+  {
+    "id": "ph_nghi",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 5,
+    "skill": "blending",
+    "difficulty": 2,
+    "title": "Ghép âm",
+    "instruction": "ngh + i = ?",
+    "question": "ngh + i",
+    "answer": "nghi",
+    "choices": [
+      "nghi",
+      "ba",
+      "be",
+      "bi"
+    ],
+    "metadata": {
+      "onset": "ngh",
+      "rime": "i",
+      "syllable": "nghi",
+      "audioText": "nghi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_nghi",
+      "blendAudioId": "v_blend_nghi"
+    }
+  },
+  {
+    "id": "ph_ba_huyen",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 2,
+    "skill": "phonics",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "Ghép âm: b + a",
+    "question": "b + a",
+    "answer": "bà",
+    "choices": [
+      "bà"
+    ],
+    "metadata": {
+      "onset": "b",
+      "rime": "a",
+      "syllable": "bà",
+      "audioText": "bờ - a - ba - huyền - bà",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ba_huyen",
+      "blendAudioId": "v_blend_ba_huyen",
+      "exampleWordAudioId": "v_blend_ba_huyen"
+    }
+  },
+  {
+    "id": "ph_ca_sac",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 2,
+    "skill": "phonics",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "Ghép âm: c + a",
+    "question": "c + a",
+    "answer": "cá",
+    "choices": [
+      "cá"
+    ],
+    "metadata": {
+      "onset": "c",
+      "rime": "a",
+      "syllable": "cá",
+      "audioText": "cờ - a - ca - sắc - cá",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_ca_sac",
+      "blendAudioId": "v_blend_ca_sac",
+      "exampleWordAudioId": "v_blend_ca_sac"
+    }
+  },
+  {
+    "id": "ph_me_nang",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 2,
+    "skill": "phonics",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "Ghép âm: m + e",
+    "question": "m + e",
+    "answer": "mẹ",
+    "choices": [
+      "mẹ"
+    ],
+    "metadata": {
+      "onset": "m",
+      "rime": "e",
+      "syllable": "mẹ",
+      "audioText": "mờ - e - me - nặng - mẹ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_me_nang",
+      "blendAudioId": "v_blend_me_nang",
+      "exampleWordAudioId": "v_blend_me_nang"
+    }
+  },
+  {
+    "id": "ph_do_hoi",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 2,
+    "skill": "phonics",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "Ghép âm: đ + o",
+    "question": "đ + o",
+    "answer": "đỏ",
+    "choices": [
+      "đỏ"
+    ],
+    "metadata": {
+      "onset": "đ",
+      "rime": "o",
+      "syllable": "đỏ",
+      "audioText": "đờ - o - đo - hỏi - đỏ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_do_hoi",
+      "blendAudioId": "v_blend_do_hoi",
+      "exampleWordAudioId": "v_blend_do_hoi"
+    }
+  },
+  {
+    "id": "ph_su_nga",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 2,
+    "skill": "phonics",
+    "difficulty": 1,
+    "title": "Ghép âm",
+    "instruction": "Ghép âm: s + u",
+    "question": "s + u",
+    "answer": "sũ",
+    "choices": [
+      "sũ"
+    ],
+    "metadata": {
+      "onset": "s",
+      "rime": "u",
+      "syllable": "sũ",
+      "audioText": "sờ - u - su - ngã - sũ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_blend_su_nga",
+      "blendAudioId": "v_blend_su_nga",
+      "exampleWordAudioId": "v_blend_su_nga"
+    }
+  },
+  {
+    "id": "v_vocab_baba",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 2,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ ghép",
+    "instruction": "Nghe và chọn từ đúng",
+    "question": "ba ba",
+    "answer": "ba ba",
+    "choices": [
+      "ba ba"
+    ],
+    "metadata": {
+      "audioText": "ba ba",
+      "audioLocale": "vi-VN",
+      "audioId": "v_vocab_baba",
+      "wordAudioId": "v_vocab_baba",
+      "exampleWordAudioId": "v_vocab_baba",
+      "syllable": "baba"
+    }
+  },
+  {
+    "id": "v_vocab_caca",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 2,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ ghép",
+    "instruction": "Nghe và chọn từ đúng",
+    "question": "ca ca",
+    "answer": "ca ca",
+    "choices": [
+      "ca ca"
+    ],
+    "metadata": {
+      "audioText": "ca ca",
+      "audioLocale": "vi-VN",
+      "audioId": "v_vocab_caca",
+      "wordAudioId": "v_vocab_caca",
+      "exampleWordAudioId": "v_vocab_caca",
+      "syllable": "caca"
+    }
+  },
+  {
+    "id": "v_vocab_bobi",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 2,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ ghép",
+    "instruction": "Nghe và chọn từ đúng",
+    "question": "bo bi",
+    "answer": "bo bi",
+    "choices": [
+      "bo bi"
+    ],
+    "metadata": {
+      "audioText": "bo bi",
+      "audioLocale": "vi-VN",
+      "audioId": "v_vocab_bobi",
+      "wordAudioId": "v_vocab_bobi",
+      "exampleWordAudioId": "v_vocab_bobi",
+      "syllable": "bobi"
+    }
+  },
+  {
+    "id": "v_vocab_bame",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 2,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ ghép",
+    "instruction": "Nghe và chọn từ đúng",
+    "question": "ba mẹ",
+    "answer": "ba mẹ",
+    "choices": [
+      "ba mẹ"
+    ],
+    "metadata": {
+      "audioText": "ba mẹ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_vocab_bame",
+      "wordAudioId": "v_vocab_bame",
+      "exampleWordAudioId": "v_vocab_bame",
+      "syllable": "bamẹ"
+    }
+  },
+  {
+    "id": "v_vocab_dodo",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 2,
+    "skill": "words",
+    "difficulty": 1,
+    "title": "Từ ghép",
+    "instruction": "Nghe và chọn từ đúng",
+    "question": "đo đỏ",
+    "answer": "đo đỏ",
+    "choices": [
+      "đo đỏ"
+    ],
+    "metadata": {
+      "audioText": "đo đỏ",
+      "audioLocale": "vi-VN",
+      "audioId": "v_vocab_dodo",
+      "wordAudioId": "v_vocab_dodo",
+      "exampleWordAudioId": "v_vocab_dodo",
+      "syllable": "đođỏ"
+    }
+  }
+]

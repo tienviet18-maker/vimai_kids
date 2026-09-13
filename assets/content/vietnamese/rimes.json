@@ -1,0 +1,1452 @@
+[
+  {
+    "id": "r_an",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: b + an",
+    "question": "b + an",
+    "answer": "ban",
+    "choices": [
+      "ban",
+      "can",
+      "man",
+      "nan"
+    ],
+    "metadata": {
+      "audioText": "ban",
+      "audioLocale": "vi-VN",
+      "rime": "an",
+      "audioId": "vi_rime_an"
+    }
+  },
+  {
+    "id": "r_ang",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: c + ang",
+    "question": "c + ang",
+    "answer": "cang",
+    "choices": [
+      "cang",
+      "mang",
+      "nang",
+      "tang"
+    ],
+    "metadata": {
+      "audioText": "cang",
+      "audioLocale": "vi-VN",
+      "rime": "ang",
+      "audioId": "vi_rime_ang"
+    }
+  },
+  {
+    "id": "r_anh",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: m + anh",
+    "question": "m + anh",
+    "answer": "manh",
+    "choices": [
+      "manh",
+      "nanh",
+      "tanh",
+      "hanh"
+    ],
+    "metadata": {
+      "audioText": "manh",
+      "audioLocale": "vi-VN",
+      "rime": "anh",
+      "audioId": "vi_rime_anh"
+    }
+  },
+  {
+    "id": "r_ao",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: n + ao",
+    "question": "n + ao",
+    "answer": "nao",
+    "choices": [
+      "nao",
+      "tao",
+      "hao",
+      "lao"
+    ],
+    "metadata": {
+      "audioText": "nao",
+      "audioLocale": "vi-VN",
+      "rime": "ao",
+      "audioId": "vi_rime_ao"
+    }
+  },
+  {
+    "id": "r_au",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: t + au",
+    "question": "t + au",
+    "answer": "tau",
+    "choices": [
+      "tau",
+      "hau",
+      "lau",
+      "bau"
+    ],
+    "metadata": {
+      "audioText": "tau",
+      "audioLocale": "vi-VN",
+      "rime": "au",
+      "audioId": "vi_rime_au"
+    }
+  },
+  {
+    "id": "r_ay",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: h + ay",
+    "question": "h + ay",
+    "answer": "hay",
+    "choices": [
+      "hay",
+      "lay",
+      "bay",
+      "cay"
+    ],
+    "metadata": {
+      "audioText": "hay",
+      "audioLocale": "vi-VN",
+      "rime": "ay",
+      "audioId": "vi_rime_ay"
+    }
+  },
+  {
+    "id": "r_am",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: l + am",
+    "question": "l + am",
+    "answer": "lam",
+    "choices": [
+      "lam",
+      "bam",
+      "cam",
+      "mam"
+    ],
+    "metadata": {
+      "audioText": "lam",
+      "audioLocale": "vi-VN",
+      "rime": "am",
+      "audioId": "vi_rime_am"
+    }
+  },
+  {
+    "id": "r_ap",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: b + ap",
+    "question": "b + ap",
+    "answer": "bap",
+    "choices": [
+      "bap",
+      "cap",
+      "map",
+      "nap"
+    ],
+    "metadata": {
+      "audioText": "bap",
+      "audioLocale": "vi-VN",
+      "rime": "ap",
+      "audioId": "vi_rime_ap"
+    }
+  },
+  {
+    "id": "r_at",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: c + at",
+    "question": "c + at",
+    "answer": "cat",
+    "choices": [
+      "cat",
+      "mat",
+      "nat",
+      "tat"
+    ],
+    "metadata": {
+      "audioText": "cat",
+      "audioLocale": "vi-VN",
+      "rime": "at",
+      "audioId": "vi_rime_at"
+    }
+  },
+  {
+    "id": "r_ac",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: m + ac",
+    "question": "m + ac",
+    "answer": "mac",
+    "choices": [
+      "mac",
+      "nac",
+      "tac",
+      "hac"
+    ],
+    "metadata": {
+      "audioText": "mac",
+      "audioLocale": "vi-VN",
+      "rime": "ac",
+      "audioId": "vi_rime_ac"
+    }
+  },
+  {
+    "id": "r_awn",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: n + ăn",
+    "question": "n + ăn",
+    "answer": "năn",
+    "choices": [
+      "năn",
+      "tăn",
+      "hăn",
+      "lăn"
+    ],
+    "metadata": {
+      "audioText": "năn",
+      "audioLocale": "vi-VN",
+      "rime": "ăn",
+      "audioId": "vi_rime_awn"
+    }
+  },
+  {
+    "id": "r_awng",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: t + ăng",
+    "question": "t + ăng",
+    "answer": "tăng",
+    "choices": [
+      "tăng",
+      "hăng",
+      "lăng",
+      "băng"
+    ],
+    "metadata": {
+      "audioText": "tăng",
+      "audioLocale": "vi-VN",
+      "rime": "ăng",
+      "audioId": "vi_rime_awng"
+    }
+  },
+  {
+    "id": "r_aan",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: h + ân",
+    "question": "h + ân",
+    "answer": "hân",
+    "choices": [
+      "hân",
+      "lân",
+      "bân",
+      "cân"
+    ],
+    "metadata": {
+      "audioText": "hân",
+      "audioLocale": "vi-VN",
+      "rime": "ân",
+      "audioId": "vi_rime_aan"
+    }
+  },
+  {
+    "id": "r_aang",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: l + âng",
+    "question": "l + âng",
+    "answer": "lâng",
+    "choices": [
+      "lâng",
+      "bâng",
+      "câng",
+      "mâng"
+    ],
+    "metadata": {
+      "audioText": "lâng",
+      "audioLocale": "vi-VN",
+      "rime": "âng",
+      "audioId": "vi_rime_aang"
+    }
+  },
+  {
+    "id": "r_aau",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: b + âu",
+    "question": "b + âu",
+    "answer": "bâu",
+    "choices": [
+      "bâu",
+      "câu",
+      "mâu",
+      "nâu"
+    ],
+    "metadata": {
+      "audioText": "bâu",
+      "audioLocale": "vi-VN",
+      "rime": "âu",
+      "audioId": "vi_rime_aau"
+    }
+  },
+  {
+    "id": "r_aay",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: c + ây",
+    "question": "c + ây",
+    "answer": "cây",
+    "choices": [
+      "cây",
+      "mây",
+      "nây",
+      "tây"
+    ],
+    "metadata": {
+      "audioText": "cây",
+      "audioLocale": "vi-VN",
+      "rime": "ây",
+      "audioId": "vi_rime_aay"
+    }
+  },
+  {
+    "id": "r_em",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: m + em",
+    "question": "m + em",
+    "answer": "mem",
+    "choices": [
+      "mem",
+      "nem",
+      "tem",
+      "hem"
+    ],
+    "metadata": {
+      "audioText": "mem",
+      "audioLocale": "vi-VN",
+      "rime": "em",
+      "audioId": "vi_rime_em"
+    }
+  },
+  {
+    "id": "r_en",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: n + en",
+    "question": "n + en",
+    "answer": "nen",
+    "choices": [
+      "nen",
+      "ten",
+      "hen",
+      "len"
+    ],
+    "metadata": {
+      "audioText": "nen",
+      "audioLocale": "vi-VN",
+      "rime": "en",
+      "audioId": "vi_rime_en"
+    }
+  },
+  {
+    "id": "r_eng",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: t + eng",
+    "question": "t + eng",
+    "answer": "teng",
+    "choices": [
+      "teng",
+      "heng",
+      "leng",
+      "beng"
+    ],
+    "metadata": {
+      "audioText": "teng",
+      "audioLocale": "vi-VN",
+      "rime": "eng",
+      "audioId": "vi_rime_eng"
+    }
+  },
+  {
+    "id": "r_eet",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: h + êt",
+    "question": "h + êt",
+    "answer": "hêt",
+    "choices": [
+      "hêt",
+      "lêt",
+      "bêt",
+      "cêt"
+    ],
+    "metadata": {
+      "audioText": "hêt",
+      "audioLocale": "vi-VN",
+      "rime": "êt",
+      "audioId": "vi_rime_eet"
+    }
+  },
+  {
+    "id": "r_eech",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: l + êch",
+    "question": "l + êch",
+    "answer": "lêch",
+    "choices": [
+      "lêch",
+      "bêch",
+      "cêch",
+      "mêch"
+    ],
+    "metadata": {
+      "audioText": "lêch",
+      "audioLocale": "vi-VN",
+      "rime": "êch",
+      "audioId": "vi_rime_eech"
+    }
+  },
+  {
+    "id": "r_eeu",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: b + êu",
+    "question": "b + êu",
+    "answer": "bêu",
+    "choices": [
+      "bêu",
+      "cêu",
+      "mêu",
+      "nêu"
+    ],
+    "metadata": {
+      "audioText": "bêu",
+      "audioLocale": "vi-VN",
+      "rime": "êu",
+      "audioId": "vi_rime_eeu"
+    }
+  },
+  {
+    "id": "r_een",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: c + ên",
+    "question": "c + ên",
+    "answer": "cên",
+    "choices": [
+      "cên",
+      "mên",
+      "nên",
+      "tên"
+    ],
+    "metadata": {
+      "audioText": "cên",
+      "audioLocale": "vi-VN",
+      "rime": "ên",
+      "audioId": "vi_rime_een"
+    }
+  },
+  {
+    "id": "r_im",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: m + im",
+    "question": "m + im",
+    "answer": "mim",
+    "choices": [
+      "mim",
+      "nim",
+      "tim",
+      "him"
+    ],
+    "metadata": {
+      "audioText": "mim",
+      "audioLocale": "vi-VN",
+      "rime": "im",
+      "audioId": "vi_rime_im"
+    }
+  },
+  {
+    "id": "r_in",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: n + in",
+    "question": "n + in",
+    "answer": "nin",
+    "choices": [
+      "nin",
+      "tin",
+      "hin",
+      "lin"
+    ],
+    "metadata": {
+      "audioText": "nin",
+      "audioLocale": "vi-VN",
+      "rime": "in",
+      "audioId": "vi_rime_in"
+    }
+  },
+  {
+    "id": "r_inh",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: t + inh",
+    "question": "t + inh",
+    "answer": "tinh",
+    "choices": [
+      "tinh",
+      "hinh",
+      "linh",
+      "binh"
+    ],
+    "metadata": {
+      "audioText": "tinh",
+      "audioLocale": "vi-VN",
+      "rime": "inh",
+      "audioId": "vi_rime_inh"
+    }
+  },
+  {
+    "id": "r_ich",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: h + ich",
+    "question": "h + ich",
+    "answer": "hich",
+    "choices": [
+      "hich",
+      "lich",
+      "bich",
+      "cich"
+    ],
+    "metadata": {
+      "audioText": "hich",
+      "audioLocale": "vi-VN",
+      "rime": "ich",
+      "audioId": "vi_rime_ich"
+    }
+  },
+  {
+    "id": "r_ip",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: l + ip",
+    "question": "l + ip",
+    "answer": "lip",
+    "choices": [
+      "lip",
+      "bip",
+      "cip",
+      "mip"
+    ],
+    "metadata": {
+      "audioText": "lip",
+      "audioLocale": "vi-VN",
+      "rime": "ip",
+      "audioId": "vi_rime_ip"
+    }
+  },
+  {
+    "id": "r_it",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: b + it",
+    "question": "b + it",
+    "answer": "bit",
+    "choices": [
+      "bit",
+      "cit",
+      "mit",
+      "nit"
+    ],
+    "metadata": {
+      "audioText": "bit",
+      "audioLocale": "vi-VN",
+      "rime": "it",
+      "audioId": "vi_rime_it"
+    }
+  },
+  {
+    "id": "r_ong",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: c + ong",
+    "question": "c + ong",
+    "answer": "cong",
+    "choices": [
+      "cong",
+      "mong",
+      "nong",
+      "tong"
+    ],
+    "metadata": {
+      "audioText": "cong",
+      "audioLocale": "vi-VN",
+      "rime": "ong",
+      "audioId": "vi_rime_ong"
+    }
+  },
+  {
+    "id": "r_oc",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: m + oc",
+    "question": "m + oc",
+    "answer": "moc",
+    "choices": [
+      "moc",
+      "noc",
+      "toc",
+      "hoc"
+    ],
+    "metadata": {
+      "audioText": "moc",
+      "audioLocale": "vi-VN",
+      "rime": "oc",
+      "audioId": "vi_rime_oc"
+    }
+  },
+  {
+    "id": "r_ot",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: n + ot",
+    "question": "n + ot",
+    "answer": "not",
+    "choices": [
+      "not",
+      "tot",
+      "hot",
+      "lot"
+    ],
+    "metadata": {
+      "audioText": "not",
+      "audioLocale": "vi-VN",
+      "rime": "ot",
+      "audioId": "vi_rime_ot"
+    }
+  },
+  {
+    "id": "r_om",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: t + om",
+    "question": "t + om",
+    "answer": "tom",
+    "choices": [
+      "tom",
+      "hom",
+      "lom",
+      "bom"
+    ],
+    "metadata": {
+      "audioText": "tom",
+      "audioLocale": "vi-VN",
+      "rime": "om",
+      "audioId": "vi_rime_om"
+    }
+  },
+  {
+    "id": "r_op",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: h + op",
+    "question": "h + op",
+    "answer": "hop",
+    "choices": [
+      "hop",
+      "lop",
+      "bop",
+      "cop"
+    ],
+    "metadata": {
+      "audioText": "hop",
+      "audioLocale": "vi-VN",
+      "rime": "op",
+      "audioId": "vi_rime_op"
+    }
+  },
+  {
+    "id": "r_oi",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: l + oi",
+    "question": "l + oi",
+    "answer": "loi",
+    "choices": [
+      "loi",
+      "boi",
+      "coi",
+      "moi"
+    ],
+    "metadata": {
+      "audioText": "loi",
+      "audioLocale": "vi-VN",
+      "rime": "oi",
+      "audioId": "vi_rime_oi"
+    }
+  },
+  {
+    "id": "r_oong",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: b + ông",
+    "question": "b + ông",
+    "answer": "bông",
+    "choices": [
+      "bông",
+      "công",
+      "mông",
+      "nông"
+    ],
+    "metadata": {
+      "audioText": "bông",
+      "audioLocale": "vi-VN",
+      "rime": "ông",
+      "audioId": "vi_rime_oong"
+    }
+  },
+  {
+    "id": "r_ooc",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: c + ôc",
+    "question": "c + ôc",
+    "answer": "côc",
+    "choices": [
+      "côc",
+      "môc",
+      "nôc",
+      "tôc"
+    ],
+    "metadata": {
+      "audioText": "côc",
+      "audioLocale": "vi-VN",
+      "rime": "ôc",
+      "audioId": "vi_rime_ooc"
+    }
+  },
+  {
+    "id": "r_oot",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: m + ôt",
+    "question": "m + ôt",
+    "answer": "môt",
+    "choices": [
+      "môt",
+      "nôt",
+      "tôt",
+      "hôt"
+    ],
+    "metadata": {
+      "audioText": "môt",
+      "audioLocale": "vi-VN",
+      "rime": "ôt",
+      "audioId": "vi_rime_oot"
+    }
+  },
+  {
+    "id": "r_oom",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: n + ôm",
+    "question": "n + ôm",
+    "answer": "nôm",
+    "choices": [
+      "nôm",
+      "tôm",
+      "hôm",
+      "lôm"
+    ],
+    "metadata": {
+      "audioText": "nôm",
+      "audioLocale": "vi-VN",
+      "rime": "ôm",
+      "audioId": "vi_rime_oom"
+    }
+  },
+  {
+    "id": "r_ung",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 2,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: t + ung",
+    "question": "t + ung",
+    "answer": "tung",
+    "choices": [
+      "tung",
+      "hung",
+      "lung",
+      "bung"
+    ],
+    "metadata": {
+      "audioText": "tung",
+      "audioLocale": "vi-VN",
+      "rime": "ung",
+      "audioId": "vi_rime_ung"
+    }
+  },
+  {
+    "id": "r_uc",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 3,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: h + uc",
+    "question": "h + uc",
+    "answer": "huc",
+    "choices": [
+      "huc",
+      "luc",
+      "buc",
+      "cuc"
+    ],
+    "metadata": {
+      "audioText": "huc",
+      "audioLocale": "vi-VN",
+      "rime": "uc",
+      "audioId": "vi_rime_uc"
+    }
+  },
+  {
+    "id": "r_ut",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 3,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: l + ut",
+    "question": "l + ut",
+    "answer": "lut",
+    "choices": [
+      "lut",
+      "but",
+      "cut",
+      "mut"
+    ],
+    "metadata": {
+      "audioText": "lut",
+      "audioLocale": "vi-VN",
+      "rime": "ut",
+      "audioId": "vi_rime_ut"
+    }
+  },
+  {
+    "id": "r_um",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 3,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: b + um",
+    "question": "b + um",
+    "answer": "bum",
+    "choices": [
+      "bum",
+      "cum",
+      "mum",
+      "num"
+    ],
+    "metadata": {
+      "audioText": "bum",
+      "audioLocale": "vi-VN",
+      "rime": "um",
+      "audioId": "vi_rime_um"
+    }
+  },
+  {
+    "id": "r_ui",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 3,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: c + ui",
+    "question": "c + ui",
+    "answer": "cui",
+    "choices": [
+      "cui",
+      "mui",
+      "nui",
+      "tui"
+    ],
+    "metadata": {
+      "audioText": "cui",
+      "audioLocale": "vi-VN",
+      "rime": "ui",
+      "audioId": "vi_rime_ui"
+    }
+  },
+  {
+    "id": "r_uwng",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 3,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: m + ưng",
+    "question": "m + ưng",
+    "answer": "mưng",
+    "choices": [
+      "mưng",
+      "nưng",
+      "tưng",
+      "hưng"
+    ],
+    "metadata": {
+      "audioText": "mưng",
+      "audioLocale": "vi-VN",
+      "rime": "ưng",
+      "audioId": "vi_rime_uwng"
+    }
+  },
+  {
+    "id": "r_uwt",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 3,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: n + ưt",
+    "question": "n + ưt",
+    "answer": "nưt",
+    "choices": [
+      "nưt",
+      "tưt",
+      "hưt",
+      "lưt"
+    ],
+    "metadata": {
+      "audioText": "nưt",
+      "audioLocale": "vi-VN",
+      "rime": "ưt",
+      "audioId": "vi_rime_uwt"
+    }
+  },
+  {
+    "id": "r_uwu",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 3,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: t + ưu",
+    "question": "t + ưu",
+    "answer": "tưu",
+    "choices": [
+      "tưu",
+      "hưu",
+      "lưu",
+      "bưu"
+    ],
+    "metadata": {
+      "audioText": "tưu",
+      "audioLocale": "vi-VN",
+      "rime": "ưu",
+      "audioId": "vi_rime_uwu"
+    }
+  },
+  {
+    "id": "r_uwown",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 3,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: h + ươn",
+    "question": "h + ươn",
+    "answer": "hươn",
+    "choices": [
+      "hươn",
+      "lươn",
+      "bươn",
+      "cươn"
+    ],
+    "metadata": {
+      "audioText": "hươn",
+      "audioLocale": "vi-VN",
+      "rime": "ươn",
+      "audioId": "vi_rime_uwown"
+    }
+  },
+  {
+    "id": "r_uwowng",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 3,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: l + ương",
+    "question": "l + ương",
+    "answer": "lương",
+    "choices": [
+      "lương",
+      "bương",
+      "cương",
+      "mương"
+    ],
+    "metadata": {
+      "audioText": "lương",
+      "audioLocale": "vi-VN",
+      "rime": "ương",
+      "audioId": "vi_rime_uwowng"
+    }
+  },
+  {
+    "id": "r_uwowm",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 3,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: b + ươm",
+    "question": "b + ươm",
+    "answer": "bươm",
+    "choices": [
+      "bươm",
+      "cươm",
+      "mươm",
+      "nươm"
+    ],
+    "metadata": {
+      "audioText": "bươm",
+      "audioLocale": "vi-VN",
+      "rime": "ươm",
+      "audioId": "vi_rime_uwowm"
+    }
+  },
+  {
+    "id": "r_uwowst",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 3,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: c + ướt",
+    "question": "c + ướt",
+    "answer": "cướt",
+    "choices": [
+      "cướt",
+      "mướt",
+      "nướt",
+      "tướt"
+    ],
+    "metadata": {
+      "audioText": "cướt",
+      "audioLocale": "vi-VN",
+      "rime": "ướt",
+      "audioId": "vi_rime_uwowst"
+    }
+  },
+  {
+    "id": "r_uwowsc",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 3,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: m + ước",
+    "question": "m + ước",
+    "answer": "mước",
+    "choices": [
+      "mước",
+      "nước",
+      "tước",
+      "hước"
+    ],
+    "metadata": {
+      "audioText": "mước",
+      "audioLocale": "vi-VN",
+      "rime": "ước",
+      "audioId": "vi_rime_uwowsc"
+    }
+  },
+  {
+    "id": "r_ieen",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 3,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: n + iên",
+    "question": "n + iên",
+    "answer": "niên",
+    "choices": [
+      "niên",
+      "tiên",
+      "hiên",
+      "liên"
+    ],
+    "metadata": {
+      "audioText": "niên",
+      "audioLocale": "vi-VN",
+      "rime": "iên",
+      "audioId": "vi_rime_ieen"
+    }
+  },
+  {
+    "id": "r_ieeng",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 3,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: t + iêng",
+    "question": "t + iêng",
+    "answer": "tiêng",
+    "choices": [
+      "tiêng",
+      "hiêng",
+      "liêng",
+      "biêng"
+    ],
+    "metadata": {
+      "audioText": "tiêng",
+      "audioLocale": "vi-VN",
+      "rime": "iêng",
+      "audioId": "vi_rime_ieeng"
+    }
+  },
+  {
+    "id": "r_ieet",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 3,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: h + iêt",
+    "question": "h + iêt",
+    "answer": "hiêt",
+    "choices": [
+      "hiêt",
+      "liêt",
+      "biêt",
+      "ciêt"
+    ],
+    "metadata": {
+      "audioText": "hiêt",
+      "audioLocale": "vi-VN",
+      "rime": "iêt",
+      "audioId": "vi_rime_ieet"
+    }
+  },
+  {
+    "id": "r_ieeu",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 3,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: l + iêu",
+    "question": "l + iêu",
+    "answer": "liêu",
+    "choices": [
+      "liêu",
+      "biêu",
+      "ciêu",
+      "miêu"
+    ],
+    "metadata": {
+      "audioText": "liêu",
+      "audioLocale": "vi-VN",
+      "rime": "iêu",
+      "audioId": "vi_rime_ieeu"
+    }
+  },
+  {
+    "id": "r_uyeen",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 3,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: b + uyên",
+    "question": "b + uyên",
+    "answer": "buyên",
+    "choices": [
+      "buyên",
+      "cuyên",
+      "muyên",
+      "nuyên"
+    ],
+    "metadata": {
+      "audioText": "buyên",
+      "audioLocale": "vi-VN",
+      "rime": "uyên",
+      "audioId": "vi_rime_uyeen"
+    }
+  },
+  {
+    "id": "r_uyeest",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 6,
+    "skill": "rime",
+    "difficulty": 3,
+    "title": "Ghép vần",
+    "instruction": "Vần nào đúng: c + uyết",
+    "question": "c + uyết",
+    "answer": "cuyết",
+    "choices": [
+      "cuyết",
+      "muyết",
+      "nuyết",
+      "tuyết"
+    ],
+    "metadata": {
+      "audioText": "cuyết",
+      "audioLocale": "vi-VN",
+      "rime": "uyết",
+      "audioId": "vi_rime_uyeest"
+    }
+  }
+]

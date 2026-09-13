@@ -1,0 +1,4967 @@
+{
+  "scope": "AUDIO_GENERATION_ONLY",
+  "curriculumModified": false,
+  "ttsInput": "native_kana_not_romaji",
+  "items": [
+    {
+      "id": "ja_h_a",
+      "originalCurriculumText": "あ",
+      "spokenText": "あ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_a",
+      "originalCurriculumText": "あ",
+      "spokenText": "あ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_i",
+      "originalCurriculumText": "い",
+      "spokenText": "い",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_i",
+      "originalCurriculumText": "い",
+      "spokenText": "い",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_u",
+      "originalCurriculumText": "う",
+      "spokenText": "う",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_u",
+      "originalCurriculumText": "う",
+      "spokenText": "う",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_e",
+      "originalCurriculumText": "え",
+      "spokenText": "え",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_e",
+      "originalCurriculumText": "え",
+      "spokenText": "え",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_o",
+      "originalCurriculumText": "お",
+      "spokenText": "お",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_o",
+      "originalCurriculumText": "お",
+      "spokenText": "お",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ka",
+      "originalCurriculumText": "か",
+      "spokenText": "か",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ka",
+      "originalCurriculumText": "か",
+      "spokenText": "か",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ki",
+      "originalCurriculumText": "き",
+      "spokenText": "き",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ki",
+      "originalCurriculumText": "き",
+      "spokenText": "き",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ku",
+      "originalCurriculumText": "く",
+      "spokenText": "く",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ku",
+      "originalCurriculumText": "く",
+      "spokenText": "く",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ke",
+      "originalCurriculumText": "け",
+      "spokenText": "け",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ke",
+      "originalCurriculumText": "け",
+      "spokenText": "け",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ko",
+      "originalCurriculumText": "こ",
+      "spokenText": "こ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ko",
+      "originalCurriculumText": "こ",
+      "spokenText": "こ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_sa",
+      "originalCurriculumText": "さ",
+      "spokenText": "さ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_sa",
+      "originalCurriculumText": "さ",
+      "spokenText": "さ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_shi",
+      "originalCurriculumText": "し",
+      "spokenText": "し",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_shi",
+      "originalCurriculumText": "し",
+      "spokenText": "し",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_su",
+      "originalCurriculumText": "す",
+      "spokenText": "す",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_su",
+      "originalCurriculumText": "す",
+      "spokenText": "す",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_se",
+      "originalCurriculumText": "せ",
+      "spokenText": "せ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_se",
+      "originalCurriculumText": "せ",
+      "spokenText": "せ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_so",
+      "originalCurriculumText": "そ",
+      "spokenText": "そ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_so",
+      "originalCurriculumText": "そ",
+      "spokenText": "そ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ta",
+      "originalCurriculumText": "た",
+      "spokenText": "た",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ta",
+      "originalCurriculumText": "た",
+      "spokenText": "た",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_chi",
+      "originalCurriculumText": "ち",
+      "spokenText": "ち",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_chi",
+      "originalCurriculumText": "ち",
+      "spokenText": "ち",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_tsu",
+      "originalCurriculumText": "つ",
+      "spokenText": "つ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_tsu",
+      "originalCurriculumText": "つ",
+      "spokenText": "つ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_te",
+      "originalCurriculumText": "て",
+      "spokenText": "て",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_te",
+      "originalCurriculumText": "て",
+      "spokenText": "て",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_to",
+      "originalCurriculumText": "と",
+      "spokenText": "と",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_to",
+      "originalCurriculumText": "と",
+      "spokenText": "と",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_na",
+      "originalCurriculumText": "な",
+      "spokenText": "な",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_na",
+      "originalCurriculumText": "な",
+      "spokenText": "な",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ni",
+      "originalCurriculumText": "に",
+      "spokenText": "に",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ni",
+      "originalCurriculumText": "に",
+      "spokenText": "に",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_nu",
+      "originalCurriculumText": "ぬ",
+      "spokenText": "ぬ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_nu",
+      "originalCurriculumText": "ぬ",
+      "spokenText": "ぬ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ne",
+      "originalCurriculumText": "ね",
+      "spokenText": "ね",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ne",
+      "originalCurriculumText": "ね",
+      "spokenText": "ね",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_no",
+      "originalCurriculumText": "の",
+      "spokenText": "の",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_no",
+      "originalCurriculumText": "の",
+      "spokenText": "の",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ha",
+      "originalCurriculumText": "は",
+      "spokenText": "は",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ha",
+      "originalCurriculumText": "は",
+      "spokenText": "は",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_hi",
+      "originalCurriculumText": "ひ",
+      "spokenText": "ひ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_hi",
+      "originalCurriculumText": "ひ",
+      "spokenText": "ひ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_fu",
+      "originalCurriculumText": "ふ",
+      "spokenText": "ふ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_fu",
+      "originalCurriculumText": "ふ",
+      "spokenText": "ふ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_he",
+      "originalCurriculumText": "へ",
+      "spokenText": "へ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_he",
+      "originalCurriculumText": "へ",
+      "spokenText": "へ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ho",
+      "originalCurriculumText": "ほ",
+      "spokenText": "ほ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ho",
+      "originalCurriculumText": "ほ",
+      "spokenText": "ほ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ma",
+      "originalCurriculumText": "ま",
+      "spokenText": "ま",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ma",
+      "originalCurriculumText": "ま",
+      "spokenText": "ま",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_mi",
+      "originalCurriculumText": "み",
+      "spokenText": "み",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_mi",
+      "originalCurriculumText": "み",
+      "spokenText": "み",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_mu",
+      "originalCurriculumText": "む",
+      "spokenText": "む",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_mu",
+      "originalCurriculumText": "む",
+      "spokenText": "む",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_me",
+      "originalCurriculumText": "め",
+      "spokenText": "め",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_me",
+      "originalCurriculumText": "め",
+      "spokenText": "め",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_mo",
+      "originalCurriculumText": "も",
+      "spokenText": "も",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_mo",
+      "originalCurriculumText": "も",
+      "spokenText": "も",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ya",
+      "originalCurriculumText": "や",
+      "spokenText": "や",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ya",
+      "originalCurriculumText": "や",
+      "spokenText": "や",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_yu",
+      "originalCurriculumText": "ゆ",
+      "spokenText": "ゆ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_yu",
+      "originalCurriculumText": "ゆ",
+      "spokenText": "ゆ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_yo",
+      "originalCurriculumText": "よ",
+      "spokenText": "よ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_yo",
+      "originalCurriculumText": "よ",
+      "spokenText": "よ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ra",
+      "originalCurriculumText": "ら",
+      "spokenText": "ら",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ra",
+      "originalCurriculumText": "ら",
+      "spokenText": "ら",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ri",
+      "originalCurriculumText": "り",
+      "spokenText": "り",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ri",
+      "originalCurriculumText": "り",
+      "spokenText": "り",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ru",
+      "originalCurriculumText": "る",
+      "spokenText": "る",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ru",
+      "originalCurriculumText": "る",
+      "spokenText": "る",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_re",
+      "originalCurriculumText": "れ",
+      "spokenText": "れ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_re",
+      "originalCurriculumText": "れ",
+      "spokenText": "れ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ro",
+      "originalCurriculumText": "ろ",
+      "spokenText": "ろ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ro",
+      "originalCurriculumText": "ろ",
+      "spokenText": "ろ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_wa",
+      "originalCurriculumText": "わ",
+      "spokenText": "わ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_wa",
+      "originalCurriculumText": "わ",
+      "spokenText": "わ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_wo",
+      "originalCurriculumText": "を",
+      "spokenText": "を",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_wo",
+      "originalCurriculumText": "を",
+      "spokenText": "を",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_n",
+      "originalCurriculumText": "ん",
+      "spokenText": "ん",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_n",
+      "originalCurriculumText": "ん",
+      "spokenText": "ん",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_choon",
+      "originalCurriculumText": "ー",
+      "spokenText": "ー",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_choon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_choon",
+      "originalCurriculumText": "ー",
+      "spokenText": "ー",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ga",
+      "originalCurriculumText": "が",
+      "spokenText": "が",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ga",
+      "originalCurriculumText": "が",
+      "spokenText": "が",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_gi",
+      "originalCurriculumText": "ぎ",
+      "spokenText": "ぎ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_gi",
+      "originalCurriculumText": "ぎ",
+      "spokenText": "ぎ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_gu",
+      "originalCurriculumText": "ぐ",
+      "spokenText": "ぐ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_gu",
+      "originalCurriculumText": "ぐ",
+      "spokenText": "ぐ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ge",
+      "originalCurriculumText": "げ",
+      "spokenText": "げ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ge",
+      "originalCurriculumText": "げ",
+      "spokenText": "げ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_go",
+      "originalCurriculumText": "ご",
+      "spokenText": "ご",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_go",
+      "originalCurriculumText": "ご",
+      "spokenText": "ご",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_za",
+      "originalCurriculumText": "ざ",
+      "spokenText": "ざ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_za",
+      "originalCurriculumText": "ざ",
+      "spokenText": "ざ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ji",
+      "originalCurriculumText": "じ",
+      "spokenText": "じ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ji",
+      "originalCurriculumText": "じ",
+      "spokenText": "じ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_zu",
+      "originalCurriculumText": "ず",
+      "spokenText": "ず",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_zu",
+      "originalCurriculumText": "ず",
+      "spokenText": "ず",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ze",
+      "originalCurriculumText": "ぜ",
+      "spokenText": "ぜ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ze",
+      "originalCurriculumText": "ぜ",
+      "spokenText": "ぜ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_zo",
+      "originalCurriculumText": "ぞ",
+      "spokenText": "ぞ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_zo",
+      "originalCurriculumText": "ぞ",
+      "spokenText": "ぞ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_da",
+      "originalCurriculumText": "だ",
+      "spokenText": "だ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_da",
+      "originalCurriculumText": "だ",
+      "spokenText": "だ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_dji",
+      "originalCurriculumText": "ぢ",
+      "spokenText": "ぢ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_dji",
+      "originalCurriculumText": "ぢ",
+      "spokenText": "ぢ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_dzu",
+      "originalCurriculumText": "づ",
+      "spokenText": "づ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_dzu",
+      "originalCurriculumText": "づ",
+      "spokenText": "づ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_de",
+      "originalCurriculumText": "で",
+      "spokenText": "で",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_de",
+      "originalCurriculumText": "で",
+      "spokenText": "で",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_do",
+      "originalCurriculumText": "ど",
+      "spokenText": "ど",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_do",
+      "originalCurriculumText": "ど",
+      "spokenText": "ど",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ba",
+      "originalCurriculumText": "ば",
+      "spokenText": "ば",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ba",
+      "originalCurriculumText": "ば",
+      "spokenText": "ば",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_bi",
+      "originalCurriculumText": "び",
+      "spokenText": "び",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_bi",
+      "originalCurriculumText": "び",
+      "spokenText": "び",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_bu",
+      "originalCurriculumText": "ぶ",
+      "spokenText": "ぶ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_bu",
+      "originalCurriculumText": "ぶ",
+      "spokenText": "ぶ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_be",
+      "originalCurriculumText": "べ",
+      "spokenText": "べ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_be",
+      "originalCurriculumText": "べ",
+      "spokenText": "べ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_bo",
+      "originalCurriculumText": "ぼ",
+      "spokenText": "ぼ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_bo",
+      "originalCurriculumText": "ぼ",
+      "spokenText": "ぼ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_pa",
+      "originalCurriculumText": "ぱ",
+      "spokenText": "ぱ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_handakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_pa",
+      "originalCurriculumText": "ぱ",
+      "spokenText": "ぱ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_pi",
+      "originalCurriculumText": "ぴ",
+      "spokenText": "ぴ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_handakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_pi",
+      "originalCurriculumText": "ぴ",
+      "spokenText": "ぴ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_pu",
+      "originalCurriculumText": "ぷ",
+      "spokenText": "ぷ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_handakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_pu",
+      "originalCurriculumText": "ぷ",
+      "spokenText": "ぷ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_pe",
+      "originalCurriculumText": "ぺ",
+      "spokenText": "ぺ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_handakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_pe",
+      "originalCurriculumText": "ぺ",
+      "spokenText": "ぺ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_po",
+      "originalCurriculumText": "ぽ",
+      "spokenText": "ぽ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_handakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_po",
+      "originalCurriculumText": "ぽ",
+      "spokenText": "ぽ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_small_a",
+      "originalCurriculumText": "ぁ",
+      "spokenText": "ぁ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_small.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_small_a",
+      "originalCurriculumText": "ぁ",
+      "spokenText": "ぁ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_small_i",
+      "originalCurriculumText": "ぃ",
+      "spokenText": "ぃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_small.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_small_i",
+      "originalCurriculumText": "ぃ",
+      "spokenText": "ぃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_small_u",
+      "originalCurriculumText": "ぅ",
+      "spokenText": "ぅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_small.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_small_u",
+      "originalCurriculumText": "ぅ",
+      "spokenText": "ぅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_small_e",
+      "originalCurriculumText": "ぇ",
+      "spokenText": "ぇ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_small.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_small_e",
+      "originalCurriculumText": "ぇ",
+      "spokenText": "ぇ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_small_o",
+      "originalCurriculumText": "ぉ",
+      "spokenText": "ぉ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_small.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_small_o",
+      "originalCurriculumText": "ぉ",
+      "spokenText": "ぉ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_small_ya",
+      "originalCurriculumText": "ゃ",
+      "spokenText": "ゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_small.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_small_ya",
+      "originalCurriculumText": "ゃ",
+      "spokenText": "ゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_small_yu",
+      "originalCurriculumText": "ゅ",
+      "spokenText": "ゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_small.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_small_yu",
+      "originalCurriculumText": "ゅ",
+      "spokenText": "ゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_small_yo",
+      "originalCurriculumText": "ょ",
+      "spokenText": "ょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_small.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_small_yo",
+      "originalCurriculumText": "ょ",
+      "spokenText": "ょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_sokuon",
+      "originalCurriculumText": "っ",
+      "spokenText": "っ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_sokuon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_sokuon",
+      "originalCurriculumText": "っ",
+      "spokenText": "っ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_kya",
+      "originalCurriculumText": "きゃ",
+      "spokenText": "きゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_kya",
+      "originalCurriculumText": "きゃ",
+      "spokenText": "きゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_kyu",
+      "originalCurriculumText": "きゅ",
+      "spokenText": "きゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_kyu",
+      "originalCurriculumText": "きゅ",
+      "spokenText": "きゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_kyo",
+      "originalCurriculumText": "きょ",
+      "spokenText": "きょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_kyo",
+      "originalCurriculumText": "きょ",
+      "spokenText": "きょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_sha",
+      "originalCurriculumText": "しゃ",
+      "spokenText": "しゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_sha",
+      "originalCurriculumText": "しゃ",
+      "spokenText": "しゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_shu",
+      "originalCurriculumText": "しゅ",
+      "spokenText": "しゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_shu",
+      "originalCurriculumText": "しゅ",
+      "spokenText": "しゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_sho",
+      "originalCurriculumText": "しょ",
+      "spokenText": "しょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_sho",
+      "originalCurriculumText": "しょ",
+      "spokenText": "しょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_cha",
+      "originalCurriculumText": "ちゃ",
+      "spokenText": "ちゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_cha",
+      "originalCurriculumText": "ちゃ",
+      "spokenText": "ちゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_chu",
+      "originalCurriculumText": "ちゅ",
+      "spokenText": "ちゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_chu",
+      "originalCurriculumText": "ちゅ",
+      "spokenText": "ちゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_cho",
+      "originalCurriculumText": "ちょ",
+      "spokenText": "ちょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_cho",
+      "originalCurriculumText": "ちょ",
+      "spokenText": "ちょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_nya",
+      "originalCurriculumText": "にゃ",
+      "spokenText": "にゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_nya",
+      "originalCurriculumText": "にゃ",
+      "spokenText": "にゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_nyu",
+      "originalCurriculumText": "にゅ",
+      "spokenText": "にゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_nyu",
+      "originalCurriculumText": "にゅ",
+      "spokenText": "にゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_nyo",
+      "originalCurriculumText": "にょ",
+      "spokenText": "にょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_nyo",
+      "originalCurriculumText": "にょ",
+      "spokenText": "にょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_hya",
+      "originalCurriculumText": "ひゃ",
+      "spokenText": "ひゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_hya",
+      "originalCurriculumText": "ひゃ",
+      "spokenText": "ひゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_hyu",
+      "originalCurriculumText": "ひゅ",
+      "spokenText": "ひゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_hyu",
+      "originalCurriculumText": "ひゅ",
+      "spokenText": "ひゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_hyo",
+      "originalCurriculumText": "ひょ",
+      "spokenText": "ひょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_hyo",
+      "originalCurriculumText": "ひょ",
+      "spokenText": "ひょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_mya",
+      "originalCurriculumText": "みゃ",
+      "spokenText": "みゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_mya",
+      "originalCurriculumText": "みゃ",
+      "spokenText": "みゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_myu",
+      "originalCurriculumText": "みゅ",
+      "spokenText": "みゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_myu",
+      "originalCurriculumText": "みゅ",
+      "spokenText": "みゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_myo",
+      "originalCurriculumText": "みょ",
+      "spokenText": "みょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_myo",
+      "originalCurriculumText": "みょ",
+      "spokenText": "みょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_rya",
+      "originalCurriculumText": "りゃ",
+      "spokenText": "りゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_rya",
+      "originalCurriculumText": "りゃ",
+      "spokenText": "りゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ryu",
+      "originalCurriculumText": "りゅ",
+      "spokenText": "りゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ryu",
+      "originalCurriculumText": "りゅ",
+      "spokenText": "りゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ryo",
+      "originalCurriculumText": "りょ",
+      "spokenText": "りょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ryo",
+      "originalCurriculumText": "りょ",
+      "spokenText": "りょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_gya",
+      "originalCurriculumText": "ぎゃ",
+      "spokenText": "ぎゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_gya",
+      "originalCurriculumText": "ぎゃ",
+      "spokenText": "ぎゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_gyu",
+      "originalCurriculumText": "ぎゅ",
+      "spokenText": "ぎゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_gyu",
+      "originalCurriculumText": "ぎゅ",
+      "spokenText": "ぎゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_gyo",
+      "originalCurriculumText": "ぎょ",
+      "spokenText": "ぎょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_gyo",
+      "originalCurriculumText": "ぎょ",
+      "spokenText": "ぎょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ja",
+      "originalCurriculumText": "じゃ",
+      "spokenText": "じゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ja",
+      "originalCurriculumText": "じゃ",
+      "spokenText": "じゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_ju",
+      "originalCurriculumText": "じゅ",
+      "spokenText": "じゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_ju",
+      "originalCurriculumText": "じゅ",
+      "spokenText": "じゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_jo",
+      "originalCurriculumText": "じょ",
+      "spokenText": "じょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_jo",
+      "originalCurriculumText": "じょ",
+      "spokenText": "じょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_bya",
+      "originalCurriculumText": "びゃ",
+      "spokenText": "びゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_bya",
+      "originalCurriculumText": "びゃ",
+      "spokenText": "びゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_byu",
+      "originalCurriculumText": "びゅ",
+      "spokenText": "びゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_byu",
+      "originalCurriculumText": "びゅ",
+      "spokenText": "びゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_byo",
+      "originalCurriculumText": "びょ",
+      "spokenText": "びょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_byo",
+      "originalCurriculumText": "びょ",
+      "spokenText": "びょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_pya",
+      "originalCurriculumText": "ぴゃ",
+      "spokenText": "ぴゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_pya",
+      "originalCurriculumText": "ぴゃ",
+      "spokenText": "ぴゃ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_pyu",
+      "originalCurriculumText": "ぴゅ",
+      "spokenText": "ぴゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_pyu",
+      "originalCurriculumText": "ぴゅ",
+      "spokenText": "ぴゅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_h_pyo",
+      "originalCurriculumText": "ぴょ",
+      "spokenText": "ぴょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From hiragana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "h_pyo",
+      "originalCurriculumText": "ぴょ",
+      "spokenText": "ぴょ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_a",
+      "originalCurriculumText": "ア",
+      "spokenText": "ア",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_a",
+      "originalCurriculumText": "ア",
+      "spokenText": "ア",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_i",
+      "originalCurriculumText": "イ",
+      "spokenText": "イ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_i",
+      "originalCurriculumText": "イ",
+      "spokenText": "イ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_u",
+      "originalCurriculumText": "ウ",
+      "spokenText": "ウ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_u",
+      "originalCurriculumText": "ウ",
+      "spokenText": "ウ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_e",
+      "originalCurriculumText": "エ",
+      "spokenText": "エ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_e",
+      "originalCurriculumText": "エ",
+      "spokenText": "エ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_o",
+      "originalCurriculumText": "オ",
+      "spokenText": "オ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_o",
+      "originalCurriculumText": "オ",
+      "spokenText": "オ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ka",
+      "originalCurriculumText": "カ",
+      "spokenText": "カ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ka",
+      "originalCurriculumText": "カ",
+      "spokenText": "カ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ki",
+      "originalCurriculumText": "キ",
+      "spokenText": "キ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ki",
+      "originalCurriculumText": "キ",
+      "spokenText": "キ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ku",
+      "originalCurriculumText": "ク",
+      "spokenText": "ク",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ku",
+      "originalCurriculumText": "ク",
+      "spokenText": "ク",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ke",
+      "originalCurriculumText": "ケ",
+      "spokenText": "ケ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ke",
+      "originalCurriculumText": "ケ",
+      "spokenText": "ケ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ko",
+      "originalCurriculumText": "コ",
+      "spokenText": "コ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ko",
+      "originalCurriculumText": "コ",
+      "spokenText": "コ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_sa",
+      "originalCurriculumText": "サ",
+      "spokenText": "サ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_sa",
+      "originalCurriculumText": "サ",
+      "spokenText": "サ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_shi",
+      "originalCurriculumText": "シ",
+      "spokenText": "シ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_shi",
+      "originalCurriculumText": "シ",
+      "spokenText": "シ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_su",
+      "originalCurriculumText": "ス",
+      "spokenText": "ス",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_su",
+      "originalCurriculumText": "ス",
+      "spokenText": "ス",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_se",
+      "originalCurriculumText": "セ",
+      "spokenText": "セ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_se",
+      "originalCurriculumText": "セ",
+      "spokenText": "セ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_so",
+      "originalCurriculumText": "ソ",
+      "spokenText": "ソ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_so",
+      "originalCurriculumText": "ソ",
+      "spokenText": "ソ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ta",
+      "originalCurriculumText": "タ",
+      "spokenText": "タ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ta",
+      "originalCurriculumText": "タ",
+      "spokenText": "タ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_chi",
+      "originalCurriculumText": "チ",
+      "spokenText": "チ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_chi",
+      "originalCurriculumText": "チ",
+      "spokenText": "チ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_tsu",
+      "originalCurriculumText": "ツ",
+      "spokenText": "ツ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_tsu",
+      "originalCurriculumText": "ツ",
+      "spokenText": "ツ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_te",
+      "originalCurriculumText": "テ",
+      "spokenText": "テ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_te",
+      "originalCurriculumText": "テ",
+      "spokenText": "テ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_to",
+      "originalCurriculumText": "ト",
+      "spokenText": "ト",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_to",
+      "originalCurriculumText": "ト",
+      "spokenText": "ト",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_na",
+      "originalCurriculumText": "ナ",
+      "spokenText": "ナ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_na",
+      "originalCurriculumText": "ナ",
+      "spokenText": "ナ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ni",
+      "originalCurriculumText": "ニ",
+      "spokenText": "ニ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ni",
+      "originalCurriculumText": "ニ",
+      "spokenText": "ニ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_nu",
+      "originalCurriculumText": "ヌ",
+      "spokenText": "ヌ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_nu",
+      "originalCurriculumText": "ヌ",
+      "spokenText": "ヌ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ne",
+      "originalCurriculumText": "ネ",
+      "spokenText": "ネ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ne",
+      "originalCurriculumText": "ネ",
+      "spokenText": "ネ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_no",
+      "originalCurriculumText": "ノ",
+      "spokenText": "ノ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_no",
+      "originalCurriculumText": "ノ",
+      "spokenText": "ノ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ha",
+      "originalCurriculumText": "ハ",
+      "spokenText": "ハ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ha",
+      "originalCurriculumText": "ハ",
+      "spokenText": "ハ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_hi",
+      "originalCurriculumText": "ヒ",
+      "spokenText": "ヒ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_hi",
+      "originalCurriculumText": "ヒ",
+      "spokenText": "ヒ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_fu",
+      "originalCurriculumText": "フ",
+      "spokenText": "フ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_fu",
+      "originalCurriculumText": "フ",
+      "spokenText": "フ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_he",
+      "originalCurriculumText": "ヘ",
+      "spokenText": "ヘ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_he",
+      "originalCurriculumText": "ヘ",
+      "spokenText": "ヘ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ho",
+      "originalCurriculumText": "ホ",
+      "spokenText": "ホ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ho",
+      "originalCurriculumText": "ホ",
+      "spokenText": "ホ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ma",
+      "originalCurriculumText": "マ",
+      "spokenText": "マ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ma",
+      "originalCurriculumText": "マ",
+      "spokenText": "マ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_mi",
+      "originalCurriculumText": "ミ",
+      "spokenText": "ミ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_mi",
+      "originalCurriculumText": "ミ",
+      "spokenText": "ミ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_mu",
+      "originalCurriculumText": "ム",
+      "spokenText": "ム",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_mu",
+      "originalCurriculumText": "ム",
+      "spokenText": "ム",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_me",
+      "originalCurriculumText": "メ",
+      "spokenText": "メ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_me",
+      "originalCurriculumText": "メ",
+      "spokenText": "メ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_mo",
+      "originalCurriculumText": "モ",
+      "spokenText": "モ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_mo",
+      "originalCurriculumText": "モ",
+      "spokenText": "モ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ya",
+      "originalCurriculumText": "ヤ",
+      "spokenText": "ヤ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ya",
+      "originalCurriculumText": "ヤ",
+      "spokenText": "ヤ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_yu",
+      "originalCurriculumText": "ユ",
+      "spokenText": "ユ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_yu",
+      "originalCurriculumText": "ユ",
+      "spokenText": "ユ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_yo",
+      "originalCurriculumText": "ヨ",
+      "spokenText": "ヨ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_yo",
+      "originalCurriculumText": "ヨ",
+      "spokenText": "ヨ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ra",
+      "originalCurriculumText": "ラ",
+      "spokenText": "ラ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ra",
+      "originalCurriculumText": "ラ",
+      "spokenText": "ラ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ri",
+      "originalCurriculumText": "リ",
+      "spokenText": "リ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ri",
+      "originalCurriculumText": "リ",
+      "spokenText": "リ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ru",
+      "originalCurriculumText": "ル",
+      "spokenText": "ル",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ru",
+      "originalCurriculumText": "ル",
+      "spokenText": "ル",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_re",
+      "originalCurriculumText": "レ",
+      "spokenText": "レ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_re",
+      "originalCurriculumText": "レ",
+      "spokenText": "レ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ro",
+      "originalCurriculumText": "ロ",
+      "spokenText": "ロ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ro",
+      "originalCurriculumText": "ロ",
+      "spokenText": "ロ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_wa",
+      "originalCurriculumText": "ワ",
+      "spokenText": "ワ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_wa",
+      "originalCurriculumText": "ワ",
+      "spokenText": "ワ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_wo",
+      "originalCurriculumText": "ヲ",
+      "spokenText": "ヲ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_wo",
+      "originalCurriculumText": "ヲ",
+      "spokenText": "ヲ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_n",
+      "originalCurriculumText": "ン",
+      "spokenText": "ン",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_basic.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_n",
+      "originalCurriculumText": "ン",
+      "spokenText": "ン",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_choonpu",
+      "originalCurriculumText": "ー",
+      "spokenText": "ー",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_choon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_choonpu",
+      "originalCurriculumText": "ー",
+      "spokenText": "ー",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ga",
+      "originalCurriculumText": "ガ",
+      "spokenText": "ガ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ga",
+      "originalCurriculumText": "ガ",
+      "spokenText": "ガ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_gi",
+      "originalCurriculumText": "ギ",
+      "spokenText": "ギ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_gi",
+      "originalCurriculumText": "ギ",
+      "spokenText": "ギ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_gu",
+      "originalCurriculumText": "グ",
+      "spokenText": "グ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_gu",
+      "originalCurriculumText": "グ",
+      "spokenText": "グ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ge",
+      "originalCurriculumText": "ゲ",
+      "spokenText": "ゲ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ge",
+      "originalCurriculumText": "ゲ",
+      "spokenText": "ゲ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_go",
+      "originalCurriculumText": "ゴ",
+      "spokenText": "ゴ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_go",
+      "originalCurriculumText": "ゴ",
+      "spokenText": "ゴ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_za",
+      "originalCurriculumText": "ザ",
+      "spokenText": "ザ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_za",
+      "originalCurriculumText": "ザ",
+      "spokenText": "ザ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ji",
+      "originalCurriculumText": "ジ",
+      "spokenText": "ジ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ji",
+      "originalCurriculumText": "ジ",
+      "spokenText": "ジ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_zu",
+      "originalCurriculumText": "ズ",
+      "spokenText": "ズ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_zu",
+      "originalCurriculumText": "ズ",
+      "spokenText": "ズ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ze",
+      "originalCurriculumText": "ゼ",
+      "spokenText": "ゼ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ze",
+      "originalCurriculumText": "ゼ",
+      "spokenText": "ゼ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_zo",
+      "originalCurriculumText": "ゾ",
+      "spokenText": "ゾ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_zo",
+      "originalCurriculumText": "ゾ",
+      "spokenText": "ゾ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_da",
+      "originalCurriculumText": "ダ",
+      "spokenText": "ダ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_da",
+      "originalCurriculumText": "ダ",
+      "spokenText": "ダ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_dji",
+      "originalCurriculumText": "ヂ",
+      "spokenText": "ヂ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_dji",
+      "originalCurriculumText": "ヂ",
+      "spokenText": "ヂ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_dzu",
+      "originalCurriculumText": "ヅ",
+      "spokenText": "ヅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_dzu",
+      "originalCurriculumText": "ヅ",
+      "spokenText": "ヅ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_de",
+      "originalCurriculumText": "デ",
+      "spokenText": "デ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_de",
+      "originalCurriculumText": "デ",
+      "spokenText": "デ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_do",
+      "originalCurriculumText": "ド",
+      "spokenText": "ド",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_do",
+      "originalCurriculumText": "ド",
+      "spokenText": "ド",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ba",
+      "originalCurriculumText": "バ",
+      "spokenText": "バ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ba",
+      "originalCurriculumText": "バ",
+      "spokenText": "バ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_bi",
+      "originalCurriculumText": "ビ",
+      "spokenText": "ビ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_bi",
+      "originalCurriculumText": "ビ",
+      "spokenText": "ビ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_bu",
+      "originalCurriculumText": "ブ",
+      "spokenText": "ブ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_bu",
+      "originalCurriculumText": "ブ",
+      "spokenText": "ブ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_be",
+      "originalCurriculumText": "ベ",
+      "spokenText": "ベ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_be",
+      "originalCurriculumText": "ベ",
+      "spokenText": "ベ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_bo",
+      "originalCurriculumText": "ボ",
+      "spokenText": "ボ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_dakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_bo",
+      "originalCurriculumText": "ボ",
+      "spokenText": "ボ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_fa",
+      "originalCurriculumText": "ファ",
+      "spokenText": "ファ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_extended.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_fa",
+      "originalCurriculumText": "ファ",
+      "spokenText": "ファ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_fi",
+      "originalCurriculumText": "フィ",
+      "spokenText": "フィ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_extended.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_fi",
+      "originalCurriculumText": "フィ",
+      "spokenText": "フィ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_fe",
+      "originalCurriculumText": "フェ",
+      "spokenText": "フェ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_extended.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_fe",
+      "originalCurriculumText": "フェ",
+      "spokenText": "フェ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_fo",
+      "originalCurriculumText": "フォ",
+      "spokenText": "フォ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_extended.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_fo",
+      "originalCurriculumText": "フォ",
+      "spokenText": "フォ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ti",
+      "originalCurriculumText": "ティ",
+      "spokenText": "ティ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_extended.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ti",
+      "originalCurriculumText": "ティ",
+      "spokenText": "ティ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_di",
+      "originalCurriculumText": "ディ",
+      "spokenText": "ディ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_extended.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_di",
+      "originalCurriculumText": "ディ",
+      "spokenText": "ディ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_che",
+      "originalCurriculumText": "チェ",
+      "spokenText": "チェ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_extended.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_che",
+      "originalCurriculumText": "チェ",
+      "spokenText": "チェ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_je",
+      "originalCurriculumText": "ジェ",
+      "spokenText": "ジェ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_extended.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_je",
+      "originalCurriculumText": "ジェ",
+      "spokenText": "ジェ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_wi",
+      "originalCurriculumText": "ウィ",
+      "spokenText": "ウィ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_extended.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_wi",
+      "originalCurriculumText": "ウィ",
+      "spokenText": "ウィ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_we",
+      "originalCurriculumText": "ウェ",
+      "spokenText": "ウェ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_extended.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_we",
+      "originalCurriculumText": "ウェ",
+      "spokenText": "ウェ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_wo_ex",
+      "originalCurriculumText": "ウォ",
+      "spokenText": "ウォ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_extended.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_wo_ex",
+      "originalCurriculumText": "ウォ",
+      "spokenText": "ウォ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_she",
+      "originalCurriculumText": "シェ",
+      "spokenText": "シェ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_extended.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_she",
+      "originalCurriculumText": "シェ",
+      "spokenText": "シェ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_tsa",
+      "originalCurriculumText": "ツァ",
+      "spokenText": "ツァ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_extended.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_tsa",
+      "originalCurriculumText": "ツァ",
+      "spokenText": "ツァ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_tsi",
+      "originalCurriculumText": "ツィ",
+      "spokenText": "ツィ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_extended.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_tsi",
+      "originalCurriculumText": "ツィ",
+      "spokenText": "ツィ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_tse",
+      "originalCurriculumText": "ツェ",
+      "spokenText": "ツェ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_extended.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_tse",
+      "originalCurriculumText": "ツェ",
+      "spokenText": "ツェ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_tso",
+      "originalCurriculumText": "ツォ",
+      "spokenText": "ツォ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_extended.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_tso",
+      "originalCurriculumText": "ツォ",
+      "spokenText": "ツォ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_pa",
+      "originalCurriculumText": "パ",
+      "spokenText": "パ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_handakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_pa",
+      "originalCurriculumText": "パ",
+      "spokenText": "パ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_pi",
+      "originalCurriculumText": "ピ",
+      "spokenText": "ピ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_handakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_pi",
+      "originalCurriculumText": "ピ",
+      "spokenText": "ピ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_pu",
+      "originalCurriculumText": "プ",
+      "spokenText": "プ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_handakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_pu",
+      "originalCurriculumText": "プ",
+      "spokenText": "プ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_pe",
+      "originalCurriculumText": "ペ",
+      "spokenText": "ペ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_handakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_pe",
+      "originalCurriculumText": "ペ",
+      "spokenText": "ペ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_po",
+      "originalCurriculumText": "ポ",
+      "spokenText": "ポ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_handakuten.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_po",
+      "originalCurriculumText": "ポ",
+      "spokenText": "ポ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_small_a",
+      "originalCurriculumText": "ァ",
+      "spokenText": "ァ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_small.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_small_a",
+      "originalCurriculumText": "ァ",
+      "spokenText": "ァ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_small_i",
+      "originalCurriculumText": "ィ",
+      "spokenText": "ィ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_small.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_small_i",
+      "originalCurriculumText": "ィ",
+      "spokenText": "ィ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_small_u",
+      "originalCurriculumText": "ゥ",
+      "spokenText": "ゥ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_small.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_small_u",
+      "originalCurriculumText": "ゥ",
+      "spokenText": "ゥ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_small_e",
+      "originalCurriculumText": "ェ",
+      "spokenText": "ェ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_small.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_small_e",
+      "originalCurriculumText": "ェ",
+      "spokenText": "ェ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_small_o",
+      "originalCurriculumText": "ォ",
+      "spokenText": "ォ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_small.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_small_o",
+      "originalCurriculumText": "ォ",
+      "spokenText": "ォ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_small_ya",
+      "originalCurriculumText": "ャ",
+      "spokenText": "ャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_small.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_small_ya",
+      "originalCurriculumText": "ャ",
+      "spokenText": "ャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_small_yu",
+      "originalCurriculumText": "ュ",
+      "spokenText": "ュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_small.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_small_yu",
+      "originalCurriculumText": "ュ",
+      "spokenText": "ュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_small_yo",
+      "originalCurriculumText": "ョ",
+      "spokenText": "ョ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_small.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_small_yo",
+      "originalCurriculumText": "ョ",
+      "spokenText": "ョ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_sokuon",
+      "originalCurriculumText": "ッ",
+      "spokenText": "ッ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_sokuon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_sokuon",
+      "originalCurriculumText": "ッ",
+      "spokenText": "ッ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_kya",
+      "originalCurriculumText": "キャ",
+      "spokenText": "キャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_kya",
+      "originalCurriculumText": "キャ",
+      "spokenText": "キャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_kyu",
+      "originalCurriculumText": "キュ",
+      "spokenText": "キュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_kyu",
+      "originalCurriculumText": "キュ",
+      "spokenText": "キュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_kyo",
+      "originalCurriculumText": "キョ",
+      "spokenText": "キョ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_kyo",
+      "originalCurriculumText": "キョ",
+      "spokenText": "キョ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_sha",
+      "originalCurriculumText": "シャ",
+      "spokenText": "シャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_sha",
+      "originalCurriculumText": "シャ",
+      "spokenText": "シャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_shu",
+      "originalCurriculumText": "シュ",
+      "spokenText": "シュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_shu",
+      "originalCurriculumText": "シュ",
+      "spokenText": "シュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_sho",
+      "originalCurriculumText": "ショ",
+      "spokenText": "ショ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_sho",
+      "originalCurriculumText": "ショ",
+      "spokenText": "ショ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_cha",
+      "originalCurriculumText": "チャ",
+      "spokenText": "チャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_cha",
+      "originalCurriculumText": "チャ",
+      "spokenText": "チャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_chu",
+      "originalCurriculumText": "チュ",
+      "spokenText": "チュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_chu",
+      "originalCurriculumText": "チュ",
+      "spokenText": "チュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_cho",
+      "originalCurriculumText": "チョ",
+      "spokenText": "チョ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_cho",
+      "originalCurriculumText": "チョ",
+      "spokenText": "チョ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_nya",
+      "originalCurriculumText": "ニャ",
+      "spokenText": "ニャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_nya",
+      "originalCurriculumText": "ニャ",
+      "spokenText": "ニャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_nyu",
+      "originalCurriculumText": "ニュ",
+      "spokenText": "ニュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_nyu",
+      "originalCurriculumText": "ニュ",
+      "spokenText": "ニュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_nyo",
+      "originalCurriculumText": "ニョ",
+      "spokenText": "ニョ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_nyo",
+      "originalCurriculumText": "ニョ",
+      "spokenText": "ニョ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_hya",
+      "originalCurriculumText": "ヒャ",
+      "spokenText": "ヒャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_hya",
+      "originalCurriculumText": "ヒャ",
+      "spokenText": "ヒャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_hyu",
+      "originalCurriculumText": "ヒュ",
+      "spokenText": "ヒュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_hyu",
+      "originalCurriculumText": "ヒュ",
+      "spokenText": "ヒュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_hyo",
+      "originalCurriculumText": "ヒョ",
+      "spokenText": "ヒョ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_hyo",
+      "originalCurriculumText": "ヒョ",
+      "spokenText": "ヒョ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_mya",
+      "originalCurriculumText": "ミャ",
+      "spokenText": "ミャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_mya",
+      "originalCurriculumText": "ミャ",
+      "spokenText": "ミャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_myu",
+      "originalCurriculumText": "ミュ",
+      "spokenText": "ミュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_myu",
+      "originalCurriculumText": "ミュ",
+      "spokenText": "ミュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_myo",
+      "originalCurriculumText": "ミョ",
+      "spokenText": "ミョ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_myo",
+      "originalCurriculumText": "ミョ",
+      "spokenText": "ミョ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_rya",
+      "originalCurriculumText": "リャ",
+      "spokenText": "リャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_rya",
+      "originalCurriculumText": "リャ",
+      "spokenText": "リャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ryu",
+      "originalCurriculumText": "リュ",
+      "spokenText": "リュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ryu",
+      "originalCurriculumText": "リュ",
+      "spokenText": "リュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ryo",
+      "originalCurriculumText": "リョ",
+      "spokenText": "リョ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ryo",
+      "originalCurriculumText": "リョ",
+      "spokenText": "リョ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_gya",
+      "originalCurriculumText": "ギャ",
+      "spokenText": "ギャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_gya",
+      "originalCurriculumText": "ギャ",
+      "spokenText": "ギャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_gyu",
+      "originalCurriculumText": "ギュ",
+      "spokenText": "ギュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_gyu",
+      "originalCurriculumText": "ギュ",
+      "spokenText": "ギュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_gyo",
+      "originalCurriculumText": "ギョ",
+      "spokenText": "ギョ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_gyo",
+      "originalCurriculumText": "ギョ",
+      "spokenText": "ギョ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ja",
+      "originalCurriculumText": "ジャ",
+      "spokenText": "ジャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ja",
+      "originalCurriculumText": "ジャ",
+      "spokenText": "ジャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_ju",
+      "originalCurriculumText": "ジュ",
+      "spokenText": "ジュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_ju",
+      "originalCurriculumText": "ジュ",
+      "spokenText": "ジュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_jo",
+      "originalCurriculumText": "ジョ",
+      "spokenText": "ジョ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_jo",
+      "originalCurriculumText": "ジョ",
+      "spokenText": "ジョ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_bya",
+      "originalCurriculumText": "ビャ",
+      "spokenText": "ビャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_bya",
+      "originalCurriculumText": "ビャ",
+      "spokenText": "ビャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_byu",
+      "originalCurriculumText": "ビュ",
+      "spokenText": "ビュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_byu",
+      "originalCurriculumText": "ビュ",
+      "spokenText": "ビュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_byo",
+      "originalCurriculumText": "ビョ",
+      "spokenText": "ビョ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_byo",
+      "originalCurriculumText": "ビョ",
+      "spokenText": "ビョ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_pya",
+      "originalCurriculumText": "ピャ",
+      "spokenText": "ピャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_pya",
+      "originalCurriculumText": "ピャ",
+      "spokenText": "ピャ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_pyu",
+      "originalCurriculumText": "ピュ",
+      "spokenText": "ピュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_pyu",
+      "originalCurriculumText": "ピュ",
+      "spokenText": "ピュ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "ja_k_pyo",
+      "originalCurriculumText": "ピョ",
+      "spokenText": "ピョ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "From katakana_yoon.json. TTS input is kana, not romaji."
+    },
+    {
+      "id": "k_pyo",
+      "originalCurriculumText": "ピョ",
+      "spokenText": "ピョ",
+      "language": "ja-JP",
+      "purpose": "kana",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Curriculum id without ja_ prefix."
+    },
+    {
+      "id": "preview_ja_h_a",
+      "originalCurriculumText": "あ",
+      "spokenText": "あ",
+      "language": "ja-JP",
+      "purpose": "preview",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Existing 18-preview ID."
+    },
+    {
+      "id": "preview_ja_h_i",
+      "originalCurriculumText": "い",
+      "spokenText": "い",
+      "language": "ja-JP",
+      "purpose": "preview",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Existing 18-preview ID."
+    },
+    {
+      "id": "preview_ja_h_u",
+      "originalCurriculumText": "う",
+      "spokenText": "う",
+      "language": "ja-JP",
+      "purpose": "preview",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Existing 18-preview ID."
+    },
+    {
+      "id": "preview_ja_h_e",
+      "originalCurriculumText": "え",
+      "spokenText": "え",
+      "language": "ja-JP",
+      "purpose": "preview",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Existing 18-preview ID."
+    },
+    {
+      "id": "preview_ja_h_o",
+      "originalCurriculumText": "お",
+      "spokenText": "お",
+      "language": "ja-JP",
+      "purpose": "preview",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Existing 18-preview ID."
+    },
+    {
+      "id": "preview_ja_h_ka",
+      "originalCurriculumText": "か",
+      "spokenText": "か",
+      "language": "ja-JP",
+      "purpose": "preview",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Existing 18-preview ID."
+    },
+    {
+      "id": "preview_ja_h_ki",
+      "originalCurriculumText": "き",
+      "spokenText": "き",
+      "language": "ja-JP",
+      "purpose": "preview",
+      "category": "LETTER_NAME",
+      "ssml": null,
+      "notes": "Existing 18-preview ID."
+    },
+    {
+      "id": "preview_ja_jouzu",
+      "originalCurriculumText": "じょうず",
+      "spokenText": "じょうず",
+      "language": "ja-JP",
+      "purpose": "preview",
+      "category": "PRAISE",
+      "ssml": null,
+      "notes": "Existing 18-preview ID."
+    }
+  ]
+}

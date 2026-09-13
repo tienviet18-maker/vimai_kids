@@ -1,0 +1,6 @@
+edge-tts>=6.1.9
+tqdm>=4.66.0
+google-cloud-texttospeech>=2.16.0
+# asyncio is included in the Python standard library (do not pip-install).
+# Google ADC: set GOOGLE_APPLICATION_CREDENTIALS or run
+#   gcloud auth application-default login
