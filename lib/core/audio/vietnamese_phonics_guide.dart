@@ -61,6 +61,6 @@ class VietnamesePhonicsGuide {
     if (id.isNotEmpty) return audio.playAsset(id);
     final fromText = VietnameseSpeechCatalog.getAudioIdForWord(letter.exampleWord);
     if (fromText.isNotEmpty) return audio.playAsset(fromText);
-    return Future.value(AudioPlayResult.unavailable('Thiếu file âm thanh từ ví dụ'));
+    return Future.value(const AudioPlayResult.unavailable('Thiếu file âm thanh từ ví dụ'));
   }
 }

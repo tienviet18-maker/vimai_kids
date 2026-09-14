@@ -194,13 +194,14 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
         _feedback = 'Giỏi lắm!';
       });
       final audio = ref.read(audioServiceProvider);
+      // Never await clip/feedback audio — Safari can hang on Web Audio promises.
       if (widget.alphabet == CatchAlphabet.vietnamese) {
-        await audio.playVietnameseLetterSound(kana.character);
+        unawaited(audio.playVietnameseLetterSound(kana.character));
       } else {
-        await audio.playJapaneseAsset(kana.audioId);
+        unawaited(audio.playJapaneseAsset(kana.audioId));
       }
-      if (!mounted) return;
-      await audio.playRandomSuccess();
+      unawaited(audio.playRandomSuccess());
+      await Future<void>.delayed(const Duration(milliseconds: 700));
       if (!mounted) return;
       setState(() {
         _busy = false;

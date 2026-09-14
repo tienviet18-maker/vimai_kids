@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../core/providers.dart';
 import '../../../core/theme/vimai_tokens.dart';
 import '../../../data/repositories/profile_repository.dart';
 import '../../shared/widgets/vimai_mascot.dart';

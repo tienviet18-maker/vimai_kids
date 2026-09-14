@@ -182,14 +182,15 @@ class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
     if (!ok) {
       final hintResp = await ref.read(maiAiServiceProvider).onIncorrectAnswer(mathCtx);
       _maiController.showResponse(hintResp);
-      await ref.read(audioServiceProvider).playRandomTryAgain();
+      // Never await audio — Safari WebKit can hang on autoplay/context promises.
+      unawaited(ref.read(audioServiceProvider).playRandomTryAgain());
       if (mounted) setState(() => _session.busy = false);
       return;
     }
 
     final praiseResp = await ref.read(maiAiServiceProvider).onCorrectAnswer(mathCtx);
     _maiController.showResponse(praiseResp);
-    await ref.read(audioServiceProvider).playRandomSuccess();
+    unawaited(ref.read(audioServiceProvider).playRandomSuccess());
     await Future<void>.delayed(const Duration(milliseconds: 700));
     if (!mounted) return;
 

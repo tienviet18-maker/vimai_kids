@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -42,7 +43,7 @@ class _ListenKanaGameState extends ConsumerState<ListenKanaGame> {
   }
 
   Future<void> _playPrompt() async {
-    await ref.read(audioServiceProvider).playJapaneseAsset(_round.target.audioId);
+    unawaited(ref.read(audioServiceProvider).playJapaneseAsset(_round.target.audioId));
   }
 
   Future<void> _next() async {
@@ -87,9 +88,9 @@ class _ListenKanaGameState extends ConsumerState<ListenKanaGame> {
     });
     if (!ok) return;
     final audio = ref.read(audioServiceProvider);
-    await audio.playJapaneseAsset(tapped.audioId);
-    if (!mounted) return;
-    await audio.playRandomSuccess();
+    unawaited(audio.playJapaneseAsset(tapped.audioId));
+    unawaited(audio.playRandomSuccess());
+    await Future<void>.delayed(const Duration(milliseconds: 700));
     if (!mounted) return;
     setState(() {
       _busy = false;

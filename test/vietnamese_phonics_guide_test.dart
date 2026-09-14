@@ -22,13 +22,14 @@ class _SpyAudio extends AudioService {
   final ids = <String>[];
 
   @override
-  Future<AudioPlayResult> playAudio(String id) async {
+  Future<AudioPlayResult> playAudio(String id, {bool waitForComplete = false}) async {
     ids.add(id);
     return const AudioPlayResult.ok('vi-VN');
   }
 
   @override
-  Future<AudioPlayResult> playAsset(String assetKey) => playAudio(assetKey);
+  Future<AudioPlayResult> playAsset(String assetKey, {bool waitForComplete = false}) =>
+      playAudio(assetKey, waitForComplete: waitForComplete);
 
   @override
   Future<AudioPlayResult> playVietnameseAsset(String audioId) => playAudio(audioId);

@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -77,10 +79,11 @@ class _MathRocketGameState extends ConsumerState<MathRocketGame> {
       }
     });
     if (!ok) {
-      await ref.read(audioServiceProvider).playRandomTryAgain();
+      unawaited(ref.read(audioServiceProvider).playRandomTryAgain());
       return;
     }
-    await ref.read(audioServiceProvider).playRandomSuccess();
+    unawaited(ref.read(audioServiceProvider).playRandomSuccess());
+    await Future<void>.delayed(const Duration(milliseconds: 700));
     if (!mounted) return;
     setState(() {
       _busy = false;

@@ -138,14 +138,14 @@ class _VietnameseQuizListScreenState extends ConsumerState<VietnameseQuizListScr
     if (onset.isNotEmpty) {
       final onsetId = AudioService.getAudioIdForLetter(onset);
       if (onsetId.isNotEmpty) {
-        await audio.playAsset(onsetId);
+        await audio.playAsset(onsetId, waitForComplete: true);
         await Future<void>.delayed(const Duration(milliseconds: 280));
       }
     }
     if (rime.isNotEmpty) {
       final rimeId = AudioService.getAudioIdForLetter(rime);
       if (rimeId.isNotEmpty) {
-        await audio.playAsset(rimeId);
+        await audio.playAsset(rimeId, waitForComplete: true);
         await Future<void>.delayed(const Duration(milliseconds: 280));
       } else if (item.audioId.isNotEmpty || item.blendAudioId.isNotEmpty) {
         // vowel rime may be multi-letter — play full blend after onset

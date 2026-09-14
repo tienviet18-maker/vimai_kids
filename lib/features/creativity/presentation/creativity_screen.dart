@@ -75,8 +75,8 @@ class _CreativityScreenState extends ConsumerState<CreativityScreen> {
   List<PatternPuzzle> get _patterns => CreativityCatalog.patternsForAge(_age);
   List<DrawingChallenge> get _challenges => CreativityCatalog.drawingForAge(_age);
 
-  Future<void> _cheer() async {
-    await ref.read(audioServiceProvider).playRandomSuccess();
+  void _cheer() {
+    unawaited(ref.read(audioServiceProvider).playRandomSuccess());
   }
 
   @override

@@ -35,6 +35,10 @@ class AudioService {
   String? _lastRequestKey;
   DateTime? _lastRequestAt;
   Completer<void>? _currentPlay;
+  bool _webAudioUnlocked = false;
+
+  static const Duration _opTimeout = Duration(milliseconds: 1200);
+  static const Duration _completeTimeout = Duration(seconds: 3);
 
   static const bgmAsset = 'audio/bgm_ambient.mp3';
 
@@ -393,7 +397,7 @@ class AudioService {
     _duckDepth++;
     if (_duckDepth != 1) return;
     try {
-      await _bgmPlayer?.setVolume(bgmDuckVolume);
+      await _bgmPlayer?.setVolume(bgmDuckVolume).timeout(_opTimeout);
     } catch (_) {}
   }
 
@@ -401,7 +405,7 @@ class AudioService {
     if (_duckDepth > 0) _duckDepth--;
     if (_duckDepth > 0) return;
     try {
-      await _bgmPlayer?.setVolume(_bgmTargetVolume);
+      await _bgmPlayer?.setVolume(_bgmTargetVolume).timeout(_opTimeout);
     } catch (_) {}
   }
 
@@ -462,8 +466,9 @@ class AudioService {
 
   /// Primary playback API — ASCII schema id only (e.g. `v_aw`, `sys_math_intro`).
   ///
-  /// Strict flow: stop current clip, then play `assets/audio/{id}.mp3`.
-  Future<AudioPlayResult> playAudio(String id) async {
+  /// By default returns as soon as playback *starts* (Safari-safe). Pass
+  /// [waitForComplete] only when sequencing clips (e.g. onset → rime → syllable).
+  Future<AudioPlayResult> playAudio(String id, {bool waitForComplete = false}) async {
     final audioId = normalizeKey(id);
     if (!soundEnabled) {
       return const AudioPlayResult.unavailable('Âm thanh đang tắt.');
@@ -476,7 +481,7 @@ class AudioService {
     }
 
     _player ??= AudioPlayer();
-    await _player!.stop();
+    await _safePlayerOp(() => _player!.stop());
 
     await _duckBgm();
     try {
@@ -490,15 +495,17 @@ class AudioService {
         if (audioId.startsWith('j_kata_')) 'ja_k_${audioId.substring(7)}',
         if (audioId.startsWith('ja_h_') && audioId.length > 5) 'ja_${audioId.substring(5)}',
         if (audioId.startsWith('ja_k_') && audioId.length > 5) 'ja_${audioId.substring(5)}',
-        // Example word fallback: ja_h_a_example → ja_h_a
         if (audioId.endsWith('_example')) audioId.substring(0, audioId.length - '_example'.length),
-        // Rime without dedicated clip → try blend / word with same stem
         if (audioId.startsWith('v_rime_')) 'v_blend_${audioId.substring(7)}',
         if (audioId.startsWith('v_rime_')) 'v_word_${audioId.substring(7)}',
       ];
 
       for (final key in candidates) {
-        final ok = await _playRecorded('assets/audio/$key.mp3', duckExternally: true);
+        final ok = await _playRecorded(
+          'assets/audio/$key.mp3',
+          duckExternally: true,
+          waitForComplete: waitForComplete,
+        );
         if (ok) {
           _lastSpoken = key.startsWith('ja_') || key.startsWith('j_')
               ? AudioLanguage.japanese
@@ -513,7 +520,56 @@ class AudioService {
       );
       return AudioPlayResult.unavailable('Thiếu file âm thanh: $audioId');
     } finally {
-      await _unduckBgm();
+      // When not waiting for complete, unduck immediately so game UI never stalls.
+      if (!waitForComplete) {
+        unawaited(_unduckBgm());
+      } else {
+        await _unduckBgm();
+      }
+    }
+  }
+
+  /// Fire-and-forget feedback/clip play — never blocks Safari game loops.
+  void playFireAndForget(String id) {
+    try {
+      unawaited(
+        playAudio(id, waitForComplete: false).catchError((Object e, StackTrace st) {
+          debugPrint('[AudioService] Safari/web audio ignored for $id: $e');
+          return const AudioPlayResult.unavailable('audio ignored');
+        }),
+      );
+    } catch (e) {
+      debugPrint('[AudioService] Sound error: $e');
+    }
+  }
+
+  void playCorrectSound() => playFireAndForget(
+        successKeys[_random.nextInt(successKeys.length)],
+      );
+
+  void playWrongSound() => playFireAndForget(
+        tryAgainKeys[_random.nextInt(tryAgainKeys.length)],
+      );
+
+  /// Call from the first user gesture so Safari unlocks the Web Audio context.
+  Future<void> unlockWebAudioContext() async {
+    if (_webAudioUnlocked) return;
+    _webAudioUnlocked = true;
+    try {
+      _player ??= AudioPlayer();
+      // Extremely short silent kick: stop is enough to resume suspended contexts
+      // on many WebKit builds; play+stop a known system clip if available.
+      await _safePlayerOp(() => _player!.stop());
+      await _safePlayerOp(() => _player!.setVolume(0.01));
+      await _safePlayerOp(
+        () => _player!.play(AssetSource('audio/sys_success_1.mp3')),
+      );
+      await Future<void>.delayed(const Duration(milliseconds: 40));
+      await _safePlayerOp(() => _player!.stop());
+      await _safePlayerOp(() => _player!.setVolume(voiceVolume));
+      debugPrint('[AudioService] Web audio context unlock attempted');
+    } catch (e) {
+      debugPrint('[AudioService] Web audio unlock ignored: $e');
     }
   }
 
@@ -541,7 +597,8 @@ class AudioService {
     return playAudio(textOrKey);
   }
 
-  Future<AudioPlayResult> playAsset(String assetKey) => playAudio(assetKey);
+  Future<AudioPlayResult> playAsset(String assetKey, {bool waitForComplete = false}) =>
+      playAudio(assetKey, waitForComplete: waitForComplete);
 
   Future<AudioPlayResult> playSystem(String systemKey) =>
       playAudio(normalizeKey(systemKey, defaultPrefix: 'sys_'));
@@ -637,12 +694,15 @@ class AudioService {
 
   Future<AudioPlayResult> playRandomSuccess() {
     final key = successKeys[_random.nextInt(successKeys.length)];
-    return playAudio(key);
+    // Never block UI / game loops waiting for Safari audio completion.
+    playFireAndForget(key);
+    return Future.value(AudioPlayResult.ok(AudioLocalePolicy.localeFor(AudioLanguage.vietnamese)));
   }
 
   Future<AudioPlayResult> playRandomTryAgain() {
     final key = tryAgainKeys[_random.nextInt(tryAgainKeys.length)];
-    return playAudio(key);
+    playFireAndForget(key);
+    return Future.value(AudioPlayResult.ok(AudioLocalePolicy.localeFor(AudioLanguage.vietnamese)));
   }
 
   Future<AudioPlayResult> playIntro(String introKey) =>
@@ -704,30 +764,66 @@ class AudioService {
     return false;
   }
 
-  /// Stop then play — no epoch / queue gating.
-  Future<bool> _playRecorded(String assetPath, {bool duckExternally = false}) async {
+  /// Stop then play — Safari-safe timeouts; completion wait is opt-in.
+  Future<bool> _playRecorded(
+    String assetPath, {
+    bool duckExternally = false,
+    bool waitForComplete = false,
+  }) async {
     if (!duckExternally) await _duckBgm();
+    StreamSubscription<void>? sub;
     try {
       _player ??= AudioPlayer();
-      await _player!.stop();
-      await _player!.setPlaybackRate(AudioPlaybackPolicy.recordedPlaybackRate);
-      await _player!.setVolume(voiceVolume);
+      await _safePlayerOp(() => _player!.stop());
+      await _safePlayerOp(() => _player!.setPlaybackRate(AudioPlaybackPolicy.recordedPlaybackRate));
+      await _safePlayerOp(() => _player!.setVolume(voiceVolume));
       final source = assetPath.startsWith('assets/') ? assetPath.substring('assets/'.length) : assetPath;
       final done = Completer<void>();
       _currentPlay = done;
-      final sub = _player!.onPlayerComplete.listen((_) {
+      sub = _player!.onPlayerComplete.listen((_) {
         if (!done.isCompleted) done.complete();
       });
       debugPrint('[AudioService] Playing audio: $assetPath');
-      await _player!.play(AssetSource(source));
-      await done.future.timeout(const Duration(seconds: 8), onTimeout: () {});
+      await _safePlayerOp(() => _player!.play(AssetSource(source)));
+
+      if (waitForComplete) {
+        await done.future.timeout(_completeTimeout, onTimeout: () {
+          debugPrint('[AudioService] complete timeout (Safari-safe): $assetPath');
+        });
+      } else {
+        // Detach completion listener so ducking can restore later without blocking.
+        unawaited(
+          done.future.timeout(_completeTimeout, onTimeout: () {}).whenComplete(() async {
+            try {
+              await sub?.cancel();
+            } catch (_) {}
+            if (!duckExternally) {
+              await _unduckBgm();
+            }
+          }),
+        );
+        return true;
+      }
       await sub.cancel();
       return true;
     } catch (error) {
       debugPrint('[AudioService] recorded asset failed path=$assetPath: $error');
+      try {
+        await sub?.cancel();
+      } catch (_) {}
       return false;
     } finally {
-      if (!duckExternally) await _unduckBgm();
+      if (waitForComplete && !duckExternally) await _unduckBgm();
+    }
+  }
+
+  Future<void> _safePlayerOp(Future<void> Function() op) async {
+    try {
+      await op().timeout(_opTimeout, onTimeout: () {
+        debugPrint('[AudioService] player op timed out (Safari/WebKit)');
+      });
+    } catch (e) {
+      debugPrint('[AudioService] player op ignored: $e');
     }
   }
 }

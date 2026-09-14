@@ -423,7 +423,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> with RouteAware {
                         ),
                         Switch.adaptive(
                           value: enabled,
-                          activeColor: const Color(0xFFFF7E40),
+                          activeThumbColor: const Color(0xFFFF7E40),
                           onChanged: (val) async {
                             final settings = Map<String, dynamic>.from(currentProfile.settings)..['ai_enabled'] = val;
                             await ref.read(currentProfileProvider.notifier).setProfile(

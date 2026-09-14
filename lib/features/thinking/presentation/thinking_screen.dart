@@ -258,7 +258,7 @@ class _ThinkingScreenState extends ConsumerState<ThinkingScreen> {
                           if (ok) _score++;
                         });
                         if (ok) {
-                          await ref.read(audioServiceProvider).playRandomSuccess();
+                          unawaited(ref.read(audioServiceProvider).playRandomSuccess());
                           await Future<void>.delayed(const Duration(milliseconds: 500));
                           if (mounted) _next();
                         } else {

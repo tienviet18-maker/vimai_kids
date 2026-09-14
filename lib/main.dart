@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive_flutter/hive_flutter.dart';
@@ -52,16 +54,23 @@ void main() async {
   );
 }
 
-class ViMaiKidsApp extends StatelessWidget {
+class ViMaiKidsApp extends ConsumerWidget {
   const ViMaiKidsApp({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp.router(
-      title: AppBrand.productDisplayName,
-      debugShowCheckedModeBanner: false,
-      theme: AppTheme.theme,
-      routerConfig: goRouter,
+  Widget build(BuildContext context, WidgetRef ref) {
+    return Listener(
+      behavior: HitTestBehavior.translucent,
+      onPointerDown: (_) {
+        // Safari/iOS: unlock Web Audio on first user gesture.
+        unawaited(ref.read(audioServiceProvider).unlockWebAudioContext());
+      },
+      child: MaterialApp.router(
+        title: AppBrand.productDisplayName,
+        debugShowCheckedModeBanner: false,
+        theme: AppTheme.theme,
+        routerConfig: goRouter,
+      ),
     );
   }
 }

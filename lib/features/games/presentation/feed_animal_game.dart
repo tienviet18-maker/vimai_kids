@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -81,10 +83,12 @@ class _FeedAnimalGameState extends ConsumerState<FeedAnimalGame> {
       }
     });
     if (!ok) {
-      await ref.read(audioServiceProvider).playRandomTryAgain();
+      unawaited(ref.read(audioServiceProvider).playRandomTryAgain());
       return;
     }
-    await ref.read(audioServiceProvider).playRandomSuccess();
+    // Fire-and-forget audio so Safari never deadlocks the answer flow.
+    unawaited(ref.read(audioServiceProvider).playRandomSuccess());
+    await Future<void>.delayed(const Duration(milliseconds: 700));
     if (!mounted) return;
     setState(() {
       _busy = false;
