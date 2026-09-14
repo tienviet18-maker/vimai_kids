@@ -14,6 +14,7 @@ import '../../../core/theme/vimai_art.dart';
 import '../../../core/theme/vimai_tokens.dart';
 import '../../../data/content/game_catalog.dart';
 import '../../../data/content/math_generator.dart';
+import '../../../data/content/quiz_session.dart';
 import '../../../data/repositories/profile_repository.dart';
 import '../../../domain/content/content_item.dart';
 import '../../ai/presentation/mai_companion_widget.dart';
@@ -112,24 +113,22 @@ class MathQuizScreen extends ConsumerStatefulWidget {
 
 class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
   final _generator = MathQuestionGenerator();
-  late ContentItem _item;
-  String? _feedback;
-  bool? _correct;
-  int _score = 0;
-  int _wrong = 0;
-  bool _finished = false;
+  late QuizSession _session;
   AudioService? _audio;
   late final MaiCompanionController _maiController;
 
-  String? _lastChoice;
-
-  int get _goal => GameCatalog.roundsForAge(ref.read(currentProfileProvider)?.age ?? 5);
+  ContentItem get _item => _session.item;
+  int get _goal => _session.totalQuestions;
 
   @override
   void initState() {
     super.initState();
     _maiController = MaiCompanionController();
-    _next();
+    final age = ref.read(currentProfileProvider)?.age ?? 5;
+    _session = QuizSession(
+      totalQuestions: GameCatalog.roundsForAge(age),
+      generate: () => _generator.generateBySkill(widget.skill, age: age),
+    );
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (!mounted) return;
       _audio = ref.read(audioServiceProvider);
@@ -137,7 +136,6 @@ class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
       _audio?.soundEnabled = profile?.soundEnabled ?? true;
       _audio?.bgmEnabled = profile?.bgmEnabled ?? true;
       _audio?.startGameBgm();
-      // Hard-wired Hoài My system intro — skill-specific instruction clip.
       unawaited(_audio!.playAudio(AudioService.introForMathSkill(widget.skill)));
     });
   }
@@ -149,19 +147,8 @@ class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
     super.dispose();
   }
 
-  void _next() {
-    final age = ref.read(currentProfileProvider)?.age ?? 5;
-    _maiController.dismissBubble();
-    setState(() {
-      _item = _generator.generateBySkill(widget.skill, age: age);
-      _feedback = null;
-      _correct = null;
-      _lastChoice = null;
-    });
-  }
-
   Future<void> _onChoice(String value) async {
-    if (_finished) return;
+    if (_session.finished || _session.busy) return;
     final ok = value == _item.answer;
     final profile = ref.read(currentProfileProvider);
     if (profile != null) {
@@ -185,20 +172,18 @@ class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
     );
 
     setState(() {
-      _correct = ok;
-      _lastChoice = value;
-      _feedback = ok ? 'Giỏi lắm!' : 'Thử lại nhé';
-      if (ok) {
-        _score++;
-      } else {
-        _wrong++;
-      }
+      _session.busy = true;
+      _session.lastCorrect = ok;
+      _session.lastChoice = value;
+      _session.feedback = ok ? 'Giỏi lắm!' : 'Thử lại nhé';
+      if (!ok) _session.wrong++;
     });
 
     if (!ok) {
       final hintResp = await ref.read(maiAiServiceProvider).onIncorrectAnswer(mathCtx);
       _maiController.showResponse(hintResp);
       await ref.read(audioServiceProvider).playRandomTryAgain();
+      if (mounted) setState(() => _session.busy = false);
       return;
     }
 
@@ -207,16 +192,30 @@ class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
     await ref.read(audioServiceProvider).playRandomSuccess();
     await Future<void>.delayed(const Duration(milliseconds: 700));
     if (!mounted) return;
-    if (_score >= _goal) {
-      setState(() => _finished = true);
-    } else {
-      _next();
-    }
+
+    setState(() {
+      _session.score++;
+      _session.currentIndex++;
+      _session.busy = false;
+      if (_session.score >= _goal) {
+        _session.finished = true;
+      } else {
+        _session.generateNewQuestion();
+        _maiController.dismissBubble();
+      }
+    });
   }
 
   @override
   Widget build(BuildContext context) {
-    final page = _finished
+    final finished = _session.finished;
+    final score = _session.score;
+    final wrong = _session.wrong;
+    final feedback = _session.feedback;
+    final correct = _session.lastCorrect;
+    final lastChoice = _session.lastChoice;
+
+    final page = finished
       ? KidsHubShell(
         title: _item.title,
         accent: VimaiColor.mint,
@@ -232,18 +231,14 @@ class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
                 const SizedBox(height: 8),
                 const IdleMascot(mood: MascotMood.celebrating, color: VimaiColor.mascot, size: 88),
                 const SizedBox(height: 8),
-                Text('$_score đúng / $_wrong sai', style: VimaiType.subtitle),
+                Text('$score đúng / $wrong sai', style: VimaiType.subtitle),
                 const SizedBox(height: 24),
                 KidsPlayButton(
                   label: 'Chơi lại',
                   color: AppTheme.mathColor,
                   onPressed: () {
-                    setState(() {
-                      _score = 0;
-                      _wrong = 0;
-                      _finished = false;
-                    });
-                    _next();
+                    setState(() => _session.restart());
+                    _maiController.dismissBubble();
                   },
                 ),
               ],
@@ -263,12 +258,12 @@ class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
               constraints: BoxConstraints(minHeight: constraints.maxHeight, maxWidth: VimaiSpace.maxContent),
               child: Column(
                 children: [
-                  Text('Đúng $_score / $_goal', style: VimaiType.cardTitle.copyWith(color: AppTheme.mathColor)),
+                  Text('Đúng $score / $_goal', style: VimaiType.cardTitle.copyWith(color: AppTheme.mathColor)),
                   const SizedBox(height: 8),
                   ClipRRect(
                     borderRadius: BorderRadius.circular(99),
                     child: LinearProgressIndicator(
-                      value: _goal == 0 ? 0 : (_score / _goal).clamp(0, 1),
+                      value: _goal == 0 ? 0 : (score / _goal).clamp(0, 1),
                       minHeight: 10,
                       color: AppTheme.mathColor,
                       backgroundColor: AppTheme.mathColor.withValues(alpha: 0.12),
@@ -311,10 +306,10 @@ class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
                     choices: _item.choices ?? [],
                     onSelected: _onChoice,
                     color: AppTheme.mathColor,
-                    lastChoice: _lastChoice,
-                    lastCorrect: _correct,
+                    lastChoice: lastChoice,
+                    lastCorrect: correct,
                   ),
-                  LessonFeedback(correct: _correct, message: _feedback),
+                  LessonFeedback(correct: correct, message: feedback),
                 ],
               ),
             ),

@@ -2,15 +2,28 @@ import 'dart:math';
 
 import '../../domain/content/content_item.dart';
 import '../../domain/models/skill_mastery.dart';
+import 'learning_repositories.dart';
 
 class ThinkingQuestionEngine {
   final Random _random;
   final List<ContentItem> bank;
   final List<String> _recent = [];
+  final LearningRepositories _learning;
 
-  ThinkingQuestionEngine({Random? random, this.bank = const []}) : _random = random ?? Random();
+  ThinkingQuestionEngine({Random? random, this.bank = const []})
+      : _random = random ?? Random(),
+        _learning = LearningRepositories(random: random);
 
   ContentItem next({required int age, List<SkillMastery> mastery = const []}) {
+    // Periodically inject shape/color recognition for variety.
+    if (_random.nextInt(5) == 0) {
+      final injected = _random.nextBool() ? _learning.shapeQuestion() : _learning.colorQuestion();
+      if (age >= injected.ageMin && age <= injected.ageMax && !_recent.contains(injected.id)) {
+        _recent.add(injected.id);
+        if (_recent.length > 8) _recent.removeAt(0);
+        return injected;
+      }
+    }
     final generated = _allForAge(age);
     final combined = [...bank.where((e) => age >= e.ageMin && age <= e.ageMax), ...generated];
     final weakIds = mastery.where((e) => e.skill.startsWith('thinking') && e.needsReview).map((e) => e.id).toSet();
@@ -19,6 +32,28 @@ class ThinkingQuestionEngine {
     final weak = pool.where((e) => weakIds.contains(e.id)).toList();
     final pickFrom = weak.isNotEmpty && _random.nextBool() ? weak : pool;
     final item = pickFrom[_random.nextInt(pickFrom.length)];
+    // Fresh shuffle so options aren't sticky across rounds.
+    if (item.choices != null) {
+      final shuffled = List<String>.from(item.choices!)..shuffle(_random);
+      final refreshed = ContentItem(
+        id: '${item.id}_${_random.nextInt(9999)}',
+        subject: item.subject,
+        ageMin: item.ageMin,
+        ageMax: item.ageMax,
+        level: item.level,
+        skill: item.skill,
+        difficulty: item.difficulty,
+        title: item.title,
+        instruction: item.instruction,
+        question: item.question,
+        answer: item.answer,
+        choices: shuffled,
+        metadata: item.metadata,
+      );
+      _recent.add(refreshed.id);
+      if (_recent.length > 8) _recent.removeAt(0);
+      return refreshed;
+    }
     _recent.add(item.id);
     if (_recent.length > 8) _recent.removeAt(0);
     return item;

@@ -54,7 +54,7 @@ class _FeedAnimalGameState extends ConsumerState<FeedAnimalGame> {
 
   ContentItem _nextItem() {
     final age = ref.read(currentProfileProvider)?.age ?? 5;
-    return _generator.generateCounting(GameCatalog.countingMax(age));
+    return _generator.generateBySkill('counting', age: age);
   }
 
   Future<void> _onChoice(String value) async {

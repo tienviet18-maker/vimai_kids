@@ -66,6 +66,12 @@ class _NumberTrainGameState extends ConsumerState<NumberTrainGame> {
           _finished = true;
         }
       });
+      if (!_finished) {
+        Future<void>.delayed(const Duration(milliseconds: 650), () {
+          if (!mounted || _finished) return;
+          setState(_reset);
+        });
+      }
     } else {
       unawaited(ref.read(audioServiceProvider).playRandomTryAgain());
       setState(() {
@@ -144,13 +150,7 @@ class _NumberTrainGameState extends ConsumerState<NumberTrainGame> {
           ),
         ),
       ),
-      footer: _correct == true && !_finished
-          ? KidButton(
-              label: 'Ván mới',
-              onPressed: () => setState(_reset),
-              color: VimaiColor.sky,
-            )
-          : TextButton(onPressed: () => setState(_reset), child: const Text('Làm lại')),
+      footer: TextButton(onPressed: () => setState(_reset), child: const Text('Làm lại')),
     );
   }
 }
