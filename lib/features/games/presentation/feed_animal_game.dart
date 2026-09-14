@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/audio/audio_service.dart';
+import '../../../core/game/webkit_answer_tap.dart';
 import '../../../core/providers.dart';
 import '../../../core/theme/vimai_tokens.dart';
 import '../../../data/content/game_catalog.dart';
@@ -23,11 +24,11 @@ class FeedAnimalGame extends ConsumerStatefulWidget {
 
 class _FeedAnimalGameState extends ConsumerState<FeedAnimalGame> {
   final _generator = MathQuestionGenerator();
+  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 500));
   late var _item = _generator.generateCounting(5);
   int _score = 0;
   int _wrong = 0;
   bool _finished = false;
-  bool _busy = false;
   String? _feedback;
   bool? _correct;
   AudioService? _audio;
@@ -50,6 +51,7 @@ class _FeedAnimalGameState extends ConsumerState<FeedAnimalGame> {
 
   @override
   void dispose() {
+    _answerTap.dispose();
     _audio?.stopGameBgm();
     super.dispose();
   }
@@ -59,55 +61,66 @@ class _FeedAnimalGameState extends ConsumerState<FeedAnimalGame> {
     return _generator.generateBySkill('counting', age: age);
   }
 
-  Future<void> _onChoice(String value) async {
-    if (_busy || _finished) return;
-    final ok = value == _item.answer;
+  void _recordMastery(bool ok) {
     final profile = ref.read(currentProfileProvider);
-    if (profile != null) {
-      await ref.read(masteryRepositoryProvider).record(
+    if (profile == null) return;
+    unawaited(
+      ref.read(masteryRepositoryProvider).record(
             childId: profile.id,
             itemId: _item.id,
             skill: 'game.feed_animal',
             correct: ok,
-          );
-    }
-    if (!mounted) return;
-    setState(() {
-      _feedback = ok ? 'Giỏi lắm!' : 'Thử lại nhé!';
-      _correct = ok;
-      if (ok) {
-        _score++;
-        _busy = true;
-      } else {
-        _wrong++;
-      }
-    });
+          ),
+    );
+  }
+
+  void _onChoice(String value) {
+    if (_finished || _answerTap.locked) return;
+    final ok = value == _item.answer;
+    final audio = ref.read(audioServiceProvider);
+
     if (!ok) {
-      unawaited(ref.read(audioServiceProvider).playRandomTryAgain());
+      _answerTap.handleWrongAnswer(
+        setState: setState,
+        applyImmediateUi: () {
+          _feedback = 'Thử lại nhé!';
+          _correct = false;
+          _wrong++;
+        },
+        playSound: () => unawaited(audio.playRandomTryAgain()),
+        sideEffects: () => _recordMastery(false),
+      );
       return;
     }
-    // Fire-and-forget audio so Safari never deadlocks the answer flow.
-    unawaited(ref.read(audioServiceProvider).playRandomSuccess());
-    await Future<void>.delayed(const Duration(milliseconds: 700));
-    if (!mounted) return;
-    setState(() {
-      _busy = false;
-      _feedback = null;
-      _correct = null;
-      if (_score >= _goal) {
-        _finished = true;
-      } else {
-        _item = _nextItem();
-      }
-    });
+
+    _answerTap.handleCorrectAnswer(
+      setState: setState,
+      applyImmediateUi: () {
+        _feedback = 'Giỏi lắm!';
+        _correct = true;
+        _score++;
+      },
+      playSound: () => unawaited(audio.playRandomSuccess()),
+      sideEffects: () => _recordMastery(true),
+      isMounted: () => mounted,
+      advanceOrFinish: () {
+        _feedback = null;
+        _correct = null;
+        if (_score >= _goal) {
+          _finished = true;
+        } else {
+          _item = _nextItem();
+        }
+      },
+    );
   }
 
   void _restart() {
+    _answerTap.reset();
     setState(() {
       _score = 0;
       _wrong = 0;
       _finished = false;
-      _busy = false;
       _feedback = null;
       _correct = null;
       _item = _nextItem();

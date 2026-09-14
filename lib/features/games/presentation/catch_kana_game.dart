@@ -6,6 +6,7 @@ import 'package:flutter/scheduler.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/audio/audio_service.dart';
+import '../../../core/game/webkit_answer_tap.dart';
 import '../../../core/providers.dart';
 import '../../../core/theme/app_theme.dart';
 import '../../../core/theme/vimai_tokens.dart';
@@ -35,6 +36,7 @@ class CatchKanaGame extends ConsumerStatefulWidget {
 
 class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTickerProviderStateMixin {
   final _random = Random();
+  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 500));
   late CatchKanaRound _round;
   List<_Falling> _items = [];
   Size _board = Size.zero;
@@ -44,7 +46,6 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
   int _score = 0;
   int _wrong = 0;
   bool _finished = false;
-  bool _busy = false;
   String? _feedback;
   bool? _correct;
   String? _shakeId;
@@ -109,6 +110,7 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
 
   @override
   void dispose() {
+    _answerTap.dispose();
     _shakeTimer?.cancel();
     _ticker?.dispose();
     _audio?.stopGameBgm();
@@ -172,39 +174,62 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
     _layoutLetters();
   }
 
-  Future<void> _tap(KanaItem kana) async {
-    if (_busy || _finished) return;
+  void _tap(KanaItem kana) {
+    if (_finished || _answerTap.locked) return;
     final ok = _round.isCorrect(kana);
-    final profile = ref.read(currentProfileProvider);
-    if (profile != null) {
-      await ref.read(masteryRepositoryProvider).record(
-            childId: profile.id,
-            itemId: _round.target.id,
-            skill: 'game.catch_kana',
-            correct: ok,
-          );
+    final audio = ref.read(audioServiceProvider);
+
+    void recordMastery() {
+      final profile = ref.read(currentProfileProvider);
+      if (profile == null) return;
+      unawaited(
+        ref.read(masteryRepositoryProvider).record(
+              childId: profile.id,
+              itemId: _round.target.id,
+              skill: 'game.catch_kana',
+              correct: ok,
+            ),
+      );
     }
-    if (!mounted) return;
-    if (ok) {
-      setState(() {
-        _busy = true;
+
+    if (!ok) {
+      _answerTap.handleWrongAnswer(
+        setState: setState,
+        applyImmediateUi: () {
+          _wrong++;
+          _shakeId = kana.id;
+          _correct = false;
+          _feedback = 'Thử lại nhé!';
+        },
+        playSound: () => unawaited(audio.playRandomTryAgain()),
+        sideEffects: recordMastery,
+      );
+      _shakeTimer?.cancel();
+      _shakeTimer = Timer(const Duration(milliseconds: 420), () {
+        if (mounted) setState(() => _shakeId = null);
+      });
+      return;
+    }
+
+    _answerTap.handleCorrectAnswer(
+      setState: setState,
+      applyImmediateUi: () {
         _score++;
         _celebrateId = kana.id;
         _correct = true;
         _feedback = 'Giỏi lắm!';
-      });
-      final audio = ref.read(audioServiceProvider);
-      // Never await clip/feedback audio — Safari can hang on Web Audio promises.
-      if (widget.alphabet == CatchAlphabet.vietnamese) {
-        unawaited(audio.playVietnameseLetterSound(kana.character));
-      } else {
-        unawaited(audio.playJapaneseAsset(kana.audioId));
-      }
-      unawaited(audio.playRandomSuccess());
-      await Future<void>.delayed(const Duration(milliseconds: 700));
-      if (!mounted) return;
-      setState(() {
-        _busy = false;
+      },
+      playSound: () {
+        if (widget.alphabet == CatchAlphabet.vietnamese) {
+          unawaited(audio.playVietnameseLetterSound(kana.character));
+        } else {
+          unawaited(audio.playJapaneseAsset(kana.audioId));
+        }
+        unawaited(audio.playRandomSuccess());
+      },
+      sideEffects: recordMastery,
+      isMounted: () => mounted,
+      advanceOrFinish: () {
         _feedback = null;
         _correct = null;
         _celebrateId = null;
@@ -214,29 +239,17 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
         } else {
           _nextRound();
         }
-      });
-    } else {
-      setState(() {
-        _wrong++;
-        _shakeId = kana.id;
-        _correct = false;
-        _feedback = 'Thử lại nhé!';
-      });
-      unawaited(ref.read(audioServiceProvider).playRandomTryAgain());
-      _shakeTimer?.cancel();
-      _shakeTimer = Timer(const Duration(milliseconds: 420), () {
-        if (mounted) setState(() => _shakeId = null);
-      });
-    }
+      },
+    );
   }
 
   void _restart() {
     _ticker?.stop();
+    _answerTap.reset();
     setState(() {
       _score = 0;
       _wrong = 0;
       _finished = false;
-      _busy = false;
       _feedback = null;
       _correct = null;
       _shakeId = null;

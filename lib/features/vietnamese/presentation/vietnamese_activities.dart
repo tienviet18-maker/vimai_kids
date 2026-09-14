@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -5,6 +7,7 @@ import 'package:go_router/go_router.dart';
 import '../../../core/audio/audio_locale_policy.dart';
 import '../../../core/audio/audio_service.dart';
 import '../../../core/audio/vietnamese_phonics_guide.dart';
+import '../../../core/game/webkit_answer_tap.dart';
 import '../../../core/providers.dart';
 import '../../../core/session/session_binder.dart';
 import '../../../core/theme/app_theme.dart';
@@ -102,8 +105,15 @@ class VietnameseQuizListScreen extends ConsumerStatefulWidget {
 }
 
 class _VietnameseQuizListScreenState extends ConsumerState<VietnameseQuizListScreen> {
+  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 500));
   int _index = 0;
   String? _feedback;
+
+  @override
+  void dispose() {
+    _answerTap.dispose();
+    super.dispose();
+  }
 
   Future<void> _playItem(ContentItem item) async {
     final audio = ref.read(audioServiceProvider);
@@ -255,27 +265,44 @@ class _VietnameseQuizListScreenState extends ConsumerState<VietnameseQuizListScr
               ],
               ChoiceGrid(
                 choices: item.choices ?? [item.answer ?? ''],
-                onSelected: (value) async {
+                onSelected: (value) {
+                  if (_answerTap.locked) return;
                   final ok = value == item.answer;
                   final profile = ref.read(currentProfileProvider);
-                  if (profile != null) {
-                    await ref.read(masteryRepositoryProvider).record(
-                          childId: profile.id,
-                          itemId: item.id,
-                          skill: widget.skill,
-                          correct: ok,
-                        );
+
+                  void sideEffects() {
+                    if (profile == null) return;
+                    unawaited(
+                      ref.read(masteryRepositoryProvider).record(
+                            childId: profile.id,
+                            itemId: item.id,
+                            skill: widget.skill,
+                            correct: ok,
+                          ),
+                    );
                   }
-                  setState(() => _feedback = ok ? 'Đúng rồi! ⭐' : 'Thử lại nhé! 💪');
-                  if (ok) {
-                    await Future<void>.delayed(const Duration(milliseconds: 600));
-                    if (mounted) {
-                      setState(() {
-                        _index++;
-                        _feedback = null;
-                      });
-                    }
+
+                  if (!ok) {
+                    _answerTap.handleWrongAnswer(
+                      setState: setState,
+                      applyImmediateUi: () => _feedback = 'Thử lại nhé! 💪',
+                      playSound: () => unawaited(ref.read(audioServiceProvider).playRandomTryAgain()),
+                      sideEffects: sideEffects,
+                    );
+                    return;
                   }
+
+                  _answerTap.handleCorrectAnswer(
+                    setState: setState,
+                    applyImmediateUi: () => _feedback = 'Đúng rồi! ⭐',
+                    playSound: () => unawaited(ref.read(audioServiceProvider).playRandomSuccess()),
+                    sideEffects: sideEffects,
+                    isMounted: () => mounted,
+                    advanceOrFinish: () {
+                      _index++;
+                      _feedback = null;
+                    },
+                  );
                 },
               ),
               if (_feedback != null)
@@ -338,6 +365,7 @@ class VietnameseLetterGameScreen extends ConsumerStatefulWidget {
 }
 
 class _VietnameseLetterGameScreenState extends ConsumerState<VietnameseLetterGameScreen> {
+  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 500));
   ContentItem? _target;
   List<String> _choices = const [];
   String? _feedback;
@@ -353,6 +381,7 @@ class _VietnameseLetterGameScreenState extends ConsumerState<VietnameseLetterGam
 
   @override
   void dispose() {
+    _answerTap.dispose();
     try {
       ref.read(audioServiceProvider).stop();
     } catch (_) {}
@@ -403,31 +432,53 @@ class _VietnameseLetterGameScreenState extends ConsumerState<VietnameseLetterGam
               if (_choices.isNotEmpty)
               ChoiceGrid(
                 choices: _choices,
-                onSelected: (value) async {
+                onSelected: (value) {
+                  if (_answerTap.locked) return;
                   final target = _target;
                   if (target == null) return;
                   final ok = value == target.question;
                   final profile = ref.read(currentProfileProvider);
-                  if (profile != null) {
-                    await ref.read(masteryRepositoryProvider).record(
-                          childId: profile.id,
-                          itemId: target.id,
-                          skill: 'game.vietnamese_listen',
-                          correct: ok,
-                        );
+                  final audio = ref.read(audioServiceProvider);
+
+                  void sideEffects() {
+                    if (profile == null) return;
+                    unawaited(
+                      ref.read(masteryRepositoryProvider).record(
+                            childId: profile.id,
+                            itemId: target.id,
+                            skill: 'game.vietnamese_listen',
+                            correct: ok,
+                          ),
+                    );
                   }
-                  setState(() {
-                    _feedback = ok ? 'Đúng rồi! ⭐' : 'Thử lại nhé! 💪';
-                    if (ok) {
+
+                  if (!ok) {
+                    _answerTap.handleWrongAnswer(
+                      setState: setState,
+                      applyImmediateUi: () {
+                        _feedback = 'Thử lại nhé! 💪';
+                        _wrong++;
+                      },
+                      playSound: () => unawaited(audio.playRandomTryAgain()),
+                      sideEffects: sideEffects,
+                    );
+                    return;
+                  }
+
+                  _answerTap.handleCorrectAnswer(
+                    setState: setState,
+                    applyImmediateUi: () {
+                      _feedback = 'Đúng rồi! ⭐';
                       _score++;
-                    } else {
-                      _wrong++;
-                    }
-                  });
-                  if (ok) {
-                    await Future<void>.delayed(const Duration(milliseconds: 500));
-                    if (mounted) _next();
-                  }
+                    },
+                    playSound: () => unawaited(audio.playRandomSuccess()),
+                    sideEffects: sideEffects,
+                    isMounted: () => mounted,
+                    advanceOrFinish: () {
+                      // _next owns its own setState / audio prompt.
+                      unawaited(_next());
+                    },
+                  );
                 },
               ),
               if (_feedback != null) Text(_feedback!, style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
@@ -461,6 +512,7 @@ class VietnameseChooseLetterScreen extends ConsumerStatefulWidget {
 }
 
 class _VietnameseChooseLetterScreenState extends ConsumerState<VietnameseChooseLetterScreen> {
+  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 450));
   final _recent = <String>[];
   ContentItem? _target;
   List<String> _choices = const [];
@@ -479,6 +531,7 @@ class _VietnameseChooseLetterScreenState extends ConsumerState<VietnameseChooseL
 
   @override
   void dispose() {
+    _answerTap.dispose();
     try {
       ref.read(audioServiceProvider).stop();
     } catch (_) {}
@@ -589,30 +642,51 @@ class _VietnameseChooseLetterScreenState extends ConsumerState<VietnameseChooseL
               if (_choices.isNotEmpty)
                 ChoiceGrid(
                   choices: _choices,
-                  onSelected: (value) async {
+                  onSelected: (value) {
+                    if (_answerTap.locked) return;
                     final ok = value == _answer;
                     final target = _target;
                     final profile = ref.read(currentProfileProvider);
-                    if (profile != null && target != null) {
-                      await ref.read(masteryRepositoryProvider).record(
-                            childId: profile.id,
-                            itemId: target.id,
-                            skill: 'vietnamese.choose_letter',
-                            correct: ok,
-                          );
+                    final audio = ref.read(audioServiceProvider);
+
+                    void sideEffects() {
+                      if (profile == null || target == null) return;
+                      unawaited(
+                        ref.read(masteryRepositoryProvider).record(
+                              childId: profile.id,
+                              itemId: target.id,
+                              skill: 'vietnamese.choose_letter',
+                              correct: ok,
+                            ),
+                      );
                     }
-                    setState(() {
-                      _feedback = ok ? 'Đúng rồi! ⭐' : 'Thử lại nhé! 💪';
-                      if (ok) {
+
+                    if (!ok) {
+                      _answerTap.handleWrongAnswer(
+                        setState: setState,
+                        applyImmediateUi: () {
+                          _feedback = 'Thử lại nhé! 💪';
+                          _wrong++;
+                        },
+                        playSound: () => unawaited(audio.playRandomTryAgain()),
+                        sideEffects: sideEffects,
+                      );
+                      return;
+                    }
+
+                    _answerTap.handleCorrectAnswer(
+                      setState: setState,
+                      applyImmediateUi: () {
+                        _feedback = 'Đúng rồi! ⭐';
                         _score++;
-                      } else {
-                        _wrong++;
-                      }
-                    });
-                    if (ok) {
-                      await Future<void>.delayed(const Duration(milliseconds: 450));
-                      if (mounted) _next();
-                    }
+                      },
+                      playSound: () => unawaited(audio.playRandomSuccess()),
+                      sideEffects: sideEffects,
+                      isMounted: () => mounted,
+                      advanceOrFinish: () {
+                        unawaited(_next());
+                      },
+                    );
                   },
                 ),
               if (_feedback != null) Text(_feedback!, style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),

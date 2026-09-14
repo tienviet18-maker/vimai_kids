@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../core/game/webkit_answer_tap.dart';
 import '../../../core/providers.dart';
 import '../../../core/theme/app_theme.dart';
 import '../../../core/theme/vimai_tokens.dart';
@@ -22,11 +23,11 @@ class MathRocketGame extends ConsumerStatefulWidget {
 
 class _MathRocketGameState extends ConsumerState<MathRocketGame> {
   final _generator = MathQuestionGenerator();
+  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 500));
   late var _item = _generator.generateAddition(10);
   int _score = 0;
   int _wrong = 0;
   bool _finished = false;
-  bool _busy = false;
   String? _feedback;
   bool? _correct;
 
@@ -49,60 +50,78 @@ class _MathRocketGameState extends ConsumerState<MathRocketGame> {
     });
   }
 
+  @override
+  void dispose() {
+    _answerTap.dispose();
+    super.dispose();
+  }
+
   void _nextItem() {
     final age = ref.read(currentProfileProvider)?.age ?? 5;
     final skill = MathQuestionGenerator.skillForAge(age, addition: true);
     _item = _generator.generateBySkill(skill, age: age);
   }
 
-  Future<void> _onChoice(String value) async {
-    if (_busy || _finished) return;
-    final ok = value == _item.answer;
+  void _recordMastery(bool ok) {
     final profile = ref.read(currentProfileProvider);
-    if (profile != null) {
-      await ref.read(masteryRepositoryProvider).record(
+    if (profile == null) return;
+    unawaited(
+      ref.read(masteryRepositoryProvider).record(
             childId: profile.id,
             itemId: _item.id,
             skill: 'game.math_rocket',
             correct: ok,
-          );
-    }
-    if (!mounted) return;
-    setState(() {
-      _feedback = ok ? 'Giỏi lắm!' : 'Thử lại nhé!';
-      _correct = ok;
-      if (ok) {
-        _score++;
-        _busy = true;
-      } else {
-        _wrong++;
-      }
-    });
+          ),
+    );
+  }
+
+  void _onChoice(String value) {
+    if (_finished || _answerTap.locked) return;
+    final ok = value == _item.answer;
+    final audio = ref.read(audioServiceProvider);
+
     if (!ok) {
-      unawaited(ref.read(audioServiceProvider).playRandomTryAgain());
+      _answerTap.handleWrongAnswer(
+        setState: setState,
+        applyImmediateUi: () {
+          _feedback = 'Thử lại nhé!';
+          _correct = false;
+          _wrong++;
+        },
+        playSound: () => unawaited(audio.playRandomTryAgain()),
+        sideEffects: () => _recordMastery(false),
+      );
       return;
     }
-    unawaited(ref.read(audioServiceProvider).playRandomSuccess());
-    await Future<void>.delayed(const Duration(milliseconds: 700));
-    if (!mounted) return;
-    setState(() {
-      _busy = false;
-      _feedback = null;
-      _correct = null;
-      if (_score >= _goal) {
-        _finished = true;
-      } else {
-        _nextItem();
-      }
-    });
+
+    _answerTap.handleCorrectAnswer(
+      setState: setState,
+      applyImmediateUi: () {
+        _feedback = 'Giỏi lắm!';
+        _correct = true;
+        _score++;
+      },
+      playSound: () => unawaited(audio.playRandomSuccess()),
+      sideEffects: () => _recordMastery(true),
+      isMounted: () => mounted,
+      advanceOrFinish: () {
+        _feedback = null;
+        _correct = null;
+        if (_score >= _goal) {
+          _finished = true;
+        } else {
+          _nextItem();
+        }
+      },
+    );
   }
 
   void _restart() {
+    _answerTap.reset();
     setState(() {
       _score = 0;
       _wrong = 0;
       _finished = false;
-      _busy = false;
       _feedback = null;
       _correct = null;
       _nextItem();

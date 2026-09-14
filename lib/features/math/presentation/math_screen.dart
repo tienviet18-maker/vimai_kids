@@ -6,6 +6,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../../core/audio/audio_service.dart';
 import '../../../core/ai/mai_context.dart';
+import '../../../core/game/webkit_answer_tap.dart';
 import '../../../core/l10n/app_strings.dart';
 import '../../../core/providers.dart';
 import '../../../core/session/session_binder.dart';
@@ -113,6 +114,7 @@ class MathQuizScreen extends ConsumerStatefulWidget {
 
 class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
   final _generator = MathQuestionGenerator();
+  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 500));
   late QuizSession _session;
   AudioService? _audio;
   late final MaiCompanionController _maiController;
@@ -142,24 +144,14 @@ class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
 
   @override
   void dispose() {
+    _answerTap.dispose();
     _audio?.stopGameBgm();
     _maiController.dispose();
     super.dispose();
   }
 
-  Future<void> _onChoice(String value) async {
-    if (_session.finished || _session.busy) return;
-    final ok = value == _item.answer;
+  void _fireMaiAndMastery({required bool ok, required String choice}) {
     final profile = ref.read(currentProfileProvider);
-    if (profile != null) {
-      await ref.read(masteryRepositoryProvider).record(
-            childId: profile.id,
-            itemId: '${widget.skill}:${_item.question}',
-            skill: 'math.${widget.skill}',
-            correct: ok,
-          );
-    }
-
     final mathCtx = MaiContext(
       currentModule: 'math',
       currentLesson: widget.skill,
@@ -171,40 +163,74 @@ class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
       childAge: profile?.age ?? 5,
     );
 
-    setState(() {
-      _session.busy = true;
-      _session.lastCorrect = ok;
-      _session.lastChoice = value;
-      _session.feedback = ok ? 'Giỏi lắm!' : 'Thử lại nhé';
-      if (!ok) _session.wrong++;
-    });
+    if (profile != null) {
+      unawaited(
+        ref.read(masteryRepositoryProvider).record(
+              childId: profile.id,
+              itemId: '${widget.skill}:${_item.question}',
+              skill: 'math.${widget.skill}',
+              correct: ok,
+            ),
+      );
+    }
+
+    // Never await Gemini / network on the answer critical path (Safari freeze).
+    unawaited(() async {
+      try {
+        final mai = ref.read(maiAiServiceProvider);
+        final resp = ok ? await mai.onCorrectAnswer(mathCtx) : await mai.onIncorrectAnswer(mathCtx);
+        if (!mounted) return;
+        _maiController.showResponse(resp);
+      } catch (e) {
+        debugPrint('[MathQuiz] Mai side-effect ignored: $e');
+      }
+    }());
+  }
+
+  void _onChoice(String value) {
+    if (_session.finished || _answerTap.locked) return;
+    final ok = value == _item.answer;
+    final audio = ref.read(audioServiceProvider);
 
     if (!ok) {
-      final hintResp = await ref.read(maiAiServiceProvider).onIncorrectAnswer(mathCtx);
-      _maiController.showResponse(hintResp);
-      // Never await audio — Safari WebKit can hang on autoplay/context promises.
-      unawaited(ref.read(audioServiceProvider).playRandomTryAgain());
-      if (mounted) setState(() => _session.busy = false);
+      _answerTap.handleWrongAnswer(
+        setState: setState,
+        applyImmediateUi: () {
+          _session.lastCorrect = false;
+          _session.lastChoice = value;
+          _session.feedback = 'Thử lại nhé';
+          _session.wrong++;
+          _session.busy = false;
+        },
+        playSound: () => unawaited(audio.playRandomTryAgain()),
+        sideEffects: () => _fireMaiAndMastery(ok: false, choice: value),
+      );
       return;
     }
 
-    final praiseResp = await ref.read(maiAiServiceProvider).onCorrectAnswer(mathCtx);
-    _maiController.showResponse(praiseResp);
-    unawaited(ref.read(audioServiceProvider).playRandomSuccess());
-    await Future<void>.delayed(const Duration(milliseconds: 700));
-    if (!mounted) return;
-
-    setState(() {
-      _session.score++;
-      _session.currentIndex++;
-      _session.busy = false;
-      if (_session.score >= _goal) {
-        _session.finished = true;
-      } else {
-        _session.generateNewQuestion();
-        _maiController.dismissBubble();
-      }
-    });
+    _answerTap.handleCorrectAnswer(
+      setState: setState,
+      applyImmediateUi: () {
+        _session.busy = true;
+        _session.lastCorrect = true;
+        _session.lastChoice = value;
+        _session.feedback = 'Giỏi lắm!';
+        _session.score++;
+        _session.currentIndex++;
+      },
+      playSound: () => unawaited(audio.playRandomSuccess()),
+      sideEffects: () => _fireMaiAndMastery(ok: true, choice: value),
+      isMounted: () => mounted,
+      advanceOrFinish: () {
+        _session.busy = false;
+        if (_session.score >= _goal) {
+          _session.finished = true;
+        } else {
+          _session.generateNewQuestion();
+          _maiController.dismissBubble();
+        }
+      },
+    );
   }
 
   @override

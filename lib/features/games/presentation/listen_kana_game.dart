@@ -4,6 +4,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../core/game/webkit_answer_tap.dart';
 import '../../../core/providers.dart';
 import '../../../core/theme/app_theme.dart';
 import '../../../core/theme/vimai_tokens.dart';
@@ -24,13 +25,13 @@ class ListenKanaGame extends ConsumerStatefulWidget {
 
 class _ListenKanaGameState extends ConsumerState<ListenKanaGame> {
   final _random = Random();
+  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 500));
   late CatchKanaRound _round;
   String? _feedback;
   bool? _correct;
   int _score = 0;
   int _wrong = 0;
   bool _finished = false;
-  bool _busy = false;
   final _recent = <String>[];
 
   int get _goal => GameCatalog.roundsForAge(ref.read(currentProfileProvider)?.age ?? 5);
@@ -42,11 +43,17 @@ class _ListenKanaGameState extends ConsumerState<ListenKanaGame> {
     WidgetsBinding.instance.addPostFrameCallback((_) => _playPrompt());
   }
 
-  Future<void> _playPrompt() async {
+  @override
+  void dispose() {
+    _answerTap.dispose();
+    super.dispose();
+  }
+
+  void _playPrompt() {
     unawaited(ref.read(audioServiceProvider).playJapaneseAsset(_round.target.audioId));
   }
 
-  Future<void> _next() async {
+  void _prepareNextRound() {
     var next = CatchKanaRound.generate(pool: hiraganaData, random: _random);
     var guard = 0;
     while (_recent.contains(next.target.id) && guard < 12) {
@@ -58,59 +65,77 @@ class _ListenKanaGameState extends ConsumerState<ListenKanaGame> {
     if (_recent.length > 8) _recent.removeAt(0);
     _feedback = null;
     _correct = null;
-    setState(() {});
-    await _playPrompt();
   }
 
-  Future<void> _onChoice(String value) async {
-    if (_busy || _finished) return;
-    final tapped = _round.items.firstWhere((e) => e.character == value, orElse: () => _round.target);
-    final ok = _round.isCorrect(tapped);
+  void _recordMastery(bool ok) {
     final profile = ref.read(currentProfileProvider);
-    if (profile != null) {
-      await ref.read(masteryRepositoryProvider).record(
+    if (profile == null) return;
+    unawaited(
+      ref.read(masteryRepositoryProvider).record(
             childId: profile.id,
             itemId: _round.target.id,
             skill: 'game.listen_kana',
             correct: ok,
-          );
-    }
-    if (!mounted) return;
-    setState(() {
-      _feedback = ok ? 'Giỏi lắm!' : 'Thử lại nhé!';
-      _correct = ok;
-      if (ok) {
-        _score++;
-        _busy = true;
-      } else {
-        _wrong++;
-      }
-    });
-    if (!ok) return;
+          ),
+    );
+  }
+
+  void _onChoice(String value) {
+    if (_finished || _answerTap.locked) return;
+    final tapped = _round.items.firstWhere((e) => e.character == value, orElse: () => _round.target);
+    final ok = _round.isCorrect(tapped);
     final audio = ref.read(audioServiceProvider);
-    unawaited(audio.playJapaneseAsset(tapped.audioId));
-    unawaited(audio.playRandomSuccess());
-    await Future<void>.delayed(const Duration(milliseconds: 700));
-    if (!mounted) return;
-    setState(() {
-      _busy = false;
-      if (_score >= _goal) {
-        _finished = true;
-      } else {
-        _next();
-      }
-    });
+
+    if (!ok) {
+      _answerTap.handleWrongAnswer(
+        setState: setState,
+        applyImmediateUi: () {
+          _feedback = 'Thử lại nhé!';
+          _correct = false;
+          _wrong++;
+        },
+        playSound: () => unawaited(audio.playRandomTryAgain()),
+        sideEffects: () => _recordMastery(false),
+      );
+      return;
+    }
+
+    _answerTap.handleCorrectAnswer(
+      setState: setState,
+      applyImmediateUi: () {
+        _feedback = 'Giỏi lắm!';
+        _correct = true;
+        _score++;
+      },
+      playSound: () {
+        unawaited(audio.playJapaneseAsset(tapped.audioId));
+        unawaited(audio.playRandomSuccess());
+      },
+      sideEffects: () => _recordMastery(true),
+      isMounted: () => mounted,
+      advanceOrFinish: () {
+        if (_score >= _goal) {
+          _finished = true;
+          _feedback = null;
+          _correct = null;
+        } else {
+          _prepareNextRound();
+          _playPrompt();
+        }
+      },
+    );
   }
 
   void _restart() {
+    _answerTap.reset();
     setState(() {
       _score = 0;
       _wrong = 0;
       _finished = false;
-      _busy = false;
       _recent.clear();
+      _prepareNextRound();
     });
-    _next();
+    _playPrompt();
   }
 
   @override

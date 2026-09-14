@@ -6,6 +6,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../../core/ai/mai_context.dart';
 import '../../../core/audio/audio_service.dart';
+import '../../../core/game/webkit_answer_tap.dart';
 import '../../../core/l10n/app_strings.dart';
 import '../../../core/providers.dart';
 import '../../../core/session/session_binder.dart';
@@ -28,6 +29,7 @@ class ThinkingScreen extends ConsumerStatefulWidget {
 
 class _ThinkingScreenState extends ConsumerState<ThinkingScreen> {
   late final ThinkingQuestionEngine _engine;
+  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 500));
   ContentItem? _item;
   String? _feedback;
   bool? _correct;
@@ -48,27 +50,30 @@ class _ThinkingScreenState extends ConsumerState<ThinkingScreen> {
 
   @override
   void dispose() {
+    _answerTap.dispose();
     _maiController.dispose();
     super.dispose();
   }
 
-  void _next({bool playSkillIntro = false}) {
+  void _applyNextItem({bool playSkillIntro = false}) {
     final profile = ref.read(currentProfileProvider);
     final age = profile?.age ?? 5;
     final mastery = profile == null ? <SkillMastery>[] : ref.read(masteryRepositoryProvider).allForChild(profile.id);
     _maiController.dismissBubble();
     final item = _engine.next(age: age, mastery: mastery);
-    setState(() {
-      _item = item;
-      _feedback = null;
-      _correct = null;
-      _lastChoice = null;
-    });
+    _item = item;
+    _feedback = null;
+    _correct = null;
+    _lastChoice = null;
     if (playSkillIntro) {
       unawaited(
         ref.read(audioServiceProvider).playAudio(AudioService.introForThinkingSkill(item.skill)),
       );
     }
+  }
+
+  void _next({bool playSkillIntro = false}) {
+    setState(() => _applyNextItem(playSkillIntro: playSkillIntro));
   }
 
   @override
@@ -221,49 +226,75 @@ class _ThinkingScreenState extends ConsumerState<ThinkingScreen> {
                       color: VimaiColor.grape,
                       lastChoice: _lastChoice,
                       lastCorrect: _correct,
-                      onSelected: (value) async {
+                      onSelected: (value) {
+                        if (_answerTap.locked) return;
                         final ok = value == item.answer;
+                        final audio = ref.read(audioServiceProvider);
                         final profile = ref.read(currentProfileProvider);
-                        if (profile != null) {
-                          await ref.read(masteryRepositoryProvider).record(
-                                childId: profile.id,
-                                itemId: item.id,
-                                skill: 'thinking.${item.skill}',
-                                correct: ok,
-                              );
+                        final copyLocal = copy;
+
+                        void sideEffects() {
+                          if (profile != null) {
+                            unawaited(
+                              ref.read(masteryRepositoryProvider).record(
+                                    childId: profile.id,
+                                    itemId: item.id,
+                                    skill: 'thinking.${item.skill}',
+                                    correct: ok,
+                                  ),
+                            );
+                          }
+                          final aiCtx = MaiContext(
+                            currentModule: 'thinking',
+                            currentLesson: item.skill,
+                            currentActivity: 'quiz',
+                            currentQuestion: item.instruction,
+                            learningObjective: item.title,
+                            expectedAnswer: item.answer,
+                            choices: item.choices,
+                            childAge: profile?.age ?? 5,
+                          );
+                          unawaited(() async {
+                            try {
+                              final mai = ref.read(maiAiServiceProvider);
+                              final resp = ok
+                                  ? await mai.onCorrectAnswer(aiCtx)
+                                  : await mai.onIncorrectAnswer(aiCtx);
+                              if (!mounted) return;
+                              _maiController.showResponse(resp);
+                            } catch (e) {
+                              debugPrint('[Thinking] Mai side-effect ignored: $e');
+                            }
+                          }());
                         }
 
-                        final aiCtx = MaiContext(
-                          currentModule: 'thinking',
-                          currentLesson: item.skill,
-                          currentActivity: 'quiz',
-                          currentQuestion: item.instruction,
-                          learningObjective: item.title,
-                          expectedAnswer: item.answer,
-                          choices: item.choices,
-                          childAge: profile?.age ?? 5,
+                        if (!ok) {
+                          _answerTap.handleWrongAnswer(
+                            setState: setState,
+                            applyImmediateUi: () {
+                              _correct = false;
+                              _lastChoice = value;
+                              _feedback = copyLocal.tryAgain;
+                            },
+                            playSound: () => unawaited(audio.playRandomTryAgain()),
+                            sideEffects: sideEffects,
+                          );
+                          return;
+                        }
+
+                        _answerTap.handleCorrectAnswer(
+                          setState: setState,
+                          applyImmediateUi: () {
+                            _correct = true;
+                            _lastChoice = value;
+                            _feedback = copyLocal.correct;
+                            _score++;
+                          },
+                          playSound: () => unawaited(audio.playRandomSuccess()),
+                          sideEffects: sideEffects,
+                          isMounted: () => mounted,
+                          advanceOrFinish: _applyNextItem,
                         );
-                        if (ok) {
-                          final praiseResp = await ref.read(maiAiServiceProvider).onCorrectAnswer(aiCtx);
-                          _maiController.showResponse(praiseResp);
-                        } else {
-                          final hintResp = await ref.read(maiAiServiceProvider).onIncorrectAnswer(aiCtx);
-                          _maiController.showResponse(hintResp);
-                        }
-
-                        setState(() {
-                          _correct = ok;
-                          _lastChoice = value;
-                          _feedback = ok ? copy.correct : copy.tryAgain;
-                          if (ok) _score++;
-                        });
-                        if (ok) {
-                          unawaited(ref.read(audioServiceProvider).playRandomSuccess());
-                          await Future<void>.delayed(const Duration(milliseconds: 500));
-                          if (mounted) _next();
-                        } else {
-                          unawaited(ref.read(audioServiceProvider).playRandomTryAgain());
-                        }
                       },
                     ),
                     LessonFeedback(correct: _correct, message: _feedback),

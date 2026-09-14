@@ -5,6 +5,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../../core/audio/audio_service.dart';
 import '../../../core/ai/mai_context.dart';
+import '../../../core/game/webkit_answer_tap.dart';
 import '../../../core/gamification/gamification_service.dart';
 import '../../../core/l10n/app_strings.dart';
 import '../../../core/providers.dart';
@@ -45,6 +46,7 @@ class KanaLessonScreen extends ConsumerStatefulWidget {
 
 class _KanaLessonScreenState extends ConsumerState<KanaLessonScreen> {
   late final PageController _controller;
+  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 500));
   late List<KanaItem> _items;
   int _index = 0;
   bool _completed = false;
@@ -107,6 +109,7 @@ class _KanaLessonScreenState extends ConsumerState<KanaLessonScreen> {
 
   @override
   void dispose() {
+    _answerTap.dispose();
     try {
       ref.read(audioServiceProvider).stop();
     } catch (_) {}
@@ -321,45 +324,75 @@ class _KanaLessonScreenState extends ConsumerState<KanaLessonScreen> {
                 lastCorrect: active ? _lastCorrect : null,
                 onPlay: _playCurrent,
                 onPlayExample: _playExample,
-                onRecognize: (value, ok) async {
+                onRecognize: (value, ok) {
+                  if (_answerTap.locked) return;
                   final profile = ref.read(currentProfileProvider);
-                  if (profile != null) {
-                    await ref.read(masteryRepositoryProvider).record(
-                          childId: profile.id,
-                          itemId: kana.id,
-                          skill: 'japanese.recognize',
-                          correct: ok,
-                        );
-                  }
-                  setState(() {
-                    _lastChoice = value;
-                    _lastCorrect = ok;
-                    _feedback = ok ? copy.correct : copy.tryAgain;
-                  });
-                  if (ok) {
-                    if (!mounted) return;
-                    await ref.read(gamificationServiceProvider).onCorrectAnswer(this.context);
-                    await Future<void>.delayed(const Duration(milliseconds: 500));
-                    if (mounted) _jumpToPage(_index + 1, keepMode: 'recognize');
-                  } else {
-                    final aiCtx = MaiContext(
-                      currentModule: 'japanese',
-                      currentLesson: kana.id,
-                      currentActivity: _mode,
-                      currentQuestion: 'Chọn chữ ${kana.character}',
-                      learningObjective: 'Nhận biết chữ Kana ${kana.character}',
-                      expectedAnswer: kana.character,
-                      targetLanguage: 'ja',
-                      childAge: profile?.age ?? 5,
-                    );
-                    final hintResp = await ref.read(maiAiServiceProvider).onIncorrectAnswer(aiCtx);
-                    if (mounted) {
-                      setState(() {
-                        _aiHint = hintResp.text;
-                      });
+                  final audio = ref.read(audioServiceProvider);
+                  final kanaId = kana.id;
+                  final kanaChar = kana.character;
+
+                  void sideEffects() {
+                    if (profile != null) {
+                      unawaited(
+                        ref.read(masteryRepositoryProvider).record(
+                              childId: profile.id,
+                              itemId: kanaId,
+                              skill: 'japanese.recognize',
+                              correct: ok,
+                            ),
+                      );
                     }
-                    unawaited(ref.read(audioServiceProvider).playRandomTryAgain());
+                    if (ok) {
+                      unawaited(
+                        ref.read(gamificationServiceProvider).onCorrectAnswer(this.context),
+                      );
+                    } else {
+                      final aiCtx = MaiContext(
+                        currentModule: 'japanese',
+                        currentLesson: kanaId,
+                        currentActivity: _mode,
+                        currentQuestion: 'Chọn chữ $kanaChar',
+                        learningObjective: 'Nhận biết chữ Kana $kanaChar',
+                        expectedAnswer: kanaChar,
+                        targetLanguage: 'ja',
+                        childAge: profile?.age ?? 5,
+                      );
+                      unawaited(() async {
+                        try {
+                          final hintResp = await ref.read(maiAiServiceProvider).onIncorrectAnswer(aiCtx);
+                          if (!mounted) return;
+                          setState(() => _aiHint = hintResp.text);
+                        } catch (_) {}
+                      }());
+                    }
                   }
+
+                  if (!ok) {
+                    _answerTap.handleWrongAnswer(
+                      setState: setState,
+                      applyImmediateUi: () {
+                        _lastChoice = value;
+                        _lastCorrect = false;
+                        _feedback = copy.tryAgain;
+                      },
+                      playSound: () => unawaited(audio.playRandomTryAgain()),
+                      sideEffects: sideEffects,
+                    );
+                    return;
+                  }
+
+                  _answerTap.handleCorrectAnswer(
+                    setState: setState,
+                    applyImmediateUi: () {
+                      _lastChoice = value;
+                      _lastCorrect = true;
+                      _feedback = copy.correct;
+                    },
+                    playSound: () => unawaited(audio.playRandomSuccess()),
+                    sideEffects: sideEffects,
+                    isMounted: () => mounted,
+                    advanceOrFinish: () => _jumpToPage(_index + 1, keepMode: 'recognize'),
+                  );
                 },
               ),
               bottomDeck: active

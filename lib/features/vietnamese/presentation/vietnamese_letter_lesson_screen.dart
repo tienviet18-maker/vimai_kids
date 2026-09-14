@@ -8,6 +8,7 @@ import '../../../core/ai/mai_context.dart';
 import '../../../core/audio/vietnamese_phonics_guide.dart';
 import '../../../core/audio/vietnamese_phonics_view.dart';
 import '../../../core/audio/vietnamese_speech_catalog.dart';
+import '../../../core/game/webkit_answer_tap.dart';
 import '../../../core/gamification/gamification_service.dart';
 import '../../../core/l10n/app_strings.dart';
 import '../../../core/providers.dart';
@@ -40,6 +41,7 @@ class VietnameseLetterLessonScreen extends ConsumerStatefulWidget {
 
 class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterLessonScreen> {
   late final PageController _controller;
+  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 400));
   late List<ContentItem> _letters;
   int _index = 0;
   bool _completed = false;
@@ -75,6 +77,7 @@ class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterL
 
   @override
   void dispose() {
+    _answerTap.dispose();
     try {
       ref.read(audioServiceProvider).stop();
     } catch (_) {}
@@ -301,45 +304,76 @@ class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterL
                   final result = await ref.read(audioServiceProvider).playAsset(audioId);
                   if (context.mounted) AudioService.notify(context, result);
                 },
-                onRecognize: (value, ok) async {
+                onRecognize: (value, ok) {
+                  if (_answerTap.locked) return;
                   final profile = ref.read(currentProfileProvider);
-                  if (profile != null) {
-                    await ref.read(masteryRepositoryProvider).record(
-                          childId: profile.id,
-                          itemId: letter.id,
-                          skill: 'vietnamese.alphabet',
-                          correct: ok,
-                        );
-                  }
-                  setState(() {
-                    _lastChoice = value;
-                    _lastCorrect = ok;
-                    _feedback = ok ? 'Giỏi lắm!' : 'Thử lại nhé!';
-                  });
-                  if (ok) {
-                    if (!mounted) return;
-                    await ref.read(gamificationServiceProvider).onCorrectAnswer(this.context);
-                    await Future<void>.delayed(const Duration(milliseconds: 400));
-                    if (mounted) _jumpToPage(_index + 1, keepMode: 'recognize');
-                  } else {
-                    final aiCtx = MaiContext(
-                      currentModule: 'vietnamese',
-                      currentLesson: letter.id,
-                      currentActivity: _mode,
-                      currentQuestion: 'Tìm chữ ${phonics.letter}',
-                      learningObjective: 'Nhận biết chữ cái ${phonics.letter}',
-                      expectedAnswer: phonics.letter,
-                      childAge: profile?.age ?? 5,
-                      phoneticRule: phonics.phonics,
-                    );
-                    final hintResp = await ref.read(maiAiServiceProvider).onIncorrectAnswer(aiCtx);
-                    if (mounted) {
-                      setState(() {
-                        _aiHint = hintResp.text;
-                      });
+                  final audio = ref.read(audioServiceProvider);
+                  final letterId = letter.id;
+                  final phonicsRule = phonics.phonics;
+                  final letterGlyph = phonics.letter;
+
+                  void sideEffects() {
+                    if (profile != null) {
+                      unawaited(
+                        ref.read(masteryRepositoryProvider).record(
+                              childId: profile.id,
+                              itemId: letterId,
+                              skill: 'vietnamese.alphabet',
+                              correct: ok,
+                            ),
+                      );
                     }
-                    unawaited(ref.read(audioServiceProvider).playRandomTryAgain());
+                    if (ok) {
+                      unawaited(
+                        ref.read(gamificationServiceProvider).onCorrectAnswer(this.context),
+                      );
+                    } else {
+                      final aiCtx = MaiContext(
+                        currentModule: 'vietnamese',
+                        currentLesson: letterId,
+                        currentActivity: _mode,
+                        currentQuestion: 'Tìm chữ $letterGlyph',
+                        learningObjective: 'Nhận biết chữ cái $letterGlyph',
+                        expectedAnswer: letterGlyph,
+                        childAge: profile?.age ?? 5,
+                        phoneticRule: phonicsRule,
+                      );
+                      unawaited(() async {
+                        try {
+                          final hintResp = await ref.read(maiAiServiceProvider).onIncorrectAnswer(aiCtx);
+                          if (!mounted) return;
+                          setState(() => _aiHint = hintResp.text);
+                        } catch (_) {}
+                      }());
+                    }
                   }
+
+                  if (!ok) {
+                    _answerTap.handleWrongAnswer(
+                      setState: setState,
+                      applyImmediateUi: () {
+                        _lastChoice = value;
+                        _lastCorrect = false;
+                        _feedback = 'Thử lại nhé!';
+                      },
+                      playSound: () => unawaited(audio.playRandomTryAgain()),
+                      sideEffects: sideEffects,
+                    );
+                    return;
+                  }
+
+                  _answerTap.handleCorrectAnswer(
+                    setState: setState,
+                    applyImmediateUi: () {
+                      _lastChoice = value;
+                      _lastCorrect = true;
+                      _feedback = 'Giỏi lắm!';
+                    },
+                    playSound: () => unawaited(audio.playRandomSuccess()),
+                    sideEffects: sideEffects,
+                    isMounted: () => mounted,
+                    advanceOrFinish: () => _jumpToPage(_index + 1, keepMode: 'recognize'),
+                  );
                 },
               ),
               bottomDeck: active
