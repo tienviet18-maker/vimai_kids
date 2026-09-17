@@ -78,6 +78,7 @@ class MathScreen extends ConsumerWidget {
       artAsset: VimaiArt.mathValley,
       onBack: () => context.pop(),
       body: ListView(
+        physics: const ClampingScrollPhysics(),
         padding: const EdgeInsets.only(bottom: 28),
         children: [
           for (var i = 0; i < cards.length; i++)

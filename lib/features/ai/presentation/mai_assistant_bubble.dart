@@ -79,6 +79,7 @@ class _MaiAssistantBubbleState extends ConsumerState<MaiAssistantBubble>
 
     final avatarWidget = GestureDetector(
       key: const Key('mai-assistant-avatar'),
+      behavior: HitTestBehavior.opaque,
       onTap: _handleTap,
       child: ScaleTransition(
         scale: _scaleAnimation,
@@ -149,6 +150,7 @@ class _MaiAssistantBubbleState extends ConsumerState<MaiAssistantBubble>
 
     final bubbleContent = GestureDetector(
       key: const Key('mai-assistant-bubble'),
+      behavior: HitTestBehavior.opaque,
       onTap: _handleTap,
       child: Container(
         padding: const EdgeInsets.fromLTRB(12, 8, 10, 8),
@@ -196,6 +198,7 @@ class _MaiAssistantBubbleState extends ConsumerState<MaiAssistantBubble>
                 ),
                 const Spacer(),
                 GestureDetector(
+                  behavior: HitTestBehavior.opaque,
                   onTap: () => setState(() => _expanded = false),
                   child: const Icon(
                     Icons.close_rounded,

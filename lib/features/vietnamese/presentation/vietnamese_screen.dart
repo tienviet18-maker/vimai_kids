@@ -41,6 +41,7 @@ class VietnameseScreen extends ConsumerWidget {
           final tablet = constraints.maxWidth >= 600;
           if (!tablet) {
             return ListView(
+              physics: const ClampingScrollPhysics(),
               padding: const EdgeInsets.only(bottom: 28),
               children: [
                 for (var i = 0; i < items.length; i++)

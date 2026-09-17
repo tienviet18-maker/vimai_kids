@@ -23,6 +23,7 @@ class ProfileSelectScreen extends ConsumerWidget {
               child: profiles.isEmpty
                   ? Center(child: Text('Chưa có hồ sơ', style: VimaiType.subtitle))
                   : ListView(
+                      physics: const ClampingScrollPhysics(),
                       children: profiles.map((profile) {
                         return Padding(
                           padding: const EdgeInsets.only(bottom: 12),

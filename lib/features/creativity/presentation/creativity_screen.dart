@@ -256,6 +256,7 @@ class _CreativityScreenState extends ConsumerState<CreativityScreen> {
               child: LayoutBuilder(
                 builder: (context, box) {
                   return GestureDetector(
+                    behavior: HitTestBehavior.opaque,
                     onTapDown: (d) {
                       final size = Size(box.maxWidth, box.maxHeight);
                       for (final region in picture.regions.reversed) {
@@ -306,6 +307,7 @@ class _CreativityScreenState extends ConsumerState<CreativityScreen> {
                         left: (pts[i].dx - 18).clamp(0, box.maxWidth - 36),
                         top: (pts[i].dy - 18).clamp(0, box.maxHeight - 36),
                         child: GestureDetector(
+                          behavior: HitTestBehavior.opaque,
                           onTap: () => _tapDot(i, puzzle.points.length),
                           child: CircleAvatar(
                             radius: 18,

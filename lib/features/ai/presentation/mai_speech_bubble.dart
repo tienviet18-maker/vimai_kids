@@ -33,6 +33,7 @@ class MaiSpeechBubble extends StatelessWidget {
       label: 'Lời nói của Mai: $text',
       child: GestureDetector(
         onTap: onTap,
+        behavior: HitTestBehavior.opaque,
         child: CustomPaint(
           painter: _SpeechBubblePainter(
             color: backgroundColor,
@@ -67,6 +68,7 @@ class MaiSpeechBubble extends StatelessWidget {
                     ),
                     if (onDismiss != null)
                       GestureDetector(
+                        behavior: HitTestBehavior.opaque,
                         onTap: onDismiss,
                         child: const Padding(
                           padding: EdgeInsets.only(left: 6),

@@ -38,6 +38,7 @@ class GamesScreen extends StatelessWidget {
       artAsset: VimaiArt.gamesPlayground,
       onBack: () => context.pop(),
       body: ListView(
+        physics: const ClampingScrollPhysics(),
         padding: const EdgeInsets.only(bottom: 28),
         children: [
           for (var i = 0; i < items.length; i++)

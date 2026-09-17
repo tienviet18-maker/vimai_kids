@@ -42,6 +42,7 @@ class LookScreen extends ConsumerWidget {
           builder: (context, constraints) {
             final size = Breakpoints.kanaFontSize(constraints);
             return SingleChildScrollView(
+              physics: const ClampingScrollPhysics(),
               padding: const EdgeInsets.all(16),
               child: ConstrainedBox(
                 constraints: BoxConstraints(minHeight: constraints.maxHeight - 32),

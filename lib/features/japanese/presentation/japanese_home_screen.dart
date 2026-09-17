@@ -23,6 +23,7 @@ class JapaneseHomeScreen extends ConsumerWidget {
       artAsset: VimaiArt.japanLesson,
       onBack: () => context.pop(),
       body: SingleChildScrollView(
+        physics: const ClampingScrollPhysics(),
         padding: const EdgeInsets.only(bottom: 28),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,

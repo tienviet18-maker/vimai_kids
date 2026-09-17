@@ -29,6 +29,7 @@ class LearningPager extends StatelessWidget {
         Expanded(
           child: PageView.builder(
             controller: controller,
+            physics: const ClampingScrollPhysics(),
             itemCount: itemCount,
             onPageChanged: onIndexChanged,
             itemBuilder: itemBuilder,

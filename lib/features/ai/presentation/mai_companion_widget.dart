@@ -195,6 +195,7 @@ class _MaiCompanionWidgetState extends ConsumerState<MaiCompanionWidget> with Si
                             ),
                             if (widget.context != null && _effectiveController.hintLevel < 4)
                               GestureDetector(
+                                behavior: HitTestBehavior.opaque,
                                 onTap: _handleTapMai,
                                 child: Padding(
                                   padding: const EdgeInsets.only(left: 8),
@@ -217,6 +218,7 @@ class _MaiCompanionWidgetState extends ConsumerState<MaiCompanionWidget> with Si
 
           // Animated Mascot with reactive state
           GestureDetector(
+            behavior: HitTestBehavior.opaque,
             onTap: aiEnabled ? _handleTapMai : null,
             child: ScaleTransition(
               scale: state == MaiState.thinking || state == MaiState.celebrating
@@ -252,6 +254,7 @@ class _MaiCompanionWidgetState extends ConsumerState<MaiCompanionWidget> with Si
             Padding(
               padding: const EdgeInsets.only(top: 6),
               child: GestureDetector(
+                behavior: HitTestBehavior.opaque,
                 onTap: _handleTapMai,
                 child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),

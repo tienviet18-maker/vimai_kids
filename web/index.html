@@ -19,7 +19,9 @@
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="ViMai Kids — học vui mỗi ngày, ứng dụng giáo dục cho trẻ em Việt Nam 3–7 tuổi">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="ViMai Kids">
   <link rel="apple-touch-icon" href="icons/Icon-192.png?v=2">
@@ -29,6 +31,27 @@
 
   <title>ViMai Kids</title>
   <link rel="manifest" href="manifest.json">
+  <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      overscroll-behavior-x: none; /* Prevent iOS swipe-to-go-back conflict */
+      overscroll-behavior-y: none;
+      touch-action: none; /* Let Flutter handle all touch events */
+      -webkit-overflow-scrolling: auto;
+      -webkit-user-select: none;
+      user-select: none;
+      background-color: #FFF8F0;
+    }
+    /* Keep the Flutter host full-bleed and gesture-owned. */
+    flt-glass-pane, flutter-view, flt-scene-host {
+      touch-action: none;
+      overscroll-behavior: none;
+    }
+  </style>
 </head>
 <body>
   <!--

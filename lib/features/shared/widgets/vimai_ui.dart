@@ -45,6 +45,7 @@ class _PressableState extends State<Pressable> {
           color: Colors.transparent,
           child: InkWell(
             borderRadius: widget.borderRadius ?? BorderRadius.circular(VimaiRadius.md),
+            // Opaque hit target so Safari registers taps without child hunting.
             onTap: widget.onTap == null
                 ? null
                 : () {

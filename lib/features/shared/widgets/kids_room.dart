@@ -62,6 +62,7 @@ class _KidsRoomObjectState extends State<KidsRoomObject> {
           final w = constraints.maxWidth;
           final h = constraints.maxHeight;
           return GestureDetector(
+            behavior: HitTestBehavior.opaque,
             onTapDown: (_) => setState(() => _down = true),
             onTapUp: (_) => setState(() => _down = false),
             onTapCancel: () => setState(() => _down = false),

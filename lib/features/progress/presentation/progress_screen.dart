@@ -58,6 +58,7 @@ class ProgressScreen extends ConsumerWidget {
               ),
             )
           : ListView(
+              physics: const ClampingScrollPhysics(),
               padding: const EdgeInsets.fromLTRB(20, 8, 20, 32),
               children: [
                 Row(

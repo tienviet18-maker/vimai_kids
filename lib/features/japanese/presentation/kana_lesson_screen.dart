@@ -458,6 +458,7 @@ class _KanaHero extends StatelessWidget {
     if (mode == 'recognize') {
       return Center(
         child: SingleChildScrollView(
+          physics: const ClampingScrollPhysics(),
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
@@ -481,6 +482,7 @@ class _KanaHero extends StatelessWidget {
         : KanaExamples.wordFor(kana.character);
     return Center(
       child: SingleChildScrollView(
+        physics: const ClampingScrollPhysics(),
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [

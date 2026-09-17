@@ -85,6 +85,7 @@ class _ParentScreenState extends ConsumerState<ParentScreen> {
       body: profile == null
           ? Center(child: Text(copy.noProfile, style: VimaiType.subtitle))
           : ListView(
+              physics: const ClampingScrollPhysics(),
               padding: const EdgeInsets.fromLTRB(20, 8, 20, 32),
               children: [
                 _Card(

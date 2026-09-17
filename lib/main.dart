@@ -9,6 +9,7 @@ import 'core/branding/config.dart';
 import 'core/data_driven/data_driven_content_service.dart';
 import 'core/providers.dart';
 import 'core/routing/app_router.dart';
+import 'core/theme/app_scroll_behavior.dart';
 import 'core/theme/app_theme.dart';
 import 'features/japanese/handwriting/stroke_order_catalog.dart';
 import 'data/content/content_repository.dart';
@@ -34,6 +35,8 @@ void main() async {
 
   final audioService = AudioService();
   await audioService.init();
+  // Critical feedback / system clips must be warm before first gesture on Safari.
+  await audioService.preloadFeedbackAndSystemClips();
   await StrokeOrderCatalog.ensureLoaded();
 
   final dataDrivenService = DataDrivenContentService();
@@ -49,7 +52,7 @@ void main() async {
         audioServiceProvider.overrideWithValue(audioService),
         dataDrivenContentServiceProvider.overrideWithValue(dataDrivenService),
       ],
-        child: const ViMaiKidsApp(),
+      child: const ViMaiKidsApp(),
     ),
   );
 }
@@ -62,13 +65,14 @@ class ViMaiKidsApp extends ConsumerWidget {
     return Listener(
       behavior: HitTestBehavior.translucent,
       onPointerDown: (_) {
-        // Safari/iOS: unlock Web Audio on first user gesture.
+        // Safari/iOS: unlock Web Audio on first user gesture (same frame).
         unawaited(ref.read(audioServiceProvider).unlockWebAudioContext());
       },
       child: MaterialApp.router(
         title: AppBrand.productDisplayName,
         debugShowCheckedModeBanner: false,
         theme: AppTheme.theme,
+        scrollBehavior: const AppScrollBehavior(),
         routerConfig: goRouter,
       ),
     );

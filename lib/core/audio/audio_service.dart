@@ -306,15 +306,26 @@ class AudioService {
   Future<void> preloadFeedbackAndSystemClips() async {
     if (_preloaded) return;
     _preloaded = true;
-    for (final key in preloadedClipKeys) {
+    final files = <String>[
+      for (final key in preloadedClipKeys) 'audio/$key.mp3',
+      bgmAsset,
+    ];
+    try {
+      // Browser GET warm-up on web; temp-file copy on mobile — avoids first-play stutter.
+      await AudioCache.instance.loadAll(files);
+      _preloadedKeys.addAll(preloadedClipKeys);
+    } catch (e) {
+      debugPrint('[AudioService] AudioCache.loadAll fallback: $e');
+      for (final key in preloadedClipKeys) {
+        try {
+          await rootBundle.load('assets/audio/$key.mp3');
+          _preloadedKeys.add(key);
+        } catch (_) {}
+      }
       try {
-        await rootBundle.load('assets/audio/$key.mp3');
-        _preloadedKeys.add(key);
+        await rootBundle.load('assets/$bgmAsset');
       } catch (_) {}
     }
-    try {
-      await rootBundle.load('assets/$bgmAsset');
-    } catch (_) {}
   }
 
   Future<void> setVoiceVolume(double volume) async {
@@ -352,6 +363,7 @@ class AudioService {
         }
       },
     );
+    // Warm cache in background if caller did not await preload yet.
     unawaited(preloadFeedbackAndSystemClips());
   }
 
@@ -530,17 +542,20 @@ class AudioService {
   }
 
   /// Fire-and-forget feedback/clip play — never blocks Safari game loops.
+  /// Scheduled as a microtask so it starts on the same gesture frame.
   void playFireAndForget(String id) {
-    try {
-      unawaited(
-        playAudio(id, waitForComplete: false).catchError((Object e, StackTrace st) {
-          debugPrint('[AudioService] Safari/web audio ignored for $id: $e');
-          return const AudioPlayResult.unavailable('audio ignored');
-        }),
-      );
-    } catch (e) {
-      debugPrint('[AudioService] Sound error: $e');
-    }
+    scheduleMicrotask(() {
+      try {
+        unawaited(
+          playAudio(id, waitForComplete: false).catchError((Object e, StackTrace st) {
+            debugPrint('[AudioService] Safari/web audio ignored for $id: $e');
+            return const AudioPlayResult.unavailable('audio ignored');
+          }),
+        );
+      } catch (e) {
+        debugPrint('[AudioService] Sound error: $e');
+      }
+    });
   }
 
   void playCorrectSound() => playFireAndForget(

@@ -366,7 +366,7 @@ class GameCardGrid extends StatelessWidget {
             height: fitted.height,
             child: GridView.builder(
               padding: const EdgeInsets.all(8),
-              physics: const BouncingScrollPhysics(),
+              physics: const ClampingScrollPhysics(),
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: columns,
                 crossAxisSpacing: 10,

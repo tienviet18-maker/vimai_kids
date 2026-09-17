@@ -154,6 +154,7 @@ class _RecognizeScreenState extends ConsumerState<RecognizeScreen> {
                     }
 
                     return GestureDetector(
+                      behavior: HitTestBehavior.opaque,
                       onTap: () => _onChoiceSelected(choice),
                       child: Container(
                         decoration: BoxDecoration(
