@@ -29,18 +29,8 @@ class _CreativityScreenState extends ConsumerState<CreativityScreen> {
   Color _color = VimaiColor.coral;
   double _width = 14;
   String _mode = 'draw';
-
-  @override
-  void initState() {
-    super.initState();
-    if (widget.initialMode != null && widget.initialMode!.isNotEmpty) {
-      _mode = widget.initialMode!;
-    }
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      if (!mounted) return;
-      unawaited(ref.read(audioServiceProvider).playAudio('sys_creativity_intro'));
-    });
-  }
+  bool _eraser = false;
+  final _canvasKey = GlobalKey<WritingCanvasState>();
 
   int _colorIndex = 0;
   int _dotIndex = 0;
@@ -75,6 +65,22 @@ class _CreativityScreenState extends ConsumerState<CreativityScreen> {
   List<PatternPuzzle> get _patterns => CreativityCatalog.patternsForAge(_age);
   List<DrawingChallenge> get _challenges => CreativityCatalog.drawingForAge(_age);
 
+  bool get _isDrawMode => _mode == 'draw' || _mode == 'challenge';
+  bool get _isPuzzleMode => _mode == 'pattern';
+  bool get _showPaintTools => _isDrawMode || _mode == 'color' || _mode == 'dots';
+
+  @override
+  void initState() {
+    super.initState();
+    if (widget.initialMode != null && widget.initialMode!.isNotEmpty) {
+      _mode = widget.initialMode!;
+    }
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      unawaited(ref.read(audioServiceProvider).playAudio('sys_creativity_intro'));
+    });
+  }
+
   void _cheer() {
     unawaited(ref.read(audioServiceProvider).playRandomSuccess());
   }
@@ -85,132 +91,206 @@ class _CreativityScreenState extends ConsumerState<CreativityScreen> {
     return SessionBinder(
       subject: 'creativity',
       child: Scaffold(
-      backgroundColor: VimaiColor.bgWarmCream,
-      appBar: AppBar(
-        backgroundColor: Colors.transparent,
-        elevation: 0,
-        leading: IconButton(icon: const Icon(Icons.arrow_back_ios_new), onPressed: () => context.pop()),
-        title: Text('Sáng tạo', style: VimaiType.title.copyWith(color: VimaiColor.peach)),
-        centerTitle: true,
-      ),
-      body: Stack(
-        fit: StackFit.expand,
-        children: [
-          const WorldSky(),
-          SafeArea(
-        child: LayoutBuilder(
-          builder: (context, constraints) {
-            return Column(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(16, 4, 16, 8),
-                  child: HubIntro(
-                    title: copy.creativity,
-                    body: copy.creativitySub,
-                    color: VimaiSubject.creativity.color,
-                    glyph: VimaiSubject.creativity.glyph,
-                    icon: VimaiSubject.creativity.icon,
-                  ),
-                ),
-                SingleChildScrollView(
-                  scrollDirection: Axis.horizontal,
-                  padding: const EdgeInsets.symmetric(horizontal: 12),
-                  child: DecoratedBox(
-                    decoration: BoxDecoration(
-                      color: VimaiColor.peachSoft.withValues(alpha: 0.55),
-                      borderRadius: BorderRadius.circular(VimaiRadius.pill),
-                    ),
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                      child: Row(
+        backgroundColor: VimaiColor.bgWarmCream,
+        appBar: AppBar(
+          backgroundColor: Colors.transparent,
+          elevation: 0,
+          toolbarHeight: (_isPuzzleMode || _isDrawMode) ? 44 : kToolbarHeight,
+          leading: IconButton(icon: const Icon(Icons.arrow_back_ios_new), onPressed: () => context.pop()),
+          title: Text('Sáng tạo', style: VimaiType.title.copyWith(color: VimaiColor.peach, fontSize: 20)),
+          centerTitle: true,
+          actions: [
+            if (_isDrawMode)
+              IconButton(
+                tooltip: 'Xóa',
+                onPressed: () => _canvasKey.currentState?.clear(),
+                icon: const Icon(Icons.delete_forever_rounded, color: Color(0xFFC62828)),
+              ),
+          ],
+        ),
+        body: Stack(
+          fit: StackFit.expand,
+          children: [
+            const WorldSky(),
+            SafeArea(
+              child: LayoutBuilder(
+                builder: (context, constraints) {
+                  return Column(
                     children: [
-                      _chip('Vẽ tự do', 'draw'),
-                      _chip('Tô màu', 'color'),
-                      _chip('Nối điểm', 'dots'),
-                      _chip('Ghép hình', 'pattern'),
-                      _chip('Quy luật', 'rules'),
-                      _chip('Thử thách vẽ', 'challenge'),
-                    ],
-                  ),
-                    ),
-                  ),
-                ),
-                const SizedBox(height: 8),
-                Wrap(
-                  spacing: 8,
-                  runSpacing: 8,
-                  children: [
-                    for (var i = 0; i < _palette.length; i++)
-                      Semantics(
-                        button: true,
-                        label: copy.colorName(i),
-                        selected: _color == _palette[i],
-                        child: Material(
-                          color: Colors.transparent,
-                          child: InkWell(
-                            customBorder: const CircleBorder(),
-                            onTap: () => setState(() => _color = _palette[i]),
-                            child: Container(
-                              width: VimaiSize.touchMin,
-                              height: VimaiSize.touchMin,
-                              alignment: Alignment.center,
-                              child: Container(
-                                width: 28,
-                                height: 28,
-                                decoration: BoxDecoration(
-                                  color: _palette[i],
-                                  shape: BoxShape.circle,
-                                  border: Border.all(
-                                    color: _color == _palette[i] ? VimaiColor.ink : Colors.white,
-                                    width: _color == _palette[i] ? 3 : 2,
-                                  ),
-                                ),
-                              ),
+                      if (!_isDrawMode && !_isPuzzleMode)
+                        Padding(
+                          padding: const EdgeInsets.fromLTRB(16, 4, 16, 8),
+                          child: HubIntro(
+                            title: copy.creativity,
+                            body: copy.creativitySub,
+                            color: VimaiSubject.creativity.color,
+                            glyph: VimaiSubject.creativity.glyph,
+                            icon: VimaiSubject.creativity.icon,
+                          ),
+                        ),
+                      SingleChildScrollView(
+                        scrollDirection: Axis.horizontal,
+                        padding: const EdgeInsets.symmetric(horizontal: 8),
+                        child: DecoratedBox(
+                          decoration: BoxDecoration(
+                            color: VimaiColor.peachSoft.withValues(alpha: 0.55),
+                            borderRadius: BorderRadius.circular(VimaiRadius.pill),
+                          ),
+                          child: Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+                            child: Row(
+                              children: [
+                                _chip('Vẽ tự do', 'draw'),
+                                _chip('Tô màu', 'color'),
+                                _chip('Nối điểm', 'dots'),
+                                _chip('Ghép hình', 'pattern'),
+                                _chip('Quy luật', 'rules'),
+                                _chip('Thử thách vẽ', 'challenge'),
+                              ],
                             ),
                           ),
                         ),
                       ),
-                  ],
-                ),
-                if (_mode == 'draw' || _mode == 'challenge') ...[
-                  const SizedBox(height: 8),
-                  Wrap(
-                    spacing: 8,
-                    children: [
-                      (6.0, copy.brushThin),
-                      (10.0, copy.brushMedium),
-                      (14.0, copy.brushThick),
-                      (22.0, copy.brushHeavy),
-                    ].map((w) {
-                      return ChoiceChip(
-                        label: Text(w.$2),
-                        selected: _width == w.$1,
-                        onSelected: (_) => setState(() => _width = w.$1),
-                      );
-                    }).toList(),
-                  ),
-                ],
-                const SizedBox(height: 8),
-                Expanded(child: _body(constraints)),
-              ],
-            );
-          },
+                      if (_showPaintTools) ...[
+                        const SizedBox(height: 4),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 8),
+                          child: Wrap(
+                            spacing: 6,
+                            runSpacing: 4,
+                            crossAxisAlignment: WrapCrossAlignment.center,
+                            children: [
+                              if (_isDrawMode)
+                                _toolChip(
+                                  selected: _eraser,
+                                  label: 'Tẩy',
+                                  icon: Icons.auto_fix_off_rounded,
+                                  onTap: () => setState(() => _eraser = true),
+                                ),
+                              for (var i = 0; i < _palette.length; i++)
+                                Semantics(
+                                  button: true,
+                                  label: copy.colorName(i),
+                                  selected: !_eraser && _color == _palette[i],
+                                  child: Material(
+                                    color: Colors.transparent,
+                                    child: InkWell(
+                                      customBorder: const CircleBorder(),
+                                      onTap: () => setState(() {
+                                        _color = _palette[i];
+                                        _eraser = false;
+                                      }),
+                                      child: Container(
+                                        width: 36,
+                                        height: 36,
+                                        alignment: Alignment.center,
+                                        child: Container(
+                                          width: 22,
+                                          height: 22,
+                                          decoration: BoxDecoration(
+                                            color: _palette[i],
+                                            shape: BoxShape.circle,
+                                            border: Border.all(
+                                              color: (!_eraser && _color == _palette[i]) ? VimaiColor.ink : Colors.white,
+                                              width: (!_eraser && _color == _palette[i]) ? 2.5 : 1.5,
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                            ],
+                          ),
+                        ),
+                      ],
+                      if (_isDrawMode) ...[
+                        const SizedBox(height: 2),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 8),
+                          child: Wrap(
+                            spacing: 4,
+                            children: [
+                              (6.0, copy.brushThin),
+                              (10.0, copy.brushMedium),
+                              (14.0, copy.brushThick),
+                              (22.0, copy.brushHeavy),
+                            ].map((w) {
+                              return ChoiceChip(
+                                visualDensity: VisualDensity.compact,
+                                materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                                labelPadding: const EdgeInsets.symmetric(horizontal: 6),
+                                padding: EdgeInsets.zero,
+                                label: Text(w.$2, style: const TextStyle(fontSize: 12)),
+                                selected: _width == w.$1,
+                                onSelected: (_) => setState(() => _width = w.$1),
+                              );
+                            }).toList(),
+                          ),
+                        ),
+                      ],
+                      const SizedBox(height: 4),
+                      Expanded(child: _body(constraints)),
+                    ],
+                  );
+                },
+              ),
+            ),
+          ],
         ),
-          ),
-        ],
       ),
+    );
+  }
+
+  Widget _toolChip({
+    required bool selected,
+    required String label,
+    required IconData icon,
+    required VoidCallback onTap,
+  }) {
+    return Material(
+      color: selected ? VimaiColor.peachSoft : Colors.white,
+      shape: StadiumBorder(
+        side: BorderSide(color: selected ? VimaiColor.peach : VimaiColor.inkSoft.withValues(alpha: 0.25), width: 1.5),
+      ),
+      child: InkWell(
+        customBorder: const StadiumBorder(),
+        onTap: onTap,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Icon(icon, size: 18, color: selected ? VimaiColor.peach : VimaiColor.inkSoft),
+              const SizedBox(width: 4),
+              Text(
+                label,
+                style: TextStyle(
+                  fontSize: 12,
+                  fontWeight: FontWeight.w700,
+                  color: selected ? VimaiColor.peach : VimaiColor.ink,
+                ),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
 
   Widget _chip(String label, String mode) {
     return Padding(
-      padding: const EdgeInsets.only(right: 8),
+      padding: const EdgeInsets.only(right: 4),
       child: ChoiceChip(
-        label: Text(label),
+        visualDensity: VisualDensity.compact,
+        materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+        labelPadding: const EdgeInsets.symmetric(horizontal: 8),
+        padding: EdgeInsets.zero,
+        label: Text(label, style: const TextStyle(fontSize: 13)),
         selected: _mode == mode,
         onSelected: (_) => setState(() {
           _mode = mode;
+          _eraser = false;
           _dotFeedback = null;
           _patternFeedback = null;
           _patternDone = false;
@@ -224,26 +304,44 @@ class _CreativityScreenState extends ConsumerState<CreativityScreen> {
 
   Widget _body(BoxConstraints constraints) {
     if (_mode == 'draw' || _mode == 'challenge') {
-      final challenge = _mode == 'challenge' && _challenges.isNotEmpty ? _challenges[_challengeIndex % _challenges.length] : null;
+      final challenge =
+          _mode == 'challenge' && _challenges.isNotEmpty ? _challenges[_challengeIndex % _challenges.length] : null;
       return Padding(
-        padding: const EdgeInsets.all(12),
+        padding: const EdgeInsets.fromLTRB(8, 0, 8, 8),
         child: Column(
           children: [
             if (challenge != null)
-              Row(
-                children: [
-                  Expanded(child: Text(challenge.prompt, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold))),
-                  IconButton(
-                    onPressed: () => setState(() => _challengeIndex++),
-                    icon: const Icon(Icons.skip_next_rounded),
-                  ),
-                ],
+              Padding(
+                padding: const EdgeInsets.only(bottom: 4),
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: Text(challenge.prompt, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                    ),
+                    IconButton(
+                      visualDensity: VisualDensity.compact,
+                      onPressed: () => setState(() => _challengeIndex++),
+                      icon: const Icon(Icons.skip_next_rounded),
+                    ),
+                  ],
+                ),
               ),
-            Expanded(child: WritingCanvas(strokeColor: _color, strokeWidth: _width, onCleared: () {})),
+            Expanded(
+              child: WritingCanvas(
+                key: _canvasKey,
+                strokeColor: _color,
+                strokeWidth: _width,
+                isEraser: _eraser,
+                showClearButton: true,
+                fallbackHeight: 420,
+                onCleared: () {},
+              ),
+            ),
           ],
         ),
       );
     }
+
     if (_mode == 'color') {
       if (_pictures.isEmpty) return const Center(child: Text('Chưa có tranh'));
       final picture = _pictures[_colorIndex % _pictures.length];
@@ -286,6 +384,7 @@ class _CreativityScreenState extends ConsumerState<CreativityScreen> {
         ],
       );
     }
+
     if (_mode == 'dots') {
       if (_dots.isEmpty) return const Center(child: Text('Chưa có bài'));
       final puzzle = _dots[_dotIndex % _dots.length];
@@ -326,15 +425,15 @@ class _CreativityScreenState extends ConsumerState<CreativityScreen> {
               padding: const EdgeInsets.only(bottom: 8),
               child: ElevatedButton(
                 onPressed: () {
-                setState(() {
-                  if (_dots.length <= 1) return;
-                  var next = (_dotIndex + 1) % _dots.length;
-                  if (next == _dotIndex) next = (next + 1) % _dots.length;
-                  _dotIndex = next;
-                  _connected.clear();
-                  _dotFeedback = null;
-                });
-              },
+                  setState(() {
+                    if (_dots.length <= 1) return;
+                    var next = (_dotIndex + 1) % _dots.length;
+                    if (next == _dotIndex) next = (next + 1) % _dots.length;
+                    _dotIndex = next;
+                    _connected.clear();
+                    _dotFeedback = null;
+                  });
+                },
                 child: const Text('Bài tiếp theo'),
               ),
             )
@@ -412,6 +511,7 @@ class _CreativityScreenState extends ConsumerState<CreativityScreen> {
       );
     }
 
+    // Ghép hình — oversized kid-friendly pieces (~2x ListTile targets).
     if (_matches.isEmpty) return const Center(child: Text('Chưa có bài'));
     final puzzle = _matches[_matchIndex % _matches.length];
     if (_rightPerm.length != puzzle.right.length) {
@@ -419,33 +519,51 @@ class _CreativityScreenState extends ConsumerState<CreativityScreen> {
     }
     return Column(
       children: [
-        Text(puzzle.instruction, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-        Text(puzzle.title, style: const TextStyle(color: VimaiColor.inkSoft)),
+        Padding(
+          padding: const EdgeInsets.fromLTRB(12, 2, 12, 2),
+          child: Text(
+            puzzle.instruction,
+            textAlign: TextAlign.center,
+            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w800),
+          ),
+        ),
+        Text(puzzle.title, style: const TextStyle(fontSize: 13, color: VimaiColor.inkSoft)),
+        const SizedBox(height: 4),
         Expanded(
           child: Row(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Expanded(
-                child: ListView.builder(
+                child: ListView.separated(
+                  padding: const EdgeInsets.fromLTRB(8, 4, 4, 8),
                   itemCount: puzzle.left.length,
+                  separatorBuilder: (_, __) => const SizedBox(height: 10),
                   itemBuilder: (context, i) {
                     final done = _matched.contains(i);
-                    return ListTile(
+                    return _PuzzlePiece(
+                      glyph: puzzle.left[i],
                       selected: _matchLeft == i,
-                      enabled: !done,
+                      matched: done,
+                      color: VimaiColor.peach,
                       onTap: done ? null : () => setState(() => _matchLeft = i),
-                      title: Center(child: Text(puzzle.left[i], style: const TextStyle(fontSize: 32))),
                     );
                   },
                 ),
               ),
               Expanded(
-                child: ListView.builder(
+                child: ListView.separated(
+                  padding: const EdgeInsets.fromLTRB(4, 4, 8, 8),
                   itemCount: _rightPerm.length,
+                  separatorBuilder: (_, __) => const SizedBox(height: 10),
                   itemBuilder: (context, i) {
                     final actual = _rightPerm[i];
-                    return ListTile(
-                      onTap: () => _tapMatchRight(actual, puzzle),
-                      title: Center(child: Text(puzzle.right[actual], style: const TextStyle(fontSize: 32))),
+                    final matched = _matched.contains(actual);
+                    return _PuzzlePiece(
+                      glyph: puzzle.right[actual],
+                      selected: false,
+                      matched: matched,
+                      color: VimaiColor.sky,
+                      onTap: matched ? null : () => _tapMatchRight(actual, puzzle),
                     );
                   },
                 ),
@@ -535,6 +653,60 @@ class _CreativityScreenState extends ConsumerState<CreativityScreen> {
       if (intersect) inside = !inside;
     }
     return inside;
+  }
+}
+
+class _PuzzlePiece extends StatelessWidget {
+  const _PuzzlePiece({
+    required this.glyph,
+    required this.selected,
+    required this.matched,
+    required this.color,
+    required this.onTap,
+  });
+
+  final String glyph;
+  final bool selected;
+  final bool matched;
+  final Color color;
+  final VoidCallback? onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      height: 96,
+      child: Material(
+        color: matched
+            ? color.withValues(alpha: 0.18)
+            : selected
+                ? color.withValues(alpha: 0.28)
+                : Colors.white,
+        borderRadius: BorderRadius.circular(22),
+        elevation: selected ? 3 : 1,
+        child: InkWell(
+          borderRadius: BorderRadius.circular(22),
+          onTap: onTap,
+          child: Container(
+            alignment: Alignment.center,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(22),
+              border: Border.all(
+                color: selected ? color : color.withValues(alpha: 0.35),
+                width: selected ? 3.5 : 2,
+              ),
+            ),
+            child: Text(
+              glyph,
+              style: TextStyle(
+                fontSize: 56,
+                height: 1,
+                color: matched ? color.withValues(alpha: 0.55) : VimaiColor.ink,
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
   }
 }
 
