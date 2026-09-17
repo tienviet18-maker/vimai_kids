@@ -1,0 +1,13 @@
+# Cloudflare Pages - ViMai Kids (Flutter Web)
+# Deployable static site comes from: flutter build web -> build/web
+# Do NOT use /web (Flutter template only) and do NOT expect package.json (not Node).
+#
+# Cloudflare Pages dashboard (Git):
+#   Framework preset: None
+#   Build command:    bash tool/cloudflare_build.sh
+#   Build output:     build/web
+#   Root directory:   /
+
+name = "vimai-kids"
+compatibility_date = "2025-09-17"
+pages_build_output_dir = "build/web"
