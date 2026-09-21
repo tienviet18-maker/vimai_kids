@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:go_router/go_router.dart';
 
 import '../../../core/audio/audio_service.dart';
 import '../../../core/ai/mai_context.dart';
@@ -9,6 +8,7 @@ import '../../../core/game/webkit_answer_tap.dart';
 import '../../../core/gamification/gamification_service.dart';
 import '../../../core/l10n/app_strings.dart';
 import '../../../core/providers.dart';
+import '../../../core/routing/nav_utils.dart';
 import '../../../core/session/session_binder.dart';
 import '../../../core/theme/app_theme.dart';
 import '../../../core/theme/vimai_art.dart';
@@ -265,8 +265,8 @@ class _KanaLessonScreenState extends ConsumerState<KanaLessonScreen> {
           appBar: AppBar(title: Text(title)),
           body: LessonCompleteCard(
             onReview: () => _jumpToPage(0),
-            onOther: () => context.pop(),
-            onBack: () => context.go('/japanese'),
+            onOther: () => popLearningScreen(context),
+            onBack: () => popLearningScreen(context),
           ),
         ),
       );
@@ -310,7 +310,7 @@ class _KanaLessonScreenState extends ConsumerState<KanaLessonScreen> {
               accent: color,
               mascotMood: active ? _moodFor() : MascotMood.happy,
               mascotColor: color,
-              onBack: () => context.pop(),
+              onBack: () => popLearningScreen(context),
               feedback: active && _feedback != null
                   ? LessonFeedback(correct: _lastCorrect, message: _feedback)
                   : null,

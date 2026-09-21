@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:go_router/go_router.dart';
 
 import '../../../core/audio/audio_service.dart';
 import '../../../core/ai/mai_context.dart';
@@ -12,6 +11,7 @@ import '../../../core/game/webkit_answer_tap.dart';
 import '../../../core/gamification/gamification_service.dart';
 import '../../../core/l10n/app_strings.dart';
 import '../../../core/providers.dart';
+import '../../../core/routing/nav_utils.dart';
 import '../../../core/session/session_binder.dart';
 import '../../../core/theme/app_theme.dart';
 import '../../../core/theme/vimai_art.dart';
@@ -124,7 +124,7 @@ class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterL
   /// Previous: page animation ONLY — audio via [onPageChanged].
   void _onPrevious() {
     if (_index <= 0) {
-      context.pop();
+      popLearningScreen(context);
       return;
     }
     if (!_controller.hasClients) return;
@@ -226,8 +226,8 @@ class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterL
           appBar: AppBar(title: const Text('Tiếng Việt')),
           body: LessonCompleteCard(
             onReview: () => _jumpToPage(0),
-            onOther: () => context.pop(),
-            onBack: () => context.go('/vietnamese'),
+            onOther: () => popLearningScreen(context),
+            onBack: () => popLearningScreen(context),
           ),
         ),
       );
@@ -273,7 +273,7 @@ class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterL
               speech: active ? _speechFor(letter, copy) : copy.letterIntro(phonics.letter),
               accent: AppTheme.primaryColor,
               mascotMood: active ? _moodFor() : MascotMood.happy,
-              onBack: () => context.pop(),
+              onBack: () => popLearningScreen(context),
               feedback: active && _feedback != null
                   ? LessonFeedback(correct: _lastCorrect, message: _feedback)
                   : null,

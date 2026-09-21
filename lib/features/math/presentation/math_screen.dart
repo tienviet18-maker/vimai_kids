@@ -9,6 +9,7 @@ import '../../../core/ai/mai_context.dart';
 import '../../../core/game/webkit_answer_tap.dart';
 import '../../../core/l10n/app_strings.dart';
 import '../../../core/providers.dart';
+import '../../../core/routing/nav_utils.dart';
 import '../../../core/session/session_binder.dart';
 import '../../../core/theme/app_theme.dart';
 import '../../../core/theme/vimai_art.dart';
@@ -76,7 +77,7 @@ class MathScreen extends ConsumerWidget {
       subtitle: copy.mathSub,
       accent: VimaiColor.mint,
       artAsset: VimaiArt.mathValley,
-      onBack: () => context.pop(),
+      onBack: () => navigateBackToHome(context),
       body: ListView(
         physics: const ClampingScrollPhysics(),
         padding: const EdgeInsets.only(bottom: 28),
@@ -248,7 +249,7 @@ class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
         title: _item.title,
         accent: VimaiColor.mint,
         artAsset: VimaiArt.mathValley,
-        onBack: () => context.pop(),
+        onBack: () => popLearningScreen(context),
         body: Center(
           child: Padding(
             padding: const EdgeInsets.all(24),
@@ -277,7 +278,7 @@ class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
       : KidsHubShell(
       title: _item.title,
       accent: VimaiColor.mint,
-      onBack: () => context.pop(),
+      onBack: () => popLearningScreen(context),
       body: LayoutBuilder(
         builder: (context, constraints) {
           return SingleChildScrollView(

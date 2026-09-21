@@ -9,6 +9,7 @@ import '../../../core/audio/audio_service.dart';
 import '../../../core/audio/vietnamese_phonics_guide.dart';
 import '../../../core/game/webkit_answer_tap.dart';
 import '../../../core/providers.dart';
+import '../../../core/routing/nav_utils.dart';
 import '../../../core/session/session_binder.dart';
 import '../../../core/theme/app_theme.dart';
 import '../../../data/repositories/profile_repository.dart';
@@ -24,7 +25,7 @@ class VietnameseAlphabetGridScreen extends ConsumerWidget {
     final letters = ref.watch(contentRepositoryProvider).getVietnameseAlphabet();
     return Scaffold(
       appBar: AppBar(
-        leading: IconButton(icon: const Icon(Icons.arrow_back_ios_new), onPressed: () => context.pop()),
+        leading: IconButton(icon: const Icon(Icons.arrow_back_ios_new), onPressed: () => popLearningScreen(context)),
         title: const Text('Bảng chữ cái'),
       ),
       body: SafeArea(
@@ -188,7 +189,7 @@ class _VietnameseQuizListScreenState extends ConsumerState<VietnameseQuizListScr
               const Text('Con đã học hết phần này rồi! 🎉', textAlign: TextAlign.center, style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
               const SizedBox(height: 16),
               ElevatedButton(onPressed: () => setState(() => _index = 0), child: const Text('Ôn lại')),
-              TextButton(onPressed: () => context.go('/vietnamese'), child: const Text('Về trang Tiếng Việt')),
+              TextButton(onPressed: () => popLearningScreen(context), child: const Text('Về trang Tiếng Việt')),
             ],
           ),
         ),

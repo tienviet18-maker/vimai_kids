@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 
+import '../../../../core/routing/nav_utils.dart';
 import '../../../../core/session/session_binder.dart';
 import '../../../../core/theme/vimai_tokens.dart';
 import '../../../shared/widgets/vimai_mascot.dart';
@@ -39,7 +39,7 @@ class GamePlayScaffold extends StatelessWidget {
       leading: IconButton(
         icon: const Icon(Icons.arrow_back_ios_new),
         tooltip: 'Quay lại',
-        onPressed: () => context.pop(),
+        onPressed: () => popLearningScreen(context),
       ),
       body: finished && complete != null
           ? complete!
@@ -178,7 +178,7 @@ class GameCompletePanel extends StatelessWidget {
               const SizedBox(height: 12),
               KidButton(
                 label: 'Tiếp tục',
-                onPressed: onContinue ?? () => context.pop(),
+                onPressed: onContinue ?? () => popLearningScreen(context),
                 color: VimaiColor.sky,
               ),
             ],

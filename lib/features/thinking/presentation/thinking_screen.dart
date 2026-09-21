@@ -9,6 +9,7 @@ import '../../../core/audio/audio_service.dart';
 import '../../../core/game/webkit_answer_tap.dart';
 import '../../../core/l10n/app_strings.dart';
 import '../../../core/providers.dart';
+import '../../../core/routing/nav_utils.dart';
 import '../../../core/session/session_binder.dart';
 import '../../../core/theme/vimai_tokens.dart';
 import '../../../data/content/thinking_generator.dart';
@@ -87,7 +88,7 @@ class _ThinkingScreenState extends ConsumerState<ThinkingScreen> {
       subtitle: copy.scoreCorrect(_score),
       accent: VimaiColor.grape,
       artAsset: null,
-      onBack: () => context.pop(),
+      onBack: () => navigateBackToHome(context),
       action: IconButton(
         icon: const Icon(Icons.palette_outlined),
         tooltip: 'Vẽ tranh sáng tạo',

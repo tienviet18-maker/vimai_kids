@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../core/routing/nav_utils.dart';
 import '../../../core/theme/app_theme.dart';
 import '../../../core/theme/vimai_art.dart';
 import '../../../core/theme/vimai_tokens.dart';
@@ -36,7 +37,7 @@ class GamesScreen extends StatelessWidget {
       subtitle: 'Học mà chơi — chọn một trò để bắt đầu',
       accent: VimaiColor.honey,
       artAsset: VimaiArt.gamesPlayground,
-      onBack: () => context.pop(),
+      onBack: () => navigateBackToHome(context),
       body: ListView(
         physics: const ClampingScrollPhysics(),
         padding: const EdgeInsets.only(bottom: 28),

@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../core/l10n/app_strings.dart';
+import '../../../core/routing/nav_utils.dart';
 import '../../../core/theme/app_theme.dart';
 import '../../../core/theme/vimai_art.dart';
 import '../../../data/repositories/profile_repository.dart';
@@ -21,7 +22,7 @@ class JapaneseHomeScreen extends ConsumerWidget {
       subtitle: copy.japanesePath,
       accent: hira,
       artAsset: VimaiArt.japanLesson,
-      onBack: () => context.pop(),
+      onBack: () => navigateBackToHome(context),
       body: SingleChildScrollView(
         physics: const ClampingScrollPhysics(),
         padding: const EdgeInsets.only(bottom: 28),

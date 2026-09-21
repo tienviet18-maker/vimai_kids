@@ -7,6 +7,7 @@ import '../../../core/branding/config.dart';
 import '../../../core/contact/feedback_mail.dart';
 import '../../../core/l10n/app_strings.dart';
 import '../../../core/providers.dart';
+import '../../../core/routing/nav_utils.dart';
 import '../../../core/theme/vimai_tokens.dart';
 import '../../../data/content/continue_learning.dart';
 import '../../../data/content/progress_labels.dart';
@@ -80,7 +81,7 @@ class _ParentScreenState extends ConsumerState<ParentScreen> {
       leading: IconButton(
         icon: const Icon(Icons.arrow_back_ios_new),
         tooltip: copy.back,
-        onPressed: () => context.pop(),
+        onPressed: () => popLearningScreen(context),
       ),
       body: profile == null
           ? Center(child: Text(copy.noProfile, style: VimaiType.subtitle))

@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../../core/l10n/app_strings.dart';
 import '../../../core/providers.dart';
+import '../../../core/routing/nav_utils.dart';
 import '../../../core/theme/vimai_tokens.dart';
 import '../../../data/content/continue_learning.dart';
 import '../../../data/content/progress_labels.dart';
@@ -41,7 +42,7 @@ class ProgressScreen extends ConsumerWidget {
       leading: IconButton(
         icon: const Icon(Icons.arrow_back_ios_new),
         tooltip: copy.back,
-        onPressed: () => context.pop(),
+        onPressed: () => popLearningScreen(context),
       ),
       body: items.isEmpty
           ? Center(

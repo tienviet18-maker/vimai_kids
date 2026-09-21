@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../../../core/audio/audio_service.dart';
 import '../../../../core/providers.dart';
+import '../../../../core/routing/nav_utils.dart';
 import '../../../../core/theme/app_theme.dart';
 import '../../../../domain/models/kana_item.dart';
 
@@ -24,7 +25,7 @@ class KanaLibraryScreen extends ConsumerWidget {
       appBar: AppBar(
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios_new),
-          onPressed: () => context.pop(),
+          onPressed: () => popLearningScreen(context),
         ),
         title: Text(title),
       ),

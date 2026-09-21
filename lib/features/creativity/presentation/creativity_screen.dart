@@ -3,10 +3,10 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:go_router/go_router.dart';
 
 import '../../../core/l10n/app_strings.dart';
 import '../../../core/providers.dart';
+import '../../../core/routing/nav_utils.dart';
 import '../../../core/session/session_binder.dart';
 import '../../../core/theme/vimai_tokens.dart';
 import '../../../data/content/creativity_catalog.dart';
@@ -96,7 +96,7 @@ class _CreativityScreenState extends ConsumerState<CreativityScreen> {
           backgroundColor: Colors.transparent,
           elevation: 0,
           toolbarHeight: (_isPuzzleMode || _isDrawMode) ? 44 : kToolbarHeight,
-          leading: IconButton(icon: const Icon(Icons.arrow_back_ios_new), onPressed: () => context.pop()),
+          leading: IconButton(icon: const Icon(Icons.arrow_back_ios_new), onPressed: () => navigateBackToHome(context)),
           title: Text('Sáng tạo', style: VimaiType.title.copyWith(color: VimaiColor.peach, fontSize: 20)),
           centerTitle: true,
           actions: [
