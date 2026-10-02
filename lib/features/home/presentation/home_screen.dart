@@ -14,8 +14,10 @@ import '../../../domain/models/child_profile.dart';
 import '../../shared/widgets/kids_living_canopy.dart';
 import '../../shared/widgets/kids_storybook.dart';
 import '../../shared/widgets/vimai_mascot.dart';
+import 'discovery_islands.dart';
 
-/// Vibrant storybook Home + ambient BGM (stops when leaving for lessons).
+/// Home: Mai guides the child across an archipelago of six learning worlds.
+/// Ambient BGM plays here and stops when a world opens.
 class HomeScreen extends ConsumerStatefulWidget {
   const HomeScreen({super.key});
 
@@ -49,10 +51,16 @@ class _HomeScreenState extends ConsumerState<HomeScreen> with RouteAware {
   }
 
   @override
-  void didPush() => _resumeBgm();
+  void didPush() => _onVisible();
 
   @override
-  void didPopNext() => _resumeBgm();
+  void didPopNext() => _onVisible();
+
+  void _onVisible() {
+    // Mastery changes while a world is open; refresh Mai's suggestion on return.
+    ref.invalidate(continueLearningProvider);
+    _resumeBgm();
+  }
 
   @override
   void didPushNext() => _pauseBgm();
@@ -74,6 +82,21 @@ class _HomeScreenState extends ConsumerState<HomeScreen> with RouteAware {
     ref.read(audioServiceProvider).stopHomeBgm();
   }
 
+  MascotMood? _maiReaction;
+
+  void _onMaiTap() {
+    ref.read(audioServiceProvider).playFireAndForget('sys_welcome_back');
+    setState(() => _maiReaction = MascotMood.excited);
+    Future<void>.delayed(const Duration(milliseconds: 1600), () {
+      if (mounted) setState(() => _maiReaction = null);
+    });
+  }
+
+  Future<void> _openWorld(LearningWorld world, String route) async {
+    await ref.read(currentProfileProvider.notifier).setLastWorld(world.name);
+    if (mounted) context.push(route);
+  }
+
   @override
   Widget build(BuildContext context) {
     final profile = ref.watch(currentProfileProvider);
@@ -93,262 +116,180 @@ class _HomeScreenState extends ConsumerState<HomeScreen> with RouteAware {
     final items = ref.watch(masteryRepositoryProvider).allForChild(profile.id);
     final copy = AppStrings.of(profile, context);
     final suggestion = ref.watch(continueLearningProvider);
-    final mood = suggestion.isReview
-        ? MascotMood.encouraging
-        : (items.isEmpty ? MascotMood.excited : MascotMood.happy);
+    final mood = _maiReaction ??
+        (suggestion.isReview ? MascotMood.encouraging : (items.isEmpty ? MascotMood.excited : MascotMood.happy));
     final userName = profile.name.trim().isEmpty ? 'An' : profile.name.trim();
+    final visited = {
+      for (final m in items)
+        if (m.attempts > 0) ContinueLearningRecommender.worldNameFor(m),
+    };
+    final suggested = suggestion.needsChoice ? null : suggestion.world;
 
-    final destinations = <CanopyDestination>[
-      CanopyDestination(
-        title: copy.vietnamese,
-        subtitle: 'Bến Sông Tiếng Việt',
-        color: const Color(0xFF3B9BDB),
-        glyph: '🌊',
-        artAsset: VimaiArt.vietnameseGarden,
-        onTap: () async {
-          await ref.read(currentProfileProvider.notifier).setLastWorld(LearningWorld.vietnamese.name);
-          if (context.mounted) context.push('/vietnamese');
-        },
-      ),
-      CanopyDestination(
-        title: copy.japanese,
-        subtitle: 'Vườn Anh Đào Kana',
-        color: const Color(0xFFE86BA0),
-        glyph: '🌸',
-        artAsset: VimaiArt.japaneseVillage,
-        onTap: () async {
-          await ref.read(currentProfileProvider.notifier).setLastWorld(LearningWorld.japanese.name);
-          if (context.mounted) context.push('/japanese');
-        },
-      ),
-      CanopyDestination(
-        title: copy.math,
-        subtitle: 'Xưởng Số Vui Nhộn',
-        color: const Color(0xFFFF7E40),
-        glyph: '🔢',
-        artAsset: VimaiArt.mathValley,
-        onTap: () async {
-          await ref.read(currentProfileProvider.notifier).setLastWorld(LearningWorld.math.name);
-          if (context.mounted) context.push('/math');
-        },
-      ),
-      CanopyDestination(
-        title: '${copy.thinking} & ${copy.creativity}',
-        subtitle: 'Hang Mộng Mơ',
-        color: const Color(0xFF8B6CF0),
-        glyph: '✨',
-        artAsset: VimaiArt.thinkingCave,
-        onTap: () async {
-          await ref.read(currentProfileProvider.notifier).setLastWorld(LearningWorld.thinking.name);
-          if (context.mounted) context.push('/thinking');
-        },
-      ),
-      CanopyDestination(
-        title: copy.games,
-        subtitle: 'Hội Chợ Trò Chơi',
-        color: const Color(0xFFF0A010),
-        glyph: '🎪',
-        artAsset: VimaiArt.gamesPlayground,
-        onTap: () async {
-          await ref.read(currentProfileProvider.notifier).setLastWorld(LearningWorld.games.name);
-          if (context.mounted) context.push('/games');
-        },
-      ),
+    IslandSpec island(LearningWorld world, String title, String glyph, Color color, String art, String route) {
+      return IslandSpec(
+        id: world.name,
+        title: title,
+        glyph: glyph,
+        color: color,
+        art: art,
+        visited: visited.contains(world.name),
+        suggested: suggested == world,
+        onTap: () => _openWorld(world, route),
+      );
+    }
+
+    // Order is the stepping-stone trail: language → numbers → mind → making → play.
+    final islands = <IslandSpec>[
+      island(LearningWorld.vietnamese, copy.vietnamese, 'A', const Color(0xFF2F8FD8), VimaiArt.islandVietnamese, '/vietnamese'),
+      island(LearningWorld.japanese, copy.japanese, 'あ', const Color(0xFFE2558F), VimaiArt.islandJapanese, '/japanese'),
+      island(LearningWorld.math, copy.math, '123', const Color(0xFFF07A2E), VimaiArt.islandMath, '/math'),
+      island(LearningWorld.thinking, copy.thinking, '?', const Color(0xFF7B5CE6), VimaiArt.islandThinking, '/thinking'),
+      island(LearningWorld.creativity, copy.creativity, '✎', const Color(0xFF18A57A), VimaiArt.islandCreativity, '/creativity'),
+      island(LearningWorld.games, copy.games, '★', const Color(0xFFE39B1A), VimaiArt.islandGames, '/games'),
     ];
 
-    return Scaffold(
-      body: Stack(
-        fit: StackFit.expand,
-        children: [
-          // Immersive nature backdrop (not used for button coordinates).
-          Image.asset(
-            VimaiArt.homeWorld,
-            fit: BoxFit.cover,
-            alignment: Alignment.topCenter,
-            cacheWidth: 1400,
-            errorBuilder: (_, __, ___) => const ColoredBox(color: Color(0xFFB8DCF5)),
-          ),
-          const DecoratedBox(
-            decoration: BoxDecoration(
-              gradient: LinearGradient(
-                begin: Alignment.topCenter,
-                end: Alignment.bottomCenter,
-                colors: [
-                  Color(0x66FFFFFF),
-                  Color(0x33FDFBF4),
-                  Color(0xAAF3F8E8),
-                ],
-              ),
-            ),
-          ),
-          SafeArea(
-            child: Center(
-              child: ConstrainedBox(
-                constraints: const BoxConstraints(maxWidth: VimaiSpace.maxHome),
-                child: LayoutBuilder(
-                  builder: (context, constraints) {
-                    final short = constraints.maxHeight < 680;
-                    final gap = (constraints.maxHeight * 0.012).clamp(4.0, 10.0);
-                    final logoH = short
-                        ? 34.0
-                        : (MediaQuery.sizeOf(context).width >= 600 ? 48.0 : 40.0);
+    final greeting = 'Chào $userName! Hôm nay cùng khám phá nhé';
+    final hasNext = !suggestion.needsChoice && suggestion.route != '/home';
+    final hint = hasNext ? null : 'Chạm vào một hòn đảo nào!';
 
-                    return Padding(
-                      padding: EdgeInsets.fromLTRB(16, gap * 0.5, 16, gap),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.stretch,
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 4),
-                            child: Row(
+    Widget guide({required bool vertical, required double mascot}) => MaiGuide(
+          vertical: vertical,
+          mascotSize: mascot,
+          mood: mood,
+          mascotColor: mascotColorForAvatar(profile.avatar),
+          greeting: greeting,
+          hint: hint,
+          actionLabel: hasNext ? suggestion.prompt : null,
+          actionGlyph: hasNext ? suggestion.glyph : null,
+          actionColor: islands.firstWhere((e) => e.id == suggestion.world.name, orElse: () => islands.first).color,
+          onAction: hasNext ? () => _openWorld(suggestion.world, suggestion.route) : null,
+          onMaiTap: _onMaiTap,
+          trailing: _buildMaiAiToggle(context, profile),
+        );
+
+    return Scaffold(
+      backgroundColor: const Color(0xFF9AD8FF),
+      body: LayoutBuilder(
+        builder: (context, outer) {
+          final wide = outer.maxWidth > outer.maxHeight * 1.15 && outer.maxWidth >= 700;
+          return Stack(
+            fit: StackFit.expand,
+            children: [
+              DiscoverySeaBackground(horizon: wide ? 0.3 : 0.22),
+              SafeArea(
+                child: Center(
+                  child: ConstrainedBox(
+                    constraints: const BoxConstraints(maxWidth: VimaiSpace.maxHome),
+                    child: LayoutBuilder(
+                      builder: (context, constraints) {
+                        final short = constraints.maxHeight < 680;
+                        final logoH = short ? 40.0 : (wide ? 56.0 : 48.0);
+                        final topBar = _TopBar(
+                          logoHeight: logoH,
+                          profile: profile,
+                          parentLabel: copy.parent,
+                          onBgmChanged: (enabled) async {
+                            final settings = Map<String, dynamic>.from(profile.settings)..['bgm'] = enabled;
+                            await ref.read(currentProfileProvider.notifier).setProfile(
+                                  profile.copyWith(settings: settings),
+                                );
+                            await ref.read(audioServiceProvider).setBgmEnabled(enabled);
+                          },
+                          onParent: () {
+                            if (context.mounted) context.push('/parent');
+                          },
+                        );
+
+                        if (wide) {
+                          final guideW = (constraints.maxWidth * 0.3).clamp(260.0, 380.0);
+                          return Padding(
+                            padding: const EdgeInsets.fromLTRB(20, 8, 20, 6),
+                            child: Column(
                               children: [
-                                CanopyBgmToggle(
-                                  enabled: profile.bgmEnabled,
-                                  onChanged: (enabled) async {
-                                    final settings = Map<String, dynamic>.from(profile.settings)..['bgm'] = enabled;
-                                    await ref.read(currentProfileProvider.notifier).setProfile(
-                                          profile.copyWith(settings: settings),
-                                        );
-                                    await ref.read(audioServiceProvider).setBgmEnabled(enabled);
-                                  },
-                                ),
+                                topBar,
                                 Expanded(
-                                  child: Center(
-                                    child: Container(
-                                      padding: EdgeInsets.symmetric(
-                                        horizontal: 12,
-                                        vertical: short ? 4 : 6,
-                                      ),
-                                      decoration: BoxDecoration(
-                                        color: Colors.white.withValues(alpha: 0.88),
-                                        borderRadius: BorderRadius.circular(20),
-                                        boxShadow: const [
-                                          BoxShadow(
-                                            color: Color(0x221B3B2B),
-                                            blurRadius: 10,
-                                            offset: Offset(0, 4),
+                                  child: Row(
+                                    children: [
+                                      SizedBox(
+                                        width: guideW,
+                                        child: Center(
+                                          child: SingleChildScrollView(
+                                            child: guide(vertical: true, mascot: short ? 96 : 124),
                                           ),
-                                        ],
+                                        ),
                                       ),
-                                      child: VimaiKidsLogo(height: logoH),
-                                    ),
+                                      const SizedBox(width: 12),
+                                      Expanded(
+                                        child: Padding(
+                                          padding: const EdgeInsets.symmetric(vertical: 8),
+                                          child: DiscoveryArchipelago(islands: islands),
+                                        ),
+                                      ),
+                                    ],
                                   ),
                                 ),
-                                ParentOakGate(
-                                  label: copy.parent,
-                                  onUnlocked: () {
-                                    if (context.mounted) context.push('/parent');
-                                  },
-                                ),
+                                const _Footer(),
                               ],
                             ),
-                          ),
-                          SizedBox(height: gap),
-                          Flexible(
-                            flex: short ? 2 : 3,
-                            child: FittedBox(
-                              fit: BoxFit.scaleDown,
-                              alignment: Alignment.center,
-                              child: SizedBox(
-                                width: constraints.maxWidth - 32,
-                                child: DiscoveryNest(
-                                  mood: mood,
-                                  mascotColor: mascotColorForAvatar(profile.avatar),
-                                  greeting: 'Chào $userName! Hôm nay cùng khám phá nhé',
-                                  trailing: _buildMaiAiToggle(context, profile),
+                          );
+                        }
+
+                        return Padding(
+                          padding: const EdgeInsets.fromLTRB(14, 6, 14, 4),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.stretch,
+                            children: [
+                              topBar,
+                              SizedBox(height: short ? 4 : 10),
+                              Center(
+                                child: ConstrainedBox(
+                                  constraints: const BoxConstraints(maxWidth: 560),
+                                  child: guide(vertical: false, mascot: short ? 64 : (constraints.maxWidth >= 600 ? 112 : 84)),
                                 ),
                               ),
-                            ),
-                          ),
-                          SizedBox(height: gap),
-                          FittedBox(
-                            fit: BoxFit.scaleDown,
-                            child: Text(
-                              'Thế giới khám phá',
-                              textAlign: TextAlign.center,
-                              style: VimaiType.title.copyWith(
-                                color: VimaiColor.ink,
-                                fontSize: short ? 18 : 22,
-                                shadows: const [Shadow(color: Colors.white, blurRadius: 8)],
+                              SizedBox(height: short ? 2 : 8),
+                              Expanded(
+                                child: Center(
+                                  child: ConstrainedBox(
+                                    constraints: const BoxConstraints(maxWidth: 620),
+                                    child: DiscoveryArchipelago(islands: islands),
+                                  ),
+                                ),
                               ),
-                            ),
+                              const _Footer(),
+                            ],
                           ),
-                          SizedBox(height: gap * 0.8),
-                          Expanded(
-                            flex: short ? 10 : 12,
-                            child: CanopyPathTrail(
-                              destinations: destinations,
-                              compact: short,
-                            ),
-                          ),
-                          SizedBox(height: gap * 0.8),
-                          Container(
-                            padding: EdgeInsets.symmetric(horizontal: 12, vertical: short ? 4 : 6),
-                            decoration: BoxDecoration(
-                              color: Colors.white.withValues(alpha: 0.75),
-                              borderRadius: BorderRadius.circular(16),
-                            ),
-                            child: const FittedBox(
-                              fit: BoxFit.scaleDown,
-                              child: VimaiCopyrightLine(),
-                            ),
-                          ),
-                        ],
-                      ),
-                    );
-                  },
+                        );
+                      },
+                    ),
+                  ),
                 ),
               ),
-            ),
-          ),
-        ],
+            ],
+          );
+        },
       ),
     );
   }
 
   Widget _buildMaiAiToggle(BuildContext context, ChildProfile profile) {
     final aiEnabled = profile.aiEnabled;
-    return Material(
-      color: Colors.transparent,
-      child: InkWell(
-        onTap: () => _showMaiAiModal(context, profile),
-        borderRadius: BorderRadius.circular(20),
-        child: Container(
-          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
-          decoration: BoxDecoration(
-            color: aiEnabled ? const Color(0xFFFFF3E0) : const Color(0xFFF5F5F5),
-            borderRadius: BorderRadius.circular(20),
-            border: Border.all(
-              color: aiEnabled ? const Color(0xFFFFB74D) : const Color(0xFFE0E0E0),
-              width: 1.5,
-            ),
-            boxShadow: [
-              BoxShadow(
-                color: (aiEnabled ? const Color(0xFFFFB74D) : Colors.black).withValues(alpha: 0.12),
-                blurRadius: 6,
-                offset: const Offset(0, 2),
-              ),
-            ],
-          ),
-          child: Row(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Icon(
-                Icons.auto_awesome,
-                size: 18,
-                color: aiEnabled ? const Color(0xFFFF6F00) : const Color(0xFF9E9E9E),
-              ),
-              const SizedBox(width: 4),
-              Text(
-                'Mai AI',
-                style: TextStyle(
-                  fontSize: 12,
-                  fontWeight: FontWeight.w700,
-                  color: aiEnabled ? const Color(0xFFE65100) : const Color(0xFF757575),
-                ),
-              ),
-            ],
-          ),
+    return TactileNode(
+      semanticLabel: 'Mai AI',
+      minSize: 44,
+      onTap: () => _showMaiAiModal(context, profile),
+      child: Container(
+        width: 40,
+        height: 40,
+        decoration: BoxDecoration(
+          color: aiEnabled ? const Color(0xFFFFF3E0) : const Color(0xFFF5F5F5),
+          shape: BoxShape.circle,
+          border: Border.all(color: aiEnabled ? const Color(0xFFFFB74D) : const Color(0xFFE0E0E0), width: 1.5),
+        ),
+        child: Icon(
+          Icons.auto_awesome,
+          size: 20,
+          color: aiEnabled ? const Color(0xFFFF6F00) : const Color(0xFF9E9E9E),
         ),
       ),
     );
@@ -363,7 +304,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> with RouteAware {
       isScrollControlled: true,
       builder: (sheetContext) {
         return StatefulBuilder(
-          builder: (context, setModalState) {
+          builder: (context, _) {
             final currentProfile = ref.watch(currentProfileProvider) ?? profile;
             final enabled = currentProfile.aiEnabled;
 
@@ -411,7 +352,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> with RouteAware {
                                 style: VimaiType.title.copyWith(fontSize: 18, color: VimaiColor.ink),
                               ),
                               Text(
-                                enabled ? 'Đang bật trợ lý học tập' : 'Trợ lý học tập đang tắt',
+                                enabled ? 'Đang bật trợ lý học tập' : 'Bố mẹ có thể bật trong mục Phụ huynh',
                                 style: TextStyle(
                                   fontSize: 13,
                                   color: enabled ? const Color(0xFF2E7D32) : Colors.grey.shade600,
@@ -420,17 +361,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> with RouteAware {
                               ),
                             ],
                           ),
-                        ),
-                        Switch.adaptive(
-                          value: enabled,
-                          activeThumbColor: const Color(0xFFFF7E40),
-                          onChanged: (val) async {
-                            final settings = Map<String, dynamic>.from(currentProfile.settings)..['ai_enabled'] = val;
-                            await ref.read(currentProfileProvider.notifier).setProfile(
-                                  currentProfile.copyWith(settings: settings),
-                                );
-                            setModalState(() {});
-                          },
                         ),
                       ],
                     ),
@@ -573,6 +503,64 @@ class _HomeScreenState extends ConsumerState<HomeScreen> with RouteAware {
             ),
           ],
         ),
+      ),
+    );
+  }
+}
+
+class _TopBar extends StatelessWidget {
+  const _TopBar({
+    required this.logoHeight,
+    required this.profile,
+    required this.parentLabel,
+    required this.onBgmChanged,
+    required this.onParent,
+  });
+
+  final double logoHeight;
+  final ChildProfile profile;
+  final String parentLabel;
+  final ValueChanged<bool> onBgmChanged;
+  final VoidCallback onParent;
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        CanopyBgmToggle(enabled: profile.bgmEnabled, onChanged: onBgmChanged),
+        Expanded(
+          child: Center(
+            child: Container(
+              padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 4),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(VimaiRadius.pill),
+                boxShadow: const [BoxShadow(color: Color(0x261B3B5B), blurRadius: 12, offset: Offset(0, 4))],
+              ),
+              child: VimaiKidsLogo(height: logoHeight),
+            ),
+          ),
+        ),
+        ParentOakGate(label: parentLabel, onUnlocked: onParent),
+      ],
+    );
+  }
+}
+
+class _Footer extends StatelessWidget {
+  const _Footer();
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Container(
+        margin: const EdgeInsets.only(top: 2),
+        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 2),
+        decoration: BoxDecoration(
+          color: Colors.white.withValues(alpha: 0.6),
+          borderRadius: BorderRadius.circular(VimaiRadius.pill),
+        ),
+        child: const FittedBox(fit: BoxFit.scaleDown, child: VimaiCopyrightLine()),
       ),
     );
   }

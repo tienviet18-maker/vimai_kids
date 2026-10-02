@@ -25,7 +25,7 @@ String artForWorld(WorldKind kind) {
   }
 }
 
-/// Official ViMai Kids wordmark.
+/// Official ViMai Kids wordmark (the approved colourful lettering).
 class VimaiKidsLogo extends StatelessWidget {
   const VimaiKidsLogo({super.key, this.height = 52});
 
@@ -36,16 +36,12 @@ class VimaiKidsLogo extends StatelessWidget {
     return Semantics(
       label: 'ViMai Kids',
       image: true,
-      child: SvgPicture.asset(
-        VimaiBrandAssets.kidsLogo,
+      child: Image.asset(
+        VimaiBrandAssets.kidsWordmark,
         height: height,
         fit: BoxFit.contain,
-        placeholderBuilder: (_) => Image.asset(
-          VimaiBrandAssets.companyLogo,
-          height: height,
-          fit: BoxFit.contain,
-          errorBuilder: (_, __, ___) => Text('ViMai Kids', style: VimaiType.brand),
-        ),
+        filterQuality: FilterQuality.medium,
+        errorBuilder: (_, __, ___) => SvgPicture.asset(VimaiBrandAssets.kidsLogo, height: height),
       ),
     );
   }

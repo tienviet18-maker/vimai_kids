@@ -62,5 +62,6 @@ flutter:
     - assets/content/games/
     - assets/licenses/
     - assets/illustrations/
+    - assets/illustrations/islands/
     - assets/audio/
     - assets/audio/audio_manifest.json
