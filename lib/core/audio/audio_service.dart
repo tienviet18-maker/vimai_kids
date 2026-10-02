@@ -3,7 +3,7 @@ import 'dart:math';
 
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
+import 'package:flutter/services.dart' show AssetManifest, rootBundle;
 
 import 'audio_locale_policy.dart';
 import 'audio_playback_policy.dart';
@@ -149,6 +149,57 @@ class AudioService {
 
   final Set<String> _preloadedKeys = {};
   bool _preloaded = false;
+
+  /// Clip ids that the code asks for but that were never bundled, mapped to the
+  /// bundled clip that says the same thing. Used only when the requested file
+  /// is missing, so shipping the original file later takes over automatically.
+  static const Map<String, String> bundledFallbacks = {
+    'sys_success_1': 'sys_praise_1',
+    'sys_success_2': 'sys_praise_2',
+    'sys_success_3': 'sys_praise_3',
+    'sys_success_4': 'sys_praise_4',
+    'sys_success_5': 'sys_correct',
+    'sys_fail_1': 'sys_try_again',
+    'sys_fail_2': 'sys_try_again_1',
+    'sys_fail_3': 'sys_try_again_2',
+    'sys_fail_4': 'sys_try_again',
+    'sys_japanese_intro': 'sys_ja_intro',
+    'sys_math_recognize': 'sys_math_identify',
+    'sys_game_memory': 'sys_thinking_memory',
+    'v_math_dem_so': 'sys_math_count',
+  };
+
+  /// `assets/audio/<id>.mp3` ids present in the asset manifest; null until
+  /// loaded (or when the manifest is unavailable, in which case every id is tried).
+  Set<String>? _bundledIds;
+  Future<void>? _bundledIdsLoading;
+
+  Future<void> _ensureBundledIds() {
+    return _bundledIdsLoading ??= () async {
+      try {
+        final manifest = await AssetManifest.loadFromAssetBundle(rootBundle);
+        const prefix = 'assets/audio/';
+        _bundledIds = {
+          for (final asset in manifest.listAssets())
+            if (asset.startsWith(prefix) && asset.endsWith('.mp3') && !asset.substring(prefix.length).contains('/'))
+              asset.substring(prefix.length, asset.length - '.mp3'.length),
+        };
+      } catch (e) {
+        debugPrint('[AudioService] asset manifest unavailable, trying every id: $e');
+      }
+    }();
+  }
+
+  bool _isBundled(String id) => _bundledIds?.contains(id) ?? true;
+
+  /// The id that will actually play for [id]: itself when bundled, else its
+  /// [bundledFallbacks] entry when that is bundled.
+  String _resolveBundled(String id) {
+    if (_isBundled(id)) return id;
+    final fallback = bundledFallbacks[id];
+    if (fallback != null && _isBundled(fallback)) return fallback;
+    return id;
+  }
 
   static const successKeys = [
     'sys_success_1',
@@ -306,17 +357,21 @@ class AudioService {
   Future<void> preloadFeedbackAndSystemClips() async {
     if (_preloaded) return;
     _preloaded = true;
+    await _ensureBundledIds();
+    final keys = {
+      for (final key in preloadedClipKeys) _resolveBundled(normalizeKey(key)),
+    }.where(_isBundled).toList();
     final files = <String>[
-      for (final key in preloadedClipKeys) 'audio/$key.mp3',
+      for (final key in keys) 'audio/$key.mp3',
       bgmAsset,
     ];
     try {
       // Browser GET warm-up on web; temp-file copy on mobile — avoids first-play stutter.
       await AudioCache.instance.loadAll(files);
-      _preloadedKeys.addAll(preloadedClipKeys);
+      _preloadedKeys.addAll(keys);
     } catch (e) {
       debugPrint('[AudioService] AudioCache.loadAll fallback: $e');
-      for (final key in preloadedClipKeys) {
+      for (final key in keys) {
         try {
           await rootBundle.load('assets/audio/$key.mp3');
           _preloadedKeys.add(key);
@@ -492,26 +547,33 @@ class AudioService {
       return AudioPlayResult.ok(AudioLocalePolicy.localeFor(lang));
     }
 
+    await _ensureBundledIds();
+    final candidates = <String>{
+      audioId,
+      if (bundledFallbacks[audioId] != null) bundledFallbacks[audioId]!,
+      if (audioId.startsWith('vi_word_')) 'v_${audioId.substring(3)}',
+      if (audioId.startsWith('v_word_')) 'vi_${audioId.substring(2)}',
+      if (audioId.startsWith('ja_h_')) 'j_hira_${audioId.substring(5)}',
+      if (audioId.startsWith('ja_k_')) 'j_kata_${audioId.substring(5)}',
+      if (audioId.startsWith('j_hira_')) 'ja_h_${audioId.substring(7)}',
+      if (audioId.startsWith('j_kata_')) 'ja_k_${audioId.substring(7)}',
+      if (audioId.startsWith('ja_h_') && audioId.length > 5) 'ja_${audioId.substring(5)}',
+      if (audioId.startsWith('ja_k_') && audioId.length > 5) 'ja_${audioId.substring(5)}',
+      if (audioId.endsWith('_example')) audioId.substring(0, audioId.length - '_example'.length),
+      if (audioId.startsWith('v_rime_')) 'v_blend_${audioId.substring(7)}',
+      if (audioId.startsWith('v_rime_')) 'v_word_${audioId.substring(7)}',
+      if (audioId.startsWith('v_rime_')) 'v_v_${audioId.substring(7)}',
+    }.where(_isBundled).toList();
+    if (candidates.isEmpty) {
+      debugPrint('[AudioService] Missing bundled MP3 for id=$audioId (expected assets/audio/$audioId.mp3).');
+      return AudioPlayResult.unavailable('Thiếu file âm thanh: $audioId');
+    }
+
     _player ??= AudioPlayer();
     await _safePlayerOp(() => _player!.stop());
 
     await _duckBgm();
     try {
-      final candidates = <String>[
-        audioId,
-        if (audioId.startsWith('vi_word_')) 'v_${audioId.substring(3)}',
-        if (audioId.startsWith('v_word_')) 'vi_${audioId.substring(2)}',
-        if (audioId.startsWith('ja_h_')) 'j_hira_${audioId.substring(5)}',
-        if (audioId.startsWith('ja_k_')) 'j_kata_${audioId.substring(5)}',
-        if (audioId.startsWith('j_hira_')) 'ja_h_${audioId.substring(7)}',
-        if (audioId.startsWith('j_kata_')) 'ja_k_${audioId.substring(7)}',
-        if (audioId.startsWith('ja_h_') && audioId.length > 5) 'ja_${audioId.substring(5)}',
-        if (audioId.startsWith('ja_k_') && audioId.length > 5) 'ja_${audioId.substring(5)}',
-        if (audioId.endsWith('_example')) audioId.substring(0, audioId.length - '_example'.length),
-        if (audioId.startsWith('v_rime_')) 'v_blend_${audioId.substring(7)}',
-        if (audioId.startsWith('v_rime_')) 'v_word_${audioId.substring(7)}',
-      ];
-
       for (final key in candidates) {
         final ok = await _playRecorded(
           'assets/audio/$key.mp3',
@@ -576,8 +638,10 @@ class AudioService {
       // on many WebKit builds; play+stop a known system clip if available.
       await _safePlayerOp(() => _player!.stop());
       await _safePlayerOp(() => _player!.setVolume(0.01));
+      await _ensureBundledIds();
+      final kick = _resolveBundled(successKeys.first);
       await _safePlayerOp(
-        () => _player!.play(AssetSource('audio/sys_success_1.mp3')),
+        () => _player!.play(AssetSource('audio/$kick.mp3')),
       );
       await Future<void>.delayed(const Duration(milliseconds: 40));
       await _safePlayerOp(() => _player!.stop());
