@@ -3695,6 +3695,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_074d61ab": {
+  "text": "Chữ này có trong từ nào?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
  "vi_say_0797f07f": {
   "text": "Mũi tên này chỉ đâu? xuống.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -4271,6 +4278,13 @@
  },
  "vi_say_120271da": {
   "text": "Số 7 là số chẵn hay số lẻ?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "vi_say_120fe858": {
+  "text": "Bé nghe rồi tìm đúng chữ nhé!",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
@@ -7251,6 +7265,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_4eb4ab0c": {
+  "text": "Nghe rồi chọn chữ đúng nhé.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
  "vi_say_4ef300e3": {
   "text": "Điền dấu đúng vào ô trống.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -8506,6 +8527,13 @@
  },
  "vi_say_623aed28": {
   "text": "ho.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "vi_say_6248d8d1": {
+  "text": "Bé nghe vần, rồi chọn tiếng có vần đó nhé.",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
@@ -12088,6 +12116,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_b10ca61e": {
+  "text": "Chữ này đọc âm nào?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
  "vi_say_b1102496": {
   "text": "mâng.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -14839,6 +14874,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_eb6e3c11": {
+  "text": "Nghe tên chữ, rồi chọn chữ đúng nhé.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
  "vi_say_eb72faaa": {
   "text": "Số nào đứng trước 48?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -15471,6 +15513,13 @@
  },
  "vi_say_f59055d8": {
   "text": "Bé có 2 cái bóng, thêm 5 cái nữa. Bé có bao nhiêu cái?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "vi_say_f5924e53": {
+  "text": "Nghe âm của chữ, rồi chọn chữ đúng nhé.",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
