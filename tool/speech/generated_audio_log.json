@@ -6705,6 +6705,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_3b9e9103": {
+  "text": "Bé nghe Mai đọc, rồi chọn câu đúng nhé.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
  "vi_say_3bbc109a": {
   "text": "Hình ở phía trên là? ngôi sao xe ô tô.",
   "voice": "vi-VN-HoaiMyNeural",
