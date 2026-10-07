@@ -1,0 +1,10678 @@
+{
+ "vi_phonics": [
+  {
+   "id": "vi_say_307d0fde",
+   "text": "Ghép âm"
+  },
+  {
+   "id": "vi_say_a37dc792",
+   "text": "Nghe và chọn từ đúng"
+  },
+  {
+   "id": "vi_say_14eb2a39",
+   "text": "Từ ghép"
+  },
+  {
+   "id": "vi_say_3c2ba6cc",
+   "text": "ba"
+  },
+  {
+   "id": "vi_say_347c6009",
+   "text": "ba ba"
+  },
+  {
+   "id": "vi_say_bd2a718f",
+   "text": "ba mẹ"
+  },
+  {
+   "id": "vi_say_382ba080",
+   "text": "be"
+  },
+  {
+   "id": "vi_say_442bb364",
+   "text": "bi"
+  },
+  {
+   "id": "vi_say_422bb03e",
+   "text": "bo"
+  },
+  {
+   "id": "vi_say_3b307733",
+   "text": "bo bi"
+  },
+  {
+   "id": "vi_say_482bb9b0",
+   "text": "bu"
+  },
+  {
+   "id": "vi_say_2fce0976",
+   "text": "bà"
+  },
+  {
+   "id": "vi_say_58299449",
+   "text": "ca"
+  },
+  {
+   "id": "vi_say_19f293db",
+   "text": "ca ca"
+  },
+  {
+   "id": "vi_say_fd8596fd",
+   "text": "cha"
+  },
+  {
+   "id": "vi_say_f98590b1",
+   "text": "che"
+  },
+  {
+   "id": "vi_say_f5858a65",
+   "text": "chi"
+  },
+  {
+   "id": "vi_say_ef8580f3",
+   "text": "cho"
+  },
+  {
+   "id": "vi_say_0985a9e1",
+   "text": "chu"
+  },
+  {
+   "id": "vi_say_6229a407",
+   "text": "co"
+  },
+  {
+   "id": "vi_say_4c298165",
+   "text": "cu"
+  },
+  {
+   "id": "vi_say_a65e5bc6",
+   "text": "cá"
+  },
+  {
+   "id": "vi_say_581cc856",
+   "text": "da"
+  },
+  {
+   "id": "vi_say_5c1ccea2",
+   "text": "de"
+  },
+  {
+   "id": "vi_say_601cd4ee",
+   "text": "di"
+  },
+  {
+   "id": "vi_say_621cd814",
+   "text": "do"
+  },
+  {
+   "id": "vi_say_4c1cb572",
+   "text": "du"
+  },
+  {
+   "id": "vi_say_40207425",
+   "text": "ga"
+  },
+  {
+   "id": "vi_say_4728695d",
+   "text": "ghe"
+  },
+  {
+   "id": "vi_say_3b285679",
+   "text": "ghi"
+  },
+  {
+   "id": "vi_say_4220774b",
+   "text": "go"
+  },
+  {
+   "id": "vi_say_4c208709",
+   "text": "gu"
+  },
+  {
+   "id": "vi_say_603aea02",
+   "text": "ha"
+  },
+  {
+   "id": "vi_say_5c3ae3b6",
+   "text": "he"
+  },
+  {
+   "id": "vi_say_683af69a",
+   "text": "hi"
+  },
+  {
+   "id": "vi_say_623aed28",
+   "text": "ho"
+  },
+  {
+   "id": "vi_say_4c3aca86",
+   "text": "hu"
+  },
+  {
+   "id": "vi_say_4c3d091d",
+   "text": "ke"
+  },
+  {
+   "id": "vi_say_53f55545",
+   "text": "kha"
+  },
+  {
+   "id": "vi_say_4ff54ef9",
+   "text": "khe"
+  },
+  {
+   "id": "vi_say_55f5586b",
+   "text": "kho"
+  },
+  {
+   "id": "vi_say_5ff56829",
+   "text": "khu"
+  },
+  {
+   "id": "vi_say_403cf639",
+   "text": "ki"
+  },
+  {
+   "id": "vi_say_4831c9de",
+   "text": "la"
+  },
+  {
+   "id": "vi_say_4c31d02a",
+   "text": "le"
+  },
+  {
+   "id": "vi_say_4031bd46",
+   "text": "li"
+  },
+  {
+   "id": "vi_say_4231c06c",
+   "text": "lo"
+  },
+  {
+   "id": "vi_say_5c31e95a",
+   "text": "lu"
+  },
+  {
+   "id": "vi_say_642e245b",
+   "text": "ma"
+  },
+  {
+   "id": "vi_say_682e2aa7",
+   "text": "me"
+  },
+  {
+   "id": "vi_say_5c2e17c3",
+   "text": "mi"
+  },
+  {
+   "id": "vi_say_622e2135",
+   "text": "mo"
+  },
+  {
+   "id": "vi_say_582e1177",
+   "text": "mu"
+  },
+  {
+   "id": "vi_say_8c208cbe",
+   "text": "mẹ"
+  },
+  {
+   "id": "vi_say_543659f0",
+   "text": "na"
+  },
+  {
+   "id": "vi_say_5836603c",
+   "text": "ne"
+  },
+  {
+   "id": "vi_say_069dddb9",
+   "text": "nga"
+  },
+  {
+   "id": "vi_say_4a9590c1",
+   "text": "nghe"
+  },
+  {
+   "id": "vi_say_46958a75",
+   "text": "nghi"
+  },
+  {
+   "id": "vi_say_109ded77",
+   "text": "ngo"
+  },
+  {
+   "id": "vi_say_1a9dfd35",
+   "text": "ngu"
+  },
+  {
+   "id": "vi_say_36a6780e",
+   "text": "nha"
+  },
+  {
+   "id": "vi_say_3aa67e5a",
+   "text": "nhe"
+  },
+  {
+   "id": "vi_say_2ea66b76",
+   "text": "nhi"
+  },
+  {
+   "id": "vi_say_30a66e9c",
+   "text": "nho"
+  },
+  {
+   "id": "vi_say_2aa6652a",
+   "text": "nhu"
+  },
+  {
+   "id": "vi_say_5c366688",
+   "text": "ni"
+  },
+  {
+   "id": "vi_say_62366ffa",
+   "text": "no"
+  },
+  {
+   "id": "vi_say_4836470c",
+   "text": "nu"
+  },
+  {
+   "id": "vi_say_504e588a",
+   "text": "pa"
+  },
+  {
+   "id": "vi_say_4a449dec",
+   "text": "pha"
+  },
+  {
+   "id": "vi_say_5044a75e",
+   "text": "pho"
+  },
+  {
+   "id": "vi_say_5644b0d0",
+   "text": "phu"
+  },
+  {
+   "id": "vi_say_484e4bf2",
+   "text": "pi"
+  },
+  {
+   "id": "vi_say_424e4280",
+   "text": "po"
+  },
+  {
+   "id": "vi_say_e9e1425e",
+   "text": "qua"
+  },
+  {
+   "id": "vi_say_5c547b9c",
+   "text": "ra"
+  },
+  {
+   "id": "vi_say_58547550",
+   "text": "re"
+  },
+  {
+   "id": "vi_say_64548834",
+   "text": "ri"
+  },
+  {
+   "id": "vi_say_6254850e",
+   "text": "ro"
+  },
+  {
+   "id": "vi_say_48545c20",
+   "text": "ru"
+  },
+  {
+   "id": "vi_say_38520459",
+   "text": "sa"
+  },
+  {
+   "id": "vi_say_42521417",
+   "text": "so"
+  },
+  {
+   "id": "vi_say_4c5223d5",
+   "text": "su"
+  },
+  {
+   "id": "vi_say_7f99b404",
+   "text": "sũ"
+  },
+  {
+   "id": "vi_say_38453866",
+   "text": "ta"
+  },
+  {
+   "id": "vi_say_3c453eb2",
+   "text": "te"
+  },
+  {
+   "id": "vi_say_b00eabd0",
+   "text": "tha"
+  },
+  {
+   "id": "vi_say_b40eb21c",
+   "text": "the"
+  },
+  {
+   "id": "vi_say_b80eb868",
+   "text": "thi"
+  },
+  {
+   "id": "vi_say_be0ec1da",
+   "text": "tho"
+  },
+  {
+   "id": "vi_say_a40e98ec",
+   "text": "thu"
+  },
+  {
+   "id": "vi_say_404544fe",
+   "text": "ti"
+  },
+  {
+   "id": "vi_say_42454824",
+   "text": "to"
+  },
+  {
+   "id": "vi_say_941d8a46",
+   "text": "tra"
+  },
+  {
+   "id": "vi_say_981d9092",
+   "text": "tre"
+  },
+  {
+   "id": "vi_say_9c1d96de",
+   "text": "tri"
+  },
+  {
+   "id": "vi_say_9e1d9a04",
+   "text": "tro"
+  },
+  {
+   "id": "vi_say_a81da9c2",
+   "text": "tru"
+  },
+  {
+   "id": "vi_say_4c4557e2",
+   "text": "tu"
+  },
+  {
+   "id": "vi_say_4449c878",
+   "text": "va"
+  },
+  {
+   "id": "vi_say_4849cec4",
+   "text": "ve"
+  },
+  {
+   "id": "vi_say_3c49bbe0",
+   "text": "vi"
+  },
+  {
+   "id": "vi_say_4249c552",
+   "text": "vo"
+  },
+  {
+   "id": "vi_say_5849e7f4",
+   "text": "vu"
+  },
+  {
+   "id": "vi_say_40635a12",
+   "text": "xa"
+  },
+  {
+   "id": "vi_say_3c6353c6",
+   "text": "xe"
+  },
+  {
+   "id": "vi_say_486366aa",
+   "text": "xi"
+  },
+  {
+   "id": "vi_say_42635d38",
+   "text": "xo"
+  },
+  {
+   "id": "vi_say_4c636cf6",
+   "text": "xu"
+  },
+  {
+   "id": "vi_say_bba890c5",
+   "text": "đa"
+  },
+  {
+   "id": "vi_say_b7a88a79",
+   "text": "đe"
+  },
+  {
+   "id": "vi_say_c3a89d5d",
+   "text": "đi"
+  },
+  {
+   "id": "vi_say_bda893eb",
+   "text": "đo"
+  },
+  {
+   "id": "vi_say_309588d3",
+   "text": "đo đỏ"
+  },
+  {
+   "id": "vi_say_c7a8a3a9",
+   "text": "đu"
+  },
+  {
+   "id": "vi_say_12ce8ccf",
+   "text": "đỏ"
+  }
+ ],
+ "vi_rimes": [
+  {
+   "id": "vi_say_5dfd53ae",
+   "text": "Ghép vần"
+  },
+  {
+   "id": "vi_say_59b74f73",
+   "text": "bam"
+  },
+  {
+   "id": "vi_say_5ab75106",
+   "text": "ban"
+  },
+  {
+   "id": "vi_say_74b779f4",
+   "text": "bap"
+  },
+  {
+   "id": "vi_say_71b7753b",
+   "text": "bau"
+  },
+  {
+   "id": "vi_say_6db76eef",
+   "text": "bay"
+  },
+  {
+   "id": "vi_say_8d72a4b7",
+   "text": "beng"
+  },
+  {
+   "id": "vi_say_a14c6797",
+   "text": "bich"
+  },
+  {
+   "id": "vi_say_c35358e2",
+   "text": "binh"
+  },
+  {
+   "id": "vi_say_64cae87c",
+   "text": "bip"
+  },
+  {
+   "id": "vi_say_60cae230",
+   "text": "bit"
+  },
+  {
+   "id": "vi_say_263bb96a",
+   "text": "biêng"
+  },
+  {
+   "id": "vi_say_e8015b8b",
+   "text": "biêt"
+  },
+  {
+   "id": "vi_say_e70159f8",
+   "text": "biêu"
+  },
+  {
+   "id": "vi_say_81c698f5",
+   "text": "boi"
+  },
+  {
+   "id": "vi_say_7dc692a9",
+   "text": "bom"
+  },
+  {
+   "id": "vi_say_78c68aca",
+   "text": "bop"
+  },
+  {
+   "id": "vi_say_6fd58729",
+   "text": "buc"
+  },
+  {
+   "id": "vi_say_79d596e7",
+   "text": "bum"
+  },
+  {
+   "id": "vi_say_7b3e75a7",
+   "text": "bung"
+  },
+  {
+   "id": "vi_say_60d56f8c",
+   "text": "but"
+  },
+  {
+   "id": "vi_say_08042968",
+   "text": "buyên"
+  },
+  {
+   "id": "vi_say_5953d39a",
+   "text": "bân"
+  },
+  {
+   "id": "vi_say_9bf6b747",
+   "text": "bâng"
+  },
+  {
+   "id": "vi_say_4053ac3f",
+   "text": "bâu"
+  },
+  {
+   "id": "vi_say_f571b33b",
+   "text": "bêch"
+  },
+  {
+   "id": "vi_say_4f674b94",
+   "text": "bêt"
+  },
+  {
+   "id": "vi_say_50674d27",
+   "text": "bêu"
+  },
+  {
+   "id": "vi_say_4c269629",
+   "text": "bông"
+  },
+  {
+   "id": "vi_say_ef5c5f47",
+   "text": "băng"
+  },
+  {
+   "id": "vi_say_0ff8425a",
+   "text": "bưu"
+  },
+  {
+   "id": "vi_say_6bc8b9dd",
+   "text": "bươm"
+  },
+  {
+   "id": "vi_say_68c8b524",
+   "text": "bươn"
+  },
+  {
+   "id": "vi_say_36f55879",
+   "text": "bương"
+  },
+  {
+   "id": "vi_say_ed7434ac",
+   "text": "cam"
+  },
+  {
+   "id": "vi_say_f0743965",
+   "text": "can"
+  },
+  {
+   "id": "vi_say_88f5be26",
+   "text": "cang"
+  },
+  {
+   "id": "vi_say_027455bb",
+   "text": "cap"
+  },
+  {
+   "id": "vi_say_06745c07",
+   "text": "cat"
+  },
+  {
+   "id": "vi_say_f9744790",
+   "text": "cay"
+  },
+  {
+   "id": "vi_say_fc95084a",
+   "text": "cich"
+  },
+  {
+   "id": "vi_say_f287c443",
+   "text": "cip"
+  },
+  {
+   "id": "vi_say_f687ca8f",
+   "text": "cit"
+  },
+  {
+   "id": "vi_say_f0d68790",
+   "text": "ciêt"
+  },
+  {
+   "id": "vi_say_f1d68923",
+   "text": "ciêu"
+  },
+  {
+   "id": "vi_say_f58dd92a",
+   "text": "coi"
+  },
+  {
+   "id": "vi_say_db404844",
+   "text": "cong"
+  },
+  {
+   "id": "vi_say_fe8de755",
+   "text": "cop"
+  },
+  {
+   "id": "vi_say_eb561c72",
+   "text": "cuc"
+  },
+  {
+   "id": "vi_say_f15625e4",
+   "text": "cui"
+  },
+  {
+   "id": "vi_say_ed561f98",
+   "text": "cum"
+  },
+  {
+   "id": "vi_say_f6562dc3",
+   "text": "cut"
+  },
+  {
+   "id": "vi_say_33193fd9",
+   "text": "cuyên"
+  },
+  {
+   "id": "vi_say_435b2f6c",
+   "text": "cuyết"
+  },
+  {
+   "id": "vi_say_b0884067",
+   "text": "cân"
+  },
+  {
+   "id": "vi_say_e67cc000",
+   "text": "câng"
+  },
+  {
+   "id": "vi_say_99881c32",
+   "text": "câu"
+  },
+  {
+   "id": "vi_say_9d88227e",
+   "text": "cây"
+  },
+  {
+   "id": "vi_say_6df38730",
+   "text": "cêch"
+  },
+  {
+   "id": "vi_say_909b95bf",
+   "text": "cên"
+  },
+  {
+   "id": "vi_say_aa9bbead",
+   "text": "cêt"
+  },
+  {
+   "id": "vi_say_a99bbd1a",
+   "text": "cêu"
+  },
+  {
+   "id": "vi_say_abbe5282",
+   "text": "côc"
+  },
+  {
+   "id": "vi_say_41a7b772",
+   "text": "công"
+  },
+  {
+   "id": "vi_say_dcd89ed8",
+   "text": "cươm"
+  },
+  {
+   "id": "vi_say_dfd8a391",
+   "text": "cươn"
+  },
+  {
+   "id": "vi_say_580a1c42",
+   "text": "cương"
+  },
+  {
+   "id": "vi_say_5e97cb33",
+   "text": "cướt"
+  },
+  {
+   "id": "vi_say_ddbef6b3",
+   "text": "hac"
+  },
+  {
+   "id": "vi_say_d0ba4204",
+   "text": "hanh"
+  },
+  {
+   "id": "vi_say_e9bf0997",
+   "text": "hao"
+  },
+  {
+   "id": "vi_say_f3bf1955",
+   "text": "hau"
+  },
+  {
+   "id": "vi_say_f7bf1fa1",
+   "text": "hay"
+  },
+  {
+   "id": "vi_say_0bb4b1c1",
+   "text": "hem"
+  },
+  {
+   "id": "vi_say_08b4ad08",
+   "text": "hen"
+  },
+  {
+   "id": "vi_say_236d05bd",
+   "text": "heng"
+  },
+  {
+   "id": "vi_say_55d35269",
+   "text": "hich"
+  },
+  {
+   "id": "vi_say_0bd2c6d5",
+   "text": "him"
+  },
+  {
+   "id": "vi_say_08d2c21c",
+   "text": "hin"
+  },
+  {
+   "id": "vi_say_57c81c9c",
+   "text": "hinh"
+  },
+  {
+   "id": "vi_say_14f062b7",
+   "text": "hiên"
+  },
+  {
+   "id": "vi_say_c66b8d70",
+   "text": "hiêng"
+  },
+  {
+   "id": "vi_say_1ef07275",
+   "text": "hiêt"
+  },
+  {
+   "id": "vi_say_edc38d11",
+   "text": "hoc"
+  },
+  {
+   "id": "vi_say_e7c3839f",
+   "text": "hom"
+  },
+  {
+   "id": "vi_say_fac3a188",
+   "text": "hop"
+  },
+  {
+   "id": "vi_say_fec3a7d4",
+   "text": "hot"
+  },
+  {
+   "id": "vi_say_e58d667f",
+   "text": "huc"
+  },
+  {
+   "id": "vi_say_75a0068d",
+   "text": "hung"
+  },
+  {
+   "id": "vi_say_e8e096fc",
+   "text": "hân"
+  },
+  {
+   "id": "vi_say_d2cceca2",
+   "text": "hêt"
+  },
+  {
+   "id": "vi_say_e7aa7b6f",
+   "text": "hôm"
+  },
+  {
+   "id": "vi_say_deaa6d44",
+   "text": "hôt"
+  },
+  {
+   "id": "vi_say_7ec17790",
+   "text": "hăn"
+  },
+  {
+   "id": "vi_say_818fd9d5",
+   "text": "hăng"
+  },
+  {
+   "id": "vi_say_ececc366",
+   "text": "hưng"
+  },
+  {
+   "id": "vi_say_9d698947",
+   "text": "hưt"
+  },
+  {
+   "id": "vi_say_9c6987b4",
+   "text": "hưu"
+  },
+  {
+   "id": "vi_say_78ff8a2e",
+   "text": "hươn"
+  },
+  {
+   "id": "vi_say_415ec57f",
+   "text": "hước"
+  },
+  {
+   "id": "vi_say_596084c9",
+   "text": "lam"
+  },
+  {
+   "id": "vi_say_576081a3",
+   "text": "lao"
+  },
+  {
+   "id": "vi_say_51607831",
+   "text": "lau"
+  },
+  {
+   "id": "vi_say_4d6071e5",
+   "text": "lay"
+  },
+  {
+   "id": "vi_say_366adb0c",
+   "text": "len"
+  },
+  {
+   "id": "vi_say_15376971",
+   "text": "leng"
+  },
+  {
+   "id": "vi_say_18d45bf5",
+   "text": "lich"
+  },
+  {
+   "id": "vi_say_364cc5f8",
+   "text": "lin"
+  },
+  {
+   "id": "vi_say_0adb01b0",
+   "text": "linh"
+  },
+  {
+   "id": "vi_say_444cdc02",
+   "text": "lip"
+  },
+  {
+   "id": "vi_say_69085ad3",
+   "text": "liên"
+  },
+  {
+   "id": "vi_say_0c26c95c",
+   "text": "liêng"
+  },
+  {
+   "id": "vi_say_830883c1",
+   "text": "liêt"
+  },
+  {
+   "id": "vi_say_8208822e",
+   "text": "liêu"
+  },
+  {
+   "id": "vi_say_395147df",
+   "text": "loi"
+  },
+  {
+   "id": "vi_say_35514193",
+   "text": "lom"
+  },
+  {
+   "id": "vi_say_50516c14",
+   "text": "lop"
+  },
+  {
+   "id": "vi_say_4c5165c8",
+   "text": "lot"
+  },
+  {
+   "id": "vi_say_5b9224bb",
+   "text": "luc"
+  },
+  {
+   "id": "vi_say_03033a61",
+   "text": "lung"
+  },
+  {
+   "id": "vi_say_5092136a",
+   "text": "lut"
+  },
+  {
+   "id": "vi_say_5428fc20",
+   "text": "lân"
+  },
+  {
+   "id": "vi_say_c38523c5",
+   "text": "lâng"
+  },
+  {
+   "id": "vi_say_69943f25",
+   "text": "lêch"
+  },
+  {
+   "id": "vi_say_5e13f126",
+   "text": "lêt"
+  },
+  {
+   "id": "vi_say_5306684b",
+   "text": "lôm"
+  },
+  {
+   "id": "vi_say_6e24f9fc",
+   "text": "lăn"
+  },
+  {
+   "id": "vi_say_ff34ef01",
+   "text": "lăng"
+  },
+  {
+   "id": "vi_say_7bdf6fe3",
+   "text": "lưt"
+  },
+  {
+   "id": "vi_say_7adf6e50",
+   "text": "lưu"
+  },
+  {
+   "id": "vi_say_78141812",
+   "text": "lươn"
+  },
+  {
+   "id": "vi_say_7ca2802f",
+   "text": "lương"
+  },
+  {
+   "id": "vi_say_eca30428",
+   "text": "mac"
+  },
+  {
+   "id": "vi_say_eaa30102",
+   "text": "mam"
+  },
+  {
+   "id": "vi_say_e9a2ff6f",
+   "text": "man"
+  },
+  {
+   "id": "vi_say_d3977998",
+   "text": "mang"
+  },
+  {
+   "id": "vi_say_d2977805",
+   "text": "manh"
+  },
+  {
+   "id": "vi_say_dfa2efb1",
+   "text": "map"
+  },
+  {
+   "id": "vi_say_e3a2f5fd",
+   "text": "mat"
+  },
+  {
+   "id": "vi_say_caad5bfe",
+   "text": "mem"
+  },
+  {
+   "id": "vi_say_ca8f46ea",
+   "text": "mim"
+  },
+  {
+   "id": "vi_say_cf8f4ec9",
+   "text": "mip"
+  },
+  {
+   "id": "vi_say_d38f5515",
+   "text": "mit"
+  },
+  {
+   "id": "vi_say_703b7ff1",
+   "text": "miêu"
+  },
+  {
+   "id": "vi_say_e49e7a62",
+   "text": "moc"
+  },
+  {
+   "id": "vi_say_ea9e83d4",
+   "text": "moi"
+  },
+  {
+   "id": "vi_say_ea86e1d2",
+   "text": "mong"
+  },
+  {
+   "id": "vi_say_ee84f23a",
+   "text": "mui"
+  },
+  {
+   "id": "vi_say_ea84ebee",
+   "text": "mum"
+  },
+  {
+   "id": "vi_say_d384c7b9",
+   "text": "mut"
+  },
+  {
+   "id": "vi_say_1c9e5587",
+   "text": "muyên"
+  },
+  {
+   "id": "vi_say_96c3a5ba",
+   "text": "muyết"
+  },
+  {
+   "id": "vi_say_b1102496",
+   "text": "mâng"
+  },
+  {
+   "id": "vi_say_cce5ed64",
+   "text": "mâu"
+  },
+  {
+   "id": "vi_say_c0e5da80",
+   "text": "mây"
+  },
+  {
+   "id": "vi_say_272844ba",
+   "text": "mêch"
+  },
+  {
+   "id": "vi_say_d7fb196d",
+   "text": "mên"
+  },
+  {
+   "id": "vi_say_bcfaeeec",
+   "text": "mêu"
+  },
+  {
+   "id": "vi_say_c312fd44",
+   "text": "môc"
+  },
+  {
+   "id": "vi_say_59c8d9fc",
+   "text": "mông"
+  },
+  {
+   "id": "vi_say_d21314e1",
+   "text": "môt"
+  },
+  {
+   "id": "vi_say_72c6d615",
+   "text": "mưng"
+  },
+  {
+   "id": "vi_say_615ba512",
+   "text": "mươm"
+  },
+  {
+   "id": "vi_say_c841bec8",
+   "text": "mương"
+  },
+  {
+   "id": "vi_say_4f1f5348",
+   "text": "mước"
+  },
+  {
+   "id": "vi_say_461f451d",
+   "text": "mướt"
+  },
+  {
+   "id": "vi_say_248f0269",
+   "text": "nac"
+  },
+  {
+   "id": "vi_say_2f8f13ba",
+   "text": "nan"
+  },
+  {
+   "id": "vi_say_bb3c44e7",
+   "text": "nang"
+  },
+  {
+   "id": "vi_say_b03c3396",
+   "text": "nanh"
+  },
+  {
+   "id": "vi_say_308f154d",
+   "text": "nao"
+  },
+  {
+   "id": "vi_say_118ee480",
+   "text": "nap"
+  },
+  {
+   "id": "vi_say_158eeacc",
+   "text": "nat"
+  },
+  {
+   "id": "vi_say_2e999f83",
+   "text": "nem"
+  },
+  {
+   "id": "vi_say_2f99a116",
+   "text": "nen"
+  },
+  {
+   "id": "vi_say_0ea3fa7f",
+   "text": "nim"
+  },
+  {
+   "id": "vi_say_0fa3fc12",
+   "text": "nin"
+  },
+  {
+   "id": "vi_say_25a41eb4",
+   "text": "nit"
+  },
+  {
+   "id": "vi_say_0a7d319d",
+   "text": "niên"
+  },
+  {
+   "id": "vi_say_34b1addb",
+   "text": "noc"
+  },
+  {
+   "id": "vi_say_afa7b301",
+   "text": "nong"
+  },
+  {
+   "id": "vi_say_29b19c8a",
+   "text": "not"
+  },
+  {
+   "id": "vi_say_127263ff",
+   "text": "nui"
+  },
+  {
+   "id": "vi_say_0e725db3",
+   "text": "num"
+  },
+  {
+   "id": "vi_say_44c9284c",
+   "text": "nuyên"
+  },
+  {
+   "id": "vi_say_e4a0006b",
+   "text": "nuyết"
+  },
+  {
+   "id": "vi_say_927356eb",
+   "text": "nâu"
+  },
+  {
+   "id": "vi_say_8e73509f",
+   "text": "nây"
+  },
+  {
+   "id": "vi_say_9b86ecce",
+   "text": "nên"
+  },
+  {
+   "id": "vi_say_8286c573",
+   "text": "nêu"
+  },
+  {
+   "id": "vi_say_78460e5f",
+   "text": "nôc"
+  },
+  {
+   "id": "vi_say_7e4617d1",
+   "text": "nôm"
+  },
+  {
+   "id": "vi_say_8e50b0ed",
+   "text": "nông"
+  },
+  {
+   "id": "vi_say_854622d6",
+   "text": "nôt"
+  },
+  {
+   "id": "vi_say_c274061e",
+   "text": "năn"
+  },
+  {
+   "id": "vi_say_ee4d12ac",
+   "text": "nưng"
+  },
+  {
+   "id": "vi_say_b86ff4d1",
+   "text": "nưt"
+  },
+  {
+   "id": "vi_say_77c3f139",
+   "text": "nươm"
+  },
+  {
+   "id": "vi_say_f40849a1",
+   "text": "nước"
+  },
+  {
+   "id": "vi_say_e5083204",
+   "text": "nướt"
+  },
+  {
+   "id": "vi_say_99f72fdf",
+   "text": "tac"
+  },
+  {
+   "id": "vi_say_18286d6d",
+   "text": "tang"
+  },
+  {
+   "id": "vi_say_092855d0",
+   "text": "tanh"
+  },
+  {
+   "id": "vi_say_9df7362b",
+   "text": "tao"
+  },
+  {
+   "id": "vi_say_a6f74456",
+   "text": "tat"
+  },
+  {
+   "id": "vi_say_a7f745e9",
+   "text": "tau"
+  },
+  {
+   "id": "vi_say_c001f90d",
+   "text": "tem"
+  },
+  {
+   "id": "vi_say_bd01f454",
+   "text": "ten"
+  },
+  {
+   "id": "vi_say_bd136c49",
+   "text": "teng"
+  },
+  {
+   "id": "vi_say_c00af369",
+   "text": "tim"
+  },
+  {
+   "id": "vi_say_bd0aeeb0",
+   "text": "tin"
+  },
+  {
+   "id": "vi_say_7035fe08",
+   "text": "tinh"
+  },
+  {
+   "id": "vi_say_df6ad5bb",
+   "text": "tiên"
+  },
+  {
+   "id": "vi_say_912ea954",
+   "text": "tiêng"
+  },
+  {
+   "id": "vi_say_9a10c7c5",
+   "text": "toc"
+  },
+  {
+   "id": "vi_say_9c10caeb",
+   "text": "tom"
+  },
+  {
+   "id": "vi_say_5a714b5b",
+   "text": "tong"
+  },
+  {
+   "id": "vi_say_a310d5f0",
+   "text": "tot"
+  },
+  {
+   "id": "vi_say_9c28cfd1",
+   "text": "tui"
+  },
+  {
+   "id": "vi_say_6a4107b9",
+   "text": "tung"
+  },
+  {
+   "id": "vi_say_ea7f72d5",
+   "text": "tuyết"
+  },
+  {
+   "id": "vi_say_57b3510d",
+   "text": "tây"
+  },
+  {
+   "id": "vi_say_60c6e6f0",
+   "text": "tên"
+  },
+  {
+   "id": "vi_say_6ddf004d",
+   "text": "tôc"
+  },
+  {
+   "id": "vi_say_5fdeea43",
+   "text": "tôm"
+  },
+  {
+   "id": "vi_say_56dedc18",
+   "text": "tôt"
+  },
+  {
+   "id": "vi_say_5b4e8e74",
+   "text": "tăn"
+  },
+  {
+   "id": "vi_say_cfa9a7e9",
+   "text": "tăng"
+  },
+  {
+   "id": "vi_say_8c446b6a",
+   "text": "tưng"
+  },
+  {
+   "id": "vi_say_768d218b",
+   "text": "tưt"
+  },
+  {
+   "id": "vi_say_758d1ff8",
+   "text": "tưu"
+  },
+  {
+   "id": "vi_say_6b6a1203",
+   "text": "tước"
+  },
+  {
+   "id": "vi_say_606a00b2",
+   "text": "tướt"
+  }
+ ],
+ "vi_words": [
+  {
+   "id": "vi_say_a37dc792",
+   "text": "Nghe và chọn từ đúng"
+  },
+  {
+   "id": "vi_say_14eb2a39",
+   "text": "Từ ghép"
+  },
+  {
+   "id": "vi_say_94dfee04",
+   "text": "Từ đơn"
+  },
+  {
+   "id": "vi_say_1b29d58a",
+   "text": "anh"
+  },
+  {
+   "id": "vi_say_3c2ba6cc",
+   "text": "ba"
+  },
+  {
+   "id": "vi_say_347c6009",
+   "text": "ba ba"
+  },
+  {
+   "id": "vi_say_bd2a718f",
+   "text": "ba mẹ"
+  },
+  {
+   "id": "vi_say_02b99959",
+   "text": "ban ngày"
+  },
+  {
+   "id": "vi_say_21978943",
+   "text": "ban đêm"
+  },
+  {
+   "id": "vi_say_e7962a29",
+   "text": "biển"
+  },
+  {
+   "id": "vi_say_27d4da9c",
+   "text": "biển báo"
+  },
+  {
+   "id": "vi_say_3b307733",
+   "text": "bo bi"
+  },
+  {
+   "id": "vi_say_cb437f9d",
+   "text": "buồn"
+  },
+  {
+   "id": "vi_say_131dbcc4",
+   "text": "buổi sáng"
+  },
+  {
+   "id": "vi_say_8bdbdfc0",
+   "text": "buổi tối"
+  },
+  {
+   "id": "vi_say_2fce0976",
+   "text": "bà"
+  },
+  {
+   "id": "vi_say_0ecebe03",
+   "text": "bài tập"
+  },
+  {
+   "id": "vi_say_595850c8",
+   "text": "bàn"
+  },
+  {
+   "id": "vi_say_67e87aa0",
+   "text": "bàn chân"
+  },
+  {
+   "id": "vi_say_6e14635c",
+   "text": "bàn chải"
+  },
+  {
+   "id": "vi_say_29feb092",
+   "text": "bàn tay"
+  },
+  {
+   "id": "vi_say_3e5bf7de",
+   "text": "bác"
+  },
+  {
+   "id": "vi_say_6c87bb9c",
+   "text": "bác sĩ"
+  },
+  {
+   "id": "vi_say_bec00237",
+   "text": "bánh"
+  },
+  {
+   "id": "vi_say_01ea9569",
+   "text": "bánh bao"
+  },
+  {
+   "id": "vi_say_ac45122f",
+   "text": "bánh chưng"
+  },
+  {
+   "id": "vi_say_ae2c3387",
+   "text": "bánh mì"
+  },
+  {
+   "id": "vi_say_38ce17a1",
+   "text": "bé"
+  },
+  {
+   "id": "vi_say_1dcded20",
+   "text": "bò"
+  },
+  {
+   "id": "vi_say_0b05a880",
+   "text": "bóng"
+  },
+  {
+   "id": "vi_say_82b0e96d",
+   "text": "bóng rổ"
+  },
+  {
+   "id": "vi_say_7ab3d9f9",
+   "text": "bông hoa"
+  },
+  {
+   "id": "vi_say_4b4035d8",
+   "text": "búp"
+  },
+  {
+   "id": "vi_say_79d42597",
+   "text": "búp bê"
+  },
+  {
+   "id": "vi_say_4f403c24",
+   "text": "bút"
+  },
+  {
+   "id": "vi_say_3bcbd898",
+   "text": "bút chì"
+  },
+  {
+   "id": "vi_say_f01ce0d3",
+   "text": "bơi"
+  },
+  {
+   "id": "vi_say_de54cf95",
+   "text": "bạn"
+  },
+  {
+   "id": "vi_say_779ea3e0",
+   "text": "bạn thân"
+  },
+  {
+   "id": "vi_say_f8711600",
+   "text": "bảng"
+  },
+  {
+   "id": "vi_say_0b913f5a",
+   "text": "bầu trời"
+  },
+  {
+   "id": "vi_say_de68574d",
+   "text": "bẩn"
+  },
+  {
+   "id": "vi_say_a9a89b44",
+   "text": "bệnh viện"
+  },
+  {
+   "id": "vi_say_7049dc0c",
+   "text": "bố"
+  },
+  {
+   "id": "vi_say_2645ee46",
+   "text": "bốn"
+  },
+  {
+   "id": "vi_say_ad666ff6",
+   "text": "bốn chân"
+  },
+  {
+   "id": "vi_say_47bbca47",
+   "text": "bụng"
+  },
+  {
+   "id": "vi_say_19f293db",
+   "text": "ca ca"
+  },
+  {
+   "id": "vi_say_ed7434ac",
+   "text": "cam"
+  },
+  {
+   "id": "vi_say_93f5cf77",
+   "text": "canh"
+  },
+  {
+   "id": "vi_say_ef7437d2",
+   "text": "cao"
+  },
+  {
+   "id": "vi_say_fd8596fd",
+   "text": "cha"
+  },
+  {
+   "id": "vi_say_89384a98",
+   "text": "chim"
+  },
+  {
+   "id": "vi_say_07f9a8bd",
+   "text": "chuông"
+  },
+  {
+   "id": "vi_say_a95e6d3b",
+   "text": "chuối"
+  },
+  {
+   "id": "vi_say_b4306499",
+   "text": "chào buổi"
+  },
+  {
+   "id": "vi_say_5b3f5f17",
+   "text": "chào buổi sáng"
+  },
+  {
+   "id": "vi_say_3ddfd377",
+   "text": "cháo"
+  },
+  {
+   "id": "vi_say_58bece7d",
+   "text": "cháo gà"
+  },
+  {
+   "id": "vi_say_3edd9673",
+   "text": "chân"
+  },
+  {
+   "id": "vi_say_7334b38d",
+   "text": "chè"
+  },
+  {
+   "id": "vi_say_5cf38bfc",
+   "text": "chén"
+  },
+  {
+   "id": "vi_say_5834890c",
+   "text": "chó"
+  },
+  {
+   "id": "vi_say_58e9cc48",
+   "text": "chúc ngủ"
+  },
+  {
+   "id": "vi_say_588c00da",
+   "text": "chúc ngủ ngon"
+  },
+  {
+   "id": "vi_say_faf68fcb",
+   "text": "chăn"
+  },
+  {
+   "id": "vi_say_3e7cf516",
+   "text": "chơi"
+  },
+  {
+   "id": "vi_say_255cfd8f",
+   "text": "chạy"
+  },
+  {
+   "id": "vi_say_31679dcf",
+   "text": "chậm"
+  },
+  {
+   "id": "vi_say_32c74ebb",
+   "text": "chị"
+  },
+  {
+   "id": "vi_say_0ac70fc3",
+   "text": "chợ"
+  },
+  {
+   "id": "vi_say_16c722a7",
+   "text": "chữ"
+  },
+  {
+   "id": "vi_say_67c9f2c4",
+   "text": "con bò"
+  },
+  {
+   "id": "vi_say_5bb918ec",
+   "text": "con chim"
+  },
+  {
+   "id": "vi_say_b03bc478",
+   "text": "con chó"
+  },
+  {
+   "id": "vi_say_f0573b6a",
+   "text": "con cá"
+  },
+  {
+   "id": "vi_say_abb470e9",
+   "text": "con gà"
+  },
+  {
+   "id": "vi_say_bbc34caf",
+   "text": "con heo"
+  },
+  {
+   "id": "vi_say_ccf2f818",
+   "text": "con mèo"
+  },
+  {
+   "id": "vi_say_b1165f58",
+   "text": "con ngựa"
+  },
+  {
+   "id": "vi_say_4957b0de",
+   "text": "con thỏ"
+  },
+  {
+   "id": "vi_say_29dd72f7",
+   "text": "con tôm"
+  },
+  {
+   "id": "vi_say_1acc0e15",
+   "text": "con voi"
+  },
+  {
+   "id": "vi_say_cd5fa06a",
+   "text": "con vịt"
+  },
+  {
+   "id": "vi_say_a65e5bc6",
+   "text": "cá"
+  },
+  {
+   "id": "vi_say_b95096b6",
+   "text": "cái bàn"
+  },
+  {
+   "id": "vi_say_219bff56",
+   "text": "cái chén"
+  },
+  {
+   "id": "vi_say_09ba481d",
+   "text": "cái chăn"
+  },
+  {
+   "id": "vi_say_852e9f24",
+   "text": "cái ghế"
+  },
+  {
+   "id": "vi_say_441a0c66",
+   "text": "cái gối"
+  },
+  {
+   "id": "vi_say_719edff4",
+   "text": "cái hộp"
+  },
+  {
+   "id": "vi_say_23786098",
+   "text": "cái mũ"
+  },
+  {
+   "id": "vi_say_b4bd36f7",
+   "text": "cái nồi"
+  },
+  {
+   "id": "vi_say_1d899ea7",
+   "text": "cái quạt"
+  },
+  {
+   "id": "vi_say_1353706f",
+   "text": "cái thìa"
+  },
+  {
+   "id": "vi_say_e6835a27",
+   "text": "cái trống"
+  },
+  {
+   "id": "vi_say_6b05d91a",
+   "text": "cái tủ"
+  },
+  {
+   "id": "vi_say_8dd70248",
+   "text": "cái áo"
+  },
+  {
+   "id": "vi_say_6e9f42bf",
+   "text": "cái đèn"
+  },
+  {
+   "id": "vi_say_73b10430",
+   "text": "cánh"
+  },
+  {
+   "id": "vi_say_3f475dc7",
+   "text": "cánh cửa"
+  },
+  {
+   "id": "vi_say_988a5936",
+   "text": "cát"
+  },
+  {
+   "id": "vi_say_9d88227e",
+   "text": "cây"
+  },
+  {
+   "id": "vi_say_6ab4157c",
+   "text": "cây cầu"
+  },
+  {
+   "id": "vi_say_68880cec",
+   "text": "cây kéo"
+  },
+  {
+   "id": "vi_say_431937dc",
+   "text": "cây sáo"
+  },
+  {
+   "id": "vi_say_79ddadc4",
+   "text": "cây đàn"
+  },
+  {
+   "id": "vi_say_8daf18be",
+   "text": "còi"
+  },
+  {
+   "id": "vi_say_bb5e7cd5",
+   "text": "cô"
+  },
+  {
+   "id": "vi_say_c3ecdf4d",
+   "text": "cô chú"
+  },
+  {
+   "id": "vi_say_1bf96e34",
+   "text": "cô giáo"
+  },
+  {
+   "id": "vi_say_4a18f7ec",
+   "text": "cô hiệu"
+  },
+  {
+   "id": "vi_say_629a69b2",
+   "text": "cô hiệu trưởng"
+  },
+  {
+   "id": "vi_say_5ded43e1",
+   "text": "công an"
+  },
+  {
+   "id": "vi_say_5a56ece8",
+   "text": "công viên"
+  },
+  {
+   "id": "vi_say_d529f1be",
+   "text": "cơm"
+  },
+  {
+   "id": "vi_say_e95065b9",
+   "text": "cướp cờ"
+  },
+  {
+   "id": "vi_say_5588b27e",
+   "text": "cười"
+  },
+  {
+   "id": "vi_say_a8b6c224",
+   "text": "cảm ơn"
+  },
+  {
+   "id": "vi_say_f7ab394d",
+   "text": "cầu"
+  },
+  {
+   "id": "vi_say_7c2039ec",
+   "text": "cầu trượt"
+  },
+  {
+   "id": "vi_say_f3932e1b",
+   "text": "cậu"
+  },
+  {
+   "id": "vi_say_f2d3d3de",
+   "text": "cặp"
+  },
+  {
+   "id": "vi_say_74fcf8e0",
+   "text": "cặp sách"
+  },
+  {
+   "id": "vi_say_7412c27e",
+   "text": "cục"
+  },
+  {
+   "id": "vi_say_9c4e9083",
+   "text": "cục tẩy"
+  },
+  {
+   "id": "vi_say_62262de0",
+   "text": "cửa"
+  },
+  {
+   "id": "vi_say_1ce75a79",
+   "text": "dâu"
+  },
+  {
+   "id": "vi_say_2cd7faf4",
+   "text": "dì"
+  },
+  {
+   "id": "vi_say_3a730a84",
+   "text": "dưa"
+  },
+  {
+   "id": "vi_say_53dc3439",
+   "text": "dưa hấu"
+  },
+  {
+   "id": "vi_say_87471abf",
+   "text": "dạ"
+  },
+  {
+   "id": "vi_say_401a63f7",
+   "text": "em"
+  },
+  {
+   "id": "vi_say_517007f1",
+   "text": "em bé"
+  },
+  {
+   "id": "vi_say_c2449b0a",
+   "text": "ghế"
+  },
+  {
+   "id": "vi_say_568da0cb",
+   "text": "gió"
+  },
+  {
+   "id": "vi_say_cf9e756c",
+   "text": "giấy"
+  },
+  {
+   "id": "vi_say_ad00c4ad",
+   "text": "gà"
+  },
+  {
+   "id": "vi_say_f363d571",
+   "text": "gạo"
+  },
+  {
+   "id": "vi_say_09596ab7",
+   "text": "gấu"
+  },
+  {
+   "id": "vi_say_92f0f3d9",
+   "text": "gấu bông"
+  },
+  {
+   "id": "vi_say_a2852788",
+   "text": "gối"
+  },
+  {
+   "id": "vi_say_e7bf0671",
+   "text": "hai"
+  },
+  {
+   "id": "vi_say_09b4ae9b",
+   "text": "heo"
+  },
+  {
+   "id": "vi_say_ebc389eb",
+   "text": "hoa"
+  },
+  {
+   "id": "vi_say_d4de38e9",
+   "text": "hát"
+  },
+  {
+   "id": "vi_say_35219696",
+   "text": "hình"
+  },
+  {
+   "id": "vi_say_bcf79153",
+   "text": "hòn đá"
+  },
+  {
+   "id": "vi_say_e2bb59b3",
+   "text": "học"
+  },
+  {
+   "id": "vi_say_b556c4f8",
+   "text": "hồ"
+  },
+  {
+   "id": "vi_say_554d2f02",
+   "text": "hồ nước"
+  },
+  {
+   "id": "vi_say_aa72549f",
+   "text": "hồng"
+  },
+  {
+   "id": "vi_say_fb89e442",
+   "text": "hộp"
+  },
+  {
+   "id": "vi_say_7415db50",
+   "text": "kem"
+  },
+  {
+   "id": "vi_say_bdc0d845",
+   "text": "khóc"
+  },
+  {
+   "id": "vi_say_9f0359e3",
+   "text": "khăn"
+  },
+  {
+   "id": "vi_say_0b928e1e",
+   "text": "khỏe"
+  },
+  {
+   "id": "vi_say_77ab85cb",
+   "text": "kéo"
+  },
+  {
+   "id": "vi_say_80a34595",
+   "text": "kẹo"
+  },
+  {
+   "id": "vi_say_b67840fa",
+   "text": "làm ơn"
+  },
+  {
+   "id": "vi_say_1a49257b",
+   "text": "lá"
+  },
+  {
+   "id": "vi_say_cb8f675a",
+   "text": "lá cây"
+  },
+  {
+   "id": "vi_say_0d687aeb",
+   "text": "lì xì"
+  },
+  {
+   "id": "vi_say_ff186e3b",
+   "text": "lông"
+  },
+  {
+   "id": "vi_say_bbfc5f09",
+   "text": "lạnh"
+  },
+  {
+   "id": "vi_say_08f24094",
+   "text": "lớp"
+  },
+  {
+   "id": "vi_say_191f90c8",
+   "text": "lớp học"
+  },
+  {
+   "id": "vi_say_b9319fb7",
+   "text": "miệng"
+  },
+  {
+   "id": "vi_say_66007535",
+   "text": "muối"
+  },
+  {
+   "id": "vi_say_c0e15d52",
+   "text": "màu"
+  },
+  {
+   "id": "vi_say_8ef8d064",
+   "text": "màu hồng"
+  },
+  {
+   "id": "vi_say_2df370b4",
+   "text": "màu nâu"
+  },
+  {
+   "id": "vi_say_11adfc1a",
+   "text": "màu sắc"
+  },
+  {
+   "id": "vi_say_5521327f",
+   "text": "màu trắng"
+  },
+  {
+   "id": "vi_say_dfd44c21",
+   "text": "màu tím"
+  },
+  {
+   "id": "vi_say_f17ef958",
+   "text": "màu vàng"
+  },
+  {
+   "id": "vi_say_122583a2",
+   "text": "màu vẽ"
+  },
+  {
+   "id": "vi_say_7c97a7bf",
+   "text": "màu xanh"
+  },
+  {
+   "id": "vi_say_9a03b669",
+   "text": "màu xám"
+  },
+  {
+   "id": "vi_say_8b2d19aa",
+   "text": "màu đen"
+  },
+  {
+   "id": "vi_say_ddd6f7ae",
+   "text": "màu đỏ"
+  },
+  {
+   "id": "vi_say_c0df1ebb",
+   "text": "máy"
+  },
+  {
+   "id": "vi_say_c0fc4903",
+   "text": "máy bay"
+  },
+  {
+   "id": "vi_say_b77da9f3",
+   "text": "máy móc"
+  },
+  {
+   "id": "vi_say_c0e5da80",
+   "text": "mây"
+  },
+  {
+   "id": "vi_say_b6f4d54c",
+   "text": "mèo"
+  },
+  {
+   "id": "vi_say_10391a6a",
+   "text": "mũ"
+  },
+  {
+   "id": "vi_say_f1cc3c8c",
+   "text": "mũ bảo hiểm"
+  },
+  {
+   "id": "vi_say_8ce3f2b9",
+   "text": "mũi"
+  },
+  {
+   "id": "vi_say_2c0d4a6d",
+   "text": "mưa"
+  },
+  {
+   "id": "vi_say_4d6aa220",
+   "text": "mắt"
+  },
+  {
+   "id": "vi_say_90cd0bb0",
+   "text": "mặt trăng"
+  },
+  {
+   "id": "vi_say_8c208cbe",
+   "text": "mẹ"
+  },
+  {
+   "id": "vi_say_f974f35d",
+   "text": "một"
+  },
+  {
+   "id": "vi_say_5e2ce7f0",
+   "text": "ngày"
+  },
+  {
+   "id": "vi_say_c35f0ed1",
+   "text": "ngôi nhà"
+  },
+  {
+   "id": "vi_say_c847ec31",
+   "text": "ngôi sao"
+  },
+  {
+   "id": "vi_say_c8e9a493",
+   "text": "ngủ"
+  },
+  {
+   "id": "vi_say_0ca97edf",
+   "text": "ngủ ngon"
+  },
+  {
+   "id": "vi_say_3e04c93c",
+   "text": "ngựa"
+  },
+  {
+   "id": "vi_say_18655e58",
+   "text": "nhanh"
+  },
+  {
+   "id": "vi_say_30a66e9c",
+   "text": "nho"
+  },
+  {
+   "id": "vi_say_aaf8ec78",
+   "text": "nhà"
+  },
+  {
+   "id": "vi_say_6463d22c",
+   "text": "nhạc"
+  },
+  {
+   "id": "vi_say_7a6871fc",
+   "text": "nhảy"
+  },
+  {
+   "id": "vi_say_c1ed59f8",
+   "text": "nhảy dây"
+  },
+  {
+   "id": "vi_say_7117b2a0",
+   "text": "nhỏ"
+  },
+  {
+   "id": "vi_say_927356eb",
+   "text": "nâu"
+  },
+  {
+   "id": "vi_say_a6b7bb4c",
+   "text": "nóng"
+  },
+  {
+   "id": "vi_say_8e50b0ed",
+   "text": "nông"
+  },
+  {
+   "id": "vi_say_f886612e",
+   "text": "nông dân"
+  },
+  {
+   "id": "vi_say_7e5fafb7",
+   "text": "núi"
+  },
+  {
+   "id": "vi_say_c174048b",
+   "text": "năm"
+  },
+  {
+   "id": "vi_say_f40849a1",
+   "text": "nước"
+  },
+  {
+   "id": "vi_say_84502850",
+   "text": "nắng"
+  },
+  {
+   "id": "vi_say_fa2e4d5d",
+   "text": "nồi"
+  },
+  {
+   "id": "vi_say_51ef7a5e",
+   "text": "phở"
+  },
+  {
+   "id": "vi_say_cdb9a5f9",
+   "text": "quạt"
+  },
+  {
+   "id": "vi_say_9239a4dd",
+   "text": "quả"
+  },
+  {
+   "id": "vi_say_c2caa9a2",
+   "text": "quả bóng"
+  },
+  {
+   "id": "vi_say_c0b1b32e",
+   "text": "quả cam"
+  },
+  {
+   "id": "vi_say_0344fe69",
+   "text": "quả chuối"
+  },
+  {
+   "id": "vi_say_f55294c3",
+   "text": "quả dâu"
+  },
+  {
+   "id": "vi_say_dfbb1202",
+   "text": "quả nho"
+  },
+  {
+   "id": "vi_say_1ec48e86",
+   "text": "quả táo"
+  },
+  {
+   "id": "vi_say_b6a9feac",
+   "text": "quả xoài"
+  },
+  {
+   "id": "vi_say_41ff0fcb",
+   "text": "rau"
+  },
+  {
+   "id": "vi_say_441f8fb7",
+   "text": "răng"
+  },
+  {
+   "id": "vi_say_270ffd11",
+   "text": "rừng"
+  },
+  {
+   "id": "vi_say_df1ca102",
+   "text": "sao"
+  },
+  {
+   "id": "vi_say_ea00546f",
+   "text": "suối"
+  },
+  {
+   "id": "vi_say_95611ca5",
+   "text": "sách"
+  },
+  {
+   "id": "vi_say_15655c20",
+   "text": "sách vở"
+  },
+  {
+   "id": "vi_say_9667d9fd",
+   "text": "sáng"
+  },
+  {
+   "id": "vi_say_def431db",
+   "text": "sáo"
+  },
+  {
+   "id": "vi_say_2a1bece6",
+   "text": "sân chơi"
+  },
+  {
+   "id": "vi_say_ef8a29d7",
+   "text": "sóng"
+  },
+  {
+   "id": "vi_say_f9c60a42",
+   "text": "sông"
+  },
+  {
+   "id": "vi_say_d5de5d61",
+   "text": "súp"
+  },
+  {
+   "id": "vi_say_7776b03b",
+   "text": "sạch"
+  },
+  {
+   "id": "vi_say_e0e88a75",
+   "text": "số"
+  },
+  {
+   "id": "vi_say_f2e37a50",
+   "text": "số bốn"
+  },
+  {
+   "id": "vi_say_1e1b77bf",
+   "text": "số hai"
+  },
+  {
+   "id": "vi_say_84b78d17",
+   "text": "số một"
+  },
+  {
+   "id": "vi_say_ec86325d",
+   "text": "số năm"
+  },
+  {
+   "id": "vi_say_1a0c3b14",
+   "text": "sừng"
+  },
+  {
+   "id": "vi_say_0e3e5d9e",
+   "text": "sữa"
+  },
+  {
+   "id": "vi_say_656771af",
+   "text": "sữa chua"
+  },
+  {
+   "id": "vi_say_a3f73f9d",
+   "text": "tai"
+  },
+  {
+   "id": "vi_say_b3f758cd",
+   "text": "tay"
+  },
+  {
+   "id": "vi_say_c0fab498",
+   "text": "thuyền"
+  },
+  {
+   "id": "vi_say_62e4daf1",
+   "text": "thuyền buồm"
+  },
+  {
+   "id": "vi_say_d3b92a7d",
+   "text": "thìa"
+  },
+  {
+   "id": "vi_say_9736d081",
+   "text": "thước"
+  },
+  {
+   "id": "vi_say_08c27a48",
+   "text": "thước kẻ"
+  },
+  {
+   "id": "vi_say_d37c7683",
+   "text": "thấp"
+  },
+  {
+   "id": "vi_say_53b78f0e",
+   "text": "thịt"
+  },
+  {
+   "id": "vi_say_88ab5b5a",
+   "text": "thỏ"
+  },
+  {
+   "id": "vi_say_c00af369",
+   "text": "tim"
+  },
+  {
+   "id": "vi_say_42454824",
+   "text": "to"
+  },
+  {
+   "id": "vi_say_056a9aa0",
+   "text": "trà"
+  },
+  {
+   "id": "vi_say_9ae88a2c",
+   "text": "trái tim"
+  },
+  {
+   "id": "vi_say_aa579049",
+   "text": "trăng"
+  },
+  {
+   "id": "vi_say_a0842457",
+   "text": "trường"
+  },
+  {
+   "id": "vi_say_12597743",
+   "text": "trường học"
+  },
+  {
+   "id": "vi_say_a6c1f92e",
+   "text": "trắng"
+  },
+  {
+   "id": "vi_say_4c607239",
+   "text": "trống"
+  },
+  {
+   "id": "vi_say_4b82e545",
+   "text": "trời"
+  },
+  {
+   "id": "vi_say_9317fd71",
+   "text": "trứng"
+  },
+  {
+   "id": "vi_say_47aebaaf",
+   "text": "tàu"
+  },
+  {
+   "id": "vi_say_da3d557f",
+   "text": "tàu hỏa"
+  },
+  {
+   "id": "vi_say_61b12234",
+   "text": "táo"
+  },
+  {
+   "id": "vi_say_63cda76e",
+   "text": "tím"
+  },
+  {
+   "id": "vi_say_45dc82be",
+   "text": "tóc"
+  },
+  {
+   "id": "vi_say_e205a2fc",
+   "text": "tô"
+  },
+  {
+   "id": "vi_say_4861b8d7",
+   "text": "tô màu"
+  },
+  {
+   "id": "vi_say_5fdeea43",
+   "text": "tôm"
+  },
+  {
+   "id": "vi_say_47edcf05",
+   "text": "túi"
+  },
+  {
+   "id": "vi_say_3f361ce4",
+   "text": "tạm biệt"
+  },
+  {
+   "id": "vi_say_5007011a",
+   "text": "tẩy"
+  },
+  {
+   "id": "vi_say_40d9c9df",
+   "text": "tết"
+  },
+  {
+   "id": "vi_say_a72798b1",
+   "text": "tối"
+  },
+  {
+   "id": "vi_say_666470f6",
+   "text": "tổ"
+  },
+  {
+   "id": "vi_say_cdbcacef",
+   "text": "tổ chim"
+  },
+  {
+   "id": "vi_say_c03cc8ef",
+   "text": "tờ giấy"
+  },
+  {
+   "id": "vi_say_34642240",
+   "text": "tủ"
+  },
+  {
+   "id": "vi_say_1ef5d518",
+   "text": "uống"
+  },
+  {
+   "id": "vi_say_6fb88178",
+   "text": "viết"
+  },
+  {
+   "id": "vi_say_95217be1",
+   "text": "voi"
+  },
+  {
+   "id": "vi_say_99579c27",
+   "text": "vui"
+  },
+  {
+   "id": "vi_say_f45b4741",
+   "text": "vàng"
+  },
+  {
+   "id": "vi_say_082e8b00",
+   "text": "vàng anh"
+  },
+  {
+   "id": "vi_say_fb4a964b",
+   "text": "vâng"
+  },
+  {
+   "id": "vi_say_55e81712",
+   "text": "vảy"
+  },
+  {
+   "id": "vi_say_889ee241",
+   "text": "vẽ"
+  },
+  {
+   "id": "vi_say_b0e69d05",
+   "text": "về nhà"
+  },
+  {
+   "id": "vi_say_b8887ba6",
+   "text": "vịt"
+  },
+  {
+   "id": "vi_say_06d773d4",
+   "text": "xanh"
+  },
+  {
+   "id": "vi_say_3c6353c6",
+   "text": "xe"
+  },
+  {
+   "id": "vi_say_b87ac68c",
+   "text": "xin"
+  },
+  {
+   "id": "vi_say_98662641",
+   "text": "xin chào"
+  },
+  {
+   "id": "vi_say_613e2a34",
+   "text": "xin lỗi"
+  },
+  {
+   "id": "vi_say_cf43930e",
+   "text": "xoài"
+  },
+  {
+   "id": "vi_say_5507f242",
+   "text": "xà phòng"
+  },
+  {
+   "id": "vi_say_1e61de4e",
+   "text": "xám"
+  },
+  {
+   "id": "vi_say_43236d3e",
+   "text": "xích đu"
+  },
+  {
+   "id": "vi_say_f67d75d3",
+   "text": "xôi"
+  },
+  {
+   "id": "vi_say_6fe08388",
+   "text": "yêu"
+  },
+  {
+   "id": "vi_say_e081c232",
+   "text": "áo"
+  },
+  {
+   "id": "vi_say_7d9227ec",
+   "text": "âm nhạc"
+  },
+  {
+   "id": "vi_say_0261a40d",
+   "text": "ôm"
+  },
+  {
+   "id": "vi_say_39ad9d49",
+   "text": "ông"
+  },
+  {
+   "id": "vi_say_dccb56fa",
+   "text": "ăn"
+  },
+  {
+   "id": "vi_say_c56aee1d",
+   "text": "Đọc từ này"
+  },
+  {
+   "id": "vi_say_35516235",
+   "text": "đen"
+  },
+  {
+   "id": "vi_say_c3a89d5d",
+   "text": "đi"
+  },
+  {
+   "id": "vi_say_8dc05c49",
+   "text": "đi học"
+  },
+  {
+   "id": "vi_say_309588d3",
+   "text": "đo đỏ"
+  },
+  {
+   "id": "vi_say_85c74915",
+   "text": "đuôi"
+  },
+  {
+   "id": "vi_say_15fc59d9",
+   "text": "đàn"
+  },
+  {
+   "id": "vi_say_03e4087a",
+   "text": "đá"
+  },
+  {
+   "id": "vi_say_bc958779",
+   "text": "đá bóng"
+  },
+  {
+   "id": "vi_say_35e77181",
+   "text": "đèn"
+  },
+  {
+   "id": "vi_say_0d8193d1",
+   "text": "đèn đỏ"
+  },
+  {
+   "id": "vi_say_16e2c386",
+   "text": "đêm"
+  },
+  {
+   "id": "vi_say_9913502c",
+   "text": "đôi đũa"
+  },
+  {
+   "id": "vi_say_4db687a3",
+   "text": "đũa"
+  },
+  {
+   "id": "vi_say_677f261c",
+   "text": "đường"
+  },
+  {
+   "id": "vi_say_6854fe0e",
+   "text": "đường đi"
+  },
+  {
+   "id": "vi_say_572c0922",
+   "text": "đọc"
+  },
+  {
+   "id": "vi_say_12ce8ccf",
+   "text": "đỏ"
+  }
+ ],
+ "vi_vocabulary": [
+  {
+   "id": "vi_say_94dfee04",
+   "text": "Từ đơn"
+  },
+  {
+   "id": "vi_say_1b29d58a",
+   "text": "anh"
+  },
+  {
+   "id": "vi_say_3c2ba6cc",
+   "text": "ba"
+  },
+  {
+   "id": "vi_say_2fce0976",
+   "text": "bà"
+  },
+  {
+   "id": "vi_say_bec00237",
+   "text": "bánh"
+  },
+  {
+   "id": "vi_say_38ce17a1",
+   "text": "bé"
+  },
+  {
+   "id": "vi_say_1dcded20",
+   "text": "bò"
+  },
+  {
+   "id": "vi_say_7ab3d9f9",
+   "text": "bông hoa"
+  },
+  {
+   "id": "vi_say_7049dc0c",
+   "text": "bố"
+  },
+  {
+   "id": "vi_say_fd8596fd",
+   "text": "cha"
+  },
+  {
+   "id": "vi_say_89384a98",
+   "text": "chim"
+  },
+  {
+   "id": "vi_say_5834890c",
+   "text": "chó"
+  },
+  {
+   "id": "vi_say_3e7cf516",
+   "text": "chơi"
+  },
+  {
+   "id": "vi_say_255cfd8f",
+   "text": "chạy"
+  },
+  {
+   "id": "vi_say_32c74ebb",
+   "text": "chị"
+  },
+  {
+   "id": "vi_say_67c9f2c4",
+   "text": "con bò"
+  },
+  {
+   "id": "vi_say_5bb918ec",
+   "text": "con chim"
+  },
+  {
+   "id": "vi_say_b03bc478",
+   "text": "con chó"
+  },
+  {
+   "id": "vi_say_f0573b6a",
+   "text": "con cá"
+  },
+  {
+   "id": "vi_say_abb470e9",
+   "text": "con gà"
+  },
+  {
+   "id": "vi_say_bbc34caf",
+   "text": "con heo"
+  },
+  {
+   "id": "vi_say_ccf2f818",
+   "text": "con mèo"
+  },
+  {
+   "id": "vi_say_b1165f58",
+   "text": "con ngựa"
+  },
+  {
+   "id": "vi_say_4957b0de",
+   "text": "con thỏ"
+  },
+  {
+   "id": "vi_say_29dd72f7",
+   "text": "con tôm"
+  },
+  {
+   "id": "vi_say_1acc0e15",
+   "text": "con voi"
+  },
+  {
+   "id": "vi_say_cd5fa06a",
+   "text": "con vịt"
+  },
+  {
+   "id": "vi_say_a65e5bc6",
+   "text": "cá"
+  },
+  {
+   "id": "vi_say_23786098",
+   "text": "cái mũ"
+  },
+  {
+   "id": "vi_say_8dd70248",
+   "text": "cái áo"
+  },
+  {
+   "id": "vi_say_9d88227e",
+   "text": "cây"
+  },
+  {
+   "id": "vi_say_d529f1be",
+   "text": "cơm"
+  },
+  {
+   "id": "vi_say_517007f1",
+   "text": "em bé"
+  },
+  {
+   "id": "vi_say_ad00c4ad",
+   "text": "gà"
+  },
+  {
+   "id": "vi_say_09b4ae9b",
+   "text": "heo"
+  },
+  {
+   "id": "vi_say_ebc389eb",
+   "text": "hoa"
+  },
+  {
+   "id": "vi_say_80a34595",
+   "text": "kẹo"
+  },
+  {
+   "id": "vi_say_1a49257b",
+   "text": "lá"
+  },
+  {
+   "id": "vi_say_cb8f675a",
+   "text": "lá cây"
+  },
+  {
+   "id": "vi_say_b6f4d54c",
+   "text": "mèo"
+  },
+  {
+   "id": "vi_say_10391a6a",
+   "text": "mũ"
+  },
+  {
+   "id": "vi_say_8c208cbe",
+   "text": "mẹ"
+  },
+  {
+   "id": "vi_say_c35f0ed1",
+   "text": "ngôi nhà"
+  },
+  {
+   "id": "vi_say_c8e9a493",
+   "text": "ngủ"
+  },
+  {
+   "id": "vi_say_3e04c93c",
+   "text": "ngựa"
+  },
+  {
+   "id": "vi_say_aaf8ec78",
+   "text": "nhà"
+  },
+  {
+   "id": "vi_say_f40849a1",
+   "text": "nước"
+  },
+  {
+   "id": "vi_say_9239a4dd",
+   "text": "quả"
+  },
+  {
+   "id": "vi_say_0e3e5d9e",
+   "text": "sữa"
+  },
+  {
+   "id": "vi_say_88ab5b5a",
+   "text": "thỏ"
+  },
+  {
+   "id": "vi_say_056a9aa0",
+   "text": "trà"
+  },
+  {
+   "id": "vi_say_5fdeea43",
+   "text": "tôm"
+  },
+  {
+   "id": "vi_say_1ef5d518",
+   "text": "uống"
+  },
+  {
+   "id": "vi_say_95217be1",
+   "text": "voi"
+  },
+  {
+   "id": "vi_say_b8887ba6",
+   "text": "vịt"
+  },
+  {
+   "id": "vi_say_3c6353c6",
+   "text": "xe"
+  },
+  {
+   "id": "vi_say_e081c232",
+   "text": "áo"
+  },
+  {
+   "id": "vi_say_39ad9d49",
+   "text": "ông"
+  },
+  {
+   "id": "vi_say_dccb56fa",
+   "text": "ăn"
+  },
+  {
+   "id": "vi_say_c56aee1d",
+   "text": "Đọc từ này"
+  },
+  {
+   "id": "vi_say_c3a89d5d",
+   "text": "đi"
+  }
+ ],
+ "vi_sentences": [
+  {
+   "id": "vi_say_27c50943",
+   "text": "Câu ngắn"
+  },
+  {
+   "id": "vi_say_108fc8ab",
+   "text": "Đọc câu này"
+  }
+ ],
+ "vi_alphabet": [
+  {
+   "id": "vi_say_ec3014ec",
+   "text": "Chữ A"
+  },
+  {
+   "id": "vi_say_ef3019a5",
+   "text": "Chữ B"
+  },
+  {
+   "id": "vi_say_ee301812",
+   "text": "Chữ C"
+  },
+  {
+   "id": "vi_say_e9301033",
+   "text": "Chữ D"
+  },
+  {
+   "id": "vi_say_e8300ea0",
+   "text": "Chữ E"
+  },
+  {
+   "id": "vi_say_ea3011c6",
+   "text": "Chữ G"
+  },
+  {
+   "id": "vi_say_f5302317",
+   "text": "Chữ H"
+  },
+  {
+   "id": "vi_say_f4302184",
+   "text": "Chữ I"
+  },
+  {
+   "id": "vi_say_f63024aa",
+   "text": "Chữ K"
+  },
+  {
+   "id": "vi_say_f1301ccb",
+   "text": "Chữ L"
+  },
+  {
+   "id": "vi_say_f0301b38",
+   "text": "Chữ M"
+  },
+  {
+   "id": "vi_say_f3301ff1",
+   "text": "Chữ N"
+  },
+  {
+   "id": "vi_say_f2301e5e",
+   "text": "Chữ O"
+  },
+  {
+   "id": "vi_say_fd302faf",
+   "text": "Chữ P"
+  },
+  {
+   "id": "vi_say_fc302e1c",
+   "text": "Chữ Q"
+  },
+  {
+   "id": "vi_say_ff3032d5",
+   "text": "Chữ R"
+  },
+  {
+   "id": "vi_say_fe303142",
+   "text": "Chữ S"
+  },
+  {
+   "id": "vi_say_f9302963",
+   "text": "Chữ T"
+  },
+  {
+   "id": "vi_say_f83027d0",
+   "text": "Chữ U"
+  },
+  {
+   "id": "vi_say_fb302c89",
+   "text": "Chữ V"
+  },
+  {
+   "id": "vi_say_05303c47",
+   "text": "Chữ X"
+  },
+  {
+   "id": "vi_say_04303ab4",
+   "text": "Chữ Y"
+  },
+  {
+   "id": "vi_say_a429f6b0",
+   "text": "Chữ Â"
+  },
+  {
+   "id": "vi_say_ac2a0348",
+   "text": "Chữ Ê"
+  },
+  {
+   "id": "vi_say_9a29e6f2",
+   "text": "Chữ Ô"
+  },
+  {
+   "id": "vi_say_051dc370",
+   "text": "Chữ Ă"
+  },
+  {
+   "id": "vi_say_f71dad66",
+   "text": "Chữ Đ"
+  },
+  {
+   "id": "vi_say_33228908",
+   "text": "Chữ Ơ"
+  },
+  {
+   "id": "vi_say_2422716b",
+   "text": "Chữ Ư"
+  }
+ ],
+ "vi_lessons": [
+  {
+   "id": "vi_say_1edc309f",
+   "text": "Dấu thanh"
+  },
+  {
+   "id": "vi_say_f56dcc16",
+   "text": "Ghép phụ âm và nguyên âm"
+  },
+  {
+   "id": "vi_say_307d0fde",
+   "text": "Ghép âm"
+  },
+  {
+   "id": "vi_say_aabd5028",
+   "text": "Học 29 chữ cái tiếng Việt"
+  },
+  {
+   "id": "vi_say_bbb24fc8",
+   "text": "Nghe tên từng chữ"
+  },
+  {
+   "id": "vi_say_10ce9434",
+   "text": "Nghe âm của chữ"
+  },
+  {
+   "id": "vi_say_ce6d3cf0",
+   "text": "Nhận biết chữ cái"
+  },
+  {
+   "id": "vi_say_44ce7748",
+   "text": "Tên chữ"
+  },
+  {
+   "id": "vi_say_94dfee04",
+   "text": "Từ đơn"
+  },
+  {
+   "id": "vi_say_00d20641",
+   "text": "a á à ả ã ạ"
+  },
+  {
+   "id": "vi_say_db4cf35a",
+   "text": "alphabet"
+  },
+  {
+   "id": "vi_say_0bbc40d8",
+   "text": "blend"
+  },
+  {
+   "id": "vi_say_e6e5718f",
+   "text": "names"
+  },
+  {
+   "id": "vi_say_0662faa5",
+   "text": "sounds"
+  },
+  {
+   "id": "vi_say_5cb7aa8a",
+   "text": "words"
+  },
+  {
+   "id": "vi_say_9cc5b867",
+   "text": "Âm chữ"
+  },
+  {
+   "id": "vi_say_68d43a98",
+   "text": "Đọc từ ngắn"
+  }
+ ],
+ "math": [
+  {
+   "id": "vi_say_56dec052",
+   "text": "Bé có 1 cái bánh, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_fe56cc0e",
+   "text": "Bé có 1 cái bánh, thêm 7 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_55c9ca58",
+   "text": "Bé có 1 cái bánh, thêm 9 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_0981e2d5",
+   "text": "Bé có 1 cái bóng, thêm 1 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_9a904118",
+   "text": "Bé có 1 cái bóng, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_a0dab406",
+   "text": "Bé có 1 cái bóng, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_b9d67311",
+   "text": "Bé có 1 cái bóng, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_215e270b",
+   "text": "Bé có 1 cái hoa, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_59f85c2b",
+   "text": "Bé có 1 cái kẹo, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_3d3d0868",
+   "text": "Bé có 1 cái kẹo, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_dd086fa1",
+   "text": "Bé có 1 cái kẹo, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_de868316",
+   "text": "Bé có 1 cái kẹo, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_6d9ccb32",
+   "text": "Bé có 1 cái sao, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_f813978b",
+   "text": "Bé có 10 cái bóng, thêm 9 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_c500d484",
+   "text": "Bé có 10 cái kẹo, thêm 10 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_9f8fc400",
+   "text": "Bé có 11 cái bóng, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_8348d91d",
+   "text": "Bé có 11 cái kẹo, thêm 7 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_44ef99a3",
+   "text": "Bé có 12 cái bánh, thêm 8 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_9184a72e",
+   "text": "Bé có 12 cái bóng, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_88254487",
+   "text": "Bé có 12 cái hoa, thêm 8 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_54200324",
+   "text": "Bé có 13 cái sao, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_e779f70f",
+   "text": "Bé có 14 cái kẹo, thêm 8 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_31375dd7",
+   "text": "Bé có 15 cái bánh, thêm 7 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_c3602902",
+   "text": "Bé có 15 cái bánh, thêm 8 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_42ed1a20",
+   "text": "Bé có 15 cái kẹo, thêm 8 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_f49fff7c",
+   "text": "Bé có 16 cái kẹo, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_cf078a61",
+   "text": "Bé có 16 cái sao, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_2a3af102",
+   "text": "Bé có 17 cái bóng, thêm 10 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_5c28d7b0",
+   "text": "Bé có 18 cái bóng, thêm 8 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_4acb227a",
+   "text": "Bé có 18 cái hoa, thêm 1 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_5b1ff03b",
+   "text": "Bé có 18 cái kẹo, thêm 8 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_af7afe31",
+   "text": "Bé có 19 cái bóng, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_bc3226b7",
+   "text": "Bé có 2 cái bánh, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_a01c26e5",
+   "text": "Bé có 2 cái bánh, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_812a7cd1",
+   "text": "Bé có 2 cái bóng, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_f59055d8",
+   "text": "Bé có 2 cái bóng, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_6aa7887a",
+   "text": "Bé có 2 cái hoa, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_dafbdc05",
+   "text": "Bé có 2 cái hoa, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_7643bff6",
+   "text": "Bé có 2 cái kẹo, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_7064d248",
+   "text": "Bé có 2 cái kẹo, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_6814d142",
+   "text": "Bé có 2 cái sao, thêm 1 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_b5136e53",
+   "text": "Bé có 2 cái sao, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_40450ab0",
+   "text": "Bé có 2 cái sao, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_ee292e65",
+   "text": "Bé có 20 cái kẹo, thêm 7 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_c1243e10",
+   "text": "Bé có 20 cái sao, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_0da80244",
+   "text": "Bé có 3 cái bánh, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_acc28bda",
+   "text": "Bé có 3 cái hoa, thêm 1 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_9af215a8",
+   "text": "Bé có 3 cái hoa, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_6b414a56",
+   "text": "Bé có 3 cái hoa, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_052c9bbd",
+   "text": "Bé có 3 cái kẹo, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_f81e504f",
+   "text": "Bé có 3 cái kẹo, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_4d54a68c",
+   "text": "Bé có 3 cái kẹo, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_b5e3aea5",
+   "text": "Bé có 3 cái sao, thêm 1 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_4dbf30e8",
+   "text": "Bé có 3 cái sao, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_645a4cc7",
+   "text": "Bé có 4 cái bánh, thêm 1 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_f5ffd4e6",
+   "text": "Bé có 4 cái bánh, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_040e57f1",
+   "text": "Bé có 4 cái bánh, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_b47b7278",
+   "text": "Bé có 4 cái bánh, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_1faa76bb",
+   "text": "Bé có 4 cái bánh, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_28d61aaa",
+   "text": "Bé có 4 cái bóng, thêm 1 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_239d50bf",
+   "text": "Bé có 4 cái hoa, thêm 1 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_3fa355fe",
+   "text": "Bé có 4 cái hoa, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_41ca59f0",
+   "text": "Bé có 4 cái hoa, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_10dccb93",
+   "text": "Bé có 4 cái hoa, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_48959985",
+   "text": "Bé có 4 cái kẹo, thêm 1 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_a91010c8",
+   "text": "Bé có 4 cái kẹo, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_1501610b",
+   "text": "Bé có 4 cái kẹo, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_5af65281",
+   "text": "Bé có 4 cái kẹo, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_2e92e39c",
+   "text": "Bé có 4 cái sao, thêm 1 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_b6701909",
+   "text": "Bé có 4 cái sao, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_8c65709e",
+   "text": "Bé có 4 cái sao, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_bcb5a210",
+   "text": "Bé có 4 cái sao, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_9e5fbecc",
+   "text": "Bé có 5 cái bánh, thêm 1 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_4bfa0a39",
+   "text": "Bé có 5 cái bánh, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_f1bf48e3",
+   "text": "Bé có 5 cái bánh, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_5e734a00",
+   "text": "Bé có 5 cái bánh, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_ed8278b9",
+   "text": "Bé có 5 cái bóng, thêm 1 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_78233d4c",
+   "text": "Bé có 5 cái bóng, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_3b38fd0f",
+   "text": "Bé có 5 cái bóng, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_48269912",
+   "text": "Bé có 5 cái bóng, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_e1489b7d",
+   "text": "Bé có 5 cái bóng, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_b9b18280",
+   "text": "Bé có 5 cái bóng, thêm 6 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_a729ed63",
+   "text": "Bé có 5 cái bóng, thêm 7 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_a2356960",
+   "text": "Bé có 5 cái hoa, thêm 1 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_b3e9e7dd",
+   "text": "Bé có 5 cái hoa, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_b0cc2372",
+   "text": "Bé có 5 cái hoa, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_09d3056f",
+   "text": "Bé có 5 cái hoa, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_79a18d2c",
+   "text": "Bé có 5 cái hoa, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_8548f127",
+   "text": "Bé có 5 cái kẹo, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_cae28095",
+   "text": "Bé có 5 cái kẹo, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_ab2567ca",
+   "text": "Bé có 5 cái kẹo, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_80f4dd49",
+   "text": "Bé có 5 cái sao, thêm 10 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_5d29d22e",
+   "text": "Bé có 5 cái sao, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_cce4f719",
+   "text": "Bé có 5 cái sao, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_533bf7f0",
+   "text": "Bé có 6 cái bánh, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_224e6993",
+   "text": "Bé có 6 cái bánh, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_5114f3fe",
+   "text": "Bé có 6 cái bánh, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_7e6fe2c8",
+   "text": "Bé có 6 cái bóng, thêm 1 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_1df56b85",
+   "text": "Bé có 6 cái bóng, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_833e13fa",
+   "text": "Bé có 6 cái bóng, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_e2176aad",
+   "text": "Bé có 6 cái hoa, thêm 1 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_70da60d3",
+   "text": "Bé có 6 cái hoa, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_7e9abd3e",
+   "text": "Bé có 6 cái hoa, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_671acd3a",
+   "text": "Bé có 6 cái hoa, thêm 8 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_9a76de63",
+   "text": "Bé có 6 cái kẹo, thêm 1 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_e0cf69b9",
+   "text": "Bé có 6 cái kẹo, thêm 7 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_5980464d",
+   "text": "Bé có 6 cái sao, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_bad97232",
+   "text": "Bé có 7 cái bánh, thêm 1 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_6ea8466e",
+   "text": "Bé có 7 cái bánh, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_869a98df",
+   "text": "Bé có 7 cái bóng, thêm 1 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_cd43d236",
+   "text": "Bé có 7 cái hoa, thêm 1 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_95637d17",
+   "text": "Bé có 7 cái hoa, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_64c0b145",
+   "text": "Bé có 7 cái hoa, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_fd1a40ba",
+   "text": "Bé có 7 cái hoa, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_db08b2cb",
+   "text": "Bé có 7 cái hoa, thêm 6 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_b6f5424c",
+   "text": "Bé có 7 cái kẹo, thêm 1 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_2c547db9",
+   "text": "Bé có 7 cái kẹo, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_e5fbf263",
+   "text": "Bé có 7 cái kẹo, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_f8838780",
+   "text": "Bé có 7 cái kẹo, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_87f75087",
+   "text": "Bé có 7 cái sao, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_fd28022a",
+   "text": "Bé có 7 cái sao, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_61f5af75",
+   "text": "Bé có 7 cái sao, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_bc00bd02",
+   "text": "Bé có 8 cái bánh, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_f737977c",
+   "text": "Bé có 8 cái bánh, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_ac9f103f",
+   "text": "Bé có 8 cái bánh, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_d3325dde",
+   "text": "Bé có 8 cái bóng, thêm 1 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_e184c91f",
+   "text": "Bé có 8 cái bóng, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_3a06b3dc",
+   "text": "Bé có 8 cái bóng, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_e952584d",
+   "text": "Bé có 8 cái bóng, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_35d5ff8a",
+   "text": "Bé có 8 cái hoa, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_b1ded055",
+   "text": "Bé có 8 cái hoa, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_f8ee24e7",
+   "text": "Bé có 8 cái hoa, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_650d44e1",
+   "text": "Bé có 8 cái kẹo, thêm 1 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_e048c237",
+   "text": "Bé có 8 cái kẹo, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_5ea77e65",
+   "text": "Bé có 8 cái kẹo, thêm 5 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_c92163ca",
+   "text": "Bé có 8 cái sao, thêm 3 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_a344ed27",
+   "text": "Bé có 8 cái sao, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_f4639eb5",
+   "text": "Bé có 9 cái bánh, thêm 2 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_e19796b9",
+   "text": "Bé có 9 cái kẹo, thêm 4 cái nữa. Bé có bao nhiêu cái?"
+  },
+  {
+   "id": "vi_say_dcacd228",
+   "text": "Bên nào nhiều hơn?"
+  },
+  {
+   "id": "vi_say_6f2aca42",
+   "text": "Chẵn lẻ"
+  },
+  {
+   "id": "vi_say_f8253431",
+   "text": "Chọn dấu đúng"
+  },
+  {
+   "id": "vi_say_9f6be704",
+   "text": "Chọn nhóm đúng với số 1"
+  },
+  {
+   "id": "vi_say_2adcf6dc",
+   "text": "Chọn nhóm đúng với số 10"
+  },
+  {
+   "id": "vi_say_2bdcf86f",
+   "text": "Chọn nhóm đúng với số 11"
+  },
+  {
+   "id": "vi_say_2cdcfa02",
+   "text": "Chọn nhóm đúng với số 12"
+  },
+  {
+   "id": "vi_say_26dcf090",
+   "text": "Chọn nhóm đúng với số 14"
+  },
+  {
+   "id": "vi_say_27dcf223",
+   "text": "Chọn nhóm đúng với số 15"
+  },
+  {
+   "id": "vi_say_28dcf3b6",
+   "text": "Chọn nhóm đúng với số 16"
+  },
+  {
+   "id": "vi_say_29dcf549",
+   "text": "Chọn nhóm đúng với số 17"
+  },
+  {
+   "id": "vi_say_32dd0374",
+   "text": "Chọn nhóm đúng với số 18"
+  },
+  {
+   "id": "vi_say_33dd0507",
+   "text": "Chọn nhóm đúng với số 19"
+  },
+  {
+   "id": "vi_say_a26bebbd",
+   "text": "Chọn nhóm đúng với số 2"
+  },
+  {
+   "id": "vi_say_3ce3cef7",
+   "text": "Chọn nhóm đúng với số 20"
+  },
+  {
+   "id": "vi_say_a16bea2a",
+   "text": "Chọn nhóm đúng với số 3"
+  },
+  {
+   "id": "vi_say_9c6be24b",
+   "text": "Chọn nhóm đúng với số 4"
+  },
+  {
+   "id": "vi_say_9b6be0b8",
+   "text": "Chọn nhóm đúng với số 5"
+  },
+  {
+   "id": "vi_say_9e6be571",
+   "text": "Chọn nhóm đúng với số 6"
+  },
+  {
+   "id": "vi_say_9d6be3de",
+   "text": "Chọn nhóm đúng với số 7"
+  },
+  {
+   "id": "vi_say_986bdbff",
+   "text": "Chọn nhóm đúng với số 8"
+  },
+  {
+   "id": "vi_say_976bda6c",
+   "text": "Chọn nhóm đúng với số 9"
+  },
+  {
+   "id": "vi_say_3aee41ff",
+   "text": "Còn lại bao nhiêu?"
+  },
+  {
+   "id": "vi_say_3317c261",
+   "text": "Có bao nhiêu bánh cupcake?"
+  },
+  {
+   "id": "vi_say_42887c6a",
+   "text": "Có bao nhiêu bóng bay?"
+  },
+  {
+   "id": "vi_say_d591eb3b",
+   "text": "Có bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_aa92be08",
+   "text": "Có bao nhiêu chùm nho?"
+  },
+  {
+   "id": "vi_say_cc97ee71",
+   "text": "Có bao nhiêu con bướm?"
+  },
+  {
+   "id": "vi_say_2a283e02",
+   "text": "Có bao nhiêu con chó?"
+  },
+  {
+   "id": "vi_say_48ee94ac",
+   "text": "Có bao nhiêu con cá?"
+  },
+  {
+   "id": "vi_say_45d4678e",
+   "text": "Có bao nhiêu con mèo?"
+  },
+  {
+   "id": "vi_say_fcd3d6f6",
+   "text": "Có bao nhiêu con ếch?"
+  },
+  {
+   "id": "vi_say_758ed71d",
+   "text": "Có bao nhiêu cầu vồng?"
+  },
+  {
+   "id": "vi_say_1edc9047",
+   "text": "Có bao nhiêu gấu bông?"
+  },
+  {
+   "id": "vi_say_ec3893c3",
+   "text": "Có bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_1ca4d8fc",
+   "text": "Có bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_e14af9d0",
+   "text": "Có bao nhiêu quả cam?"
+  },
+  {
+   "id": "vi_say_55e469df",
+   "text": "Có bao nhiêu quả chuối?"
+  },
+  {
+   "id": "vi_say_5e2598ad",
+   "text": "Có bao nhiêu quả dâu?"
+  },
+  {
+   "id": "vi_say_47f0b778",
+   "text": "Có bao nhiêu quả táo?"
+  },
+  {
+   "id": "vi_say_63c862f4",
+   "text": "Có bao nhiêu xe ô tô?"
+  },
+  {
+   "id": "vi_say_fa22739d",
+   "text": "Có bao nhiêu?"
+  },
+  {
+   "id": "vi_say_355f7276",
+   "text": "Ghép số"
+  },
+  {
+   "id": "vi_say_4c5e3d7c",
+   "text": "Nhận biết số"
+  },
+  {
+   "id": "vi_say_50b0aaee",
+   "text": "Phân loại số"
+  },
+  {
+   "id": "vi_say_2b6227be",
+   "text": "Phép cộng"
+  },
+  {
+   "id": "vi_say_73a45929",
+   "text": "Phép cộng trong 5"
+  },
+  {
+   "id": "vi_say_fe26e608",
+   "text": "Phép trừ"
+  },
+  {
+   "id": "vi_say_5f737b6b",
+   "text": "Phép trừ trong 5"
+  },
+  {
+   "id": "vi_say_33cee5f6",
+   "text": "Phép tính nào đúng?"
+  },
+  {
+   "id": "vi_say_ac28b899",
+   "text": "Quy luật số"
+  },
+  {
+   "id": "vi_say_6fc6da70",
+   "text": "So sánh"
+  },
+  {
+   "id": "vi_say_d380a92e",
+   "text": "So sánh phép tính"
+  },
+  {
+   "id": "vi_say_e16fbfce",
+   "text": "Sắp xếp số"
+  },
+  {
+   "id": "vi_say_9d81b1b8",
+   "text": "Sắp xếp từ nhỏ đến lớn"
+  },
+  {
+   "id": "vi_say_6499ef3c",
+   "text": "Số 1 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_a17f5ec0",
+   "text": "Số 10 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_ad46c8fb",
+   "text": "Số 11 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_13b193ca",
+   "text": "Số 12 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_a217f36d",
+   "text": "Số 13 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_244fa4ac",
+   "text": "Số 14 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_418ef667",
+   "text": "Số 15 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_758fffe6",
+   "text": "Số 16 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_43fed689",
+   "text": "Số 17 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_6bc09bf8",
+   "text": "Số 18 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_5b9bddd3",
+   "text": "Số 19 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_71c65399",
+   "text": "Số 2 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_db86cbef",
+   "text": "Số 20 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_72311714",
+   "text": "Số 21 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_34f92071",
+   "text": "Số 22 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_7c65cd2e",
+   "text": "Số 23 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_001375a3",
+   "text": "Số 24 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_699467f5",
+   "text": "Số 26 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_a7cc5277",
+   "text": "Số 28 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_ee29b1bc",
+   "text": "Số 29 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_6d377ab6",
+   "text": "Số 3 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_9b7977fe",
+   "text": "Số 30 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_1c45153f",
+   "text": "Số 33 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_caba1829",
+   "text": "Số 39 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_3c127e0b",
+   "text": "Số 4 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_7813a415",
+   "text": "Số 40 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_1964cc52",
+   "text": "Số 41 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_3590ee0f",
+   "text": "Số 46 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_d441d134",
+   "text": "Số 47 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_e90a96dd",
+   "text": "Số 48 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_5889587a",
+   "text": "Số 49 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_441b7250",
+   "text": "Số 5 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_0009e6fc",
+   "text": "Số 50 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_1cf245bd",
+   "text": "Số 6 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_120271da",
+   "text": "Số 7 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_e495016f",
+   "text": "Số 8 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_f3c46e94",
+   "text": "Số 9 là số chẵn hay số lẻ?"
+  },
+  {
+   "id": "vi_say_cbaaae1d",
+   "text": "Số còn thiếu"
+  },
+  {
+   "id": "vi_say_8ae7c5ed",
+   "text": "Số nào là số chẵn?"
+  },
+  {
+   "id": "vi_say_0981bfee",
+   "text": "Số nào là số lẻ?"
+  },
+  {
+   "id": "vi_say_689b0a3d",
+   "text": "Số nào lớn hơn?"
+  },
+  {
+   "id": "vi_say_91fcbc5c",
+   "text": "Số nào đứng sau 10?"
+  },
+  {
+   "id": "vi_say_92fcbdef",
+   "text": "Số nào đứng sau 11?"
+  },
+  {
+   "id": "vi_say_93fcbf82",
+   "text": "Số nào đứng sau 12?"
+  },
+  {
+   "id": "vi_say_8efcb7a3",
+   "text": "Số nào đứng sau 15?"
+  },
+  {
+   "id": "vi_say_8ffcb936",
+   "text": "Số nào đứng sau 16?"
+  },
+  {
+   "id": "vi_say_90fcbac9",
+   "text": "Số nào đứng sau 17?"
+  },
+  {
+   "id": "vi_say_99fcc8f4",
+   "text": "Số nào đứng sau 18?"
+  },
+  {
+   "id": "vi_say_9afcca87",
+   "text": "Số nào đứng sau 19?"
+  },
+  {
+   "id": "vi_say_a30392e4",
+   "text": "Số nào đứng sau 21?"
+  },
+  {
+   "id": "vi_say_a503960a",
+   "text": "Số nào đứng sau 23?"
+  },
+  {
+   "id": "vi_say_a2039151",
+   "text": "Số nào đứng sau 26?"
+  },
+  {
+   "id": "vi_say_9c0387df",
+   "text": "Số nào đứng sau 28?"
+  },
+  {
+   "id": "vi_say_5d1e803d",
+   "text": "Số nào đứng sau 2?"
+  },
+  {
+   "id": "vi_say_a1015127",
+   "text": "Số nào đứng sau 37?"
+  },
+  {
+   "id": "vi_say_5c1e7eaa",
+   "text": "Số nào đứng sau 3?"
+  },
+  {
+   "id": "vi_say_1df549fb",
+   "text": "Số nào đứng sau 42?"
+  },
+  {
+   "id": "vi_say_23f5536d",
+   "text": "Số nào đứng sau 44?"
+  },
+  {
+   "id": "vi_say_571e76cb",
+   "text": "Số nào đứng sau 4?"
+  },
+  {
+   "id": "vi_say_561e7538",
+   "text": "Số nào đứng sau 5?"
+  },
+  {
+   "id": "vi_say_591e79f1",
+   "text": "Số nào đứng sau 6?"
+  },
+  {
+   "id": "vi_say_581e785e",
+   "text": "Số nào đứng sau 7?"
+  },
+  {
+   "id": "vi_say_531e707f",
+   "text": "Số nào đứng sau 8?"
+  },
+  {
+   "id": "vi_say_521e6eec",
+   "text": "Số nào đứng sau 9?"
+  },
+  {
+   "id": "vi_say_617eed5f",
+   "text": "Số nào đứng trước 10?"
+  },
+  {
+   "id": "vi_say_637ef085",
+   "text": "Số nào đứng trước 12?"
+  },
+  {
+   "id": "vi_say_627eeef2",
+   "text": "Số nào đứng trước 13?"
+  },
+  {
+   "id": "vi_say_5c7ee580",
+   "text": "Số nào đứng trước 15?"
+  },
+  {
+   "id": "vi_say_5f7eea39",
+   "text": "Số nào đứng trước 16?"
+  },
+  {
+   "id": "vi_say_5e7ee8a6",
+   "text": "Số nào đứng trước 17?"
+  },
+  {
+   "id": "vi_say_697ef9f7",
+   "text": "Số nào đứng trước 18?"
+  },
+  {
+   "id": "vi_say_687ef864",
+   "text": "Số nào đứng trước 19?"
+  },
+  {
+   "id": "vi_say_ef777e24",
+   "text": "Số nào đứng trước 20?"
+  },
+  {
+   "id": "vi_say_f177814a",
+   "text": "Số nào đứng trước 22?"
+  },
+  {
+   "id": "vi_say_f27782dd",
+   "text": "Số nào đứng trước 23?"
+  },
+  {
+   "id": "vi_say_e777718c",
+   "text": "Số nào đứng trước 28?"
+  },
+  {
+   "id": "vi_say_0ccaeffc",
+   "text": "Số nào đứng trước 2?"
+  },
+  {
+   "id": "vi_say_6f7a863b",
+   "text": "Số nào đứng trước 36?"
+  },
+  {
+   "id": "vi_say_6e7a84a8",
+   "text": "Số nào đứng trước 37?"
+  },
+  {
+   "id": "vi_say_6d7a8315",
+   "text": "Số nào đứng trước 38?"
+  },
+  {
+   "id": "vi_say_0dcaf18f",
+   "text": "Số nào đứng trước 3?"
+  },
+  {
+   "id": "vi_say_e472efa5",
+   "text": "Số nào đứng trước 41?"
+  },
+  {
+   "id": "vi_say_e172eaec",
+   "text": "Số nào đứng trước 42?"
+  },
+  {
+   "id": "vi_say_e072e959",
+   "text": "Số nào đứng trước 45?"
+  },
+  {
+   "id": "vi_say_eb72faaa",
+   "text": "Số nào đứng trước 48?"
+  },
+  {
+   "id": "vi_say_0acaecd6",
+   "text": "Số nào đứng trước 4?"
+  },
+  {
+   "id": "vi_say_0bcaee69",
+   "text": "Số nào đứng trước 5?"
+  },
+  {
+   "id": "vi_say_08cae9b0",
+   "text": "Số nào đứng trước 6?"
+  },
+  {
+   "id": "vi_say_09caeb43",
+   "text": "Số nào đứng trước 7?"
+  },
+  {
+   "id": "vi_say_16caffba",
+   "text": "Số nào đứng trước 8?"
+  },
+  {
+   "id": "vi_say_17cb014d",
+   "text": "Số nào đứng trước 9?"
+  },
+  {
+   "id": "vi_say_863d7178",
+   "text": "Số nào đứng ở dấu hỏi?"
+  },
+  {
+   "id": "vi_say_49ccb669",
+   "text": "Số tiếp theo là gì?"
+  },
+  {
+   "id": "vi_say_fc7572ef",
+   "text": "Tia số"
+  },
+  {
+   "id": "vi_say_135ca78f",
+   "text": "Toán hình"
+  },
+  {
+   "id": "vi_say_ed25ba77",
+   "text": "Toán lời văn"
+  },
+  {
+   "id": "vi_say_af17fbe8",
+   "text": "Trước sau"
+  },
+  {
+   "id": "vi_say_76151d19",
+   "text": "Tìm phép tính"
+  },
+  {
+   "id": "vi_say_c72c0c78",
+   "text": "Tính hiệu"
+  },
+  {
+   "id": "vi_say_bf91712f",
+   "text": "Tính tổng"
+  },
+  {
+   "id": "vi_say_43217390",
+   "text": "Điền cộng hoặc trừ"
+  },
+  {
+   "id": "vi_say_4ef300e3",
+   "text": "Điền dấu đúng vào ô trống"
+  },
+  {
+   "id": "vi_say_5f47437c",
+   "text": "Điền số còn thiếu"
+  },
+  {
+   "id": "vi_say_dd600819",
+   "text": "Đây là số mấy?"
+  },
+  {
+   "id": "vi_say_16c97e22",
+   "text": "Đếm rồi cộng"
+  },
+  {
+   "id": "vi_say_88973e91",
+   "text": "Đếm rồi tính"
+  },
+  {
+   "id": "vi_say_5c0c480b",
+   "text": "Đếm số"
+  }
+ ],
+ "math_word_problem": [
+  {
+   "id": "vi_say_e0519ca5",
+   "text": "1 cộng 1 bằng mấy"
+  },
+  {
+   "id": "vi_say_77ae154e",
+   "text": "1 cộng 2 bằng mấy"
+  },
+  {
+   "id": "vi_say_59e162d3",
+   "text": "1 cộng 3 bằng mấy"
+  },
+  {
+   "id": "vi_say_20f851b4",
+   "text": "1 cộng 4 bằng mấy"
+  },
+  {
+   "id": "vi_say_9f639339",
+   "text": "1 cộng 5 bằng mấy"
+  },
+  {
+   "id": "vi_say_f25beb57",
+   "text": "1 cộng 7 bằng mấy"
+  },
+  {
+   "id": "vi_say_b5db7b3d",
+   "text": "1 cộng 9 bằng mấy"
+  },
+  {
+   "id": "vi_say_711a53ad",
+   "text": "10 cộng 10 bằng mấy"
+  },
+  {
+   "id": "vi_say_abcb32b5",
+   "text": "10 cộng 9 bằng mấy"
+  },
+  {
+   "id": "vi_say_b53b4e36",
+   "text": "11 cộng 5 bằng mấy"
+  },
+  {
+   "id": "vi_say_fc968fe8",
+   "text": "11 cộng 7 bằng mấy"
+  },
+  {
+   "id": "vi_say_6bd6f55e",
+   "text": "12 cộng 4 bằng mấy"
+  },
+  {
+   "id": "vi_say_0301f4aa",
+   "text": "12 cộng 8 bằng mấy"
+  },
+  {
+   "id": "vi_say_1faf2928",
+   "text": "13 cộng 5 bằng mấy"
+  },
+  {
+   "id": "vi_say_2640bee4",
+   "text": "14 cộng 8 bằng mấy"
+  },
+  {
+   "id": "vi_say_4c80f4b4",
+   "text": "15 cộng 7 bằng mấy"
+  },
+  {
+   "id": "vi_say_8828e82b",
+   "text": "15 cộng 8 bằng mấy"
+  },
+  {
+   "id": "vi_say_36597e9d",
+   "text": "16 cộng 3 bằng mấy"
+  },
+  {
+   "id": "vi_say_928e2fbe",
+   "text": "17 cộng 10 bằng mấy"
+  },
+  {
+   "id": "vi_say_9eae24d5",
+   "text": "18 cộng 1 bằng mấy"
+  },
+  {
+   "id": "vi_say_e15f9ca8",
+   "text": "18 cộng 8 bằng mấy"
+  },
+  {
+   "id": "vi_say_98eccb49",
+   "text": "19 cộng 2 bằng mấy"
+  },
+  {
+   "id": "vi_say_8ec322b4",
+   "text": "2 cộng 1 bằng mấy"
+  },
+  {
+   "id": "vi_say_6026bc57",
+   "text": "2 cộng 2 bằng mấy"
+  },
+  {
+   "id": "vi_say_ba7a3e02",
+   "text": "2 cộng 3 bằng mấy"
+  },
+  {
+   "id": "vi_say_4e1c6da5",
+   "text": "2 cộng 4 bằng mấy"
+  },
+  {
+   "id": "vi_say_c3af5c60",
+   "text": "2 cộng 5 bằng mấy"
+  },
+  {
+   "id": "vi_say_ab7c9504",
+   "text": "20 cộng 3 bằng mấy"
+  },
+  {
+   "id": "vi_say_fc138ff0",
+   "text": "20 cộng 7 bằng mấy"
+  },
+  {
+   "id": "vi_say_1bfd9c9f",
+   "text": "3 cộng 1 bằng mấy"
+  },
+  {
+   "id": "vi_say_9edf339c",
+   "text": "3 cộng 2 bằng mấy"
+  },
+  {
+   "id": "vi_say_77c1ce01",
+   "text": "3 cộng 3 bằng mấy"
+  },
+  {
+   "id": "vi_say_8ae71636",
+   "text": "3 cộng 4 bằng mấy"
+  },
+  {
+   "id": "vi_say_b13019db",
+   "text": "3 cộng 5 bằng mấy"
+  },
+  {
+   "id": "vi_say_000e7506",
+   "text": "4 cộng 1 bằng mấy"
+  },
+  {
+   "id": "vi_say_c03fb9fd",
+   "text": "4 cộng 2 bằng mấy"
+  },
+  {
+   "id": "vi_say_8dadf578",
+   "text": "4 cộng 3 bằng mấy"
+  },
+  {
+   "id": "vi_say_5e287daf",
+   "text": "4 cộng 4 bằng mấy"
+  },
+  {
+   "id": "vi_say_c8ff3e5a",
+   "text": "4 cộng 5 bằng mấy"
+  },
+  {
+   "id": "vi_say_b9db3599",
+   "text": "5 cộng 1 bằng mấy"
+  },
+  {
+   "id": "vi_say_708d40a1",
+   "text": "5 cộng 10 bằng mấy"
+  },
+  {
+   "id": "vi_say_13bf5562",
+   "text": "5 cộng 2 bằng mấy"
+  },
+  {
+   "id": "vi_say_6cff66b7",
+   "text": "5 cộng 3 bằng mấy"
+  },
+  {
+   "id": "vi_say_e7ab25c0",
+   "text": "5 cộng 4 bằng mấy"
+  },
+  {
+   "id": "vi_say_d384b585",
+   "text": "5 cộng 5 bằng mấy"
+  },
+  {
+   "id": "vi_say_f3a5a3ae",
+   "text": "5 cộng 6 bằng mấy"
+  },
+  {
+   "id": "vi_say_23c7d9b3",
+   "text": "5 cộng 7 bằng mấy"
+  },
+  {
+   "id": "vi_say_34feb3e8",
+   "text": "6 cộng 1 bằng mấy"
+  },
+  {
+   "id": "vi_say_13ec75db",
+   "text": "6 cộng 2 bằng mấy"
+  },
+  {
+   "id": "vi_say_eda37236",
+   "text": "6 cộng 3 bằng mấy"
+  },
+  {
+   "id": "vi_say_da7e2a01",
+   "text": "6 cộng 4 bằng mấy"
+  },
+  {
+   "id": "vi_say_8f5b88ca",
+   "text": "6 cộng 7 bằng mấy"
+  },
+  {
+   "id": "vi_say_feb98215",
+   "text": "6 cộng 8 bằng mấy"
+  },
+  {
+   "id": "vi_say_4b64eb43",
+   "text": "7 cộng 1 bằng mấy"
+  },
+  {
+   "id": "vi_say_a2503d90",
+   "text": "7 cộng 2 bằng mấy"
+  },
+  {
+   "id": "vi_say_573b8895",
+   "text": "7 cộng 3 bằng mấy"
+  },
+  {
+   "id": "vi_say_c4cf04b2",
+   "text": "7 cộng 4 bằng mấy"
+  },
+  {
+   "id": "vi_say_e731ca87",
+   "text": "7 cộng 5 bằng mấy"
+  },
+  {
+   "id": "vi_say_3702b2a4",
+   "text": "7 cộng 6 bằng mấy"
+  },
+  {
+   "id": "vi_say_e995991a",
+   "text": "8 cộng 1 bằng mấy"
+  },
+  {
+   "id": "vi_say_3c47b1d1",
+   "text": "8 cộng 2 bằng mấy"
+  },
+  {
+   "id": "vi_say_94c1392c",
+   "text": "8 cộng 3 bằng mấy"
+  },
+  {
+   "id": "vi_say_86f8fcab",
+   "text": "8 cộng 4 bằng mấy"
+  },
+  {
+   "id": "vi_say_90da16c6",
+   "text": "8 cộng 5 bằng mấy"
+  },
+  {
+   "id": "vi_say_6f950aa6",
+   "text": "9 cộng 2 bằng mấy"
+  },
+  {
+   "id": "vi_say_e83d108c",
+   "text": "9 cộng 4 bằng mấy"
+  }
+ ],
+ "thinking": [
+  {
+   "id": "vi_say_ec35a82b",
+   "text": "Ba bước tới ngôi nhà: lên phải xuống, bước giữa?"
+  },
+  {
+   "id": "vi_say_9f891d2b",
+   "text": "Ban ngày trời sáng. Ban đêm trời?"
+  },
+  {
+   "id": "vi_say_0c5c0d40",
+   "text": "Ban đêm bé nhìn thấy gì trên trời?"
+  },
+  {
+   "id": "vi_say_b441daad",
+   "text": "Buồn ngủ thì bé nên?"
+  },
+  {
+   "id": "vi_say_d16b5f02",
+   "text": "Buổi nào sau buổi chiều?"
+  },
+  {
+   "id": "vi_say_af8f55d6",
+   "text": "Buổi nào trước buổi trưa?"
+  },
+  {
+   "id": "vi_say_38c6e889",
+   "text": "Bên phải của con mèo con chó là?"
+  },
+  {
+   "id": "vi_say_a4863ca0",
+   "text": "Bên trái của quả táo quả chuối là?"
+  },
+  {
+   "id": "vi_say_979672df",
+   "text": "Bước tiếp: lên lên? (đi lên nữa)"
+  },
+  {
+   "id": "vi_say_8d922256",
+   "text": "Bầu dục"
+  },
+  {
+   "id": "vi_say_ed7434ac",
+   "text": "Cam"
+  },
+  {
+   "id": "vi_say_64bbc452",
+   "text": "Chim thì biết gì?"
+  },
+  {
+   "id": "vi_say_f88c2f31",
+   "text": "Chó kêu như thế nào?"
+  },
+  {
+   "id": "vi_say_c1ff870d",
+   "text": "Chủ nhật"
+  },
+  {
+   "id": "vi_say_ba70aa75",
+   "text": "Chữ nhật"
+  },
+  {
+   "id": "vi_say_e7bbcfdf",
+   "text": "Chữ nào lớn hơn?"
+  },
+  {
+   "id": "vi_say_b8f4c9c7",
+   "text": "Chữ nào sau A?"
+  },
+  {
+   "id": "vi_say_364916be",
+   "text": "Chữ nào trước C?"
+  },
+  {
+   "id": "vi_say_47ec995f",
+   "text": "Con nào cao hơn?"
+  },
+  {
+   "id": "vi_say_a3185611",
+   "text": "Con nào nhỏ hơn?"
+  },
+  {
+   "id": "vi_say_fb85b0d5",
+   "text": "Con nào to hơn?"
+  },
+  {
+   "id": "vi_say_c01cbb6d",
+   "text": "Cá sống ở đâu?"
+  },
+  {
+   "id": "vi_say_ef282082",
+   "text": "Cây cần gì để lớn?"
+  },
+  {
+   "id": "vi_say_b347172a",
+   "text": "Cây nào cao hơn?"
+  },
+  {
+   "id": "vi_say_cfd47ec4",
+   "text": "Có 1 quả, thêm 1 quả nữa thì có mấy quả?"
+  },
+  {
+   "id": "vi_say_deba5217",
+   "text": "Có 3 viên kẹo, ăn 1 viên còn mấy viên?"
+  },
+  {
+   "id": "vi_say_fd607531",
+   "text": "Có 4 bánh, chia đều 2 bé, mỗi bé mấy bánh?"
+  },
+  {
+   "id": "vi_say_398e3228",
+   "text": "Có 6 viên bi, mất 2 viên còn mấy viên?"
+  },
+  {
+   "id": "vi_say_a558d537",
+   "text": "Có 8 cái kẹo, chia đều 2 hộp, mỗi hộp mấy cái?"
+  },
+  {
+   "id": "vi_say_946053ff",
+   "text": "Ghép cặp"
+  },
+  {
+   "id": "vi_say_2d05a51b",
+   "text": "Giày đi với gì?"
+  },
+  {
+   "id": "vi_say_fc0f274f",
+   "text": "Giống khác"
+  },
+  {
+   "id": "vi_say_f0d59eba",
+   "text": "Hai chữ này giống hay khác? A A"
+  },
+  {
+   "id": "vi_say_efd59d27",
+   "text": "Hai chữ này giống hay khác? A B"
+  },
+  {
+   "id": "vi_say_f50904ca",
+   "text": "Hai chữ này giống hay khác? C C"
+  },
+  {
+   "id": "vi_say_777146b7",
+   "text": "Hai chữ này giống hay khác? M N"
+  },
+  {
+   "id": "vi_say_f0d59eba",
+   "text": "Hai chữ này giống hay khác? a A"
+  },
+  {
+   "id": "vi_say_7121e4e0",
+   "text": "Hai chữ này giống hay khác? b d"
+  },
+  {
+   "id": "vi_say_68095873",
+   "text": "Hai hình này giống hay khác? bông hoa bông hoa"
+  },
+  {
+   "id": "vi_say_9d286d2b",
+   "text": "Hai hình này giống hay khác? chấm xanh dương chấm xanh dương"
+  },
+  {
+   "id": "vi_say_2fc66352",
+   "text": "Hai hình này giống hay khác? chấm xanh dương chấm đỏ"
+  },
+  {
+   "id": "vi_say_b7c234fb",
+   "text": "Hai hình này giống hay khác? con cá con cá"
+  },
+  {
+   "id": "vi_say_6e2df109",
+   "text": "Hai hình này giống hay khác? con mèo con chó"
+  },
+  {
+   "id": "vi_say_e757ff8f",
+   "text": "Hai hình này giống hay khác? hình tròn hình tròn"
+  },
+  {
+   "id": "vi_say_bee581d2",
+   "text": "Hai hình này giống hay khác? hình tròn tam giác"
+  },
+  {
+   "id": "vi_say_c1782f1b",
+   "text": "Hai hình này giống hay khác? hình vuông hình vuông"
+  },
+  {
+   "id": "vi_say_a909f412",
+   "text": "Hai hình này giống hay khác? mặt trăng ngôi sao"
+  },
+  {
+   "id": "vi_say_ce1fa2d3",
+   "text": "Hai hình này giống hay khác? ngôi sao ngôi sao"
+  },
+  {
+   "id": "vi_say_bbc2d20c",
+   "text": "Hai hình này giống hay khác? quả táo quả chuối"
+  },
+  {
+   "id": "vi_say_b4631999",
+   "text": "Hai hình này giống hay khác? quả táo quả táo"
+  },
+  {
+   "id": "vi_say_992dbcbf",
+   "text": "Hai hình này giống hay khác? tam giác tam giác"
+  },
+  {
+   "id": "vi_say_4bf1040e",
+   "text": "Hai hình này giống hay khác? xe ô tô xe buýt"
+  },
+  {
+   "id": "vi_say_d6b22b83",
+   "text": "Hai hình này giống hay khác? ô xanh lá ô xanh lá"
+  },
+  {
+   "id": "vi_say_b2aa3e8a",
+   "text": "Hai hình này giống hay khác? ô đỏ ô xanh dương"
+  },
+  {
+   "id": "vi_say_b2bf8269",
+   "text": "Hai hình này giống hay khác? ô đỏ ô đỏ"
+  },
+  {
+   "id": "vi_say_c5360768",
+   "text": "Hai số này giống hay khác? 0 0"
+  },
+  {
+   "id": "vi_say_38090702",
+   "text": "Hai số này giống hay khác? 10 10"
+  },
+  {
+   "id": "vi_say_c90743a8",
+   "text": "Hai số này giống hay khác? 12 21"
+  },
+  {
+   "id": "vi_say_a1a1d2b8",
+   "text": "Hai số này giống hay khác? 2 2"
+  },
+  {
+   "id": "vi_say_89ea2de1",
+   "text": "Hai số này giống hay khác? 3 8"
+  },
+  {
+   "id": "vi_say_006f0881",
+   "text": "Hai số này giống hay khác? 4 7"
+  },
+  {
+   "id": "vi_say_5b55e7e0",
+   "text": "Hai số này giống hay khác? 5 5"
+  },
+  {
+   "id": "vi_say_3542adec",
+   "text": "Hình cuối là gì? 7 8 9"
+  },
+  {
+   "id": "vi_say_813bf9a3",
+   "text": "Hình cuối là gì? bút chì chồng sách thước kẻ"
+  },
+  {
+   "id": "vi_say_aeb8ce68",
+   "text": "Hình cuối là gì? chấm đỏ chấm xanh dương chấm xanh lá"
+  },
+  {
+   "id": "vi_say_689a1d4b",
+   "text": "Hình cuối là gì? con cá con chim con ếch"
+  },
+  {
+   "id": "vi_say_1b24727e",
+   "text": "Hình cuối là gì? mặt trời đám mây mưa"
+  },
+  {
+   "id": "vi_say_d0735b5a",
+   "text": "Hình cuối là gì? ngôi sao mặt trăng mặt trời"
+  },
+  {
+   "id": "vi_say_3ff54bb6",
+   "text": "Hình cuối là gì? đàn piano đàn ghi ta cái trống"
+  },
+  {
+   "id": "vi_say_f632d2e1",
+   "text": "Hình cuối trong đàn piano đàn vi ô lông đàn ghi ta kèn là gì?"
+  },
+  {
+   "id": "vi_say_d8e8eeae",
+   "text": "Hình cuối: mầm cây cành lá cái cây, đâu là cuối?"
+  },
+  {
+   "id": "vi_say_d61bf13b",
+   "text": "Hình cuối: trăng tròn trăng khuyết nửa vầng trăng, đâu là cuối?"
+  },
+  {
+   "id": "vi_say_eb3f599f",
+   "text": "Hình giữa: con mèo con chó con chuột, đâu là giữa?"
+  },
+  {
+   "id": "vi_say_7997a7da",
+   "text": "Hình khác"
+  },
+  {
+   "id": "vi_say_08e75e53",
+   "text": "Hình khối"
+  },
+  {
+   "id": "vi_say_3916f292",
+   "text": "Hình nào cao hơn?"
+  },
+  {
+   "id": "vi_say_021812a8",
+   "text": "Hình nào giống bóng rổ?"
+  },
+  {
+   "id": "vi_say_d51a8e02",
+   "text": "Hình nào giống bông hoa?"
+  },
+  {
+   "id": "vi_say_528b1f3b",
+   "text": "Hình nào giống bút chì?"
+  },
+  {
+   "id": "vi_say_ea3847b2",
+   "text": "Hình nào giống chim cánh cụt?"
+  },
+  {
+   "id": "vi_say_9e4d3635",
+   "text": "Hình nào giống chồng sách?"
+  },
+  {
+   "id": "vi_say_31835e01",
+   "text": "Hình nào giống con chó?"
+  },
+  {
+   "id": "vi_say_f5828415",
+   "text": "Hình nào giống con cá?"
+  },
+  {
+   "id": "vi_say_df2c4681",
+   "text": "Hình nào giống con diều?"
+  },
+  {
+   "id": "vi_say_cc9686c1",
+   "text": "Hình nào giống con mèo?"
+  },
+  {
+   "id": "vi_say_d1da25d1",
+   "text": "Hình nào giống con rùa?"
+  },
+  {
+   "id": "vi_say_b2433292",
+   "text": "Hình nào giống con voi?"
+  },
+  {
+   "id": "vi_say_02fe9d67",
+   "text": "Hình nào giống con ếch?"
+  },
+  {
+   "id": "vi_say_8c3fe325",
+   "text": "Hình nào giống hươu cao cổ?"
+  },
+  {
+   "id": "vi_say_223d5e1e",
+   "text": "Hình nào giống hộp quà?"
+  },
+  {
+   "id": "vi_say_f5301130",
+   "text": "Hình nào giống kèn?"
+  },
+  {
+   "id": "vi_say_6baffa54",
+   "text": "Hình nào giống la bàn?"
+  },
+  {
+   "id": "vi_say_037da619",
+   "text": "Hình nào giống mặt trăng?"
+  },
+  {
+   "id": "vi_say_10efd9d5",
+   "text": "Hình nào giống mặt trời?"
+  },
+  {
+   "id": "vi_say_969d21d0",
+   "text": "Hình nào giống ngôi nhà?"
+  },
+  {
+   "id": "vi_say_e3d6005a",
+   "text": "Hình nào giống ngôi sao?"
+  },
+  {
+   "id": "vi_say_e1d763ac",
+   "text": "Hình nào giống quả bóng tennis?"
+  },
+  {
+   "id": "vi_say_93ac11be",
+   "text": "Hình nào giống quả chuối?"
+  },
+  {
+   "id": "vi_say_659938e6",
+   "text": "Hình nào giống quả dâu tây?"
+  },
+  {
+   "id": "vi_say_6276efba",
+   "text": "Hình nào giống quả dưa hấu?"
+  },
+  {
+   "id": "vi_say_8e81f387",
+   "text": "Hình nào giống quả táo?"
+  },
+  {
+   "id": "vi_say_83d75628",
+   "text": "Hình nào giống trường học?"
+  },
+  {
+   "id": "vi_say_acb78076",
+   "text": "Hình nào giống tàu hỏa?"
+  },
+  {
+   "id": "vi_say_3a4ce4a4",
+   "text": "Hình nào giống xe buýt?"
+  },
+  {
+   "id": "vi_say_e7afcbd5",
+   "text": "Hình nào giống xe ô tô?"
+  },
+  {
+   "id": "vi_say_0bfbc76f",
+   "text": "Hình nào giống đàn piano?"
+  },
+  {
+   "id": "vi_say_7364a44b",
+   "text": "Hình nào hẹp hơn?"
+  },
+  {
+   "id": "vi_say_260db5c0",
+   "text": "Hình nào khác với các hình còn lại?"
+  },
+  {
+   "id": "vi_say_036369c8",
+   "text": "Hình nào khác?"
+  },
+  {
+   "id": "vi_say_c334ec56",
+   "text": "Hình nào lớn hơn?"
+  },
+  {
+   "id": "vi_say_d9fa4f80",
+   "text": "Hình nào nhỏ hơn?"
+  },
+  {
+   "id": "vi_say_1dfe4fb5",
+   "text": "Hình nào nhỏ nhất?"
+  },
+  {
+   "id": "vi_say_51c21743",
+   "text": "Hình nào to nhất?"
+  },
+  {
+   "id": "vi_say_d2440396",
+   "text": "Hình nào ở trên?"
+  },
+  {
+   "id": "vi_say_9a210732",
+   "text": "Hình thứ ba là gì? bông hoa bông hoa cúc hoa hướng dương hoa dâm bụt"
+  },
+  {
+   "id": "vi_say_d7d3ba74",
+   "text": "Hình thứ ba là gì? xe ô tô xe taxi xe buýt xe điện"
+  },
+  {
+   "id": "vi_say_31c95f52",
+   "text": "Hình thứ hai là gì? 4 5 6"
+  },
+  {
+   "id": "vi_say_5b71568e",
+   "text": "Hình thứ hai là gì? X Y Z"
+  },
+  {
+   "id": "vi_say_8d5221ea",
+   "text": "Hình thứ hai là gì? ngôi nhà trường học bệnh viện"
+  },
+  {
+   "id": "vi_say_c317a17e",
+   "text": "Hình thứ hai là gì? xe ô tô xe buýt xe đạp"
+  },
+  {
+   "id": "vi_say_f0c100db",
+   "text": "Hình thứ hai là gì? ô đỏ ô xanh dương ô vàng"
+  },
+  {
+   "id": "vi_say_735c5ebe",
+   "text": "Hình thứ hai trong ô đỏ ô cam ô vàng ô xanh lá là gì?"
+  },
+  {
+   "id": "vi_say_78837135",
+   "text": "Hình thứ hai: xe ô tô xe buýt xe đạp, đâu là thứ hai?"
+  },
+  {
+   "id": "vi_say_3f61a906",
+   "text": "Hình tiếp theo là gì?"
+  },
+  {
+   "id": "vi_say_1ec26bf7",
+   "text": "Hình tiếp theo: AA BB AA BB?"
+  },
+  {
+   "id": "vi_say_bd0f1f59",
+   "text": "Hình tiếp theo: bông hoa bông hoa cúc bông hoa bông hoa cúc?"
+  },
+  {
+   "id": "vi_say_8c6bce91",
+   "text": "Hình tiếp theo: chấm xanh lá chấm vàng chấm xanh lá chấm vàng?"
+  },
+  {
+   "id": "vi_say_fa34a0a5",
+   "text": "Hình tiếp theo: chấm đỏ chấm xanh dương chấm đỏ chấm xanh dương?"
+  },
+  {
+   "id": "vi_say_26ddb5eb",
+   "text": "Hình tiếp theo: con cá con cá con cá con cá?"
+  },
+  {
+   "id": "vi_say_e6c2b8d3",
+   "text": "Hình tiếp theo: con mèo con chó con mèo con chó?"
+  },
+  {
+   "id": "vi_say_509e468b",
+   "text": "Hình tiếp theo: hình vuông hình vuông hình vuông hình vuông?"
+  },
+  {
+   "id": "vi_say_a8dd24f3",
+   "text": "Hình tiếp theo: mầm cây cành lá cái cây mầm cây cành lá cái cây?"
+  },
+  {
+   "id": "vi_say_a5c8bc1f",
+   "text": "Hình tiếp theo: mặt trời trăng khuyết mặt trời trăng khuyết?"
+  },
+  {
+   "id": "vi_say_3e59b213",
+   "text": "Hình tiếp theo: ngôi sao mặt trăng mặt trời ngôi sao mặt trăng mặt trời?"
+  },
+  {
+   "id": "vi_say_9bd4d949",
+   "text": "Hình tiếp theo: ngôi sao ngôi sao mặt trăng ngôi sao ngôi sao mặt trăng?"
+  },
+  {
+   "id": "vi_say_54eaedb9",
+   "text": "Hình tiếp theo: quả táo quả chuối quả táo quả chuối?"
+  },
+  {
+   "id": "vi_say_e0e8fffb",
+   "text": "Hình tiếp theo: tam giác hình tròn tam giác hình tròn?"
+  },
+  {
+   "id": "vi_say_a1c3de8d",
+   "text": "Hình tiếp theo: tam giác đỏ tam giác ngược tam giác đỏ tam giác ngược?"
+  },
+  {
+   "id": "vi_say_dd99effd",
+   "text": "Hình tiếp theo: xe ô tô xe buýt xe ô tô xe buýt?"
+  },
+  {
+   "id": "vi_say_f5943455",
+   "text": "Hình tiếp theo: ô xanh dương ô vàng ô xanh lá ô xanh dương ô vàng ô xanh lá?"
+  },
+  {
+   "id": "vi_say_33d5db70",
+   "text": "Hình tiếp theo: ô đỏ ô xanh dương ô đỏ ô xanh dương ô đỏ?"
+  },
+  {
+   "id": "vi_say_b633b4e7",
+   "text": "Hình tiếp theo: ô đỏ ô đỏ ô xanh dương ô đỏ ô đỏ ô xanh dương?"
+  },
+  {
+   "id": "vi_say_169d143b",
+   "text": "Hình tiếp theo: đàn piano đàn ghi ta đàn piano đàn ghi ta?"
+  },
+  {
+   "id": "vi_say_f7d7f2f0",
+   "text": "Hình đầu là gì? bông hoa cái cây cỏ bốn lá"
+  },
+  {
+   "id": "vi_say_8673cd68",
+   "text": "Hình đầu là gì? con diều bóng bay hộp quà"
+  },
+  {
+   "id": "vi_say_22f93835",
+   "text": "Hình đầu là gì? tam giác hình tròn hình vuông"
+  },
+  {
+   "id": "vi_say_d260bca1",
+   "text": "Hình đầu tiên là gì? con chó con mèo con chuột"
+  },
+  {
+   "id": "vi_say_1a1ef91e",
+   "text": "Hình đầu tiên là gì? con voi hươu cao cổ ngựa vằn"
+  },
+  {
+   "id": "vi_say_9fbbd0e8",
+   "text": "Hình đầu tiên là gì? con ếch con rùa thằn lằn"
+  },
+  {
+   "id": "vi_say_63d6f0b0",
+   "text": "Hình đầu tiên là gì? quả táo quả chuối quả nho"
+  },
+  {
+   "id": "vi_say_17d256ca",
+   "text": "Hình đầu tiên: 123, đâu là đầu?"
+  },
+  {
+   "id": "vi_say_52d67fd0",
+   "text": "Hình đầu: trứng gà con gà con, đâu là đầu?"
+  },
+  {
+   "id": "vi_say_6ecba785",
+   "text": "Hình ở giữa là gì? 1 2 3"
+  },
+  {
+   "id": "vi_say_cf202fd5",
+   "text": "Hình ở giữa là gì? A B C"
+  },
+  {
+   "id": "vi_say_278b42c4",
+   "text": "Hình ở giữa là gì? bánh nướng bánh quy bánh vòng"
+  },
+  {
+   "id": "vi_say_634d9e50",
+   "text": "Hình ở giữa là gì? con mèo con chó con chuột"
+  },
+  {
+   "id": "vi_say_4e571035",
+   "text": "Hình ở giữa là gì? mặt trăng ngôi sao mặt trời"
+  },
+  {
+   "id": "vi_say_af425c72",
+   "text": "Hình ở giữa là gì? quả bóng tennis quả bóng bóng rổ"
+  },
+  {
+   "id": "vi_say_a816bcd5",
+   "text": "Hình ở giữa là gì? quả dưa hấu quả dâu tây quả anh đào"
+  },
+  {
+   "id": "vi_say_cd4647f1",
+   "text": "Hình ở phía dưới là? mặt trời mưa"
+  },
+  {
+   "id": "vi_say_3bbc109a",
+   "text": "Hình ở phía trên là? ngôi sao xe ô tô"
+  },
+  {
+   "id": "vi_say_aa72549f",
+   "text": "Hồng"
+  },
+  {
+   "id": "vi_say_53f578bf",
+   "text": "Khoảng nào dài hơn?"
+  },
+  {
+   "id": "vi_say_9f64e33f",
+   "text": "Khát nước thì bé làm gì?"
+  },
+  {
+   "id": "vi_say_166719cd",
+   "text": "Không gian"
+  },
+  {
+   "id": "vi_say_b35ac02d",
+   "text": "Logic đơn giản"
+  },
+  {
+   "id": "vi_say_27f1cae9",
+   "text": "Lớn nhỏ"
+  },
+  {
+   "id": "vi_say_c522e89c",
+   "text": "Lửa thì?"
+  },
+  {
+   "id": "vi_say_e7347608",
+   "text": "Muốn rửa tay thì cần gì?"
+  },
+  {
+   "id": "vi_say_2b27a5f6",
+   "text": "Muốn vẽ thì cần gì?"
+  },
+  {
+   "id": "vi_say_4b199c69",
+   "text": "Muốn đọc sách thì cần gì?"
+  },
+  {
+   "id": "vi_say_11adfc1a",
+   "text": "Màu sắc"
+  },
+  {
+   "id": "vi_say_439486f1",
+   "text": "Mèo kêu như thế nào?"
+  },
+  {
+   "id": "vi_say_ee97982f",
+   "text": "Mũi tên ngược với lên là?"
+  },
+  {
+   "id": "vi_say_60f05af1",
+   "text": "Mũi tên ngược với phải là?"
+  },
+  {
+   "id": "vi_say_1aa5a2e1",
+   "text": "Mũi tên ngược với trái là?"
+  },
+  {
+   "id": "vi_say_31dbf0c1",
+   "text": "Mũi tên ngược với xuống là?"
+  },
+  {
+   "id": "vi_say_549d976f",
+   "text": "Mũi tên này chỉ đâu? lên"
+  },
+  {
+   "id": "vi_say_338fd285",
+   "text": "Mũi tên này chỉ đâu? phải"
+  },
+  {
+   "id": "vi_say_885f2f1b",
+   "text": "Mũi tên này chỉ đâu? trái"
+  },
+  {
+   "id": "vi_say_0797f07f",
+   "text": "Mũi tên này chỉ đâu? xuống"
+  },
+  {
+   "id": "vi_say_2bf8bc99",
+   "text": "Mắt dùng để làm gì?"
+  },
+  {
+   "id": "vi_say_cf04b2c5",
+   "text": "Mẹ có 5 bông hoa, tặng 2 bông, còn mấy bông?"
+  },
+  {
+   "id": "vi_say_bd883268",
+   "text": "Ngày nào sau thứ Hai?"
+  },
+  {
+   "id": "vi_say_0c0ed6fe",
+   "text": "Ngày nào sau thứ Sáu?"
+  },
+  {
+   "id": "vi_say_4523f901",
+   "text": "Ngày nào trước thứ Tư?"
+  },
+  {
+   "id": "vi_say_c847ec31",
+   "text": "Ngôi sao"
+  },
+  {
+   "id": "vi_say_fc8fe676",
+   "text": "Nhóm nào nhiều hơn?"
+  },
+  {
+   "id": "vi_say_872240bb",
+   "text": "Nhóm nào nhiều nhất?"
+  },
+  {
+   "id": "vi_say_8241636b",
+   "text": "Nhóm nào ít hơn?"
+  },
+  {
+   "id": "vi_say_6b3bf3c2",
+   "text": "Nhóm nào ít nhất?"
+  },
+  {
+   "id": "vi_say_d3c71a9b",
+   "text": "Nhớ vị trí"
+  },
+  {
+   "id": "vi_say_927356eb",
+   "text": "Nâu"
+  },
+  {
+   "id": "vi_say_942b60ff",
+   "text": "Nước đá thì?"
+  },
+  {
+   "id": "vi_say_7674876f",
+   "text": "Nếu có 2 quả táo, thêm 1 quả nữa thì có mấy quả?"
+  },
+  {
+   "id": "vi_say_997e0c70",
+   "text": "Nếu cửa khóa, bé cần gì để mở?"
+  },
+  {
+   "id": "vi_say_a254746a",
+   "text": "Nếu hôm qua là thứ Hai, hôm nay là?"
+  },
+  {
+   "id": "vi_say_4cbcd5c1",
+   "text": "Nếu trời mưa, bé cần gì?"
+  },
+  {
+   "id": "vi_say_9013a99a",
+   "text": "Phân loại"
+  },
+  {
+   "id": "vi_say_4dbc7893",
+   "text": "Quy luật"
+  },
+  {
+   "id": "vi_say_4e67f8cb",
+   "text": "Quả nào nhỏ hơn?"
+  },
+  {
+   "id": "vi_say_7a1fa57f",
+   "text": "Quả nào nặng hơn?"
+  },
+  {
+   "id": "vi_say_664cf1eb",
+   "text": "Quả nào to hơn?"
+  },
+  {
+   "id": "vi_say_407681dd",
+   "text": "Rẽ phải sau khi đi lên: lên rồi?"
+  },
+  {
+   "id": "vi_say_689b0a3d",
+   "text": "Số nào lớn hơn?"
+  },
+  {
+   "id": "vi_say_de96c924",
+   "text": "Số nào lớn nhất?"
+  },
+  {
+   "id": "vi_say_23215d03",
+   "text": "Số nào nhỏ hơn?"
+  },
+  {
+   "id": "vi_say_b6e4840a",
+   "text": "Số nào nhỏ nhất?"
+  },
+  {
+   "id": "vi_say_6a2fc840",
+   "text": "Số nào tiếp theo?"
+  },
+  {
+   "id": "vi_say_92fcbdef",
+   "text": "Số nào đứng sau 11?"
+  },
+  {
+   "id": "vi_say_9afcca87",
+   "text": "Số nào đứng sau 19?"
+  },
+  {
+   "id": "vi_say_5a1e7b84",
+   "text": "Số nào đứng sau 1?"
+  },
+  {
+   "id": "vi_say_a0038e2b",
+   "text": "Số nào đứng sau 24?"
+  },
+  {
+   "id": "vi_say_16f53ef6",
+   "text": "Số nào đứng sau 49?"
+  },
+  {
+   "id": "vi_say_571e76cb",
+   "text": "Số nào đứng sau 4?"
+  },
+  {
+   "id": "vi_say_561e7538",
+   "text": "Số nào đứng sau 5?"
+  },
+  {
+   "id": "vi_say_521e6eec",
+   "text": "Số nào đứng sau 9?"
+  },
+  {
+   "id": "vi_say_e9cfc5bd",
+   "text": "Số nào đứng trước 100?"
+  },
+  {
+   "id": "vi_say_617eed5f",
+   "text": "Số nào đứng trước 10?"
+  },
+  {
+   "id": "vi_say_5c7ee580",
+   "text": "Số nào đứng trước 15?"
+  },
+  {
+   "id": "vi_say_0fcaf4b5",
+   "text": "Số nào đứng trước 1?"
+  },
+  {
+   "id": "vi_say_ef777e24",
+   "text": "Số nào đứng trước 20?"
+  },
+  {
+   "id": "vi_say_0ccaeffc",
+   "text": "Số nào đứng trước 2?"
+  },
+  {
+   "id": "vi_say_0dcaf18f",
+   "text": "Số nào đứng trước 3?"
+  },
+  {
+   "id": "vi_say_16caffba",
+   "text": "Số nào đứng trước 8?"
+  },
+  {
+   "id": "vi_say_92493e3b",
+   "text": "Số tiếp theo: 1 1 2 2 3?"
+  },
+  {
+   "id": "vi_say_74c13e06",
+   "text": "Số tiếp theo: 1 2 3?"
+  },
+  {
+   "id": "vi_say_9a78f8e7",
+   "text": "Số tiếp theo: 1 3 5?"
+  },
+  {
+   "id": "vi_say_af850f02",
+   "text": "Số tiếp theo: 10 20 30?"
+  },
+  {
+   "id": "vi_say_37a92e26",
+   "text": "Số tiếp theo: 2 3 4 5?"
+  },
+  {
+   "id": "vi_say_e3454326",
+   "text": "Số tiếp theo: 2 4 6?"
+  },
+  {
+   "id": "vi_say_4b4b80c0",
+   "text": "Số tiếp theo: 20 18 16?"
+  },
+  {
+   "id": "vi_say_370d91aa",
+   "text": "Số tiếp theo: 3 6 9?"
+  },
+  {
+   "id": "vi_say_3942f3fc",
+   "text": "Số tiếp theo: 5 10 15?"
+  },
+  {
+   "id": "vi_say_dc2e3110",
+   "text": "Số tiếp theo: 5 4 3?"
+  },
+  {
+   "id": "vi_say_d5211d19",
+   "text": "Số tiếp theo: 8 7 6?"
+  },
+  {
+   "id": "vi_say_2bfc9022",
+   "text": "Tai dùng để làm gì?"
+  },
+  {
+   "id": "vi_say_4d26b084",
+   "text": "Tam giác"
+  },
+  {
+   "id": "vi_say_e719dfd2",
+   "text": "Tay dùng để làm gì?"
+  },
+  {
+   "id": "vi_say_4c9448f1",
+   "text": "Tháng nào sau tháng 1?"
+  },
+  {
+   "id": "vi_say_c4e7cce7",
+   "text": "Thứ tự"
+  },
+  {
+   "id": "vi_say_9ae88a2c",
+   "text": "Trái tim"
+  },
+  {
+   "id": "vi_say_74fd7148",
+   "text": "Tròn"
+  },
+  {
+   "id": "vi_say_af17fbe8",
+   "text": "Trước sau"
+  },
+  {
+   "id": "vi_say_e9294146",
+   "text": "Trời nắng thì bé thấy gì?"
+  },
+  {
+   "id": "vi_say_447b4fc6",
+   "text": "Tìm hình giống nhau"
+  },
+  {
+   "id": "vi_say_083f549e",
+   "text": "Tìm hình khác"
+  },
+  {
+   "id": "vi_say_d90396a7",
+   "text": "Tìm quy luật"
+  },
+  {
+   "id": "vi_say_f5774598",
+   "text": "Tìm đường"
+  },
+  {
+   "id": "vi_say_63cda76e",
+   "text": "Tím"
+  },
+  {
+   "id": "vi_say_b5993f65",
+   "text": "Tòa nào cao hơn?"
+  },
+  {
+   "id": "vi_say_cde4adc0",
+   "text": "Vuông"
+  },
+  {
+   "id": "vi_say_f45b4741",
+   "text": "Vàng"
+  },
+  {
+   "id": "vi_say_d4d91718",
+   "text": "Xanh dương"
+  },
+  {
+   "id": "vi_say_9d2132d8",
+   "text": "Xanh lá"
+  },
+  {
+   "id": "vi_say_4db70d95",
+   "text": "Xe chạy trên gì?"
+  },
+  {
+   "id": "vi_say_04dedc9b",
+   "text": "Xe nào dài hơn?"
+  },
+  {
+   "id": "vi_say_6db76eef",
+   "text": "bay"
+  },
+  {
+   "id": "vi_say_bec00237",
+   "text": "bánh"
+  },
+  {
+   "id": "vi_say_ae2c3387",
+   "text": "bánh mì"
+  },
+  {
+   "id": "vi_say_d2a9f74f",
+   "text": "bánh nướng"
+  },
+  {
+   "id": "vi_say_dcc9ae26",
+   "text": "bánh quy"
+  },
+  {
+   "id": "vi_say_f244116b",
+   "text": "bánh vòng"
+  },
+  {
+   "id": "vi_say_0b05a880",
+   "text": "bóng"
+  },
+  {
+   "id": "vi_say_dffb7674",
+   "text": "bóng bay"
+  },
+  {
+   "id": "vi_say_82b0e96d",
+   "text": "bóng rổ"
+  },
+  {
+   "id": "vi_say_7ab3d9f9",
+   "text": "bông hoa"
+  },
+  {
+   "id": "vi_say_9f4bcd36",
+   "text": "bông hoa cúc"
+  },
+  {
+   "id": "vi_say_fbd0737f",
+   "text": "bông tuyết"
+  },
+  {
+   "id": "vi_say_4f403c24",
+   "text": "bút"
+  },
+  {
+   "id": "vi_say_3bcbd898",
+   "text": "bút chì"
+  },
+  {
+   "id": "vi_say_f01ce0d3",
+   "text": "bơi"
+  },
+  {
+   "id": "vi_say_a9a89b44",
+   "text": "bệnh viện"
+  },
+  {
+   "id": "vi_say_0e34472b",
+   "text": "chim cánh cụt"
+  },
+  {
+   "id": "vi_say_3f45f56b",
+   "text": "chiều"
+  },
+  {
+   "id": "vi_say_3edd9673",
+   "text": "chân"
+  },
+  {
+   "id": "vi_say_2fec8960",
+   "text": "chìa"
+  },
+  {
+   "id": "vi_say_255cfd8f",
+   "text": "chạy"
+  },
+  {
+   "id": "vi_say_355a203c",
+   "text": "chấm cam"
+  },
+  {
+   "id": "vi_say_12e0a93b",
+   "text": "chấm nâu"
+  },
+  {
+   "id": "vi_say_62ecf57e",
+   "text": "chấm tím"
+  },
+  {
+   "id": "vi_say_97e600f1",
+   "text": "chấm vàng"
+  },
+  {
+   "id": "vi_say_1e6fc288",
+   "text": "chấm xanh dương"
+  },
+  {
+   "id": "vi_say_0e72abe8",
+   "text": "chấm xanh lá"
+  },
+  {
+   "id": "vi_say_a37b2c5f",
+   "text": "chấm đỏ"
+  },
+  {
+   "id": "vi_say_837d3ee1",
+   "text": "chấm đỏ chấm xanh dương chấm đỏ chấm xanh dương?"
+  },
+  {
+   "id": "vi_say_c02b4a46",
+   "text": "chồng sách"
+  },
+  {
+   "id": "vi_say_67c9f2c4",
+   "text": "con bò"
+  },
+  {
+   "id": "vi_say_5bb918ec",
+   "text": "con chim"
+  },
+  {
+   "id": "vi_say_95810688",
+   "text": "con chuột"
+  },
+  {
+   "id": "vi_say_b03bc478",
+   "text": "con chó"
+  },
+  {
+   "id": "vi_say_f0573b6a",
+   "text": "con cá"
+  },
+  {
+   "id": "vi_say_adfaec20",
+   "text": "con diều"
+  },
+  {
+   "id": "vi_say_abb470e9",
+   "text": "con gà"
+  },
+  {
+   "id": "vi_say_bbc34caf",
+   "text": "con heo"
+  },
+  {
+   "id": "vi_say_ccf2f818",
+   "text": "con mèo"
+  },
+  {
+   "id": "vi_say_b1165f58",
+   "text": "con ngựa"
+  },
+  {
+   "id": "vi_say_e4ccbb41",
+   "text": "con ong"
+  },
+  {
+   "id": "vi_say_f8c25d9c",
+   "text": "con rùa"
+  },
+  {
+   "id": "vi_say_4957b0de",
+   "text": "con thỏ"
+  },
+  {
+   "id": "vi_say_1acc0e15",
+   "text": "con voi"
+  },
+  {
+   "id": "vi_say_60ade60b",
+   "text": "con vật"
+  },
+  {
+   "id": "vi_say_cd5fa06a",
+   "text": "con vịt"
+  },
+  {
+   "id": "vi_say_83aaada8",
+   "text": "con ếch"
+  },
+  {
+   "id": "vi_say_ed05c31b",
+   "text": "cành lá"
+  },
+  {
+   "id": "vi_say_66454abc",
+   "text": "cái cây"
+  },
+  {
+   "id": "vi_say_1353706f",
+   "text": "cái thìa"
+  },
+  {
+   "id": "vi_say_e6835a27",
+   "text": "cái trống"
+  },
+  {
+   "id": "vi_say_8dd70248",
+   "text": "cái áo"
+  },
+  {
+   "id": "vi_say_54a99348",
+   "text": "cái ô"
+  },
+  {
+   "id": "vi_say_988a5936",
+   "text": "cát"
+  },
+  {
+   "id": "vi_say_10bfe4ad",
+   "text": "cây kem"
+  },
+  {
+   "id": "vi_say_dfab1385",
+   "text": "cầm"
+  },
+  {
+   "id": "vi_say_04aaccf3",
+   "text": "cầu vồng"
+  },
+  {
+   "id": "vi_say_47a63662",
+   "text": "cỏ bốn lá"
+  },
+  {
+   "id": "vi_say_fb1ee5d5",
+   "text": "giày"
+  },
+  {
+   "id": "vi_say_14fefb7b",
+   "text": "giống"
+  },
+  {
+   "id": "vi_say_396b9b05",
+   "text": "gà con"
+  },
+  {
+   "id": "vi_say_24314ff6",
+   "text": "gâu"
+  },
+  {
+   "id": "vi_say_92f0f3d9",
+   "text": "gấu bông"
+  },
+  {
+   "id": "vi_say_ef24bc12",
+   "text": "hoa dâm bụt"
+  },
+  {
+   "id": "vi_say_22bd5989",
+   "text": "hoa hướng dương"
+  },
+  {
+   "id": "vi_say_af9dcacb",
+   "text": "hình bầu dục"
+  },
+  {
+   "id": "vi_say_5d2c225a",
+   "text": "hình chữ nhật"
+  },
+  {
+   "id": "vi_say_04db543d",
+   "text": "hình tròn"
+  },
+  {
+   "id": "vi_say_c1c9fdfb",
+   "text": "hình vuông"
+  },
+  {
+   "id": "vi_say_ef488616",
+   "text": "hươu cao cổ"
+  },
+  {
+   "id": "vi_say_ecb5377b",
+   "text": "hộp quà"
+  },
+  {
+   "id": "vi_say_7415db50",
+   "text": "kem"
+  },
+  {
+   "id": "vi_say_e5eca3db",
+   "text": "khác"
+  },
+  {
+   "id": "vi_say_98adf855",
+   "text": "kèn"
+  },
+  {
+   "id": "vi_say_80a34595",
+   "text": "kẹo"
+  },
+  {
+   "id": "vi_say_0db9c397",
+   "text": "la bàn"
+  },
+  {
+   "id": "vi_say_741413c8",
+   "text": "lên"
+  },
+  {
+   "id": "vi_say_bbfc5f09",
+   "text": "lạnh"
+  },
+  {
+   "id": "vi_say_c8ad58d8",
+   "text": "meo"
+  },
+  {
+   "id": "vi_say_8ef8d064",
+   "text": "màu hồng"
+  },
+  {
+   "id": "vi_say_c0fc4903",
+   "text": "máy bay"
+  },
+  {
+   "id": "vi_say_c0e5da80",
+   "text": "mây"
+  },
+  {
+   "id": "vi_say_2c0d4a6d",
+   "text": "mưa"
+  },
+  {
+   "id": "vi_say_7db30a82",
+   "text": "mầm cây"
+  },
+  {
+   "id": "vi_say_90cd0bb0",
+   "text": "mặt trăng"
+  },
+  {
+   "id": "vi_say_caa06b38",
+   "text": "mặt trời"
+  },
+  {
+   "id": "vi_say_4a9590c1",
+   "text": "nghe"
+  },
+  {
+   "id": "vi_say_c35f0ed1",
+   "text": "ngôi nhà"
+  },
+  {
+   "id": "vi_say_c847ec31",
+   "text": "ngôi sao"
+  },
+  {
+   "id": "vi_say_b9f9b665",
+   "text": "ngôi sao ngôi sao mặt trăng ngôi sao ngôi sao mặt trăng?"
+  },
+  {
+   "id": "vi_say_c187eb1f",
+   "text": "ngọn lửa"
+  },
+  {
+   "id": "vi_say_c8e9a493",
+   "text": "ngủ"
+  },
+  {
+   "id": "vi_say_3de6b428",
+   "text": "ngửi"
+  },
+  {
+   "id": "vi_say_e12e40ee",
+   "text": "ngựa vằn"
+  },
+  {
+   "id": "vi_say_aaf8ec78",
+   "text": "nhà"
+  },
+  {
+   "id": "vi_say_1bd279e6",
+   "text": "nhìn"
+  },
+  {
+   "id": "vi_say_7a6871fc",
+   "text": "nhảy"
+  },
+  {
+   "id": "vi_say_a6b7bb4c",
+   "text": "nóng"
+  },
+  {
+   "id": "vi_say_f40849a1",
+   "text": "nước"
+  },
+  {
+   "id": "vi_say_84502850",
+   "text": "nắng"
+  },
+  {
+   "id": "vi_say_a8d5399a",
+   "text": "nếm"
+  },
+  {
+   "id": "vi_say_30569620",
+   "text": "nửa vầng trăng"
+  },
+  {
+   "id": "vi_say_bb65d94e",
+   "text": "phải"
+  },
+  {
+   "id": "vi_say_deb9c0bc",
+   "text": "quạc"
+  },
+  {
+   "id": "vi_say_1f552bb5",
+   "text": "quả anh đào"
+  },
+  {
+   "id": "vi_say_c2caa9a2",
+   "text": "quả bóng"
+  },
+  {
+   "id": "vi_say_4fd12781",
+   "text": "quả bóng tennis"
+  },
+  {
+   "id": "vi_say_c0b1b32e",
+   "text": "quả cam"
+  },
+  {
+   "id": "vi_say_0344fe69",
+   "text": "quả chuối"
+  },
+  {
+   "id": "vi_say_5be415b9",
+   "text": "quả dâu tây"
+  },
+  {
+   "id": "vi_say_54bb57fb",
+   "text": "quả dưa hấu"
+  },
+  {
+   "id": "vi_say_dfbb1202",
+   "text": "quả nho"
+  },
+  {
+   "id": "vi_say_1ec48e86",
+   "text": "quả táo"
+  },
+  {
+   "id": "vi_say_41ff0fcb",
+   "text": "rau"
+  },
+  {
+   "id": "vi_say_270ffd11",
+   "text": "rừng"
+  },
+  {
+   "id": "vi_say_df1ca102",
+   "text": "sao"
+  },
+  {
+   "id": "vi_say_95611ca5",
+   "text": "sách"
+  },
+  {
+   "id": "vi_say_9667d9fd",
+   "text": "sáng"
+  },
+  {
+   "id": "vi_say_0e3e5d9e",
+   "text": "sữa"
+  },
+  {
+   "id": "vi_say_4d26b084",
+   "text": "tam giác"
+  },
+  {
+   "id": "vi_say_b3ee95ab",
+   "text": "tam giác ngược"
+  },
+  {
+   "id": "vi_say_032a02d0",
+   "text": "tam giác đỏ"
+  },
+  {
+   "id": "vi_say_b3f758cd",
+   "text": "tay"
+  },
+  {
+   "id": "vi_say_efdbb4b5",
+   "text": "tháng 12"
+  },
+  {
+   "id": "vi_say_2a5278ec",
+   "text": "tháng 2"
+  },
+  {
+   "id": "vi_say_2b527a7f",
+   "text": "tháng 3"
+  },
+  {
+   "id": "vi_say_08c27a48",
+   "text": "thước kẻ"
+  },
+  {
+   "id": "vi_say_c740b005",
+   "text": "thằn lằn"
+  },
+  {
+   "id": "vi_say_5c4b361d",
+   "text": "thứ Ba"
+  },
+  {
+   "id": "vi_say_b0677d91",
+   "text": "thứ Bảy"
+  },
+  {
+   "id": "vi_say_5aa1055e",
+   "text": "thứ Hai"
+  },
+  {
+   "id": "vi_say_8976baea",
+   "text": "thứ Năm"
+  },
+  {
+   "id": "vi_say_ba89a060",
+   "text": "thứ Sáu"
+  },
+  {
+   "id": "vi_say_73d421ae",
+   "text": "trái"
+  },
+  {
+   "id": "vi_say_9ae88a2c",
+   "text": "trái tim"
+  },
+  {
+   "id": "vi_say_3efb9b5a",
+   "text": "trăng khuyết"
+  },
+  {
+   "id": "vi_say_c998c9f2",
+   "text": "trăng tròn"
+  },
+  {
+   "id": "vi_say_a02aab14",
+   "text": "trưa"
+  },
+  {
+   "id": "vi_say_12597743",
+   "text": "trường học"
+  },
+  {
+   "id": "vi_say_4b82e545",
+   "text": "trời"
+  },
+  {
+   "id": "vi_say_9317fd71",
+   "text": "trứng"
+  },
+  {
+   "id": "vi_say_ea7f72d5",
+   "text": "tuyết"
+  },
+  {
+   "id": "vi_say_da3d557f",
+   "text": "tàu hỏa"
+  },
+  {
+   "id": "vi_say_a72798b1",
+   "text": "tối"
+  },
+  {
+   "id": "vi_say_1ef5d518",
+   "text": "uống"
+  },
+  {
+   "id": "vi_say_9096328d",
+   "text": "xe buýt"
+  },
+  {
+   "id": "vi_say_66e781be",
+   "text": "xe taxi"
+  },
+  {
+   "id": "vi_say_dfe26716",
+   "text": "xe ô tô"
+  },
+  {
+   "id": "vi_say_e83f3979",
+   "text": "xe điện"
+  },
+  {
+   "id": "vi_say_e3e3142f",
+   "text": "xe đạp"
+  },
+  {
+   "id": "vi_say_9b21acae",
+   "text": "xuống"
+  },
+  {
+   "id": "vi_say_3f0242a5",
+   "text": "ô cam"
+  },
+  {
+   "id": "vi_say_42f2e35f",
+   "text": "ô trắng"
+  },
+  {
+   "id": "vi_say_7efb8878",
+   "text": "ô vàng"
+  },
+  {
+   "id": "vi_say_21bba90f",
+   "text": "ô xanh dương"
+  },
+  {
+   "id": "vi_say_a764f0c3",
+   "text": "ô xanh lá"
+  },
+  {
+   "id": "vi_say_9c98d14e",
+   "text": "ô đỏ"
+  },
+  {
+   "id": "vi_say_1ebc2fdc",
+   "text": "ăn kẹo"
+  },
+  {
+   "id": "vi_say_7e101a93",
+   "text": "Đi lên thì chọn?"
+  },
+  {
+   "id": "vi_say_656a2ba0",
+   "text": "Đi ngược chiều kim đồng hồ từ phải thì?"
+  },
+  {
+   "id": "vi_say_19b70596",
+   "text": "Đi sang phải thì chọn?"
+  },
+  {
+   "id": "vi_say_5c10f7b0",
+   "text": "Đi sang trái thì chọn?"
+  },
+  {
+   "id": "vi_say_44876f4d",
+   "text": "Đi xuống thì chọn?"
+  },
+  {
+   "id": "vi_say_a93d0989",
+   "text": "Đâu bay được?"
+  },
+  {
+   "id": "vi_say_d16cd490",
+   "text": "Đâu có bánh xe?"
+  },
+  {
+   "id": "vi_say_be142335",
+   "text": "Đâu dùng khi mưa?"
+  },
+  {
+   "id": "vi_say_8d10f9c2",
+   "text": "Đâu dùng để viết?"
+  },
+  {
+   "id": "vi_say_168d8074",
+   "text": "Đâu dùng để ăn?"
+  },
+  {
+   "id": "vi_say_1ce77148",
+   "text": "Đâu dùng để đọc?"
+  },
+  {
+   "id": "vi_say_c0d6ad67",
+   "text": "Đâu là chữ cái?"
+  },
+  {
+   "id": "vi_say_c117c721",
+   "text": "Đâu là con vật?"
+  },
+  {
+   "id": "vi_say_c6a64c3c",
+   "text": "Đâu là côn trùng?"
+  },
+  {
+   "id": "vi_say_218bd8ef",
+   "text": "Đâu là dụng cụ nấu ăn?"
+  },
+  {
+   "id": "vi_say_bd7c317f",
+   "text": "Đâu là giày?"
+  },
+  {
+   "id": "vi_say_a9eb7b01",
+   "text": "Đâu là hoa?"
+  },
+  {
+   "id": "vi_say_cf7cea7d",
+   "text": "Đâu là hành tinh?"
+  },
+  {
+   "id": "vi_say_f4b85997",
+   "text": "Đâu là hình tròn?"
+  },
+  {
+   "id": "vi_say_047033e1",
+   "text": "Đâu là hình đúng?"
+  },
+  {
+   "id": "vi_say_461e9ed8",
+   "text": "Đâu là môn thể thao?"
+  },
+  {
+   "id": "vi_say_8eccd1c3",
+   "text": "Đâu là ngôi nhà?"
+  },
+  {
+   "id": "vi_say_2809ffa6",
+   "text": "Đâu là nhạc cụ?"
+  },
+  {
+   "id": "vi_say_68e27bc3",
+   "text": "Đâu là phương tiện?"
+  },
+  {
+   "id": "vi_say_6b320a22",
+   "text": "Đâu là quần áo?"
+  },
+  {
+   "id": "vi_say_1b310fe9",
+   "text": "Đâu là rau?"
+  },
+  {
+   "id": "vi_say_8e9fea66",
+   "text": "Đâu là số chẵn?"
+  },
+  {
+   "id": "vi_say_54d431db",
+   "text": "Đâu là số?"
+  },
+  {
+   "id": "vi_say_31eab12c",
+   "text": "Đâu là thời tiết?"
+  },
+  {
+   "id": "vi_say_f8ab20a7",
+   "text": "Đâu là trái cây?"
+  },
+  {
+   "id": "vi_say_58733f54",
+   "text": "Đâu là đồ chơi?"
+  },
+  {
+   "id": "vi_say_96b45d6d",
+   "text": "Đâu là đồ ngọt?"
+  },
+  {
+   "id": "vi_say_a90f9286",
+   "text": "Đâu là đồ uống?"
+  },
+  {
+   "id": "vi_say_2087a738",
+   "text": "Đâu là đồ ăn?"
+  },
+  {
+   "id": "vi_say_e88d3551",
+   "text": "Đâu sống dưới nước?"
+  },
+  {
+   "id": "vi_say_c9230fdf",
+   "text": "Đâu sống trên cạn?"
+  },
+  {
+   "id": "vi_say_2c74cf3a",
+   "text": "Đây là màu gì?"
+  },
+  {
+   "id": "vi_say_2e780b82",
+   "text": "Đường chữ U: phải xuống trái?"
+  },
+  {
+   "id": "vi_say_13f5c3f7",
+   "text": "Đường nào tới nhà? phải phải xuống"
+  },
+  {
+   "id": "vi_say_98966bdd",
+   "text": "Đường tới trường: phải phải phải bước cuối?"
+  },
+  {
+   "id": "vi_say_525c86e8",
+   "text": "Đường vòng về: phải xuống trái?"
+  },
+  {
+   "id": "vi_say_7270531b",
+   "text": "Đường vòng: xuống trái lên?"
+  },
+  {
+   "id": "vi_say_a45f4516",
+   "text": "Để tới cái cây phía trên, đi?"
+  },
+  {
+   "id": "vi_say_bc3e5ccf",
+   "text": "Để tới ngôi nhà bên phải, đi?"
+  },
+  {
+   "id": "vi_say_62c869b2",
+   "text": "Để tới ngôi sao phía dưới, đi?"
+  },
+  {
+   "id": "vi_say_b4640a86",
+   "text": "Để tới quả táo bên trái, đi?"
+  },
+  {
+   "id": "vi_say_5acd60a3",
+   "text": "Để về chỗ cũ sau phải, đi?"
+  },
+  {
+   "id": "vi_say_12ce8ccf",
+   "text": "Đỏ"
+  },
+  {
+   "id": "vi_say_c3a89d5d",
+   "text": "đi"
+  },
+  {
+   "id": "vi_say_e38b25e6",
+   "text": "đàn ghi ta"
+  },
+  {
+   "id": "vi_say_e32e4110",
+   "text": "đàn piano"
+  },
+  {
+   "id": "vi_say_ccec1219",
+   "text": "đàn vi ô lông"
+  },
+  {
+   "id": "vi_say_14fc5846",
+   "text": "đào"
+  },
+  {
+   "id": "vi_say_30fa279a",
+   "text": "đám mây"
+  },
+  {
+   "id": "vi_say_16e2c386",
+   "text": "đêm"
+  },
+  {
+   "id": "vi_say_677f261c",
+   "text": "đường"
+  },
+  {
+   "id": "vi_say_c43db8d1",
+   "text": "đầu"
+  },
+  {
+   "id": "vi_say_f293a428",
+   "text": "ướt"
+  }
+ ],
+ "learning": [
+  {
+   "id": "vi_say_8d922256",
+   "text": "Bầu dục"
+  },
+  {
+   "id": "vi_say_ed7434ac",
+   "text": "Cam"
+  },
+  {
+   "id": "vi_say_57c214bd",
+   "text": "Chữ cái"
+  },
+  {
+   "id": "vi_say_ba70aa75",
+   "text": "Chữ nhật"
+  },
+  {
+   "id": "vi_say_2cd0d707",
+   "text": "Chữ nào bắt đầu từ: bố?"
+  },
+  {
+   "id": "vi_say_da22062a",
+   "text": "Chữ nào bắt đầu từ: chấm xanh dương bi?"
+  },
+  {
+   "id": "vi_say_9c7c4c87",
+   "text": "Chữ nào bắt đầu từ: cá?"
+  },
+  {
+   "id": "vi_say_4ea1d849",
+   "text": "Chữ nào bắt đầu từ: cái dù ô?"
+  },
+  {
+   "id": "vi_say_e0a77a59",
+   "text": "Chữ nào bắt đầu từ: cái ô dù?"
+  },
+  {
+   "id": "vi_say_1eb4c134",
+   "text": "Chữ nào bắt đầu từ: cơm ăn?"
+  },
+  {
+   "id": "vi_say_abc19ff2",
+   "text": "Chữ nào bắt đầu từ: cờ?"
+  },
+  {
+   "id": "vi_say_bad4bb34",
+   "text": "Chữ nào bắt đầu từ: em?"
+  },
+  {
+   "id": "vi_say_5c27e888",
+   "text": "Chữ nào bắt đầu từ: gà?"
+  },
+  {
+   "id": "vi_say_34c1ff72",
+   "text": "Chữ nào bắt đầu từ: hoa?"
+  },
+  {
+   "id": "vi_say_85306e78",
+   "text": "Chữ nào bắt đầu từ: kéo?"
+  },
+  {
+   "id": "vi_say_e5df798f",
+   "text": "Chữ nào bắt đầu từ: lê?"
+  },
+  {
+   "id": "vi_say_57a31b47",
+   "text": "Chữ nào bắt đầu từ: mèo?"
+  },
+  {
+   "id": "vi_say_d2490a67",
+   "text": "Chữ nào bắt đầu từ: mũ?"
+  },
+  {
+   "id": "vi_say_f6b53162",
+   "text": "Chữ nào bắt đầu từ: mẹ y tá?"
+  },
+  {
+   "id": "vi_say_7d237d29",
+   "text": "Chữ nào bắt đầu từ: nơ?"
+  },
+  {
+   "id": "vi_say_0da08f20",
+   "text": "Chữ nào bắt đầu từ: ong?"
+  },
+  {
+   "id": "vi_say_6bf8fd05",
+   "text": "Chữ nào bắt đầu từ: pin?"
+  },
+  {
+   "id": "vi_say_88658d19",
+   "text": "Chữ nào bắt đầu từ: quả cam quýt?"
+  },
+  {
+   "id": "vi_say_271657ab",
+   "text": "Chữ nào bắt đầu từ: quả dưa đu đủ?"
+  },
+  {
+   "id": "vi_say_ed881394",
+   "text": "Chữ nào bắt đầu từ: quả táo áo?"
+  },
+  {
+   "id": "vi_say_54e775df",
+   "text": "Chữ nào bắt đầu từ: rùa?"
+  },
+  {
+   "id": "vi_say_1e213ca7",
+   "text": "Chữ nào bắt đầu từ: sao?"
+  },
+  {
+   "id": "vi_say_da10cb44",
+   "text": "Chữ nào bắt đầu từ: thư?"
+  },
+  {
+   "id": "vi_say_a4871297",
+   "text": "Chữ nào bắt đầu từ: táo?"
+  },
+  {
+   "id": "vi_say_e17c4e24",
+   "text": "Chữ nào bắt đầu từ: voi?"
+  },
+  {
+   "id": "vi_say_96eec605",
+   "text": "Chữ nào bắt đầu từ: xe?"
+  },
+  {
+   "id": "vi_say_2eceaf17",
+   "text": "Chữ nào bắt đầu từ: ấm?"
+  },
+  {
+   "id": "vi_say_3bcccbcd",
+   "text": "Chữ nào bắt đầu từ: ếch?"
+  },
+  {
+   "id": "vi_say_08e75e53",
+   "text": "Hình khối"
+  },
+  {
+   "id": "vi_say_aa72549f",
+   "text": "Hồng"
+  },
+  {
+   "id": "vi_say_11adfc1a",
+   "text": "Màu sắc"
+  },
+  {
+   "id": "vi_say_c847ec31",
+   "text": "Ngôi sao"
+  },
+  {
+   "id": "vi_say_927356eb",
+   "text": "Nâu"
+  },
+  {
+   "id": "vi_say_4d26b084",
+   "text": "Tam giác"
+  },
+  {
+   "id": "vi_say_9ae88a2c",
+   "text": "Trái tim"
+  },
+  {
+   "id": "vi_say_74fd7148",
+   "text": "Tròn"
+  },
+  {
+   "id": "vi_say_63cda76e",
+   "text": "Tím"
+  },
+  {
+   "id": "vi_say_cde4adc0",
+   "text": "Vuông"
+  },
+  {
+   "id": "vi_say_f45b4741",
+   "text": "Vàng"
+  },
+  {
+   "id": "vi_say_d4d91718",
+   "text": "Xanh dương"
+  },
+  {
+   "id": "vi_say_9d2132d8",
+   "text": "Xanh lá"
+  },
+  {
+   "id": "vi_say_442bb364",
+   "text": "bi"
+  },
+  {
+   "id": "vi_say_7049dc0c",
+   "text": "bố"
+  },
+  {
+   "id": "vi_say_355a203c",
+   "text": "chấm cam"
+  },
+  {
+   "id": "vi_say_12e0a93b",
+   "text": "chấm nâu"
+  },
+  {
+   "id": "vi_say_62ecf57e",
+   "text": "chấm tím"
+  },
+  {
+   "id": "vi_say_97e600f1",
+   "text": "chấm vàng"
+  },
+  {
+   "id": "vi_say_1e6fc288",
+   "text": "chấm xanh dương"
+  },
+  {
+   "id": "vi_say_0e72abe8",
+   "text": "chấm xanh lá"
+  },
+  {
+   "id": "vi_say_a37b2c5f",
+   "text": "chấm đỏ"
+  },
+  {
+   "id": "vi_say_a65e5bc6",
+   "text": "cá"
+  },
+  {
+   "id": "vi_say_f5cd5ff1",
+   "text": "cờ"
+  },
+  {
+   "id": "vi_say_19d7dd0b",
+   "text": "dù"
+  },
+  {
+   "id": "vi_say_401a63f7",
+   "text": "em"
+  },
+  {
+   "id": "vi_say_ad00c4ad",
+   "text": "gà"
+  },
+  {
+   "id": "vi_say_ebc389eb",
+   "text": "hoa"
+  },
+  {
+   "id": "vi_say_af9dcacb",
+   "text": "hình bầu dục"
+  },
+  {
+   "id": "vi_say_5d2c225a",
+   "text": "hình chữ nhật"
+  },
+  {
+   "id": "vi_say_04db543d",
+   "text": "hình tròn"
+  },
+  {
+   "id": "vi_say_77ab85cb",
+   "text": "kéo"
+  },
+  {
+   "id": "vi_say_13491a76",
+   "text": "lê"
+  },
+  {
+   "id": "vi_say_8ef8d064",
+   "text": "màu hồng"
+  },
+  {
+   "id": "vi_say_b6f4d54c",
+   "text": "mèo"
+  },
+  {
+   "id": "vi_say_10391a6a",
+   "text": "mũ"
+  },
+  {
+   "id": "vi_say_c847ec31",
+   "text": "ngôi sao"
+  },
+  {
+   "id": "vi_say_ec2cd69c",
+   "text": "nơ"
+  },
+  {
+   "id": "vi_say_bc271d15",
+   "text": "ong"
+  },
+  {
+   "id": "vi_say_6f410694",
+   "text": "pin"
+  },
+  {
+   "id": "vi_say_6d204451",
+   "text": "quýt"
+  },
+  {
+   "id": "vi_say_28c8ec60",
+   "text": "rùa"
+  },
+  {
+   "id": "vi_say_df1ca102",
+   "text": "sao"
+  },
+  {
+   "id": "vi_say_032a02d0",
+   "text": "tam giác đỏ"
+  },
+  {
+   "id": "vi_say_8f9c3a9f",
+   "text": "thư"
+  },
+  {
+   "id": "vi_say_9ae88a2c",
+   "text": "trái tim"
+  },
+  {
+   "id": "vi_say_61b12234",
+   "text": "táo"
+  },
+  {
+   "id": "vi_say_95217be1",
+   "text": "voi"
+  },
+  {
+   "id": "vi_say_3c6353c6",
+   "text": "xe"
+  },
+  {
+   "id": "vi_say_12a2d760",
+   "text": "y tá"
+  },
+  {
+   "id": "vi_say_e081c232",
+   "text": "áo"
+  },
+  {
+   "id": "vi_say_42f2e35f",
+   "text": "ô trắng"
+  },
+  {
+   "id": "vi_say_dccb56fa",
+   "text": "ăn"
+  },
+  {
+   "id": "vi_say_047033e1",
+   "text": "Đâu là hình đúng?"
+  },
+  {
+   "id": "vi_say_2c74cf3a",
+   "text": "Đây là màu gì?"
+  },
+  {
+   "id": "vi_say_12ce8ccf",
+   "text": "Đỏ"
+  },
+  {
+   "id": "vi_say_c9a433f1",
+   "text": "đu đủ"
+  },
+  {
+   "id": "vi_say_6415bbb8",
+   "text": "ấm"
+  },
+  {
+   "id": "vi_say_a15cfcec",
+   "text": "ếch"
+  }
+ ],
+ "creativity": [
+  {
+   "id": "vi_say_8153e09a",
+   "text": "Ai dùng gì?"
+  },
+  {
+   "id": "vi_say_dc1a55a4",
+   "text": "Ba chữ lặp"
+  },
+  {
+   "id": "vi_say_5eb2f423",
+   "text": "Ba màu lặp"
+  },
+  {
+   "id": "vi_say_a6beaa11",
+   "text": "Buổi trong ngày"
+  },
+  {
+   "id": "vi_say_2fe9446b",
+   "text": "Bánh cupcake"
+  },
+  {
+   "id": "vi_say_7305af8d",
+   "text": "Bánh sinh nhật"
+  },
+  {
+   "id": "vi_say_b3cbb216",
+   "text": "Bãi biển"
+  },
+  {
+   "id": "vi_say_dffb7674",
+   "text": "Bóng bay"
+  },
+  {
+   "id": "vi_say_6c5b3c83",
+   "text": "Bóng thể thao"
+  },
+  {
+   "id": "vi_say_7ab3d9f9",
+   "text": "Bông hoa"
+  },
+  {
+   "id": "vi_say_3f492913",
+   "text": "Bướm"
+  },
+  {
+   "id": "vi_say_75a6d19c",
+   "text": "Bạn bè"
+  },
+  {
+   "id": "vi_say_61d66887",
+   "text": "Bầu trời đêm"
+  },
+  {
+   "id": "vi_say_0e34472b",
+   "text": "Chim cánh cụt"
+  },
+  {
+   "id": "vi_say_565c4920",
+   "text": "Chiếc lá"
+  },
+  {
+   "id": "vi_say_85d9c86d",
+   "text": "Chân dung"
+  },
+  {
+   "id": "vi_say_5db05b8a",
+   "text": "Chữ AB"
+  },
+  {
+   "id": "vi_say_57c214bd",
+   "text": "Chữ cái"
+  },
+  {
+   "id": "vi_say_48ba3e17",
+   "text": "Con bướm"
+  },
+  {
+   "id": "vi_say_5bb918ec",
+   "text": "Con chim"
+  },
+  {
+   "id": "vi_say_b03bc478",
+   "text": "Con chó"
+  },
+  {
+   "id": "vi_say_f0573b6a",
+   "text": "Con cá"
+  },
+  {
+   "id": "vi_say_ccf2f818",
+   "text": "Con mèo"
+  },
+  {
+   "id": "vi_say_2808d9b8",
+   "text": "Con non"
+  },
+  {
+   "id": "vi_say_5c0a4185",
+   "text": "Con non của ai?"
+  },
+  {
+   "id": "vi_say_f8c25d9c",
+   "text": "Con rùa"
+  },
+  {
+   "id": "vi_say_4957b0de",
+   "text": "Con thỏ"
+  },
+  {
+   "id": "vi_say_1acc0e15",
+   "text": "Con voi"
+  },
+  {
+   "id": "vi_say_0a42e462",
+   "text": "Con vật sống ở đâu?"
+  },
+  {
+   "id": "vi_say_91f783a0",
+   "text": "Con vật ăn gì?"
+  },
+  {
+   "id": "vi_say_08cf7ee6",
+   "text": "Con vật, thức ăn"
+  },
+  {
+   "id": "vi_say_cd5fa06a",
+   "text": "Con vịt"
+  },
+  {
+   "id": "vi_say_0b11b986",
+   "text": "Cá xen kẽ"
+  },
+  {
+   "id": "vi_say_3e887d09",
+   "text": "Cái nào đi cùng?"
+  },
+  {
+   "id": "vi_say_9d88227e",
+   "text": "Cây"
+  },
+  {
+   "id": "vi_say_ecf9be89",
+   "text": "Cây cối"
+  },
+  {
+   "id": "vi_say_a43a3601",
+   "text": "Cây lớn dần"
+  },
+  {
+   "id": "vi_say_b24b9c9b",
+   "text": "Cây xanh"
+  },
+  {
+   "id": "vi_say_906d424e",
+   "text": "Côn trùng"
+  },
+  {
+   "id": "vi_say_1bcebf8a",
+   "text": "Công dụng"
+  },
+  {
+   "id": "vi_say_5a56ece8",
+   "text": "Công viên"
+  },
+  {
+   "id": "vi_say_33076476",
+   "text": "Cơ thể"
+  },
+  {
+   "id": "vi_say_0ff4f6bd",
+   "text": "Cảm xúc"
+  },
+  {
+   "id": "vi_say_04aaccf3",
+   "text": "Cầu vồng"
+  },
+  {
+   "id": "vi_say_e136319f",
+   "text": "Dùng bộ phận nào?"
+  },
+  {
+   "id": "vi_say_bef6b838",
+   "text": "Dùng để làm gì?"
+  },
+  {
+   "id": "vi_say_53dc3439",
+   "text": "Dưa hấu"
+  },
+  {
+   "id": "vi_say_2c9bc5b3",
+   "text": "Dụng cụ"
+  },
+  {
+   "id": "vi_say_ee494172",
+   "text": "Ghép buổi với việc"
+  },
+  {
+   "id": "vi_say_1a789411",
+   "text": "Ghép bóng"
+  },
+  {
+   "id": "vi_say_b3d5d9e0",
+   "text": "Ghép bộ phận cây"
+  },
+  {
+   "id": "vi_say_57f14204",
+   "text": "Ghép chữ hoa, thường"
+  },
+  {
+   "id": "vi_say_53d7022a",
+   "text": "Ghép cảm xúc"
+  },
+  {
+   "id": "vi_say_6cee7a62",
+   "text": "Ghép cặp đối lập"
+  },
+  {
+   "id": "vi_say_de77a0ba",
+   "text": "Ghép dụng cụ"
+  },
+  {
+   "id": "vi_say_8e0c8c1e",
+   "text": "Ghép hình với bóng"
+  },
+  {
+   "id": "vi_say_4ff35694",
+   "text": "Ghép logic"
+  },
+  {
+   "id": "vi_say_9c720a43",
+   "text": "Ghép màu với đồ vật"
+  },
+  {
+   "id": "vi_say_e6aac72b",
+   "text": "Ghép môn thể thao"
+  },
+  {
+   "id": "vi_say_5f76b1ff",
+   "text": "Ghép mùa với hình"
+  },
+  {
+   "id": "vi_say_54259eb9",
+   "text": "Ghép nhạc cụ"
+  },
+  {
+   "id": "vi_say_e540259b",
+   "text": "Ghép nửa hình"
+  },
+  {
+   "id": "vi_say_a9928e1e",
+   "text": "Ghép số với chấm"
+  },
+  {
+   "id": "vi_say_bea6627d",
+   "text": "Ghép thành viên"
+  },
+  {
+   "id": "vi_say_bba9db35",
+   "text": "Ghép vật thể trời"
+  },
+  {
+   "id": "vi_say_d5e3a055",
+   "text": "Ghép với thời tiết"
+  },
+  {
+   "id": "vi_say_d6c5bc4a",
+   "text": "Gia đình"
+  },
+  {
+   "id": "vi_say_58ce5267",
+   "text": "Hai sao một mây"
+  },
+  {
+   "id": "vi_say_44aed50e",
+   "text": "Hai xanh một vàng"
+  },
+  {
+   "id": "vi_say_88a80850",
+   "text": "Hai đỏ một xanh"
+  },
+  {
+   "id": "vi_say_1eb35497",
+   "text": "Hoa lá"
+  },
+  {
+   "id": "vi_say_90721c9a",
+   "text": "Hình hoàn chỉnh"
+  },
+  {
+   "id": "vi_say_b310defa",
+   "text": "Hình học lặp"
+  },
+  {
+   "id": "vi_say_46552f3e",
+   "text": "Hình thoi"
+  },
+  {
+   "id": "vi_say_ae42bfd8",
+   "text": "Hình tiếp theo: 12312?"
+  },
+  {
+   "id": "vi_say_2d959d15",
+   "text": "Hình tiếp theo: 24624?"
+  },
+  {
+   "id": "vi_say_708a2e8c",
+   "text": "Hình tiếp theo: ABABA?"
+  },
+  {
+   "id": "vi_say_e2bc9651",
+   "text": "Hình tiếp theo: ABCABC?"
+  },
+  {
+   "id": "vi_say_0adb5e63",
+   "text": "Hình tiếp theo: bánh quy bánh vòng bánh quy bánh vòng?"
+  },
+  {
+   "id": "vi_say_bd0f1f59",
+   "text": "Hình tiếp theo: bông hoa bông hoa cúc bông hoa bông hoa cúc?"
+  },
+  {
+   "id": "vi_say_cde1ad75",
+   "text": "Hình tiếp theo: chấm xanh lá chấm xanh lá chấm vàng chấm xanh lá chấm xanh lá?"
+  },
+  {
+   "id": "vi_say_fa34a0a5",
+   "text": "Hình tiếp theo: chấm đỏ chấm xanh dương chấm đỏ chấm xanh dương?"
+  },
+  {
+   "id": "vi_say_26ddb5eb",
+   "text": "Hình tiếp theo: con cá con cá con cá con cá?"
+  },
+  {
+   "id": "vi_say_e6c2b8d3",
+   "text": "Hình tiếp theo: con mèo con chó con mèo con chó?"
+  },
+  {
+   "id": "vi_say_109b4a33",
+   "text": "Hình tiếp theo: con ong con bướm con ong con bướm?"
+  },
+  {
+   "id": "vi_say_17aebcd7",
+   "text": "Hình tiếp theo: con voi hươu cao cổ con voi hươu cao cổ?"
+  },
+  {
+   "id": "vi_say_509e468b",
+   "text": "Hình tiếp theo: hình vuông hình vuông hình vuông hình vuông?"
+  },
+  {
+   "id": "vi_say_53531df8",
+   "text": "Hình tiếp theo: mầm cây cành lá cái cây mầm cây cành lá?"
+  },
+  {
+   "id": "vi_say_1e0faceb",
+   "text": "Hình tiếp theo: mặt trời mưa mặt trời mưa?"
+  },
+  {
+   "id": "vi_say_a5c8bc1f",
+   "text": "Hình tiếp theo: mặt trời trăng khuyết mặt trời trăng khuyết?"
+  },
+  {
+   "id": "vi_say_488d5cd5",
+   "text": "Hình tiếp theo: mặt trời đám mây mưa mặt trời đám mây?"
+  },
+  {
+   "id": "vi_say_65adf10b",
+   "text": "Hình tiếp theo: ngôi nhà trường học ngôi nhà trường học?"
+  },
+  {
+   "id": "vi_say_fa835784",
+   "text": "Hình tiếp theo: ngôi sao ngôi sao mặt trăng ngôi sao ngôi sao?"
+  },
+  {
+   "id": "vi_say_1561b35e",
+   "text": "Hình tiếp theo: ngôi sao ngôi sao đám mây ngôi sao ngôi sao?"
+  },
+  {
+   "id": "vi_say_6fba69ea",
+   "text": "Hình tiếp theo: phải xuống trái lên phải?"
+  },
+  {
+   "id": "vi_say_0aca3665",
+   "text": "Hình tiếp theo: quả bóng bóng rổ quả bóng tennis quả bóng bóng rổ?"
+  },
+  {
+   "id": "vi_say_0a2d776a",
+   "text": "Hình tiếp theo: quả táo quả chuối quả nho quả táo quả chuối?"
+  },
+  {
+   "id": "vi_say_54eaedb9",
+   "text": "Hình tiếp theo: quả táo quả chuối quả táo quả chuối?"
+  },
+  {
+   "id": "vi_say_e0e8fffb",
+   "text": "Hình tiếp theo: tam giác hình tròn tam giác hình tròn?"
+  },
+  {
+   "id": "vi_say_db34f873",
+   "text": "Hình tiếp theo: tam giác hình vuông hình tròn tam giác hình vuông?"
+  },
+  {
+   "id": "vi_say_ccda1673",
+   "text": "Hình tiếp theo: trái phải trái phải?"
+  },
+  {
+   "id": "vi_say_fdbdb0e3",
+   "text": "Hình tiếp theo: trái tim ngôi sao trái tim ngôi sao?"
+  },
+  {
+   "id": "vi_say_dd99effd",
+   "text": "Hình tiếp theo: xe ô tô xe buýt xe ô tô xe buýt?"
+  },
+  {
+   "id": "vi_say_f5943455",
+   "text": "Hình tiếp theo: ô xanh dương ô vàng ô xanh lá ô xanh dương ô vàng ô xanh lá?"
+  },
+  {
+   "id": "vi_say_0bb7a1bf",
+   "text": "Hình tiếp theo: ô đỏ ô đỏ ô xanh dương ô đỏ ô đỏ?"
+  },
+  {
+   "id": "vi_say_169d143b",
+   "text": "Hình tiếp theo: đàn piano đàn ghi ta đàn piano đàn ghi ta?"
+  },
+  {
+   "id": "vi_say_c9e9fe5a",
+   "text": "Kem ốc quế"
+  },
+  {
+   "id": "vi_say_668596d9",
+   "text": "Kẹo bánh"
+  },
+  {
+   "id": "vi_say_10642b9c",
+   "text": "Luân phiên màu"
+  },
+  {
+   "id": "vi_say_e864c80a",
+   "text": "Lâu đài"
+  },
+  {
+   "id": "vi_say_11adfc1a",
+   "text": "Màu sắc"
+  },
+  {
+   "id": "vi_say_c0fc4903",
+   "text": "Máy bay"
+  },
+  {
+   "id": "vi_say_7d21337d",
+   "text": "Mèo chó"
+  },
+  {
+   "id": "vi_say_b91b3c4b",
+   "text": "Mùa"
+  },
+  {
+   "id": "vi_say_0fd904f6",
+   "text": "Mũi tên trái phải"
+  },
+  {
+   "id": "vi_say_4e890a56",
+   "text": "Mũi tên vòng"
+  },
+  {
+   "id": "vi_say_0f7e6967",
+   "text": "Mặc khi nào?"
+  },
+  {
+   "id": "vi_say_90cd0bb0",
+   "text": "Mặt trăng"
+  },
+  {
+   "id": "vi_say_caa06b38",
+   "text": "Mặt trời"
+  },
+  {
+   "id": "vi_say_367ee197",
+   "text": "Mặt trời mây mưa"
+  },
+  {
+   "id": "vi_say_f7bc5038",
+   "text": "Nghề nghiệp"
+  },
+  {
+   "id": "vi_say_150dd308",
+   "text": "Ngày mưa"
+  },
+  {
+   "id": "vi_say_c35f0ed1",
+   "text": "Ngôi nhà"
+  },
+  {
+   "id": "vi_say_c847ec31",
+   "text": "Ngôi sao"
+  },
+  {
+   "id": "vi_say_d1d1d7ca",
+   "text": "Nhà bếp"
+  },
+  {
+   "id": "vi_say_4b5b66cf",
+   "text": "Nhà cửa"
+  },
+  {
+   "id": "vi_say_77580670",
+   "text": "Nhạc cụ"
+  },
+  {
+   "id": "vi_say_dbaed58c",
+   "text": "Nông trại"
+  },
+  {
+   "id": "vi_say_7e5fafb7",
+   "text": "Núi"
+  },
+  {
+   "id": "vi_say_f0fb1b2a",
+   "text": "Nơi sống"
+  },
+  {
+   "id": "vi_say_8515a844",
+   "text": "Nấm"
+  },
+  {
+   "id": "vi_say_c5619d5d",
+   "text": "Nắng đêm"
+  },
+  {
+   "id": "vi_say_c9984ce6",
+   "text": "Nối điểm Bóng bay"
+  },
+  {
+   "id": "vi_say_44ae4ca7",
+   "text": "Nối điểm Bông hoa"
+  },
+  {
+   "id": "vi_say_f7df7369",
+   "text": "Nối điểm Chim cánh cụt"
+  },
+  {
+   "id": "vi_say_924a03b6",
+   "text": "Nối điểm Chiếc lá"
+  },
+  {
+   "id": "vi_say_dd7a0b5d",
+   "text": "Nối điểm Con bướm"
+  },
+  {
+   "id": "vi_say_82b2b8aa",
+   "text": "Nối điểm Con chim"
+  },
+  {
+   "id": "vi_say_c6580bd6",
+   "text": "Nối điểm Con chó"
+  },
+  {
+   "id": "vi_say_1b427f08",
+   "text": "Nối điểm Con cá"
+  },
+  {
+   "id": "vi_say_e8f241a2",
+   "text": "Nối điểm Con mèo"
+  },
+  {
+   "id": "vi_say_b7f46c2e",
+   "text": "Nối điểm Con rùa"
+  },
+  {
+   "id": "vi_say_cad478ec",
+   "text": "Nối điểm Con thỏ"
+  },
+  {
+   "id": "vi_say_238ec56b",
+   "text": "Nối điểm Con voi"
+  },
+  {
+   "id": "vi_say_27eea0c4",
+   "text": "Nối điểm Con vịt"
+  },
+  {
+   "id": "vi_say_16be7d50",
+   "text": "Nối điểm Cây"
+  },
+  {
+   "id": "vi_say_795738d9",
+   "text": "Nối điểm Cầu vồng"
+  },
+  {
+   "id": "vi_say_30093220",
+   "text": "Nối điểm Hình thoi"
+  },
+  {
+   "id": "vi_say_7221f94c",
+   "text": "Nối điểm Kem ốc quế"
+  },
+  {
+   "id": "vi_say_9623a204",
+   "text": "Nối điểm Lâu đài"
+  },
+  {
+   "id": "vi_say_ef57b8d9",
+   "text": "Nối điểm Máy bay"
+  },
+  {
+   "id": "vi_say_a5a043c6",
+   "text": "Nối điểm Mặt trăng"
+  },
+  {
+   "id": "vi_say_883925ce",
+   "text": "Nối điểm Mặt trời"
+  },
+  {
+   "id": "vi_say_9ade02fb",
+   "text": "Nối điểm Ngôi nhà"
+  },
+  {
+   "id": "vi_say_fc1b166f",
+   "text": "Nối điểm Ngôi sao"
+  },
+  {
+   "id": "vi_say_25c33546",
+   "text": "Nối điểm Nấm"
+  },
+  {
+   "id": "vi_say_a304bfd4",
+   "text": "Nối điểm Quả táo"
+  },
+  {
+   "id": "vi_say_f5567cd2",
+   "text": "Nối điểm Tam giác"
+  },
+  {
+   "id": "vi_say_484f5546",
+   "text": "Nối điểm Thuyền"
+  },
+  {
+   "id": "vi_say_2c8b7d1e",
+   "text": "Nối điểm Trái tim"
+  },
+  {
+   "id": "vi_say_2d806431",
+   "text": "Nối điểm Tàu hỏa"
+  },
+  {
+   "id": "vi_say_045c815c",
+   "text": "Nối điểm Tên lửa"
+  },
+  {
+   "id": "vi_say_a08484cf",
+   "text": "Nối điểm Ô tô"
+  },
+  {
+   "id": "vi_say_5153482c",
+   "text": "Nối điểm Đám mây"
+  },
+  {
+   "id": "vi_say_4256b0a5",
+   "text": "Phương tiện"
+  },
+  {
+   "id": "vi_say_c2caa9a2",
+   "text": "Quả bóng"
+  },
+  {
+   "id": "vi_say_f55294c3",
+   "text": "Quả dâu"
+  },
+  {
+   "id": "vi_say_1ec48e86",
+   "text": "Quả táo"
+  },
+  {
+   "id": "vi_say_76afe638",
+   "text": "Quần áo"
+  },
+  {
+   "id": "vi_say_ce1430df",
+   "text": "Robot"
+  },
+  {
+   "id": "vi_say_3abae3f5",
+   "text": "Sao và trăng"
+  },
+  {
+   "id": "vi_say_05719590",
+   "text": "Số chẵn"
+  },
+  {
+   "id": "vi_say_e876f8a4",
+   "text": "Số và lượng"
+  },
+  {
+   "id": "vi_say_e6ede703",
+   "text": "Số đếm"
+  },
+  {
+   "id": "vi_say_4d26b084",
+   "text": "Tam giác"
+  },
+  {
+   "id": "vi_say_bc25f423",
+   "text": "Tam giác tròn"
+  },
+  {
+   "id": "vi_say_c0fab498",
+   "text": "Thuyền"
+  },
+  {
+   "id": "vi_say_c4ffecb0",
+   "text": "Thú cưng"
+  },
+  {
+   "id": "vi_say_9a8aaaec",
+   "text": "Thú rừng"
+  },
+  {
+   "id": "vi_say_ec9f8d86",
+   "text": "Thể thao"
+  },
+  {
+   "id": "vi_say_2a353eee",
+   "text": "Thời tiết"
+  },
+  {
+   "id": "vi_say_0899cce8",
+   "text": "Tiệc vui"
+  },
+  {
+   "id": "vi_say_344dcad2",
+   "text": "Trái cây ba loại"
+  },
+  {
+   "id": "vi_say_9ae88a2c",
+   "text": "Trái tim"
+  },
+  {
+   "id": "vi_say_c3632829",
+   "text": "Trái tim sao"
+  },
+  {
+   "id": "vi_say_12597743",
+   "text": "Trường học"
+  },
+  {
+   "id": "vi_say_da3d557f",
+   "text": "Tàu hỏa"
+  },
+  {
+   "id": "vi_say_7ec89240",
+   "text": "Táo chuối"
+  },
+  {
+   "id": "vi_say_9d5dbe46",
+   "text": "Tên lửa"
+  },
+  {
+   "id": "vi_say_b89be1db",
+   "text": "Tô màu Bánh cupcake"
+  },
+  {
+   "id": "vi_say_c0ed60e4",
+   "text": "Tô màu Bóng bay"
+  },
+  {
+   "id": "vi_say_e1d93ec9",
+   "text": "Tô màu Bông hoa"
+  },
+  {
+   "id": "vi_say_622586fb",
+   "text": "Tô màu Chim cánh cụt"
+  },
+  {
+   "id": "vi_say_ddabd667",
+   "text": "Tô màu Con bướm"
+  },
+  {
+   "id": "vi_say_5a71a7fc",
+   "text": "Tô màu Con chim"
+  },
+  {
+   "id": "vi_say_0f944e68",
+   "text": "Tô màu Con chó"
+  },
+  {
+   "id": "vi_say_eb5c169a",
+   "text": "Tô màu Con cá"
+  },
+  {
+   "id": "vi_say_e3bc9aa8",
+   "text": "Tô màu Con mèo"
+  },
+  {
+   "id": "vi_say_fcb4afec",
+   "text": "Tô màu Con rùa"
+  },
+  {
+   "id": "vi_say_82597e0e",
+   "text": "Tô màu Con thỏ"
+  },
+  {
+   "id": "vi_say_73e550a5",
+   "text": "Tô màu Con voi"
+  },
+  {
+   "id": "vi_say_e74d407a",
+   "text": "Tô màu Con vịt"
+  },
+  {
+   "id": "vi_say_ee7555ee",
+   "text": "Tô màu Cây"
+  },
+  {
+   "id": "vi_say_8c5ddc23",
+   "text": "Tô màu Cầu vồng"
+  },
+  {
+   "id": "vi_say_bfd6e9e9",
+   "text": "Tô màu Dưa hấu"
+  },
+  {
+   "id": "vi_say_b2d918ea",
+   "text": "Tô màu Kem ốc quế"
+  },
+  {
+   "id": "vi_say_21c1c71a",
+   "text": "Tô màu Lâu đài"
+  },
+  {
+   "id": "vi_say_444aa213",
+   "text": "Tô màu Máy bay"
+  },
+  {
+   "id": "vi_say_a2d89420",
+   "text": "Tô màu Mặt trăng"
+  },
+  {
+   "id": "vi_say_f6511968",
+   "text": "Tô màu Mặt trời"
+  },
+  {
+   "id": "vi_say_47425941",
+   "text": "Tô màu Ngôi nhà"
+  },
+  {
+   "id": "vi_say_b3eec7e1",
+   "text": "Tô màu Ngôi sao"
+  },
+  {
+   "id": "vi_say_8e541894",
+   "text": "Tô màu Nấm"
+  },
+  {
+   "id": "vi_say_07ff2012",
+   "text": "Tô màu Quả bóng"
+  },
+  {
+   "id": "vi_say_78fc58d3",
+   "text": "Tô màu Quả dâu"
+  },
+  {
+   "id": "vi_say_9632f316",
+   "text": "Tô màu Quả táo"
+  },
+  {
+   "id": "vi_say_1f793ba8",
+   "text": "Tô màu Thuyền"
+  },
+  {
+   "id": "vi_say_652441bc",
+   "text": "Tô màu Trái tim"
+  },
+  {
+   "id": "vi_say_8e5bc0af",
+   "text": "Tô màu Tàu hỏa"
+  },
+  {
+   "id": "vi_say_8960891d",
+   "text": "Tô màu Xe buýt"
+  },
+  {
+   "id": "vi_say_942a32a1",
+   "text": "Tô màu Ô tô"
+  },
+  {
+   "id": "vi_say_c703556f",
+   "text": "Vuông tròn"
+  },
+  {
+   "id": "vi_say_7cb27d36",
+   "text": "Vũ trụ"
+  },
+  {
+   "id": "vi_say_06d73ad8",
+   "text": "Vườn hoa"
+  },
+  {
+   "id": "vi_say_7cb7a709",
+   "text": "Vẽ biển và cát"
+  },
+  {
+   "id": "vi_say_cfe074bd",
+   "text": "Vẽ buổi tiệc"
+  },
+  {
+   "id": "vi_say_7058d3fa",
+   "text": "Vẽ bánh kem"
+  },
+  {
+   "id": "vi_say_b365071f",
+   "text": "Vẽ bông hoa"
+  },
+  {
+   "id": "vi_say_faffb112",
+   "text": "Vẽ bạn của con"
+  },
+  {
+   "id": "vi_say_ec14d8d3",
+   "text": "Vẽ chim đang bay"
+  },
+  {
+   "id": "vi_say_1e88ce2a",
+   "text": "Vẽ chính con"
+  },
+  {
+   "id": "vi_say_a7103035",
+   "text": "Vẽ con bướm"
+  },
+  {
+   "id": "vi_say_5e417b81",
+   "text": "Vẽ con cá đang bơi"
+  },
+  {
+   "id": "vi_say_c627a9ea",
+   "text": "Vẽ con mèo"
+  },
+  {
+   "id": "vi_say_5e657192",
+   "text": "Vẽ công viên"
+  },
+  {
+   "id": "vi_say_fe925621",
+   "text": "Vẽ cầu vồng"
+  },
+  {
+   "id": "vi_say_26383258",
+   "text": "Vẽ gia đình con"
+  },
+  {
+   "id": "vi_say_a7077f5c",
+   "text": "Vẽ lâu đài"
+  },
+  {
+   "id": "vi_say_9cd32d70",
+   "text": "Vẽ mặt trời và mây"
+  },
+  {
+   "id": "vi_say_6c8832e7",
+   "text": "Vẽ một chiếc xe"
+  },
+  {
+   "id": "vi_say_a5c27a98",
+   "text": "Vẽ một cái cây"
+  },
+  {
+   "id": "vi_say_6f9c9313",
+   "text": "Vẽ một robot"
+  },
+  {
+   "id": "vi_say_a5cd82f6",
+   "text": "Vẽ ngày mưa"
+  },
+  {
+   "id": "vi_say_b910b332",
+   "text": "Vẽ ngôi nhà của con"
+  },
+  {
+   "id": "vi_say_433d62ca",
+   "text": "Vẽ nông trại"
+  },
+  {
+   "id": "vi_say_74c0cfed",
+   "text": "Vẽ núi và mặt trời"
+  },
+  {
+   "id": "vi_say_8cafee4c",
+   "text": "Vẽ quả táo"
+  },
+  {
+   "id": "vi_say_4b69d798",
+   "text": "Vẽ thuyền trên sông"
+  },
+  {
+   "id": "vi_say_48ce0d0e",
+   "text": "Vẽ thú cưng"
+  },
+  {
+   "id": "vi_say_e956aef7",
+   "text": "Vẽ trăng và sao"
+  },
+  {
+   "id": "vi_say_e1aca52c",
+   "text": "Vẽ trường của con"
+  },
+  {
+   "id": "vi_say_bdf84ff9",
+   "text": "Vẽ tàu hỏa"
+  },
+  {
+   "id": "vi_say_7bd53ba4",
+   "text": "Vẽ tên lửa"
+  },
+  {
+   "id": "vi_say_e05f636e",
+   "text": "Vẽ vườn hoa"
+  },
+  {
+   "id": "vi_say_9096328d",
+   "text": "Xe buýt"
+  },
+  {
+   "id": "vi_say_eca38356",
+   "text": "Xe hơi"
+  },
+  {
+   "id": "vi_say_6b9987f2",
+   "text": "Xe luân phiên"
+  },
+  {
+   "id": "vi_say_dcc9ae26",
+   "text": "bánh quy"
+  },
+  {
+   "id": "vi_say_7ab3d9f9",
+   "text": "bông hoa"
+  },
+  {
+   "id": "vi_say_97e600f1",
+   "text": "chấm vàng"
+  },
+  {
+   "id": "vi_say_a37b2c5f",
+   "text": "chấm đỏ"
+  },
+  {
+   "id": "vi_say_f0573b6a",
+   "text": "con cá"
+  },
+  {
+   "id": "vi_say_ccf2f818",
+   "text": "con mèo"
+  },
+  {
+   "id": "vi_say_e4ccbb41",
+   "text": "con ong"
+  },
+  {
+   "id": "vi_say_1acc0e15",
+   "text": "con voi"
+  },
+  {
+   "id": "vi_say_66454abc",
+   "text": "cái cây"
+  },
+  {
+   "id": "vi_say_04db543d",
+   "text": "hình tròn"
+  },
+  {
+   "id": "vi_say_c1c9fdfb",
+   "text": "hình vuông"
+  },
+  {
+   "id": "vi_say_2c0d4a6d",
+   "text": "mưa"
+  },
+  {
+   "id": "vi_say_90cd0bb0",
+   "text": "mặt trăng"
+  },
+  {
+   "id": "vi_say_caa06b38",
+   "text": "mặt trời"
+  },
+  {
+   "id": "vi_say_c35f0ed1",
+   "text": "ngôi nhà"
+  },
+  {
+   "id": "vi_say_4fd12781",
+   "text": "quả bóng tennis"
+  },
+  {
+   "id": "vi_say_dfbb1202",
+   "text": "quả nho"
+  },
+  {
+   "id": "vi_say_1ec48e86",
+   "text": "quả táo"
+  },
+  {
+   "id": "vi_say_4d26b084",
+   "text": "tam giác"
+  },
+  {
+   "id": "vi_say_73d421ae",
+   "text": "trái"
+  },
+  {
+   "id": "vi_say_9ae88a2c",
+   "text": "trái tim"
+  },
+  {
+   "id": "vi_say_dfe26716",
+   "text": "xe ô tô"
+  },
+  {
+   "id": "vi_say_9b21acae",
+   "text": "xuống"
+  },
+  {
+   "id": "vi_say_7d9227ec",
+   "text": "Âm nhạc"
+  },
+  {
+   "id": "vi_say_85acf431",
+   "text": "Ô tô"
+  },
+  {
+   "id": "vi_say_21bba90f",
+   "text": "ô xanh dương"
+  },
+  {
+   "id": "vi_say_5433776a",
+   "text": "Đi bằng gì?"
+  },
+  {
+   "id": "vi_say_30fa279a",
+   "text": "Đám mây"
+  },
+  {
+   "id": "vi_say_1bc78eaa",
+   "text": "Đối lập"
+  },
+  {
+   "id": "vi_say_e32e4110",
+   "text": "đàn piano"
+  },
+  {
+   "id": "vi_say_30fa279a",
+   "text": "đám mây"
+  }
+ ],
+ "guide": [
+  {
+   "id": "vi_say_10b3e0a2",
+   "text": "Bé chạm vào các phím để tạo ra bản nhạc của mình nhé!"
+  },
+  {
+   "id": "vi_say_549ea4ef",
+   "text": "Bé chọn màu, rồi chạm vào từng phần để tô nhé."
+  },
+  {
+   "id": "vi_say_97db1c4e",
+   "text": "Bé chọn một màu, rồi dùng ngón tay vẽ lên giấy nhé."
+  },
+  {
+   "id": "vi_say_0b2ee98a",
+   "text": "Bé dùng ngón tay tô theo nét chữ nhé."
+  },
+  {
+   "id": "vi_say_a202a4b7",
+   "text": "Bé là ai nhỉ? Chạm vào ảnh của bé nhé!"
+  },
+  {
+   "id": "vi_say_3a87d32c",
+   "text": "Bé lật thẻ và tìm hai thẻ giống nhau nhé."
+  },
+  {
+   "id": "vi_say_6c782764",
+   "text": "Bé nghe Mai đọc cả câu, rồi đọc theo nhé."
+  },
+  {
+   "id": "vi_say_d3253ea2",
+   "text": "Bé nghe Mai đọc âm của chữ nào."
+  },
+  {
+   "id": "vi_say_3b9e9103",
+   "text": "Bé nghe Mai đọc, rồi chọn câu đúng nhé."
+  },
+  {
+   "id": "vi_say_b60c75e6",
+   "text": "Bé nghe cách đọc nào."
+  },
+  {
+   "id": "vi_say_16de283a",
+   "text": "Bé nghe câu hỏi, rồi chạm vào đáp án đúng nhé!"
+  },
+  {
+   "id": "vi_say_120fe858",
+   "text": "Bé nghe rồi tìm đúng chữ nhé!"
+  },
+  {
+   "id": "vi_say_fa8b0989",
+   "text": "Bé nghe thật kỹ, rồi chạm vào chữ Mai vừa đọc nhé."
+  },
+  {
+   "id": "vi_say_1ba4c730",
+   "text": "Bé nghe từng âm, rồi ghép lại thành tiếng nhé."
+  },
+  {
+   "id": "vi_say_6248d8d1",
+   "text": "Bé nghe vần, rồi chọn tiếng có vần đó nhé."
+  },
+  {
+   "id": "vi_say_fed2ab5e",
+   "text": "Bé nhìn chữ này nhé."
+  },
+  {
+   "id": "vi_say_dafaee38",
+   "text": "Bé nhìn chữ tiếng Nhật này nhé."
+  },
+  {
+   "id": "vi_say_67b81bdc",
+   "text": "Bé nhìn hình, nghe Mai đọc, rồi chọn chữ đúng nhé."
+  },
+  {
+   "id": "vi_say_88258b25",
+   "text": "Bé nhìn kỹ hình nhé, đáp án ở ngay đây thôi."
+  },
+  {
+   "id": "vi_say_029876b2",
+   "text": "Bé suy nghĩ, rồi chọn hình đúng nhé."
+  },
+  {
+   "id": "vi_say_568d18a1",
+   "text": "Bé thắng rồi! Giỏi quá!"
+  },
+  {
+   "id": "vi_say_cc4c4bc7",
+   "text": "Bé tìm hình giống với hình mẫu nhé."
+  },
+  {
+   "id": "vi_say_e0ee25ae",
+   "text": "Bé tìm đúng chữ vừa học nhé!"
+  },
+  {
+   "id": "vi_say_c2d9500e",
+   "text": "Bé tô theo nét chấm, nét số một trước nhé."
+  },
+  {
+   "id": "vi_say_a572a67d",
+   "text": "Bé xem Mai viết từng nét theo thứ tự nhé."
+  },
+  {
+   "id": "vi_say_02a3fcfb",
+   "text": "Bé xếp số còn thiếu vào toa tàu nhé!"
+  },
+  {
+   "id": "vi_say_f2ea7ff7",
+   "text": "Bé đã hoàn thành bài học! Mai rất tự hào về bé."
+  },
+  {
+   "id": "vi_say_79e86fe4",
+   "text": "Bé đọc lại theo Mai nào!"
+  },
+  {
+   "id": "vi_say_aab0fef4",
+   "text": "Bé đọc to theo Mai nào!"
+  },
+  {
+   "id": "vi_say_ad738609",
+   "text": "Bạn gấu trúc đói bụng rồi! Bé chọn đúng đáp án để cho bạn ăn nhé."
+  },
+  {
+   "id": "vi_say_1a7ae0fd",
+   "text": "Chào bé! Hôm nay mình khám phá đảo nào? Chạm vào một hòn đảo nhé!"
+  },
+  {
+   "id": "vi_say_d0f26858",
+   "text": "Chạm vào cái loa để nghe lại nhé."
+  },
+  {
+   "id": "vi_say_c7959182",
+   "text": "Chạm vào nút to để học tiếp bài hôm trước nhé!"
+  },
+  {
+   "id": "vi_say_074d61ab",
+   "text": "Chữ này có trong từ nào?"
+  },
+  {
+   "id": "vi_say_b10ca61e",
+   "text": "Chữ này đọc âm nào?"
+  },
+  {
+   "id": "vi_say_eff5aed7",
+   "text": "Câu tiếp theo nào!"
+  },
+  {
+   "id": "vi_say_9e96501c",
+   "text": "Giờ bé tự viết chữ nhé!"
+  },
+  {
+   "id": "vi_say_09331318",
+   "text": "Gần đúng rồi! Bé thử lại nhé."
+  },
+  {
+   "id": "vi_say_534302e2",
+   "text": "Khu vui chơi đây rồi! Bé chọn một trò chơi nhé."
+  },
+  {
+   "id": "vi_say_713f8c94",
+   "text": "Mai đã cất bức tranh của bé rồi!"
+  },
+  {
+   "id": "vi_say_9834a300",
+   "text": "Nghe Mai đọc, rồi chạm bắt chữ đúng đang rơi xuống nhé!"
+  },
+  {
+   "id": "vi_say_4eb4ab0c",
+   "text": "Nghe rồi chọn chữ đúng nhé."
+  },
+  {
+   "id": "vi_say_eb6e3c11",
+   "text": "Nghe tên chữ, rồi chọn chữ đúng nhé."
+  },
+  {
+   "id": "vi_say_f5924e53",
+   "text": "Nghe âm của chữ, rồi chọn chữ đúng nhé."
+  },
+  {
+   "id": "vi_say_9f2c7ad6",
+   "text": "Tuyệt vời! Bé đã học xong chữ này và được một ngôi sao!"
+  },
+  {
+   "id": "vi_say_45efe89c",
+   "text": "Tính đúng để phóng tên lửa lên vũ trụ nào!"
+  },
+  {
+   "id": "vi_say_0eb68d3b",
+   "text": "Xưởng sáng tạo đây rồi! Bé muốn vẽ, tô màu hay chơi nhạc?"
+  },
+  {
+   "id": "vi_say_93531e80",
+   "text": "Đây là khu vườn sao của bé. Mỗi bài học xong, vườn lại nở thêm hoa!"
+  },
+  {
+   "id": "vi_say_1cbfa592",
+   "text": "Đảo Tiếng Nhật đây rồi! Bé chọn chữ Hiragana hoặc Katakana nhé."
+  },
+  {
+   "id": "vi_say_14b986ae",
+   "text": "Đảo Tiếng Việt đây rồi! Bé chọn một bài để học chữ và đọc từ nhé."
+  },
+  {
+   "id": "vi_say_5e039b1b",
+   "text": "Đảo Toán học đây rồi! Mình cùng đếm và tính nhé. Bé chọn một bài nào!"
+  },
+  {
+   "id": "vi_say_3b11f3e3",
+   "text": "Đảo Tư duy đây rồi! Mình cùng giải câu đố nhé."
+  }
+ ],
+ "explore": [
+  {
+   "id": "vi_say_648f83c6",
+   "text": "Bàn chân giúp bé đứng vững và đi lại."
+  },
+  {
+   "id": "vi_say_505b4ffa",
+   "text": "Bàn tay có năm ngón để cầm, nắm và vẽ."
+  },
+  {
+   "id": "vi_say_a3100ed0",
+   "text": "Bác nông dân trồng lúa để làm ra hạt gạo."
+  },
+  {
+   "id": "vi_say_922b917e",
+   "text": "Bác sĩ khám bệnh và chữa bệnh cho mọi người."
+  },
+  {
+   "id": "vi_say_aa087001",
+   "text": "Bé chạm vào từng hình để nghe Mai kể nhé!"
+  },
+  {
+   "id": "vi_say_29a69001",
+   "text": "Bé chỉ xem ti vi một chút thôi để mắt luôn khỏe nhé."
+  },
+  {
+   "id": "vi_say_bae3f2f7",
+   "text": "Bé dùng bàn chải để đánh răng buổi sáng và buổi tối."
+  },
+  {
+   "id": "vi_say_9490e675",
+   "text": "Bé dùng cái thìa để xúc cơm và ăn cháo."
+  },
+  {
+   "id": "vi_say_b9cedcfd",
+   "text": "Bé dùng màu để vẽ những bức tranh rực rỡ."
+  },
+  {
+   "id": "vi_say_3acbfc03",
+   "text": "Bé ghép các mảnh nhỏ lại thành một bức tranh."
+  },
+  {
+   "id": "vi_say_e5888d87",
+   "text": "Bé ngồi trên cái ghế để ăn cơm và học bài."
+  },
+  {
+   "id": "vi_say_9399763d",
+   "text": "Bé nhìn kỹ lại nhé!"
+  },
+  {
+   "id": "vi_say_5b69d218",
+   "text": "Bé rửa tay bằng xà phòng để tay sạch sẽ."
+  },
+  {
+   "id": "vi_say_7cfbf426",
+   "text": "Bé soi gương để nhìn thấy khuôn mặt của mình."
+  },
+  {
+   "id": "vi_say_8aa449ad",
+   "text": "Bé trượt cầu trượt vèo một cái thật vui."
+  },
+  {
+   "id": "vi_say_4d98dc74",
+   "text": "Bé tắm trong bồn tắm cho thơm tho sạch sẽ."
+  },
+  {
+   "id": "vi_say_59970c3b",
+   "text": "Bé vuốt sang hoặc chạm mũi tên để xem hình tiếp theo nhé."
+  },
+  {
+   "id": "vi_say_3c89d907",
+   "text": "Bé đánh răng mỗi ngày để răng chắc khỏe."
+  },
+  {
+   "id": "vi_say_aa65dc4b",
+   "text": "Bé đã trả lời xong rồi! Mai tặng bé những ngôi sao lấp lánh!"
+  },
+  {
+   "id": "vi_say_9e7eb102",
+   "text": "Bé đúng hết tất cả! Bé là nhà thám hiểm siêu giỏi!"
+  },
+  {
+   "id": "vi_say_083c0e08",
+   "text": "Bóng bay rất nhẹ, bé nhớ cầm chặt dây nhé."
+  },
+  {
+   "id": "vi_say_1adbf409",
+   "text": "Bóng đèn sáng lên giúp nhà mình không bị tối."
+  },
+  {
+   "id": "vi_say_bf1ea93b",
+   "text": "Bông hoa nở ra có màu sắc đẹp và hương thơm."
+  },
+  {
+   "id": "vi_say_c5ca77ef",
+   "text": "Bông tuyết trắng rơi xuống khi trời rất lạnh."
+  },
+  {
+   "id": "vi_say_0e524afc",
+   "text": "Bạch tuộc có tám cái xúc tu dài."
+  },
+  {
+   "id": "vi_say_64a1a650",
+   "text": "Bắp ngô có rất nhiều hạt vàng xếp thành hàng."
+  },
+  {
+   "id": "vi_say_68870ff6",
+   "text": "Bọ rùa có cái lưng màu đỏ với những chấm đen."
+  },
+  {
+   "id": "vi_say_eeda9921",
+   "text": "Bộ não giúp bé suy nghĩ và ghi nhớ."
+  },
+  {
+   "id": "vi_say_0f4163a6",
+   "text": "Bộ xương giúp cơ thể bé đứng thẳng."
+  },
+  {
+   "id": "vi_say_d1d0a0b9",
+   "text": "Chim bồ câu bay đi rất xa vẫn nhớ đường về nhà."
+  },
+  {
+   "id": "vi_say_b4a2798c",
+   "text": "Chim cánh cụt không biết bay nhưng bơi rất giỏi."
+  },
+  {
+   "id": "vi_say_4c488daa",
+   "text": "Chuột túi nhảy rất xa và mang con trong túi trước bụng."
+  },
+  {
+   "id": "vi_say_7664c84b",
+   "text": "Chào bé! Mình cùng đi khám phá thế giới nhé. Bé chọn một chủ đề nào!"
+  },
+  {
+   "id": "vi_say_7352efa6",
+   "text": "Chìa khóa dùng để mở cửa và mở ổ khóa."
+  },
+  {
+   "id": "vi_say_79cfccb1",
+   "text": "Chính xác! Bé được một ngôi sao!"
+  },
+  {
+   "id": "vi_say_1e0d702d",
+   "text": "Chú công an giữ gìn an toàn cho mọi người."
+  },
+  {
+   "id": "vi_say_97f986a8",
+   "text": "Chú lính cứu hỏa dập lửa và cứu mọi người."
+  },
+  {
+   "id": "vi_say_df4f805c",
+   "text": "Chú phi công lái máy bay bay trên bầu trời."
+  },
+  {
+   "id": "vi_say_ea689944",
+   "text": "Chú thợ sửa xe làm cho xe bị hỏng chạy lại được."
+  },
+  {
+   "id": "vi_say_b232ae9a",
+   "text": "Chú thợ xây xây nên những ngôi nhà cao."
+  },
+  {
+   "id": "vi_say_2b5b8e7c",
+   "text": "Chú đầu bếp nấu những món ăn thật ngon."
+  },
+  {
+   "id": "vi_say_330b83bc",
+   "text": "Chưa đúng rồi, bé thử lại nhé!"
+  },
+  {
+   "id": "vi_say_a92b5b26",
+   "text": "Con bò ăn cỏ và cho chúng mình sữa."
+  },
+  {
+   "id": "vi_say_67a4be2f",
+   "text": "Con bướm có đôi cánh nhiều màu sắc rất đẹp."
+  },
+  {
+   "id": "vi_say_799718f8",
+   "text": "Con chim dùng đôi cánh để bay trên trời."
+  },
+  {
+   "id": "vi_say_31d462c3",
+   "text": "Con chó sủa gâu gâu và giữ nhà cho chúng mình."
+  },
+  {
+   "id": "vi_say_06244d58",
+   "text": "Con cua có hai cái càng to và bò ngang."
+  },
+  {
+   "id": "vi_say_deab50c7",
+   "text": "Con cá thở bằng mang và bơi bằng vây."
+  },
+  {
+   "id": "vi_say_17c89782",
+   "text": "Con cáo có cái đuôi dài và rất nhanh nhẹn."
+  },
+  {
+   "id": "vi_say_e0dcf79d",
+   "text": "Con công xòe cái đuôi rực rỡ như một cái quạt."
+  },
+  {
+   "id": "vi_say_31fabd5d",
+   "text": "Con cừu có bộ lông xoăn dùng để làm áo len."
+  },
+  {
+   "id": "vi_say_2c69725e",
+   "text": "Con diều bay cao trên trời nhờ có gió."
+  },
+  {
+   "id": "vi_say_3d705e5c",
+   "text": "Con dê có bộ râu dài và kêu be be."
+  },
+  {
+   "id": "vi_say_1103c9f7",
+   "text": "Con dế kêu rả rích vào ban đêm."
+  },
+  {
+   "id": "vi_say_6da3781e",
+   "text": "Con gà mái đẻ trứng và chăm sóc đàn gà con."
+  },
+  {
+   "id": "vi_say_34e61970",
+   "text": "Con gà trống gáy ò ó o mỗi sáng."
+  },
+  {
+   "id": "vi_say_ae040976",
+   "text": "Con gà tây xòe đuôi to như một cái quạt."
+  },
+  {
+   "id": "vi_say_de37d0e1",
+   "text": "Con gấu to lớn và rất thích ăn mật ong."
+  },
+  {
+   "id": "vi_say_18a3fa6f",
+   "text": "Con heo kêu ụt ịt và có cái mũi tròn."
+  },
+  {
+   "id": "vi_say_abd43654",
+   "text": "Con hổ có bộ lông vằn màu vàng và đen."
+  },
+  {
+   "id": "vi_say_e9e9cbd2",
+   "text": "Con khỉ leo trèo rất giỏi và thích ăn chuối."
+  },
+  {
+   "id": "vi_say_fad77bbe",
+   "text": "Con kiến nhỏ xíu nhưng khiêng được đồ rất nặng."
+  },
+  {
+   "id": "vi_say_5c348c0a",
+   "text": "Con muỗi hay đốt, bé nhớ ngủ trong màn nhé."
+  },
+  {
+   "id": "vi_say_a256bfd4",
+   "text": "Con mèo kêu meo meo và thích bắt chuột."
+  },
+  {
+   "id": "vi_say_e05d3704",
+   "text": "Con mực phun mực đen để trốn kẻ thù."
+  },
+  {
+   "id": "vi_say_9a28d912",
+   "text": "Con người, cây cối và con vật đều cần có nước."
+  },
+  {
+   "id": "vi_say_c43e96c7",
+   "text": "Con ngựa chạy rất nhanh và kêu hí hí."
+  },
+  {
+   "id": "vi_say_04a5de50",
+   "text": "Con nhím có rất nhiều gai nhọn trên lưng."
+  },
+  {
+   "id": "vi_say_ce071245",
+   "text": "Con ong hút mật hoa để làm ra mật ong."
+  },
+  {
+   "id": "vi_say_08603c97",
+   "text": "Con rắn không có chân, nó trườn trên mặt đất."
+  },
+  {
+   "id": "vi_say_b6f4e859",
+   "text": "Con sâu lớn lên sẽ biến thành con bướm."
+  },
+  {
+   "id": "vi_say_4f46e1e1",
+   "text": "Con sóc có cái đuôi xù và thích ăn hạt."
+  },
+  {
+   "id": "vi_say_866795cb",
+   "text": "Con sói sống thành bầy và hú rất to."
+  },
+  {
+   "id": "vi_say_d24b3194",
+   "text": "Con thỏ có đôi tai dài và nhảy rất giỏi."
+  },
+  {
+   "id": "vi_say_bf10e490",
+   "text": "Con trâu khỏe mạnh, giúp bác nông dân cày ruộng."
+  },
+  {
+   "id": "vi_say_ee534d17",
+   "text": "Con tôm có râu dài và bơi giật lùi rất nhanh."
+  },
+  {
+   "id": "vi_say_7f9d53e2",
+   "text": "Con voi dùng cái vòi dài để uống nước và lấy thức ăn."
+  },
+  {
+   "id": "vi_say_a40fc082",
+   "text": "Con vật nuôi"
+  },
+  {
+   "id": "vi_say_2b969845",
+   "text": "Con vẹt có bộ lông sặc sỡ và biết nói theo người."
+  },
+  {
+   "id": "vi_say_0750a0ea",
+   "text": "Con vịt kêu cạp cạp và bơi rất giỏi."
+  },
+  {
+   "id": "vi_say_16a79851",
+   "text": "Cá cảnh bơi tung tăng trong bể kính."
+  },
+  {
+   "id": "vi_say_9095bd66",
+   "text": "Cá heo rất thông minh và thích nhảy lên khỏi mặt nước."
+  },
+  {
+   "id": "vi_say_4fec875d",
+   "text": "Cá mập bơi rất nhanh và có nhiều răng sắc."
+  },
+  {
+   "id": "vi_say_13ffe422",
+   "text": "Cá nóc phồng tròn như quả bóng khi sợ hãi."
+  },
+  {
+   "id": "vi_say_f6f7a7d5",
+   "text": "Cá sấu có hàm răng sắc nhọn và sống ở gần sông."
+  },
+  {
+   "id": "vi_say_9c789dd4",
+   "text": "Cá voi xanh là con vật to nhất trên Trái Đất."
+  },
+  {
+   "id": "vi_say_2afa5b94",
+   "text": "Các bạn đá quả bóng vào khung thành để ghi bàn."
+  },
+  {
+   "id": "vi_say_ce874065",
+   "text": "Cái chuông lắc lên kêu leng keng."
+  },
+  {
+   "id": "vi_say_92831e7e",
+   "text": "Cái chảo dùng để rán trứng thơm ngon."
+  },
+  {
+   "id": "vi_say_f59e7616",
+   "text": "Cái chổi dùng để quét nhà cho sạch."
+  },
+  {
+   "id": "vi_say_c3289911",
+   "text": "Cái giường là nơi bé nằm ngủ mỗi đêm."
+  },
+  {
+   "id": "vi_say_058980b3",
+   "text": "Cái giỏ dùng để đựng quần áo hoặc hoa quả."
+  },
+  {
+   "id": "vi_say_1a733417",
+   "text": "Cái kèn thổi lên kêu toe toe."
+  },
+  {
+   "id": "vi_say_292285a7",
+   "text": "Cái lưỡi giúp bé nếm vị ngọt, vị chua và vị mặn."
+  },
+  {
+   "id": "vi_say_683312be",
+   "text": "Cái miệng giúp bé ăn, nói và cười."
+  },
+  {
+   "id": "vi_say_1a8fdf7b",
+   "text": "Cái mũi giúp bé thở và ngửi mùi thơm."
+  },
+  {
+   "id": "vi_say_76ade709",
+   "text": "Cái tai giúp bé nghe được mọi âm thanh."
+  },
+  {
+   "id": "vi_say_4947dcff",
+   "text": "Cái trống kêu tùng tùng khi bé gõ."
+  },
+  {
+   "id": "vi_say_98d7bfcd",
+   "text": "Cái ô che cho mình không bị ướt khi trời mưa."
+  },
+  {
+   "id": "vi_say_a401f81f",
+   "text": "Cánh tay khỏe giúp bé ôm mọi người thật chặt."
+  },
+  {
+   "id": "vi_say_65264cd3",
+   "text": "Cây nấm có cái mũ tròn như một chiếc ô nhỏ."
+  },
+  {
+   "id": "vi_say_e35f8709",
+   "text": "Cây xanh cho mình bóng mát và không khí trong lành."
+  },
+  {
+   "id": "vi_say_f11e3c25",
+   "text": "Cô ca sĩ hát những bài hát thật hay."
+  },
+  {
+   "id": "vi_say_d90b58cb",
+   "text": "Cô giáo dạy các bạn nhỏ học chữ và học số."
+  },
+  {
+   "id": "vi_say_64bac509",
+   "text": "Cô họa sĩ vẽ những bức tranh thật đẹp."
+  },
+  {
+   "id": "vi_say_0bcb274b",
+   "text": "Cô y tá chăm sóc người bệnh ở bệnh viện."
+  },
+  {
+   "id": "vi_say_44d66480",
+   "text": "Côn trùng và chim"
+  },
+  {
+   "id": "vi_say_819ff196",
+   "text": "Cú mèo thức vào ban đêm và có đôi mắt to tròn."
+  },
+  {
+   "id": "vi_say_8a8864f0",
+   "text": "Cơ thể bé"
+  },
+  {
+   "id": "vi_say_597881f1",
+   "text": "Cầu vồng có bảy màu và hay hiện ra sau cơn mưa."
+  },
+  {
+   "id": "vi_say_ccf8eebd",
+   "text": "Củ cà rốt màu cam, có nhiều chất tốt cho mắt."
+  },
+  {
+   "id": "vi_say_182591b3",
+   "text": "Củ tỏi có mùi thơm nồng, dùng để nấu ăn."
+  },
+  {
+   "id": "vi_say_bd9fbb2d",
+   "text": "Dâu tây màu đỏ, có những hạt nhỏ li ti bên ngoài."
+  },
+  {
+   "id": "vi_say_cd2b7a46",
+   "text": "Dưa hấu có vỏ xanh, ruột đỏ và rất nhiều nước."
+  },
+  {
+   "id": "vi_say_561bdde0",
+   "text": "Dưa lưới có vỏ như tấm lưới và ruột ngọt thơm."
+  },
+  {
+   "id": "vi_say_4a6ec4d7",
+   "text": "Dưới biển"
+  },
+  {
+   "id": "vi_say_76497fdf",
+   "text": "Gió thổi làm lá cây đung đưa."
+  },
+  {
+   "id": "vi_say_fd34bbfb",
+   "text": "Gà con có bộ lông vàng và kêu chiếp chiếp."
+  },
+  {
+   "id": "vi_say_bb515c77",
+   "text": "Gấu bông mềm mại, bé ôm đi ngủ thật ấm."
+  },
+  {
+   "id": "vi_say_8ef0125e",
+   "text": "Gấu trúc có bộ lông đen trắng và thích ăn tre."
+  },
+  {
+   "id": "vi_say_e7c7dddd",
+   "text": "Hai bàn tay của bé có tất cả mười ngón tay."
+  },
+  {
+   "id": "vi_say_d37105a9",
+   "text": "Hoa quả"
+  },
+  {
+   "id": "vi_say_32dcaaa9",
+   "text": "Hà mã thích ngâm mình dưới nước cả ngày."
+  },
+  {
+   "id": "vi_say_2201f5d3",
+   "text": "Hươu cao cổ có cái cổ rất dài để ăn lá trên cây cao."
+  },
+  {
+   "id": "vi_say_43a9cf47",
+   "text": "Hạt lạc nằm trong vỏ và lớn lên ở dưới đất."
+  },
+  {
+   "id": "vi_say_fb90e0de",
+   "text": "Hạt đậu nhỏ xíu có thể nảy mầm thành cây."
+  },
+  {
+   "id": "vi_say_7d00aff8",
+   "text": "Hải cẩu bơi rất giỏi và thích nằm phơi nắng trên đá."
+  },
+  {
+   "id": "vi_say_ca936986",
+   "text": "Hồng hạc có bộ lông màu hồng và hay đứng bằng một chân."
+  },
+  {
+   "id": "vi_say_67d4f83a",
+   "text": "Khi cắt hành tây, mắt mình hay bị cay."
+  },
+  {
+   "id": "vi_say_313be173",
+   "text": "Khoai lang nướng thơm phức và ngọt bùi."
+  },
+  {
+   "id": "vi_say_27b886ea",
+   "text": "Khoai tây dùng để làm món khoai tây chiên."
+  },
+  {
+   "id": "vi_say_03cf4b15",
+   "text": "Lá phổi giúp bé hít thở không khí."
+  },
+  {
+   "id": "vi_say_3b00d6dc",
+   "text": "Lạc đà có cái bướu trên lưng và sống ở sa mạc."
+  },
+  {
+   "id": "vi_say_52c45165",
+   "text": "Lửa rất nóng, bé không được nghịch lửa nhé."
+  },
+  {
+   "id": "vi_say_ee320721",
+   "text": "Máy bay bay trên bầu trời, cao hơn cả mây."
+  },
+  {
+   "id": "vi_say_453286a2",
+   "text": "Máy cày giúp bác nông dân làm đất trên ruộng."
+  },
+  {
+   "id": "vi_say_01fbf621",
+   "text": "Mình chơi lại nhé!"
+  },
+  {
+   "id": "vi_say_be3edd74",
+   "text": "Mưa rơi xuống giúp cây cối xanh tươi."
+  },
+  {
+   "id": "vi_say_1ea7200e",
+   "text": "Mặt trăng sáng trên bầu trời vào ban đêm."
+  },
+  {
+   "id": "vi_say_7833d51c",
+   "text": "Mặt trời chiếu sáng và sưởi ấm Trái Đất."
+  },
+  {
+   "id": "vi_say_96f8edf4",
+   "text": "Mở búp bê gỗ ra, bên trong có búp bê nhỏ hơn."
+  },
+  {
+   "id": "vi_say_2c1af1c8",
+   "text": "Mở cái cửa ra là mình đi vào được trong nhà."
+  },
+  {
+   "id": "vi_say_f7bc5038",
+   "text": "Nghề nghiệp"
+  },
+  {
+   "id": "vi_say_6c93206a",
+   "text": "Người Việt Nam dùng đôi đũa để gắp thức ăn."
+  },
+  {
+   "id": "vi_say_8427b133",
+   "text": "Ngọn núi rất cao, đứng trên đỉnh núi nhìn được rất xa."
+  },
+  {
+   "id": "vi_say_64c4fb31",
+   "text": "Ngựa vằn có bộ lông sọc đen và trắng."
+  },
+  {
+   "id": "vi_say_ced181f2",
+   "text": "Nho mọc thành chùm, có quả màu tím và quả màu xanh."
+  },
+  {
+   "id": "vi_say_d812e0eb",
+   "text": "Nhà khoa học làm thí nghiệm để tìm ra điều mới."
+  },
+  {
+   "id": "vi_say_07c22530",
+   "text": "Những ngôi sao lấp lánh trên bầu trời đêm."
+  },
+  {
+   "id": "vi_say_e31af0fc",
+   "text": "Núi lửa phun ra dung nham nóng đỏ rực."
+  },
+  {
+   "id": "vi_say_eaf5dbbf",
+   "text": "Phi hành gia bay vào vũ trụ bằng tên lửa."
+  },
+  {
+   "id": "vi_say_e44d9436",
+   "text": "Quả anh đào nhỏ xinh, màu đỏ và hay mọc thành đôi."
+  },
+  {
+   "id": "vi_say_bff12675",
+   "text": "Quả bóng rổ được ném vào cái rổ ở trên cao."
+  },
+  {
+   "id": "vi_say_fe238a33",
+   "text": "Quả cam mọng nước, uống nước cam giúp bé khỏe."
+  },
+  {
+   "id": "vi_say_f95b14c0",
+   "text": "Quả chanh có vị rất chua, dùng để pha nước chanh."
+  },
+  {
+   "id": "vi_say_bd1ec063",
+   "text": "Quả chuối chín có vỏ màu vàng, ăn rất mềm."
+  },
+  {
+   "id": "vi_say_c13a38e3",
+   "text": "Quả cà chua chín có màu đỏ và nhiều nước."
+  },
+  {
+   "id": "vi_say_9a92996c",
+   "text": "Quả cà tím có lớp vỏ màu tím bóng."
+  },
+  {
+   "id": "vi_say_7a108cb5",
+   "text": "Quả dưa chuột ăn giòn và mát."
+  },
+  {
+   "id": "vi_say_a3f0ca0d",
+   "text": "Quả dứa có vỏ sần sùi và chùm lá nhọn trên đầu."
+  },
+  {
+   "id": "vi_say_c1fd3afd",
+   "text": "Quả dừa có nước ngọt mát ở bên trong."
+  },
+  {
+   "id": "vi_say_a3599988",
+   "text": "Quả kiwi vỏ nâu có lông, ruột xanh có hạt đen nhỏ."
+  },
+  {
+   "id": "vi_say_d814fe34",
+   "text": "Quả lê có nhiều nước, ăn giòn và mát."
+  },
+  {
+   "id": "vi_say_660e4af6",
+   "text": "Quả táo ăn giòn ngọt, có màu đỏ hoặc màu xanh."
+  },
+  {
+   "id": "vi_say_43a7e5c0",
+   "text": "Quả việt quất nhỏ, tròn và có màu xanh tím."
+  },
+  {
+   "id": "vi_say_b2b41ece",
+   "text": "Quả xoài chín có màu vàng và rất thơm ngọt."
+  },
+  {
+   "id": "vi_say_7fb4399b",
+   "text": "Quả đào có vỏ mịn như nhung và rất thơm."
+  },
+  {
+   "id": "vi_say_abb7ceab",
+   "text": "Quả ớt rất cay, bé đừng cắn nhé."
+  },
+  {
+   "id": "vi_say_f744c53f",
+   "text": "Rau cải có lá xanh to, nấu canh rất ngon."
+  },
+  {
+   "id": "vi_say_ed4ce5b7",
+   "text": "Rau củ"
+  },
+  {
+   "id": "vi_say_68562d06",
+   "text": "Rái cá thích nằm ngửa trên mặt nước."
+  },
+  {
+   "id": "vi_say_b4663204",
+   "text": "Rùa biển bơi rất xa và lên bãi cát để đẻ trứng."
+  },
+  {
+   "id": "vi_say_32452a1a",
+   "text": "San hô có nhiều màu sắc và là nhà của nhiều loài cá."
+  },
+  {
+   "id": "vi_say_aada9c63",
+   "text": "Sóng biển vỗ vào bờ cát rì rào."
+  },
+  {
+   "id": "vi_say_0795aa05",
+   "text": "Súp lơ xanh trông giống như một cái cây nhỏ."
+  },
+  {
+   "id": "vi_say_933bae7e",
+   "text": "Sư tử đực có bờm lông dày quanh cổ và gầm rất to."
+  },
+  {
+   "id": "vi_say_2259fe7a",
+   "text": "Thiên nga có cái cổ dài và bơi trên hồ rất đẹp."
+  },
+  {
+   "id": "vi_say_4aa978bd",
+   "text": "Thiên nhiên và thời tiết"
+  },
+  {
+   "id": "vi_say_4d7cc64e",
+   "text": "Thuyền buồm đi trên biển nhờ có gió thổi."
+  },
+  {
+   "id": "vi_say_28a06365",
+   "text": "Tia chớp lóe sáng, sau đó có tiếng sấm ầm ầm."
+  },
+  {
+   "id": "vi_say_eab7f08b",
+   "text": "Trái tim đập thình thịch cả ngày lẫn đêm."
+  },
+  {
+   "id": "vi_say_76990a3f",
+   "text": "Trái Đất"
+  },
+  {
+   "id": "vi_say_e6fe8530",
+   "text": "Trái Đất là ngôi nhà chung của tất cả chúng mình."
+  },
+  {
+   "id": "vi_say_72d37151",
+   "text": "Trực thăng có cánh quạt quay tít ở trên đầu."
+  },
+  {
+   "id": "vi_say_367c7586",
+   "text": "Tuyệt vời! Bé đoán đúng rồi!"
+  },
+  {
+   "id": "vi_say_d1f981c3",
+   "text": "Tàu hỏa chạy trên đường ray và kêu tu tu."
+  },
+  {
+   "id": "vi_say_ff52b52b",
+   "text": "Tàu thủy to lớn chở người và hàng hóa qua biển."
+  },
+  {
+   "id": "vi_say_5d4d0350",
+   "text": "Tê giác có cái sừng to ở trên mũi."
+  },
+  {
+   "id": "vi_say_28439fa4",
+   "text": "Tên lửa bay vào vũ trụ, rất xa Trái Đất."
+  },
+  {
+   "id": "vi_say_f77f0542",
+   "text": "Tôm hùm có vỏ cứng và hai cái càng to."
+  },
+  {
+   "id": "vi_say_171bcbae",
+   "text": "Vòng quay ngựa gỗ quay tròn và có nhạc vui."
+  },
+  {
+   "id": "vi_say_6bc7c61c",
+   "text": "Xe buýt rất to và chở được nhiều người."
+  },
+  {
+   "id": "vi_say_f4fa273b",
+   "text": "Xe cảnh sát có còi hú và đèn nhấp nháy."
+  },
+  {
+   "id": "vi_say_e4c7591a",
+   "text": "Xe cộ"
+  },
+  {
+   "id": "vi_say_869b66bd",
+   "text": "Xe cứu hỏa màu đỏ, phun nước để dập lửa."
+  },
+  {
+   "id": "vi_say_97c2cd73",
+   "text": "Xe cứu thương chở người bệnh đến bệnh viện."
+  },
+  {
+   "id": "vi_say_52bdabe3",
+   "text": "Xe máy có hai bánh, đi xe máy phải đội mũ bảo hiểm."
+  },
+  {
+   "id": "vi_say_1706a385",
+   "text": "Xe taxi chở khách đến nơi họ muốn đi."
+  },
+  {
+   "id": "vi_say_00c696ed",
+   "text": "Xe tải chở được rất nhiều hàng hóa nặng."
+  },
+  {
+   "id": "vi_say_22c8406e",
+   "text": "Xe ô tô có bốn bánh và chở cả nhà đi chơi."
+  },
+  {
+   "id": "vi_say_2b55ede4",
+   "text": "Xe đạp có hai bánh, bé đạp bằng chân."
+  },
+  {
+   "id": "vi_say_67e87aa0",
+   "text": "bàn chân"
+  },
+  {
+   "id": "vi_say_4f55a22d",
+   "text": "bàn chải đánh răng"
+  },
+  {
+   "id": "vi_say_29feb092",
+   "text": "bàn tay"
+  },
+  {
+   "id": "vi_say_c733bbd1",
+   "text": "bác nông dân"
+  },
+  {
+   "id": "vi_say_6c87bb9c",
+   "text": "bác sĩ"
+  },
+  {
+   "id": "vi_say_38bab952",
+   "text": "bánh xà phòng"
+  },
+  {
+   "id": "vi_say_1a9c1e66",
+   "text": "bóng đèn"
+  },
+  {
+   "id": "vi_say_7ab3d9f9",
+   "text": "bông hoa"
+  },
+  {
+   "id": "vi_say_fbd0737f",
+   "text": "bông tuyết"
+  },
+  {
+   "id": "vi_say_4aa28e27",
+   "text": "búp bê gỗ"
+  },
+  {
+   "id": "vi_say_ce4800cb",
+   "text": "bắp ngô"
+  },
+  {
+   "id": "vi_say_a101d8bb",
+   "text": "bồn tắm"
+  },
+  {
+   "id": "vi_say_a346ab01",
+   "text": "bộ não"
+  },
+  {
+   "id": "vi_say_8181037c",
+   "text": "bộ xương"
+  },
+  {
+   "id": "vi_say_c5fc9400",
+   "text": "chìa khóa"
+  },
+  {
+   "id": "vi_say_9fdaf21a",
+   "text": "chùm nho"
+  },
+  {
+   "id": "vi_say_ba1fcb71",
+   "text": "chú công an"
+  },
+  {
+   "id": "vi_say_67ebb506",
+   "text": "chú lính cứu hỏa"
+  },
+  {
+   "id": "vi_say_b86aa8e1",
+   "text": "chú phi công"
+  },
+  {
+   "id": "vi_say_6d69b0c2",
+   "text": "chú phi hành gia"
+  },
+  {
+   "id": "vi_say_99629358",
+   "text": "chú thợ sửa xe"
+  },
+  {
+   "id": "vi_say_6a21ef32",
+   "text": "chú thợ xây"
+  },
+  {
+   "id": "vi_say_51a63f13",
+   "text": "chú đầu bếp"
+  },
+  {
+   "id": "vi_say_67c9f2c4",
+   "text": "con bò"
+  },
+  {
+   "id": "vi_say_48ba3e17",
+   "text": "con bướm"
+  },
+  {
+   "id": "vi_say_8668ce5d",
+   "text": "con bạch tuộc"
+  },
+  {
+   "id": "vi_say_1d40e4bd",
+   "text": "con bọ rùa"
+  },
+  {
+   "id": "vi_say_5bb918ec",
+   "text": "con chim"
+  },
+  {
+   "id": "vi_say_2513e2fa",
+   "text": "con chim bồ câu"
+  },
+  {
+   "id": "vi_say_9d9b7f57",
+   "text": "con chim cánh cụt"
+  },
+  {
+   "id": "vi_say_22ea8f6c",
+   "text": "con chuột túi"
+  },
+  {
+   "id": "vi_say_b03bc478",
+   "text": "con chó"
+  },
+  {
+   "id": "vi_say_c33de6e8",
+   "text": "con cua"
+  },
+  {
+   "id": "vi_say_f0573b6a",
+   "text": "con cá"
+  },
+  {
+   "id": "vi_say_7b6940af",
+   "text": "con cá cảnh"
+  },
+  {
+   "id": "vi_say_93bcd61e",
+   "text": "con cá heo"
+  },
+  {
+   "id": "vi_say_069895d3",
+   "text": "con cá mập"
+  },
+  {
+   "id": "vi_say_c81d2dd7",
+   "text": "con cá nóc"
+  },
+  {
+   "id": "vi_say_c5140746",
+   "text": "con cá sấu"
+  },
+  {
+   "id": "vi_say_c1aec6f4",
+   "text": "con cá voi"
+  },
+  {
+   "id": "vi_say_5e51e8df",
+   "text": "con cáo"
+  },
+  {
+   "id": "vi_say_bad85a0e",
+   "text": "con công"
+  },
+  {
+   "id": "vi_say_7623f8b4",
+   "text": "con cú mèo"
+  },
+  {
+   "id": "vi_say_277443d2",
+   "text": "con cừu"
+  },
+  {
+   "id": "vi_say_adfaec20",
+   "text": "con diều"
+  },
+  {
+   "id": "vi_say_2d44d48a",
+   "text": "con dê"
+  },
+  {
+   "id": "vi_say_ec7aa81d",
+   "text": "con dế"
+  },
+  {
+   "id": "vi_say_aefce261",
+   "text": "con gà con"
+  },
+  {
+   "id": "vi_say_799b2a5d",
+   "text": "con gà mái"
+  },
+  {
+   "id": "vi_say_51c6350b",
+   "text": "con gà trống"
+  },
+  {
+   "id": "vi_say_a21cfb93",
+   "text": "con gà tây"
+  },
+  {
+   "id": "vi_say_79ce7573",
+   "text": "con gấu"
+  },
+  {
+   "id": "vi_say_17035c0d",
+   "text": "con gấu bông"
+  },
+  {
+   "id": "vi_say_c4b3c41b",
+   "text": "con gấu trúc"
+  },
+  {
+   "id": "vi_say_bbc34caf",
+   "text": "con heo"
+  },
+  {
+   "id": "vi_say_f882dab5",
+   "text": "con hà mã"
+  },
+  {
+   "id": "vi_say_a3db60d2",
+   "text": "con hươu cao cổ"
+  },
+  {
+   "id": "vi_say_355b7e4c",
+   "text": "con hải cẩu"
+  },
+  {
+   "id": "vi_say_cf7f91cc",
+   "text": "con hồng hạc"
+  },
+  {
+   "id": "vi_say_8c7358ce",
+   "text": "con hổ"
+  },
+  {
+   "id": "vi_say_6947614d",
+   "text": "con khỉ"
+  },
+  {
+   "id": "vi_say_80d8922b",
+   "text": "con kiến"
+  },
+  {
+   "id": "vi_say_eb606dbc",
+   "text": "con lạc đà"
+  },
+  {
+   "id": "vi_say_c7eef48b",
+   "text": "con muỗi"
+  },
+  {
+   "id": "vi_say_ccf2f818",
+   "text": "con mèo"
+  },
+  {
+   "id": "vi_say_baf8e2bc",
+   "text": "con mực"
+  },
+  {
+   "id": "vi_say_b1165f58",
+   "text": "con ngựa"
+  },
+  {
+   "id": "vi_say_d7a31e7a",
+   "text": "con ngựa vằn"
+  },
+  {
+   "id": "vi_say_e6a03b82",
+   "text": "con nhím"
+  },
+  {
+   "id": "vi_say_e4ccbb41",
+   "text": "con ong"
+  },
+  {
+   "id": "vi_say_fe94e879",
+   "text": "con rái cá"
+  },
+  {
+   "id": "vi_say_87ac3648",
+   "text": "con rùa biển"
+  },
+  {
+   "id": "vi_say_57dba96f",
+   "text": "con rắn"
+  },
+  {
+   "id": "vi_say_3ac10ad6",
+   "text": "con sâu"
+  },
+  {
+   "id": "vi_say_2c97a6c5",
+   "text": "con sóc"
+  },
+  {
+   "id": "vi_say_3297b037",
+   "text": "con sói"
+  },
+  {
+   "id": "vi_say_78f8154b",
+   "text": "con sư tử"
+  },
+  {
+   "id": "vi_say_e31703fb",
+   "text": "con thiên nga"
+  },
+  {
+   "id": "vi_say_4957b0de",
+   "text": "con thỏ"
+  },
+  {
+   "id": "vi_say_50bfda1d",
+   "text": "con trâu"
+  },
+  {
+   "id": "vi_say_694fabbb",
+   "text": "con tê giác"
+  },
+  {
+   "id": "vi_say_29dd72f7",
+   "text": "con tôm"
+  },
+  {
+   "id": "vi_say_67366e86",
+   "text": "con tôm hùm"
+  },
+  {
+   "id": "vi_say_1acc0e15",
+   "text": "con voi"
+  },
+  {
+   "id": "vi_say_50cbe1ef",
+   "text": "con vẹt"
+  },
+  {
+   "id": "vi_say_cd5fa06a",
+   "text": "con vịt"
+  },
+  {
+   "id": "vi_say_d2303181",
+   "text": "con đại bàng"
+  },
+  {
+   "id": "vi_say_0813ba0d",
+   "text": "con ốc sên"
+  },
+  {
+   "id": "vi_say_b364e8ab",
+   "text": "cái chuông"
+  },
+  {
+   "id": "vi_say_03b7a699",
+   "text": "cái chân"
+  },
+  {
+   "id": "vi_say_e0f20ea9",
+   "text": "cái chảo"
+  },
+  {
+   "id": "vi_say_54fc07be",
+   "text": "cái chổi"
+  },
+  {
+   "id": "vi_say_004b5b5e",
+   "text": "cái cửa"
+  },
+  {
+   "id": "vi_say_852e9f24",
+   "text": "cái ghế"
+  },
+  {
+   "id": "vi_say_d0fc1b1f",
+   "text": "cái giường"
+  },
+  {
+   "id": "vi_say_c01c2710",
+   "text": "cái giỏ"
+  },
+  {
+   "id": "vi_say_aa675760",
+   "text": "cái gương"
+  },
+  {
+   "id": "vi_say_5f64349b",
+   "text": "cái kèn"
+  },
+  {
+   "id": "vi_say_54c6b1ed",
+   "text": "cái lưỡi"
+  },
+  {
+   "id": "vi_say_1ec5dced",
+   "text": "cái miệng"
+  },
+  {
+   "id": "vi_say_c7809b63",
+   "text": "cái mũi"
+  },
+  {
+   "id": "vi_say_36ff105d",
+   "text": "cái răng"
+  },
+  {
+   "id": "vi_say_d74bd2e3",
+   "text": "cái tai"
+  },
+  {
+   "id": "vi_say_1353706f",
+   "text": "cái thìa"
+  },
+  {
+   "id": "vi_say_71e8a711",
+   "text": "cái ti vi"
+  },
+  {
+   "id": "vi_say_e6835a27",
+   "text": "cái trống"
+  },
+  {
+   "id": "vi_say_54a99348",
+   "text": "cái ô"
+  },
+  {
+   "id": "vi_say_c8a66973",
+   "text": "cái đồng hồ"
+  },
+  {
+   "id": "vi_say_997821aa",
+   "text": "cánh tay"
+  },
+  {
+   "id": "vi_say_43a14611",
+   "text": "cây nấm"
+  },
+  {
+   "id": "vi_say_b24b9c9b",
+   "text": "cây xanh"
+  },
+  {
+   "id": "vi_say_5e8c8fc9",
+   "text": "cô ca sĩ"
+  },
+  {
+   "id": "vi_say_1bf96e34",
+   "text": "cô giáo"
+  },
+  {
+   "id": "vi_say_3f4be71d",
+   "text": "cô họa sĩ"
+  },
+  {
+   "id": "vi_say_26adac6a",
+   "text": "cô y tá"
+  },
+  {
+   "id": "vi_say_2448595f",
+   "text": "cơn gió"
+  },
+  {
+   "id": "vi_say_00b5d069",
+   "text": "cơn mưa"
+  },
+  {
+   "id": "vi_say_7c2039ec",
+   "text": "cầu trượt"
+  },
+  {
+   "id": "vi_say_04aaccf3",
+   "text": "cầu vồng"
+  },
+  {
+   "id": "vi_say_9e21bdae",
+   "text": "củ cà rốt"
+  },
+  {
+   "id": "vi_say_6182515e",
+   "text": "củ hành tây"
+  },
+  {
+   "id": "vi_say_e3372ac3",
+   "text": "củ khoai lang"
+  },
+  {
+   "id": "vi_say_5851c883",
+   "text": "củ khoai tây"
+  },
+  {
+   "id": "vi_say_c6ff182f",
+   "text": "củ tỏi"
+  },
+  {
+   "id": "vi_say_b217e0b6",
+   "text": "giọt nước"
+  },
+  {
+   "id": "vi_say_9d59fefa",
+   "text": "hạt lạc"
+  },
+  {
+   "id": "vi_say_a0e2970d",
+   "text": "hạt đậu"
+  },
+  {
+   "id": "vi_say_c552c313",
+   "text": "hộp màu vẽ"
+  },
+  {
+   "id": "vi_say_e8c1995f",
+   "text": "lá phổi"
+  },
+  {
+   "id": "vi_say_c0fc4903",
+   "text": "máy bay"
+  },
+  {
+   "id": "vi_say_285fa863",
+   "text": "máy bay trực thăng"
+  },
+  {
+   "id": "vi_say_68a4477c",
+   "text": "máy cày"
+  },
+  {
+   "id": "vi_say_90cd0bb0",
+   "text": "mặt trăng"
+  },
+  {
+   "id": "vi_say_caa06b38",
+   "text": "mặt trời"
+  },
+  {
+   "id": "vi_say_7cf05e9c",
+   "text": "ngón tay"
+  },
+  {
+   "id": "vi_say_c847ec31",
+   "text": "ngôi sao"
+  },
+  {
+   "id": "vi_say_c187eb1f",
+   "text": "ngọn lửa"
+  },
+  {
+   "id": "vi_say_2560ff6d",
+   "text": "ngọn núi"
+  },
+  {
+   "id": "vi_say_127bb57b",
+   "text": "nhà khoa học"
+  },
+  {
+   "id": "vi_say_c2431885",
+   "text": "núi lửa"
+  },
+  {
+   "id": "vi_say_1f552bb5",
+   "text": "quả anh đào"
+  },
+  {
+   "id": "vi_say_ae7e2d2a",
+   "text": "quả bóng bay"
+  },
+  {
+   "id": "vi_say_91a995d3",
+   "text": "quả bóng rổ"
+  },
+  {
+   "id": "vi_say_51bb7819",
+   "text": "quả bóng đá"
+  },
+  {
+   "id": "vi_say_c0b1b32e",
+   "text": "quả cam"
+  },
+  {
+   "id": "vi_say_81e5d6e9",
+   "text": "quả chanh"
+  },
+  {
+   "id": "vi_say_0344fe69",
+   "text": "quả chuối"
+  },
+  {
+   "id": "vi_say_81dd4a40",
+   "text": "quả cà chua"
+  },
+  {
+   "id": "vi_say_64897fae",
+   "text": "quả cà tím"
+  },
+  {
+   "id": "vi_say_5be415b9",
+   "text": "quả dâu tây"
+  },
+  {
+   "id": "vi_say_0894dff5",
+   "text": "quả dưa chuột"
+  },
+  {
+   "id": "vi_say_54bb57fb",
+   "text": "quả dưa hấu"
+  },
+  {
+   "id": "vi_say_5a9005f8",
+   "text": "quả dưa lưới"
+  },
+  {
+   "id": "vi_say_298c9033",
+   "text": "quả dứa"
+  },
+  {
+   "id": "vi_say_35912045",
+   "text": "quả dừa"
+  },
+  {
+   "id": "vi_say_90c83fab",
+   "text": "quả kiwi"
+  },
+  {
+   "id": "vi_say_7b131c54",
+   "text": "quả lê"
+  },
+  {
+   "id": "vi_say_1ec48e86",
+   "text": "quả táo"
+  },
+  {
+   "id": "vi_say_ab1567a7",
+   "text": "quả việt quất"
+  },
+  {
+   "id": "vi_say_b6a9feac",
+   "text": "quả xoài"
+  },
+  {
+   "id": "vi_say_9ef56ef4",
+   "text": "quả đào"
+  },
+  {
+   "id": "vi_say_590385cc",
+   "text": "quả ớt"
+  },
+  {
+   "id": "vi_say_e7b5a77e",
+   "text": "quả ớt chuông"
+  },
+  {
+   "id": "vi_say_d0745269",
+   "text": "rau cải"
+  },
+  {
+   "id": "vi_say_e0b8e6f2",
+   "text": "san hô"
+  },
+  {
+   "id": "vi_say_b9935419",
+   "text": "sóng biển"
+  },
+  {
+   "id": "vi_say_de8501a5",
+   "text": "súp lơ xanh"
+  },
+  {
+   "id": "vi_say_62e4daf1",
+   "text": "thuyền buồm"
+  },
+  {
+   "id": "vi_say_f0492f77",
+   "text": "tia chớp"
+  },
+  {
+   "id": "vi_say_9ae88a2c",
+   "text": "trái tim"
+  },
+  {
+   "id": "vi_say_d4b404d2",
+   "text": "trò ghép hình"
+  },
+  {
+   "id": "vi_say_da3d557f",
+   "text": "tàu hỏa"
+  },
+  {
+   "id": "vi_say_792c8689",
+   "text": "tàu thủy"
+  },
+  {
+   "id": "vi_say_9d5dbe46",
+   "text": "tên lửa"
+  },
+  {
+   "id": "vi_say_5ec8d5dc",
+   "text": "vòng quay ngựa gỗ"
+  },
+  {
+   "id": "vi_say_94bab88e",
+   "text": "vỏ ốc biển"
+  },
+  {
+   "id": "vi_say_9096328d",
+   "text": "xe buýt"
+  },
+  {
+   "id": "vi_say_80af3c6a",
+   "text": "xe cảnh sát"
+  },
+  {
+   "id": "vi_say_13ba8ca5",
+   "text": "xe cứu hỏa"
+  },
+  {
+   "id": "vi_say_85c1ac37",
+   "text": "xe cứu thương"
+  },
+  {
+   "id": "vi_say_1d9fb238",
+   "text": "xe máy"
+  },
+  {
+   "id": "vi_say_66e781be",
+   "text": "xe taxi"
+  },
+  {
+   "id": "vi_say_d2bcd315",
+   "text": "xe tải"
+  },
+  {
+   "id": "vi_say_dfe26716",
+   "text": "xe ô tô"
+  },
+  {
+   "id": "vi_say_e3e3142f",
+   "text": "xe đạp"
+  },
+  {
+   "id": "vi_say_3b092d21",
+   "text": "Áp vỏ ốc biển vào tai, bé nghe như có tiếng sóng."
+  },
+  {
+   "id": "vi_say_1c9d5257",
+   "text": "Đàn ghi ta có dây, gảy lên kêu tưng tưng."
+  },
+  {
+   "id": "vi_say_1e2c6cf5",
+   "text": "Đàn piano có phím màu trắng và phím màu đen."
+  },
+  {
+   "id": "vi_say_15108e28",
+   "text": "Đàn vĩ cầm được kéo bằng một cây vĩ."
+  },
+  {
+   "id": "vi_say_73aad82d",
+   "text": "Đám mây trắng bồng bềnh trôi trên trời."
+  },
+  {
+   "id": "vi_say_aa79a349",
+   "text": "Đâu là Trái Đất?"
+  },
+  {
+   "id": "vi_say_83236302",
+   "text": "Đâu là bàn chân?"
+  },
+  {
+   "id": "vi_say_7f37746b",
+   "text": "Đâu là bàn chải đánh răng?"
+  },
+  {
+   "id": "vi_say_92f9da8c",
+   "text": "Đâu là bàn tay?"
+  },
+  {
+   "id": "vi_say_c009c9a3",
+   "text": "Đâu là bác nông dân?"
+  },
+  {
+   "id": "vi_say_837e889a",
+   "text": "Đâu là bác sĩ?"
+  },
+  {
+   "id": "vi_say_9b86e3d0",
+   "text": "Đâu là bánh xà phòng?"
+  },
+  {
+   "id": "vi_say_7ed6b074",
+   "text": "Đâu là bóng đèn?"
+  },
+  {
+   "id": "vi_say_fa5c22af",
+   "text": "Đâu là bông hoa?"
+  },
+  {
+   "id": "vi_say_871b2281",
+   "text": "Đâu là bông tuyết?"
+  },
+  {
+   "id": "vi_say_425e840d",
+   "text": "Đâu là búp bê gỗ?"
+  },
+  {
+   "id": "vi_say_ed6fa6d1",
+   "text": "Đâu là bắp ngô?"
+  },
+  {
+   "id": "vi_say_800a0cad",
+   "text": "Đâu là bồn tắm?"
+  },
+  {
+   "id": "vi_say_c2f15643",
+   "text": "Đâu là bộ não?"
+  },
+  {
+   "id": "vi_say_57397382",
+   "text": "Đâu là bộ xương?"
+  },
+  {
+   "id": "vi_say_d5f58bce",
+   "text": "Đâu là chìa khóa?"
+  },
+  {
+   "id": "vi_say_50138684",
+   "text": "Đâu là chùm nho?"
+  },
+  {
+   "id": "vi_say_5f08b13b",
+   "text": "Đâu là chú công an?"
+  },
+  {
+   "id": "vi_say_c59f97a0",
+   "text": "Đâu là chú lính cứu hỏa?"
+  },
+  {
+   "id": "vi_say_c75e74eb",
+   "text": "Đâu là chú phi công?"
+  },
+  {
+   "id": "vi_say_896b8688",
+   "text": "Đâu là chú phi hành gia?"
+  },
+  {
+   "id": "vi_say_5815860e",
+   "text": "Đâu là chú thợ sửa xe?"
+  },
+  {
+   "id": "vi_say_91d5fd88",
+   "text": "Đâu là chú thợ xây?"
+  },
+  {
+   "id": "vi_say_3229a60d",
+   "text": "Đâu là chú đầu bếp?"
+  },
+  {
+   "id": "vi_say_eeb8e81e",
+   "text": "Đâu là con bò?"
+  },
+  {
+   "id": "vi_say_9aed1505",
+   "text": "Đâu là con bướm?"
+  },
+  {
+   "id": "vi_say_b29967b7",
+   "text": "Đâu là con bạch tuộc?"
+  },
+  {
+   "id": "vi_say_846169a3",
+   "text": "Đâu là con bọ rùa?"
+  },
+  {
+   "id": "vi_say_ae239010",
+   "text": "Đâu là con chim bồ câu?"
+  },
+  {
+   "id": "vi_say_88fe6c39",
+   "text": "Đâu là con chim cánh cụt?"
+  },
+  {
+   "id": "vi_say_af7d4e82",
+   "text": "Đâu là con chim?"
+  },
+  {
+   "id": "vi_say_1f79f3be",
+   "text": "Đâu là con chuột túi?"
+  },
+  {
+   "id": "vi_say_6081d98e",
+   "text": "Đâu là con chó?"
+  },
+  {
+   "id": "vi_say_4eea5b62",
+   "text": "Đâu là con cua?"
+  },
+  {
+   "id": "vi_say_7b13b941",
+   "text": "Đâu là con cá cảnh?"
+  },
+  {
+   "id": "vi_say_b15a0678",
+   "text": "Đâu là con cá heo?"
+  },
+  {
+   "id": "vi_say_5d7af71d",
+   "text": "Đâu là con cá mập?"
+  },
+  {
+   "id": "vi_say_ea0a8af1",
+   "text": "Đâu là con cá nóc?"
+  },
+  {
+   "id": "vi_say_c7da9f84",
+   "text": "Đâu là con cá sấu?"
+  },
+  {
+   "id": "vi_say_cb6886fa",
+   "text": "Đâu là con cá voi?"
+  },
+  {
+   "id": "vi_say_6499f380",
+   "text": "Đâu là con cá?"
+  },
+  {
+   "id": "vi_say_4d5b013d",
+   "text": "Đâu là con cáo?"
+  },
+  {
+   "id": "vi_say_fee7fe3c",
+   "text": "Đâu là con công?"
+  },
+  {
+   "id": "vi_say_34dce532",
+   "text": "Đâu là con cú mèo?"
+  },
+  {
+   "id": "vi_say_87e47dec",
+   "text": "Đâu là con cừu?"
+  },
+  {
+   "id": "vi_say_e53c74ce",
+   "text": "Đâu là con diều?"
+  },
+  {
+   "id": "vi_say_07e2a950",
+   "text": "Đâu là con dê?"
+  },
+  {
+   "id": "vi_say_64b0210f",
+   "text": "Đâu là con dế?"
+  },
+  {
+   "id": "vi_say_53da1363",
+   "text": "Đâu là con gà con?"
+  },
+  {
+   "id": "vi_say_5004ea93",
+   "text": "Đâu là con gà mái?"
+  },
+  {
+   "id": "vi_say_711ff651",
+   "text": "Đâu là con gà trống?"
+  },
+  {
+   "id": "vi_say_96845645",
+   "text": "Đâu là con gà tây?"
+  },
+  {
+   "id": "vi_say_c2fd87a3",
+   "text": "Đâu là con gấu bông?"
+  },
+  {
+   "id": "vi_say_1b8d9bd1",
+   "text": "Đâu là con gấu trúc?"
+  },
+  {
+   "id": "vi_say_be881ae1",
+   "text": "Đâu là con gấu?"
+  },
+  {
+   "id": "vi_say_2fec3581",
+   "text": "Đâu là con heo?"
+  },
+  {
+   "id": "vi_say_0067a8a7",
+   "text": "Đâu là con hà mã?"
+  },
+  {
+   "id": "vi_say_c8832ac0",
+   "text": "Đâu là con hươu cao cổ?"
+  },
+  {
+   "id": "vi_say_75c707ca",
+   "text": "Đâu là con hải cẩu?"
+  },
+  {
+   "id": "vi_say_365c0b7e",
+   "text": "Đâu là con hồng hạc?"
+  },
+  {
+   "id": "vi_say_1401b634",
+   "text": "Đâu là con hổ?"
+  },
+  {
+   "id": "vi_say_2476faab",
+   "text": "Đâu là con khỉ?"
+  },
+  {
+   "id": "vi_say_cf353325",
+   "text": "Đâu là con kiến?"
+  },
+  {
+   "id": "vi_say_2ce31512",
+   "text": "Đâu là con lạc đà?"
+  },
+  {
+   "id": "vi_say_0cda435d",
+   "text": "Đâu là con muỗi?"
+  },
+  {
+   "id": "vi_say_461c35fa",
+   "text": "Đâu là con mèo?"
+  },
+  {
+   "id": "vi_say_0d5c2792",
+   "text": "Đâu là con mực?"
+  },
+  {
+   "id": "vi_say_ec60ae04",
+   "text": "Đâu là con ngựa vằn?"
+  },
+  {
+   "id": "vi_say_eba56ad6",
+   "text": "Đâu là con ngựa?"
+  },
+  {
+   "id": "vi_say_e789d8f0",
+   "text": "Đâu là con nhím?"
+  },
+  {
+   "id": "vi_say_7414cdd3",
+   "text": "Đâu là con ong?"
+  },
+  {
+   "id": "vi_say_3e2d3cb3",
+   "text": "Đâu là con rái cá?"
+  },
+  {
+   "id": "vi_say_38c712fe",
+   "text": "Đâu là con rùa biển?"
+  },
+  {
+   "id": "vi_say_0b26c705",
+   "text": "Đâu là con rắn?"
+  },
+  {
+   "id": "vi_say_92cb9414",
+   "text": "Đâu là con sâu?"
+  },
+  {
+   "id": "vi_say_78a21d1f",
+   "text": "Đâu là con sóc?"
+  },
+  {
+   "id": "vi_say_82a22cdd",
+   "text": "Đâu là con sói?"
+  },
+  {
+   "id": "vi_say_97fca9b9",
+   "text": "Đâu là con sư tử?"
+  },
+  {
+   "id": "vi_say_4ffe49f1",
+   "text": "Đâu là con thiên nga?"
+  },
+  {
+   "id": "vi_say_e8a9c734",
+   "text": "Đâu là con thỏ?"
+  },
+  {
+   "id": "vi_say_26d2a777",
+   "text": "Đâu là con trâu?"
+  },
+  {
+   "id": "vi_say_4f41a5dd",
+   "text": "Đâu là con tê giác?"
+  },
+  {
+   "id": "vi_say_4f31b854",
+   "text": "Đâu là con tôm hùm?"
+  },
+  {
+   "id": "vi_say_d9e5f6b5",
+   "text": "Đâu là con tôm?"
+  },
+  {
+   "id": "vi_say_39556043",
+   "text": "Đâu là con voi?"
+  },
+  {
+   "id": "vi_say_b0e61125",
+   "text": "Đâu là con vẹt?"
+  },
+  {
+   "id": "vi_say_15bece5c",
+   "text": "Đâu là con vịt?"
+  },
+  {
+   "id": "vi_say_36c463af",
+   "text": "Đâu là con đại bàng?"
+  },
+  {
+   "id": "vi_say_87b30c53",
+   "text": "Đâu là con ốc sên?"
+  },
+  {
+   "id": "vi_say_56c960f9",
+   "text": "Đâu là cái chuông?"
+  },
+  {
+   "id": "vi_say_a26b95f7",
+   "text": "Đâu là cái chân?"
+  },
+  {
+   "id": "vi_say_484f5b33",
+   "text": "Đâu là cái chảo?"
+  },
+  {
+   "id": "vi_say_d2bc5040",
+   "text": "Đâu là cái chổi?"
+  },
+  {
+   "id": "vi_say_f06d7eb4",
+   "text": "Đâu là cái cửa?"
+  },
+  {
+   "id": "vi_say_d8fc5ad6",
+   "text": "Đâu là cái ghế?"
+  },
+  {
+   "id": "vi_say_55591059",
+   "text": "Đâu là cái giường?"
+  },
+  {
+   "id": "vi_say_a282e1f2",
+   "text": "Đâu là cái giỏ?"
+  },
+  {
+   "id": "vi_say_72d47dea",
+   "text": "Đâu là cái gương?"
+  },
+  {
+   "id": "vi_say_d25faae1",
+   "text": "Đâu là cái kèn?"
+  },
+  {
+   "id": "vi_say_8145751b",
+   "text": "Đâu là cái lưỡi?"
+  },
+  {
+   "id": "vi_say_137d95c3",
+   "text": "Đâu là cái miệng?"
+  },
+  {
+   "id": "vi_say_51e9163d",
+   "text": "Đâu là cái mũi?"
+  },
+  {
+   "id": "vi_say_a728fdeb",
+   "text": "Đâu là cái răng?"
+  },
+  {
+   "id": "vi_say_344e2461",
+   "text": "Đâu là cái tai?"
+  },
+  {
+   "id": "vi_say_72567bd9",
+   "text": "Đâu là cái thìa?"
+  },
+  {
+   "id": "vi_say_7f46f063",
+   "text": "Đâu là cái ti vi?"
+  },
+  {
+   "id": "vi_say_abf4123d",
+   "text": "Đâu là cái trống?"
+  },
+  {
+   "id": "vi_say_865adefe",
+   "text": "Đâu là cái ô?"
+  },
+  {
+   "id": "vi_say_fca87bed",
+   "text": "Đâu là cái đồng hồ?"
+  },
+  {
+   "id": "vi_say_a488f948",
+   "text": "Đâu là cánh tay?"
+  },
+  {
+   "id": "vi_say_4c31b6fb",
+   "text": "Đâu là cây nấm?"
+  },
+  {
+   "id": "vi_say_34a158dd",
+   "text": "Đâu là cây xanh?"
+  },
+  {
+   "id": "vi_say_f6f39747",
+   "text": "Đâu là cô ca sĩ?"
+  },
+  {
+   "id": "vi_say_ea658cba",
+   "text": "Đâu là cô giáo?"
+  },
+  {
+   "id": "vi_say_6c6bc2b7",
+   "text": "Đâu là cô họa sĩ?"
+  },
+  {
+   "id": "vi_say_5be9c7d0",
+   "text": "Đâu là cô y tá?"
+  },
+  {
+   "id": "vi_say_bb9fba39",
+   "text": "Đâu là cơn gió?"
+  },
+  {
+   "id": "vi_say_8a7a6353",
+   "text": "Đâu là cơn mưa?"
+  },
+  {
+   "id": "vi_say_df06afe6",
+   "text": "Đâu là cầu trượt?"
+  },
+  {
+   "id": "vi_say_7ebbaf11",
+   "text": "Đâu là cầu vồng?"
+  },
+  {
+   "id": "vi_say_51d55e28",
+   "text": "Đâu là củ cà rốt?"
+  },
+  {
+   "id": "vi_say_22300ab4",
+   "text": "Đâu là củ hành tây?"
+  },
+  {
+   "id": "vi_say_7adc0009",
+   "text": "Đâu là củ khoai lang?"
+  },
+  {
+   "id": "vi_say_bfaaa561",
+   "text": "Đâu là củ khoai tây?"
+  },
+  {
+   "id": "vi_say_c1c8ace1",
+   "text": "Đâu là củ tỏi?"
+  },
+  {
+   "id": "vi_say_d7e402a0",
+   "text": "Đâu là giọt nước?"
+  },
+  {
+   "id": "vi_say_d6cc2fd8",
+   "text": "Đâu là hạt lạc?"
+  },
+  {
+   "id": "vi_say_0ade26d3",
+   "text": "Đâu là hạt đậu?"
+  },
+  {
+   "id": "vi_say_d9a2776d",
+   "text": "Đâu là hộp màu vẽ?"
+  },
+  {
+   "id": "vi_say_a401528d",
+   "text": "Đâu là lá phổi?"
+  },
+  {
+   "id": "vi_say_f1989d39",
+   "text": "Đâu là máy bay trực thăng?"
+  },
+  {
+   "id": "vi_say_f2b27271",
+   "text": "Đâu là máy bay?"
+  },
+  {
+   "id": "vi_say_9703ffa2",
+   "text": "Đâu là máy cày?"
+  },
+  {
+   "id": "vi_say_d6a02cfe",
+   "text": "Đâu là mặt trăng?"
+  },
+  {
+   "id": "vi_say_f8e8cec6",
+   "text": "Đâu là mặt trời?"
+  },
+  {
+   "id": "vi_say_043b76fa",
+   "text": "Đâu là ngón tay?"
+  },
+  {
+   "id": "vi_say_23890397",
+   "text": "Đâu là ngôi sao?"
+  },
+  {
+   "id": "vi_say_8b8f13d1",
+   "text": "Đâu là ngọn lửa?"
+  },
+  {
+   "id": "vi_say_4352dfd3",
+   "text": "Đâu là ngọn núi?"
+  },
+  {
+   "id": "vi_say_fad1f045",
+   "text": "Đâu là nhà khoa học?"
+  },
+  {
+   "id": "vi_say_f6454c33",
+   "text": "Đâu là núi lửa?"
+  },
+  {
+   "id": "vi_say_5669635b",
+   "text": "Đâu là quả anh đào?"
+  },
+  {
+   "id": "vi_say_975daffc",
+   "text": "Đâu là quả bóng bay?"
+  },
+  {
+   "id": "vi_say_c9d09665",
+   "text": "Đâu là quả bóng rổ?"
+  },
+  {
+   "id": "vi_say_a5e54ebf",
+   "text": "Đâu là quả bóng đá?"
+  },
+  {
+   "id": "vi_say_df1f8504",
+   "text": "Đâu là quả cam?"
+  },
+  {
+   "id": "vi_say_be6b9d6b",
+   "text": "Đâu là quả chanh?"
+  },
+  {
+   "id": "vi_say_952d7253",
+   "text": "Đâu là quả chuối?"
+  },
+  {
+   "id": "vi_say_40258bd2",
+   "text": "Đâu là quả cà chua?"
+  },
+  {
+   "id": "vi_say_c7ea2ce0",
+   "text": "Đâu là quả cà tím?"
+  },
+  {
+   "id": "vi_say_84c062fb",
+   "text": "Đâu là quả dâu tây?"
+  },
+  {
+   "id": "vi_say_1b7372e7",
+   "text": "Đâu là quả dưa chuột?"
+  },
+  {
+   "id": "vi_say_a5bfa1d1",
+   "text": "Đâu là quả dưa hấu?"
+  },
+  {
+   "id": "vi_say_70eee5a6",
+   "text": "Đâu là quả dưa lưới?"
+  },
+  {
+   "id": "vi_say_4441ef29",
+   "text": "Đâu là quả dứa?"
+  },
+  {
+   "id": "vi_say_383d5f17",
+   "text": "Đâu là quả dừa?"
+  },
+  {
+   "id": "vi_say_5bfe2961",
+   "text": "Đâu là quả kiwi?"
+  },
+  {
+   "id": "vi_say_14ac9dde",
+   "text": "Đâu là quả lê?"
+  },
+  {
+   "id": "vi_say_f74c8a9c",
+   "text": "Đâu là quả táo?"
+  },
+  {
+   "id": "vi_say_56688e69",
+   "text": "Đâu là quả việt quất?"
+  },
+  {
+   "id": "vi_say_7e225aa6",
+   "text": "Đâu là quả xoài?"
+  },
+  {
+   "id": "vi_say_371799de",
+   "text": "Đâu là quả đào?"
+  },
+  {
+   "id": "vi_say_09705104",
+   "text": "Đâu là quả ớt chuông?"
+  },
+  {
+   "id": "vi_say_adab4cd2",
+   "text": "Đâu là quả ớt?"
+  },
+  {
+   "id": "vi_say_43c371bb",
+   "text": "Đâu là rau cải?"
+  },
+  {
+   "id": "vi_say_479c3c08",
+   "text": "Đâu là san hô?"
+  },
+  {
+   "id": "vi_say_521d126b",
+   "text": "Đâu là sóng biển?"
+  },
+  {
+   "id": "vi_say_0fae89e3",
+   "text": "Đâu là súp lơ xanh?"
+  },
+  {
+   "id": "vi_say_5339300f",
+   "text": "Đâu là thuyền buồm?"
+  },
+  {
+   "id": "vi_say_a5bf5be9",
+   "text": "Đâu là tia chớp?"
+  },
+  {
+   "id": "vi_say_6d1edaa6",
+   "text": "Đâu là trái tim?"
+  },
+  {
+   "id": "vi_say_953938b4",
+   "text": "Đâu là trò ghép hình?"
+  },
+  {
+   "id": "vi_say_3b0d7ca9",
+   "text": "Đâu là tàu hỏa?"
+  },
+  {
+   "id": "vi_say_7453577f",
+   "text": "Đâu là tàu thủy?"
+  },
+  {
+   "id": "vi_say_276ba1b4",
+   "text": "Đâu là tên lửa?"
+  },
+  {
+   "id": "vi_say_6b1948be",
+   "text": "Đâu là vòng quay ngựa gỗ?"
+  },
+  {
+   "id": "vi_say_6ae032f0",
+   "text": "Đâu là vỏ ốc biển?"
+  },
+  {
+   "id": "vi_say_18d90cab",
+   "text": "Đâu là xe buýt?"
+  },
+  {
+   "id": "vi_say_c171b650",
+   "text": "Đâu là xe cảnh sát?"
+  },
+  {
+   "id": "vi_say_0a0acb0b",
+   "text": "Đâu là xe cứu hỏa?"
+  },
+  {
+   "id": "vi_say_1fedb8e1",
+   "text": "Đâu là xe cứu thương?"
+  },
+  {
+   "id": "vi_say_890bc8e6",
+   "text": "Đâu là xe máy?"
+  },
+  {
+   "id": "vi_say_6854abf8",
+   "text": "Đâu là xe taxi?"
+  },
+  {
+   "id": "vi_say_3f58c593",
+   "text": "Đâu là xe tải?"
+  },
+  {
+   "id": "vi_say_bb121e38",
+   "text": "Đâu là xe ô tô?"
+  },
+  {
+   "id": "vi_say_d423716d",
+   "text": "Đâu là xe đạp?"
+  },
+  {
+   "id": "vi_say_7dc73010",
+   "text": "Đâu là đàn ghi ta?"
+  },
+  {
+   "id": "vi_say_40a20ea2",
+   "text": "Đâu là đàn piano?"
+  },
+  {
+   "id": "vi_say_902dd824",
+   "text": "Đâu là đàn vĩ cầm?"
+  },
+  {
+   "id": "vi_say_2e14f804",
+   "text": "Đâu là đám mây?"
+  },
+  {
+   "id": "vi_say_491e2151",
+   "text": "Đâu là đôi mắt?"
+  },
+  {
+   "id": "vi_say_fe0f5f32",
+   "text": "Đâu là đôi đũa?"
+  },
+  {
+   "id": "vi_say_f126d66d",
+   "text": "Đôi chân giúp bé chạy nhảy và đá bóng."
+  },
+  {
+   "id": "vi_say_ab3216d1",
+   "text": "Đôi mắt giúp bé nhìn thấy mọi thứ xung quanh."
+  },
+  {
+   "id": "vi_say_4658469d",
+   "text": "Đúng rồi! Bé giỏi quá!"
+  },
+  {
+   "id": "vi_say_4e2f5b73",
+   "text": "Đại bàng bay rất cao và có đôi mắt rất tinh."
+  },
+  {
+   "id": "vi_say_d691e593",
+   "text": "Đố bé nào! Bé nghe Mai hỏi rồi chạm vào hình đúng nhé."
+  },
+  {
+   "id": "vi_say_b56521f8",
+   "text": "Đồ chơi và âm nhạc"
+  },
+  {
+   "id": "vi_say_068883d0",
+   "text": "Đồ vật trong nhà"
+  },
+  {
+   "id": "vi_say_85b0ebaf",
+   "text": "Đồng hồ cho mình biết bây giờ là mấy giờ."
+  },
+  {
+   "id": "vi_say_770bb4df",
+   "text": "Động vật hoang dã"
+  },
+  {
+   "id": "vi_say_e38b25e6",
+   "text": "đàn ghi ta"
+  },
+  {
+   "id": "vi_say_e32e4110",
+   "text": "đàn piano"
+  },
+  {
+   "id": "vi_say_875bc10a",
+   "text": "đàn vĩ cầm"
+  },
+  {
+   "id": "vi_say_30fa279a",
+   "text": "đám mây"
+  },
+  {
+   "id": "vi_say_061ad71b",
+   "text": "đôi mắt"
+  },
+  {
+   "id": "vi_say_9913502c",
+   "text": "đôi đũa"
+  },
+  {
+   "id": "vi_say_17091719",
+   "text": "Ốc sên bò rất chậm và mang nhà trên lưng."
+  },
+  {
+   "id": "vi_say_5bc5a2a5",
+   "text": "Ớt chuông không cay và có nhiều màu đẹp."
+  }
+ ]
+}

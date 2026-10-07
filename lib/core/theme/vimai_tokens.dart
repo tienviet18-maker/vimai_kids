@@ -260,6 +260,10 @@ class VimaiSubject {
 class VimaiBrandAssets {
   static const companyLogo = 'assets/images/branding/vimai.jpg';
   static const kidsLogo = 'assets/images/branding/vimai_kids_logo.svg';
+
+  /// Approved colourful ViMai Kids wordmark, lifted from the app icon art
+  /// (`assets/icon/vimai-kids.png`) onto a transparent background.
+  static const kidsWordmark = 'assets/images/branding/vimai_kids_wordmark.png';
   static const copyright =
       'Phát triển bởi ViMai • © 2026 ViMai · MaiMai. All rights reserved.';
 }

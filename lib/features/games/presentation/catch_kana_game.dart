@@ -15,10 +15,10 @@ import '../../../data/kana/hiragana_data.dart';
 import '../../../data/kana/katakana_data.dart';
 import '../../../data/repositories/profile_repository.dart';
 import '../../../domain/models/kana_item.dart';
-import '../../shared/widgets/vimai_ui.dart';
 import '../logic/catch_kana_round.dart';
 import '../logic/falling_layout.dart';
 import 'widgets/game_play_scaffold.dart';
+import '../../../core/audio/kid_guide.dart';
 
 enum CatchAlphabet { hiragana, katakana, vietnamese }
 
@@ -104,7 +104,10 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
       _audio?.soundEnabled = profile?.soundEnabled ?? true;
       _audio?.bgmEnabled = profile?.bgmEnabled ?? true;
       _audio?.startGameBgm();
-      unawaited(_audio?.playIntro('sys_game_catch') ?? Future.value());
+      unawaited(
+        _audio?.speak([KidGuide.gameCatchKana], trailIds: [_round.target.audioId], fallbackId: 'sys_game_catch') ??
+            Future.value(),
+      );
     });
   }
 
@@ -172,6 +175,8 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
     _shakeId = null;
     _celebrateId = null;
     _layoutLetters();
+    // Mai says the kana to catch this round.
+    unawaited(ref.read(audioServiceProvider).speak(const [], trailIds: [_round.target.audioId]));
   }
 
   void _tap(KanaItem kana) {
@@ -260,46 +265,48 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
     _ticker?.start();
   }
 
+  void _sayTarget() {
+    unawaited(ref.read(audioServiceProvider).speak(const [], trailIds: [_round.target.audioId]));
+  }
+
   @override
   Widget build(BuildContext context) {
     final color = _accent;
     return GamePlayScaffold(
       title: _title,
+      scene: GameScene.sky,
       finished: _finished,
+      correct: _correct,
       complete: GameCompletePanel(score: _score, wrong: _wrong, total: _goal, onRetry: _restart),
       instruction: GameTargetBanner(
         label: 'Tìm chữ',
         glyph: _round.target.character,
         color: color,
+        onTap: _sayTarget,
       ),
       progress: GameProgressBar(current: _score, total: _goal, color: color),
-      feedback: LessonFeedback(correct: _correct, message: _feedback),
+      feedback: GameFeedbackToast(correct: _correct, message: _feedback),
       playArea: GameBoard(
         key: const ValueKey('catch-kana-board'),
         onSize: _onBoardSize,
         child: Stack(
           children: [
-            for (final item in _items)
+            for (var i = 0; i < _items.length; i++)
               Positioned(
-                left: item.left,
-                top: item.top,
+                left: _items[i].left,
+                top: _items[i].top,
                 child: GameLetterToken(
-                  key: ValueKey('letter-token-${item.kana.id}'),
-                  character: item.kana.character,
-                  size: item.size,
-                  color: color,
-                  shake: _shakeId == item.kana.id,
-                  celebrate: _celebrateId == item.kana.id,
-                  onTap: () => _tap(item.kana),
+                  key: ValueKey('letter-token-${_items[i].kana.id}'),
+                  character: _items[i].kana.character,
+                  size: _items[i].size,
+                  color: gamePalette[i % gamePalette.length],
+                  shake: _shakeId == _items[i].kana.id,
+                  celebrate: _celebrateId == _items[i].kana.id,
+                  onTap: () => _tap(_items[i].kana),
                 ),
               ),
           ],
         ),
-      ),
-      footer: Text(
-        'Điểm $_score   •   Sai $_wrong',
-        textAlign: TextAlign.center,
-        style: VimaiType.caption,
       ),
     );
   }

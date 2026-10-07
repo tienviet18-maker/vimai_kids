@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/audio/audio_service.dart';
+import '../../../core/audio/kid_guide.dart';
 import '../../../core/ai/mai_context.dart';
 import '../../../core/game/webkit_answer_tap.dart';
 import '../../../core/gamification/gamification_service.dart';
@@ -51,6 +52,9 @@ class _KanaLessonScreenState extends ConsumerState<KanaLessonScreen> {
   int _index = 0;
   bool _completed = false;
   String _mode = 'look';
+
+  /// Mode whose how-to Mai already said; the next kana skip it.
+  String? _guidedMode;
   String? _feedback;
   String? _lastChoice;
   bool? _lastCorrect;
@@ -123,7 +127,21 @@ class _KanaLessonScreenState extends ConsumerState<KanaLessonScreen> {
     if (!mounted || _items.isEmpty) return;
     if (index < 0 || index >= _items.length) return;
     final kana = _items[index];
-    final result = await ref.read(audioServiceProvider).playAsset(kana.audioId);
+    // Mai names the step (see, watch strokes, write, find), then the kana;
+    // when just looking, the example word follows.
+    final guide = switch (_mode) {
+      'strokes' => KidGuide.kanaWatch,
+      'write' => KidGuide.kanaWrite,
+      'recognize' => KidGuide.findLetter,
+      _ => KidGuide.kanaSee,
+    };
+    final example = kana.exampleWordAudioId?.trim().isNotEmpty == true ? kana.exampleWordAudioId! : kana.wordAudioId;
+    final lines = [if (_guidedMode != _mode) guide];
+    _guidedMode = _mode;
+    final result = await ref.read(audioServiceProvider).speak(
+      lines,
+      trailIds: [kana.audioId, if (_mode == 'look' && example.isNotEmpty) example],
+    );
     if (mounted && index == _index) AudioService.notify(context, result);
   }
 

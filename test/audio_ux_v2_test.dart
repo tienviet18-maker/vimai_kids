@@ -173,8 +173,10 @@ void main() {
   });
 
   test('praise / system clips exist as Hoài My MP3s', () {
-    expect(File('assets/audio/sys_success_1.mp3').existsSync(), isTrue);
-    expect(File('assets/audio/sys_success_1.mp3').lengthSync(), greaterThan(64));
+    // sys_success_* were specified but never bundled; they play the bundled praise clip.
+    final praise = AudioService.bundledFallbacks['sys_success_1']!;
+    expect(File('assets/audio/$praise.mp3').existsSync(), isTrue);
+    expect(File('assets/audio/$praise.mp3').lengthSync(), greaterThan(64));
     expect(File('assets/audio/sys_math_intro.mp3').existsSync(), isTrue);
     expect(File('assets/audio/sys_creativity_intro.mp3').existsSync(), isTrue);
     expect(File('assets/audio/v_aw.mp3').existsSync(), isTrue);

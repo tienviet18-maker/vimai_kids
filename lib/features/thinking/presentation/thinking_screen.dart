@@ -19,6 +19,7 @@ import '../../../domain/models/skill_mastery.dart';
 import '../../ai/presentation/mai_companion_widget.dart';
 import '../../shared/widgets/choice_grid.dart';
 import '../../shared/widgets/kids_storybook.dart';
+import '../../shared/widgets/listen_prompt.dart';
 import '../../shared/widgets/vimai_ui.dart';
 
 class ThinkingScreen extends ConsumerStatefulWidget {
@@ -66,11 +67,15 @@ class _ThinkingScreenState extends ConsumerState<ThinkingScreen> {
     _feedback = null;
     _correct = null;
     _lastChoice = null;
-    if (playSkillIntro) {
-      unawaited(
-        ref.read(audioServiceProvider).playAudio(AudioService.introForThinkingSkill(item.skill)),
-      );
-    }
+    // Mai reads every question aloud (skill intro first on the first one).
+    final intro = AudioService.introForThinkingSkill(item.skill);
+    unawaited(
+      ref.read(audioServiceProvider).speak(
+        [item.instruction, if (item.question != item.instruction) item.question],
+        leadIds: playSkillIntro ? [intro] : const [],
+        fallbackId: playSkillIntro ? intro : null,
+      ),
+    );
   }
 
   void _next({bool playSkillIntro = false}) {
@@ -84,20 +89,20 @@ class _ThinkingScreenState extends ConsumerState<ThinkingScreen> {
     return SessionBinder(
       subject: 'thinking',
       child: KidsHubShell(
-      title: item?.title ?? copy.thinking,
-      subtitle: copy.scoreCorrect(_score),
-      accent: VimaiColor.grape,
-      artAsset: null,
-      onBack: () => navigateBackToHome(context),
-      action: IconButton(
-        icon: const Icon(Icons.palette_outlined),
-        tooltip: 'Vẽ tranh sáng tạo',
-        color: VimaiColor.grape,
-        onPressed: () => context.push('/drawing'),
-      ),
-      body: item == null
-          ? const Center(child: CircularProgressIndicator())
-          : SingleChildScrollView(
+        title: item?.title ?? copy.thinking,
+        subtitle: copy.scoreCorrect(_score),
+        accent: VimaiColor.grape,
+        artAsset: null,
+        onBack: () => navigateBackToHome(context),
+        action: IconButton(
+          icon: const Icon(Icons.palette_outlined),
+          tooltip: 'Vẽ tranh sáng tạo',
+          color: VimaiColor.grape,
+          onPressed: () => context.push('/drawing'),
+        ),
+        body: item == null
+            ? const Center(child: CircularProgressIndicator())
+            : SingleChildScrollView(
                 padding: const EdgeInsets.fromLTRB(16, 8, 16, 28),
                 child: Column(
                   children: [
@@ -216,10 +221,10 @@ class _ThinkingScreenState extends ConsumerState<ThinkingScreen> {
                       color: VimaiColor.grape,
                     ),
                     const SizedBox(height: 8),
-                    SoftSurface(
-                      color: VimaiColor.grapeSoft.withValues(alpha: 0.55),
-                      borderColor: VimaiColor.grape.withValues(alpha: 0.28),
-                      child: Text(item.instruction, textAlign: TextAlign.center, style: VimaiType.title),
+                    ListenPrompt(
+                      text: item.instruction,
+                      lines: [item.instruction, if (item.question != item.instruction) item.question],
+                      color: VimaiColor.grape,
                     ),
                     const SizedBox(height: 16),
                     ChoiceGrid(
@@ -258,9 +263,7 @@ class _ThinkingScreenState extends ConsumerState<ThinkingScreen> {
                           unawaited(() async {
                             try {
                               final mai = ref.read(maiAiServiceProvider);
-                              final resp = ok
-                                  ? await mai.onCorrectAnswer(aiCtx)
-                                  : await mai.onIncorrectAnswer(aiCtx);
+                              final resp = ok ? await mai.onCorrectAnswer(aiCtx) : await mai.onIncorrectAnswer(aiCtx);
                               if (!mounted) return;
                               _maiController.showResponse(resp);
                             } catch (e) {
@@ -314,7 +317,7 @@ class _ThinkingScreenState extends ConsumerState<ThinkingScreen> {
                   ],
                 ),
               ),
-    ),
+      ),
     );
   }
 }

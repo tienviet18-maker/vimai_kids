@@ -6,12 +6,12 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../core/audio/audio_service.dart';
 import '../../../core/providers.dart';
 import '../../../core/theme/app_theme.dart';
-import '../../../core/theme/vimai_tokens.dart';
 import '../../../data/kana/hiragana_data.dart';
 import '../../../data/repositories/profile_repository.dart';
 import '../../../domain/models/kana_item.dart';
-import '../../shared/widgets/vimai_ui.dart';
+import '../../shared/widgets/chunky_button.dart';
 import 'widgets/game_play_scaffold.dart';
+import '../../../core/audio/kid_guide.dart';
 
 class MatchKanaGame extends ConsumerStatefulWidget {
   const MatchKanaGame({super.key});
@@ -51,7 +51,7 @@ class _MatchKanaGameState extends ConsumerState<MatchKanaGame> {
       _audio?.soundEnabled = profile?.soundEnabled ?? true;
       _audio?.bgmEnabled = profile?.bgmEnabled ?? true;
       _audio?.startGameBgm();
-      _audio?.playIntro('sys_thinking_match');
+      unawaited(_audio?.speak([KidGuide.gameMatchKana], fallbackId: 'sys_thinking_match'));
     });
   }
 
@@ -96,33 +96,43 @@ class _MatchKanaGameState extends ConsumerState<MatchKanaGame> {
     });
   }
 
+  void _sayHowTo() => unawaited(ref.read(audioServiceProvider).speak([KidGuide.gameMatchKana]));
+
   @override
   Widget build(BuildContext context) {
+    final a = _first;
+    final b = _second;
+    final miss = a != null && b != null && _cards[a] != _cards[b];
     return GamePlayScaffold(
       title: 'Ghép đôi chữ',
+      scene: GameScene.table,
       finished: _finished,
+      correct: miss ? false : null,
       complete: GameCompletePanel(score: _matches, wrong: 0, total: _pairs, onRetry: () => setState(_deal)),
-      instruction: const GameTargetBanner(label: 'Tìm hai chữ giống nhau', glyph: 'あ', color: AppTheme.hiraganaColor),
+      instruction: GameTargetBanner(
+        label: 'Tìm hai chữ giống nhau',
+        glyph: 'あ',
+        color: AppTheme.hiraganaColor,
+        onTap: _sayHowTo,
+      ),
       progress: GameProgressBar(current: _matches, total: _pairs, color: AppTheme.hiraganaColor),
+      feedback: miss ? const GameFeedbackToast(correct: false, message: 'Thử lại nhé!') : null,
       playArea: GameCardGrid(
         itemCount: _cards.length,
         builder: (context, index) {
-          final open = _flipped.contains(index) || _first == index || _second == index;
-          return Pressable(
-            semanticLabel: open ? _cards[index] : 'Úp',
-            onTap: () => _tap(index),
-            child: Container(
-              alignment: Alignment.center,
-              constraints: const BoxConstraints(minWidth: 48, minHeight: 48),
-              decoration: BoxDecoration(
-                color: VimaiColor.surface,
-                borderRadius: BorderRadius.circular(VimaiRadius.md),
-                border: Border.all(color: AppTheme.hiraganaColor.withValues(alpha: 0.35), width: 2),
-                boxShadow: VimaiShadow.soft,
-              ),
-              child: Text(
-                open ? _cards[index] : '?',
-                style: const TextStyle(fontSize: 28, fontWeight: FontWeight.w800, color: AppTheme.hiraganaColor),
+          final matched = _flipped.contains(index);
+          final open = matched || _first == index || _second == index;
+          return ShakeOnChange(
+            trigger: miss && (index == a || index == b) ? 'miss-$a-$b' : null,
+            child: GameFlipCard(
+              open: open,
+              matched: matched,
+              color: AppTheme.hiraganaColor,
+              semanticLabel: open ? _cards[index] : 'Úp',
+              onTap: () => _tap(index),
+              face: Text(
+                _cards[index],
+                style: const TextStyle(fontSize: 48, fontWeight: FontWeight.w900, color: AppTheme.hiraganaColor, height: 1.1),
               ),
             ),
           );

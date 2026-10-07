@@ -14,7 +14,8 @@
     "metadata": {
       "audioText": "Mẹ yêu bé.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_001"
+      "audioId": "vi_sentence_001",
+      "image": "👩"
     }
   },
   {
@@ -32,7 +33,8 @@
     "metadata": {
       "audioText": "Ba yêu con.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_002"
+      "audioId": "vi_sentence_002",
+      "image": "👨"
     }
   },
   {
@@ -50,7 +52,8 @@
     "metadata": {
       "audioText": "Con mèo ngủ.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_003"
+      "audioId": "vi_sentence_003",
+      "image": "🐱"
     }
   },
   {
@@ -68,7 +71,8 @@
     "metadata": {
       "audioText": "Bé ăn cơm.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_004"
+      "audioId": "vi_sentence_004",
+      "image": "🍚"
     }
   },
   {
@@ -86,7 +90,8 @@
     "metadata": {
       "audioText": "Bé uống sữa.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_005"
+      "audioId": "vi_sentence_005",
+      "image": "🥛"
     }
   },
   {
@@ -104,7 +109,8 @@
     "metadata": {
       "audioText": "Gà kêu ó o.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_006"
+      "audioId": "vi_sentence_006",
+      "image": "🐔"
     }
   },
   {
@@ -122,7 +128,8 @@
     "metadata": {
       "audioText": "Cá bơi dưới nước.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_007"
+      "audioId": "vi_sentence_007",
+      "image": "🐟"
     }
   },
   {
@@ -140,7 +147,8 @@
     "metadata": {
       "audioText": "Hoa rất đẹp.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_008"
+      "audioId": "vi_sentence_008",
+      "image": "🌸"
     }
   },
   {
@@ -158,7 +166,8 @@
     "metadata": {
       "audioText": "Trời đang nắng.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_009"
+      "audioId": "vi_sentence_009",
+      "image": "☀️"
     }
   },
   {
@@ -176,7 +185,8 @@
     "metadata": {
       "audioText": "Bé đi học.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_010"
+      "audioId": "vi_sentence_010",
+      "image": "🎒"
     }
   },
   {
@@ -194,7 +204,8 @@
     "metadata": {
       "audioText": "Cô giáo vui.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_011"
+      "audioId": "vi_sentence_011",
+      "image": "👩‍🏫"
     }
   },
   {
@@ -212,7 +223,8 @@
     "metadata": {
       "audioText": "Bạn chơi bóng.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_012"
+      "audioId": "vi_sentence_012",
+      "image": "⚽"
     }
   },
   {
@@ -230,7 +242,8 @@
     "metadata": {
       "audioText": "Nhà có cửa.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_013"
+      "audioId": "vi_sentence_013",
+      "image": "🚪"
     }
   },
   {
@@ -248,7 +261,8 @@
     "metadata": {
       "audioText": "Xe chạy nhanh.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_014"
+      "audioId": "vi_sentence_014",
+      "image": "🚗"
     }
   },
   {
@@ -266,7 +280,8 @@
     "metadata": {
       "audioText": "Chim bay trên trời.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_015"
+      "audioId": "vi_sentence_015",
+      "image": "🐦"
     }
   },
   {
@@ -284,7 +299,8 @@
     "metadata": {
       "audioText": "Thỏ ăn cà rốt.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_016"
+      "audioId": "vi_sentence_016",
+      "image": "🥕"
     }
   },
   {
@@ -302,7 +318,8 @@
     "metadata": {
       "audioText": "Bé rửa tay.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_017"
+      "audioId": "vi_sentence_017",
+      "image": "🧼"
     }
   },
   {
@@ -320,7 +337,8 @@
     "metadata": {
       "audioText": "Mẹ nấu cơm.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_018"
+      "audioId": "vi_sentence_018",
+      "image": "🍲"
     }
   },
   {
@@ -338,7 +356,8 @@
     "metadata": {
       "audioText": "Ba đọc sách.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_019"
+      "audioId": "vi_sentence_019",
+      "image": "📖"
     }
   },
   {
@@ -356,7 +375,8 @@
     "metadata": {
       "audioText": "Em bé khóc.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_020"
+      "audioId": "vi_sentence_020",
+      "image": "👶"
     }
   },
   {
@@ -374,7 +394,8 @@
     "metadata": {
       "audioText": "Chị hát hay.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_021"
+      "audioId": "vi_sentence_021",
+      "image": "🎤"
     }
   },
   {
@@ -392,7 +413,8 @@
     "metadata": {
       "audioText": "Ông kể chuyện.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_022"
+      "audioId": "vi_sentence_022",
+      "image": "👴"
     }
   },
   {
@@ -410,7 +432,8 @@
     "metadata": {
       "audioText": "Bà nấu canh.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_023"
+      "audioId": "vi_sentence_023",
+      "image": "👵"
     }
   },
   {
@@ -428,7 +451,8 @@
     "metadata": {
       "audioText": "Bé đánh răng.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_024"
+      "audioId": "vi_sentence_024",
+      "image": "🪥"
     }
   },
   {
@@ -446,7 +470,8 @@
     "metadata": {
       "audioText": "Trăng tròn đêm.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_025"
+      "audioId": "vi_sentence_025",
+      "image": "🌕"
     }
   },
   {
@@ -464,7 +489,8 @@
     "metadata": {
       "audioText": "Mưa rơi nhẹ.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_026"
+      "audioId": "vi_sentence_026",
+      "image": "🌧️"
     }
   },
   {
@@ -482,7 +508,8 @@
     "metadata": {
       "audioText": "Lá xanh trên cây.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_027"
+      "audioId": "vi_sentence_027",
+      "image": "🍃"
     }
   },
   {
@@ -500,7 +527,8 @@
     "metadata": {
       "audioText": "Quả táo đỏ.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_028"
+      "audioId": "vi_sentence_028",
+      "image": "🍎"
     }
   },
   {
@@ -518,7 +546,8 @@
     "metadata": {
       "audioText": "Bé chào cô.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_029"
+      "audioId": "vi_sentence_029",
+      "image": "🙋"
     }
   },
   {
@@ -536,7 +565,8 @@
     "metadata": {
       "audioText": "Con yêu mẹ.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_030"
+      "audioId": "vi_sentence_030",
+      "image": "❤️"
     }
   },
   {
@@ -554,7 +584,8 @@
     "metadata": {
       "audioText": "Bé ngồi ghế.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_031"
+      "audioId": "vi_sentence_031",
+      "image": "🪑"
     }
   },
   {
@@ -572,7 +603,8 @@
     "metadata": {
       "audioText": "Sách ở trên bàn.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_032"
+      "audioId": "vi_sentence_032",
+      "image": "📚"
     }
   },
   {
@@ -590,7 +622,8 @@
     "metadata": {
       "audioText": "Đèn sáng rồi.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_033"
+      "audioId": "vi_sentence_033",
+      "image": "💡"
     }
   },
   {
@@ -608,7 +641,8 @@
     "metadata": {
       "audioText": "Chó chạy ngoài sân.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_034"
+      "audioId": "vi_sentence_034",
+      "image": "🐶"
     }
   },
   {
@@ -626,7 +660,8 @@
     "metadata": {
       "audioText": "Mèo ngồi im.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_035"
+      "audioId": "vi_sentence_035",
+      "image": "🐈"
     }
   },
   {
@@ -644,7 +679,8 @@
     "metadata": {
       "audioText": "Bé mặc áo.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_036"
+      "audioId": "vi_sentence_036",
+      "image": "👕"
     }
   },
   {
@@ -662,7 +698,8 @@
     "metadata": {
       "audioText": "Mẹ đi chợ.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_037"
+      "audioId": "vi_sentence_037",
+      "image": "🛒"
     }
   },
   {
@@ -680,7 +717,8 @@
     "metadata": {
       "audioText": "Ba về nhà.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_038"
+      "audioId": "vi_sentence_038",
+      "image": "🏠"
     }
   },
   {
@@ -698,7 +736,8 @@
     "metadata": {
       "audioText": "Bé ngủ ngon.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_039"
+      "audioId": "vi_sentence_039",
+      "image": "😴"
     }
   },
   {
@@ -716,7 +755,8 @@
     "metadata": {
       "audioText": "Hôm nay vui.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_040"
+      "audioId": "vi_sentence_040",
+      "image": "😄"
     }
   },
   {
@@ -734,7 +774,1490 @@
     "metadata": {
       "audioText": "Con cảm ơn mẹ.",
       "audioLocale": "vi-VN",
-      "audioId": "vi_sentence_041"
+      "audioId": "vi_sentence_041",
+      "image": "🙏"
+    }
+  },
+  {
+    "id": "s_042",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Cả nhà ăn cơm.",
+    "answer": "Cả nhà ăn cơm.",
+    "metadata": {
+      "audioText": "Cả nhà ăn cơm.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_042",
+      "image": "👨‍👩‍👧"
+    }
+  },
+  {
+    "id": "s_043",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bà ôm bé.",
+    "answer": "Bà ôm bé.",
+    "metadata": {
+      "audioText": "Bà ôm bé.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_043",
+      "image": "👵"
+    }
+  },
+  {
+    "id": "s_044",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Ông tưới cây.",
+    "answer": "Ông tưới cây.",
+    "metadata": {
+      "audioText": "Ông tưới cây.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_044",
+      "image": "👴"
+    }
+  },
+  {
+    "id": "s_045",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Chị dắt em đi chơi.",
+    "answer": "Chị dắt em đi chơi.",
+    "metadata": {
+      "audioText": "Chị dắt em đi chơi.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_045",
+      "image": "👧"
+    }
+  },
+  {
+    "id": "s_046",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé quét nhà giúp mẹ.",
+    "answer": "Bé quét nhà giúp mẹ.",
+    "metadata": {
+      "audioText": "Bé quét nhà giúp mẹ.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_046",
+      "image": "🧹"
+    }
+  },
+  {
+    "id": "s_047",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé dọn giường.",
+    "answer": "Bé dọn giường.",
+    "metadata": {
+      "audioText": "Bé dọn giường.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_047",
+      "image": "🛏️"
+    }
+  },
+  {
+    "id": "s_048",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé ôm gấu bông.",
+    "answer": "Bé ôm gấu bông.",
+    "metadata": {
+      "audioText": "Bé ôm gấu bông.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_048",
+      "image": "🧸"
+    }
+  },
+  {
+    "id": "s_049",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé tắm sạch sẽ.",
+    "answer": "Bé tắm sạch sẽ.",
+    "metadata": {
+      "audioText": "Bé tắm sạch sẽ.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_049",
+      "image": "🛁"
+    }
+  },
+  {
+    "id": "s_050",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Con chó sủa gâu gâu.",
+    "answer": "Con chó sủa gâu gâu.",
+    "metadata": {
+      "audioText": "Con chó sủa gâu gâu.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_050",
+      "image": "🐶"
+    }
+  },
+  {
+    "id": "s_051",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Con mèo kêu meo meo.",
+    "answer": "Con mèo kêu meo meo.",
+    "metadata": {
+      "audioText": "Con mèo kêu meo meo.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_051",
+      "image": "🐱"
+    }
+  },
+  {
+    "id": "s_052",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Con vịt bơi trong ao.",
+    "answer": "Con vịt bơi trong ao.",
+    "metadata": {
+      "audioText": "Con vịt bơi trong ao.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_052",
+      "image": "🦆"
+    }
+  },
+  {
+    "id": "s_053",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Con bò ăn cỏ.",
+    "answer": "Con bò ăn cỏ.",
+    "metadata": {
+      "audioText": "Con bò ăn cỏ.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_053",
+      "image": "🐄"
+    }
+  },
+  {
+    "id": "s_054",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Con heo ăn no.",
+    "answer": "Con heo ăn no.",
+    "metadata": {
+      "audioText": "Con heo ăn no.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_054",
+      "image": "🐷"
+    }
+  },
+  {
+    "id": "s_055",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Con voi có vòi dài.",
+    "answer": "Con voi có vòi dài.",
+    "metadata": {
+      "audioText": "Con voi có vòi dài.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_055",
+      "image": "🐘"
+    }
+  },
+  {
+    "id": "s_056",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Con khỉ leo cây.",
+    "answer": "Con khỉ leo cây.",
+    "metadata": {
+      "audioText": "Con khỉ leo cây.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_056",
+      "image": "🐒"
+    }
+  },
+  {
+    "id": "s_057",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Con thỏ nhảy xa.",
+    "answer": "Con thỏ nhảy xa.",
+    "metadata": {
+      "audioText": "Con thỏ nhảy xa.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_057",
+      "image": "🐰"
+    }
+  },
+  {
+    "id": "s_058",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Con ong làm mật.",
+    "answer": "Con ong làm mật.",
+    "metadata": {
+      "audioText": "Con ong làm mật.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_058",
+      "image": "🐝"
+    }
+  },
+  {
+    "id": "s_059",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Con bướm bay quanh hoa.",
+    "answer": "Con bướm bay quanh hoa.",
+    "metadata": {
+      "audioText": "Con bướm bay quanh hoa.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_059",
+      "image": "🦋"
+    }
+  },
+  {
+    "id": "s_060",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Con rùa bò chậm.",
+    "answer": "Con rùa bò chậm.",
+    "metadata": {
+      "audioText": "Con rùa bò chậm.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_060",
+      "image": "🐢"
+    }
+  },
+  {
+    "id": "s_061",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Con ếch nhảy xuống ao.",
+    "answer": "Con ếch nhảy xuống ao.",
+    "metadata": {
+      "audioText": "Con ếch nhảy xuống ao.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_061",
+      "image": "🐸"
+    }
+  },
+  {
+    "id": "s_062",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Gà trống gáy buổi sáng.",
+    "answer": "Gà trống gáy buổi sáng.",
+    "metadata": {
+      "audioText": "Gà trống gáy buổi sáng.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_062",
+      "image": "🐓"
+    }
+  },
+  {
+    "id": "s_063",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Đàn cá bơi tung tăng.",
+    "answer": "Đàn cá bơi tung tăng.",
+    "metadata": {
+      "audioText": "Đàn cá bơi tung tăng.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_063",
+      "image": "🐠"
+    }
+  },
+  {
+    "id": "s_064",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé ăn chuối.",
+    "answer": "Bé ăn chuối.",
+    "metadata": {
+      "audioText": "Bé ăn chuối.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_064",
+      "image": "🍌"
+    }
+  },
+  {
+    "id": "s_065",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Dưa hấu rất ngọt.",
+    "answer": "Dưa hấu rất ngọt.",
+    "metadata": {
+      "audioText": "Dưa hấu rất ngọt.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_065",
+      "image": "🍉"
+    }
+  },
+  {
+    "id": "s_066",
+    "subject": "vietnamese",
+    "ageMin": 3,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Mẹ luộc trứng.",
+    "answer": "Mẹ luộc trứng.",
+    "metadata": {
+      "audioText": "Mẹ luộc trứng.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_066",
+      "image": "🥚"
+    }
+  },
+  {
+    "id": "s_067",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé ăn bánh mì.",
+    "answer": "Bé ăn bánh mì.",
+    "metadata": {
+      "audioText": "Bé ăn bánh mì.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_067",
+      "image": "🍞"
+    }
+  },
+  {
+    "id": "s_068",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Cà rốt màu cam.",
+    "answer": "Cà rốt màu cam.",
+    "metadata": {
+      "audioText": "Cà rốt màu cam.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_068",
+      "image": "🥕"
+    }
+  },
+  {
+    "id": "s_069",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Quả cam có nhiều nước.",
+    "answer": "Quả cam có nhiều nước.",
+    "metadata": {
+      "audioText": "Quả cam có nhiều nước.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_069",
+      "image": "🍊"
+    }
+  },
+  {
+    "id": "s_070",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Sữa giúp bé khỏe.",
+    "answer": "Sữa giúp bé khỏe.",
+    "metadata": {
+      "audioText": "Sữa giúp bé khỏe.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_070",
+      "image": "🥛"
+    }
+  },
+  {
+    "id": "s_071",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Ba nấu phở.",
+    "answer": "Ba nấu phở.",
+    "metadata": {
+      "audioText": "Ba nấu phở.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_071",
+      "image": "🍜"
+    }
+  },
+  {
+    "id": "s_072",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé ăn nhiều rau xanh.",
+    "answer": "Bé ăn nhiều rau xanh.",
+    "metadata": {
+      "audioText": "Bé ăn nhiều rau xanh.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_072",
+      "image": "🥗"
+    }
+  },
+  {
+    "id": "s_073",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé uống nước mỗi ngày.",
+    "answer": "Bé uống nước mỗi ngày.",
+    "metadata": {
+      "audioText": "Bé uống nước mỗi ngày.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_073",
+      "image": "💧"
+    }
+  },
+  {
+    "id": "s_074",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé đeo cặp đi học.",
+    "answer": "Bé đeo cặp đi học.",
+    "metadata": {
+      "audioText": "Bé đeo cặp đi học.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_074",
+      "image": "🎒"
+    }
+  },
+  {
+    "id": "s_075",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé cầm bút chì.",
+    "answer": "Bé cầm bút chì.",
+    "metadata": {
+      "audioText": "Bé cầm bút chì.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_075",
+      "image": "✏️"
+    }
+  },
+  {
+    "id": "s_076",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé tô màu bức tranh.",
+    "answer": "Bé tô màu bức tranh.",
+    "metadata": {
+      "audioText": "Bé tô màu bức tranh.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_076",
+      "image": "🖍️"
+    }
+  },
+  {
+    "id": "s_077",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé đọc sách cùng cô.",
+    "answer": "Bé đọc sách cùng cô.",
+    "metadata": {
+      "audioText": "Bé đọc sách cùng cô.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_077",
+      "image": "📚"
+    }
+  },
+  {
+    "id": "s_078",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé vẽ ông mặt trời.",
+    "answer": "Bé vẽ ông mặt trời.",
+    "metadata": {
+      "audioText": "Bé vẽ ông mặt trời.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_078",
+      "image": "🎨"
+    }
+  },
+  {
+    "id": "s_079",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé ghép hình.",
+    "answer": "Bé ghép hình.",
+    "metadata": {
+      "audioText": "Bé ghép hình.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_079",
+      "image": "🧩"
+    }
+  },
+  {
+    "id": "s_080",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé thả diều.",
+    "answer": "Bé thả diều.",
+    "metadata": {
+      "audioText": "Bé thả diều.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_080",
+      "image": "🪁"
+    }
+  },
+  {
+    "id": "s_081",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bóng bay màu đỏ.",
+    "answer": "Bóng bay màu đỏ.",
+    "metadata": {
+      "audioText": "Bóng bay màu đỏ.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_081",
+      "image": "🎈"
+    }
+  },
+  {
+    "id": "s_082",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé chơi cùng bạn.",
+    "answer": "Bé chơi cùng bạn.",
+    "metadata": {
+      "audioText": "Bé chơi cùng bạn.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_082",
+      "image": "🤝"
+    }
+  },
+  {
+    "id": "s_083",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Trường của bé rất đẹp.",
+    "answer": "Trường của bé rất đẹp.",
+    "metadata": {
+      "audioText": "Trường của bé rất đẹp.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_083",
+      "image": "🏫"
+    }
+  },
+  {
+    "id": "s_084",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Cả lớp cùng hát.",
+    "answer": "Cả lớp cùng hát.",
+    "metadata": {
+      "audioText": "Cả lớp cùng hát.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_084",
+      "image": "🎵"
+    }
+  },
+  {
+    "id": "s_085",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé giơ tay phát biểu.",
+    "answer": "Bé giơ tay phát biểu.",
+    "metadata": {
+      "audioText": "Bé giơ tay phát biểu.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_085",
+      "image": "🙋"
+    }
+  },
+  {
+    "id": "s_086",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Mặt trời mọc rồi.",
+    "answer": "Mặt trời mọc rồi.",
+    "metadata": {
+      "audioText": "Mặt trời mọc rồi.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_086",
+      "image": "☀️"
+    }
+  },
+  {
+    "id": "s_087",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Cầu vồng có bảy màu.",
+    "answer": "Cầu vồng có bảy màu.",
+    "metadata": {
+      "audioText": "Cầu vồng có bảy màu.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_087",
+      "image": "🌈"
+    }
+  },
+  {
+    "id": "s_088",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Trời mưa to.",
+    "answer": "Trời mưa to.",
+    "metadata": {
+      "audioText": "Trời mưa to.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_088",
+      "image": "🌧️"
+    }
+  },
+  {
+    "id": "s_089",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Gió thổi mát.",
+    "answer": "Gió thổi mát.",
+    "metadata": {
+      "audioText": "Gió thổi mát.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_089",
+      "image": "💨"
+    }
+  },
+  {
+    "id": "s_090",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Sao lấp lánh trên trời.",
+    "answer": "Sao lấp lánh trên trời.",
+    "metadata": {
+      "audioText": "Sao lấp lánh trên trời.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_090",
+      "image": "⭐"
+    }
+  },
+  {
+    "id": "s_091",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Trăng sáng quá.",
+    "answer": "Trăng sáng quá.",
+    "metadata": {
+      "audioText": "Trăng sáng quá.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_091",
+      "image": "🌙"
+    }
+  },
+  {
+    "id": "s_092",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Cây xanh cho bóng mát.",
+    "answer": "Cây xanh cho bóng mát.",
+    "metadata": {
+      "audioText": "Cây xanh cho bóng mát.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_092",
+      "image": "🌳"
+    }
+  },
+  {
+    "id": "s_093",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Sóng biển vỗ rì rào.",
+    "answer": "Sóng biển vỗ rì rào.",
+    "metadata": {
+      "audioText": "Sóng biển vỗ rì rào.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_093",
+      "image": "🌊"
+    }
+  },
+  {
+    "id": "s_094",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Hoa hướng dương vàng rực.",
+    "answer": "Hoa hướng dương vàng rực.",
+    "metadata": {
+      "audioText": "Hoa hướng dương vàng rực.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_094",
+      "image": "🌻"
+    }
+  },
+  {
+    "id": "s_095",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Trời lạnh, bé mặc áo ấm.",
+    "answer": "Trời lạnh, bé mặc áo ấm.",
+    "metadata": {
+      "audioText": "Trời lạnh, bé mặc áo ấm.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_095",
+      "image": "❄️"
+    }
+  },
+  {
+    "id": "s_096",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Xe buýt chở nhiều người.",
+    "answer": "Xe buýt chở nhiều người.",
+    "metadata": {
+      "audioText": "Xe buýt chở nhiều người.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_096",
+      "image": "🚌"
+    }
+  },
+  {
+    "id": "s_097",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Máy bay bay cao.",
+    "answer": "Máy bay bay cao.",
+    "metadata": {
+      "audioText": "Máy bay bay cao.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_097",
+      "image": "✈️"
+    }
+  },
+  {
+    "id": "s_098",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé đạp xe.",
+    "answer": "Bé đạp xe.",
+    "metadata": {
+      "audioText": "Bé đạp xe.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_098",
+      "image": "🚲"
+    }
+  },
+  {
+    "id": "s_099",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Tàu hỏa chạy trên đường ray.",
+    "answer": "Tàu hỏa chạy trên đường ray.",
+    "metadata": {
+      "audioText": "Tàu hỏa chạy trên đường ray.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_099",
+      "image": "🚂"
+    }
+  },
+  {
+    "id": "s_100",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Đèn đỏ thì dừng lại.",
+    "answer": "Đèn đỏ thì dừng lại.",
+    "metadata": {
+      "audioText": "Đèn đỏ thì dừng lại.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_100",
+      "image": "🚦"
+    }
+  },
+  {
+    "id": "s_101",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Xe cứu hỏa màu đỏ.",
+    "answer": "Xe cứu hỏa màu đỏ.",
+    "metadata": {
+      "audioText": "Xe cứu hỏa màu đỏ.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_101",
+      "image": "🚒"
+    }
+  },
+  {
+    "id": "s_102",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bác sĩ khám bệnh.",
+    "answer": "Bác sĩ khám bệnh.",
+    "metadata": {
+      "audioText": "Bác sĩ khám bệnh.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_102",
+      "image": "🏥"
+    }
+  },
+  {
+    "id": "s_103",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Mẹ mua rau ở chợ.",
+    "answer": "Mẹ mua rau ở chợ.",
+    "metadata": {
+      "audioText": "Mẹ mua rau ở chợ.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_103",
+      "image": "🛒"
+    }
+  },
+  {
+    "id": "s_104",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé cười rất tươi.",
+    "answer": "Bé cười rất tươi.",
+    "metadata": {
+      "audioText": "Bé cười rất tươi.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_104",
+      "image": "😊"
+    }
+  },
+  {
+    "id": "s_105",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bạn buồn, bé an ủi bạn.",
+    "answer": "Bạn buồn, bé an ủi bạn.",
+    "metadata": {
+      "audioText": "Bạn buồn, bé an ủi bạn.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_105",
+      "image": "😢"
+    }
+  },
+  {
+    "id": "s_106",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé cảm ơn cô.",
+    "answer": "Bé cảm ơn cô.",
+    "metadata": {
+      "audioText": "Bé cảm ơn cô.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_106",
+      "image": "🙏"
+    }
+  },
+  {
+    "id": "s_107",
+    "subject": "vietnamese",
+    "ageMin": 4,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé chào ông bà.",
+    "answer": "Bé chào ông bà.",
+    "metadata": {
+      "audioText": "Bé chào ông bà.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_107",
+      "image": "👋"
+    }
+  },
+  {
+    "id": "s_108",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé xin lỗi bạn.",
+    "answer": "Bé xin lỗi bạn.",
+    "metadata": {
+      "audioText": "Bé xin lỗi bạn.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_108",
+      "image": "🙇"
+    }
+  },
+  {
+    "id": "s_109",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé ôm mẹ thật chặt.",
+    "answer": "Bé ôm mẹ thật chặt.",
+    "metadata": {
+      "audioText": "Bé ôm mẹ thật chặt.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_109",
+      "image": "🤗"
+    }
+  },
+  {
+    "id": "s_110",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé tập thể dục mỗi sáng.",
+    "answer": "Bé tập thể dục mỗi sáng.",
+    "metadata": {
+      "audioText": "Bé tập thể dục mỗi sáng.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_110",
+      "image": "💪"
+    }
+  },
+  {
+    "id": "s_111",
+    "subject": "vietnamese",
+    "ageMin": 5,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 2,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Rửa tay trước khi ăn.",
+    "answer": "Rửa tay trước khi ăn.",
+    "metadata": {
+      "audioText": "Rửa tay trước khi ăn.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_111",
+      "image": "🧼"
+    }
+  },
+  {
+    "id": "s_112",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 3,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Chú chim nhỏ hót líu lo.",
+    "answer": "Chú chim nhỏ hót líu lo.",
+    "metadata": {
+      "audioText": "Chú chim nhỏ hót líu lo.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_112",
+      "image": "🐦"
+    }
+  },
+  {
+    "id": "s_113",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 3,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Mùa xuân hoa nở khắp nơi.",
+    "answer": "Mùa xuân hoa nở khắp nơi.",
+    "metadata": {
+      "audioText": "Mùa xuân hoa nở khắp nơi.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_113",
+      "image": "🌸"
+    }
+  },
+  {
+    "id": "s_114",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 3,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Hôm nay là sinh nhật của bé.",
+    "answer": "Hôm nay là sinh nhật của bé.",
+    "metadata": {
+      "audioText": "Hôm nay là sinh nhật của bé.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_114",
+      "image": "🎂"
+    }
+  },
+  {
+    "id": "s_115",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 3,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Cả nhà đi tắm biển.",
+    "answer": "Cả nhà đi tắm biển.",
+    "metadata": {
+      "audioText": "Cả nhà đi tắm biển.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_115",
+      "image": "🏖️"
+    }
+  },
+  {
+    "id": "s_116",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 3,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bác nông dân gặt lúa.",
+    "answer": "Bác nông dân gặt lúa.",
+    "metadata": {
+      "audioText": "Bác nông dân gặt lúa.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_116",
+      "image": "🌾"
+    }
+  },
+  {
+    "id": "s_117",
+    "subject": "vietnamese",
+    "ageMin": 6,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 3,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé thích nghe kể chuyện cổ tích.",
+    "answer": "Bé thích nghe kể chuyện cổ tích.",
+    "metadata": {
+      "audioText": "Bé thích nghe kể chuyện cổ tích.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_117",
+      "image": "📖"
+    }
+  },
+  {
+    "id": "s_118",
+    "subject": "vietnamese",
+    "ageMin": 7,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 3,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Trái đất là ngôi nhà chung.",
+    "answer": "Trái đất là ngôi nhà chung.",
+    "metadata": {
+      "audioText": "Trái đất là ngôi nhà chung.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_118",
+      "image": "🌏"
+    }
+  },
+  {
+    "id": "s_119",
+    "subject": "vietnamese",
+    "ageMin": 7,
+    "ageMax": 7,
+    "level": 7,
+    "skill": "sentence",
+    "difficulty": 3,
+    "title": "Câu ngắn",
+    "instruction": "Đọc câu này",
+    "question": "Bé bỏ rác vào thùng rác.",
+    "answer": "Bé bỏ rác vào thùng rác.",
+    "metadata": {
+      "audioText": "Bé bỏ rác vào thùng rác.",
+      "audioLocale": "vi-VN",
+      "audioId": "vi_sentence_119",
+      "image": "♻️"
     }
   }
 ]

@@ -3,11 +3,12 @@ import 'dart:math';
 
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
+import 'package:flutter/services.dart' show AssetManifest, rootBundle;
 
 import 'audio_locale_policy.dart';
 import 'audio_playback_policy.dart';
 import 'audio_request.dart';
+import 'speech_id.dart';
 import 'vietnamese_speech_catalog.dart';
 
 /// Bundled Hoài My / Nanami MP3 only — zero native TTS.
@@ -149,6 +150,57 @@ class AudioService {
 
   final Set<String> _preloadedKeys = {};
   bool _preloaded = false;
+
+  /// Clip ids that the code asks for but that were never bundled, mapped to the
+  /// bundled clip that says the same thing. Used only when the requested file
+  /// is missing, so shipping the original file later takes over automatically.
+  static const Map<String, String> bundledFallbacks = {
+    'sys_success_1': 'sys_praise_1',
+    'sys_success_2': 'sys_praise_2',
+    'sys_success_3': 'sys_praise_3',
+    'sys_success_4': 'sys_praise_4',
+    'sys_success_5': 'sys_correct',
+    'sys_fail_1': 'sys_try_again',
+    'sys_fail_2': 'sys_try_again_1',
+    'sys_fail_3': 'sys_try_again_2',
+    'sys_fail_4': 'sys_try_again',
+    'sys_japanese_intro': 'sys_ja_intro',
+    'sys_math_recognize': 'sys_math_identify',
+    'sys_game_memory': 'sys_thinking_memory',
+    'v_math_dem_so': 'sys_math_count',
+  };
+
+  /// `assets/audio/<id>.mp3` ids present in the asset manifest; null until
+  /// loaded (or when the manifest is unavailable, in which case every id is tried).
+  Set<String>? _bundledIds;
+  Future<void>? _bundledIdsLoading;
+
+  Future<void> _ensureBundledIds() {
+    return _bundledIdsLoading ??= () async {
+      try {
+        final manifest = await AssetManifest.loadFromAssetBundle(rootBundle);
+        const prefix = 'assets/audio/';
+        _bundledIds = {
+          for (final asset in manifest.listAssets())
+            if (asset.startsWith(prefix) && asset.endsWith('.mp3') && !asset.substring(prefix.length).contains('/'))
+              asset.substring(prefix.length, asset.length - '.mp3'.length),
+        };
+      } catch (e) {
+        debugPrint('[AudioService] asset manifest unavailable, trying every id: $e');
+      }
+    }();
+  }
+
+  bool _isBundled(String id) => _bundledIds?.contains(id) ?? true;
+
+  /// The id that will actually play for [id]: itself when bundled, else its
+  /// [bundledFallbacks] entry when that is bundled.
+  String _resolveBundled(String id) {
+    if (_isBundled(id)) return id;
+    final fallback = bundledFallbacks[id];
+    if (fallback != null && _isBundled(fallback)) return fallback;
+    return id;
+  }
 
   static const successKeys = [
     'sys_success_1',
@@ -306,17 +358,21 @@ class AudioService {
   Future<void> preloadFeedbackAndSystemClips() async {
     if (_preloaded) return;
     _preloaded = true;
+    await _ensureBundledIds();
+    final keys = {
+      for (final key in preloadedClipKeys) _resolveBundled(normalizeKey(key)),
+    }.where(_isBundled).toList();
     final files = <String>[
-      for (final key in preloadedClipKeys) 'audio/$key.mp3',
+      for (final key in keys) 'audio/$key.mp3',
       bgmAsset,
     ];
     try {
       // Browser GET warm-up on web; temp-file copy on mobile — avoids first-play stutter.
       await AudioCache.instance.loadAll(files);
-      _preloadedKeys.addAll(preloadedClipKeys);
+      _preloadedKeys.addAll(keys);
     } catch (e) {
       debugPrint('[AudioService] AudioCache.loadAll fallback: $e');
-      for (final key in preloadedClipKeys) {
+      for (final key in keys) {
         try {
           await rootBundle.load('assets/audio/$key.mp3');
           _preloadedKeys.add(key);
@@ -456,6 +512,7 @@ class AudioService {
 
   /// Hard-stop current voice clip.
   Future<void> stop() async {
+    _speechToken++;
     if (_currentPlay != null && !_currentPlay!.isCompleted) {
       _currentPlay!.complete();
     }
@@ -480,7 +537,22 @@ class AudioService {
   ///
   /// By default returns as soon as playback *starts* (Safari-safe). Pass
   /// [waitForComplete] only when sequencing clips (e.g. onset → rime → syllable).
-  Future<AudioPlayResult> playAudio(String id, {bool waitForComplete = false}) async {
+  Future<AudioPlayResult> playAudio(String id, {bool waitForComplete = false}) {
+    // Any clip (feedback, a tapped card) cuts a running [speak] sequence;
+    // [speak] restores its own token right after starting each of its clips.
+    _speechToken++;
+    final timeout = _nextCompleteTimeout ?? _completeTimeout;
+    _nextCompleteTimeout = null;
+    return _play(id, waitForComplete: waitForComplete, completeTimeout: timeout);
+  }
+
+  Duration? _nextCompleteTimeout;
+
+  Future<AudioPlayResult> _play(
+    String id, {
+    required bool waitForComplete,
+    required Duration completeTimeout,
+  }) async {
     final audioId = normalizeKey(id);
     if (!soundEnabled) {
       return const AudioPlayResult.unavailable('Âm thanh đang tắt.');
@@ -492,31 +564,39 @@ class AudioService {
       return AudioPlayResult.ok(AudioLocalePolicy.localeFor(lang));
     }
 
+    await _ensureBundledIds();
+    final candidates = <String>{
+      audioId,
+      if (bundledFallbacks[audioId] != null) bundledFallbacks[audioId]!,
+      if (audioId.startsWith('vi_word_')) 'v_${audioId.substring(3)}',
+      if (audioId.startsWith('v_word_')) 'vi_${audioId.substring(2)}',
+      if (audioId.startsWith('ja_h_')) 'j_hira_${audioId.substring(5)}',
+      if (audioId.startsWith('ja_k_')) 'j_kata_${audioId.substring(5)}',
+      if (audioId.startsWith('j_hira_')) 'ja_h_${audioId.substring(7)}',
+      if (audioId.startsWith('j_kata_')) 'ja_k_${audioId.substring(7)}',
+      if (audioId.startsWith('ja_h_') && audioId.length > 5) 'ja_${audioId.substring(5)}',
+      if (audioId.startsWith('ja_k_') && audioId.length > 5) 'ja_${audioId.substring(5)}',
+      if (audioId.endsWith('_example')) audioId.substring(0, audioId.length - '_example'.length),
+      if (audioId.startsWith('v_rime_')) 'v_blend_${audioId.substring(7)}',
+      if (audioId.startsWith('v_rime_')) 'v_word_${audioId.substring(7)}',
+      if (audioId.startsWith('v_rime_')) 'v_v_${audioId.substring(7)}',
+    }.where(_isBundled).toList();
+    if (candidates.isEmpty) {
+      debugPrint('[AudioService] Missing bundled MP3 for id=$audioId (expected assets/audio/$audioId.mp3).');
+      return AudioPlayResult.unavailable('Thiếu file âm thanh: $audioId');
+    }
+
     _player ??= AudioPlayer();
     await _safePlayerOp(() => _player!.stop());
 
     await _duckBgm();
     try {
-      final candidates = <String>[
-        audioId,
-        if (audioId.startsWith('vi_word_')) 'v_${audioId.substring(3)}',
-        if (audioId.startsWith('v_word_')) 'vi_${audioId.substring(2)}',
-        if (audioId.startsWith('ja_h_')) 'j_hira_${audioId.substring(5)}',
-        if (audioId.startsWith('ja_k_')) 'j_kata_${audioId.substring(5)}',
-        if (audioId.startsWith('j_hira_')) 'ja_h_${audioId.substring(7)}',
-        if (audioId.startsWith('j_kata_')) 'ja_k_${audioId.substring(7)}',
-        if (audioId.startsWith('ja_h_') && audioId.length > 5) 'ja_${audioId.substring(5)}',
-        if (audioId.startsWith('ja_k_') && audioId.length > 5) 'ja_${audioId.substring(5)}',
-        if (audioId.endsWith('_example')) audioId.substring(0, audioId.length - '_example'.length),
-        if (audioId.startsWith('v_rime_')) 'v_blend_${audioId.substring(7)}',
-        if (audioId.startsWith('v_rime_')) 'v_word_${audioId.substring(7)}',
-      ];
-
       for (final key in candidates) {
         final ok = await _playRecorded(
           'assets/audio/$key.mp3',
           duckExternally: true,
           waitForComplete: waitForComplete,
+          completeTimeout: completeTimeout,
         );
         if (ok) {
           _lastSpoken = key.startsWith('ja_') || key.startsWith('j_')
@@ -576,8 +656,10 @@ class AudioService {
       // on many WebKit builds; play+stop a known system clip if available.
       await _safePlayerOp(() => _player!.stop());
       await _safePlayerOp(() => _player!.setVolume(0.01));
+      await _ensureBundledIds();
+      final kick = _resolveBundled(successKeys.first);
       await _safePlayerOp(
-        () => _player!.play(AssetSource('audio/sys_success_1.mp3')),
+        () => _player!.play(AssetSource('audio/$kick.mp3')),
       );
       await Future<void>.delayed(const Duration(milliseconds: 40));
       await _safePlayerOp(() => _player!.stop());
@@ -705,6 +787,113 @@ class AudioService {
     return playAsset(id);
   }
 
+  // ---------------------------------------------------------------------------
+  // Every on-screen line, voiced.
+  // ---------------------------------------------------------------------------
+
+  static const Duration _lineTimeout = Duration(seconds: 9);
+  int _speechToken = 0;
+
+  /// Bundled clip ids that say [text], best first: a content word clip, the
+  /// clips of a math expression, else the line's own `vi_say_*` clip.
+  /// Empty when nothing bundled can say it.
+  Future<List<String>> clipsForLine(String text) async {
+    await _ensureBundledIds();
+    final t = text.trim();
+    if (t.isEmpty) return const [];
+    final math = mathClips(t);
+    if (math != null) return math.every(_isBundled) ? math : const [];
+    final wordId = VietnameseSpeechCatalog.getAudioIdForWord(t);
+    if (wordId.isNotEmpty && _isBundled(normalizeKey(wordId))) return [wordId];
+    final lineId = SpeechId.idForLine(t);
+    if (lineId != null && _isBundled(lineId)) return [lineId];
+    return const [];
+  }
+
+  /// Clips for a pure math expression ("3 + 4 = ?", "12 > 9"), or null when
+  /// [text] is not one. Numbers 0–100 each have their own clip.
+  static List<String>? mathClips(String text) {
+    final t = text.replaceAll('−', '-').replaceAll('×', 'x').trim();
+    if (!RegExp(r'^[\d\s+\-=?<>_.]+$').hasMatch(t) || !RegExp(r'\d').hasMatch(t)) return null;
+    final out = <String>[];
+    for (final m in RegExp(r'\d+|[+\-=<>]').allMatches(t)) {
+      final token = m[0]!;
+      final n = int.tryParse(token);
+      if (n != null) {
+        if (n > 100) return null;
+        out.add('math_num_$n');
+      } else {
+        out.add(const {'+': 'math_op_plus', '-': 'math_op_minus', '=': 'math_op_equal', '>': 'math_cmp_greater', '<': 'math_cmp_less'}[token]!);
+      }
+    }
+    return out.isEmpty ? null : out;
+  }
+
+  /// Says [lines] one after another in Mai's voice (instruction, then the
+  /// question, …). A newer [speak] call or [stop] interrupts the sequence.
+  /// Lines without a bundled clip are skipped; when none can be said,
+  /// [fallbackId] (e.g. a skill intro) plays instead.
+  /// [leadIds] are clip ids said first (e.g. a skill intro on the first
+  /// question), [trailIds] after the lines (e.g. the letter or word to find).
+  Future<AudioPlayResult> speak(
+    List<String?> lines, {
+    String? fallbackId,
+    List<String> leadIds = const [],
+    List<String> trailIds = const [],
+  }) async {
+    final token = ++_speechToken;
+    final seen = <String>{};
+    await _ensureBundledIds();
+    final queue = <String>[
+      for (final id in leadIds)
+        if (_resolveCandidate(id) case final resolved?) resolved,
+    ];
+    for (final line in lines) {
+      if (line == null || !seen.add(line.trim())) continue;
+      queue.addAll(await clipsForLine(line));
+    }
+    for (final id in trailIds) {
+      final resolved = _resolveCandidate(id);
+      if (resolved != null) queue.add(resolved);
+    }
+    if (token != _speechToken) return const AudioPlayResult.unavailable('Đã chuyển câu khác.');
+    if (queue.isEmpty) {
+      if (fallbackId == null) return const AudioPlayResult.unavailable('Chưa có giọng đọc cho câu này.');
+      return playAudio(fallbackId);
+    }
+    AudioPlayResult last = const AudioPlayResult.unavailable('');
+    for (var i = 0; i < queue.length; i++) {
+      if (token != _speechToken) break;
+      _lastRequestKey = null; // the same clip may repeat inside one sentence ("2 + 2").
+      _nextCompleteTimeout = _lineTimeout;
+      final playing = playAudio(queue[i], waitForComplete: i < queue.length - 1);
+      _speechToken = token; // playAudio bumped it; this sequence keeps going.
+      last = await playing;
+    }
+    return last;
+  }
+
+  /// First bundled id among the ones [playAudio] would try for [id].
+  String? _resolveCandidate(String id) {
+    if (id.isEmpty) return null;
+    final key = normalizeKey(id);
+    for (final c in [
+      key,
+      if (bundledFallbacks[key] != null) bundledFallbacks[key]!,
+      if (key.startsWith('v_word_')) 'vi_${key.substring(2)}',
+      if (key.startsWith('v_rime_')) 'v_v_${key.substring(7)}',
+    ]) {
+      if (_isBundled(c)) return c;
+    }
+    return null;
+  }
+
+  /// Convenience for one line.
+  Future<AudioPlayResult> speakLine(String text, {String? fallbackId}) => speak([text], fallbackId: fallbackId);
+
+  /// True when [text] has a bundled voice.
+  Future<bool> canSpeak(String text) async => (await clipsForLine(text)).isNotEmpty;
+
   Future<AudioPlayResult> playWrongAnswerSound() => playRandomTryAgain();
 
   Future<AudioPlayResult> playRandomSuccess() {
@@ -784,6 +973,7 @@ class AudioService {
     String assetPath, {
     bool duckExternally = false,
     bool waitForComplete = false,
+    Duration completeTimeout = _completeTimeout,
   }) async {
     if (!duckExternally) await _duckBgm();
     StreamSubscription<void>? sub;
@@ -802,7 +992,7 @@ class AudioService {
       await _safePlayerOp(() => _player!.play(AssetSource(source)));
 
       if (waitForComplete) {
-        await done.future.timeout(_completeTimeout, onTimeout: () {
+        await done.future.timeout(completeTimeout, onTimeout: () {
           debugPrint('[AudioService] complete timeout (Safari-safe): $assetPath');
         });
       } else {
