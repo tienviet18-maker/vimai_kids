@@ -38,6 +38,7 @@ class KidGuide {
   static const blendHowTo = 'Bé nghe từng âm, rồi ghép lại thành tiếng nhé.';
   static const wordHowTo = 'Bé nhìn hình, nghe Mai đọc, rồi chọn chữ đúng nhé.';
   static const sentenceHowTo = 'Bé nghe Mai đọc cả câu, rồi đọc theo nhé.';
+  static const sentencePick = 'Bé nghe Mai đọc, rồi chọn câu đúng nhé.';
   static const rimeHowTo = 'Bé nghe vần, rồi chọn tiếng có vần đó nhé.';
   static const listenPickLetter = 'Nghe rồi chọn chữ đúng nhé.';
   static const hearLetterName = 'Nghe tên chữ, rồi chọn chữ đúng nhé.';
@@ -77,7 +78,7 @@ class KidGuide {
     vietnameseHub, japaneseHub, mathHub, thinkingHub, gamesHub, creativityHub,
     quizHowTo, tapSpeaker, nextQuestion, sessionDone, almost, hint,
     letterSee, letterHear, letterTrace, letterFind, letterSay, blendHowTo, wordHowTo, sentenceHowTo,
-    rimeHowTo, listenPickLetter, hearLetterName, hearLetterSound, letterWhichSound, letterInWord, findLetter,
+    sentencePick, rimeHowTo, listenPickLetter, hearLetterName, hearLetterSound, letterWhichSound, letterInWord, findLetter,
     kanaSee, kanaHear, kanaWatch, kanaTrace, kanaWrite, kanaRepeat, kanaReward,
     gameCatchKana, gameListenKana, gameMatchKana, gameFeedAnimal, gameFindSimilar, gameMathRocket,
     gameNumberTrain, gameWin,

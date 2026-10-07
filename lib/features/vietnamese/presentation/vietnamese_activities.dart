@@ -117,6 +117,11 @@ class _VietnameseQuizListScreenState extends ConsumerState<VietnameseQuizListScr
   final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 500));
   int _index = 0;
   int _stars = 0;
+
+  /// Lessons run in rounds of [_roundSize] so a 3–7 year old finishes one.
+  static const _roundSize = 10;
+  int _roundStart = 0;
+  int _roundEnd(int total) => min(_roundStart + _roundSize, total);
   String? _feedback;
   String? _lastChoice;
   bool? _lastCorrect;
@@ -141,6 +146,19 @@ class _VietnameseQuizListScreenState extends ConsumerState<VietnameseQuizListScr
     return KidGuide.wordHowTo;
   }
 
+  /// What the prompt card says: the item's own instruction, unless the
+  /// word is hidden behind its picture or the instruction is a formula.
+  String _promptFor(ContentItem item) {
+    final picture = item.metadata?['image'] as String?;
+    final s = widget.skill;
+    final isBlend = s.contains('blend') || s.contains('phonics');
+    if (item.instruction.contains('+')) return _howTo;
+    if (picture != null && picture.isNotEmpty && !isBlend) {
+      return s.contains('sentence') ? KidGuide.sentencePick : KidGuide.wordHowTo;
+    }
+    return item.instruction;
+  }
+
   /// The clip that says this item (blend, rime, word or sentence).
   String _itemClipId(ContentItem item) {
     final s = widget.skill;
@@ -159,14 +177,14 @@ class _VietnameseQuizListScreenState extends ConsumerState<VietnameseQuizListScr
   void _present({bool first = false}) {
     if (!mounted) return;
     final items = widget.loader(ref);
-    if (_index >= items.length) {
+    if (_index >= _roundEnd(items.length)) {
       unawaited(ref.read(audioServiceProvider).speakLine(KidGuide.sessionDone));
       return;
     }
     final item = items[_index];
     unawaited(
       ref.read(audioServiceProvider).speak(
-        [if (first) _howTo, item.instruction],
+        [if (first && _promptFor(item) == item.instruction) _howTo, _promptFor(item)],
         trailIds: [_itemClipId(item)],
       ),
     );
@@ -296,13 +314,24 @@ class _VietnameseQuizListScreenState extends ConsumerState<VietnameseQuizListScr
     String subtitle = '';
     if (items.isEmpty) {
       body = const Center(child: Text('Chưa có dữ liệu'));
-    } else if (_index >= items.length) {
+    } else if (_index >= _roundEnd(items.length)) {
+      final hasMore = _index < items.length;
       body = _FinishedPanel(
         stars: _stars,
-        total: items.length,
+        total: _roundEnd(items.length) - _roundStart,
+        onContinue: hasMore
+            ? () {
+                setState(() {
+                  _roundStart = _index;
+                  _stars = 0;
+                });
+                _present(first: true);
+              }
+            : null,
         onReplay: () {
           setState(() {
-            _index = 0;
+            _index = hasMore ? _roundStart : 0;
+            if (!hasMore) _roundStart = 0;
             _stars = 0;
             _choiceCache.clear();
           });
@@ -312,7 +341,7 @@ class _VietnameseQuizListScreenState extends ConsumerState<VietnameseQuizListScr
       );
     } else {
       final item = items[_index];
-      subtitle = '${_index + 1} / ${items.length}';
+      subtitle = '${_index - _roundStart + 1} / ${_roundEnd(items.length) - _roundStart}';
       body = _question(context, items, item);
     }
     return SessionBinder(
@@ -343,7 +372,7 @@ class _VietnameseQuizListScreenState extends ConsumerState<VietnameseQuizListScr
               ClipRRect(
                 borderRadius: BorderRadius.circular(99),
                 child: LinearProgressIndicator(
-                  value: (_index / items.length).clamp(0, 1),
+                  value: ((_index - _roundStart) / (_roundEnd(items.length) - _roundStart)).clamp(0, 1),
                   minHeight: 10,
                   color: VimaiColor.sky,
                   backgroundColor: VimaiColor.sky.withValues(alpha: 0.14),
@@ -352,15 +381,18 @@ class _VietnameseQuizListScreenState extends ConsumerState<VietnameseQuizListScr
               const SizedBox(height: 14),
               _HeroCard(
                 picture: picture,
-                text: item.question ?? item.answer ?? '',
+                // With a picture, the child listens and finds the written
+                // word/sentence; the text appears once they get it right.
+                text: (picture != null && picture.isNotEmpty && _lastCorrect != true && !isBlend)
+                    ? null
+                    : item.question ?? item.answer ?? '',
                 large: !isSentence,
                 onTap: hear,
               ),
               const SizedBox(height: 12),
               ListenPrompt(
-                // Formulas ("b + a = ?") already show on the card; say the how-to instead.
-                text: item.instruction.contains('+') ? _howTo : item.instruction,
-                lines: [item.instruction.contains('+') ? _howTo : item.instruction],
+                text: _promptFor(item),
+                lines: [_promptFor(item)],
                 color: VimaiColor.sky,
                 style: VimaiType.subtitle,
                 onTap: hear,
@@ -438,14 +470,14 @@ class _HeroCard extends StatelessWidget {
   const _HeroCard({required this.picture, required this.text, required this.large, required this.onTap});
 
   final String? picture;
-  final String text;
+  final String? text;
   final bool large;
   final VoidCallback onTap;
 
   @override
   Widget build(BuildContext context) {
     return Pressable(
-      semanticLabel: 'Nghe: $text',
+      semanticLabel: 'Nghe lại',
       borderRadius: BorderRadius.circular(VimaiRadius.xl),
       onTap: onTap,
       child: Container(
@@ -471,12 +503,15 @@ class _HeroCard extends StatelessWidget {
                 decoration: const BoxDecoration(color: Colors.white, shape: BoxShape.circle),
                 child: Text(picture!, style: const TextStyle(fontSize: 72)),
               ),
-            if (picture != null && picture!.isNotEmpty) const SizedBox(height: 12),
-            Text(
-              text,
-              textAlign: TextAlign.center,
-              style: (large ? VimaiType.display : VimaiType.title).copyWith(color: VimaiColor.ink),
-            ),
+            if (text != null && picture != null && picture!.isNotEmpty) const SizedBox(height: 12),
+            if (text != null)
+              Text(
+                text!,
+                textAlign: TextAlign.center,
+                style: (large ? VimaiType.display : VimaiType.title).copyWith(color: VimaiColor.ink),
+              )
+            else
+              const Icon(Icons.hearing_rounded, color: VimaiColor.sky, size: 34),
           ],
         ),
       ),
@@ -525,8 +560,15 @@ class _SentenceChoice extends StatelessWidget {
 }
 
 class _FinishedPanel extends StatelessWidget {
-  const _FinishedPanel({required this.stars, required this.total, required this.onReplay, required this.onHome});
+  const _FinishedPanel({
+    required this.stars,
+    required this.total,
+    required this.onReplay,
+    required this.onHome,
+    this.onContinue,
+  });
 
+  final VoidCallback? onContinue;
   final int stars;
   final int total;
   final VoidCallback onReplay;
@@ -542,10 +584,18 @@ class _FinishedPanel extends StatelessWidget {
           children: [
             const IdleMascot(mood: MascotMood.celebrating, color: VimaiColor.mascot, size: 110),
             const SizedBox(height: 12),
-            Text('Con đã học hết phần này rồi! 🎉', textAlign: TextAlign.center, style: VimaiType.title),
+            Text(
+              onContinue != null ? 'Bé giỏi quá! Xong một chặng rồi! 🎉' : 'Con đã học hết phần này rồi! 🎉',
+              textAlign: TextAlign.center,
+              style: VimaiType.title,
+            ),
             const SizedBox(height: 8),
             Text('⭐ $stars / $total', style: VimaiType.greeting.copyWith(color: VimaiColor.honey)),
             const SizedBox(height: 20),
+            if (onContinue != null) ...[
+              KidsPlayButton(label: 'Học tiếp', color: VimaiColor.coral, onPressed: onContinue),
+              const SizedBox(height: 10),
+            ],
             KidsPlayButton(label: 'Ôn lại', color: VimaiColor.sky, icon: Icons.replay_rounded, onPressed: onReplay),
             const SizedBox(height: 8),
             TextButton(onPressed: onHome, child: const Text('Về trang Tiếng Việt')),
