@@ -9,7 +9,8 @@ import '../../../core/providers.dart';
 import '../../../core/theme/vimai_tokens.dart';
 import '../../../data/content/game_catalog.dart';
 import '../../../data/repositories/profile_repository.dart';
-import '../../shared/widgets/vimai_ui.dart';
+import '../../shared/widgets/chunky_button.dart';
+import 'widgets/game_fx.dart';
 import 'widgets/game_play_scaffold.dart';
 import '../../../core/audio/kid_guide.dart';
 
@@ -128,44 +129,88 @@ class _FindSimilarGameState extends ConsumerState<FindSimilarGame> {
     });
   }
 
+  void _sayHowTo() => unawaited(ref.read(audioServiceProvider).speak([KidGuide.gameFindSimilar]));
+
   @override
   Widget build(BuildContext context) {
+    final a = _first;
+    final b = _second;
+    final miss = a != null && b != null && a < _cards.length && b < _cards.length && _cards[a] != _cards[b];
+    const color = Color(0xFFFF8A3D);
     return GamePlayScaffold(
       title: 'Tìm hình giống nhau',
-      instruction: const GameTargetBanner(label: 'Tìm hai hình giống nhau', glyph: '◆', color: VimaiColor.grape),
+      scene: GameScene.table,
+      correct: miss ? false : (_handDone ? true : null),
+      instruction: GameTargetBanner(
+        label: 'Tìm hai hình giống nhau',
+        glyph: '◆',
+        color: VimaiColor.grape,
+        onTap: _sayHowTo,
+      ),
       progress: GameProgressBar(current: _matches, total: _pairCount, color: VimaiColor.grape),
-      playArea: GameCardGrid(
-        itemCount: _cards.length,
-        builder: (context, index) {
-          final open = index < _isFlipped.length && (_isFlipped[index] || _isMatched[index]);
-          return Pressable(
-            semanticLabel: open ? _cards[index] : 'Úp',
-            onTap: () => _tap(index),
-            child: AnimatedContainer(
-              duration: const Duration(milliseconds: 180),
-              alignment: Alignment.center,
-              constraints: const BoxConstraints(minWidth: 48, minHeight: 48),
-              decoration: BoxDecoration(
-                color: open ? VimaiColor.surface : VimaiColor.grape.withValues(alpha: 0.18),
-                borderRadius: BorderRadius.circular(VimaiRadius.md),
-                border: Border.all(color: VimaiColor.grape.withValues(alpha: 0.35), width: 2),
-                boxShadow: VimaiShadow.soft,
-              ),
-              child: Text(
-                open ? _cards[index] : '?',
-                style: TextStyle(
-                  fontSize: 28,
-                  fontWeight: FontWeight.w800,
-                  color: open ? VimaiColor.ink : VimaiColor.grape,
-                ),
+      feedback: miss
+          ? const GameFeedbackToast(correct: false, message: 'Thử lại nhé!')
+          : (_handDone ? const GameFeedbackToast(correct: true, message: 'Giỏi lắm!') : null),
+      playArea: Stack(
+        children: [
+          Positioned.fill(
+            child: GameCardGrid(
+              itemCount: _cards.length,
+              builder: (context, index) {
+                final matched = index < _isMatched.length && _isMatched[index];
+                final open = index < _isFlipped.length && (_isFlipped[index] || matched);
+                return ShakeOnChange(
+                  trigger: miss && (index == a || index == b) ? 'miss-$a-$b' : null,
+                  child: GameFlipCard(
+                    open: open,
+                    matched: matched,
+                    color: color,
+                    semanticLabel: open ? _cards[index] : 'Úp',
+                    onTap: () => _tap(index),
+                    face: Text(_cards[index], style: const TextStyle(fontSize: 48, height: 1.1)),
+                  ),
+                );
+              },
+            ),
+          ),
+          if (_handDone)
+            Positioned.fill(
+              child: Stack(
+                children: [
+                  const ConfettiRain(count: 50),
+                  Align(
+                    alignment: const Alignment(0, 0.85),
+                    child: TweenAnimationBuilder<double>(
+                      tween: Tween(begin: 0.4, end: 1),
+                      duration: VimaiMotion.of(context, const Duration(milliseconds: 600)),
+                      curve: Curves.elasticOut,
+                      builder: (context, v, child) => Transform.scale(scale: v, child: child),
+                      child: SizedBox(
+                        width: 260,
+                        height: 76,
+                        child: ChunkyButton(
+                          color: VimaiColor.correct,
+                          depth: 7,
+                          radius: 28,
+                          semanticLabel: 'Ván mới',
+                          onTap: () => setState(_deal),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              const Icon(Icons.play_arrow_rounded, color: Colors.white, size: 40),
+                              const SizedBox(width: 6),
+                              Text('Ván mới', style: VimaiType.display.copyWith(color: Colors.white, fontSize: 28, height: 1)),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
               ),
             ),
-          );
-        },
+        ],
       ),
-      footer: _handDone
-          ? KidButton(label: 'Ván mới', onPressed: () => setState(_deal), color: VimaiColor.grape)
-          : Text('Ván $_rounds', textAlign: TextAlign.center, style: VimaiType.caption),
     );
   }
 }
