@@ -21,6 +21,8 @@ void main() {
       // Phonics formulas ("b + a") are voiced sound-first by their own
       // v_blend_*/v_rime_* clips; a narrator would read letter names.
       if ((group == 'vi_phonics' || group == 'vi_rimes') && text.contains('+')) return;
+      // Sentences are voiced by their own v_sentence_* clips.
+      if (group == 'vi_sentences' && text != 'Đọc câu này' && text != 'Câu ngắn') return;
       final spoken = SpeechId.spokenText(text);
       if (spoken == null) return;
       lines.putIfAbsent(group, () => <String>{}).add(spoken);

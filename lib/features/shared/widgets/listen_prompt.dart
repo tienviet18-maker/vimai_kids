@@ -17,7 +17,12 @@ class ListenPrompt extends ConsumerWidget {
     this.color = VimaiColor.grape,
     this.style,
     this.child,
+    this.onTap,
   });
+
+  /// Replaces the default "say [lines]" when the card should replay
+  /// something else (a word clip, a blend).
+  final VoidCallback? onTap;
 
   final String text;
   final List<String?>? lines;
@@ -29,7 +34,7 @@ class ListenPrompt extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    void say() => unawaited(ref.read(audioServiceProvider).speak(lines ?? [text]));
+    void say() => onTap != null ? onTap!() : unawaited(ref.read(audioServiceProvider).speak(lines ?? [text]));
     return Pressable(
       semanticLabel: 'Nghe lại: $text',
       borderRadius: BorderRadius.circular(VimaiRadius.lg),
