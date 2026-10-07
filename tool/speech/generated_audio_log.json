@@ -1798,6 +1798,552 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "v_sentence_042": {
+  "text": "Cả nhà ăn cơm.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_043": {
+  "text": "Bà ôm bé.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_044": {
+  "text": "Ông tưới cây.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_045": {
+  "text": "Chị dắt em đi chơi.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_046": {
+  "text": "Bé quét nhà giúp mẹ.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_047": {
+  "text": "Bé dọn giường.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_048": {
+  "text": "Bé ôm gấu bông.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_049": {
+  "text": "Bé tắm sạch sẽ.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_050": {
+  "text": "Con chó sủa gâu gâu.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_051": {
+  "text": "Con mèo kêu meo meo.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_052": {
+  "text": "Con vịt bơi trong ao.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_053": {
+  "text": "Con bò ăn cỏ.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_054": {
+  "text": "Con heo ăn no.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_055": {
+  "text": "Con voi có vòi dài.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_056": {
+  "text": "Con khỉ leo cây.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_057": {
+  "text": "Con thỏ nhảy xa.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_058": {
+  "text": "Con ong làm mật.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_059": {
+  "text": "Con bướm bay quanh hoa.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_060": {
+  "text": "Con rùa bò chậm.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_061": {
+  "text": "Con ếch nhảy xuống ao.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_062": {
+  "text": "Gà trống gáy buổi sáng.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_063": {
+  "text": "Đàn cá bơi tung tăng.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_064": {
+  "text": "Bé ăn chuối.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_065": {
+  "text": "Dưa hấu rất ngọt.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_066": {
+  "text": "Mẹ luộc trứng.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_067": {
+  "text": "Bé ăn bánh mì.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_068": {
+  "text": "Cà rốt màu cam.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_069": {
+  "text": "Quả cam có nhiều nước.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_070": {
+  "text": "Sữa giúp bé khỏe.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_071": {
+  "text": "Ba nấu phở.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_072": {
+  "text": "Bé ăn nhiều rau xanh.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_073": {
+  "text": "Bé uống nước mỗi ngày.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_074": {
+  "text": "Bé đeo cặp đi học.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_075": {
+  "text": "Bé cầm bút chì.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_076": {
+  "text": "Bé tô màu bức tranh.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_077": {
+  "text": "Bé đọc sách cùng cô.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_078": {
+  "text": "Bé vẽ ông mặt trời.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_079": {
+  "text": "Bé ghép hình.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_080": {
+  "text": "Bé thả diều.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_081": {
+  "text": "Bóng bay màu đỏ.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_082": {
+  "text": "Bé chơi cùng bạn.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_083": {
+  "text": "Trường của bé rất đẹp.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_084": {
+  "text": "Cả lớp cùng hát.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_085": {
+  "text": "Bé giơ tay phát biểu.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_086": {
+  "text": "Mặt trời mọc rồi.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_087": {
+  "text": "Cầu vồng có bảy màu.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_088": {
+  "text": "Trời mưa to.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_089": {
+  "text": "Gió thổi mát.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_090": {
+  "text": "Sao lấp lánh trên trời.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_091": {
+  "text": "Trăng sáng quá.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_092": {
+  "text": "Cây xanh cho bóng mát.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_093": {
+  "text": "Sóng biển vỗ rì rào.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_094": {
+  "text": "Hoa hướng dương vàng rực.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_095": {
+  "text": "Trời lạnh, bé mặc áo ấm.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_096": {
+  "text": "Xe buýt chở nhiều người.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_097": {
+  "text": "Máy bay bay cao.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_098": {
+  "text": "Bé đạp xe.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_099": {
+  "text": "Tàu hỏa chạy trên đường ray.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_100": {
+  "text": "Đèn đỏ thì dừng lại.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_101": {
+  "text": "Xe cứu hỏa màu đỏ.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_102": {
+  "text": "Bác sĩ khám bệnh.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_103": {
+  "text": "Mẹ mua rau ở chợ.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_104": {
+  "text": "Bé cười rất tươi.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_105": {
+  "text": "Bạn buồn, bé an ủi bạn.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_106": {
+  "text": "Bé cảm ơn cô.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_107": {
+  "text": "Bé chào ông bà.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_108": {
+  "text": "Bé xin lỗi bạn.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_109": {
+  "text": "Bé ôm mẹ thật chặt.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_110": {
+  "text": "Bé tập thể dục mỗi sáng.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_111": {
+  "text": "Rửa tay trước khi ăn.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_112": {
+  "text": "Chú chim nhỏ hót líu lo.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_113": {
+  "text": "Mùa xuân hoa nở khắp nơi.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_114": {
+  "text": "Hôm nay là sinh nhật của bé.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_115": {
+  "text": "Cả nhà đi tắm biển.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_116": {
+  "text": "Bác nông dân gặt lúa.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_117": {
+  "text": "Bé thích nghe kể chuyện cổ tích.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_118": {
+  "text": "Trái đất là ngôi nhà chung.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
+ "v_sentence_119": {
+  "text": "Bé bỏ rác vào thùng rác.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-07"
+ },
  "v_word_anh": {
   "text": "anh.",
   "voice": "vi-VN-HoaiMyNeural",
