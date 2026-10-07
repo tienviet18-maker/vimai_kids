@@ -11,6 +11,7 @@ import '../../../data/content/game_catalog.dart';
 import '../../../data/repositories/profile_repository.dart';
 import '../../shared/widgets/vimai_ui.dart';
 import 'widgets/game_play_scaffold.dart';
+import '../../../core/audio/kid_guide.dart';
 
 class NumberTrainGame extends ConsumerStatefulWidget {
   const NumberTrainGame({super.key});
@@ -37,7 +38,7 @@ class _NumberTrainGameState extends ConsumerState<NumberTrainGame> {
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (mounted) {
         setState(_reset);
-        ref.read(audioServiceProvider).playIntro('sys_math_order');
+        unawaited(ref.read(audioServiceProvider).speak([KidGuide.gameNumberTrain], fallbackId: 'sys_math_order'));
       }
     });
   }

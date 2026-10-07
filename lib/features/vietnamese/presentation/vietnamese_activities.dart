@@ -6,6 +6,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../../core/audio/audio_locale_policy.dart';
 import '../../../core/audio/audio_service.dart';
+import '../../../core/audio/kid_guide.dart';
 import '../../../core/audio/vietnamese_phonics_guide.dart';
 import '../../../core/game/webkit_answer_tap.dart';
 import '../../../core/providers.dart';
@@ -111,9 +112,54 @@ class _VietnameseQuizListScreenState extends ConsumerState<VietnameseQuizListScr
   String? _feedback;
 
   @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) => _present(first: true));
+  }
+
+  @override
   void dispose() {
     _answerTap.dispose();
     super.dispose();
+  }
+
+  String get _howTo {
+    final s = widget.skill;
+    if (s.contains('blend') || s.contains('phonics')) return KidGuide.blendHowTo;
+    if (s.contains('rime')) return KidGuide.rimeHowTo;
+    if (s.contains('sentence')) return KidGuide.sentenceHowTo;
+    return KidGuide.wordHowTo;
+  }
+
+  /// The clip that says this item (blend, rime, word or sentence).
+  String _itemClipId(ContentItem item) {
+    final s = widget.skill;
+    if (s.contains('blend') || s.contains('phonics')) {
+      return item.exampleWordAudioId.isNotEmpty
+          ? item.exampleWordAudioId
+          : (item.blendAudioId.isNotEmpty ? item.blendAudioId : item.audioId);
+    }
+    if (s.contains('rime')) return item.audioId.isNotEmpty ? item.audioId : 'v_rime_${item.rime}';
+    if (item.exampleWordAudioId.isNotEmpty) return item.exampleWordAudioId;
+    if (item.audioId.isNotEmpty) return item.audioId;
+    return item.wordAudioId;
+  }
+
+  /// Mai says what to do, then the item itself ("Đọc từ này… mèo").
+  void _present({bool first = false}) {
+    if (!mounted) return;
+    final items = widget.loader(ref);
+    if (_index >= items.length) {
+      unawaited(ref.read(audioServiceProvider).speakLine(KidGuide.sessionDone));
+      return;
+    }
+    final item = items[_index];
+    unawaited(
+      ref.read(audioServiceProvider).speak(
+        [if (first) _howTo, item.instruction],
+        trailIds: [_itemClipId(item)],
+      ),
+    );
   }
 
   Future<void> _playItem(ContentItem item) async {
@@ -188,7 +234,13 @@ class _VietnameseQuizListScreenState extends ConsumerState<VietnameseQuizListScr
             children: [
               const Text('Con đã học hết phần này rồi! 🎉', textAlign: TextAlign.center, style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
               const SizedBox(height: 16),
-              ElevatedButton(onPressed: () => setState(() => _index = 0), child: const Text('Ôn lại')),
+              ElevatedButton(
+                onPressed: () {
+                  setState(() => _index = 0);
+                  _present(first: true);
+                },
+                child: const Text('Ôn lại'),
+              ),
               TextButton(onPressed: () => popLearningScreen(context), child: const Text('Về trang Tiếng Việt')),
             ],
           ),
@@ -302,6 +354,7 @@ class _VietnameseQuizListScreenState extends ConsumerState<VietnameseQuizListScr
                     advanceOrFinish: () {
                       _index++;
                       _feedback = null;
+                      _present();
                     },
                   );
                 },
@@ -401,10 +454,16 @@ class _VietnameseLetterGameScreenState extends ConsumerState<VietnameseLetterGam
       _choices[0] = _target!.question ?? '';
       _choices.shuffle();
     }
+    final first = _score == 0 && _wrong == 0 && _recent.length == 1;
     setState(() => _feedback = null);
     final audio = ref.read(audioServiceProvider);
-    final result = await VietnamesePhonicsGuide.playPrimary(audio, _target!);
-    if (mounted) AudioService.notify(context, result);
+    final letterId = AudioService.getAudioIdForLetter(_target!.question ?? _target!.letterName);
+    if (letterId.isEmpty) {
+      final result = await VietnamesePhonicsGuide.playPrimary(audio, _target!);
+      if (mounted) AudioService.notify(context, result);
+      return;
+    }
+    unawaited(audio.speak([if (first) KidGuide.listenPickLetter], trailIds: [letterId]));
   }
 
   @override
@@ -418,7 +477,7 @@ class _VietnameseLetterGameScreenState extends ConsumerState<VietnameseLetterGam
           padding: const EdgeInsets.all(24),
           child: Column(
             children: [
-              const Text('Nghe rồi chọn chữ đúng', style: TextStyle(fontSize: 22)),
+              const Text(KidGuide.listenPickLetter, style: TextStyle(fontSize: 22)),
               IconButton(
                 iconSize: 72,
                 color: AppTheme.primaryColor,
@@ -587,6 +646,19 @@ class _VietnameseChooseLetterScreenState extends ConsumerState<VietnameseChooseL
     if (target == null) return;
     final audio = ref.read(audioServiceProvider);
     final letterId = AudioService.getAudioIdForLetter(target.question ?? target.letterName);
+    if (letterId.isNotEmpty) {
+      // Spoken prompt never names the letter, so it never gives the answer away.
+      final spoken = switch (_mode) {
+        _ChooseMode.hearName => KidGuide.hearLetterName,
+        _ChooseMode.hearSound => KidGuide.hearLetterSound,
+        _ChooseMode.letterToSound => KidGuide.letterWhichSound,
+        _ChooseMode.letterToWord => KidGuide.letterInWord,
+        _ChooseMode.recognize => KidGuide.findLetter,
+      };
+      final showsLetter = _mode == _ChooseMode.letterToSound || _mode == _ChooseMode.letterToWord;
+      unawaited(audio.speak([spoken], trailIds: [if (!showsLetter) letterId]));
+      return;
+    }
     final AudioPlayResult result;
     switch (_mode) {
       case _ChooseMode.hearName:

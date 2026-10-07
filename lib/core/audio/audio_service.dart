@@ -537,17 +537,22 @@ class AudioService {
   ///
   /// By default returns as soon as playback *starts* (Safari-safe). Pass
   /// [waitForComplete] only when sequencing clips (e.g. onset → rime → syllable).
-  Future<AudioPlayResult> playAudio(String id, {bool waitForComplete = false}) =>
-      _play(id, waitForComplete: waitForComplete, completeTimeout: _completeTimeout, interruptSpeech: true);
+  Future<AudioPlayResult> playAudio(String id, {bool waitForComplete = false}) {
+    // Any clip (feedback, a tapped card) cuts a running [speak] sequence;
+    // [speak] restores its own token right after starting each of its clips.
+    _speechToken++;
+    final timeout = _nextCompleteTimeout ?? _completeTimeout;
+    _nextCompleteTimeout = null;
+    return _play(id, waitForComplete: waitForComplete, completeTimeout: timeout);
+  }
+
+  Duration? _nextCompleteTimeout;
 
   Future<AudioPlayResult> _play(
     String id, {
     required bool waitForComplete,
     required Duration completeTimeout,
-    required bool interruptSpeech,
   }) async {
-    // Any other clip (feedback, a tapped card) cuts a running [speak] sequence.
-    if (interruptSpeech) _speechToken++;
     final audioId = normalizeKey(id);
     if (!soundEnabled) {
       return const AudioPlayResult.unavailable('Âm thanh đang tắt.');
@@ -828,31 +833,59 @@ class AudioService {
   /// question, …). A newer [speak] call or [stop] interrupts the sequence.
   /// Lines without a bundled clip are skipped; when none can be said,
   /// [fallbackId] (e.g. a skill intro) plays instead.
-  Future<AudioPlayResult> speak(List<String?> lines, {String? fallbackId}) async {
+  /// [leadIds] are clip ids said first (e.g. a skill intro on the first
+  /// question), [trailIds] after the lines (e.g. the letter or word to find).
+  Future<AudioPlayResult> speak(
+    List<String?> lines, {
+    String? fallbackId,
+    List<String> leadIds = const [],
+    List<String> trailIds = const [],
+  }) async {
     final token = ++_speechToken;
     final seen = <String>{};
-    final queue = <String>[];
+    await _ensureBundledIds();
+    final queue = <String>[
+      for (final id in leadIds)
+        if (_resolveCandidate(id) case final resolved?) resolved,
+    ];
     for (final line in lines) {
       if (line == null || !seen.add(line.trim())) continue;
       queue.addAll(await clipsForLine(line));
     }
+    for (final id in trailIds) {
+      final resolved = _resolveCandidate(id);
+      if (resolved != null) queue.add(resolved);
+    }
     if (token != _speechToken) return const AudioPlayResult.unavailable('Đã chuyển câu khác.');
     if (queue.isEmpty) {
       if (fallbackId == null) return const AudioPlayResult.unavailable('Chưa có giọng đọc cho câu này.');
-      return _play(fallbackId, waitForComplete: false, completeTimeout: _completeTimeout, interruptSpeech: false);
+      return playAudio(fallbackId);
     }
     AudioPlayResult last = const AudioPlayResult.unavailable('');
     for (var i = 0; i < queue.length; i++) {
       if (token != _speechToken) break;
       _lastRequestKey = null; // the same clip may repeat inside one sentence ("2 + 2").
-      last = await _play(
-        queue[i],
-        waitForComplete: i < queue.length - 1,
-        completeTimeout: _lineTimeout,
-        interruptSpeech: false,
-      );
+      _nextCompleteTimeout = _lineTimeout;
+      final playing = playAudio(queue[i], waitForComplete: i < queue.length - 1);
+      _speechToken = token; // playAudio bumped it; this sequence keeps going.
+      last = await playing;
     }
     return last;
+  }
+
+  /// First bundled id among the ones [playAudio] would try for [id].
+  String? _resolveCandidate(String id) {
+    if (id.isEmpty) return null;
+    final key = normalizeKey(id);
+    for (final c in [
+      key,
+      if (bundledFallbacks[key] != null) bundledFallbacks[key]!,
+      if (key.startsWith('v_word_')) 'vi_${key.substring(2)}',
+      if (key.startsWith('v_rime_')) 'v_v_${key.substring(7)}',
+    ]) {
+      if (_isBundled(c)) return c;
+    }
+    return null;
   }
 
   /// Convenience for one line.

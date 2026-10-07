@@ -8,6 +8,7 @@ import '../../../core/theme/vimai_art.dart';
 import '../../../core/theme/vimai_tokens.dart';
 import '../../../data/repositories/profile_repository.dart';
 import '../../shared/widgets/kids_storybook.dart';
+import '../../../core/audio/kid_guide.dart';
 
 class VietnameseScreen extends ConsumerWidget {
   const VietnameseScreen({super.key});
@@ -32,6 +33,7 @@ class VietnameseScreen extends ConsumerWidget {
     ];
 
     return KidsHubShell(
+      guide: const [KidGuide.vietnameseHub],
       title: copy.vietnamese,
       subtitle: copy.vietnameseSub,
       accent: VimaiColor.sky,

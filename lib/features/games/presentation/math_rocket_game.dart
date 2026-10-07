@@ -13,6 +13,7 @@ import '../../../data/repositories/profile_repository.dart';
 import '../../shared/widgets/choice_grid.dart';
 import '../../shared/widgets/vimai_ui.dart';
 import 'widgets/game_play_scaffold.dart';
+import '../../../core/audio/kid_guide.dart';
 
 class MathRocketGame extends ConsumerStatefulWidget {
   const MathRocketGame({super.key});
@@ -46,7 +47,7 @@ class _MathRocketGameState extends ConsumerState<MathRocketGame> {
       audio.soundEnabled = profile?.soundEnabled ?? true;
       audio.bgmEnabled = profile?.bgmEnabled ?? true;
       audio.startGameBgm();
-      audio.playIntro('sys_math_calc_add');
+      unawaited(audio.speak([KidGuide.gameMathRocket, _item.question], fallbackId: 'sys_math_calc_add'));
     });
   }
 
@@ -60,6 +61,7 @@ class _MathRocketGameState extends ConsumerState<MathRocketGame> {
     final age = ref.read(currentProfileProvider)?.age ?? 5;
     final skill = MathQuestionGenerator.skillForAge(age, addition: true);
     _item = _generator.generateBySkill(skill, age: age);
+    unawaited(ref.read(audioServiceProvider).speak([_item.question]));
   }
 
   void _recordMastery(bool ok) {

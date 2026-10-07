@@ -11,6 +11,7 @@ import '../../../data/content/game_catalog.dart';
 import '../../../data/repositories/profile_repository.dart';
 import '../../shared/widgets/vimai_ui.dart';
 import 'widgets/game_play_scaffold.dart';
+import '../../../core/audio/kid_guide.dart';
 
 class FindSimilarGame extends ConsumerStatefulWidget {
   const FindSimilarGame({super.key});
@@ -43,7 +44,7 @@ class _FindSimilarGameState extends ConsumerState<FindSimilarGame> {
       _audio?.soundEnabled = profile?.soundEnabled ?? true;
       _audio?.bgmEnabled = profile?.bgmEnabled ?? true;
       _audio?.startGameBgm();
-      unawaited(_audio?.playIntro('sys_thinking_memory') ?? Future.value());
+      unawaited(_audio?.speak([KidGuide.gameFindSimilar], fallbackId: 'sys_thinking_memory') ?? Future.value());
       setState(_deal);
     });
   }

@@ -6,6 +6,7 @@ import '../../../core/theme/app_theme.dart';
 import '../../../core/theme/vimai_art.dart';
 import '../../../core/theme/vimai_tokens.dart';
 import '../../shared/widgets/kids_storybook.dart';
+import '../../../core/audio/kid_guide.dart';
 
 export 'catch_kana_game.dart';
 export 'feed_animal_game.dart';
@@ -33,6 +34,7 @@ class GamesScreen extends StatelessWidget {
       ('Nghe và chọn chữ tiếng Việt', 'Nghe rồi chọn chữ', '/vietnamese/game', 'A', VimaiColor.sky),
     ];
     return KidsHubShell(
+      guide: const [KidGuide.gamesHub],
       title: 'Trò chơi',
       subtitle: 'Học mà chơi — chọn một trò để bắt đầu',
       accent: VimaiColor.honey,

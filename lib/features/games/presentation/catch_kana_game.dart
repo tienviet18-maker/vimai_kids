@@ -19,6 +19,7 @@ import '../../shared/widgets/vimai_ui.dart';
 import '../logic/catch_kana_round.dart';
 import '../logic/falling_layout.dart';
 import 'widgets/game_play_scaffold.dart';
+import '../../../core/audio/kid_guide.dart';
 
 enum CatchAlphabet { hiragana, katakana, vietnamese }
 
@@ -104,7 +105,10 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
       _audio?.soundEnabled = profile?.soundEnabled ?? true;
       _audio?.bgmEnabled = profile?.bgmEnabled ?? true;
       _audio?.startGameBgm();
-      unawaited(_audio?.playIntro('sys_game_catch') ?? Future.value());
+      unawaited(
+        _audio?.speak([KidGuide.gameCatchKana], trailIds: [_round.target.audioId], fallbackId: 'sys_game_catch') ??
+            Future.value(),
+      );
     });
   }
 
@@ -172,6 +176,8 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
     _shakeId = null;
     _celebrateId = null;
     _layoutLetters();
+    // Mai says the kana to catch this round.
+    unawaited(ref.read(audioServiceProvider).speak(const [], trailIds: [_round.target.audioId]));
   }
 
   void _tap(KanaItem kana) {

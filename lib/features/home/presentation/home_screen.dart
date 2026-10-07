@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -15,6 +17,7 @@ import '../../shared/widgets/kids_living_canopy.dart';
 import '../../shared/widgets/kids_storybook.dart';
 import '../../shared/widgets/vimai_mascot.dart';
 import 'discovery_islands.dart';
+import '../../../core/audio/kid_guide.dart';
 
 /// Home: Mai guides the child across an archipelago of six learning worlds.
 /// Ambient BGM plays here and stops when a world opens.
@@ -42,6 +45,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> with RouteAware {
 
   @override
   void dispose() {
+    _greetTimer?.cancel();
     if (_subscribed) {
       vimaiRouteObserver.unsubscribe(this);
       _subscribed = false;
@@ -50,8 +54,19 @@ class _HomeScreenState extends ConsumerState<HomeScreen> with RouteAware {
     super.dispose();
   }
 
+  /// Mai greets with the guide once per app run, not on every return home.
+  static bool _greeted = false;
+  Timer? _greetTimer;
+
   @override
-  void didPush() => _onVisible();
+  void didPush() {
+    _onVisible();
+    if (_greeted) return;
+    _greeted = true;
+    _greetTimer = Timer(const Duration(milliseconds: 600), () {
+      if (mounted) unawaited(ref.read(audioServiceProvider).speak([KidGuide.home], fallbackId: 'sys_welcome_back'));
+    });
+  }
 
   @override
   void didPopNext() => _onVisible();
@@ -85,7 +100,9 @@ class _HomeScreenState extends ConsumerState<HomeScreen> with RouteAware {
   MascotMood? _maiReaction;
 
   void _onMaiTap() {
-    ref.read(audioServiceProvider).playFireAndForget('sys_welcome_back');
+    unawaited(
+      ref.read(audioServiceProvider).speak([KidGuide.home, KidGuide.homeContinue], fallbackId: 'sys_welcome_back'),
+    );
     setState(() => _maiReaction = MascotMood.excited);
     Future<void>.delayed(const Duration(milliseconds: 1600), () {
       if (mounted) setState(() => _maiReaction = null);

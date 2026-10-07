@@ -15,6 +15,7 @@ import '../../shared/widgets/choice_grid.dart';
 import '../../shared/widgets/vimai_ui.dart';
 import '../logic/catch_kana_round.dart';
 import 'widgets/game_play_scaffold.dart';
+import '../../../core/audio/kid_guide.dart';
 
 class ListenKanaGame extends ConsumerStatefulWidget {
   const ListenKanaGame({super.key});
@@ -49,8 +50,14 @@ class _ListenKanaGameState extends ConsumerState<ListenKanaGame> {
     super.dispose();
   }
 
+  bool _introDone = false;
+
   void _playPrompt() {
-    unawaited(ref.read(audioServiceProvider).playJapaneseAsset(_round.target.audioId));
+    final first = !_introDone;
+    _introDone = true;
+    unawaited(
+      ref.read(audioServiceProvider).speak([if (first) KidGuide.gameListenKana], trailIds: [_round.target.audioId]),
+    );
   }
 
   void _prepareNextRound() {

@@ -49,4 +49,6 @@ jobs:
             exit 0
           fi
           git commit -m "audio: add generated voice clips (synthetic TTS, HoaiMy)"
-          git push
+          # Someone may have pushed while clips were generating.
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

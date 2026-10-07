@@ -12,6 +12,7 @@ import '../../../data/repositories/profile_repository.dart';
 import '../../../domain/models/kana_item.dart';
 import '../../shared/widgets/vimai_ui.dart';
 import 'widgets/game_play_scaffold.dart';
+import '../../../core/audio/kid_guide.dart';
 
 class MatchKanaGame extends ConsumerStatefulWidget {
   const MatchKanaGame({super.key});
@@ -51,7 +52,7 @@ class _MatchKanaGameState extends ConsumerState<MatchKanaGame> {
       _audio?.soundEnabled = profile?.soundEnabled ?? true;
       _audio?.bgmEnabled = profile?.bgmEnabled ?? true;
       _audio?.startGameBgm();
-      _audio?.playIntro('sys_thinking_match');
+      unawaited(_audio?.speak([KidGuide.gameMatchKana], fallbackId: 'sys_thinking_match'));
     });
   }
 

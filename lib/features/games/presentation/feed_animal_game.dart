@@ -14,6 +14,7 @@ import '../../../domain/content/content_item.dart';
 import '../../shared/widgets/choice_grid.dart';
 import '../../shared/widgets/vimai_ui.dart';
 import 'widgets/game_play_scaffold.dart';
+import '../../../core/audio/kid_guide.dart';
 
 class FeedAnimalGame extends ConsumerStatefulWidget {
   const FeedAnimalGame({super.key});
@@ -45,7 +46,7 @@ class _FeedAnimalGameState extends ConsumerState<FeedAnimalGame> {
       _audio?.soundEnabled = profile?.soundEnabled ?? true;
       _audio?.bgmEnabled = profile?.bgmEnabled ?? true;
       _audio?.startGameBgm();
-      _audio?.playIntro('sys_math_count');
+      unawaited(_audio?.speak([KidGuide.gameFeedAnimal, _item.instruction], fallbackId: 'sys_math_count'));
     });
   }
 
@@ -110,6 +111,7 @@ class _FeedAnimalGameState extends ConsumerState<FeedAnimalGame> {
           _finished = true;
         } else {
           _item = _nextItem();
+          unawaited(ref.read(audioServiceProvider).speak([_item.instruction]));
         }
       },
     );
@@ -124,6 +126,7 @@ class _FeedAnimalGameState extends ConsumerState<FeedAnimalGame> {
       _feedback = null;
       _correct = null;
       _item = _nextItem();
+      unawaited(ref.read(audioServiceProvider).speak([_item.instruction]));
     });
   }
 

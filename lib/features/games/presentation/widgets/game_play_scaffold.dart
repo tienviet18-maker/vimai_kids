@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import '../../../../core/routing/nav_utils.dart';
 import '../../../../core/session/session_binder.dart';
 import '../../../../core/theme/vimai_tokens.dart';
+import '../../../../core/audio/kid_guide.dart';
+import '../../../shared/widgets/listen_prompt.dart';
 import '../../../shared/widgets/vimai_mascot.dart';
 import '../../../shared/widgets/vimai_ui.dart';
 import '../../logic/game_board_metrics.dart';
@@ -160,6 +162,14 @@ class GameCompletePanel extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    return SpeakOnOpen(
+      lines: const [KidGuide.gameWin],
+      delay: const Duration(milliseconds: 900),
+      child: _panel(context),
+    );
+  }
+
+  Widget _panel(BuildContext context) {
     return Center(
       child: ConstrainedBox(
         constraints: const BoxConstraints(maxWidth: 420),

@@ -8269,12 +8269,20 @@
    "text": "Bé nghe câu hỏi, rồi chạm vào đáp án đúng nhé!"
   },
   {
+   "id": "vi_say_120fe858",
+   "text": "Bé nghe rồi tìm đúng chữ nhé!"
+  },
+  {
    "id": "vi_say_fa8b0989",
    "text": "Bé nghe thật kỹ, rồi chạm vào chữ Mai vừa đọc nhé."
   },
   {
    "id": "vi_say_1ba4c730",
    "text": "Bé nghe từng âm, rồi ghép lại thành tiếng nhé."
+  },
+  {
+   "id": "vi_say_6248d8d1",
+   "text": "Bé nghe vần, rồi chọn tiếng có vần đó nhé."
   },
   {
    "id": "vi_say_fed2ab5e",
@@ -8349,6 +8357,14 @@
    "text": "Chạm vào nút to để học tiếp bài hôm trước nhé!"
   },
   {
+   "id": "vi_say_074d61ab",
+   "text": "Chữ này có trong từ nào?"
+  },
+  {
+   "id": "vi_say_b10ca61e",
+   "text": "Chữ này đọc âm nào?"
+  },
+  {
    "id": "vi_say_eff5aed7",
    "text": "Câu tiếp theo nào!"
   },
@@ -8371,6 +8387,18 @@
   {
    "id": "vi_say_9834a300",
    "text": "Nghe Mai đọc, rồi chạm bắt chữ đúng đang rơi xuống nhé!"
+  },
+  {
+   "id": "vi_say_4eb4ab0c",
+   "text": "Nghe rồi chọn chữ đúng nhé."
+  },
+  {
+   "id": "vi_say_eb6e3c11",
+   "text": "Nghe tên chữ, rồi chọn chữ đúng nhé."
+  },
+  {
+   "id": "vi_say_f5924e53",
+   "text": "Nghe âm của chữ, rồi chọn chữ đúng nhé."
   },
   {
    "id": "vi_say_9f2c7ad6",

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'listen_prompt.dart';
 
 import '../../../core/theme/vimai_art.dart';
 import '../../../core/theme/vimai_tokens.dart';
@@ -250,10 +251,14 @@ class KidsHubShell extends StatelessWidget {
     this.artAsset,
     this.onBack,
     this.action,
+    this.guide,
   });
 
   final String title;
   final String? subtitle;
+
+  /// What Mai says when the screen opens (see KidGuide).
+  final List<String>? guide;
   final Color accent;
   final String? artAsset;
   final Widget body;
@@ -262,6 +267,11 @@ class KidsHubShell extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final page = _page(context);
+    return guide == null ? page : SpeakOnOpen(lines: guide!, child: page);
+  }
+
+  Widget _page(BuildContext context) {
     return Scaffold(
       backgroundColor: VimaiColor.bgWarmCream,
       body: Stack(
