@@ -208,8 +208,8 @@ class ExploreTopBar extends StatelessWidget {
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                         textAlign: TextAlign.center,
-                        style: VimaiType.title
-                            .copyWith(color: Color.lerp(color, VimaiColor.ink, 0.35), fontSize: 20, height: 1.1),
+                        style: VimaiType.title.copyWith(
+                            color: Color.lerp(color, VimaiColor.ink, 0.35), fontSize: narrow ? 18 : 20, height: 1.1),
                       ),
                     ),
                   ],

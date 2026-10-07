@@ -410,8 +410,8 @@ class _ExploreCardViewerState extends ConsumerState<ExploreCardViewer> {
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
                 colors: [
-                  Color.lerp(c, Colors.black, 0.1)!.withValues(alpha: 0.94),
-                  Color.lerp(c, Colors.black, 0.35)!.withValues(alpha: 0.96),
+                  Color.lerp(c, Colors.black, 0.1)!.withValues(alpha: 0.97),
+                  Color.lerp(c, Colors.black, 0.35)!.withValues(alpha: 0.985),
                 ],
               ),
             ),
