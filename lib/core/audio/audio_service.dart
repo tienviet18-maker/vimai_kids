@@ -8,6 +8,7 @@ import 'package:flutter/services.dart' show AssetManifest, rootBundle;
 import 'audio_locale_policy.dart';
 import 'audio_playback_policy.dart';
 import 'audio_request.dart';
+import 'speech_id.dart';
 import 'vietnamese_speech_catalog.dart';
 
 /// Bundled Hoài My / Nanami MP3 only — zero native TTS.
@@ -511,6 +512,7 @@ class AudioService {
 
   /// Hard-stop current voice clip.
   Future<void> stop() async {
+    _speechToken++;
     if (_currentPlay != null && !_currentPlay!.isCompleted) {
       _currentPlay!.complete();
     }
@@ -535,7 +537,17 @@ class AudioService {
   ///
   /// By default returns as soon as playback *starts* (Safari-safe). Pass
   /// [waitForComplete] only when sequencing clips (e.g. onset → rime → syllable).
-  Future<AudioPlayResult> playAudio(String id, {bool waitForComplete = false}) async {
+  Future<AudioPlayResult> playAudio(String id, {bool waitForComplete = false}) =>
+      _play(id, waitForComplete: waitForComplete, completeTimeout: _completeTimeout, interruptSpeech: true);
+
+  Future<AudioPlayResult> _play(
+    String id, {
+    required bool waitForComplete,
+    required Duration completeTimeout,
+    required bool interruptSpeech,
+  }) async {
+    // Any other clip (feedback, a tapped card) cuts a running [speak] sequence.
+    if (interruptSpeech) _speechToken++;
     final audioId = normalizeKey(id);
     if (!soundEnabled) {
       return const AudioPlayResult.unavailable('Âm thanh đang tắt.');
@@ -579,6 +591,7 @@ class AudioService {
           'assets/audio/$key.mp3',
           duckExternally: true,
           waitForComplete: waitForComplete,
+          completeTimeout: completeTimeout,
         );
         if (ok) {
           _lastSpoken = key.startsWith('ja_') || key.startsWith('j_')
@@ -769,6 +782,85 @@ class AudioService {
     return playAsset(id);
   }
 
+  // ---------------------------------------------------------------------------
+  // Every on-screen line, voiced.
+  // ---------------------------------------------------------------------------
+
+  static const Duration _lineTimeout = Duration(seconds: 9);
+  int _speechToken = 0;
+
+  /// Bundled clip ids that say [text], best first: a content word clip, the
+  /// clips of a math expression, else the line's own `vi_say_*` clip.
+  /// Empty when nothing bundled can say it.
+  Future<List<String>> clipsForLine(String text) async {
+    await _ensureBundledIds();
+    final t = text.trim();
+    if (t.isEmpty) return const [];
+    final math = mathClips(t);
+    if (math != null) return math.every(_isBundled) ? math : const [];
+    final wordId = VietnameseSpeechCatalog.getAudioIdForWord(t);
+    if (wordId.isNotEmpty && _isBundled(normalizeKey(wordId))) return [wordId];
+    final lineId = SpeechId.idForLine(t);
+    if (lineId != null && _isBundled(lineId)) return [lineId];
+    return const [];
+  }
+
+  /// Clips for a pure math expression ("3 + 4 = ?", "12 > 9"), or null when
+  /// [text] is not one. Numbers 0–100 each have their own clip.
+  static List<String>? mathClips(String text) {
+    final t = text.replaceAll('−', '-').replaceAll('×', 'x').trim();
+    if (!RegExp(r'^[\d\s+\-=?<>_.]+$').hasMatch(t) || !RegExp(r'\d').hasMatch(t)) return null;
+    final out = <String>[];
+    for (final m in RegExp(r'\d+|[+\-=<>]').allMatches(t)) {
+      final token = m[0]!;
+      final n = int.tryParse(token);
+      if (n != null) {
+        if (n > 100) return null;
+        out.add('math_num_$n');
+      } else {
+        out.add(const {'+': 'math_op_plus', '-': 'math_op_minus', '=': 'math_op_equal', '>': 'math_cmp_greater', '<': 'math_cmp_less'}[token]!);
+      }
+    }
+    return out.isEmpty ? null : out;
+  }
+
+  /// Says [lines] one after another in Mai's voice (instruction, then the
+  /// question, …). A newer [speak] call or [stop] interrupts the sequence.
+  /// Lines without a bundled clip are skipped; when none can be said,
+  /// [fallbackId] (e.g. a skill intro) plays instead.
+  Future<AudioPlayResult> speak(List<String?> lines, {String? fallbackId}) async {
+    final token = ++_speechToken;
+    final seen = <String>{};
+    final queue = <String>[];
+    for (final line in lines) {
+      if (line == null || !seen.add(line.trim())) continue;
+      queue.addAll(await clipsForLine(line));
+    }
+    if (token != _speechToken) return const AudioPlayResult.unavailable('Đã chuyển câu khác.');
+    if (queue.isEmpty) {
+      if (fallbackId == null) return const AudioPlayResult.unavailable('Chưa có giọng đọc cho câu này.');
+      return _play(fallbackId, waitForComplete: false, completeTimeout: _completeTimeout, interruptSpeech: false);
+    }
+    AudioPlayResult last = const AudioPlayResult.unavailable('');
+    for (var i = 0; i < queue.length; i++) {
+      if (token != _speechToken) break;
+      _lastRequestKey = null; // the same clip may repeat inside one sentence ("2 + 2").
+      last = await _play(
+        queue[i],
+        waitForComplete: i < queue.length - 1,
+        completeTimeout: _lineTimeout,
+        interruptSpeech: false,
+      );
+    }
+    return last;
+  }
+
+  /// Convenience for one line.
+  Future<AudioPlayResult> speakLine(String text, {String? fallbackId}) => speak([text], fallbackId: fallbackId);
+
+  /// True when [text] has a bundled voice.
+  Future<bool> canSpeak(String text) async => (await clipsForLine(text)).isNotEmpty;
+
   Future<AudioPlayResult> playWrongAnswerSound() => playRandomTryAgain();
 
   Future<AudioPlayResult> playRandomSuccess() {
@@ -848,6 +940,7 @@ class AudioService {
     String assetPath, {
     bool duckExternally = false,
     bool waitForComplete = false,
+    Duration completeTimeout = _completeTimeout,
   }) async {
     if (!duckExternally) await _duckBgm();
     StreamSubscription<void>? sub;
@@ -866,7 +959,7 @@ class AudioService {
       await _safePlayerOp(() => _player!.play(AssetSource(source)));
 
       if (waitForComplete) {
-        await done.future.timeout(_completeTimeout, onTimeout: () {
+        await done.future.timeout(completeTimeout, onTimeout: () {
           debugPrint('[AudioService] complete timeout (Safari-safe): $assetPath');
         });
       } else {
