@@ -8432,5 +8432,2407 @@
    "id": "vi_say_3b11f3e3",
    "text": "Đảo Tư duy đây rồi! Mình cùng giải câu đố nhé."
   }
+ ],
+ "explore": [
+  {
+   "id": "vi_say_648f83c6",
+   "text": "Bàn chân giúp bé đứng vững và đi lại."
+  },
+  {
+   "id": "vi_say_505b4ffa",
+   "text": "Bàn tay có năm ngón để cầm, nắm và vẽ."
+  },
+  {
+   "id": "vi_say_a3100ed0",
+   "text": "Bác nông dân trồng lúa để làm ra hạt gạo."
+  },
+  {
+   "id": "vi_say_922b917e",
+   "text": "Bác sĩ khám bệnh và chữa bệnh cho mọi người."
+  },
+  {
+   "id": "vi_say_aa087001",
+   "text": "Bé chạm vào từng hình để nghe Mai kể nhé!"
+  },
+  {
+   "id": "vi_say_29a69001",
+   "text": "Bé chỉ xem ti vi một chút thôi để mắt luôn khỏe nhé."
+  },
+  {
+   "id": "vi_say_bae3f2f7",
+   "text": "Bé dùng bàn chải để đánh răng buổi sáng và buổi tối."
+  },
+  {
+   "id": "vi_say_9490e675",
+   "text": "Bé dùng cái thìa để xúc cơm và ăn cháo."
+  },
+  {
+   "id": "vi_say_b9cedcfd",
+   "text": "Bé dùng màu để vẽ những bức tranh rực rỡ."
+  },
+  {
+   "id": "vi_say_3acbfc03",
+   "text": "Bé ghép các mảnh nhỏ lại thành một bức tranh."
+  },
+  {
+   "id": "vi_say_e5888d87",
+   "text": "Bé ngồi trên cái ghế để ăn cơm và học bài."
+  },
+  {
+   "id": "vi_say_9399763d",
+   "text": "Bé nhìn kỹ lại nhé!"
+  },
+  {
+   "id": "vi_say_5b69d218",
+   "text": "Bé rửa tay bằng xà phòng để tay sạch sẽ."
+  },
+  {
+   "id": "vi_say_7cfbf426",
+   "text": "Bé soi gương để nhìn thấy khuôn mặt của mình."
+  },
+  {
+   "id": "vi_say_8aa449ad",
+   "text": "Bé trượt cầu trượt vèo một cái thật vui."
+  },
+  {
+   "id": "vi_say_4d98dc74",
+   "text": "Bé tắm trong bồn tắm cho thơm tho sạch sẽ."
+  },
+  {
+   "id": "vi_say_59970c3b",
+   "text": "Bé vuốt sang hoặc chạm mũi tên để xem hình tiếp theo nhé."
+  },
+  {
+   "id": "vi_say_3c89d907",
+   "text": "Bé đánh răng mỗi ngày để răng chắc khỏe."
+  },
+  {
+   "id": "vi_say_aa65dc4b",
+   "text": "Bé đã trả lời xong rồi! Mai tặng bé những ngôi sao lấp lánh!"
+  },
+  {
+   "id": "vi_say_9e7eb102",
+   "text": "Bé đúng hết tất cả! Bé là nhà thám hiểm siêu giỏi!"
+  },
+  {
+   "id": "vi_say_083c0e08",
+   "text": "Bóng bay rất nhẹ, bé nhớ cầm chặt dây nhé."
+  },
+  {
+   "id": "vi_say_1adbf409",
+   "text": "Bóng đèn sáng lên giúp nhà mình không bị tối."
+  },
+  {
+   "id": "vi_say_bf1ea93b",
+   "text": "Bông hoa nở ra có màu sắc đẹp và hương thơm."
+  },
+  {
+   "id": "vi_say_c5ca77ef",
+   "text": "Bông tuyết trắng rơi xuống khi trời rất lạnh."
+  },
+  {
+   "id": "vi_say_0e524afc",
+   "text": "Bạch tuộc có tám cái xúc tu dài."
+  },
+  {
+   "id": "vi_say_64a1a650",
+   "text": "Bắp ngô có rất nhiều hạt vàng xếp thành hàng."
+  },
+  {
+   "id": "vi_say_68870ff6",
+   "text": "Bọ rùa có cái lưng màu đỏ với những chấm đen."
+  },
+  {
+   "id": "vi_say_eeda9921",
+   "text": "Bộ não giúp bé suy nghĩ và ghi nhớ."
+  },
+  {
+   "id": "vi_say_0f4163a6",
+   "text": "Bộ xương giúp cơ thể bé đứng thẳng."
+  },
+  {
+   "id": "vi_say_d1d0a0b9",
+   "text": "Chim bồ câu bay đi rất xa vẫn nhớ đường về nhà."
+  },
+  {
+   "id": "vi_say_b4a2798c",
+   "text": "Chim cánh cụt không biết bay nhưng bơi rất giỏi."
+  },
+  {
+   "id": "vi_say_4c488daa",
+   "text": "Chuột túi nhảy rất xa và mang con trong túi trước bụng."
+  },
+  {
+   "id": "vi_say_7664c84b",
+   "text": "Chào bé! Mình cùng đi khám phá thế giới nhé. Bé chọn một chủ đề nào!"
+  },
+  {
+   "id": "vi_say_7352efa6",
+   "text": "Chìa khóa dùng để mở cửa và mở ổ khóa."
+  },
+  {
+   "id": "vi_say_79cfccb1",
+   "text": "Chính xác! Bé được một ngôi sao!"
+  },
+  {
+   "id": "vi_say_1e0d702d",
+   "text": "Chú công an giữ gìn an toàn cho mọi người."
+  },
+  {
+   "id": "vi_say_97f986a8",
+   "text": "Chú lính cứu hỏa dập lửa và cứu mọi người."
+  },
+  {
+   "id": "vi_say_df4f805c",
+   "text": "Chú phi công lái máy bay bay trên bầu trời."
+  },
+  {
+   "id": "vi_say_ea689944",
+   "text": "Chú thợ sửa xe làm cho xe bị hỏng chạy lại được."
+  },
+  {
+   "id": "vi_say_b232ae9a",
+   "text": "Chú thợ xây xây nên những ngôi nhà cao."
+  },
+  {
+   "id": "vi_say_2b5b8e7c",
+   "text": "Chú đầu bếp nấu những món ăn thật ngon."
+  },
+  {
+   "id": "vi_say_330b83bc",
+   "text": "Chưa đúng rồi, bé thử lại nhé!"
+  },
+  {
+   "id": "vi_say_a92b5b26",
+   "text": "Con bò ăn cỏ và cho chúng mình sữa."
+  },
+  {
+   "id": "vi_say_67a4be2f",
+   "text": "Con bướm có đôi cánh nhiều màu sắc rất đẹp."
+  },
+  {
+   "id": "vi_say_799718f8",
+   "text": "Con chim dùng đôi cánh để bay trên trời."
+  },
+  {
+   "id": "vi_say_31d462c3",
+   "text": "Con chó sủa gâu gâu và giữ nhà cho chúng mình."
+  },
+  {
+   "id": "vi_say_06244d58",
+   "text": "Con cua có hai cái càng to và bò ngang."
+  },
+  {
+   "id": "vi_say_deab50c7",
+   "text": "Con cá thở bằng mang và bơi bằng vây."
+  },
+  {
+   "id": "vi_say_17c89782",
+   "text": "Con cáo có cái đuôi dài và rất nhanh nhẹn."
+  },
+  {
+   "id": "vi_say_e0dcf79d",
+   "text": "Con công xòe cái đuôi rực rỡ như một cái quạt."
+  },
+  {
+   "id": "vi_say_31fabd5d",
+   "text": "Con cừu có bộ lông xoăn dùng để làm áo len."
+  },
+  {
+   "id": "vi_say_2c69725e",
+   "text": "Con diều bay cao trên trời nhờ có gió."
+  },
+  {
+   "id": "vi_say_3d705e5c",
+   "text": "Con dê có bộ râu dài và kêu be be."
+  },
+  {
+   "id": "vi_say_1103c9f7",
+   "text": "Con dế kêu rả rích vào ban đêm."
+  },
+  {
+   "id": "vi_say_6da3781e",
+   "text": "Con gà mái đẻ trứng và chăm sóc đàn gà con."
+  },
+  {
+   "id": "vi_say_34e61970",
+   "text": "Con gà trống gáy ò ó o mỗi sáng."
+  },
+  {
+   "id": "vi_say_ae040976",
+   "text": "Con gà tây xòe đuôi to như một cái quạt."
+  },
+  {
+   "id": "vi_say_de37d0e1",
+   "text": "Con gấu to lớn và rất thích ăn mật ong."
+  },
+  {
+   "id": "vi_say_18a3fa6f",
+   "text": "Con heo kêu ụt ịt và có cái mũi tròn."
+  },
+  {
+   "id": "vi_say_abd43654",
+   "text": "Con hổ có bộ lông vằn màu vàng và đen."
+  },
+  {
+   "id": "vi_say_e9e9cbd2",
+   "text": "Con khỉ leo trèo rất giỏi và thích ăn chuối."
+  },
+  {
+   "id": "vi_say_fad77bbe",
+   "text": "Con kiến nhỏ xíu nhưng khiêng được đồ rất nặng."
+  },
+  {
+   "id": "vi_say_5c348c0a",
+   "text": "Con muỗi hay đốt, bé nhớ ngủ trong màn nhé."
+  },
+  {
+   "id": "vi_say_a256bfd4",
+   "text": "Con mèo kêu meo meo và thích bắt chuột."
+  },
+  {
+   "id": "vi_say_e05d3704",
+   "text": "Con mực phun mực đen để trốn kẻ thù."
+  },
+  {
+   "id": "vi_say_9a28d912",
+   "text": "Con người, cây cối và con vật đều cần có nước."
+  },
+  {
+   "id": "vi_say_c43e96c7",
+   "text": "Con ngựa chạy rất nhanh và kêu hí hí."
+  },
+  {
+   "id": "vi_say_04a5de50",
+   "text": "Con nhím có rất nhiều gai nhọn trên lưng."
+  },
+  {
+   "id": "vi_say_ce071245",
+   "text": "Con ong hút mật hoa để làm ra mật ong."
+  },
+  {
+   "id": "vi_say_08603c97",
+   "text": "Con rắn không có chân, nó trườn trên mặt đất."
+  },
+  {
+   "id": "vi_say_b6f4e859",
+   "text": "Con sâu lớn lên sẽ biến thành con bướm."
+  },
+  {
+   "id": "vi_say_4f46e1e1",
+   "text": "Con sóc có cái đuôi xù và thích ăn hạt."
+  },
+  {
+   "id": "vi_say_866795cb",
+   "text": "Con sói sống thành bầy và hú rất to."
+  },
+  {
+   "id": "vi_say_d24b3194",
+   "text": "Con thỏ có đôi tai dài và nhảy rất giỏi."
+  },
+  {
+   "id": "vi_say_bf10e490",
+   "text": "Con trâu khỏe mạnh, giúp bác nông dân cày ruộng."
+  },
+  {
+   "id": "vi_say_ee534d17",
+   "text": "Con tôm có râu dài và bơi giật lùi rất nhanh."
+  },
+  {
+   "id": "vi_say_7f9d53e2",
+   "text": "Con voi dùng cái vòi dài để uống nước và lấy thức ăn."
+  },
+  {
+   "id": "vi_say_a40fc082",
+   "text": "Con vật nuôi"
+  },
+  {
+   "id": "vi_say_2b969845",
+   "text": "Con vẹt có bộ lông sặc sỡ và biết nói theo người."
+  },
+  {
+   "id": "vi_say_0750a0ea",
+   "text": "Con vịt kêu cạp cạp và bơi rất giỏi."
+  },
+  {
+   "id": "vi_say_16a79851",
+   "text": "Cá cảnh bơi tung tăng trong bể kính."
+  },
+  {
+   "id": "vi_say_9095bd66",
+   "text": "Cá heo rất thông minh và thích nhảy lên khỏi mặt nước."
+  },
+  {
+   "id": "vi_say_4fec875d",
+   "text": "Cá mập bơi rất nhanh và có nhiều răng sắc."
+  },
+  {
+   "id": "vi_say_13ffe422",
+   "text": "Cá nóc phồng tròn như quả bóng khi sợ hãi."
+  },
+  {
+   "id": "vi_say_f6f7a7d5",
+   "text": "Cá sấu có hàm răng sắc nhọn và sống ở gần sông."
+  },
+  {
+   "id": "vi_say_9c789dd4",
+   "text": "Cá voi xanh là con vật to nhất trên Trái Đất."
+  },
+  {
+   "id": "vi_say_2afa5b94",
+   "text": "Các bạn đá quả bóng vào khung thành để ghi bàn."
+  },
+  {
+   "id": "vi_say_ce874065",
+   "text": "Cái chuông lắc lên kêu leng keng."
+  },
+  {
+   "id": "vi_say_92831e7e",
+   "text": "Cái chảo dùng để rán trứng thơm ngon."
+  },
+  {
+   "id": "vi_say_f59e7616",
+   "text": "Cái chổi dùng để quét nhà cho sạch."
+  },
+  {
+   "id": "vi_say_c3289911",
+   "text": "Cái giường là nơi bé nằm ngủ mỗi đêm."
+  },
+  {
+   "id": "vi_say_058980b3",
+   "text": "Cái giỏ dùng để đựng quần áo hoặc hoa quả."
+  },
+  {
+   "id": "vi_say_1a733417",
+   "text": "Cái kèn thổi lên kêu toe toe."
+  },
+  {
+   "id": "vi_say_292285a7",
+   "text": "Cái lưỡi giúp bé nếm vị ngọt, vị chua và vị mặn."
+  },
+  {
+   "id": "vi_say_683312be",
+   "text": "Cái miệng giúp bé ăn, nói và cười."
+  },
+  {
+   "id": "vi_say_1a8fdf7b",
+   "text": "Cái mũi giúp bé thở và ngửi mùi thơm."
+  },
+  {
+   "id": "vi_say_76ade709",
+   "text": "Cái tai giúp bé nghe được mọi âm thanh."
+  },
+  {
+   "id": "vi_say_4947dcff",
+   "text": "Cái trống kêu tùng tùng khi bé gõ."
+  },
+  {
+   "id": "vi_say_98d7bfcd",
+   "text": "Cái ô che cho mình không bị ướt khi trời mưa."
+  },
+  {
+   "id": "vi_say_a401f81f",
+   "text": "Cánh tay khỏe giúp bé ôm mọi người thật chặt."
+  },
+  {
+   "id": "vi_say_65264cd3",
+   "text": "Cây nấm có cái mũ tròn như một chiếc ô nhỏ."
+  },
+  {
+   "id": "vi_say_e35f8709",
+   "text": "Cây xanh cho mình bóng mát và không khí trong lành."
+  },
+  {
+   "id": "vi_say_f11e3c25",
+   "text": "Cô ca sĩ hát những bài hát thật hay."
+  },
+  {
+   "id": "vi_say_d90b58cb",
+   "text": "Cô giáo dạy các bạn nhỏ học chữ và học số."
+  },
+  {
+   "id": "vi_say_64bac509",
+   "text": "Cô họa sĩ vẽ những bức tranh thật đẹp."
+  },
+  {
+   "id": "vi_say_0bcb274b",
+   "text": "Cô y tá chăm sóc người bệnh ở bệnh viện."
+  },
+  {
+   "id": "vi_say_44d66480",
+   "text": "Côn trùng và chim"
+  },
+  {
+   "id": "vi_say_819ff196",
+   "text": "Cú mèo thức vào ban đêm và có đôi mắt to tròn."
+  },
+  {
+   "id": "vi_say_8a8864f0",
+   "text": "Cơ thể bé"
+  },
+  {
+   "id": "vi_say_597881f1",
+   "text": "Cầu vồng có bảy màu và hay hiện ra sau cơn mưa."
+  },
+  {
+   "id": "vi_say_ccf8eebd",
+   "text": "Củ cà rốt màu cam, có nhiều chất tốt cho mắt."
+  },
+  {
+   "id": "vi_say_182591b3",
+   "text": "Củ tỏi có mùi thơm nồng, dùng để nấu ăn."
+  },
+  {
+   "id": "vi_say_bd9fbb2d",
+   "text": "Dâu tây màu đỏ, có những hạt nhỏ li ti bên ngoài."
+  },
+  {
+   "id": "vi_say_cd2b7a46",
+   "text": "Dưa hấu có vỏ xanh, ruột đỏ và rất nhiều nước."
+  },
+  {
+   "id": "vi_say_561bdde0",
+   "text": "Dưa lưới có vỏ như tấm lưới và ruột ngọt thơm."
+  },
+  {
+   "id": "vi_say_4a6ec4d7",
+   "text": "Dưới biển"
+  },
+  {
+   "id": "vi_say_76497fdf",
+   "text": "Gió thổi làm lá cây đung đưa."
+  },
+  {
+   "id": "vi_say_fd34bbfb",
+   "text": "Gà con có bộ lông vàng và kêu chiếp chiếp."
+  },
+  {
+   "id": "vi_say_bb515c77",
+   "text": "Gấu bông mềm mại, bé ôm đi ngủ thật ấm."
+  },
+  {
+   "id": "vi_say_8ef0125e",
+   "text": "Gấu trúc có bộ lông đen trắng và thích ăn tre."
+  },
+  {
+   "id": "vi_say_e7c7dddd",
+   "text": "Hai bàn tay của bé có tất cả mười ngón tay."
+  },
+  {
+   "id": "vi_say_d37105a9",
+   "text": "Hoa quả"
+  },
+  {
+   "id": "vi_say_32dcaaa9",
+   "text": "Hà mã thích ngâm mình dưới nước cả ngày."
+  },
+  {
+   "id": "vi_say_2201f5d3",
+   "text": "Hươu cao cổ có cái cổ rất dài để ăn lá trên cây cao."
+  },
+  {
+   "id": "vi_say_43a9cf47",
+   "text": "Hạt lạc nằm trong vỏ và lớn lên ở dưới đất."
+  },
+  {
+   "id": "vi_say_fb90e0de",
+   "text": "Hạt đậu nhỏ xíu có thể nảy mầm thành cây."
+  },
+  {
+   "id": "vi_say_7d00aff8",
+   "text": "Hải cẩu bơi rất giỏi và thích nằm phơi nắng trên đá."
+  },
+  {
+   "id": "vi_say_ca936986",
+   "text": "Hồng hạc có bộ lông màu hồng và hay đứng bằng một chân."
+  },
+  {
+   "id": "vi_say_67d4f83a",
+   "text": "Khi cắt hành tây, mắt mình hay bị cay."
+  },
+  {
+   "id": "vi_say_313be173",
+   "text": "Khoai lang nướng thơm phức và ngọt bùi."
+  },
+  {
+   "id": "vi_say_27b886ea",
+   "text": "Khoai tây dùng để làm món khoai tây chiên."
+  },
+  {
+   "id": "vi_say_03cf4b15",
+   "text": "Lá phổi giúp bé hít thở không khí."
+  },
+  {
+   "id": "vi_say_3b00d6dc",
+   "text": "Lạc đà có cái bướu trên lưng và sống ở sa mạc."
+  },
+  {
+   "id": "vi_say_52c45165",
+   "text": "Lửa rất nóng, bé không được nghịch lửa nhé."
+  },
+  {
+   "id": "vi_say_ee320721",
+   "text": "Máy bay bay trên bầu trời, cao hơn cả mây."
+  },
+  {
+   "id": "vi_say_453286a2",
+   "text": "Máy cày giúp bác nông dân làm đất trên ruộng."
+  },
+  {
+   "id": "vi_say_01fbf621",
+   "text": "Mình chơi lại nhé!"
+  },
+  {
+   "id": "vi_say_be3edd74",
+   "text": "Mưa rơi xuống giúp cây cối xanh tươi."
+  },
+  {
+   "id": "vi_say_1ea7200e",
+   "text": "Mặt trăng sáng trên bầu trời vào ban đêm."
+  },
+  {
+   "id": "vi_say_7833d51c",
+   "text": "Mặt trời chiếu sáng và sưởi ấm Trái Đất."
+  },
+  {
+   "id": "vi_say_96f8edf4",
+   "text": "Mở búp bê gỗ ra, bên trong có búp bê nhỏ hơn."
+  },
+  {
+   "id": "vi_say_2c1af1c8",
+   "text": "Mở cái cửa ra là mình đi vào được trong nhà."
+  },
+  {
+   "id": "vi_say_f7bc5038",
+   "text": "Nghề nghiệp"
+  },
+  {
+   "id": "vi_say_6c93206a",
+   "text": "Người Việt Nam dùng đôi đũa để gắp thức ăn."
+  },
+  {
+   "id": "vi_say_8427b133",
+   "text": "Ngọn núi rất cao, đứng trên đỉnh núi nhìn được rất xa."
+  },
+  {
+   "id": "vi_say_64c4fb31",
+   "text": "Ngựa vằn có bộ lông sọc đen và trắng."
+  },
+  {
+   "id": "vi_say_ced181f2",
+   "text": "Nho mọc thành chùm, có quả màu tím và quả màu xanh."
+  },
+  {
+   "id": "vi_say_d812e0eb",
+   "text": "Nhà khoa học làm thí nghiệm để tìm ra điều mới."
+  },
+  {
+   "id": "vi_say_07c22530",
+   "text": "Những ngôi sao lấp lánh trên bầu trời đêm."
+  },
+  {
+   "id": "vi_say_e31af0fc",
+   "text": "Núi lửa phun ra dung nham nóng đỏ rực."
+  },
+  {
+   "id": "vi_say_eaf5dbbf",
+   "text": "Phi hành gia bay vào vũ trụ bằng tên lửa."
+  },
+  {
+   "id": "vi_say_e44d9436",
+   "text": "Quả anh đào nhỏ xinh, màu đỏ và hay mọc thành đôi."
+  },
+  {
+   "id": "vi_say_bff12675",
+   "text": "Quả bóng rổ được ném vào cái rổ ở trên cao."
+  },
+  {
+   "id": "vi_say_fe238a33",
+   "text": "Quả cam mọng nước, uống nước cam giúp bé khỏe."
+  },
+  {
+   "id": "vi_say_f95b14c0",
+   "text": "Quả chanh có vị rất chua, dùng để pha nước chanh."
+  },
+  {
+   "id": "vi_say_bd1ec063",
+   "text": "Quả chuối chín có vỏ màu vàng, ăn rất mềm."
+  },
+  {
+   "id": "vi_say_c13a38e3",
+   "text": "Quả cà chua chín có màu đỏ và nhiều nước."
+  },
+  {
+   "id": "vi_say_9a92996c",
+   "text": "Quả cà tím có lớp vỏ màu tím bóng."
+  },
+  {
+   "id": "vi_say_7a108cb5",
+   "text": "Quả dưa chuột ăn giòn và mát."
+  },
+  {
+   "id": "vi_say_a3f0ca0d",
+   "text": "Quả dứa có vỏ sần sùi và chùm lá nhọn trên đầu."
+  },
+  {
+   "id": "vi_say_c1fd3afd",
+   "text": "Quả dừa có nước ngọt mát ở bên trong."
+  },
+  {
+   "id": "vi_say_a3599988",
+   "text": "Quả kiwi vỏ nâu có lông, ruột xanh có hạt đen nhỏ."
+  },
+  {
+   "id": "vi_say_d814fe34",
+   "text": "Quả lê có nhiều nước, ăn giòn và mát."
+  },
+  {
+   "id": "vi_say_660e4af6",
+   "text": "Quả táo ăn giòn ngọt, có màu đỏ hoặc màu xanh."
+  },
+  {
+   "id": "vi_say_43a7e5c0",
+   "text": "Quả việt quất nhỏ, tròn và có màu xanh tím."
+  },
+  {
+   "id": "vi_say_b2b41ece",
+   "text": "Quả xoài chín có màu vàng và rất thơm ngọt."
+  },
+  {
+   "id": "vi_say_7fb4399b",
+   "text": "Quả đào có vỏ mịn như nhung và rất thơm."
+  },
+  {
+   "id": "vi_say_abb7ceab",
+   "text": "Quả ớt rất cay, bé đừng cắn nhé."
+  },
+  {
+   "id": "vi_say_f744c53f",
+   "text": "Rau cải có lá xanh to, nấu canh rất ngon."
+  },
+  {
+   "id": "vi_say_ed4ce5b7",
+   "text": "Rau củ"
+  },
+  {
+   "id": "vi_say_68562d06",
+   "text": "Rái cá thích nằm ngửa trên mặt nước."
+  },
+  {
+   "id": "vi_say_b4663204",
+   "text": "Rùa biển bơi rất xa và lên bãi cát để đẻ trứng."
+  },
+  {
+   "id": "vi_say_32452a1a",
+   "text": "San hô có nhiều màu sắc và là nhà của nhiều loài cá."
+  },
+  {
+   "id": "vi_say_aada9c63",
+   "text": "Sóng biển vỗ vào bờ cát rì rào."
+  },
+  {
+   "id": "vi_say_0795aa05",
+   "text": "Súp lơ xanh trông giống như một cái cây nhỏ."
+  },
+  {
+   "id": "vi_say_933bae7e",
+   "text": "Sư tử đực có bờm lông dày quanh cổ và gầm rất to."
+  },
+  {
+   "id": "vi_say_2259fe7a",
+   "text": "Thiên nga có cái cổ dài và bơi trên hồ rất đẹp."
+  },
+  {
+   "id": "vi_say_4aa978bd",
+   "text": "Thiên nhiên và thời tiết"
+  },
+  {
+   "id": "vi_say_4d7cc64e",
+   "text": "Thuyền buồm đi trên biển nhờ có gió thổi."
+  },
+  {
+   "id": "vi_say_28a06365",
+   "text": "Tia chớp lóe sáng, sau đó có tiếng sấm ầm ầm."
+  },
+  {
+   "id": "vi_say_eab7f08b",
+   "text": "Trái tim đập thình thịch cả ngày lẫn đêm."
+  },
+  {
+   "id": "vi_say_76990a3f",
+   "text": "Trái Đất"
+  },
+  {
+   "id": "vi_say_e6fe8530",
+   "text": "Trái Đất là ngôi nhà chung của tất cả chúng mình."
+  },
+  {
+   "id": "vi_say_72d37151",
+   "text": "Trực thăng có cánh quạt quay tít ở trên đầu."
+  },
+  {
+   "id": "vi_say_367c7586",
+   "text": "Tuyệt vời! Bé đoán đúng rồi!"
+  },
+  {
+   "id": "vi_say_d1f981c3",
+   "text": "Tàu hỏa chạy trên đường ray và kêu tu tu."
+  },
+  {
+   "id": "vi_say_ff52b52b",
+   "text": "Tàu thủy to lớn chở người và hàng hóa qua biển."
+  },
+  {
+   "id": "vi_say_5d4d0350",
+   "text": "Tê giác có cái sừng to ở trên mũi."
+  },
+  {
+   "id": "vi_say_28439fa4",
+   "text": "Tên lửa bay vào vũ trụ, rất xa Trái Đất."
+  },
+  {
+   "id": "vi_say_f77f0542",
+   "text": "Tôm hùm có vỏ cứng và hai cái càng to."
+  },
+  {
+   "id": "vi_say_171bcbae",
+   "text": "Vòng quay ngựa gỗ quay tròn và có nhạc vui."
+  },
+  {
+   "id": "vi_say_6bc7c61c",
+   "text": "Xe buýt rất to và chở được nhiều người."
+  },
+  {
+   "id": "vi_say_f4fa273b",
+   "text": "Xe cảnh sát có còi hú và đèn nhấp nháy."
+  },
+  {
+   "id": "vi_say_e4c7591a",
+   "text": "Xe cộ"
+  },
+  {
+   "id": "vi_say_869b66bd",
+   "text": "Xe cứu hỏa màu đỏ, phun nước để dập lửa."
+  },
+  {
+   "id": "vi_say_97c2cd73",
+   "text": "Xe cứu thương chở người bệnh đến bệnh viện."
+  },
+  {
+   "id": "vi_say_52bdabe3",
+   "text": "Xe máy có hai bánh, đi xe máy phải đội mũ bảo hiểm."
+  },
+  {
+   "id": "vi_say_1706a385",
+   "text": "Xe taxi chở khách đến nơi họ muốn đi."
+  },
+  {
+   "id": "vi_say_00c696ed",
+   "text": "Xe tải chở được rất nhiều hàng hóa nặng."
+  },
+  {
+   "id": "vi_say_22c8406e",
+   "text": "Xe ô tô có bốn bánh và chở cả nhà đi chơi."
+  },
+  {
+   "id": "vi_say_2b55ede4",
+   "text": "Xe đạp có hai bánh, bé đạp bằng chân."
+  },
+  {
+   "id": "vi_say_67e87aa0",
+   "text": "bàn chân"
+  },
+  {
+   "id": "vi_say_4f55a22d",
+   "text": "bàn chải đánh răng"
+  },
+  {
+   "id": "vi_say_29feb092",
+   "text": "bàn tay"
+  },
+  {
+   "id": "vi_say_c733bbd1",
+   "text": "bác nông dân"
+  },
+  {
+   "id": "vi_say_6c87bb9c",
+   "text": "bác sĩ"
+  },
+  {
+   "id": "vi_say_38bab952",
+   "text": "bánh xà phòng"
+  },
+  {
+   "id": "vi_say_1a9c1e66",
+   "text": "bóng đèn"
+  },
+  {
+   "id": "vi_say_7ab3d9f9",
+   "text": "bông hoa"
+  },
+  {
+   "id": "vi_say_fbd0737f",
+   "text": "bông tuyết"
+  },
+  {
+   "id": "vi_say_4aa28e27",
+   "text": "búp bê gỗ"
+  },
+  {
+   "id": "vi_say_ce4800cb",
+   "text": "bắp ngô"
+  },
+  {
+   "id": "vi_say_a101d8bb",
+   "text": "bồn tắm"
+  },
+  {
+   "id": "vi_say_a346ab01",
+   "text": "bộ não"
+  },
+  {
+   "id": "vi_say_8181037c",
+   "text": "bộ xương"
+  },
+  {
+   "id": "vi_say_c5fc9400",
+   "text": "chìa khóa"
+  },
+  {
+   "id": "vi_say_9fdaf21a",
+   "text": "chùm nho"
+  },
+  {
+   "id": "vi_say_ba1fcb71",
+   "text": "chú công an"
+  },
+  {
+   "id": "vi_say_67ebb506",
+   "text": "chú lính cứu hỏa"
+  },
+  {
+   "id": "vi_say_b86aa8e1",
+   "text": "chú phi công"
+  },
+  {
+   "id": "vi_say_6d69b0c2",
+   "text": "chú phi hành gia"
+  },
+  {
+   "id": "vi_say_99629358",
+   "text": "chú thợ sửa xe"
+  },
+  {
+   "id": "vi_say_6a21ef32",
+   "text": "chú thợ xây"
+  },
+  {
+   "id": "vi_say_51a63f13",
+   "text": "chú đầu bếp"
+  },
+  {
+   "id": "vi_say_67c9f2c4",
+   "text": "con bò"
+  },
+  {
+   "id": "vi_say_48ba3e17",
+   "text": "con bướm"
+  },
+  {
+   "id": "vi_say_8668ce5d",
+   "text": "con bạch tuộc"
+  },
+  {
+   "id": "vi_say_1d40e4bd",
+   "text": "con bọ rùa"
+  },
+  {
+   "id": "vi_say_5bb918ec",
+   "text": "con chim"
+  },
+  {
+   "id": "vi_say_2513e2fa",
+   "text": "con chim bồ câu"
+  },
+  {
+   "id": "vi_say_9d9b7f57",
+   "text": "con chim cánh cụt"
+  },
+  {
+   "id": "vi_say_22ea8f6c",
+   "text": "con chuột túi"
+  },
+  {
+   "id": "vi_say_b03bc478",
+   "text": "con chó"
+  },
+  {
+   "id": "vi_say_c33de6e8",
+   "text": "con cua"
+  },
+  {
+   "id": "vi_say_f0573b6a",
+   "text": "con cá"
+  },
+  {
+   "id": "vi_say_7b6940af",
+   "text": "con cá cảnh"
+  },
+  {
+   "id": "vi_say_93bcd61e",
+   "text": "con cá heo"
+  },
+  {
+   "id": "vi_say_069895d3",
+   "text": "con cá mập"
+  },
+  {
+   "id": "vi_say_c81d2dd7",
+   "text": "con cá nóc"
+  },
+  {
+   "id": "vi_say_c5140746",
+   "text": "con cá sấu"
+  },
+  {
+   "id": "vi_say_c1aec6f4",
+   "text": "con cá voi"
+  },
+  {
+   "id": "vi_say_5e51e8df",
+   "text": "con cáo"
+  },
+  {
+   "id": "vi_say_bad85a0e",
+   "text": "con công"
+  },
+  {
+   "id": "vi_say_7623f8b4",
+   "text": "con cú mèo"
+  },
+  {
+   "id": "vi_say_277443d2",
+   "text": "con cừu"
+  },
+  {
+   "id": "vi_say_adfaec20",
+   "text": "con diều"
+  },
+  {
+   "id": "vi_say_2d44d48a",
+   "text": "con dê"
+  },
+  {
+   "id": "vi_say_ec7aa81d",
+   "text": "con dế"
+  },
+  {
+   "id": "vi_say_aefce261",
+   "text": "con gà con"
+  },
+  {
+   "id": "vi_say_799b2a5d",
+   "text": "con gà mái"
+  },
+  {
+   "id": "vi_say_51c6350b",
+   "text": "con gà trống"
+  },
+  {
+   "id": "vi_say_a21cfb93",
+   "text": "con gà tây"
+  },
+  {
+   "id": "vi_say_79ce7573",
+   "text": "con gấu"
+  },
+  {
+   "id": "vi_say_17035c0d",
+   "text": "con gấu bông"
+  },
+  {
+   "id": "vi_say_c4b3c41b",
+   "text": "con gấu trúc"
+  },
+  {
+   "id": "vi_say_bbc34caf",
+   "text": "con heo"
+  },
+  {
+   "id": "vi_say_f882dab5",
+   "text": "con hà mã"
+  },
+  {
+   "id": "vi_say_a3db60d2",
+   "text": "con hươu cao cổ"
+  },
+  {
+   "id": "vi_say_355b7e4c",
+   "text": "con hải cẩu"
+  },
+  {
+   "id": "vi_say_cf7f91cc",
+   "text": "con hồng hạc"
+  },
+  {
+   "id": "vi_say_8c7358ce",
+   "text": "con hổ"
+  },
+  {
+   "id": "vi_say_6947614d",
+   "text": "con khỉ"
+  },
+  {
+   "id": "vi_say_80d8922b",
+   "text": "con kiến"
+  },
+  {
+   "id": "vi_say_eb606dbc",
+   "text": "con lạc đà"
+  },
+  {
+   "id": "vi_say_c7eef48b",
+   "text": "con muỗi"
+  },
+  {
+   "id": "vi_say_ccf2f818",
+   "text": "con mèo"
+  },
+  {
+   "id": "vi_say_baf8e2bc",
+   "text": "con mực"
+  },
+  {
+   "id": "vi_say_b1165f58",
+   "text": "con ngựa"
+  },
+  {
+   "id": "vi_say_d7a31e7a",
+   "text": "con ngựa vằn"
+  },
+  {
+   "id": "vi_say_e6a03b82",
+   "text": "con nhím"
+  },
+  {
+   "id": "vi_say_e4ccbb41",
+   "text": "con ong"
+  },
+  {
+   "id": "vi_say_fe94e879",
+   "text": "con rái cá"
+  },
+  {
+   "id": "vi_say_87ac3648",
+   "text": "con rùa biển"
+  },
+  {
+   "id": "vi_say_57dba96f",
+   "text": "con rắn"
+  },
+  {
+   "id": "vi_say_3ac10ad6",
+   "text": "con sâu"
+  },
+  {
+   "id": "vi_say_2c97a6c5",
+   "text": "con sóc"
+  },
+  {
+   "id": "vi_say_3297b037",
+   "text": "con sói"
+  },
+  {
+   "id": "vi_say_78f8154b",
+   "text": "con sư tử"
+  },
+  {
+   "id": "vi_say_e31703fb",
+   "text": "con thiên nga"
+  },
+  {
+   "id": "vi_say_4957b0de",
+   "text": "con thỏ"
+  },
+  {
+   "id": "vi_say_50bfda1d",
+   "text": "con trâu"
+  },
+  {
+   "id": "vi_say_694fabbb",
+   "text": "con tê giác"
+  },
+  {
+   "id": "vi_say_29dd72f7",
+   "text": "con tôm"
+  },
+  {
+   "id": "vi_say_67366e86",
+   "text": "con tôm hùm"
+  },
+  {
+   "id": "vi_say_1acc0e15",
+   "text": "con voi"
+  },
+  {
+   "id": "vi_say_50cbe1ef",
+   "text": "con vẹt"
+  },
+  {
+   "id": "vi_say_cd5fa06a",
+   "text": "con vịt"
+  },
+  {
+   "id": "vi_say_d2303181",
+   "text": "con đại bàng"
+  },
+  {
+   "id": "vi_say_0813ba0d",
+   "text": "con ốc sên"
+  },
+  {
+   "id": "vi_say_b364e8ab",
+   "text": "cái chuông"
+  },
+  {
+   "id": "vi_say_03b7a699",
+   "text": "cái chân"
+  },
+  {
+   "id": "vi_say_e0f20ea9",
+   "text": "cái chảo"
+  },
+  {
+   "id": "vi_say_54fc07be",
+   "text": "cái chổi"
+  },
+  {
+   "id": "vi_say_004b5b5e",
+   "text": "cái cửa"
+  },
+  {
+   "id": "vi_say_852e9f24",
+   "text": "cái ghế"
+  },
+  {
+   "id": "vi_say_d0fc1b1f",
+   "text": "cái giường"
+  },
+  {
+   "id": "vi_say_c01c2710",
+   "text": "cái giỏ"
+  },
+  {
+   "id": "vi_say_aa675760",
+   "text": "cái gương"
+  },
+  {
+   "id": "vi_say_5f64349b",
+   "text": "cái kèn"
+  },
+  {
+   "id": "vi_say_54c6b1ed",
+   "text": "cái lưỡi"
+  },
+  {
+   "id": "vi_say_1ec5dced",
+   "text": "cái miệng"
+  },
+  {
+   "id": "vi_say_c7809b63",
+   "text": "cái mũi"
+  },
+  {
+   "id": "vi_say_36ff105d",
+   "text": "cái răng"
+  },
+  {
+   "id": "vi_say_d74bd2e3",
+   "text": "cái tai"
+  },
+  {
+   "id": "vi_say_1353706f",
+   "text": "cái thìa"
+  },
+  {
+   "id": "vi_say_71e8a711",
+   "text": "cái ti vi"
+  },
+  {
+   "id": "vi_say_e6835a27",
+   "text": "cái trống"
+  },
+  {
+   "id": "vi_say_54a99348",
+   "text": "cái ô"
+  },
+  {
+   "id": "vi_say_c8a66973",
+   "text": "cái đồng hồ"
+  },
+  {
+   "id": "vi_say_997821aa",
+   "text": "cánh tay"
+  },
+  {
+   "id": "vi_say_43a14611",
+   "text": "cây nấm"
+  },
+  {
+   "id": "vi_say_b24b9c9b",
+   "text": "cây xanh"
+  },
+  {
+   "id": "vi_say_5e8c8fc9",
+   "text": "cô ca sĩ"
+  },
+  {
+   "id": "vi_say_1bf96e34",
+   "text": "cô giáo"
+  },
+  {
+   "id": "vi_say_3f4be71d",
+   "text": "cô họa sĩ"
+  },
+  {
+   "id": "vi_say_26adac6a",
+   "text": "cô y tá"
+  },
+  {
+   "id": "vi_say_2448595f",
+   "text": "cơn gió"
+  },
+  {
+   "id": "vi_say_00b5d069",
+   "text": "cơn mưa"
+  },
+  {
+   "id": "vi_say_7c2039ec",
+   "text": "cầu trượt"
+  },
+  {
+   "id": "vi_say_04aaccf3",
+   "text": "cầu vồng"
+  },
+  {
+   "id": "vi_say_9e21bdae",
+   "text": "củ cà rốt"
+  },
+  {
+   "id": "vi_say_6182515e",
+   "text": "củ hành tây"
+  },
+  {
+   "id": "vi_say_e3372ac3",
+   "text": "củ khoai lang"
+  },
+  {
+   "id": "vi_say_5851c883",
+   "text": "củ khoai tây"
+  },
+  {
+   "id": "vi_say_c6ff182f",
+   "text": "củ tỏi"
+  },
+  {
+   "id": "vi_say_b217e0b6",
+   "text": "giọt nước"
+  },
+  {
+   "id": "vi_say_9d59fefa",
+   "text": "hạt lạc"
+  },
+  {
+   "id": "vi_say_a0e2970d",
+   "text": "hạt đậu"
+  },
+  {
+   "id": "vi_say_c552c313",
+   "text": "hộp màu vẽ"
+  },
+  {
+   "id": "vi_say_e8c1995f",
+   "text": "lá phổi"
+  },
+  {
+   "id": "vi_say_c0fc4903",
+   "text": "máy bay"
+  },
+  {
+   "id": "vi_say_285fa863",
+   "text": "máy bay trực thăng"
+  },
+  {
+   "id": "vi_say_68a4477c",
+   "text": "máy cày"
+  },
+  {
+   "id": "vi_say_90cd0bb0",
+   "text": "mặt trăng"
+  },
+  {
+   "id": "vi_say_caa06b38",
+   "text": "mặt trời"
+  },
+  {
+   "id": "vi_say_7cf05e9c",
+   "text": "ngón tay"
+  },
+  {
+   "id": "vi_say_c847ec31",
+   "text": "ngôi sao"
+  },
+  {
+   "id": "vi_say_c187eb1f",
+   "text": "ngọn lửa"
+  },
+  {
+   "id": "vi_say_2560ff6d",
+   "text": "ngọn núi"
+  },
+  {
+   "id": "vi_say_127bb57b",
+   "text": "nhà khoa học"
+  },
+  {
+   "id": "vi_say_c2431885",
+   "text": "núi lửa"
+  },
+  {
+   "id": "vi_say_1f552bb5",
+   "text": "quả anh đào"
+  },
+  {
+   "id": "vi_say_ae7e2d2a",
+   "text": "quả bóng bay"
+  },
+  {
+   "id": "vi_say_91a995d3",
+   "text": "quả bóng rổ"
+  },
+  {
+   "id": "vi_say_51bb7819",
+   "text": "quả bóng đá"
+  },
+  {
+   "id": "vi_say_c0b1b32e",
+   "text": "quả cam"
+  },
+  {
+   "id": "vi_say_81e5d6e9",
+   "text": "quả chanh"
+  },
+  {
+   "id": "vi_say_0344fe69",
+   "text": "quả chuối"
+  },
+  {
+   "id": "vi_say_81dd4a40",
+   "text": "quả cà chua"
+  },
+  {
+   "id": "vi_say_64897fae",
+   "text": "quả cà tím"
+  },
+  {
+   "id": "vi_say_5be415b9",
+   "text": "quả dâu tây"
+  },
+  {
+   "id": "vi_say_0894dff5",
+   "text": "quả dưa chuột"
+  },
+  {
+   "id": "vi_say_54bb57fb",
+   "text": "quả dưa hấu"
+  },
+  {
+   "id": "vi_say_5a9005f8",
+   "text": "quả dưa lưới"
+  },
+  {
+   "id": "vi_say_298c9033",
+   "text": "quả dứa"
+  },
+  {
+   "id": "vi_say_35912045",
+   "text": "quả dừa"
+  },
+  {
+   "id": "vi_say_90c83fab",
+   "text": "quả kiwi"
+  },
+  {
+   "id": "vi_say_7b131c54",
+   "text": "quả lê"
+  },
+  {
+   "id": "vi_say_1ec48e86",
+   "text": "quả táo"
+  },
+  {
+   "id": "vi_say_ab1567a7",
+   "text": "quả việt quất"
+  },
+  {
+   "id": "vi_say_b6a9feac",
+   "text": "quả xoài"
+  },
+  {
+   "id": "vi_say_9ef56ef4",
+   "text": "quả đào"
+  },
+  {
+   "id": "vi_say_590385cc",
+   "text": "quả ớt"
+  },
+  {
+   "id": "vi_say_e7b5a77e",
+   "text": "quả ớt chuông"
+  },
+  {
+   "id": "vi_say_d0745269",
+   "text": "rau cải"
+  },
+  {
+   "id": "vi_say_e0b8e6f2",
+   "text": "san hô"
+  },
+  {
+   "id": "vi_say_b9935419",
+   "text": "sóng biển"
+  },
+  {
+   "id": "vi_say_de8501a5",
+   "text": "súp lơ xanh"
+  },
+  {
+   "id": "vi_say_62e4daf1",
+   "text": "thuyền buồm"
+  },
+  {
+   "id": "vi_say_f0492f77",
+   "text": "tia chớp"
+  },
+  {
+   "id": "vi_say_9ae88a2c",
+   "text": "trái tim"
+  },
+  {
+   "id": "vi_say_d4b404d2",
+   "text": "trò ghép hình"
+  },
+  {
+   "id": "vi_say_da3d557f",
+   "text": "tàu hỏa"
+  },
+  {
+   "id": "vi_say_792c8689",
+   "text": "tàu thủy"
+  },
+  {
+   "id": "vi_say_9d5dbe46",
+   "text": "tên lửa"
+  },
+  {
+   "id": "vi_say_5ec8d5dc",
+   "text": "vòng quay ngựa gỗ"
+  },
+  {
+   "id": "vi_say_94bab88e",
+   "text": "vỏ ốc biển"
+  },
+  {
+   "id": "vi_say_9096328d",
+   "text": "xe buýt"
+  },
+  {
+   "id": "vi_say_80af3c6a",
+   "text": "xe cảnh sát"
+  },
+  {
+   "id": "vi_say_13ba8ca5",
+   "text": "xe cứu hỏa"
+  },
+  {
+   "id": "vi_say_85c1ac37",
+   "text": "xe cứu thương"
+  },
+  {
+   "id": "vi_say_1d9fb238",
+   "text": "xe máy"
+  },
+  {
+   "id": "vi_say_66e781be",
+   "text": "xe taxi"
+  },
+  {
+   "id": "vi_say_d2bcd315",
+   "text": "xe tải"
+  },
+  {
+   "id": "vi_say_dfe26716",
+   "text": "xe ô tô"
+  },
+  {
+   "id": "vi_say_e3e3142f",
+   "text": "xe đạp"
+  },
+  {
+   "id": "vi_say_3b092d21",
+   "text": "Áp vỏ ốc biển vào tai, bé nghe như có tiếng sóng."
+  },
+  {
+   "id": "vi_say_1c9d5257",
+   "text": "Đàn ghi ta có dây, gảy lên kêu tưng tưng."
+  },
+  {
+   "id": "vi_say_1e2c6cf5",
+   "text": "Đàn piano có phím màu trắng và phím màu đen."
+  },
+  {
+   "id": "vi_say_15108e28",
+   "text": "Đàn vĩ cầm được kéo bằng một cây vĩ."
+  },
+  {
+   "id": "vi_say_73aad82d",
+   "text": "Đám mây trắng bồng bềnh trôi trên trời."
+  },
+  {
+   "id": "vi_say_aa79a349",
+   "text": "Đâu là Trái Đất?"
+  },
+  {
+   "id": "vi_say_83236302",
+   "text": "Đâu là bàn chân?"
+  },
+  {
+   "id": "vi_say_7f37746b",
+   "text": "Đâu là bàn chải đánh răng?"
+  },
+  {
+   "id": "vi_say_92f9da8c",
+   "text": "Đâu là bàn tay?"
+  },
+  {
+   "id": "vi_say_c009c9a3",
+   "text": "Đâu là bác nông dân?"
+  },
+  {
+   "id": "vi_say_837e889a",
+   "text": "Đâu là bác sĩ?"
+  },
+  {
+   "id": "vi_say_9b86e3d0",
+   "text": "Đâu là bánh xà phòng?"
+  },
+  {
+   "id": "vi_say_7ed6b074",
+   "text": "Đâu là bóng đèn?"
+  },
+  {
+   "id": "vi_say_fa5c22af",
+   "text": "Đâu là bông hoa?"
+  },
+  {
+   "id": "vi_say_871b2281",
+   "text": "Đâu là bông tuyết?"
+  },
+  {
+   "id": "vi_say_425e840d",
+   "text": "Đâu là búp bê gỗ?"
+  },
+  {
+   "id": "vi_say_ed6fa6d1",
+   "text": "Đâu là bắp ngô?"
+  },
+  {
+   "id": "vi_say_800a0cad",
+   "text": "Đâu là bồn tắm?"
+  },
+  {
+   "id": "vi_say_c2f15643",
+   "text": "Đâu là bộ não?"
+  },
+  {
+   "id": "vi_say_57397382",
+   "text": "Đâu là bộ xương?"
+  },
+  {
+   "id": "vi_say_d5f58bce",
+   "text": "Đâu là chìa khóa?"
+  },
+  {
+   "id": "vi_say_50138684",
+   "text": "Đâu là chùm nho?"
+  },
+  {
+   "id": "vi_say_5f08b13b",
+   "text": "Đâu là chú công an?"
+  },
+  {
+   "id": "vi_say_c59f97a0",
+   "text": "Đâu là chú lính cứu hỏa?"
+  },
+  {
+   "id": "vi_say_c75e74eb",
+   "text": "Đâu là chú phi công?"
+  },
+  {
+   "id": "vi_say_896b8688",
+   "text": "Đâu là chú phi hành gia?"
+  },
+  {
+   "id": "vi_say_5815860e",
+   "text": "Đâu là chú thợ sửa xe?"
+  },
+  {
+   "id": "vi_say_91d5fd88",
+   "text": "Đâu là chú thợ xây?"
+  },
+  {
+   "id": "vi_say_3229a60d",
+   "text": "Đâu là chú đầu bếp?"
+  },
+  {
+   "id": "vi_say_eeb8e81e",
+   "text": "Đâu là con bò?"
+  },
+  {
+   "id": "vi_say_9aed1505",
+   "text": "Đâu là con bướm?"
+  },
+  {
+   "id": "vi_say_b29967b7",
+   "text": "Đâu là con bạch tuộc?"
+  },
+  {
+   "id": "vi_say_846169a3",
+   "text": "Đâu là con bọ rùa?"
+  },
+  {
+   "id": "vi_say_ae239010",
+   "text": "Đâu là con chim bồ câu?"
+  },
+  {
+   "id": "vi_say_88fe6c39",
+   "text": "Đâu là con chim cánh cụt?"
+  },
+  {
+   "id": "vi_say_af7d4e82",
+   "text": "Đâu là con chim?"
+  },
+  {
+   "id": "vi_say_1f79f3be",
+   "text": "Đâu là con chuột túi?"
+  },
+  {
+   "id": "vi_say_6081d98e",
+   "text": "Đâu là con chó?"
+  },
+  {
+   "id": "vi_say_4eea5b62",
+   "text": "Đâu là con cua?"
+  },
+  {
+   "id": "vi_say_7b13b941",
+   "text": "Đâu là con cá cảnh?"
+  },
+  {
+   "id": "vi_say_b15a0678",
+   "text": "Đâu là con cá heo?"
+  },
+  {
+   "id": "vi_say_5d7af71d",
+   "text": "Đâu là con cá mập?"
+  },
+  {
+   "id": "vi_say_ea0a8af1",
+   "text": "Đâu là con cá nóc?"
+  },
+  {
+   "id": "vi_say_c7da9f84",
+   "text": "Đâu là con cá sấu?"
+  },
+  {
+   "id": "vi_say_cb6886fa",
+   "text": "Đâu là con cá voi?"
+  },
+  {
+   "id": "vi_say_6499f380",
+   "text": "Đâu là con cá?"
+  },
+  {
+   "id": "vi_say_4d5b013d",
+   "text": "Đâu là con cáo?"
+  },
+  {
+   "id": "vi_say_fee7fe3c",
+   "text": "Đâu là con công?"
+  },
+  {
+   "id": "vi_say_34dce532",
+   "text": "Đâu là con cú mèo?"
+  },
+  {
+   "id": "vi_say_87e47dec",
+   "text": "Đâu là con cừu?"
+  },
+  {
+   "id": "vi_say_e53c74ce",
+   "text": "Đâu là con diều?"
+  },
+  {
+   "id": "vi_say_07e2a950",
+   "text": "Đâu là con dê?"
+  },
+  {
+   "id": "vi_say_64b0210f",
+   "text": "Đâu là con dế?"
+  },
+  {
+   "id": "vi_say_53da1363",
+   "text": "Đâu là con gà con?"
+  },
+  {
+   "id": "vi_say_5004ea93",
+   "text": "Đâu là con gà mái?"
+  },
+  {
+   "id": "vi_say_711ff651",
+   "text": "Đâu là con gà trống?"
+  },
+  {
+   "id": "vi_say_96845645",
+   "text": "Đâu là con gà tây?"
+  },
+  {
+   "id": "vi_say_c2fd87a3",
+   "text": "Đâu là con gấu bông?"
+  },
+  {
+   "id": "vi_say_1b8d9bd1",
+   "text": "Đâu là con gấu trúc?"
+  },
+  {
+   "id": "vi_say_be881ae1",
+   "text": "Đâu là con gấu?"
+  },
+  {
+   "id": "vi_say_2fec3581",
+   "text": "Đâu là con heo?"
+  },
+  {
+   "id": "vi_say_0067a8a7",
+   "text": "Đâu là con hà mã?"
+  },
+  {
+   "id": "vi_say_c8832ac0",
+   "text": "Đâu là con hươu cao cổ?"
+  },
+  {
+   "id": "vi_say_75c707ca",
+   "text": "Đâu là con hải cẩu?"
+  },
+  {
+   "id": "vi_say_365c0b7e",
+   "text": "Đâu là con hồng hạc?"
+  },
+  {
+   "id": "vi_say_1401b634",
+   "text": "Đâu là con hổ?"
+  },
+  {
+   "id": "vi_say_2476faab",
+   "text": "Đâu là con khỉ?"
+  },
+  {
+   "id": "vi_say_cf353325",
+   "text": "Đâu là con kiến?"
+  },
+  {
+   "id": "vi_say_2ce31512",
+   "text": "Đâu là con lạc đà?"
+  },
+  {
+   "id": "vi_say_0cda435d",
+   "text": "Đâu là con muỗi?"
+  },
+  {
+   "id": "vi_say_461c35fa",
+   "text": "Đâu là con mèo?"
+  },
+  {
+   "id": "vi_say_0d5c2792",
+   "text": "Đâu là con mực?"
+  },
+  {
+   "id": "vi_say_ec60ae04",
+   "text": "Đâu là con ngựa vằn?"
+  },
+  {
+   "id": "vi_say_eba56ad6",
+   "text": "Đâu là con ngựa?"
+  },
+  {
+   "id": "vi_say_e789d8f0",
+   "text": "Đâu là con nhím?"
+  },
+  {
+   "id": "vi_say_7414cdd3",
+   "text": "Đâu là con ong?"
+  },
+  {
+   "id": "vi_say_3e2d3cb3",
+   "text": "Đâu là con rái cá?"
+  },
+  {
+   "id": "vi_say_38c712fe",
+   "text": "Đâu là con rùa biển?"
+  },
+  {
+   "id": "vi_say_0b26c705",
+   "text": "Đâu là con rắn?"
+  },
+  {
+   "id": "vi_say_92cb9414",
+   "text": "Đâu là con sâu?"
+  },
+  {
+   "id": "vi_say_78a21d1f",
+   "text": "Đâu là con sóc?"
+  },
+  {
+   "id": "vi_say_82a22cdd",
+   "text": "Đâu là con sói?"
+  },
+  {
+   "id": "vi_say_97fca9b9",
+   "text": "Đâu là con sư tử?"
+  },
+  {
+   "id": "vi_say_4ffe49f1",
+   "text": "Đâu là con thiên nga?"
+  },
+  {
+   "id": "vi_say_e8a9c734",
+   "text": "Đâu là con thỏ?"
+  },
+  {
+   "id": "vi_say_26d2a777",
+   "text": "Đâu là con trâu?"
+  },
+  {
+   "id": "vi_say_4f41a5dd",
+   "text": "Đâu là con tê giác?"
+  },
+  {
+   "id": "vi_say_4f31b854",
+   "text": "Đâu là con tôm hùm?"
+  },
+  {
+   "id": "vi_say_d9e5f6b5",
+   "text": "Đâu là con tôm?"
+  },
+  {
+   "id": "vi_say_39556043",
+   "text": "Đâu là con voi?"
+  },
+  {
+   "id": "vi_say_b0e61125",
+   "text": "Đâu là con vẹt?"
+  },
+  {
+   "id": "vi_say_15bece5c",
+   "text": "Đâu là con vịt?"
+  },
+  {
+   "id": "vi_say_36c463af",
+   "text": "Đâu là con đại bàng?"
+  },
+  {
+   "id": "vi_say_87b30c53",
+   "text": "Đâu là con ốc sên?"
+  },
+  {
+   "id": "vi_say_56c960f9",
+   "text": "Đâu là cái chuông?"
+  },
+  {
+   "id": "vi_say_a26b95f7",
+   "text": "Đâu là cái chân?"
+  },
+  {
+   "id": "vi_say_484f5b33",
+   "text": "Đâu là cái chảo?"
+  },
+  {
+   "id": "vi_say_d2bc5040",
+   "text": "Đâu là cái chổi?"
+  },
+  {
+   "id": "vi_say_f06d7eb4",
+   "text": "Đâu là cái cửa?"
+  },
+  {
+   "id": "vi_say_d8fc5ad6",
+   "text": "Đâu là cái ghế?"
+  },
+  {
+   "id": "vi_say_55591059",
+   "text": "Đâu là cái giường?"
+  },
+  {
+   "id": "vi_say_a282e1f2",
+   "text": "Đâu là cái giỏ?"
+  },
+  {
+   "id": "vi_say_72d47dea",
+   "text": "Đâu là cái gương?"
+  },
+  {
+   "id": "vi_say_d25faae1",
+   "text": "Đâu là cái kèn?"
+  },
+  {
+   "id": "vi_say_8145751b",
+   "text": "Đâu là cái lưỡi?"
+  },
+  {
+   "id": "vi_say_137d95c3",
+   "text": "Đâu là cái miệng?"
+  },
+  {
+   "id": "vi_say_51e9163d",
+   "text": "Đâu là cái mũi?"
+  },
+  {
+   "id": "vi_say_a728fdeb",
+   "text": "Đâu là cái răng?"
+  },
+  {
+   "id": "vi_say_344e2461",
+   "text": "Đâu là cái tai?"
+  },
+  {
+   "id": "vi_say_72567bd9",
+   "text": "Đâu là cái thìa?"
+  },
+  {
+   "id": "vi_say_7f46f063",
+   "text": "Đâu là cái ti vi?"
+  },
+  {
+   "id": "vi_say_abf4123d",
+   "text": "Đâu là cái trống?"
+  },
+  {
+   "id": "vi_say_865adefe",
+   "text": "Đâu là cái ô?"
+  },
+  {
+   "id": "vi_say_fca87bed",
+   "text": "Đâu là cái đồng hồ?"
+  },
+  {
+   "id": "vi_say_a488f948",
+   "text": "Đâu là cánh tay?"
+  },
+  {
+   "id": "vi_say_4c31b6fb",
+   "text": "Đâu là cây nấm?"
+  },
+  {
+   "id": "vi_say_34a158dd",
+   "text": "Đâu là cây xanh?"
+  },
+  {
+   "id": "vi_say_f6f39747",
+   "text": "Đâu là cô ca sĩ?"
+  },
+  {
+   "id": "vi_say_ea658cba",
+   "text": "Đâu là cô giáo?"
+  },
+  {
+   "id": "vi_say_6c6bc2b7",
+   "text": "Đâu là cô họa sĩ?"
+  },
+  {
+   "id": "vi_say_5be9c7d0",
+   "text": "Đâu là cô y tá?"
+  },
+  {
+   "id": "vi_say_bb9fba39",
+   "text": "Đâu là cơn gió?"
+  },
+  {
+   "id": "vi_say_8a7a6353",
+   "text": "Đâu là cơn mưa?"
+  },
+  {
+   "id": "vi_say_df06afe6",
+   "text": "Đâu là cầu trượt?"
+  },
+  {
+   "id": "vi_say_7ebbaf11",
+   "text": "Đâu là cầu vồng?"
+  },
+  {
+   "id": "vi_say_51d55e28",
+   "text": "Đâu là củ cà rốt?"
+  },
+  {
+   "id": "vi_say_22300ab4",
+   "text": "Đâu là củ hành tây?"
+  },
+  {
+   "id": "vi_say_7adc0009",
+   "text": "Đâu là củ khoai lang?"
+  },
+  {
+   "id": "vi_say_bfaaa561",
+   "text": "Đâu là củ khoai tây?"
+  },
+  {
+   "id": "vi_say_c1c8ace1",
+   "text": "Đâu là củ tỏi?"
+  },
+  {
+   "id": "vi_say_d7e402a0",
+   "text": "Đâu là giọt nước?"
+  },
+  {
+   "id": "vi_say_d6cc2fd8",
+   "text": "Đâu là hạt lạc?"
+  },
+  {
+   "id": "vi_say_0ade26d3",
+   "text": "Đâu là hạt đậu?"
+  },
+  {
+   "id": "vi_say_d9a2776d",
+   "text": "Đâu là hộp màu vẽ?"
+  },
+  {
+   "id": "vi_say_a401528d",
+   "text": "Đâu là lá phổi?"
+  },
+  {
+   "id": "vi_say_f1989d39",
+   "text": "Đâu là máy bay trực thăng?"
+  },
+  {
+   "id": "vi_say_f2b27271",
+   "text": "Đâu là máy bay?"
+  },
+  {
+   "id": "vi_say_9703ffa2",
+   "text": "Đâu là máy cày?"
+  },
+  {
+   "id": "vi_say_d6a02cfe",
+   "text": "Đâu là mặt trăng?"
+  },
+  {
+   "id": "vi_say_f8e8cec6",
+   "text": "Đâu là mặt trời?"
+  },
+  {
+   "id": "vi_say_043b76fa",
+   "text": "Đâu là ngón tay?"
+  },
+  {
+   "id": "vi_say_23890397",
+   "text": "Đâu là ngôi sao?"
+  },
+  {
+   "id": "vi_say_8b8f13d1",
+   "text": "Đâu là ngọn lửa?"
+  },
+  {
+   "id": "vi_say_4352dfd3",
+   "text": "Đâu là ngọn núi?"
+  },
+  {
+   "id": "vi_say_fad1f045",
+   "text": "Đâu là nhà khoa học?"
+  },
+  {
+   "id": "vi_say_f6454c33",
+   "text": "Đâu là núi lửa?"
+  },
+  {
+   "id": "vi_say_5669635b",
+   "text": "Đâu là quả anh đào?"
+  },
+  {
+   "id": "vi_say_975daffc",
+   "text": "Đâu là quả bóng bay?"
+  },
+  {
+   "id": "vi_say_c9d09665",
+   "text": "Đâu là quả bóng rổ?"
+  },
+  {
+   "id": "vi_say_a5e54ebf",
+   "text": "Đâu là quả bóng đá?"
+  },
+  {
+   "id": "vi_say_df1f8504",
+   "text": "Đâu là quả cam?"
+  },
+  {
+   "id": "vi_say_be6b9d6b",
+   "text": "Đâu là quả chanh?"
+  },
+  {
+   "id": "vi_say_952d7253",
+   "text": "Đâu là quả chuối?"
+  },
+  {
+   "id": "vi_say_40258bd2",
+   "text": "Đâu là quả cà chua?"
+  },
+  {
+   "id": "vi_say_c7ea2ce0",
+   "text": "Đâu là quả cà tím?"
+  },
+  {
+   "id": "vi_say_84c062fb",
+   "text": "Đâu là quả dâu tây?"
+  },
+  {
+   "id": "vi_say_1b7372e7",
+   "text": "Đâu là quả dưa chuột?"
+  },
+  {
+   "id": "vi_say_a5bfa1d1",
+   "text": "Đâu là quả dưa hấu?"
+  },
+  {
+   "id": "vi_say_70eee5a6",
+   "text": "Đâu là quả dưa lưới?"
+  },
+  {
+   "id": "vi_say_4441ef29",
+   "text": "Đâu là quả dứa?"
+  },
+  {
+   "id": "vi_say_383d5f17",
+   "text": "Đâu là quả dừa?"
+  },
+  {
+   "id": "vi_say_5bfe2961",
+   "text": "Đâu là quả kiwi?"
+  },
+  {
+   "id": "vi_say_14ac9dde",
+   "text": "Đâu là quả lê?"
+  },
+  {
+   "id": "vi_say_f74c8a9c",
+   "text": "Đâu là quả táo?"
+  },
+  {
+   "id": "vi_say_56688e69",
+   "text": "Đâu là quả việt quất?"
+  },
+  {
+   "id": "vi_say_7e225aa6",
+   "text": "Đâu là quả xoài?"
+  },
+  {
+   "id": "vi_say_371799de",
+   "text": "Đâu là quả đào?"
+  },
+  {
+   "id": "vi_say_09705104",
+   "text": "Đâu là quả ớt chuông?"
+  },
+  {
+   "id": "vi_say_adab4cd2",
+   "text": "Đâu là quả ớt?"
+  },
+  {
+   "id": "vi_say_43c371bb",
+   "text": "Đâu là rau cải?"
+  },
+  {
+   "id": "vi_say_479c3c08",
+   "text": "Đâu là san hô?"
+  },
+  {
+   "id": "vi_say_521d126b",
+   "text": "Đâu là sóng biển?"
+  },
+  {
+   "id": "vi_say_0fae89e3",
+   "text": "Đâu là súp lơ xanh?"
+  },
+  {
+   "id": "vi_say_5339300f",
+   "text": "Đâu là thuyền buồm?"
+  },
+  {
+   "id": "vi_say_a5bf5be9",
+   "text": "Đâu là tia chớp?"
+  },
+  {
+   "id": "vi_say_6d1edaa6",
+   "text": "Đâu là trái tim?"
+  },
+  {
+   "id": "vi_say_953938b4",
+   "text": "Đâu là trò ghép hình?"
+  },
+  {
+   "id": "vi_say_3b0d7ca9",
+   "text": "Đâu là tàu hỏa?"
+  },
+  {
+   "id": "vi_say_7453577f",
+   "text": "Đâu là tàu thủy?"
+  },
+  {
+   "id": "vi_say_276ba1b4",
+   "text": "Đâu là tên lửa?"
+  },
+  {
+   "id": "vi_say_6b1948be",
+   "text": "Đâu là vòng quay ngựa gỗ?"
+  },
+  {
+   "id": "vi_say_6ae032f0",
+   "text": "Đâu là vỏ ốc biển?"
+  },
+  {
+   "id": "vi_say_18d90cab",
+   "text": "Đâu là xe buýt?"
+  },
+  {
+   "id": "vi_say_c171b650",
+   "text": "Đâu là xe cảnh sát?"
+  },
+  {
+   "id": "vi_say_0a0acb0b",
+   "text": "Đâu là xe cứu hỏa?"
+  },
+  {
+   "id": "vi_say_1fedb8e1",
+   "text": "Đâu là xe cứu thương?"
+  },
+  {
+   "id": "vi_say_890bc8e6",
+   "text": "Đâu là xe máy?"
+  },
+  {
+   "id": "vi_say_6854abf8",
+   "text": "Đâu là xe taxi?"
+  },
+  {
+   "id": "vi_say_3f58c593",
+   "text": "Đâu là xe tải?"
+  },
+  {
+   "id": "vi_say_bb121e38",
+   "text": "Đâu là xe ô tô?"
+  },
+  {
+   "id": "vi_say_d423716d",
+   "text": "Đâu là xe đạp?"
+  },
+  {
+   "id": "vi_say_7dc73010",
+   "text": "Đâu là đàn ghi ta?"
+  },
+  {
+   "id": "vi_say_40a20ea2",
+   "text": "Đâu là đàn piano?"
+  },
+  {
+   "id": "vi_say_902dd824",
+   "text": "Đâu là đàn vĩ cầm?"
+  },
+  {
+   "id": "vi_say_2e14f804",
+   "text": "Đâu là đám mây?"
+  },
+  {
+   "id": "vi_say_491e2151",
+   "text": "Đâu là đôi mắt?"
+  },
+  {
+   "id": "vi_say_fe0f5f32",
+   "text": "Đâu là đôi đũa?"
+  },
+  {
+   "id": "vi_say_f126d66d",
+   "text": "Đôi chân giúp bé chạy nhảy và đá bóng."
+  },
+  {
+   "id": "vi_say_ab3216d1",
+   "text": "Đôi mắt giúp bé nhìn thấy mọi thứ xung quanh."
+  },
+  {
+   "id": "vi_say_4658469d",
+   "text": "Đúng rồi! Bé giỏi quá!"
+  },
+  {
+   "id": "vi_say_4e2f5b73",
+   "text": "Đại bàng bay rất cao và có đôi mắt rất tinh."
+  },
+  {
+   "id": "vi_say_d691e593",
+   "text": "Đố bé nào! Bé nghe Mai hỏi rồi chạm vào hình đúng nhé."
+  },
+  {
+   "id": "vi_say_b56521f8",
+   "text": "Đồ chơi và âm nhạc"
+  },
+  {
+   "id": "vi_say_068883d0",
+   "text": "Đồ vật trong nhà"
+  },
+  {
+   "id": "vi_say_85b0ebaf",
+   "text": "Đồng hồ cho mình biết bây giờ là mấy giờ."
+  },
+  {
+   "id": "vi_say_770bb4df",
+   "text": "Động vật hoang dã"
+  },
+  {
+   "id": "vi_say_e38b25e6",
+   "text": "đàn ghi ta"
+  },
+  {
+   "id": "vi_say_e32e4110",
+   "text": "đàn piano"
+  },
+  {
+   "id": "vi_say_875bc10a",
+   "text": "đàn vĩ cầm"
+  },
+  {
+   "id": "vi_say_30fa279a",
+   "text": "đám mây"
+  },
+  {
+   "id": "vi_say_061ad71b",
+   "text": "đôi mắt"
+  },
+  {
+   "id": "vi_say_9913502c",
+   "text": "đôi đũa"
+  },
+  {
+   "id": "vi_say_17091719",
+   "text": "Ốc sên bò rất chậm và mang nhà trên lưng."
+  },
+  {
+   "id": "vi_say_5bc5a2a5",
+   "text": "Ớt chuông không cay và có nhiều màu đẹp."
+  }
  ]
 }

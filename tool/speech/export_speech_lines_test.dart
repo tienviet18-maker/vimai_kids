@@ -12,6 +12,8 @@ import 'package:mai_an_learning/data/content/learning_repositories.dart';
 import 'package:mai_an_learning/data/content/math_generator.dart';
 import 'package:mai_an_learning/data/content/thinking_generator.dart';
 import 'package:mai_an_learning/domain/content/content_item.dart';
+import 'package:mai_an_learning/features/explore/data/explore_catalog.dart';
+import 'package:mai_an_learning/features/explore/explore_guide.dart';
 
 void main() {
   test('export speech lines', () {
@@ -97,6 +99,20 @@ void main() {
 
     for (final line in KidGuide.all) {
       add('guide', line);
+    }
+
+    // Khám phá thế giới: topic titles, every picture's name, fact and quiz question.
+    final explore = ExploreCatalog.parse(File(ExploreCatalog.assetPath).readAsStringSync());
+    for (final category in explore.categories) {
+      add('explore', category.title);
+      for (final item in category.items) {
+        add('explore', item.name);
+        add('explore', item.fact);
+        add('explore', item.question);
+      }
+    }
+    for (final line in ExploreGuide.all) {
+      add('explore', line);
     }
 
     final out = {

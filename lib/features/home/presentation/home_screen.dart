@@ -16,6 +16,7 @@ import '../../../domain/models/child_profile.dart';
 import '../../shared/widgets/kids_living_canopy.dart';
 import '../../shared/widgets/kids_storybook.dart';
 import '../../shared/widgets/vimai_mascot.dart';
+import '../../explore/presentation/explore_entry_button.dart';
 import 'discovery_islands.dart';
 import '../../../core/audio/kid_guide.dart';
 
@@ -231,7 +232,14 @@ class _HomeScreenState extends ConsumerState<HomeScreen> with RouteAware {
                                         width: guideW,
                                         child: Center(
                                           child: SingleChildScrollView(
-                                            child: guide(vertical: true, mascot: short ? 96 : 124),
+                                            child: Column(
+                                              mainAxisSize: MainAxisSize.min,
+                                              children: [
+                                                guide(vertical: true, mascot: short ? 96 : 124),
+                                                const SizedBox(height: 14),
+                                                ExploreEntryButton(onTap: () => context.push('/explore')),
+                                              ],
+                                            ),
                                           ),
                                         ),
                                       ),
@@ -271,6 +279,12 @@ class _HomeScreenState extends ConsumerState<HomeScreen> with RouteAware {
                                     constraints: const BoxConstraints(maxWidth: 620),
                                     child: DiscoveryArchipelago(islands: islands),
                                   ),
+                                ),
+                              ),
+                              Padding(
+                                padding: EdgeInsets.only(top: short ? 2 : 6, bottom: 2),
+                                child: Center(
+                                  child: ExploreEntryButton(compact: true, onTap: () => context.push('/explore')),
                                 ),
                               ),
                               const _Footer(),

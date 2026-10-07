@@ -53,6 +53,7 @@ flutter:
     - assets/data/japanese/
     - assets/data/math/
     - assets/data/thinking/
+    - assets/data/explore/
     - assets/content/japanese/kana/
     - assets/content/japanese/strokes/
     - assets/content/japanese/strokes/svg/
