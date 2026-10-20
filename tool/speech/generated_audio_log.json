@@ -4045,6 +4045,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_00d4256a": {
+  "text": "Mặt trăng có sẵn trong thiên nhiên, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_01ea9569": {
   "text": "bánh bao.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -4122,6 +4129,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_0325b3c1": {
+  "text": "Cánh tay là một bộ phận cơ thể, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_032a02d0": {
   "text": "tam giác đỏ.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -4149,6 +4163,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_03a1bebe": {
+  "text": "Con thỏ là con vật nuôi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_03b7a699": {
   "text": "cái chân.",
@@ -4276,6 +4297,20 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_05b311d5": {
+  "text": "Quả ớt chuông là rau củ, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
+ "vi_say_061a2ef8": {
+  "text": "Chú thợ xây là người làm nghề, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_061ad71b": {
   "text": "đôi mắt.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -4289,6 +4324,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_065e4d8b": {
+  "text": "Con hải cẩu sống dưới biển, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_0662faa5": {
   "text": "sounds.",
@@ -4436,6 +4478,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_085a6502": {
+  "text": "Con cừu là con vật nuôi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_08603c97": {
   "text": "Con rắn không có chân, nó trườn trên mặt đất.",
@@ -4787,6 +4836,20 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_0ce38aa6": {
+  "text": "Quả anh đào là hoa quả, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
+ "vi_say_0d06a26f": {
+  "text": "Cái cửa là đồ dùng trong nhà, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_0d21cec8": {
   "text": "Giỏi lắm! Mình tiếp tục nào!",
   "voice": "vi-VN-HoaiMyNeural",
@@ -4870,6 +4933,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_0e6068d0": {
+  "text": "Cái răng là một bộ phận cơ thể, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_0e725db3": {
   "text": "num.",
@@ -4969,6 +5039,20 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_10110102": {
+  "text": "Lá phổi là một bộ phận cơ thể, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
+ "vi_say_101b750a": {
+  "text": "Con cáo là động vật hoang dã, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_10391a6a": {
   "text": "mũ.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -4989,6 +5073,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_1090d29f": {
+  "text": "Bạn nào không sống dưới biển?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_109b4a33": {
   "text": "Hình tiếp theo: con ong con bướm con ong con bướm?",
@@ -5123,6 +5214,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_12f2cef1": {
+  "text": "Cái nào không phải là xe cộ?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_131dbcc4": {
   "text": "buổi sáng.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -5207,6 +5305,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_142b8f0f": {
+  "text": "Cái chổi là đồ dùng trong nhà, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_14ac9dde": {
   "text": "Đâu là quả lê?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -5220,6 +5325,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_14eae605": {
+  "text": "Con chim là một loài chim, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_14eb2a39": {
   "text": "Từ ghép.",
@@ -5318,6 +5430,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_160805f2": {
+  "text": "Con sâu là côn trùng, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_166719cd": {
   "text": "Không gian.",
@@ -5431,6 +5550,20 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_17594a54": {
+  "text": "Bắp ngô là rau củ, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
+ "vi_say_177c6000": {
+  "text": "Cô y tá là người làm nghề, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_17aebcd7": {
   "text": "Hình tiếp theo: con voi hươu cao cổ con voi hươu cao cổ?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -5459,6 +5592,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_17fe4286": {
+  "text": "Quả dưa chuột là rau củ, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_182591b3": {
   "text": "Củ tỏi có mùi thơm nồng, dùng để nấu ăn.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -5479,6 +5619,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_189ed03a": {
+  "text": "Cô giáo là người làm nghề, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_18a3fa6f": {
   "text": "Con heo kêu ụt ịt và có cái mũi tròn.",
@@ -5522,6 +5669,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_19bf8dc3": {
+  "text": "Quả ớt là rau củ, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_19d7dd0b": {
   "text": "dù.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -5563,6 +5717,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_1a762bf3": {
+  "text": "Bộ xương là một bộ phận cơ thể, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_1a789411": {
   "text": "Ghép bóng.",
@@ -5711,6 +5872,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_1c48185b": {
+  "text": "Chú công an là người làm nghề, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_1c9d5257": {
   "text": "Đàn ghi ta có dây, gảy lên kêu tưng tưng.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -5739,6 +5907,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_1cc095f2": {
+  "text": "Cái đồng hồ là đồ dùng trong nhà, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_1ce75a79": {
   "text": "dâu.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -5760,12 +5935,26 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_1d085f06": {
+  "text": "Con tê giác là động vật hoang dã, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_1d40e4bd": {
   "text": "con bọ rùa.",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_1d4afd7d": {
+  "text": "Nhà khoa học là người làm nghề, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_1d7b2dad": {
   "text": "Bé ngồi ghế.",
@@ -5991,6 +6180,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_208054c0": {
+  "text": "Xe cứu thương là phương tiện giao thông, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_2087a738": {
   "text": "Đâu là đồ ăn?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -6004,6 +6200,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_20eb6cf5": {
+  "text": "Cái ô là đồ dùng trong nhà, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_20f851b4": {
   "text": "1 cộng 4 bằng mấy.",
@@ -6152,6 +6355,20 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_23916c41": {
+  "text": "Con cá heo sống dưới biển, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
+ "vi_say_239d50a8": {
+  "text": "Con ngựa là con vật nuôi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_239d50bf": {
   "text": "Bé có 4 cái hoa, thêm 1 cái nữa. Bé có bao nhiêu cái?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -6159,12 +6376,26 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_23b3bec4": {
+  "text": "Chú lính cứu hỏa là người làm nghề, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_23c7d9b3": {
   "text": "5 cộng 7 bằng mấy.",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_23e1637c": {
+  "text": "Con hà mã là động vật hoang dã, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_23f5536d": {
   "text": "Số nào đứng sau 44?",
@@ -6201,6 +6432,20 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_2451cb00": {
+  "text": "Quả việt quất là hoa quả, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
+ "vi_say_2452b66b": {
+  "text": "Cơn gió có sẵn trong thiên nhiên, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_2476faab": {
   "text": "Đâu là con khỉ?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -6214,6 +6459,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_24a0bd0d": {
+  "text": "Từ nào bắt đầu bằng âm này?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_24df81c4": {
   "text": "Mẹ nấu cơm.",
@@ -6242,6 +6494,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_257464cd": {
+  "text": "Cái nào không phải là đồ chơi?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_25771f25": {
   "text": "Mẹ yêu bé.",
@@ -6635,6 +6894,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_2bf62b84": {
+  "text": "Cái ti vi là đồ dùng trong nhà, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_2bf8bc99": {
   "text": "Mắt dùng để làm gì?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -6690,6 +6956,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_2c92c769": {
+  "text": "Bạn nào không phải là con vật nuôi?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_2c97a6c5": {
   "text": "con sóc.",
@@ -6761,6 +7034,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_2d9cbb7f": {
+  "text": "Quả táo là hoa quả, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_2df370b4": {
   "text": "màu nâu.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -6774,6 +7054,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_2e3bb42b": {
+  "text": "Ngọn lửa có sẵn trong thiên nhiên, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_2e5959ad": {
   "text": "Bà nấu canh.",
@@ -6824,6 +7111,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_2ee3dcda": {
+  "text": "Con thiên nga là một loài chim, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_2f8f13ba": {
   "text": "nan.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -6837,6 +7131,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_2fae837b": {
+  "text": "Cái trống là nhạc cụ, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_2fc66352": {
   "text": "Hai hình này giống hay khác? chấm xanh dương chấm đỏ.",
@@ -6950,6 +7251,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_31ba95a9": {
+  "text": "Con tôm hùm sống dưới biển, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_31c95f52": {
   "text": "Hình thứ hai là gì? 4 5 6.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -6991,6 +7299,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_32364ded": {
+  "text": "Cái giỏ là đồ dùng trong nhà, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_32452a1a": {
   "text": "San hô có nhiều màu sắc và là nhà của nhiều loài cá.",
@@ -7258,12 +7573,26 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_3617ce6f": {
+  "text": "Bé nghe Mai gõ nhé!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_364916be": {
   "text": "Chữ nào trước C?",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_364ca708": {
+  "text": "Đàn vĩ cầm là nhạc cụ, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_364cc5f8": {
   "text": "lin.",
@@ -7440,6 +7769,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_38e8295c": {
+  "text": "Có một hình không cùng nhóm với các bạn. Bé nghe Mai hỏi rồi chạm vào hình đó nhé!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_3916f292": {
   "text": "Hình nào cao hơn?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -7502,6 +7838,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_3a54d75d": {
+  "text": "Chìa khóa là đồ dùng trong nhà, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_3a730a84": {
   "text": "dưa.",
@@ -7629,6 +7972,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_3c10e169": {
+  "text": "Đôi đũa là đồ dùng trong nhà, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_3c127e0b": {
   "text": "Số 4 là số chẵn hay số lẻ?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -7719,6 +8069,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_3e0838dc": {
+  "text": "Củ khoai tây là rau củ, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_3e2d3cb3": {
   "text": "Đâu là con rái cá?",
@@ -7951,6 +8308,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_41be01bd": {
+  "text": "Con hươu cao cổ là động vật hoang dã, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_41ca59f0": {
   "text": "Bé có 4 cái hoa, thêm 4 cái nữa. Bé có bao nhiêu cái?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -8133,6 +8497,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_43f35e10": {
+  "text": "Con rái cá sống dưới biển, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_43fed689": {
   "text": "Số 17 là số chẵn hay số lẻ?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -8209,6 +8580,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_44887f8a": {
+  "text": "Con vịt là con vật nuôi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_44ae4ca7": {
   "text": "Nối điểm Bông hoa.",
@@ -9211,6 +9589,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_52101491": {
+  "text": "Cái ghế là đồ dùng trong nhà, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_521d126b": {
   "text": "Đâu là sóng biển?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -9252,6 +9637,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_52ca3354": {
+  "text": "Con bạch tuộc sống dưới biển, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_52d67fd0": {
   "text": "Hình đầu: trứng gà con gà con, đâu là đầu?",
@@ -9512,12 +9904,26 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_55f3cc35": {
+  "text": "Củ hành tây là rau củ, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_55f5586b": {
   "text": "kho.",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_560275a3": {
+  "text": "Con bọ rùa là côn trùng, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_561bdde0": {
   "text": "Dưa lưới có vỏ như tấm lưới và ruột ngọt thơm.",
@@ -9539,6 +9945,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_564bbac1": {
+  "text": "Hình nào không phải là một nghề?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_565c4920": {
   "text": "Chiếc lá.",
@@ -9687,6 +10100,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_57fd6708": {
+  "text": "Tàu hỏa là phương tiện giao thông, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_580a1c42": {
   "text": "cương.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -9805,6 +10225,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_58d8bed2": {
+  "text": "Bác sĩ là người làm nghề, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_58e9cc48": {
   "text": "chúc ngủ.",
@@ -9925,12 +10352,26 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_5a842526": {
+  "text": "Cái tai là một bộ phận cơ thể, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_5a9005f8": {
   "text": "quả dưa lưới.",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_5a9be3e5": {
+  "text": "Chú đầu bếp là người làm nghề, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_5aa1055e": {
   "text": "thứ Hai.",
@@ -9959,6 +10400,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_5b0ea79e": {
+  "text": "Quả bóng bay là đồ chơi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_5b1ff03b": {
   "text": "Bé có 18 cái kẹo, thêm 8 cái nữa. Bé có bao nhiêu cái?",
@@ -10002,12 +10450,26 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_5b8dece7": {
+  "text": "Bóng đèn là đồ dùng trong nhà, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_5b9224bb": {
   "text": "luc.",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_5b927949": {
+  "text": "Bàn tay là một bộ phận cơ thể, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_5b9bddd3": {
   "text": "Số 19 là số chẵn hay số lẻ?",
@@ -10212,6 +10674,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_5db0e53a": {
+  "text": "Con rắn là động vật hoang dã, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_5ded43e1": {
   "text": "công an.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -10345,6 +10814,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_5f4bfd7f": {
+  "text": "Con ong là côn trùng, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_5f64349b": {
   "text": "cái kèn.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -10373,6 +10849,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_5f832d1c": {
+  "text": "Củ khoai lang là rau củ, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_5f91ba38": {
   "text": "Ồ, chưa phải rồi. Bé chọn lại nào!",
   "voice": "vi-VN-HoaiMyNeural",
@@ -10400,6 +10883,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_601d319d": {
+  "text": "Con bướm là côn trùng, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_6026bc57": {
   "text": "2 cộng 2 bằng mấy.",
@@ -10498,6 +10988,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_61a3bc33": {
+  "text": "Tia chớp có sẵn trong thiên nhiên, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_61b12234": {
   "text": "táo.",
@@ -10610,6 +11107,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_62d311ed": {
+  "text": "Con cá sống dưới biển, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_62e4daf1": {
   "text": "thuyền buồm.",
@@ -10821,6 +11325,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_65f05aac": {
+  "text": "Giọt nước có sẵn trong thiên nhiên, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_66007535": {
   "text": "muối.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -10863,6 +11374,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_66e12e60": {
+  "text": "Con diều là đồ chơi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_66e781be": {
   "text": "xe taxi.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -10876,6 +11394,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_6730a9bf": {
+  "text": "Cái kèn là nhạc cụ, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_67366e86": {
   "text": "con tôm hùm.",
@@ -10925,6 +11450,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_67e9a232": {
+  "text": "Rau cải là rau củ, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_67ebb506": {
   "text": "chú lính cứu hỏa.",
@@ -11136,6 +11668,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_6a938a08": {
+  "text": "Bạn nào không phải là động vật hoang dã?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_6aa7887a": {
   "text": "Bé có 2 cái hoa, thêm 4 cái nữa. Bé có bao nhiêu cái?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -11290,12 +11829,26 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_6c9526cd": {
+  "text": "Con heo là con vật nuôi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_6cee7a62": {
   "text": "Ghép cặp đối lập.",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_6cf5eae5": {
+  "text": "Quả cà tím là rau củ, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_6cff66b7": {
   "text": "5 cộng 3 bằng mấy.",
@@ -11345,6 +11898,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_6d80c8e5": {
+  "text": "Củ cà rốt là rau củ, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_6d9ccb32": {
   "text": "Bé có 1 cái sao, thêm 2 cái nữa. Bé có bao nhiêu cái?",
@@ -11430,6 +11990,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_6f25a793": {
+  "text": "Giờ Mai chơi lại bản nhạc dài nhất của bé nhé!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_6f2aca42": {
   "text": "Chẵn lẻ.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -11500,6 +12067,20 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_6ffba8a9": {
+  "text": "Bông hoa có sẵn trong thiên nhiên, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
+ "vi_say_702af617": {
+  "text": "Bàn chân là một bộ phận cơ thể, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_7035fe08": {
   "text": "tinh.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -11548,6 +12129,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_709c40e6": {
+  "text": "Con gấu trúc là động vật hoang dã, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_70da60d3": {
   "text": "Bé có 6 cái hoa, thêm 3 cái nữa. Bé có bao nhiêu cái?",
@@ -11654,6 +12242,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_72a96763": {
+  "text": "Trái tim là một bộ phận cơ thể, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_72c6d615": {
   "text": "mưng.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -11709,6 +12304,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_7397df6e": {
+  "text": "Con vẹt là một loài chim, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_73a45929": {
   "text": "Phép cộng trong 5.",
@@ -11864,6 +12466,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_75c99ff5": {
+  "text": "Quả bóng rổ là đồ chơi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_7610560f": {
   "text": "Bạn chơi bóng.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -11947,6 +12556,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_772cd549": {
+  "text": "Búp bê gỗ là đồ chơi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_77580670": {
   "text": "Nhạc cụ.",
@@ -12081,6 +12697,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_7919720b": {
+  "text": "Bông tuyết có sẵn trong thiên nhiên, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_792c8689": {
   "text": "tàu thủy.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -12088,12 +12711,26 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_7956aae6": {
+  "text": "Trò ghép hình là đồ chơi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_795738d9": {
   "text": "Nối điểm Cầu vồng.",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_796c92cb": {
+  "text": "Trái Đất có sẵn trong thiên nhiên, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_799718f8": {
   "text": "Con chim dùng đôi cánh để bay trên trời.",
@@ -12165,6 +12802,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_7a0e9bd9": {
+  "text": "Cơn mưa có sẵn trong thiên nhiên, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_7a108cb5": {
   "text": "Quả dưa chuột ăn giòn và mát.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -12178,6 +12822,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_7a4db7fd": {
+  "text": "Cái gương là đồ dùng trong nhà, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_7a6871fc": {
   "text": "nhảy.",
@@ -12220,6 +12871,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_7b19b820": {
+  "text": "Cái lưỡi là một bộ phận cơ thể, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_7b3e75a7": {
   "text": "bung.",
@@ -12445,6 +13103,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_7f4b72d6": {
+  "text": "Súp lơ xanh là rau củ, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_7f99b404": {
   "text": "sũ.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -12472,6 +13137,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_8056b7fd": {
+  "text": "Bạn nào không phải côn trùng, cũng không phải chim?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_80a34595": {
   "text": "kẹo.",
@@ -12648,6 +13320,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_83593335": {
+  "text": "Ngọn núi có sẵn trong thiên nhiên, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_837d3ee1": {
   "text": "chấm đỏ chấm xanh dương chấm đỏ chấm xanh dương?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -12780,6 +13459,20 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_8620264e": {
+  "text": "Con gấu là động vật hoang dã, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
+ "vi_say_863d4d82": {
+  "text": "Xe tải là phương tiện giao thông, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_863d7178": {
   "text": "Số nào đứng ở dấu hỏi?",
@@ -12921,6 +13614,20 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_8849c752": {
+  "text": "Con tôm sống dưới biển, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
+ "vi_say_88595283": {
+  "text": "Con chuột túi là động vật hoang dã, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_885f2f1b": {
   "text": "Mũi tên này chỉ đâu? trái.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -13011,6 +13718,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_89c3740a": {
+  "text": "Quả chanh là hoa quả, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_89ea2de1": {
   "text": "Hai số này giống hay khác? 3 8.",
@@ -13292,6 +14006,20 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_8fc3c688": {
+  "text": "Con chó là con vật nuôi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
+ "vi_say_8fdad506": {
+  "text": "Thuyền buồm là phương tiện giao thông, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_8ffcb936": {
   "text": "Số nào đứng sau 16?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -13397,6 +14125,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_916d2ff8": {
+  "text": "Đám mây có sẵn trong thiên nhiên, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_9184a72e": {
   "text": "Bé có 12 cái bóng, thêm 4 cái nữa. Bé có bao nhiêu cái?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -13460,6 +14195,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_92689868": {
+  "text": "Con mèo là con vật nuôi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_927356eb": {
   "text": "nâu.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -13480,6 +14222,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_929a3872": {
+  "text": "Xe cứu hỏa là phương tiện giao thông, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_92cb9414": {
   "text": "Đâu là con sâu?",
@@ -13529,6 +14278,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_937dd51e": {
+  "text": "Cái giường là đồ dùng trong nhà, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_93972842": {
   "text": "Quả táo đỏ.",
@@ -13683,6 +14439,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_9631f792": {
+  "text": "Con sói là động vật hoang dã, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_9632f316": {
   "text": "Tô màu Quả táo.",
@@ -13852,6 +14615,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_989d7277": {
+  "text": "Cầu vồng có sẵn trong thiên nhiên, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_98adf855": {
   "text": "kèn.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -13971,6 +14741,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_9a389591": {
+  "text": "Ngôi sao có sẵn trong thiên nhiên, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_9a76de63": {
   "text": "Bé có 6 cái kẹo, thêm 1 cái nữa. Bé có bao nhiêu cái?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -13985,12 +14762,26 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_9a8a6776": {
+  "text": "Quả dừa là hoa quả, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_9a8aaaec": {
   "text": "Thú rừng.",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_9a9002a6": {
+  "text": "Cái mũi là một bộ phận cơ thể, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_9a904118": {
   "text": "Bé có 1 cái bóng, thêm 2 cái nữa. Bé có bao nhiêu cái?",
@@ -14041,6 +14832,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_9b19aa42": {
+  "text": "Mặt trời có sẵn trong thiên nhiên, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_9b21acae": {
   "text": "xuống.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -14075,6 +14873,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_9bc04ef7": {
+  "text": "Con rùa biển sống dưới biển, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_9bd4d949": {
   "text": "Hình tiếp theo: ngôi sao ngôi sao mặt trăng ngôi sao ngôi sao mặt trăng?",
@@ -14117,6 +14922,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_9c36da03": {
+  "text": "Con dế là côn trùng, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_9c4e9083": {
   "text": "cục tẩy.",
@@ -14202,6 +15014,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_9d3c6288": {
+  "text": "Chú phi hành gia là người làm nghề, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_9d59fefa": {
   "text": "hạt lạc.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -14250,6 +15069,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_9dede363": {
+  "text": "Bánh xà phòng là đồ dùng trong nhà, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_9df7362b": {
   "text": "tao.",
@@ -14370,6 +15196,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_9f87afa6": {
+  "text": "Đàn piano là nhạc cụ, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_9f891d2b": {
   "text": "Ban ngày trời sáng. Ban đêm trời?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -14391,6 +15224,20 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_9fc18490": {
+  "text": "Bàn chải đánh răng là đồ dùng trong nhà, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
+ "vi_say_9fcf786e": {
+  "text": "Cái thìa là đồ dùng trong nhà, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_9fdaf21a": {
   "text": "chùm nho.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -14404,6 +15251,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_a01417dc": {
+  "text": "Con voi là động vật hoang dã, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_a01c26e5": {
   "text": "Bé có 2 cái bánh, thêm 5 cái nữa. Bé có bao nhiêu cái?",
@@ -14474,6 +15328,20 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_a150ebe4": {
+  "text": "Con bò là con vật nuôi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
+ "vi_say_a15229b5": {
+  "text": "Quả lê là hoa quả, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_a15cfcec": {
   "text": "ếch.",
@@ -14593,6 +15461,20 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_a2b74c7b": {
+  "text": "Con mực sống dưới biển, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
+ "vi_say_a2d74810": {
+  "text": "Củ tỏi là rau củ, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_a2d89420": {
   "text": "Tô màu Mặt trăng.",
@@ -14734,12 +15616,26 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_a448d83d": {
+  "text": "Núi lửa có sẵn trong thiên nhiên, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_a45f4516": {
   "text": "Để tới cái cây phía trên, đi?",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_a4604b0c": {
+  "text": "Cái nào không phải là đồ dùng trong nhà?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_a461d158": {
   "text": "Nhà có cửa.",
@@ -14846,6 +15742,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_a6b5c120": {
+  "text": "Cái miệng là một bộ phận cơ thể, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_a6b7bb4c": {
   "text": "nóng.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -14881,6 +15784,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_a70cb614": {
+  "text": "Bé nghe Mai gõ chuông, rồi gõ lại giống hệt nhé!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_a7103035": {
   "text": "Vẽ con bướm.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -14915,6 +15825,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_a7a443dc": {
+  "text": "Cầu trượt là đồ chơi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_a7cc5277": {
   "text": "Số 28 là số chẵn hay số lẻ?",
@@ -15028,6 +15945,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_a9a48c58": {
+  "text": "Xe đạp là phương tiện giao thông, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_a9a89b44": {
   "text": "bệnh viện.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -15069,6 +15993,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_aa682395": {
+  "text": "San hô sống dưới biển, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_aa72549f": {
   "text": "hồng.",
@@ -15203,6 +16134,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-20"
  },
+ "vi_say_abef8f34": {
+  "text": "Quả kiwi là hoa quả, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_abf4123d": {
   "text": "Đâu là cái trống?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -15272,6 +16210,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_ad5bd34c": {
+  "text": "Vòng quay ngựa gỗ là đồ chơi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_ad666ff6": {
   "text": "bốn chân.",
@@ -15406,6 +16351,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_afd5209e": {
+  "text": "Đôi mắt là một bộ phận cơ thể, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_b00eabd0": {
   "text": "tha.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -15504,6 +16456,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_b2175a9a": {
+  "text": "Xe buýt là phương tiện giao thông, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_b217e0b6": {
   "text": "giọt nước.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -15546,6 +16505,20 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_b29c8444": {
+  "text": "Máy bay trực thăng là phương tiện giao thông, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
+ "vi_say_b2a3e50b": {
+  "text": "Chú phi công là người làm nghề, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_b2aa3e8a": {
   "text": "Hai hình này giống hay khác? ô đỏ ô xanh dương.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -15566,6 +16539,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_b2d48e33": {
+  "text": "Con gà mái là con vật nuôi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_b2d918ea": {
   "text": "Tô màu Kem ốc quế.",
@@ -15608,6 +16588,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_b390a5f4": {
+  "text": "Bộ não là một bộ phận cơ thể, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_b3cbb216": {
   "text": "Bãi biển.",
@@ -15714,12 +16701,26 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_b4d6b333": {
+  "text": "Con lạc đà là động vật hoang dã, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_b5136e53": {
   "text": "Bé có 2 cái sao, thêm 2 cái nữa. Bé có bao nhiêu cái?",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_b533f5d7": {
+  "text": "Con cua sống dưới biển, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_b53b4e36": {
   "text": "11 cộng 5 bằng mấy.",
@@ -15797,6 +16798,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_b6ae655a": {
+  "text": "Quả dâu tây là hoa quả, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_b6e4840a": {
   "text": "Số nào nhỏ nhất?",
@@ -15903,6 +16911,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_b8ed442c": {
+  "text": "Cái chân là một bộ phận cơ thể, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_b8f4c9c7": {
   "text": "Chữ nào sau A?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -15938,6 +16953,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_b991b1c9": {
+  "text": "Sóng biển có sẵn trong thiên nhiên, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_b9935419": {
   "text": "sóng biển.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -15951,6 +16973,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_b9bc5c3e": {
+  "text": "Tàu thủy là phương tiện giao thông, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_b9cedcfd": {
   "text": "Bé dùng màu để vẽ những bức tranh rực rỡ.",
@@ -16078,6 +17107,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_bb7446a5": {
+  "text": "Máy cày là phương tiện giao thông, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_bb7c3d68": {
   "text": "Cô giáo vui.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -16169,6 +17205,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_bc771e6a": {
+  "text": "Cây nấm là rau củ, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_bc958779": {
   "text": "đá bóng.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -16182,6 +17225,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_bcc0b004": {
+  "text": "Mai đọc một âm. Bé chạm vào hình bắt đầu bằng âm đó nhé!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_bcf79153": {
   "text": "hòn đá.",
@@ -16238,6 +17288,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_bd52a22e": {
+  "text": "Mình thử bài ngắn hơn nhé.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_bd7c317f": {
   "text": "Đâu là giày?",
@@ -16316,6 +17373,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_be869635": {
+  "text": "Hộp màu vẽ là đồ chơi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_be881ae1": {
   "text": "Đâu là con gấu?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -16329,6 +17393,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_bebdd13b": {
+  "text": "Bác nông dân là người làm nghề, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_bec00237": {
   "text": "bánh.",
@@ -16351,6 +17422,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_bf0d4eac": {
+  "text": "Cái chảo là đồ dùng trong nhà, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_bf10e490": {
   "text": "Con trâu khỏe mạnh, giúp bác nông dân cày ruộng.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -16365,6 +17443,20 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_bf54d2ea": {
+  "text": "Con dê là con vật nuôi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
+ "vi_say_bf8041e5": {
+  "text": "Con hồng hạc là một loài chim, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_bf91712f": {
   "text": "Tính tổng.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -16378,6 +17470,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_bfbbabcf": {
+  "text": "Cây xanh có sẵn trong thiên nhiên, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_bfd6e9e9": {
   "text": "Tô màu Dưa hấu.",
@@ -16448,6 +17547,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_c0952eec": {
+  "text": "Cái nào không có sẵn trong thiên nhiên?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_c0b1b32e": {
   "text": "quả cam.",
@@ -16834,6 +17940,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_c5c4198e": {
+  "text": "Cái nào không phải là rau củ?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_c5ca77ef": {
   "text": "Bông tuyết trắng rơi xuống khi trời rất lạnh.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -17072,6 +18185,20 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_c9f916e4": {
+  "text": "Máy bay là phương tiện giao thông, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
+ "vi_say_ca77be87": {
+  "text": "Con công là một loài chim, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_ca8f46ea": {
   "text": "mim.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -17121,6 +18248,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_cb18da81": {
+  "text": "Con gà tây là con vật nuôi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_cb437f9d": {
   "text": "buồn.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -17149,6 +18283,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_cc2476f3": {
+  "text": "Con cá voi sống dưới biển, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_cc4c4bc7": {
   "text": "Bé tìm hình giống với hình mẫu nhé.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -17176,6 +18317,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_cce36a1e": {
+  "text": "Cái nào không phải là hoa quả?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_cce4f719": {
   "text": "Bé có 5 cái sao, thêm 3 cái nữa. Bé có bao nhiêu cái?",
@@ -17219,6 +18367,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_cd3070b1": {
+  "text": "Con cá sấu là động vật hoang dã, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_cd43d236": {
   "text": "Bé có 7 cái hoa, thêm 1 cái nữa. Bé có bao nhiêu cái?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -17253,6 +18408,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_cdd633ec": {
+  "text": "Con sóc là động vật hoang dã, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_cde1ad75": {
   "text": "Hình tiếp theo: chấm xanh lá chấm xanh lá chấm vàng chấm xanh lá chấm xanh lá?",
@@ -17310,6 +18472,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_cebff8ef": {
+  "text": "Cô họa sĩ là người làm nghề, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_ced181f2": {
   "text": "Nho mọc thành chùm, có quả màu tím và quả màu xanh.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -17351,6 +18520,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_cf5fb949": {
+  "text": "Con muỗi là côn trùng, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_cf7cea7d": {
   "text": "Đâu là hành tinh?",
@@ -17394,12 +18570,33 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_cfd6e4d7": {
+  "text": "Quả bóng đá là đồ chơi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_cfe074bd": {
   "text": "Vẽ buổi tiệc.",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_d01e3344": {
+  "text": "Con khỉ là động vật hoang dã, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
+ "vi_say_d0529f93": {
+  "text": "Xe ô tô là phương tiện giao thông, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_d0735b5a": {
   "text": "Hình cuối là gì? ngôi sao mặt trăng mặt trời.",
@@ -17435,6 +18632,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_d126bfc9": {
+  "text": "Xe máy là phương tiện giao thông, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_d16b5f02": {
   "text": "Buổi nào sau buổi chiều?",
@@ -17562,6 +18766,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_d321ce26": {
+  "text": "Chú thợ sửa xe là người làm nghề, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_d3253ea2": {
   "text": "Bé nghe Mai đọc âm của chữ nào.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -17680,6 +18891,20 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_d4e3bbc9": {
+  "text": "Quả dưa lưới là hoa quả, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
+ "vi_say_d4eb9044": {
+  "text": "Có thêm một chiếc chuông mới!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_d51a8e02": {
   "text": "Hình nào giống bông hoa?",
@@ -17842,6 +19067,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_d8e94290": {
+  "text": "Con đại bàng là một loài chim, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_d8fc5ad6": {
   "text": "Đâu là cái ghế?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -17862,6 +19094,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_d9795569": {
+  "text": "Con gà trống là con vật nuôi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_d9a2776d": {
   "text": "Đâu là hộp màu vẽ?",
@@ -18009,6 +19248,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_dcf23d04": {
+  "text": "Quả dưa hấu là hoa quả, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_dd086fa1": {
   "text": "Bé có 1 cái kẹo, thêm 4 cái nữa. Bé có bao nhiêu cái?",
@@ -18290,6 +19536,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_e09a7793": {
+  "text": "Ngón tay là một bộ phận cơ thể, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_e0a77a59": {
   "text": "Chữ nào bắt đầu từ: cái ô dù?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -18409,6 +19662,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_e193be4d": {
+  "text": "Quả xoài là hoa quả, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_e19796b9": {
   "text": "Bé có 9 cái kẹo, thêm 4 cái nữa. Bé có bao nhiêu cái?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -18422,6 +19682,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_e1b954f2": {
+  "text": "Con cá nóc sống dưới biển, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_e1d763ac": {
   "text": "Hình nào giống quả bóng tennis?",
@@ -18464,6 +19731,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_e3161c0f": {
+  "text": "Đến lượt bé! Gõ lại giống Mai nhé.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_e31703fb": {
   "text": "con thiên nga.",
@@ -18556,12 +19830,26 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_e44bd89d": {
+  "text": "Con cú mèo là một loài chim, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_e44d9436": {
   "text": "Quả anh đào nhỏ xinh, màu đỏ và hay mọc thành đôi.",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_e467cdae": {
+  "text": "Con cá mập sống dưới biển, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_e472efa5": {
   "text": "Số nào đứng trước 41?",
@@ -18941,6 +20229,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_e9353e76": {
+  "text": "Con sư tử là động vật hoang dã, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_e95065b9": {
   "text": "cướp cờ.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -18989,6 +20284,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_e9d8173c": {
+  "text": "Quả dứa là hoa quả, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_e9e1425e": {
   "text": "qua.",
@@ -19060,6 +20362,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_ea86d767": {
+  "text": "Con gà con là con vật nuôi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_ea86e1d2": {
   "text": "mong.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -19102,6 +20411,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_eb21d8e3": {
+  "text": "Cô ca sĩ là người làm nghề, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_eb3f599f": {
   "text": "Hình giữa: con mèo con chó con chuột, đâu là giữa?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -19143,6 +20459,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_eba2fa0e": {
+  "text": "Hạt đậu là rau củ, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_eba56ad6": {
   "text": "Đâu là con ngựa?",
@@ -19270,12 +20593,26 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_ed16e0f3": {
+  "text": "Chùm nho là hoa quả, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_ed25ba77": {
   "text": "Toán lời văn.",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_ed4cd0d5": {
+  "text": "Quả đào là hoa quả, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_ed4ce5b7": {
   "text": "Rau củ.",
@@ -19396,6 +20733,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_ee8f7fe9": {
+  "text": "Con hổ là động vật hoang dã, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_ee97982f": {
   "text": "Mũi tên ngược với lên là?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -19486,6 +20830,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_efbccdef": {
+  "text": "Cái chuông là nhạc cụ, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_efd59d27": {
   "text": "Hai chữ này giống hay khác? A B.",
@@ -19606,6 +20957,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_f16d05e7": {
+  "text": "Quả cam là hoa quả, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_f177814a": {
   "text": "Số nào đứng trước 22?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -19641,12 +20999,26 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_f1cf809f": {
+  "text": "Xe cảnh sát là phương tiện giao thông, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_f1d68923": {
   "text": "ciêu.",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_f1daec12": {
+  "text": "Cái nào không phải là bộ phận cơ thể?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_f2301e5e": {
   "text": "Chữ O.",
@@ -19717,6 +21089,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_f2f7ab63": {
+  "text": "Tên lửa là phương tiện giao thông, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_f3301ff1": {
   "text": "Chữ N.",
@@ -19914,6 +21293,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_f5ad8bbb": {
+  "text": "Xe taxi là phương tiện giao thông, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_f5cd5ff1": {
   "text": "cờ.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -20096,12 +21482,26 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_f839af8a": {
+  "text": "Quả chuối là hoa quả, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_f8711600": {
   "text": "bảng.",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_f8723d23": {
+  "text": "Con chim bồ câu là một loài chim, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_f882dab5": {
   "text": "con hà mã.",
@@ -20222,6 +21622,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_fa53fb4d": {
+  "text": "Con nhím là động vật hoang dã, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_fa5c22af": {
   "text": "Đâu là bông hoa?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -20270,6 +21677,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_fafdbbaa": {
+  "text": "Bồn tắm là đồ dùng trong nhà, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_faffb112": {
   "text": "Vẽ bạn của con.",
@@ -20355,6 +21769,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_fc322269": {
+  "text": "Con kiến là côn trùng, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_fc7572ef": {
   "text": "Tia số.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -20432,6 +21853,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_fd50b895": {
+  "text": "Con ngựa vằn là động vật hoang dã, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_fd607531": {
   "text": "Có 4 bánh, chia đều 2 bé, mỗi bé mấy bánh?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -20487,6 +21915,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_fe8c719f": {
+  "text": "Quả cà chua là rau củ, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_fe8de755": {
   "text": "cop.",
@@ -20544,6 +21979,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_ff2052f3": {
+  "text": "Con trâu là con vật nuôi, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_ff3032d5": {
   "text": "Chữ R.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -20564,5 +22006,12 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_ff7a85c4": {
+  "text": "Đàn ghi ta là nhạc cụ, không giống các bạn kia.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  }
 }
