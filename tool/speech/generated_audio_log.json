@@ -5599,6 +5599,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-20"
  },
+ "vi_say_1824b734": {
+  "text": "Bạn gấu chơi trống đây! Mình cùng đếm nhé.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_182591b3": {
   "text": "Củ tỏi có mùi thơm nồng, dùng để nấu ăn.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -6214,6 +6221,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_21042018": {
+  "text": "Bé nghe thật kỹ, bạn gấu đánh trống mấy tiếng?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_215e270b": {
   "text": "Bé có 1 cái hoa, thêm 4 cái nữa. Bé có bao nhiêu cái?",
@@ -9189,6 +9203,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_4d2f365a": {
+  "text": "Bé nghe thật kỹ, có mấy tiếng chuông?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_4d54a68c": {
   "text": "Bé có 3 cái kẹo, thêm 5 cái nữa. Bé có bao nhiêu cái?",
@@ -14601,6 +14622,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_987cd3f9": {
+  "text": "Bé nghe thật kỹ, có mấy đồng xu rơi vào heo đất?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_988a5936": {
   "text": "cát.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -17723,6 +17751,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_c276018a": {
+  "text": "Bé chạm vào số đúng nhé!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_c2caa9a2": {
   "text": "quả bóng.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -18170,6 +18205,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_c9c5154a": {
+  "text": "Mình cùng đếm lại nào!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_c9d09665": {
   "text": "Đâu là quả bóng rổ?",
@@ -20655,6 +20697,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_ed9e9dd2": {
+  "text": "Bé chỉ đếm tiếng chuông thôi nhé. Có mấy tiếng chuông?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_eda37236": {
   "text": "6 cộng 3 bằng mấy.",
