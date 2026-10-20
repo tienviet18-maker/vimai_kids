@@ -16,6 +16,7 @@ import 'widgets/game_scene.dart';
 export 'catch_kana_game.dart';
 export 'feed_animal_game.dart';
 export 'find_similar_game.dart';
+export 'first_sound_game.dart';
 export 'listen_kana_game.dart';
 export 'match_kana_game.dart';
 export 'math_rocket_game.dart';
@@ -55,6 +56,8 @@ const _games = [
       Color(0xFF14A3B8), GameScene.sky, _Art.bubbles, ['A', 'B', 'C']),
   _GameEntry('Nghe và chọn chữ tiếng Việt', '/vietnamese/game',
       Color(0xFFE0A100), GameScene.stage, _Art.speaker, ['A']),
+  _GameEntry('Âm đầu là gì?', '/games/first-sound', Color(0xFF14A3B8),
+      GameScene.meadow, _Art.cards, ['🐮', '🐟']),
 ];
 
 /// The games shelf: big painted tiles, one per game, each previewing the

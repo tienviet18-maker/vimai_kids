@@ -66,6 +66,12 @@ class KidGuide {
   static const gameNumberTrain = 'Bé xếp số còn thiếu vào toa tàu nhé!';
   static const gameWin = 'Bé thắng rồi! Giỏi quá!';
 
+  // Âm đầu là gì? (first-sound game): Mai says the ask, then the bundled
+  // consonant sound clip (v_b "bờ", v_c_ch "chờ"…).
+  static const gameFirstSound = 'Mai đọc một âm. Bé chạm vào hình bắt đầu bằng âm đó nhé!';
+  static const firstSoundAsk = 'Từ nào bắt đầu bằng âm';
+  static const firstSoundLines = [gameFirstSound, firstSoundAsk];
+
   // Creativity
   static const drawHowTo = 'Bé chọn một màu, rồi dùng ngón tay vẽ lên giấy nhé.';
   static const colorHowTo = 'Bé chọn màu, rồi chạm vào từng phần để tô nhé.';
@@ -111,5 +117,6 @@ class KidGuide {
     gameCatchKana, gameListenKana, gameMatchKana, gameFeedAnimal, gameFindSimilar, gameMathRocket,
     gameNumberTrain, gameWin,
     drawHowTo, colorHowTo, musicHowTo, puzzleHowTo, saved,
+    ...firstSoundLines,
   ];
 }

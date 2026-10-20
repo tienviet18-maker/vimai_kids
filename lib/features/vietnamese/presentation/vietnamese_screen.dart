@@ -25,6 +25,7 @@ class VietnameseScreen extends ConsumerWidget {
       const (title: 'Bảng chữ cái', subtitle: '29 chữ a ă â… y', route: '/vietnamese/alphabet', glyph: 'Ă'),
       const (title: 'Chọn chữ', subtitle: 'Nghe rồi chọn chữ đúng', route: '/vietnamese/learn?mode=recognize', glyph: '?'),
       const (title: 'Ghép âm', subtitle: 'b + a → ba', route: '/vietnamese/blend', glyph: 'ba'),
+      const (title: 'Âm đầu là gì?', subtitle: 'Nghe âm, chọn hình đúng', route: '/games/first-sound', glyph: '🐮'),
       if (age >= 5) const (title: 'Ghép vần', subtitle: 'an, ang, anh…', route: '/vietnamese/rimes', glyph: 'an'),
       const (title: 'Từ đơn giản', subtitle: 'ba, mẹ, cá…', route: '/vietnamese/words', glyph: 'từ'),
       const (title: 'Từ vựng', subtitle: 'Từ theo chủ đề', route: '/vietnamese/vocabulary', glyph: 'từ'),
