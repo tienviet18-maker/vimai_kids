@@ -8065,6 +8065,10 @@
  ],
  "guide": [
   {
+   "id": "vi_say_be5e1b25",
+   "text": "Ba câu đúng liền! Bé siêu quá!"
+  },
+  {
    "id": "vi_say_10b3e0a2",
    "text": "Bé chạm vào các phím để tạo ra bản nhạc của mình nhé!"
   },
@@ -8083,6 +8087,10 @@
   {
    "id": "vi_say_a202a4b7",
    "text": "Bé là ai nhỉ? Chạm vào ảnh của bé nhé!"
+  },
+  {
+   "id": "vi_say_33bbcda1",
+   "text": "Bé làm đúng rồi, vỗ tay nào!"
   },
   {
    "id": "vi_say_3a87d32c",
@@ -8141,8 +8149,16 @@
    "text": "Bé nhìn kỹ hình nhé, đáp án ở ngay đây thôi."
   },
   {
+   "id": "vi_say_a7cdbc62",
+   "text": "Bé suy nghĩ thêm một chút nhé."
+  },
+  {
    "id": "vi_say_029876b2",
    "text": "Bé suy nghĩ, rồi chọn hình đúng nhé."
+  },
+  {
+   "id": "vi_say_694afc61",
+   "text": "Bé thông minh quá!"
   },
   {
    "id": "vi_say_568d18a1",
@@ -8189,6 +8205,14 @@
    "text": "Chào bé! Hôm nay mình khám phá đảo nào? Chạm vào một hòn đảo nhé!"
   },
   {
+   "id": "vi_say_6d3cab41",
+   "text": "Chính xác! Tuyệt vời!"
+  },
+  {
+   "id": "vi_say_330b83bc",
+   "text": "Chưa đúng rồi, bé thử lại nhé!"
+  },
+  {
    "id": "vi_say_d0f26858",
    "text": "Chạm vào cái loa để nghe lại nhé."
   },
@@ -8209,6 +8233,10 @@
    "text": "Câu tiếp theo nào!"
   },
   {
+   "id": "vi_say_0d21cec8",
+   "text": "Giỏi lắm! Mình tiếp tục nào!"
+  },
+  {
    "id": "vi_say_9e96501c",
    "text": "Giờ bé tự viết chữ nhé!"
   },
@@ -8217,12 +8245,32 @@
    "text": "Gần đúng rồi! Bé thử lại nhé."
   },
   {
+   "id": "vi_say_589e5682",
+   "text": "Hoan hô bé!"
+  },
+  {
    "id": "vi_say_534302e2",
    "text": "Khu vui chơi đây rồi! Bé chọn một trò chơi nhé."
   },
   {
+   "id": "vi_say_b27187af",
+   "text": "Không sao đâu, mình thử lần nữa nào!"
+  },
+  {
+   "id": "vi_say_e31847f7",
+   "text": "Mai thích câu trả lời này lắm!"
+  },
+  {
+   "id": "vi_say_a05ba3ae",
+   "text": "Mai tin bé làm được, thử lại nhé!"
+  },
+  {
    "id": "vi_say_713f8c94",
    "text": "Mai đã cất bức tranh của bé rồi!"
+  },
+  {
+   "id": "vi_say_912e8f07",
+   "text": "Mười câu đúng liền! Mai phục bé luôn đó!"
   },
   {
    "id": "vi_say_9834a300",
@@ -8241,6 +8289,26 @@
    "text": "Nghe âm của chữ, rồi chọn chữ đúng nhé."
   },
   {
+   "id": "vi_say_93e3070b",
+   "text": "Năm câu đúng liền! Bé là ngôi sao sáng nhất!"
+  },
+  {
+   "id": "vi_say_152bd470",
+   "text": "Quá xuất sắc!"
+  },
+  {
+   "id": "vi_say_ec446471",
+   "text": "Siêu quá! Đúng luôn!"
+  },
+  {
+   "id": "vi_say_910681e6",
+   "text": "Suýt nữa thì đúng! Bé thử lại nào."
+  },
+  {
+   "id": "vi_say_abe8fda7",
+   "text": "Tuyệt cú mèo!"
+  },
+  {
    "id": "vi_say_9f2c7ad6",
    "text": "Tuyệt vời! Bé đã học xong chữ này và được một ngôi sao!"
   },
@@ -8257,6 +8325,18 @@
    "text": "Đây là khu vườn sao của bé. Mỗi bài học xong, vườn lại nở thêm hoa!"
   },
   {
+   "id": "vi_say_4658469d",
+   "text": "Đúng rồi! Bé giỏi quá!"
+  },
+  {
+   "id": "vi_say_68c26936",
+   "text": "Đúng rồi! Bé nhanh ghê!"
+  },
+  {
+   "id": "vi_say_d55d967e",
+   "text": "Đúng rồi! Bé nhớ giỏi thật!"
+  },
+  {
    "id": "vi_say_1cbfa592",
    "text": "Đảo Tiếng Nhật đây rồi! Bé chọn chữ Hiragana hoặc Katakana nhé."
   },
@@ -8271,6 +8351,10 @@
   {
    "id": "vi_say_3b11f3e3",
    "text": "Đảo Tư duy đây rồi! Mình cùng giải câu đố nhé."
+  },
+  {
+   "id": "vi_say_5f91ba38",
+   "text": "Ồ, chưa phải rồi. Bé chọn lại nào!"
   }
  ],
  "explore": [

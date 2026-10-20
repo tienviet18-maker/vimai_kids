@@ -2,14 +2,19 @@ import 'dart:async';
 import 'dart:math';
 
 import 'package:audioplayers/audioplayers.dart';
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show AssetManifest, rootBundle;
 
 import 'audio_locale_policy.dart';
 import 'audio_playback_policy.dart';
 import 'audio_request.dart';
+import 'kid_guide.dart';
 import 'speech_id.dart';
 import 'vietnamese_speech_catalog.dart';
+
+/// Short synthesised effects (tools/generate_sfx.py → assets/audio/sfx_*.mp3).
+enum Sfx { tap, pop, correct, wrong, star, whoosh, flip, coin, win, drum }
 
 /// Bundled Hoài My / Nanami MP3 only — zero native TTS.
 ///
@@ -42,6 +47,7 @@ class AudioService {
   static const Duration _completeTimeout = Duration(seconds: 3);
 
   static const bgmAsset = 'audio/bgm_ambient.mp3';
+  static const gamesBgmAsset = 'audio/bgm_games.mp3';
 
   static const List<String> preloadedClipKeys = [
     'sys_success_1',
@@ -406,6 +412,7 @@ class AudioService {
     await _player!.setReleaseMode(ReleaseMode.stop);
     await _player!.setPlaybackRate(AudioPlaybackPolicy.recordedPlaybackRate);
     await _player!.setVolume(voiceVolume);
+    _watchVoice();
     _bgmPlayer ??= AudioPlayer();
     await _bgmPlayer!.setReleaseMode(ReleaseMode.loop);
     await _bgmPlayer!.setVolume(bgmVolume);
@@ -431,16 +438,22 @@ class AudioService {
 
   Future<void> startHomeBgm() async {
     _homeBgmWanted = true;
+    if (_bgmAsset != bgmAsset) await _safePlayerOp(() => _bgmPlayer?.stop() ?? Future.value());
     await _startBgmLoop(bgmAsset, volume: bgmVolume);
   }
 
+  /// Games get their own playful marimba loop.
   Future<void> startGameBgm() async {
     _homeBgmWanted = false;
-    await _startBgmLoop(bgmAsset, volume: bgmVolume);
+    if (_bgmAsset != gamesBgmAsset) await _safePlayerOp(() => _bgmPlayer?.stop() ?? Future.value());
+    await _startBgmLoop(gamesBgmAsset, volume: bgmVolume);
   }
+
+  String? _bgmAsset;
 
   Future<void> _startBgmLoop(String asset, {double volume = defaultBgmVolume}) async {
     _bgmTargetVolume = volume;
+    _bgmAsset = asset;
     if (!soundEnabled || !bgmEnabled) {
       await _bgmPlayer?.stop();
       return;
@@ -448,7 +461,7 @@ class AudioService {
     try {
       _bgmPlayer ??= AudioPlayer();
       await _bgmPlayer!.setReleaseMode(ReleaseMode.loop);
-      await _bgmPlayer!.setVolume(_duckDepth > 0 ? bgmDuckVolume : volume);
+      await _bgmPlayer!.setVolume(_ducked ? bgmDuckVolume : volume);
       final state = _bgmPlayer!.state;
       if (state == PlayerState.playing) return;
       if (state == PlayerState.paused) {
@@ -461,20 +474,39 @@ class AudioService {
     }
   }
 
+  /// Music dips while Mai talks, so her voice always sits on top.
+  bool get _ducked => _duckDepth > 0 || _voicePlaying;
+  bool _voicePlaying = false;
+  StreamSubscription<PlayerState>? _voiceState;
+
+  Future<void> _applyBgmVolume() async {
+    try {
+      await _bgmPlayer?.setVolume(_ducked ? bgmDuckVolume : _bgmTargetVolume).timeout(_opTimeout);
+    } catch (_) {}
+  }
+
+  void _watchVoice() {
+    _voiceState?.cancel();
+    try {
+      _voiceState = _player?.onPlayerStateChanged.listen((state) {
+        final playing = state == PlayerState.playing;
+        if (playing == _voicePlaying) return;
+        _voicePlaying = playing;
+        unawaited(_applyBgmVolume());
+      }, onError: (Object _) {});
+    } catch (_) {}
+  }
+
   Future<void> _duckBgm() async {
     _duckDepth++;
     if (_duckDepth != 1) return;
-    try {
-      await _bgmPlayer?.setVolume(bgmDuckVolume).timeout(_opTimeout);
-    } catch (_) {}
+    await _applyBgmVolume();
   }
 
   Future<void> _unduckBgm() async {
     if (_duckDepth > 0) _duckDepth--;
     if (_duckDepth > 0) return;
-    try {
-      await _bgmPlayer?.setVolume(_bgmTargetVolume).timeout(_opTimeout);
-    } catch (_) {}
+    await _applyBgmVolume();
   }
 
   Future<void> stopHomeBgm() async {
@@ -523,6 +555,12 @@ class AudioService {
   }
 
   Future<void> dispose() async {
+    await _voiceState?.cancel();
+    _voiceState = null;
+    for (final p in _sfxPool) {
+      await _safePlayerOp(p.dispose);
+    }
+    _sfxPool.clear();
     _lifecycle?.dispose();
     _lifecycle = null;
     await stop();
@@ -638,13 +676,76 @@ class AudioService {
     });
   }
 
-  void playCorrectSound() => playFireAndForget(
-        successKeys[_random.nextInt(successKeys.length)],
-      );
+  void playCorrectSound() => unawaited(playRandomSuccess());
 
-  void playWrongSound() => playFireAndForget(
-        tryAgainKeys[_random.nextInt(tryAgainKeys.length)],
-      );
+  void playWrongSound() => unawaited(playRandomTryAgain());
+
+  // ---------------------------------------------------------------- effects
+
+  bool sfxEnabled = true;
+  double sfxVolume = 0.7;
+  final List<AudioPlayer> _sfxPool = [];
+  int _sfxNext = 0;
+  static const int _sfxPoolSize = 4;
+
+  /// Plays a short effect on its own small player pool, so it layers over
+  /// Mai's voice and the music instead of cutting them.
+  void sfx(Sfx effect) => _playEffect('sfx_${effect.name}');
+
+  /// One of six pentatonic bells (C D E G A C), [index] 0..5, for melody games.
+  void bell(int index) => _playEffect('sfx_bell_${index.clamp(0, 5) + 1}');
+
+  static const int bellCount = 6;
+
+  void _playEffect(String key) {
+    if (!soundEnabled || !sfxEnabled) return;
+    scheduleMicrotask(() async {
+      try {
+        if (_sfxPool.length < _sfxPoolSize) {
+          final p = AudioPlayer();
+          _sfxPool.add(p);
+          await _safePlayerOp(() => p.setReleaseMode(ReleaseMode.stop));
+          if (!kIsWeb) await _safePlayerOp(() => p.setPlayerMode(PlayerMode.lowLatency));
+        }
+        final p = _sfxPool[_sfxNext % _sfxPool.length];
+        _sfxNext++;
+        await _safePlayerOp(() => p.stop());
+        await _safePlayerOp(() => p.setVolume(sfxVolume * voiceVolume));
+        await _safePlayerOp(() => p.play(AssetSource('audio/$key.mp3')));
+      } catch (e) {
+        debugPrint('[AudioService] effect $key ignored: $e');
+      }
+    });
+  }
+
+  // ------------------------------------------------------------- feedback
+
+  int _streak = 0;
+
+  /// Bright chime now, then a varied praise from Mai; every few right answers
+  /// in a row she celebrates the streak.
+  void _cheer() {
+    sfx(Sfx.correct);
+    _streak++;
+    final line = switch (_streak) {
+      3 => KidGuide.streak3,
+      5 => KidGuide.streak5,
+      10 => KidGuide.streak10,
+      _ => KidGuide.praise[_random.nextInt(KidGuide.praise.length)],
+    };
+    if (_streak == 3 || _streak == 5 || _streak == 10) sfx(Sfx.star);
+    final fallback = successKeys[_random.nextInt(successKeys.length)];
+    unawaited(speak([line], fallbackId: fallback).catchError((Object _) => const AudioPlayResult.unavailable('')));
+  }
+
+  /// Soft "boop" and a gentle nudge to try again; never a buzzer.
+  void _comfort() {
+    sfx(Sfx.wrong);
+    _streak = 0;
+    final line = KidGuide.retry[_random.nextInt(KidGuide.retry.length)];
+    final fallback = tryAgainKeys[_random.nextInt(tryAgainKeys.length)];
+    unawaited(speak([line], fallbackId: fallback).catchError((Object _) => const AudioPlayResult.unavailable('')));
+  }
 
   /// Call from the first user gesture so Safari unlocks the Web Audio context.
   Future<void> unlockWebAudioContext() async {
@@ -896,16 +997,14 @@ class AudioService {
 
   Future<AudioPlayResult> playWrongAnswerSound() => playRandomTryAgain();
 
+  // Never block UI / game loops waiting for Safari audio completion.
   Future<AudioPlayResult> playRandomSuccess() {
-    final key = successKeys[_random.nextInt(successKeys.length)];
-    // Never block UI / game loops waiting for Safari audio completion.
-    playFireAndForget(key);
+    scheduleMicrotask(_cheer);
     return Future.value(AudioPlayResult.ok(AudioLocalePolicy.localeFor(AudioLanguage.vietnamese)));
   }
 
   Future<AudioPlayResult> playRandomTryAgain() {
-    final key = tryAgainKeys[_random.nextInt(tryAgainKeys.length)];
-    playFireAndForget(key);
+    scheduleMicrotask(_comfort);
     return Future.value(AudioPlayResult.ok(AudioLocalePolicy.localeFor(AudioLanguage.vietnamese)));
   }
 

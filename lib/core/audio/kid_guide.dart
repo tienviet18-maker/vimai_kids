@@ -73,7 +73,35 @@ class KidGuide {
   static const puzzleHowTo = 'Bé suy nghĩ, rồi chọn hình đúng nhé.';
   static const saved = 'Mai đã cất bức tranh của bé rồi!';
 
+  // Feedback: Mai varies what she says so praise never sounds canned.
+  static const praise = [
+    'Đúng rồi! Bé giỏi quá!',
+    'Chính xác! Tuyệt vời!',
+    'Hoan hô bé!',
+    'Bé thông minh quá!',
+    'Siêu quá! Đúng luôn!',
+    'Mai thích câu trả lời này lắm!',
+    'Giỏi lắm! Mình tiếp tục nào!',
+    'Đúng rồi! Bé nhanh ghê!',
+    'Quá xuất sắc!',
+    'Bé làm đúng rồi, vỗ tay nào!',
+    'Đúng rồi! Bé nhớ giỏi thật!',
+    'Tuyệt cú mèo!',
+  ];
+  static const retry = [
+    'Chưa đúng rồi, bé thử lại nhé!',
+    'Không sao đâu, mình thử lần nữa nào!',
+    'Ồ, chưa phải rồi. Bé chọn lại nào!',
+    'Bé suy nghĩ thêm một chút nhé.',
+    'Suýt nữa thì đúng! Bé thử lại nào.',
+    'Mai tin bé làm được, thử lại nhé!',
+  ];
+  static const streak3 = 'Ba câu đúng liền! Bé siêu quá!';
+  static const streak5 = 'Năm câu đúng liền! Bé là ngôi sao sáng nhất!';
+  static const streak10 = 'Mười câu đúng liền! Mai phục bé luôn đó!';
+
   static const all = [
+    ...praise, ...retry, streak3, streak5, streak10,
     profileSelect, home, homeContinue, progress,
     vietnameseHub, japaneseHub, mathHub, thinkingHub, gamesHub, creativityHub,
     quizHowTo, tapSpeaker, nextQuestion, sessionDone, almost, hint,
