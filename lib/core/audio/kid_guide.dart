@@ -66,6 +66,18 @@ class KidGuide {
   static const gameNumberTrain = 'Bé xếp số còn thiếu vào toa tàu nhé!';
   static const gameWin = 'Bé thắng rồi! Giỏi quá!';
 
+  // Game: Giai điệu bí ẩn (melody-memory)
+  static const gameMelodyIntro = 'Bé nghe Mai gõ chuông, rồi gõ lại giống hệt nhé!';
+  static const gameMelodyListen = 'Bé nghe Mai gõ nhé!';
+  static const gameMelodyYourTurn = 'Đến lượt bé! Gõ lại giống Mai nhé.';
+  static const gameMelodyShorter = 'Mình thử bài ngắn hơn nhé.';
+  static const gameMelodyNewBell = 'Có thêm một chiếc chuông mới!';
+  static const gameMelodyConcert = 'Giờ Mai chơi lại bản nhạc dài nhất của bé nhé!';
+  static const gameMelodyAll = [
+    gameMelodyIntro, gameMelodyListen, gameMelodyYourTurn,
+    gameMelodyShorter, gameMelodyNewBell, gameMelodyConcert,
+  ];
+
   // Creativity
   static const drawHowTo = 'Bé chọn một màu, rồi dùng ngón tay vẽ lên giấy nhé.';
   static const colorHowTo = 'Bé chọn màu, rồi chạm vào từng phần để tô nhé.';
@@ -111,5 +123,6 @@ class KidGuide {
     gameCatchKana, gameListenKana, gameMatchKana, gameFeedAnimal, gameFindSimilar, gameMathRocket,
     gameNumberTrain, gameWin,
     drawHowTo, colorHowTo, musicHowTo, puzzleHowTo, saved,
+    ...gameMelodyAll,
   ];
 }

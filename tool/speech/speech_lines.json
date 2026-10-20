@@ -8097,6 +8097,14 @@
    "text": "Bé lật thẻ và tìm hai thẻ giống nhau nhé."
   },
   {
+   "id": "vi_say_a70cb614",
+   "text": "Bé nghe Mai gõ chuông, rồi gõ lại giống hệt nhé!"
+  },
+  {
+   "id": "vi_say_3617ce6f",
+   "text": "Bé nghe Mai gõ nhé!"
+  },
+  {
    "id": "vi_say_6c782764",
    "text": "Bé nghe Mai đọc cả câu, rồi đọc theo nhé."
   },
@@ -8233,8 +8241,16 @@
    "text": "Câu tiếp theo nào!"
   },
   {
+   "id": "vi_say_d4eb9044",
+   "text": "Có thêm một chiếc chuông mới!"
+  },
+  {
    "id": "vi_say_0d21cec8",
    "text": "Giỏi lắm! Mình tiếp tục nào!"
+  },
+  {
+   "id": "vi_say_6f25a793",
+   "text": "Giờ Mai chơi lại bản nhạc dài nhất của bé nhé!"
   },
   {
    "id": "vi_say_9e96501c",
@@ -8267,6 +8283,10 @@
   {
    "id": "vi_say_713f8c94",
    "text": "Mai đã cất bức tranh của bé rồi!"
+  },
+  {
+   "id": "vi_say_bd52a22e",
+   "text": "Mình thử bài ngắn hơn nhé."
   },
   {
    "id": "vi_say_912e8f07",
@@ -8351,6 +8371,10 @@
   {
    "id": "vi_say_3b11f3e3",
    "text": "Đảo Tư duy đây rồi! Mình cùng giải câu đố nhé."
+  },
+  {
+   "id": "vi_say_e3161c0f",
+   "text": "Đến lượt bé! Gõ lại giống Mai nhé."
   },
   {
    "id": "vi_say_5f91ba38",
