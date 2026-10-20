@@ -4787,6 +4787,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_0d21cec8": {
+  "text": "Giỏi lắm! Mình tiếp tục nào!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_0d5c2792": {
   "text": "Đâu là con mực?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -5262,6 +5269,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_152bd470": {
+  "text": "Quá xuất sắc!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_15376971": {
   "text": "leng.",
@@ -7054,6 +7068,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_33bbcda1": {
+  "text": "Bé làm đúng rồi, vỗ tay nào!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_33cee5f6": {
   "text": "Phép tính nào đúng?",
@@ -9764,6 +9785,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_589e5682": {
+  "text": "Hoan hô bé!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_58bece7d": {
   "text": "cháo gà.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -10344,6 +10372,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_5f91ba38": {
+  "text": "Ồ, chưa phải rồi. Bé chọn lại nào!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_5fdeea43": {
   "text": "tôm.",
@@ -10996,6 +11031,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_68c26936": {
+  "text": "Đúng rồi! Bé nhanh ghê!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_68c8b524": {
   "text": "bươn.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -11030,6 +11072,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_694afc61": {
+  "text": "Bé thông minh quá!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_694fabbb": {
   "text": "con tê giác.",
@@ -11275,6 +11324,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_6d3cab41": {
+  "text": "Chính xác! Tuyệt vời!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_6d69b0c2": {
   "text": "chú phi hành gia.",
@@ -13320,6 +13376,20 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_910681e6": {
+  "text": "Suýt nữa thì đúng! Bé thử lại nào.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
+ "vi_say_912e8f07": {
+  "text": "Mười câu đúng liền! Mai phục bé luôn đó!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_912ea954": {
   "text": "tiêng.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -13487,6 +13557,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_93e3070b": {
+  "text": "Năm câu đúng liền! Bé là ngôi sao sáng nhất!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_93f5cf77": {
   "text": "canh.",
@@ -14342,6 +14419,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_a05ba3ae": {
+  "text": "Mai tin bé làm được, thử lại nhé!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_a0842457": {
   "text": "trường.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -14839,6 +14923,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_a7cdbc62": {
+  "text": "Bé suy nghĩ thêm một chút nhé.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_a7f745e9": {
   "text": "tau.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -15104,6 +15195,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_abe8fda7": {
+  "text": "Tuyệt cú mèo!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_abf4123d": {
   "text": "Đâu là cái trống?",
@@ -15433,6 +15531,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_b27187af": {
+  "text": "Không sao đâu, mình thử lần nữa nào!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_b29967b7": {
   "text": "Đâu là con bạch tuộc?",
@@ -16196,6 +16301,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_be5e1b25": {
+  "text": "Ba câu đúng liền! Bé siêu quá!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_be6b9d6b": {
   "text": "Đâu là quả chanh?",
@@ -17590,6 +17702,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_d55d967e": {
+  "text": "Đúng rồi! Bé nhớ giỏi thật!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_d591eb3b": {
   "text": "Có bao nhiêu bông hoa?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -18353,6 +18472,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_e31847f7": {
+  "text": "Mai thích câu trả lời này lắm!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
+ },
  "vi_say_e31af0fc": {
   "text": "Núi lửa phun ra dung nham nóng đỏ rực.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -19066,6 +19192,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_ec446471": {
+  "text": "Siêu quá! Đúng luôn!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-20"
  },
  "vi_say_ec60ae04": {
   "text": "Đâu là con ngựa vằn?",
