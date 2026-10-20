@@ -325,6 +325,8 @@ class AudioService {
       if (k == 'math_recognize' || k == 'math_match' || k == 'math_count') {
         return 'sys_$k';
       }
+      // Bundled number/sign clips (math_num_7, math_op_plus…) keep their id.
+      if (RegExp(r'^math_(num|op|cmp|q)_').hasMatch(k)) return k;
       return 'v_$k';
     }
     if (k.startsWith('game_')) return 'sys_$k';
