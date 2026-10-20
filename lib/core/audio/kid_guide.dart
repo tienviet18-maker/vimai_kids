@@ -98,7 +98,7 @@ class KidGuide {
   // Âm đầu là gì? (first-sound game): Mai says the ask, then the bundled
   // consonant sound clip (v_b "bờ", v_c_ch "chờ"…).
   static const gameFirstSound = 'Mai đọc một âm. Bé chạm vào hình bắt đầu bằng âm đó nhé!';
-  static const firstSoundAsk = 'Từ nào bắt đầu bằng âm';
+  static const firstSoundAsk = 'Từ nào bắt đầu bằng âm này?';
   static const firstSoundLines = [gameFirstSound, firstSoundAsk];
   // Game: Giai điệu bí ẩn (melody-memory)
   static const gameMelodyIntro = 'Bé nghe Mai gõ chuông, rồi gõ lại giống hệt nhé!';
