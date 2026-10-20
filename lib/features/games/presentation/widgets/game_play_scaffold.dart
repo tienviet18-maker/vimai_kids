@@ -3,6 +3,8 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 
+import '../../../../core/audio/audio_service.dart';
+
 import '../../../../core/audio/kid_guide.dart';
 import '../../../../core/routing/nav_utils.dart';
 import '../../../../core/session/session_binder.dart';
@@ -649,7 +651,8 @@ class GameCompletePanel extends StatelessWidget {
   Widget build(BuildContext context) {
     return SpeakOnOpen(
       lines: const [KidGuide.gameWin],
-      delay: const Duration(milliseconds: 900),
+      effect: Sfx.win,
+      delay: const Duration(milliseconds: 1500),
       child: _WinPanel(
         stars: starsFor(score, wrong),
         score: score,

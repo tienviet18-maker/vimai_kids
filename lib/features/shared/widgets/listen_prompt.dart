@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../core/audio/audio_service.dart';
 import '../../../core/providers.dart';
 import '../../../core/theme/vimai_tokens.dart';
 import 'vimai_ui.dart';
@@ -76,9 +77,16 @@ class ListenPrompt extends ConsumerWidget {
 /// screen greets the child with what to do. Wrap a screen body with it.
 class SpeakOnOpen extends ConsumerStatefulWidget {
   const SpeakOnOpen(
-      {super.key, required this.lines, required this.child, this.delay = const Duration(milliseconds: 350)});
+      {super.key,
+      required this.lines,
+      required this.child,
+      this.delay = const Duration(milliseconds: 350),
+      this.effect});
 
   final List<String?> lines;
+
+  /// Effect played straight away, before Mai speaks (e.g. a win fanfare).
+  final Sfx? effect;
   final Widget child;
   final Duration delay;
 
@@ -92,6 +100,8 @@ class _SpeakOnOpenState extends ConsumerState<SpeakOnOpen> {
   @override
   void initState() {
     super.initState();
+    final effect = widget.effect;
+    if (effect != null) ref.read(audioServiceProvider).sfx(effect);
     _timer = Timer(widget.delay, () {
       if (mounted) unawaited(ref.read(audioServiceProvider).speak(widget.lines));
     });

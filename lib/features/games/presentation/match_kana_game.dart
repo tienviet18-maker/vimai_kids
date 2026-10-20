@@ -69,6 +69,7 @@ class _MatchKanaGameState extends ConsumerState<MatchKanaGame> {
 
   void _tap(int index) {
     if (_lock || _flipped.contains(index) || _first == index || _finished) return;
+    ref.read(audioServiceProvider).sfx(Sfx.flip);
     setState(() {
       if (_first == null) {
         _first = index;

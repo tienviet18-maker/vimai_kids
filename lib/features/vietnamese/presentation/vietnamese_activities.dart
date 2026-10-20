@@ -178,6 +178,7 @@ class _VietnameseQuizListScreenState extends ConsumerState<VietnameseQuizListScr
     if (!mounted) return;
     final items = widget.loader(ref);
     if (_index >= _roundEnd(items.length)) {
+      ref.read(audioServiceProvider).sfx(Sfx.win);
       unawaited(ref.read(audioServiceProvider).speakLine(KidGuide.sessionDone));
       return;
     }

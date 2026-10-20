@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../core/audio/audio_service.dart';
+import '../../../core/providers.dart';
 import '../../../core/theme/vimai_tokens.dart';
 
 /// A chunky, toy-like 3D button: a glossy coloured face sitting on a darker
@@ -45,6 +48,15 @@ class ChunkyButton extends StatefulWidget {
 class _ChunkyButtonState extends State<ChunkyButton> {
   bool _down = false;
 
+  /// A soft toy-like click, so every press answers the child right away.
+  static void _tapSound(BuildContext context) {
+    try {
+      ProviderScope.containerOf(context, listen: false).read(audioServiceProvider).sfx(Sfx.tap);
+    } catch (_) {
+      // No audio in this tree (previews, bare widget tests).
+    }
+  }
+
   void _set(bool v) {
     if (_down == v || !mounted) return;
     setState(() => _down = v);
@@ -75,6 +87,7 @@ class _ChunkyButtonState extends State<ChunkyButton> {
         onTap: enabled
             ? () {
                 HapticFeedback.selectionClick();
+                _tapSound(context);
                 widget.onTap!();
               }
             : null,
