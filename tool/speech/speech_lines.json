@@ -8201,6 +8201,22 @@
    "text": "Bạn gấu trúc đói bụng rồi! Bé chọn đúng đáp án để cho bạn ăn nhé."
   },
   {
+   "id": "vi_say_8056b7fd",
+   "text": "Bạn nào không phải côn trùng, cũng không phải chim?"
+  },
+  {
+   "id": "vi_say_2c92c769",
+   "text": "Bạn nào không phải là con vật nuôi?"
+  },
+  {
+   "id": "vi_say_6a938a08",
+   "text": "Bạn nào không phải là động vật hoang dã?"
+  },
+  {
+   "id": "vi_say_1090d29f",
+   "text": "Bạn nào không sống dưới biển?"
+  },
+  {
    "id": "vi_say_1a7ae0fd",
    "text": "Chào bé! Hôm nay mình khám phá đảo nào? Chạm vào một hòn đảo nhé!"
   },
@@ -8229,8 +8245,40 @@
    "text": "Chữ này đọc âm nào?"
   },
   {
+   "id": "vi_say_c0952eec",
+   "text": "Cái nào không có sẵn trong thiên nhiên?"
+  },
+  {
+   "id": "vi_say_f1daec12",
+   "text": "Cái nào không phải là bộ phận cơ thể?"
+  },
+  {
+   "id": "vi_say_cce36a1e",
+   "text": "Cái nào không phải là hoa quả?"
+  },
+  {
+   "id": "vi_say_c5c4198e",
+   "text": "Cái nào không phải là rau củ?"
+  },
+  {
+   "id": "vi_say_12f2cef1",
+   "text": "Cái nào không phải là xe cộ?"
+  },
+  {
+   "id": "vi_say_257464cd",
+   "text": "Cái nào không phải là đồ chơi?"
+  },
+  {
+   "id": "vi_say_a4604b0c",
+   "text": "Cái nào không phải là đồ dùng trong nhà?"
+  },
+  {
    "id": "vi_say_eff5aed7",
    "text": "Câu tiếp theo nào!"
+  },
+  {
+   "id": "vi_say_38e8295c",
+   "text": "Có một hình không cùng nhóm với các bạn. Bé nghe Mai hỏi rồi chạm vào hình đó nhé!"
   },
   {
    "id": "vi_say_0d21cec8",
@@ -8247,6 +8295,10 @@
   {
    "id": "vi_say_589e5682",
    "text": "Hoan hô bé!"
+  },
+  {
+   "id": "vi_say_564bbac1",
+   "text": "Hình nào không phải là một nghề?"
   },
   {
    "id": "vi_say_534302e2",
@@ -10757,6 +10809,752 @@
   {
    "id": "vi_say_5bc5a2a5",
    "text": "Ớt chuông không cay và có nhiều màu đẹp."
+  }
+ ],
+ "odd_one_out": [
+  {
+   "id": "vi_say_702af617",
+   "text": "Bàn chân là một bộ phận cơ thể, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_9fc18490",
+   "text": "Bàn chải đánh răng là đồ dùng trong nhà, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_5b927949",
+   "text": "Bàn tay là một bộ phận cơ thể, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_bebdd13b",
+   "text": "Bác nông dân là người làm nghề, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_58d8bed2",
+   "text": "Bác sĩ là người làm nghề, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_9dede363",
+   "text": "Bánh xà phòng là đồ dùng trong nhà, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_5b8dece7",
+   "text": "Bóng đèn là đồ dùng trong nhà, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_6ffba8a9",
+   "text": "Bông hoa có sẵn trong thiên nhiên, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_7919720b",
+   "text": "Bông tuyết có sẵn trong thiên nhiên, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_772cd549",
+   "text": "Búp bê gỗ là đồ chơi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_17594a54",
+   "text": "Bắp ngô là rau củ, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_fafdbbaa",
+   "text": "Bồn tắm là đồ dùng trong nhà, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_b390a5f4",
+   "text": "Bộ não là một bộ phận cơ thể, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_1a762bf3",
+   "text": "Bộ xương là một bộ phận cơ thể, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_3a54d75d",
+   "text": "Chìa khóa là đồ dùng trong nhà, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_ed16e0f3",
+   "text": "Chùm nho là hoa quả, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_1c48185b",
+   "text": "Chú công an là người làm nghề, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_23b3bec4",
+   "text": "Chú lính cứu hỏa là người làm nghề, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_b2a3e50b",
+   "text": "Chú phi công là người làm nghề, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_9d3c6288",
+   "text": "Chú phi hành gia là người làm nghề, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_d321ce26",
+   "text": "Chú thợ sửa xe là người làm nghề, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_061a2ef8",
+   "text": "Chú thợ xây là người làm nghề, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_5a9be3e5",
+   "text": "Chú đầu bếp là người làm nghề, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_a150ebe4",
+   "text": "Con bò là con vật nuôi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_601d319d",
+   "text": "Con bướm là côn trùng, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_52ca3354",
+   "text": "Con bạch tuộc sống dưới biển, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_560275a3",
+   "text": "Con bọ rùa là côn trùng, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_f8723d23",
+   "text": "Con chim bồ câu là một loài chim, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_14eae605",
+   "text": "Con chim là một loài chim, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_88595283",
+   "text": "Con chuột túi là động vật hoang dã, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_8fc3c688",
+   "text": "Con chó là con vật nuôi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_b533f5d7",
+   "text": "Con cua sống dưới biển, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_23916c41",
+   "text": "Con cá heo sống dưới biển, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_e467cdae",
+   "text": "Con cá mập sống dưới biển, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_e1b954f2",
+   "text": "Con cá nóc sống dưới biển, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_cd3070b1",
+   "text": "Con cá sấu là động vật hoang dã, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_62d311ed",
+   "text": "Con cá sống dưới biển, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_cc2476f3",
+   "text": "Con cá voi sống dưới biển, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_101b750a",
+   "text": "Con cáo là động vật hoang dã, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_ca77be87",
+   "text": "Con công là một loài chim, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_e44bd89d",
+   "text": "Con cú mèo là một loài chim, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_085a6502",
+   "text": "Con cừu là con vật nuôi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_66e12e60",
+   "text": "Con diều là đồ chơi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_bf54d2ea",
+   "text": "Con dê là con vật nuôi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_9c36da03",
+   "text": "Con dế là côn trùng, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_ea86d767",
+   "text": "Con gà con là con vật nuôi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_b2d48e33",
+   "text": "Con gà mái là con vật nuôi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_d9795569",
+   "text": "Con gà trống là con vật nuôi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_cb18da81",
+   "text": "Con gà tây là con vật nuôi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_8620264e",
+   "text": "Con gấu là động vật hoang dã, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_709c40e6",
+   "text": "Con gấu trúc là động vật hoang dã, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_6c9526cd",
+   "text": "Con heo là con vật nuôi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_23e1637c",
+   "text": "Con hà mã là động vật hoang dã, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_41be01bd",
+   "text": "Con hươu cao cổ là động vật hoang dã, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_065e4d8b",
+   "text": "Con hải cẩu sống dưới biển, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_bf8041e5",
+   "text": "Con hồng hạc là một loài chim, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_ee8f7fe9",
+   "text": "Con hổ là động vật hoang dã, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_d01e3344",
+   "text": "Con khỉ là động vật hoang dã, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_fc322269",
+   "text": "Con kiến là côn trùng, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_b4d6b333",
+   "text": "Con lạc đà là động vật hoang dã, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_cf5fb949",
+   "text": "Con muỗi là côn trùng, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_92689868",
+   "text": "Con mèo là con vật nuôi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_a2b74c7b",
+   "text": "Con mực sống dưới biển, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_239d50a8",
+   "text": "Con ngựa là con vật nuôi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_fd50b895",
+   "text": "Con ngựa vằn là động vật hoang dã, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_fa53fb4d",
+   "text": "Con nhím là động vật hoang dã, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_5f4bfd7f",
+   "text": "Con ong là côn trùng, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_43f35e10",
+   "text": "Con rái cá sống dưới biển, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_9bc04ef7",
+   "text": "Con rùa biển sống dưới biển, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_5db0e53a",
+   "text": "Con rắn là động vật hoang dã, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_160805f2",
+   "text": "Con sâu là côn trùng, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_cdd633ec",
+   "text": "Con sóc là động vật hoang dã, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_9631f792",
+   "text": "Con sói là động vật hoang dã, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_e9353e76",
+   "text": "Con sư tử là động vật hoang dã, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_2ee3dcda",
+   "text": "Con thiên nga là một loài chim, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_03a1bebe",
+   "text": "Con thỏ là con vật nuôi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_ff2052f3",
+   "text": "Con trâu là con vật nuôi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_1d085f06",
+   "text": "Con tê giác là động vật hoang dã, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_31ba95a9",
+   "text": "Con tôm hùm sống dưới biển, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_8849c752",
+   "text": "Con tôm sống dưới biển, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_a01417dc",
+   "text": "Con voi là động vật hoang dã, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_7397df6e",
+   "text": "Con vẹt là một loài chim, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_44887f8a",
+   "text": "Con vịt là con vật nuôi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_d8e94290",
+   "text": "Con đại bàng là một loài chim, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_efbccdef",
+   "text": "Cái chuông là nhạc cụ, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_b8ed442c",
+   "text": "Cái chân là một bộ phận cơ thể, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_bf0d4eac",
+   "text": "Cái chảo là đồ dùng trong nhà, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_142b8f0f",
+   "text": "Cái chổi là đồ dùng trong nhà, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_0d06a26f",
+   "text": "Cái cửa là đồ dùng trong nhà, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_52101491",
+   "text": "Cái ghế là đồ dùng trong nhà, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_937dd51e",
+   "text": "Cái giường là đồ dùng trong nhà, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_32364ded",
+   "text": "Cái giỏ là đồ dùng trong nhà, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_7a4db7fd",
+   "text": "Cái gương là đồ dùng trong nhà, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_6730a9bf",
+   "text": "Cái kèn là nhạc cụ, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_7b19b820",
+   "text": "Cái lưỡi là một bộ phận cơ thể, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_a6b5c120",
+   "text": "Cái miệng là một bộ phận cơ thể, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_9a9002a6",
+   "text": "Cái mũi là một bộ phận cơ thể, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_0e6068d0",
+   "text": "Cái răng là một bộ phận cơ thể, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_5a842526",
+   "text": "Cái tai là một bộ phận cơ thể, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_9fcf786e",
+   "text": "Cái thìa là đồ dùng trong nhà, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_2bf62b84",
+   "text": "Cái ti vi là đồ dùng trong nhà, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_2fae837b",
+   "text": "Cái trống là nhạc cụ, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_20eb6cf5",
+   "text": "Cái ô là đồ dùng trong nhà, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_1cc095f2",
+   "text": "Cái đồng hồ là đồ dùng trong nhà, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_0325b3c1",
+   "text": "Cánh tay là một bộ phận cơ thể, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_bc771e6a",
+   "text": "Cây nấm là rau củ, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_bfbbabcf",
+   "text": "Cây xanh có sẵn trong thiên nhiên, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_eb21d8e3",
+   "text": "Cô ca sĩ là người làm nghề, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_189ed03a",
+   "text": "Cô giáo là người làm nghề, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_cebff8ef",
+   "text": "Cô họa sĩ là người làm nghề, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_177c6000",
+   "text": "Cô y tá là người làm nghề, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_2452b66b",
+   "text": "Cơn gió có sẵn trong thiên nhiên, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_7a0e9bd9",
+   "text": "Cơn mưa có sẵn trong thiên nhiên, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_a7a443dc",
+   "text": "Cầu trượt là đồ chơi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_989d7277",
+   "text": "Cầu vồng có sẵn trong thiên nhiên, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_6d80c8e5",
+   "text": "Củ cà rốt là rau củ, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_55f3cc35",
+   "text": "Củ hành tây là rau củ, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_5f832d1c",
+   "text": "Củ khoai lang là rau củ, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_3e0838dc",
+   "text": "Củ khoai tây là rau củ, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_a2d74810",
+   "text": "Củ tỏi là rau củ, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_65f05aac",
+   "text": "Giọt nước có sẵn trong thiên nhiên, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_eba2fa0e",
+   "text": "Hạt đậu là rau củ, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_be869635",
+   "text": "Hộp màu vẽ là đồ chơi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_10110102",
+   "text": "Lá phổi là một bộ phận cơ thể, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_c9f916e4",
+   "text": "Máy bay là phương tiện giao thông, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_b29c8444",
+   "text": "Máy bay trực thăng là phương tiện giao thông, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_bb7446a5",
+   "text": "Máy cày là phương tiện giao thông, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_00d4256a",
+   "text": "Mặt trăng có sẵn trong thiên nhiên, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_9b19aa42",
+   "text": "Mặt trời có sẵn trong thiên nhiên, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_e09a7793",
+   "text": "Ngón tay là một bộ phận cơ thể, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_9a389591",
+   "text": "Ngôi sao có sẵn trong thiên nhiên, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_2e3bb42b",
+   "text": "Ngọn lửa có sẵn trong thiên nhiên, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_83593335",
+   "text": "Ngọn núi có sẵn trong thiên nhiên, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_1d4afd7d",
+   "text": "Nhà khoa học là người làm nghề, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_a448d83d",
+   "text": "Núi lửa có sẵn trong thiên nhiên, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_0ce38aa6",
+   "text": "Quả anh đào là hoa quả, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_5b0ea79e",
+   "text": "Quả bóng bay là đồ chơi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_75c99ff5",
+   "text": "Quả bóng rổ là đồ chơi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_cfd6e4d7",
+   "text": "Quả bóng đá là đồ chơi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_f16d05e7",
+   "text": "Quả cam là hoa quả, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_89c3740a",
+   "text": "Quả chanh là hoa quả, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_f839af8a",
+   "text": "Quả chuối là hoa quả, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_fe8c719f",
+   "text": "Quả cà chua là rau củ, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_6cf5eae5",
+   "text": "Quả cà tím là rau củ, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_b6ae655a",
+   "text": "Quả dâu tây là hoa quả, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_17fe4286",
+   "text": "Quả dưa chuột là rau củ, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_dcf23d04",
+   "text": "Quả dưa hấu là hoa quả, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_d4e3bbc9",
+   "text": "Quả dưa lưới là hoa quả, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_e9d8173c",
+   "text": "Quả dứa là hoa quả, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_9a8a6776",
+   "text": "Quả dừa là hoa quả, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_abef8f34",
+   "text": "Quả kiwi là hoa quả, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_a15229b5",
+   "text": "Quả lê là hoa quả, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_2d9cbb7f",
+   "text": "Quả táo là hoa quả, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_2451cb00",
+   "text": "Quả việt quất là hoa quả, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_e193be4d",
+   "text": "Quả xoài là hoa quả, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_ed4cd0d5",
+   "text": "Quả đào là hoa quả, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_05b311d5",
+   "text": "Quả ớt chuông là rau củ, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_19bf8dc3",
+   "text": "Quả ớt là rau củ, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_67e9a232",
+   "text": "Rau cải là rau củ, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_aa682395",
+   "text": "San hô sống dưới biển, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_b991b1c9",
+   "text": "Sóng biển có sẵn trong thiên nhiên, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_7f4b72d6",
+   "text": "Súp lơ xanh là rau củ, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_8fdad506",
+   "text": "Thuyền buồm là phương tiện giao thông, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_61a3bc33",
+   "text": "Tia chớp có sẵn trong thiên nhiên, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_72a96763",
+   "text": "Trái tim là một bộ phận cơ thể, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_796c92cb",
+   "text": "Trái Đất có sẵn trong thiên nhiên, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_7956aae6",
+   "text": "Trò ghép hình là đồ chơi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_57fd6708",
+   "text": "Tàu hỏa là phương tiện giao thông, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_b9bc5c3e",
+   "text": "Tàu thủy là phương tiện giao thông, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_f2f7ab63",
+   "text": "Tên lửa là phương tiện giao thông, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_ad5bd34c",
+   "text": "Vòng quay ngựa gỗ là đồ chơi, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_b2175a9a",
+   "text": "Xe buýt là phương tiện giao thông, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_f1cf809f",
+   "text": "Xe cảnh sát là phương tiện giao thông, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_929a3872",
+   "text": "Xe cứu hỏa là phương tiện giao thông, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_208054c0",
+   "text": "Xe cứu thương là phương tiện giao thông, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_d126bfc9",
+   "text": "Xe máy là phương tiện giao thông, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_f5ad8bbb",
+   "text": "Xe taxi là phương tiện giao thông, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_863d4d82",
+   "text": "Xe tải là phương tiện giao thông, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_d0529f93",
+   "text": "Xe ô tô là phương tiện giao thông, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_a9a48c58",
+   "text": "Xe đạp là phương tiện giao thông, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_ff7a85c4",
+   "text": "Đàn ghi ta là nhạc cụ, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_9f87afa6",
+   "text": "Đàn piano là nhạc cụ, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_364ca708",
+   "text": "Đàn vĩ cầm là nhạc cụ, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_916d2ff8",
+   "text": "Đám mây có sẵn trong thiên nhiên, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_afd5209e",
+   "text": "Đôi mắt là một bộ phận cơ thể, không giống các bạn kia."
+  },
+  {
+   "id": "vi_say_3c10e169",
+   "text": "Đôi đũa là đồ dùng trong nhà, không giống các bạn kia."
   }
  ]
 }
