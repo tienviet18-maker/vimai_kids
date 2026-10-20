@@ -112,6 +112,7 @@ final goRouter = GoRouter(
     GoRoute(path: '/games/feed-animal', builder: (context, state) => const FeedAnimalGame()),
     GoRoute(path: '/games/find-similar', builder: (context, state) => const FindSimilarGame()),
     GoRoute(path: '/games/odd-one-out', builder: (context, state) => const OddOneOutGame()),
+    GoRoute(path: '/games/first-sound', builder: (context, state) => const FirstSoundGame()),
     GoRoute(path: '/progress', builder: (context, state) => const ProgressScreen()),
     GoRoute(path: '/vietnamese', builder: (context, state) => const VietnameseScreen()),
     GoRoute(path: '/vietnamese/alphabet', builder: (context, state) => const VietnameseAlphabetGridScreen()),

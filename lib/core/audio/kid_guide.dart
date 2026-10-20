@@ -95,6 +95,11 @@ class KidGuide {
     'jobs': oddOutJobs,
     'play': oddOutPlay,
   };
+  // Âm đầu là gì? (first-sound game): Mai says the ask, then the bundled
+  // consonant sound clip (v_b "bờ", v_c_ch "chờ"…).
+  static const gameFirstSound = 'Mai đọc một âm. Bé chạm vào hình bắt đầu bằng âm đó nhé!';
+  static const firstSoundAsk = 'Từ nào bắt đầu bằng âm';
+  static const firstSoundLines = [gameFirstSound, firstSoundAsk];
 
   // Creativity
   static const drawHowTo = 'Bé chọn một màu, rồi dùng ngón tay vẽ lên giấy nhé.';
@@ -144,5 +149,6 @@ class KidGuide {
     // Cái nào khác nhóm?
     gameOddOneOut, oddOutPets, oddOutWild, oddOutSea, oddOutBugsBirds, oddOutFruits, oddOutVeggies,
     oddOutVehicles, oddOutHome, oddOutBody, oddOutNature, oddOutJobs, oddOutPlay,
+    ...firstSoundLines,
   ];
 }
