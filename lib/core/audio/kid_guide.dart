@@ -66,6 +66,36 @@ class KidGuide {
   static const gameNumberTrain = 'Bé xếp số còn thiếu vào toa tàu nhé!';
   static const gameWin = 'Bé thắng rồi! Giỏi quá!';
 
+  // Game: Cái nào khác nhóm? (odd-one-out). One hand-written question per
+  // explore category id, asked when most pictures belong to that category.
+  static const gameOddOneOut = 'Có một hình không cùng nhóm với các bạn. Bé nghe Mai hỏi rồi chạm vào hình đó nhé!';
+  static const oddOutPets = 'Bạn nào không phải là con vật nuôi?';
+  static const oddOutWild = 'Bạn nào không phải là động vật hoang dã?';
+  static const oddOutSea = 'Bạn nào không sống dưới biển?';
+  static const oddOutBugsBirds = 'Bạn nào không phải côn trùng, cũng không phải chim?';
+  static const oddOutFruits = 'Cái nào không phải là hoa quả?';
+  static const oddOutVeggies = 'Cái nào không phải là rau củ?';
+  static const oddOutVehicles = 'Cái nào không phải là xe cộ?';
+  static const oddOutHome = 'Cái nào không phải là đồ dùng trong nhà?';
+  static const oddOutBody = 'Cái nào không phải là bộ phận cơ thể?';
+  static const oddOutNature = 'Cái nào không có sẵn trong thiên nhiên?';
+  static const oddOutJobs = 'Hình nào không phải là một nghề?';
+  static const oddOutPlay = 'Cái nào không phải là đồ chơi?';
+  static const oddOneOutQuestions = {
+    'pets': oddOutPets,
+    'wild': oddOutWild,
+    'sea': oddOutSea,
+    'bugs_birds': oddOutBugsBirds,
+    'fruits': oddOutFruits,
+    'veggies': oddOutVeggies,
+    'vehicles': oddOutVehicles,
+    'home': oddOutHome,
+    'body': oddOutBody,
+    'nature': oddOutNature,
+    'jobs': oddOutJobs,
+    'play': oddOutPlay,
+  };
+
   // Creativity
   static const drawHowTo = 'Bé chọn một màu, rồi dùng ngón tay vẽ lên giấy nhé.';
   static const colorHowTo = 'Bé chọn màu, rồi chạm vào từng phần để tô nhé.';
@@ -111,5 +141,8 @@ class KidGuide {
     gameCatchKana, gameListenKana, gameMatchKana, gameFeedAnimal, gameFindSimilar, gameMathRocket,
     gameNumberTrain, gameWin,
     drawHowTo, colorHowTo, musicHowTo, puzzleHowTo, saved,
+    // Cái nào khác nhóm?
+    gameOddOneOut, oddOutPets, oddOutWild, oddOutSea, oddOutBugsBirds, oddOutFruits, oddOutVeggies,
+    oddOutVehicles, oddOutHome, oddOutBody, oddOutNature, oddOutJobs, oddOutPlay,
   ];
 }

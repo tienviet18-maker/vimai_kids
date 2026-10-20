@@ -14,6 +14,7 @@ import 'package:mai_an_learning/data/content/thinking_generator.dart';
 import 'package:mai_an_learning/domain/content/content_item.dart';
 import 'package:mai_an_learning/features/explore/data/explore_catalog.dart';
 import 'package:mai_an_learning/features/explore/explore_guide.dart';
+import 'package:mai_an_learning/features/games/logic/odd_one_out_round.dart';
 
 void main() {
   test('export speech lines', () {
@@ -115,6 +116,13 @@ void main() {
     }
     for (final line in ExploreGuide.all) {
       add('explore', line);
+    }
+
+    // Cái nào khác nhóm?: Mai's "why" for every picture that can be the odd one.
+    for (final category in explore.categories) {
+      for (final item in category.items) {
+        if (OddOneOutRound.canBeOdd(category.id, item)) add('odd_one_out', oddOneOutExplanation(item, category.id));
+      }
     }
 
     final out = {

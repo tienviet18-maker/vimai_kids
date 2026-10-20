@@ -10,6 +10,7 @@ import '../../features/explore/presentation/explore_category_screen.dart';
 import '../../features/explore/presentation/explore_hub_screen.dart';
 import '../../features/explore/presentation/explore_quiz_screen.dart';
 import '../../features/games/presentation/games_screen.dart';
+import '../../features/games/presentation/odd_one_out_game.dart';
 import '../../features/home/presentation/home_screen.dart';
 import '../../features/japanese/kana_library/presentation/kana_library_screen.dart';
 import '../../features/japanese/presentation/japanese_home_screen.dart';
@@ -110,6 +111,7 @@ final goRouter = GoRouter(
     GoRoute(path: '/games/number-train', builder: (context, state) => const NumberTrainGame()),
     GoRoute(path: '/games/feed-animal', builder: (context, state) => const FeedAnimalGame()),
     GoRoute(path: '/games/find-similar', builder: (context, state) => const FindSimilarGame()),
+    GoRoute(path: '/games/odd-one-out', builder: (context, state) => const OddOneOutGame()),
     GoRoute(path: '/progress', builder: (context, state) => const ProgressScreen()),
     GoRoute(path: '/vietnamese', builder: (context, state) => const VietnameseScreen()),
     GoRoute(path: '/vietnamese/alphabet', builder: (context, state) => const VietnameseAlphabetGridScreen()),

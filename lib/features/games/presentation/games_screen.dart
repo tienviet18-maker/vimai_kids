@@ -55,6 +55,8 @@ const _games = [
       Color(0xFF14A3B8), GameScene.sky, _Art.bubbles, ['A', 'B', 'C']),
   _GameEntry('Nghe và chọn chữ tiếng Việt', '/vietnamese/game',
       Color(0xFFE0A100), GameScene.stage, _Art.speaker, ['A']),
+  _GameEntry('Cái nào khác nhóm?', '/games/odd-one-out', Color(0xFF7B63E0),
+      GameScene.meadow, _Art.cards, ['🐶', '🚗']),
 ];
 
 /// The games shelf: big painted tiles, one per game, each previewing the
