@@ -111,6 +111,16 @@ class KidGuide {
     gameMelodyIntro, gameMelodyListen, gameMelodyYourTurn,
     gameMelodyShorter, gameMelodyNewBell, gameMelodyConcert,
   ];
+  // Game: Đếm tiếng trống (drum-count). Bạn gấu plays a sound N times; the
+  // child counts by ear and taps the number. Numbers are said by math_num_*.
+  static const gameDrumCount = 'Bạn gấu chơi trống đây! Mình cùng đếm nhé.';
+  static const drumAskDrum = 'Bé nghe thật kỹ, bạn gấu đánh trống mấy tiếng?';
+  static const drumAskBell = 'Bé nghe thật kỹ, có mấy tiếng chuông?';
+  static const drumAskCoin = 'Bé nghe thật kỹ, có mấy đồng xu rơi vào heo đất?';
+  static const drumAskMixed = 'Bé chỉ đếm tiếng chuông thôi nhé. Có mấy tiếng chuông?';
+  static const drumPick = 'Bé chạm vào số đúng nhé!';
+  static const drumCountTogether = 'Mình cùng đếm lại nào!';
+  static const drumCountAll = [gameDrumCount, drumAskDrum, drumAskBell, drumAskCoin, drumAskMixed, drumPick, drumCountTogether];
 
   // Creativity
   static const drawHowTo = 'Bé chọn một màu, rồi dùng ngón tay vẽ lên giấy nhé.';
@@ -162,5 +172,6 @@ class KidGuide {
     oddOutVehicles, oddOutHome, oddOutBody, oddOutNature, oddOutJobs, oddOutPlay,
     ...firstSoundLines,
     ...gameMelodyAll,
+    ...drumCountAll,
   ];
 }

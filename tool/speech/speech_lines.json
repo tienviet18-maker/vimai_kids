@@ -8073,6 +8073,14 @@
    "text": "Bé chạm vào các phím để tạo ra bản nhạc của mình nhé!"
   },
   {
+   "id": "vi_say_c276018a",
+   "text": "Bé chạm vào số đúng nhé!"
+  },
+  {
+   "id": "vi_say_ed9e9dd2",
+   "text": "Bé chỉ đếm tiếng chuông thôi nhé. Có mấy tiếng chuông?"
+  },
+  {
    "id": "vi_say_549ea4ef",
    "text": "Bé chọn màu, rồi chạm vào từng phần để tô nhé."
   },
@@ -8127,6 +8135,18 @@
   {
    "id": "vi_say_120fe858",
    "text": "Bé nghe rồi tìm đúng chữ nhé!"
+  },
+  {
+   "id": "vi_say_21042018",
+   "text": "Bé nghe thật kỹ, bạn gấu đánh trống mấy tiếng?"
+  },
+  {
+   "id": "vi_say_4d2f365a",
+   "text": "Bé nghe thật kỹ, có mấy tiếng chuông?"
+  },
+  {
+   "id": "vi_say_987cd3f9",
+   "text": "Bé nghe thật kỹ, có mấy đồng xu rơi vào heo đất?"
   },
   {
    "id": "vi_say_fa8b0989",
@@ -8203,6 +8223,10 @@
   {
    "id": "vi_say_aab0fef4",
    "text": "Bé đọc to theo Mai nào!"
+  },
+  {
+   "id": "vi_say_1824b734",
+   "text": "Bạn gấu chơi trống đây! Mình cùng đếm nhé."
   },
   {
    "id": "vi_say_ad738609",
@@ -8339,6 +8363,10 @@
   {
    "id": "vi_say_bcc0b004",
    "text": "Mai đọc một âm. Bé chạm vào hình bắt đầu bằng âm đó nhé!"
+  },
+  {
+   "id": "vi_say_c9c5154a",
+   "text": "Mình cùng đếm lại nào!"
   },
   {
    "id": "vi_say_bd52a22e",

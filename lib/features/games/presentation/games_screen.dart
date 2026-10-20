@@ -15,6 +15,7 @@ import 'widgets/game_art.dart';
 import 'widgets/game_scene.dart';
 
 export 'catch_kana_game.dart';
+export 'drum_count_game.dart';
 export 'feed_animal_game.dart';
 export 'find_similar_game.dart';
 export 'first_sound_game.dart';
@@ -64,6 +65,8 @@ const _games = [
       GameScene.meadow, _Art.cards, ['🐮', '🐟']),
   _GameEntry('Giai điệu bí ẩn', '/games/melody-memory', melodyGameColor,
       GameScene.stage, _Art.xylophone, ['♪']),
+  _GameEntry('Đếm tiếng trống', '/games/drum-count', Color(0xFFFF7A45),
+      GameScene.stage, _Art.speaker, ['🥁']),
 ];
 
 /// The games shelf: big painted tiles, one per game, each previewing the

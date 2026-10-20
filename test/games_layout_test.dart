@@ -208,6 +208,9 @@ void main() {
           await tester.pump();
           await tester.pump();
           expect(tester.takeException(), isNull, reason: '${home.runtimeType} at $size');
+          // Let Mai finish reading (number clips wait on the audio plugin).
+          await tester.pumpWidget(const SizedBox());
+          await tester.pump(const Duration(minutes: 1));
         }
       }
     });
