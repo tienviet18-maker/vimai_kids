@@ -100,6 +100,17 @@ class KidGuide {
   static const gameFirstSound = 'Mai đọc một âm. Bé chạm vào hình bắt đầu bằng âm đó nhé!';
   static const firstSoundAsk = 'Từ nào bắt đầu bằng âm';
   static const firstSoundLines = [gameFirstSound, firstSoundAsk];
+  // Game: Giai điệu bí ẩn (melody-memory)
+  static const gameMelodyIntro = 'Bé nghe Mai gõ chuông, rồi gõ lại giống hệt nhé!';
+  static const gameMelodyListen = 'Bé nghe Mai gõ nhé!';
+  static const gameMelodyYourTurn = 'Đến lượt bé! Gõ lại giống Mai nhé.';
+  static const gameMelodyShorter = 'Mình thử bài ngắn hơn nhé.';
+  static const gameMelodyNewBell = 'Có thêm một chiếc chuông mới!';
+  static const gameMelodyConcert = 'Giờ Mai chơi lại bản nhạc dài nhất của bé nhé!';
+  static const gameMelodyAll = [
+    gameMelodyIntro, gameMelodyListen, gameMelodyYourTurn,
+    gameMelodyShorter, gameMelodyNewBell, gameMelodyConcert,
+  ];
 
   // Creativity
   static const drawHowTo = 'Bé chọn một màu, rồi dùng ngón tay vẽ lên giấy nhé.';
@@ -150,5 +161,6 @@ class KidGuide {
     gameOddOneOut, oddOutPets, oddOutWild, oddOutSea, oddOutBugsBirds, oddOutFruits, oddOutVeggies,
     oddOutVehicles, oddOutHome, oddOutBody, oddOutNature, oddOutJobs, oddOutPlay,
     ...firstSoundLines,
+    ...gameMelodyAll,
   ];
 }

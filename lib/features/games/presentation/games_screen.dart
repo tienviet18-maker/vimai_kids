@@ -10,6 +10,7 @@ import '../../shared/widgets/chunky_button.dart';
 import '../../shared/widgets/listen_prompt.dart';
 import '../../shared/widgets/vimai_mascot.dart';
 import '../../shared/widgets/vimai_world.dart';
+import 'melody_memory_game.dart';
 import 'widgets/game_art.dart';
 import 'widgets/game_scene.dart';
 
@@ -20,9 +21,10 @@ export 'first_sound_game.dart';
 export 'listen_kana_game.dart';
 export 'match_kana_game.dart';
 export 'math_rocket_game.dart';
+export 'melody_memory_game.dart';
 export 'number_train_game.dart';
 
-enum _Art { bubbles, speaker, cards, rocket, train, panda }
+enum _Art { bubbles, speaker, cards, rocket, train, panda, xylophone }
 
 class _GameEntry {
   const _GameEntry(
@@ -60,6 +62,8 @@ const _games = [
       GameScene.meadow, _Art.cards, ['🐶', '🚗']),
   _GameEntry('Âm đầu là gì?', '/games/first-sound', Color(0xFF14A3B8),
       GameScene.meadow, _Art.cards, ['🐮', '🐟']),
+  _GameEntry('Giai điệu bí ẩn', '/games/melody-memory', melodyGameColor,
+      GameScene.stage, _Art.xylophone, ['♪']),
 ];
 
 /// The games shelf: big painted tiles, one per game, each previewing the
@@ -381,6 +385,9 @@ class _TileArt extends StatelessWidget {
                 ),
               ),
             );
+          case _Art.xylophone:
+            return const Padding(
+                padding: EdgeInsets.all(6), child: MelodyShelfArt());
           case _Art.speaker:
             return Stack(
               alignment: Alignment.center,
