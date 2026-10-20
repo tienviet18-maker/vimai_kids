@@ -87,7 +87,10 @@ class ContinueLearningRecommender {
     return list.first;
   }
 
-  String _worldName(SkillMastery item) {
+  String _worldName(SkillMastery item) => worldNameFor(item);
+
+  /// Which [LearningWorld] (by name) a mastery record belongs to, or '' if none.
+  static String worldNameFor(SkillMastery item) {
     final skill = item.skill;
     final id = item.id;
     if (skill.startsWith('japanese') || id.startsWith('h_') || id.startsWith('k_')) return 'japanese';

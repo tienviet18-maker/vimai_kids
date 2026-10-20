@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/audio/audio_service.dart';
+import '../../../core/audio/kid_guide.dart';
 import '../../../core/ai/mai_context.dart';
 import '../../../core/audio/vietnamese_phonics_guide.dart';
 import '../../../core/audio/vietnamese_phonics_view.dart';
@@ -46,6 +47,9 @@ class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterL
   int _index = 0;
   bool _completed = false;
   String _mode = 'look';
+
+  /// Mode whose how-to Mai already said; the next letters skip it.
+  String? _guidedMode;
   String? _feedback;
   String? _lastChoice;
   bool? _lastCorrect;
@@ -92,9 +96,26 @@ class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterL
     if (index < 0 || index >= _letters.length) return;
     final letter = _letters[index];
     final audioId = VietnamesePhonicsGuide.primaryAudioId(letter);
-    final result = audioId.isNotEmpty
-        ? await ref.read(audioServiceProvider).playAsset(audioId)
-        : await VietnamesePhonicsGuide.playPrimary(ref.read(audioServiceProvider), letter);
+    if (audioId.isNotEmpty) {
+      // Mai guides each step: what to do, the letter's sound, then (when
+      // looking) the example word.
+      final guide = switch (_mode) {
+        'recognize' => KidGuide.findLetter,
+        'write' => KidGuide.letterTrace,
+        _ => KidGuide.letterHear,
+      };
+      final wordId = letter.exampleWordAudioId.isNotEmpty ? letter.exampleWordAudioId : letter.wordAudioId;
+      final lines = [if (_guidedMode != _mode) guide];
+      _guidedMode = _mode;
+      unawaited(
+        ref.read(audioServiceProvider).speak(
+          lines,
+          trailIds: [audioId, if (_mode != 'recognize' && _mode != 'write' && wordId.isNotEmpty) wordId],
+        ),
+      );
+      return;
+    }
+    final result = await VietnamesePhonicsGuide.playPrimary(ref.read(audioServiceProvider), letter);
     if (mounted && index == _index) AudioService.notify(context, result);
   }
 

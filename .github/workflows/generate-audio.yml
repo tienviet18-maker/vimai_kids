@@ -1,0 +1,54 @@
+name: Generate missing voice clips
+
+# Synthesises every missing Vietnamese clip (content words, sentences,
+# phonics, numbers and each on-screen line in tool/speech/speech_lines.json)
+# with the existing brand voice, then commits the new MP3s to the same branch.
+# Never overwrites or deletes an existing clip.
+
+on:
+  workflow_dispatch:
+  push:
+    branches-ignore:
+      - main
+    paths:
+      - tool/speech/speech_lines.json
+      - tools/generate_missing_audio.py
+      - assets/data/vietnamese/**
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-audio-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install edge-tts
+        run: python -m pip install edge-tts==7.*
+
+      - name: Generate missing clips
+        run: python tools/generate_missing_audio.py --concurrency 6
+
+      - name: Commit new clips
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/audio tool/speech/generated_audio_log.json
+          if git diff --cached --quiet; then
+            echo "No new clips."
+            exit 0
+          fi
+          git commit -m "audio: add generated voice clips (synthetic TTS, HoaiMy)"
+          # Someone may have pushed while clips were generating.
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

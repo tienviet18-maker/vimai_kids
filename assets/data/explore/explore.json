@@ -1,0 +1,1313 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "pets",
+      "title": "Con vật nuôi",
+      "emoji": "🐶",
+      "color": "#FF8A3D",
+      "cover": [
+        "🐱",
+        "🐔",
+        "🐮"
+      ],
+      "items": [
+        {
+          "id": "dog",
+          "emoji": "🐶",
+          "name": "con chó",
+          "fact": "Con chó sủa gâu gâu và giữ nhà cho chúng mình."
+        },
+        {
+          "id": "cat",
+          "emoji": "🐱",
+          "name": "con mèo",
+          "fact": "Con mèo kêu meo meo và thích bắt chuột."
+        },
+        {
+          "id": "rooster",
+          "emoji": "🐓",
+          "name": "con gà trống",
+          "fact": "Con gà trống gáy ò ó o mỗi sáng."
+        },
+        {
+          "id": "hen",
+          "emoji": "🐔",
+          "name": "con gà mái",
+          "fact": "Con gà mái đẻ trứng và chăm sóc đàn gà con."
+        },
+        {
+          "id": "chick",
+          "emoji": "🐥",
+          "name": "con gà con",
+          "fact": "Gà con có bộ lông vàng và kêu chiếp chiếp."
+        },
+        {
+          "id": "duck",
+          "emoji": "🦆",
+          "name": "con vịt",
+          "fact": "Con vịt kêu cạp cạp và bơi rất giỏi."
+        },
+        {
+          "id": "cow",
+          "emoji": "🐄",
+          "name": "con bò",
+          "fact": "Con bò ăn cỏ và cho chúng mình sữa."
+        },
+        {
+          "id": "buffalo",
+          "emoji": "🐃",
+          "name": "con trâu",
+          "fact": "Con trâu khỏe mạnh, giúp bác nông dân cày ruộng."
+        },
+        {
+          "id": "pig",
+          "emoji": "🐷",
+          "name": "con heo",
+          "fact": "Con heo kêu ụt ịt và có cái mũi tròn."
+        },
+        {
+          "id": "horse",
+          "emoji": "🐴",
+          "name": "con ngựa",
+          "fact": "Con ngựa chạy rất nhanh và kêu hí hí."
+        },
+        {
+          "id": "goat",
+          "emoji": "🐐",
+          "name": "con dê",
+          "fact": "Con dê có bộ râu dài và kêu be be."
+        },
+        {
+          "id": "sheep",
+          "emoji": "🐑",
+          "name": "con cừu",
+          "fact": "Con cừu có bộ lông xoăn dùng để làm áo len."
+        },
+        {
+          "id": "rabbit",
+          "emoji": "🐰",
+          "name": "con thỏ",
+          "fact": "Con thỏ có đôi tai dài và nhảy rất giỏi."
+        },
+        {
+          "id": "turkey",
+          "emoji": "🦃",
+          "name": "con gà tây",
+          "fact": "Con gà tây xòe đuôi to như một cái quạt."
+        },
+        {
+          "id": "fish_pet",
+          "emoji": "🐠",
+          "name": "con cá cảnh",
+          "fact": "Cá cảnh bơi tung tăng trong bể kính."
+        }
+      ]
+    },
+    {
+      "id": "wild",
+      "title": "Động vật hoang dã",
+      "emoji": "🦁",
+      "color": "#E3A21A",
+      "cover": [
+        "🐘",
+        "🦒",
+        "🐒"
+      ],
+      "items": [
+        {
+          "id": "lion",
+          "emoji": "🦁",
+          "name": "con sư tử",
+          "fact": "Sư tử đực có bờm lông dày quanh cổ và gầm rất to."
+        },
+        {
+          "id": "tiger",
+          "emoji": "🐯",
+          "name": "con hổ",
+          "fact": "Con hổ có bộ lông vằn màu vàng và đen."
+        },
+        {
+          "id": "elephant",
+          "emoji": "🐘",
+          "name": "con voi",
+          "fact": "Con voi dùng cái vòi dài để uống nước và lấy thức ăn."
+        },
+        {
+          "id": "giraffe",
+          "emoji": "🦒",
+          "name": "con hươu cao cổ",
+          "fact": "Hươu cao cổ có cái cổ rất dài để ăn lá trên cây cao."
+        },
+        {
+          "id": "zebra",
+          "emoji": "🦓",
+          "name": "con ngựa vằn",
+          "fact": "Ngựa vằn có bộ lông sọc đen và trắng."
+        },
+        {
+          "id": "monkey",
+          "emoji": "🐒",
+          "name": "con khỉ",
+          "fact": "Con khỉ leo trèo rất giỏi và thích ăn chuối."
+        },
+        {
+          "id": "bear",
+          "emoji": "🐻",
+          "name": "con gấu",
+          "fact": "Con gấu to lớn và rất thích ăn mật ong."
+        },
+        {
+          "id": "panda",
+          "emoji": "🐼",
+          "name": "con gấu trúc",
+          "fact": "Gấu trúc có bộ lông đen trắng và thích ăn tre."
+        },
+        {
+          "id": "kangaroo",
+          "emoji": "🦘",
+          "name": "con chuột túi",
+          "fact": "Chuột túi nhảy rất xa và mang con trong túi trước bụng."
+        },
+        {
+          "id": "crocodile",
+          "emoji": "🐊",
+          "name": "con cá sấu",
+          "fact": "Cá sấu có hàm răng sắc nhọn và sống ở gần sông."
+        },
+        {
+          "id": "fox",
+          "emoji": "🦊",
+          "name": "con cáo",
+          "fact": "Con cáo có cái đuôi dài và rất nhanh nhẹn."
+        },
+        {
+          "id": "wolf",
+          "emoji": "🐺",
+          "name": "con sói",
+          "fact": "Con sói sống thành bầy và hú rất to."
+        },
+        {
+          "id": "rhino",
+          "emoji": "🦏",
+          "name": "con tê giác",
+          "fact": "Tê giác có cái sừng to ở trên mũi."
+        },
+        {
+          "id": "hippo",
+          "emoji": "🦛",
+          "name": "con hà mã",
+          "fact": "Hà mã thích ngâm mình dưới nước cả ngày."
+        },
+        {
+          "id": "squirrel",
+          "emoji": "🐿️",
+          "name": "con sóc",
+          "fact": "Con sóc có cái đuôi xù và thích ăn hạt."
+        },
+        {
+          "id": "hedgehog",
+          "emoji": "🦔",
+          "name": "con nhím",
+          "fact": "Con nhím có rất nhiều gai nhọn trên lưng."
+        },
+        {
+          "id": "snake",
+          "emoji": "🐍",
+          "name": "con rắn",
+          "fact": "Con rắn không có chân, nó trườn trên mặt đất."
+        },
+        {
+          "id": "camel",
+          "emoji": "🐫",
+          "name": "con lạc đà",
+          "fact": "Lạc đà có cái bướu trên lưng và sống ở sa mạc."
+        }
+      ]
+    },
+    {
+      "id": "sea",
+      "title": "Dưới biển",
+      "emoji": "🐬",
+      "color": "#1E9BD7",
+      "cover": [
+        "🐙",
+        "🦀",
+        "🐠"
+      ],
+      "items": [
+        {
+          "id": "fish",
+          "emoji": "🐟",
+          "name": "con cá",
+          "fact": "Con cá thở bằng mang và bơi bằng vây."
+        },
+        {
+          "id": "dolphin",
+          "emoji": "🐬",
+          "name": "con cá heo",
+          "fact": "Cá heo rất thông minh và thích nhảy lên khỏi mặt nước."
+        },
+        {
+          "id": "whale",
+          "emoji": "🐳",
+          "name": "con cá voi",
+          "fact": "Cá voi xanh là con vật to nhất trên Trái Đất."
+        },
+        {
+          "id": "shark",
+          "emoji": "🦈",
+          "name": "con cá mập",
+          "fact": "Cá mập bơi rất nhanh và có nhiều răng sắc."
+        },
+        {
+          "id": "octopus",
+          "emoji": "🐙",
+          "name": "con bạch tuộc",
+          "fact": "Bạch tuộc có tám cái xúc tu dài."
+        },
+        {
+          "id": "crab",
+          "emoji": "🦀",
+          "name": "con cua",
+          "fact": "Con cua có hai cái càng to và bò ngang."
+        },
+        {
+          "id": "shrimp",
+          "emoji": "🦐",
+          "name": "con tôm",
+          "fact": "Con tôm có râu dài và bơi giật lùi rất nhanh."
+        },
+        {
+          "id": "squid",
+          "emoji": "🦑",
+          "name": "con mực",
+          "fact": "Con mực phun mực đen để trốn kẻ thù."
+        },
+        {
+          "id": "puffer",
+          "emoji": "🐡",
+          "name": "con cá nóc",
+          "fact": "Cá nóc phồng tròn như quả bóng khi sợ hãi."
+        },
+        {
+          "id": "seal",
+          "emoji": "🦭",
+          "name": "con hải cẩu",
+          "fact": "Hải cẩu bơi rất giỏi và thích nằm phơi nắng trên đá."
+        },
+        {
+          "id": "lobster",
+          "emoji": "🦞",
+          "name": "con tôm hùm",
+          "fact": "Tôm hùm có vỏ cứng và hai cái càng to."
+        },
+        {
+          "id": "turtle",
+          "emoji": "🐢",
+          "name": "con rùa biển",
+          "fact": "Rùa biển bơi rất xa và lên bãi cát để đẻ trứng."
+        },
+        {
+          "id": "otter",
+          "emoji": "🦦",
+          "name": "con rái cá",
+          "fact": "Rái cá thích nằm ngửa trên mặt nước."
+        },
+        {
+          "id": "shell",
+          "emoji": "🐚",
+          "name": "vỏ ốc biển",
+          "fact": "Áp vỏ ốc biển vào tai, bé nghe như có tiếng sóng."
+        },
+        {
+          "id": "coral",
+          "emoji": "🪸",
+          "name": "san hô",
+          "fact": "San hô có nhiều màu sắc và là nhà của nhiều loài cá."
+        }
+      ]
+    },
+    {
+      "id": "bugs_birds",
+      "title": "Côn trùng và chim",
+      "emoji": "🦋",
+      "color": "#7BB52A",
+      "cover": [
+        "🐝",
+        "🐞",
+        "🦜"
+      ],
+      "items": [
+        {
+          "id": "butterfly",
+          "emoji": "🦋",
+          "name": "con bướm",
+          "fact": "Con bướm có đôi cánh nhiều màu sắc rất đẹp."
+        },
+        {
+          "id": "bee",
+          "emoji": "🐝",
+          "name": "con ong",
+          "fact": "Con ong hút mật hoa để làm ra mật ong."
+        },
+        {
+          "id": "ladybug",
+          "emoji": "🐞",
+          "name": "con bọ rùa",
+          "fact": "Bọ rùa có cái lưng màu đỏ với những chấm đen."
+        },
+        {
+          "id": "ant",
+          "emoji": "🐜",
+          "name": "con kiến",
+          "fact": "Con kiến nhỏ xíu nhưng khiêng được đồ rất nặng."
+        },
+        {
+          "id": "caterpillar",
+          "emoji": "🐛",
+          "name": "con sâu",
+          "fact": "Con sâu lớn lên sẽ biến thành con bướm."
+        },
+        {
+          "id": "snail",
+          "emoji": "🐌",
+          "name": "con ốc sên",
+          "fact": "Ốc sên bò rất chậm và mang nhà trên lưng."
+        },
+        {
+          "id": "cricket",
+          "emoji": "🦗",
+          "name": "con dế",
+          "fact": "Con dế kêu rả rích vào ban đêm."
+        },
+        {
+          "id": "mosquito",
+          "emoji": "🦟",
+          "name": "con muỗi",
+          "fact": "Con muỗi hay đốt, bé nhớ ngủ trong màn nhé."
+        },
+        {
+          "id": "bird",
+          "emoji": "🐦",
+          "name": "con chim",
+          "fact": "Con chim dùng đôi cánh để bay trên trời."
+        },
+        {
+          "id": "parrot",
+          "emoji": "🦜",
+          "name": "con vẹt",
+          "fact": "Con vẹt có bộ lông sặc sỡ và biết nói theo người."
+        },
+        {
+          "id": "owl",
+          "emoji": "🦉",
+          "name": "con cú mèo",
+          "fact": "Cú mèo thức vào ban đêm và có đôi mắt to tròn."
+        },
+        {
+          "id": "eagle",
+          "emoji": "🦅",
+          "name": "con đại bàng",
+          "fact": "Đại bàng bay rất cao và có đôi mắt rất tinh."
+        },
+        {
+          "id": "penguin",
+          "emoji": "🐧",
+          "name": "con chim cánh cụt",
+          "fact": "Chim cánh cụt không biết bay nhưng bơi rất giỏi."
+        },
+        {
+          "id": "peacock",
+          "emoji": "🦚",
+          "name": "con công",
+          "fact": "Con công xòe cái đuôi rực rỡ như một cái quạt."
+        },
+        {
+          "id": "flamingo",
+          "emoji": "🦩",
+          "name": "con hồng hạc",
+          "fact": "Hồng hạc có bộ lông màu hồng và hay đứng bằng một chân."
+        },
+        {
+          "id": "dove",
+          "emoji": "🕊️",
+          "name": "con chim bồ câu",
+          "fact": "Chim bồ câu bay đi rất xa vẫn nhớ đường về nhà."
+        },
+        {
+          "id": "swan",
+          "emoji": "🦢",
+          "name": "con thiên nga",
+          "fact": "Thiên nga có cái cổ dài và bơi trên hồ rất đẹp."
+        }
+      ]
+    },
+    {
+      "id": "fruits",
+      "title": "Hoa quả",
+      "emoji": "🍉",
+      "color": "#F0475E",
+      "cover": [
+        "🍌",
+        "🍇",
+        "🍓"
+      ],
+      "items": [
+        {
+          "id": "apple",
+          "emoji": "🍎",
+          "name": "quả táo",
+          "fact": "Quả táo ăn giòn ngọt, có màu đỏ hoặc màu xanh."
+        },
+        {
+          "id": "banana",
+          "emoji": "🍌",
+          "name": "quả chuối",
+          "fact": "Quả chuối chín có vỏ màu vàng, ăn rất mềm."
+        },
+        {
+          "id": "orange",
+          "emoji": "🍊",
+          "name": "quả cam",
+          "fact": "Quả cam mọng nước, uống nước cam giúp bé khỏe."
+        },
+        {
+          "id": "grapes",
+          "emoji": "🍇",
+          "name": "chùm nho",
+          "fact": "Nho mọc thành chùm, có quả màu tím và quả màu xanh."
+        },
+        {
+          "id": "watermelon",
+          "emoji": "🍉",
+          "name": "quả dưa hấu",
+          "fact": "Dưa hấu có vỏ xanh, ruột đỏ và rất nhiều nước."
+        },
+        {
+          "id": "mango",
+          "emoji": "🥭",
+          "name": "quả xoài",
+          "fact": "Quả xoài chín có màu vàng và rất thơm ngọt."
+        },
+        {
+          "id": "strawberry",
+          "emoji": "🍓",
+          "name": "quả dâu tây",
+          "fact": "Dâu tây màu đỏ, có những hạt nhỏ li ti bên ngoài."
+        },
+        {
+          "id": "pineapple",
+          "emoji": "🍍",
+          "name": "quả dứa",
+          "fact": "Quả dứa có vỏ sần sùi và chùm lá nhọn trên đầu."
+        },
+        {
+          "id": "coconut",
+          "emoji": "🥥",
+          "name": "quả dừa",
+          "fact": "Quả dừa có nước ngọt mát ở bên trong."
+        },
+        {
+          "id": "peach",
+          "emoji": "🍑",
+          "name": "quả đào",
+          "fact": "Quả đào có vỏ mịn như nhung và rất thơm."
+        },
+        {
+          "id": "pear",
+          "emoji": "🍐",
+          "name": "quả lê",
+          "fact": "Quả lê có nhiều nước, ăn giòn và mát."
+        },
+        {
+          "id": "cherry",
+          "emoji": "🍒",
+          "name": "quả anh đào",
+          "fact": "Quả anh đào nhỏ xinh, màu đỏ và hay mọc thành đôi."
+        },
+        {
+          "id": "kiwi",
+          "emoji": "🥝",
+          "name": "quả kiwi",
+          "fact": "Quả kiwi vỏ nâu có lông, ruột xanh có hạt đen nhỏ."
+        },
+        {
+          "id": "lemon",
+          "emoji": "🍋",
+          "name": "quả chanh",
+          "fact": "Quả chanh có vị rất chua, dùng để pha nước chanh."
+        },
+        {
+          "id": "melon",
+          "emoji": "🍈",
+          "name": "quả dưa lưới",
+          "fact": "Dưa lưới có vỏ như tấm lưới và ruột ngọt thơm."
+        },
+        {
+          "id": "blueberry",
+          "emoji": "🫐",
+          "name": "quả việt quất",
+          "fact": "Quả việt quất nhỏ, tròn và có màu xanh tím."
+        }
+      ]
+    },
+    {
+      "id": "veggies",
+      "title": "Rau củ",
+      "emoji": "🥕",
+      "color": "#2FA84F",
+      "cover": [
+        "🌽",
+        "🥦",
+        "🍅"
+      ],
+      "items": [
+        {
+          "id": "carrot",
+          "emoji": "🥕",
+          "name": "củ cà rốt",
+          "fact": "Củ cà rốt màu cam, có nhiều chất tốt cho mắt."
+        },
+        {
+          "id": "corn",
+          "emoji": "🌽",
+          "name": "bắp ngô",
+          "fact": "Bắp ngô có rất nhiều hạt vàng xếp thành hàng."
+        },
+        {
+          "id": "potato",
+          "emoji": "🥔",
+          "name": "củ khoai tây",
+          "fact": "Khoai tây dùng để làm món khoai tây chiên."
+        },
+        {
+          "id": "sweet_potato",
+          "emoji": "🍠",
+          "name": "củ khoai lang",
+          "fact": "Khoai lang nướng thơm phức và ngọt bùi."
+        },
+        {
+          "id": "tomato",
+          "emoji": "🍅",
+          "name": "quả cà chua",
+          "fact": "Quả cà chua chín có màu đỏ và nhiều nước."
+        },
+        {
+          "id": "cucumber",
+          "emoji": "🥒",
+          "name": "quả dưa chuột",
+          "fact": "Quả dưa chuột ăn giòn và mát."
+        },
+        {
+          "id": "broccoli",
+          "emoji": "🥦",
+          "name": "súp lơ xanh",
+          "fact": "Súp lơ xanh trông giống như một cái cây nhỏ."
+        },
+        {
+          "id": "onion",
+          "emoji": "🧅",
+          "name": "củ hành tây",
+          "fact": "Khi cắt hành tây, mắt mình hay bị cay."
+        },
+        {
+          "id": "garlic",
+          "emoji": "🧄",
+          "name": "củ tỏi",
+          "fact": "Củ tỏi có mùi thơm nồng, dùng để nấu ăn."
+        },
+        {
+          "id": "eggplant",
+          "emoji": "🍆",
+          "name": "quả cà tím",
+          "fact": "Quả cà tím có lớp vỏ màu tím bóng."
+        },
+        {
+          "id": "chili",
+          "emoji": "🌶️",
+          "name": "quả ớt",
+          "fact": "Quả ớt rất cay, bé đừng cắn nhé."
+        },
+        {
+          "id": "bell_pepper",
+          "emoji": "🫑",
+          "name": "quả ớt chuông",
+          "fact": "Ớt chuông không cay và có nhiều màu đẹp."
+        },
+        {
+          "id": "greens",
+          "emoji": "🥬",
+          "name": "rau cải",
+          "fact": "Rau cải có lá xanh to, nấu canh rất ngon."
+        },
+        {
+          "id": "mushroom",
+          "emoji": "🍄",
+          "name": "cây nấm",
+          "fact": "Cây nấm có cái mũ tròn như một chiếc ô nhỏ."
+        },
+        {
+          "id": "peanut",
+          "emoji": "🥜",
+          "name": "hạt lạc",
+          "fact": "Hạt lạc nằm trong vỏ và lớn lên ở dưới đất."
+        },
+        {
+          "id": "beans",
+          "emoji": "🫘",
+          "name": "hạt đậu",
+          "fact": "Hạt đậu nhỏ xíu có thể nảy mầm thành cây."
+        }
+      ]
+    },
+    {
+      "id": "vehicles",
+      "title": "Xe cộ",
+      "emoji": "🚒",
+      "color": "#E8453C",
+      "cover": [
+        "🚗",
+        "✈️",
+        "🚂"
+      ],
+      "items": [
+        {
+          "id": "car",
+          "emoji": "🚗",
+          "name": "xe ô tô",
+          "fact": "Xe ô tô có bốn bánh và chở cả nhà đi chơi."
+        },
+        {
+          "id": "bus",
+          "emoji": "🚌",
+          "name": "xe buýt",
+          "fact": "Xe buýt rất to và chở được nhiều người."
+        },
+        {
+          "id": "bicycle",
+          "emoji": "🚲",
+          "name": "xe đạp",
+          "fact": "Xe đạp có hai bánh, bé đạp bằng chân."
+        },
+        {
+          "id": "motorbike",
+          "emoji": "🏍️",
+          "name": "xe máy",
+          "fact": "Xe máy có hai bánh, đi xe máy phải đội mũ bảo hiểm."
+        },
+        {
+          "id": "fire_engine",
+          "emoji": "🚒",
+          "name": "xe cứu hỏa",
+          "fact": "Xe cứu hỏa màu đỏ, phun nước để dập lửa."
+        },
+        {
+          "id": "ambulance",
+          "emoji": "🚑",
+          "name": "xe cứu thương",
+          "fact": "Xe cứu thương chở người bệnh đến bệnh viện."
+        },
+        {
+          "id": "police_car",
+          "emoji": "🚓",
+          "name": "xe cảnh sát",
+          "fact": "Xe cảnh sát có còi hú và đèn nhấp nháy."
+        },
+        {
+          "id": "truck",
+          "emoji": "🚚",
+          "name": "xe tải",
+          "fact": "Xe tải chở được rất nhiều hàng hóa nặng."
+        },
+        {
+          "id": "tractor",
+          "emoji": "🚜",
+          "name": "máy cày",
+          "fact": "Máy cày giúp bác nông dân làm đất trên ruộng."
+        },
+        {
+          "id": "taxi",
+          "emoji": "🚕",
+          "name": "xe taxi",
+          "fact": "Xe taxi chở khách đến nơi họ muốn đi."
+        },
+        {
+          "id": "train",
+          "emoji": "🚂",
+          "name": "tàu hỏa",
+          "fact": "Tàu hỏa chạy trên đường ray và kêu tu tu."
+        },
+        {
+          "id": "airplane",
+          "emoji": "✈️",
+          "name": "máy bay",
+          "fact": "Máy bay bay trên bầu trời, cao hơn cả mây."
+        },
+        {
+          "id": "helicopter",
+          "emoji": "🚁",
+          "name": "máy bay trực thăng",
+          "fact": "Trực thăng có cánh quạt quay tít ở trên đầu."
+        },
+        {
+          "id": "rocket",
+          "emoji": "🚀",
+          "name": "tên lửa",
+          "fact": "Tên lửa bay vào vũ trụ, rất xa Trái Đất."
+        },
+        {
+          "id": "sailboat",
+          "emoji": "⛵",
+          "name": "thuyền buồm",
+          "fact": "Thuyền buồm đi trên biển nhờ có gió thổi."
+        },
+        {
+          "id": "ship",
+          "emoji": "🚢",
+          "name": "tàu thủy",
+          "fact": "Tàu thủy to lớn chở người và hàng hóa qua biển."
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "title": "Đồ vật trong nhà",
+      "emoji": "🛋️",
+      "color": "#B9772E",
+      "cover": [
+        "🧸",
+        "💡",
+        "🪑"
+      ],
+      "items": [
+        {
+          "id": "bed",
+          "emoji": "🛏️",
+          "name": "cái giường",
+          "fact": "Cái giường là nơi bé nằm ngủ mỗi đêm."
+        },
+        {
+          "id": "chair",
+          "emoji": "🪑",
+          "name": "cái ghế",
+          "fact": "Bé ngồi trên cái ghế để ăn cơm và học bài."
+        },
+        {
+          "id": "door",
+          "emoji": "🚪",
+          "name": "cái cửa",
+          "fact": "Mở cái cửa ra là mình đi vào được trong nhà."
+        },
+        {
+          "id": "bulb",
+          "emoji": "💡",
+          "name": "bóng đèn",
+          "fact": "Bóng đèn sáng lên giúp nhà mình không bị tối."
+        },
+        {
+          "id": "tv",
+          "emoji": "📺",
+          "name": "cái ti vi",
+          "fact": "Bé chỉ xem ti vi một chút thôi để mắt luôn khỏe nhé."
+        },
+        {
+          "id": "clock",
+          "emoji": "🕰️",
+          "name": "cái đồng hồ",
+          "fact": "Đồng hồ cho mình biết bây giờ là mấy giờ."
+        },
+        {
+          "id": "teddy",
+          "emoji": "🧸",
+          "name": "con gấu bông",
+          "fact": "Gấu bông mềm mại, bé ôm đi ngủ thật ấm."
+        },
+        {
+          "id": "toothbrush",
+          "emoji": "🪥",
+          "name": "bàn chải đánh răng",
+          "fact": "Bé dùng bàn chải để đánh răng buổi sáng và buổi tối."
+        },
+        {
+          "id": "soap",
+          "emoji": "🧼",
+          "name": "bánh xà phòng",
+          "fact": "Bé rửa tay bằng xà phòng để tay sạch sẽ."
+        },
+        {
+          "id": "bathtub",
+          "emoji": "🛁",
+          "name": "bồn tắm",
+          "fact": "Bé tắm trong bồn tắm cho thơm tho sạch sẽ."
+        },
+        {
+          "id": "broom",
+          "emoji": "🧹",
+          "name": "cái chổi",
+          "fact": "Cái chổi dùng để quét nhà cho sạch."
+        },
+        {
+          "id": "pan",
+          "emoji": "🍳",
+          "name": "cái chảo",
+          "fact": "Cái chảo dùng để rán trứng thơm ngon."
+        },
+        {
+          "id": "spoon",
+          "emoji": "🥄",
+          "name": "cái thìa",
+          "fact": "Bé dùng cái thìa để xúc cơm và ăn cháo."
+        },
+        {
+          "id": "chopsticks",
+          "emoji": "🥢",
+          "name": "đôi đũa",
+          "fact": "Người Việt Nam dùng đôi đũa để gắp thức ăn."
+        },
+        {
+          "id": "umbrella",
+          "emoji": "☂️",
+          "name": "cái ô",
+          "fact": "Cái ô che cho mình không bị ướt khi trời mưa."
+        },
+        {
+          "id": "basket",
+          "emoji": "🧺",
+          "name": "cái giỏ",
+          "fact": "Cái giỏ dùng để đựng quần áo hoặc hoa quả."
+        },
+        {
+          "id": "key",
+          "emoji": "🔑",
+          "name": "chìa khóa",
+          "fact": "Chìa khóa dùng để mở cửa và mở ổ khóa."
+        },
+        {
+          "id": "mirror",
+          "emoji": "🪞",
+          "name": "cái gương",
+          "fact": "Bé soi gương để nhìn thấy khuôn mặt của mình."
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "title": "Cơ thể bé",
+      "emoji": "🧒",
+      "color": "#F06C9B",
+      "cover": [
+        "👀",
+        "✋",
+        "👂"
+      ],
+      "items": [
+        {
+          "id": "eyes",
+          "emoji": "👀",
+          "name": "đôi mắt",
+          "fact": "Đôi mắt giúp bé nhìn thấy mọi thứ xung quanh."
+        },
+        {
+          "id": "ear",
+          "emoji": "👂",
+          "name": "cái tai",
+          "fact": "Cái tai giúp bé nghe được mọi âm thanh."
+        },
+        {
+          "id": "nose",
+          "emoji": "👃",
+          "name": "cái mũi",
+          "fact": "Cái mũi giúp bé thở và ngửi mùi thơm."
+        },
+        {
+          "id": "mouth",
+          "emoji": "👄",
+          "name": "cái miệng",
+          "fact": "Cái miệng giúp bé ăn, nói và cười."
+        },
+        {
+          "id": "tooth",
+          "emoji": "🦷",
+          "name": "cái răng",
+          "fact": "Bé đánh răng mỗi ngày để răng chắc khỏe."
+        },
+        {
+          "id": "tongue",
+          "emoji": "👅",
+          "name": "cái lưỡi",
+          "fact": "Cái lưỡi giúp bé nếm vị ngọt, vị chua và vị mặn."
+        },
+        {
+          "id": "hand",
+          "emoji": "✋",
+          "name": "bàn tay",
+          "fact": "Bàn tay có năm ngón để cầm, nắm và vẽ."
+        },
+        {
+          "id": "finger",
+          "emoji": "👆",
+          "name": "ngón tay",
+          "fact": "Hai bàn tay của bé có tất cả mười ngón tay."
+        },
+        {
+          "id": "foot",
+          "emoji": "🦶",
+          "name": "bàn chân",
+          "fact": "Bàn chân giúp bé đứng vững và đi lại."
+        },
+        {
+          "id": "leg",
+          "emoji": "🦵",
+          "name": "cái chân",
+          "fact": "Đôi chân giúp bé chạy nhảy và đá bóng."
+        },
+        {
+          "id": "arm",
+          "emoji": "💪",
+          "name": "cánh tay",
+          "fact": "Cánh tay khỏe giúp bé ôm mọi người thật chặt."
+        },
+        {
+          "id": "brain",
+          "emoji": "🧠",
+          "name": "bộ não",
+          "fact": "Bộ não giúp bé suy nghĩ và ghi nhớ."
+        },
+        {
+          "id": "heart",
+          "emoji": "❤️",
+          "name": "trái tim",
+          "fact": "Trái tim đập thình thịch cả ngày lẫn đêm."
+        },
+        {
+          "id": "lungs",
+          "emoji": "🫁",
+          "name": "lá phổi",
+          "fact": "Lá phổi giúp bé hít thở không khí."
+        },
+        {
+          "id": "bone",
+          "emoji": "🦴",
+          "name": "bộ xương",
+          "fact": "Bộ xương giúp cơ thể bé đứng thẳng."
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "title": "Thiên nhiên và thời tiết",
+      "emoji": "🌈",
+      "color": "#2BB3A6",
+      "cover": [
+        "☀️",
+        "☁️",
+        "🌳"
+      ],
+      "items": [
+        {
+          "id": "sun",
+          "emoji": "☀️",
+          "name": "mặt trời",
+          "fact": "Mặt trời chiếu sáng và sưởi ấm Trái Đất."
+        },
+        {
+          "id": "moon",
+          "emoji": "🌙",
+          "name": "mặt trăng",
+          "fact": "Mặt trăng sáng trên bầu trời vào ban đêm."
+        },
+        {
+          "id": "star",
+          "emoji": "⭐",
+          "name": "ngôi sao",
+          "fact": "Những ngôi sao lấp lánh trên bầu trời đêm."
+        },
+        {
+          "id": "cloud",
+          "emoji": "☁️",
+          "name": "đám mây",
+          "fact": "Đám mây trắng bồng bềnh trôi trên trời."
+        },
+        {
+          "id": "rain",
+          "emoji": "🌧️",
+          "name": "cơn mưa",
+          "fact": "Mưa rơi xuống giúp cây cối xanh tươi."
+        },
+        {
+          "id": "rainbow",
+          "emoji": "🌈",
+          "name": "cầu vồng",
+          "fact": "Cầu vồng có bảy màu và hay hiện ra sau cơn mưa."
+        },
+        {
+          "id": "lightning",
+          "emoji": "⚡",
+          "name": "tia chớp",
+          "fact": "Tia chớp lóe sáng, sau đó có tiếng sấm ầm ầm."
+        },
+        {
+          "id": "snowflake",
+          "emoji": "❄️",
+          "name": "bông tuyết",
+          "fact": "Bông tuyết trắng rơi xuống khi trời rất lạnh."
+        },
+        {
+          "id": "wind",
+          "emoji": "💨",
+          "name": "cơn gió",
+          "fact": "Gió thổi làm lá cây đung đưa."
+        },
+        {
+          "id": "wave",
+          "emoji": "🌊",
+          "name": "sóng biển",
+          "fact": "Sóng biển vỗ vào bờ cát rì rào."
+        },
+        {
+          "id": "mountain",
+          "emoji": "⛰️",
+          "name": "ngọn núi",
+          "fact": "Ngọn núi rất cao, đứng trên đỉnh núi nhìn được rất xa."
+        },
+        {
+          "id": "volcano",
+          "emoji": "🌋",
+          "name": "núi lửa",
+          "fact": "Núi lửa phun ra dung nham nóng đỏ rực."
+        },
+        {
+          "id": "tree",
+          "emoji": "🌳",
+          "name": "cây xanh",
+          "fact": "Cây xanh cho mình bóng mát và không khí trong lành."
+        },
+        {
+          "id": "flower",
+          "emoji": "🌸",
+          "name": "bông hoa",
+          "fact": "Bông hoa nở ra có màu sắc đẹp và hương thơm."
+        },
+        {
+          "id": "earth",
+          "emoji": "🌍",
+          "name": "Trái Đất",
+          "fact": "Trái Đất là ngôi nhà chung của tất cả chúng mình."
+        },
+        {
+          "id": "fire",
+          "emoji": "🔥",
+          "name": "ngọn lửa",
+          "fact": "Lửa rất nóng, bé không được nghịch lửa nhé."
+        },
+        {
+          "id": "water",
+          "emoji": "💧",
+          "name": "giọt nước",
+          "fact": "Con người, cây cối và con vật đều cần có nước."
+        }
+      ]
+    },
+    {
+      "id": "jobs",
+      "title": "Nghề nghiệp",
+      "emoji": "👩‍⚕️",
+      "color": "#7B63E0",
+      "cover": [
+        "👨‍🚒",
+        "👩‍🏫",
+        "👨‍🍳"
+      ],
+      "items": [
+        {
+          "id": "doctor",
+          "emoji": "👨‍⚕️",
+          "name": "bác sĩ",
+          "fact": "Bác sĩ khám bệnh và chữa bệnh cho mọi người."
+        },
+        {
+          "id": "nurse",
+          "emoji": "👩‍⚕️",
+          "name": "cô y tá",
+          "fact": "Cô y tá chăm sóc người bệnh ở bệnh viện."
+        },
+        {
+          "id": "teacher",
+          "emoji": "👩‍🏫",
+          "name": "cô giáo",
+          "fact": "Cô giáo dạy các bạn nhỏ học chữ và học số."
+        },
+        {
+          "id": "firefighter",
+          "emoji": "👨‍🚒",
+          "name": "chú lính cứu hỏa",
+          "fact": "Chú lính cứu hỏa dập lửa và cứu mọi người."
+        },
+        {
+          "id": "police",
+          "emoji": "👮",
+          "name": "chú công an",
+          "fact": "Chú công an giữ gìn an toàn cho mọi người."
+        },
+        {
+          "id": "chef",
+          "emoji": "👨‍🍳",
+          "name": "chú đầu bếp",
+          "fact": "Chú đầu bếp nấu những món ăn thật ngon."
+        },
+        {
+          "id": "farmer",
+          "emoji": "👨‍🌾",
+          "name": "bác nông dân",
+          "fact": "Bác nông dân trồng lúa để làm ra hạt gạo."
+        },
+        {
+          "id": "builder",
+          "emoji": "👷",
+          "name": "chú thợ xây",
+          "fact": "Chú thợ xây xây nên những ngôi nhà cao."
+        },
+        {
+          "id": "pilot",
+          "emoji": "👨‍✈️",
+          "name": "chú phi công",
+          "fact": "Chú phi công lái máy bay bay trên bầu trời."
+        },
+        {
+          "id": "astronaut",
+          "emoji": "👨‍🚀",
+          "name": "chú phi hành gia",
+          "fact": "Phi hành gia bay vào vũ trụ bằng tên lửa."
+        },
+        {
+          "id": "artist",
+          "emoji": "👩‍🎨",
+          "name": "cô họa sĩ",
+          "fact": "Cô họa sĩ vẽ những bức tranh thật đẹp."
+        },
+        {
+          "id": "scientist",
+          "emoji": "👩‍🔬",
+          "name": "nhà khoa học",
+          "fact": "Nhà khoa học làm thí nghiệm để tìm ra điều mới."
+        },
+        {
+          "id": "mechanic",
+          "emoji": "👨‍🔧",
+          "name": "chú thợ sửa xe",
+          "fact": "Chú thợ sửa xe làm cho xe bị hỏng chạy lại được."
+        },
+        {
+          "id": "singer",
+          "emoji": "👩‍🎤",
+          "name": "cô ca sĩ",
+          "fact": "Cô ca sĩ hát những bài hát thật hay."
+        }
+      ]
+    },
+    {
+      "id": "play",
+      "title": "Đồ chơi và âm nhạc",
+      "emoji": "🪁",
+      "color": "#E85DB0",
+      "cover": [
+        "🎈",
+        "🥁",
+        "⚽"
+      ],
+      "items": [
+        {
+          "id": "football",
+          "emoji": "⚽",
+          "name": "quả bóng đá",
+          "fact": "Các bạn đá quả bóng vào khung thành để ghi bàn."
+        },
+        {
+          "id": "basketball",
+          "emoji": "🏀",
+          "name": "quả bóng rổ",
+          "fact": "Quả bóng rổ được ném vào cái rổ ở trên cao."
+        },
+        {
+          "id": "kite",
+          "emoji": "🪁",
+          "name": "con diều",
+          "fact": "Con diều bay cao trên trời nhờ có gió."
+        },
+        {
+          "id": "balloon",
+          "emoji": "🎈",
+          "name": "quả bóng bay",
+          "fact": "Bóng bay rất nhẹ, bé nhớ cầm chặt dây nhé."
+        },
+        {
+          "id": "puzzle",
+          "emoji": "🧩",
+          "name": "trò ghép hình",
+          "fact": "Bé ghép các mảnh nhỏ lại thành một bức tranh."
+        },
+        {
+          "id": "nesting_doll",
+          "emoji": "🪆",
+          "name": "búp bê gỗ",
+          "fact": "Mở búp bê gỗ ra, bên trong có búp bê nhỏ hơn."
+        },
+        {
+          "id": "paint",
+          "emoji": "🎨",
+          "name": "hộp màu vẽ",
+          "fact": "Bé dùng màu để vẽ những bức tranh rực rỡ."
+        },
+        {
+          "id": "drum",
+          "emoji": "🥁",
+          "name": "cái trống",
+          "fact": "Cái trống kêu tùng tùng khi bé gõ."
+        },
+        {
+          "id": "guitar",
+          "emoji": "🎸",
+          "name": "đàn ghi ta",
+          "fact": "Đàn ghi ta có dây, gảy lên kêu tưng tưng."
+        },
+        {
+          "id": "piano",
+          "emoji": "🎹",
+          "name": "đàn piano",
+          "fact": "Đàn piano có phím màu trắng và phím màu đen."
+        },
+        {
+          "id": "trumpet",
+          "emoji": "🎺",
+          "name": "cái kèn",
+          "fact": "Cái kèn thổi lên kêu toe toe."
+        },
+        {
+          "id": "violin",
+          "emoji": "🎻",
+          "name": "đàn vĩ cầm",
+          "fact": "Đàn vĩ cầm được kéo bằng một cây vĩ."
+        },
+        {
+          "id": "bell",
+          "emoji": "🔔",
+          "name": "cái chuông",
+          "fact": "Cái chuông lắc lên kêu leng keng."
+        },
+        {
+          "id": "slide",
+          "emoji": "🛝",
+          "name": "cầu trượt",
+          "fact": "Bé trượt cầu trượt vèo một cái thật vui."
+        },
+        {
+          "id": "carousel",
+          "emoji": "🎠",
+          "name": "vòng quay ngựa gỗ",
+          "fact": "Vòng quay ngựa gỗ quay tròn và có nhạc vui."
+        }
+      ]
+    }
+  ]
+}

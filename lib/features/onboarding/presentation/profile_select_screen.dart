@@ -6,6 +6,8 @@ import '../../../core/theme/vimai_tokens.dart';
 import '../../../data/repositories/profile_repository.dart';
 import '../../shared/widgets/vimai_mascot.dart';
 import '../../shared/widgets/vimai_ui.dart';
+import '../../../core/audio/kid_guide.dart';
+import '../../shared/widgets/listen_prompt.dart';
 
 class ProfileSelectScreen extends ConsumerWidget {
   const ProfileSelectScreen({super.key});
@@ -13,7 +15,9 @@ class ProfileSelectScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final profiles = ref.watch(profileRepositoryProvider).getAllProfiles();
-    return PageScaffold(
+    return SpeakOnOpen(
+      lines: const [KidGuide.profileSelect],
+      child: PageScaffold(
       title: 'Chọn bé',
       body: Padding(
         padding: const EdgeInsets.all(24),
@@ -72,6 +76,7 @@ class ProfileSelectScreen extends ConsumerWidget {
           ],
         ),
       ),
+    ),
     );
   }
 }

@@ -118,6 +118,10 @@ void main() {
       await tester.pump();
       await tester.pump();
       await tester.pump(const Duration(milliseconds: 80));
+      // Mai now says the target kana; let the audio plugin timeouts settle.
+      for (var i = 0; i < 20; i++) {
+        await tester.pump(const Duration(seconds: 1));
+      }
     }
 
     testWidgets('shows target, progress and letters inside the playfield', (tester) async {
@@ -161,7 +165,9 @@ void main() {
       expect(find.text('Thử lại nhé!'), findsOneWidget);
       expect(find.text('Giỏi lắm!'), findsNothing);
       expect(find.text('Chơi lại'), findsNothing);
-      await tester.pump(const Duration(milliseconds: 420));
+      for (var i = 0; i < 20; i++) {
+        await tester.pump(const Duration(seconds: 1));
+      }
     });
 
     testWidgets('does not overflow across phone tablet and desktop sizes', (tester) async {
@@ -202,6 +208,9 @@ void main() {
           await tester.pump();
           await tester.pump();
           expect(tester.takeException(), isNull, reason: '${home.runtimeType} at $size');
+          // Let Mai finish reading (number clips wait on the audio plugin).
+          await tester.pumpWidget(const SizedBox());
+          await tester.pump(const Duration(minutes: 1));
         }
       }
     });

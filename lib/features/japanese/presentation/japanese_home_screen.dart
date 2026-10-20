@@ -8,6 +8,7 @@ import '../../../core/theme/app_theme.dart';
 import '../../../core/theme/vimai_art.dart';
 import '../../../data/repositories/profile_repository.dart';
 import '../../shared/widgets/kids_storybook.dart';
+import '../../../core/audio/kid_guide.dart';
 
 class JapaneseHomeScreen extends ConsumerWidget {
   const JapaneseHomeScreen({super.key});
@@ -18,6 +19,7 @@ class JapaneseHomeScreen extends ConsumerWidget {
     const hira = AppTheme.hiraganaColor;
     const kata = AppTheme.katakanaColor;
     return KidsHubShell(
+      guide: const [KidGuide.japaneseHub],
       title: copy.japanese,
       subtitle: copy.japanesePath,
       accent: hira,

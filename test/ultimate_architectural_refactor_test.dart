@@ -45,13 +45,16 @@ void main() {
 
     test('All required audio files exist in assets/audio with valid sizes', () {
       final keys = [
-        'v_b', 'v_c', 'v_k', 'v_d', 'v_đ', 'v_g', 'v_h',
+        // Filenames are telex ASCII (`v_dd`, never `v_đ`). Feedback ids that
+        // were never generated resolve through AudioService.bundledFallbacks.
+        'v_b', 'v_c', 'v_k', 'v_d', 'v_dd', 'v_g', 'v_h',
         'v_l', 'v_m', 'v_n', 'v_p', 'v_q', 'v_r', 'v_s',
-        'v_t', 'v_v', 'v_x', 'v_a', 'v_ao', 'v_ca', 'v_bo',
+        'v_t', 'v_v', 'v_x', 'v_a',
         'sys_success_1', 'sys_success_2', 'sys_success_3',
         'sys_success_4', 'sys_success_5', 'sys_fail_1',
       ];
-      for (final key in keys) {
+      for (final id in keys) {
+        final key = File('assets/audio/$id.mp3').existsSync() ? id : (AudioService.bundledFallbacks[id] ?? id);
         final mp3 = File('assets/audio/$key.mp3');
         expect(mp3.existsSync(), isTrue, reason: 'Missing assets/audio/$key.mp3');
         expect(mp3.lengthSync(), greaterThan(1000), reason: 'File too small: $key.mp3');

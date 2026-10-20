@@ -21,11 +21,13 @@ import '../../../data/repositories/profile_repository.dart';
 import '../../../domain/content/content_item.dart';
 import '../../ai/presentation/mai_companion_widget.dart';
 import '../../shared/widgets/choice_grid.dart';
+import '../../shared/widgets/listen_prompt.dart';
 import '../../shared/widgets/kids_scene.dart';
 import '../../shared/widgets/kids_storybook.dart';
 import '../../shared/widgets/vimai_mascot.dart';
 import '../../shared/widgets/vimai_ui.dart';
 import '../../shared/widgets/vimai_world.dart';
+import '../../../core/audio/kid_guide.dart';
 
 class MathScreen extends ConsumerWidget {
   const MathScreen({super.key});
@@ -73,6 +75,7 @@ class MathScreen extends ConsumerWidget {
     }
 
     return KidsHubShell(
+      guide: const [KidGuide.mathHub],
       title: copy.math,
       subtitle: copy.mathSub,
       accent: VimaiColor.mint,
@@ -140,8 +143,20 @@ class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
       _audio?.soundEnabled = profile?.soundEnabled ?? true;
       _audio?.bgmEnabled = profile?.bgmEnabled ?? true;
       _audio?.startGameBgm();
-      unawaited(_audio!.playAudio(AudioService.introForMathSkill(widget.skill)));
+      _speakQuestion(withIntro: true);
     });
+  }
+
+  /// Mai reads the instruction and the question ("3 cộng 4 bằng mấy").
+  void _speakQuestion({bool withIntro = false}) {
+    final intro = AudioService.introForMathSkill(widget.skill);
+    unawaited(
+      ref.read(audioServiceProvider).speak(
+        [_item.instruction, _item.question],
+        leadIds: withIntro ? [intro] : const [],
+        fallbackId: withIntro ? intro : null,
+      ),
+    );
   }
 
   @override
@@ -230,6 +245,7 @@ class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
         } else {
           _session.generateNewQuestion();
           _maiController.dismissBubble();
+          _speakQuestion();
         }
       },
     );
@@ -245,107 +261,104 @@ class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
     final lastChoice = _session.lastChoice;
 
     final page = finished
-      ? KidsHubShell(
-        title: _item.title,
-        accent: VimaiColor.mint,
-        artAsset: VimaiArt.mathValley,
-        onBack: () => popLearningScreen(context),
-        body: Center(
-          child: Padding(
-            padding: const EdgeInsets.all(24),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text('Giỏi lắm!', style: VimaiType.greeting.copyWith(color: VimaiColor.correct)),
-                const SizedBox(height: 8),
-                const IdleMascot(mood: MascotMood.celebrating, color: VimaiColor.mascot, size: 88),
-                const SizedBox(height: 8),
-                Text('$score đúng / $wrong sai', style: VimaiType.subtitle),
-                const SizedBox(height: 24),
-                KidsPlayButton(
-                  label: 'Chơi lại',
-                  color: AppTheme.mathColor,
-                  onPressed: () {
-                    setState(() => _session.restart());
-                    _maiController.dismissBubble();
-                  },
-                ),
-              ],
-            ),
-          ),
-        ),
-      )
-      : KidsHubShell(
-      title: _item.title,
-      accent: VimaiColor.mint,
-      onBack: () => popLearningScreen(context),
-      body: LayoutBuilder(
-        builder: (context, constraints) {
-          return SingleChildScrollView(
-            padding: const EdgeInsets.fromLTRB(20, 8, 20, 24),
-            child: ConstrainedBox(
-              constraints: BoxConstraints(minHeight: constraints.maxHeight, maxWidth: VimaiSpace.maxContent),
-              child: Column(
-                children: [
-                  Text('Đúng $score / $_goal', style: VimaiType.cardTitle.copyWith(color: AppTheme.mathColor)),
-                  const SizedBox(height: 8),
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(99),
-                    child: LinearProgressIndicator(
-                      value: _goal == 0 ? 0 : (score / _goal).clamp(0, 1),
-                      minHeight: 10,
+        ? KidsHubShell(
+            title: _item.title,
+            accent: VimaiColor.mint,
+            artAsset: VimaiArt.mathValley,
+            onBack: () => popLearningScreen(context),
+            body: Center(
+              child: Padding(
+                padding: const EdgeInsets.all(24),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text('Giỏi lắm!', style: VimaiType.greeting.copyWith(color: VimaiColor.correct)),
+                    const SizedBox(height: 8),
+                    const IdleMascot(mood: MascotMood.celebrating, color: VimaiColor.mascot, size: 88),
+                    const SizedBox(height: 8),
+                    Text('$score đúng / $wrong sai', style: VimaiType.subtitle),
+                    const SizedBox(height: 24),
+                    KidsPlayButton(
+                      label: 'Chơi lại',
                       color: AppTheme.mathColor,
-                      backgroundColor: AppTheme.mathColor.withValues(alpha: 0.12),
+                      onPressed: () {
+                        setState(() => _session.restart());
+                        _maiController.dismissBubble();
+                        _speakQuestion(withIntro: true);
+                      },
                     ),
-                  ),
-                  const SizedBox(height: 12),
-                  MaiCompanionWidget(
-                    context: MaiContext(
-                      currentModule: 'math',
-                      currentLesson: widget.skill,
-                      currentActivity: 'quiz',
-                      currentQuestion: _item.question ?? _item.instruction,
-                      learningObjective: _item.instruction,
-                      expectedAnswer: _item.answer,
-                      choices: _item.choices,
-                      childAge: ref.watch(currentProfileProvider)?.age ?? 5,
-                    ),
-                    controller: _maiController,
-                    mascotSize: 64,
-                    color: AppTheme.mathColor,
-                  ),
-                  const SizedBox(height: 12),
-                  SoftSurface(
-                    color: VimaiColor.mintSoft.withValues(alpha: 0.45),
-                    borderColor: AppTheme.mathColor.withValues(alpha: 0.28),
+                  ],
+                ),
+              ),
+            ),
+          )
+        : KidsHubShell(
+            title: _item.title,
+            accent: VimaiColor.mint,
+            onBack: () => popLearningScreen(context),
+            body: LayoutBuilder(
+              builder: (context, constraints) {
+                return SingleChildScrollView(
+                  padding: const EdgeInsets.fromLTRB(20, 8, 20, 24),
+                  child: ConstrainedBox(
+                    constraints: BoxConstraints(minHeight: constraints.maxHeight, maxWidth: VimaiSpace.maxContent),
                     child: Column(
                       children: [
-                        Text(_item.instruction, style: VimaiType.subtitle, textAlign: TextAlign.center),
-                        const SizedBox(height: 12),
-                        Text(
-                          _item.question ?? '',
-                          textAlign: TextAlign.center,
-                          style: VimaiType.display.copyWith(color: VimaiColor.ink),
+                        Text('Đúng $score / $_goal', style: VimaiType.cardTitle.copyWith(color: AppTheme.mathColor)),
+                        const SizedBox(height: 8),
+                        ClipRRect(
+                          borderRadius: BorderRadius.circular(99),
+                          child: LinearProgressIndicator(
+                            value: _goal == 0 ? 0 : (score / _goal).clamp(0, 1),
+                            minHeight: 10,
+                            color: AppTheme.mathColor,
+                            backgroundColor: AppTheme.mathColor.withValues(alpha: 0.12),
+                          ),
                         ),
+                        const SizedBox(height: 12),
+                        MaiCompanionWidget(
+                          context: MaiContext(
+                            currentModule: 'math',
+                            currentLesson: widget.skill,
+                            currentActivity: 'quiz',
+                            currentQuestion: _item.question ?? _item.instruction,
+                            learningObjective: _item.instruction,
+                            expectedAnswer: _item.answer,
+                            choices: _item.choices,
+                            childAge: ref.watch(currentProfileProvider)?.age ?? 5,
+                          ),
+                          controller: _maiController,
+                          mascotSize: 64,
+                          color: AppTheme.mathColor,
+                        ),
+                        const SizedBox(height: 12),
+                        ListenPrompt(
+                          text: _item.instruction,
+                          lines: [_item.instruction, _item.question],
+                          color: AppTheme.mathColor,
+                          style: VimaiType.subtitle,
+                          child: Text(
+                            _item.question ?? '',
+                            textAlign: TextAlign.center,
+                            style: VimaiType.display.copyWith(color: VimaiColor.ink),
+                          ),
+                        ),
+                        const SizedBox(height: 24),
+                        ChoiceGrid(
+                          choices: _item.choices ?? [],
+                          onSelected: _onChoice,
+                          color: AppTheme.mathColor,
+                          lastChoice: lastChoice,
+                          lastCorrect: correct,
+                        ),
+                        LessonFeedback(correct: correct, message: feedback),
                       ],
                     ),
                   ),
-                  const SizedBox(height: 24),
-                  ChoiceGrid(
-                    choices: _item.choices ?? [],
-                    onSelected: _onChoice,
-                    color: AppTheme.mathColor,
-                    lastChoice: lastChoice,
-                    lastCorrect: correct,
-                  ),
-                  LessonFeedback(correct: correct, message: feedback),
-                ],
-              ),
+                );
+              },
             ),
           );
-        },
-      ),
-    );
     return SessionBinder(subject: 'math', child: page);
   }
 }

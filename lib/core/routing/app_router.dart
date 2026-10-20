@@ -6,7 +6,11 @@ import '../providers.dart';
 import 'vimai_route_observer.dart';
 import '../../features/creativity/presentation/creativity_screen.dart';
 import '../../features/creativity/presentation/drawing_canvas_screen.dart';
+import '../../features/explore/presentation/explore_category_screen.dart';
+import '../../features/explore/presentation/explore_hub_screen.dart';
+import '../../features/explore/presentation/explore_quiz_screen.dart';
 import '../../features/games/presentation/games_screen.dart';
+import '../../features/games/presentation/odd_one_out_game.dart';
 import '../../features/home/presentation/home_screen.dart';
 import '../../features/japanese/kana_library/presentation/kana_library_screen.dart';
 import '../../features/japanese/presentation/japanese_home_screen.dart';
@@ -107,6 +111,10 @@ final goRouter = GoRouter(
     GoRoute(path: '/games/number-train', builder: (context, state) => const NumberTrainGame()),
     GoRoute(path: '/games/feed-animal', builder: (context, state) => const FeedAnimalGame()),
     GoRoute(path: '/games/find-similar', builder: (context, state) => const FindSimilarGame()),
+    GoRoute(path: '/games/odd-one-out', builder: (context, state) => const OddOneOutGame()),
+    GoRoute(path: '/games/first-sound', builder: (context, state) => const FirstSoundGame()),
+    GoRoute(path: '/games/melody-memory', builder: (context, state) => const MelodyMemoryGame()),
+    GoRoute(path: '/games/drum-count', builder: (context, state) => const DrumCountGame()),
     GoRoute(path: '/progress', builder: (context, state) => const ProgressScreen()),
     GoRoute(path: '/vietnamese', builder: (context, state) => const VietnameseScreen()),
     GoRoute(path: '/vietnamese/alphabet', builder: (context, state) => const VietnameseAlphabetGridScreen()),
@@ -163,6 +171,15 @@ final goRouter = GoRouter(
     ),
     GoRoute(path: '/vietnamese/choose', builder: (context, state) => const VietnameseChooseLetterScreen()),
     GoRoute(path: '/vietnamese/game', builder: (context, state) => const VietnameseLetterGameScreen()),
+    GoRoute(path: '/explore', builder: (context, state) => const ExploreHubScreen()),
+    GoRoute(
+      path: '/explore/:category',
+      builder: (context, state) => ExploreCategoryScreen(categoryId: state.pathParameters['category']!),
+    ),
+    GoRoute(
+      path: '/explore/:category/quiz',
+      builder: (context, state) => ExploreQuizScreen(categoryId: state.pathParameters['category']!),
+    ),
     GoRoute(path: '/thinking', builder: (context, state) => const ThinkingScreen()),
     GoRoute(
       path: '/creativity',

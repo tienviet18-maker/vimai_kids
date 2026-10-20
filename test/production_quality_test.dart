@@ -102,16 +102,17 @@ void main() {
   });
 
   test('home screen does not contain daily lesson copy', () {
+    // Home was redesigned from a card grid (DiscoveryNest + CanopyPathTrail)
+    // into Mai + the Discovery Islands archipelago; behaviour is covered by
+    // product_audit_widget_test.dart.
     final source = File('lib/features/home/presentation/home_screen.dart').readAsStringSync();
     expect(source.contains('Bài học hôm nay'), isFalse);
-    expect(source.contains('DiscoveryNest'), isTrue);
-    expect(source.contains('CanopyPathTrail'), isTrue);
+    expect(source.contains('DiscoveryArchipelago'), isTrue);
+    expect(source.contains('MaiGuide'), isTrue);
     expect(source.contains('continueLearningProvider'), isTrue);
     expect(source.contains('VimaiSpace.maxHome'), isTrue);
     expect(source.contains('startHomeBgm'), isTrue);
     expect(source.contains('KidsValleyScene'), isFalse);
-    expect(source.contains('WorldIsland'), isFalse);
-    expect(source.contains('ActivityGarden'), isFalse);
     expect(source.contains('KidsRoomScene'), isFalse);
   });
 

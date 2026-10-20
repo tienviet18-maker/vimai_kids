@@ -8,6 +8,7 @@ import '../../../core/theme/vimai_art.dart';
 import '../../../core/theme/vimai_tokens.dart';
 import '../../../data/repositories/profile_repository.dart';
 import '../../shared/widgets/kids_storybook.dart';
+import '../../../core/audio/kid_guide.dart';
 
 class VietnameseScreen extends ConsumerWidget {
   const VietnameseScreen({super.key});
@@ -19,10 +20,12 @@ class VietnameseScreen extends ConsumerWidget {
     final copy = AppStrings.of(profile, context);
     final items = [
       const (title: 'Học chữ', subtitle: 'Vuốt A → Ă → Â cùng Mai', route: '/vietnamese/learn', glyph: 'A'),
+      const (title: 'Khám phá thế giới', subtitle: 'Con vật, hoa quả, xe cộ… cùng Mai', route: '/explore', glyph: '🌍'),
       const (title: 'Viết chữ', subtitle: 'Tập viết theo mẫu', route: '/vietnamese/learn?mode=write', glyph: 'A'),
       const (title: 'Bảng chữ cái', subtitle: '29 chữ a ă â… y', route: '/vietnamese/alphabet', glyph: 'Ă'),
       const (title: 'Chọn chữ', subtitle: 'Nghe rồi chọn chữ đúng', route: '/vietnamese/learn?mode=recognize', glyph: '?'),
       const (title: 'Ghép âm', subtitle: 'b + a → ba', route: '/vietnamese/blend', glyph: 'ba'),
+      const (title: 'Âm đầu là gì?', subtitle: 'Nghe âm, chọn hình đúng', route: '/games/first-sound', glyph: '🐮'),
       if (age >= 5) const (title: 'Ghép vần', subtitle: 'an, ang, anh…', route: '/vietnamese/rimes', glyph: 'an'),
       const (title: 'Từ đơn giản', subtitle: 'ba, mẹ, cá…', route: '/vietnamese/words', glyph: 'từ'),
       const (title: 'Từ vựng', subtitle: 'Từ theo chủ đề', route: '/vietnamese/vocabulary', glyph: 'từ'),
@@ -32,6 +35,7 @@ class VietnameseScreen extends ConsumerWidget {
     ];
 
     return KidsHubShell(
+      guide: const [KidGuide.vietnameseHub],
       title: copy.vietnamese,
       subtitle: copy.vietnameseSub,
       accent: VimaiColor.sky,

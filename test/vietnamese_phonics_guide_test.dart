@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mai_an_learning/core/audio/audio_locale_policy.dart';
 import 'package:mai_an_learning/core/audio/audio_service.dart';
+import 'package:mai_an_learning/core/audio/speech_id.dart';
 import 'package:mai_an_learning/core/audio/vietnamese_phonics_guide.dart';
 import 'package:mai_an_learning/core/audio/vietnamese_phonics_view.dart';
 import 'package:mai_an_learning/core/audio/vietnamese_speech_catalog.dart';
@@ -211,7 +212,8 @@ void main() {
     expect(find.text('Tên chữ: xê'), findsNothing);
     expect(find.text('Xê'), findsNothing);
     expect(spy.ids, isNotEmpty);
-    expect(spy.ids.first, 'v_c');
+    // Mai's how-to line may come first; the first teaching clip is the sound.
+    expect(spy.ids.firstWhere((e) => !e.startsWith(SpeechId.prefix)), 'v_c');
     expect(spy.ids.where((e) => e == 'vi_letter_c_name' || e.startsWith('NAME:')), isEmpty);
   });
 
@@ -231,7 +233,7 @@ void main() {
     expect(find.text('Tên chữ: i'), findsNothing);
     expect(find.text('xê'), findsNothing);
     expect(find.textContaining('Học âm chữ'), findsOneWidget);
-    expect(spy.ids.first, 'v_y');
+    expect(spy.ids.firstWhere((e) => !e.startsWith(SpeechId.prefix)), 'v_y');
   });
 
   testWidgets('Vietnamese write mode shows a practice canvas immediately', (tester) async {

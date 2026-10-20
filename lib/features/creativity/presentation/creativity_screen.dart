@@ -15,6 +15,7 @@ import '../../japanese/writing/presentation/widgets/writing_canvas.dart';
 import '../../shared/widgets/choice_grid.dart';
 import '../../shared/widgets/vimai_ui.dart';
 import '../../shared/widgets/vimai_world.dart';
+import '../../../core/audio/kid_guide.dart';
 
 class CreativityScreen extends ConsumerStatefulWidget {
   final String? initialMode;
@@ -77,7 +78,59 @@ class _CreativityScreenState extends ConsumerState<CreativityScreen> {
     }
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (!mounted) return;
-      unawaited(ref.read(audioServiceProvider).playAudio('sys_creativity_intro'));
+      _spokenKey = _guideKey;
+      unawaited(
+        ref.read(audioServiceProvider).speak(
+          [KidGuide.creativityHub, ..._guideLines()],
+          fallbackId: 'sys_creativity_intro',
+        ),
+      );
+    });
+  }
+
+  String? _spokenKey;
+
+  String get _guideKey => switch (_mode) {
+        'color' => 'color:$_colorIndex',
+        'dots' => 'dots:$_dotIndex',
+        'pattern' => 'match:$_matchIndex', // "Ghép hình" chip shows match puzzles
+        'rules' => 'rules:$_patternIndex',
+        'challenge' => 'challenge:$_challengeIndex',
+        _ => _mode,
+      };
+
+  /// What Mai says for the current activity and picture/puzzle.
+  List<String> _guideLines() {
+    T at<T>(List<T> list, int i) => list[i % list.length];
+    switch (_mode) {
+      case 'color':
+        if (_pictures.isEmpty) return const [KidGuide.colorHowTo];
+        return [KidGuide.colorHowTo, 'Tô màu ${at(_pictures, _colorIndex).title}'];
+      case 'dots':
+        if (_dots.isEmpty) return const [];
+        return ['Nối điểm ${at(_dots, _dotIndex).title}'];
+      case 'pattern':
+        if (_matches.isEmpty) return const [];
+        return [at(_matches, _matchIndex).instruction];
+      case 'rules':
+        if (_patterns.isEmpty) return const [KidGuide.puzzleHowTo];
+        final p = at(_patterns, _patternIndex);
+        return [KidGuide.puzzleHowTo, 'Hình tiếp theo: ${p.sequence.join()} ?'];
+      case 'challenge':
+        if (_challenges.isEmpty) return const [KidGuide.drawHowTo];
+        return [at(_challenges, _challengeIndex).prompt];
+      default:
+        return const [KidGuide.drawHowTo];
+    }
+  }
+
+  /// Speaks the guide whenever the activity or puzzle changes.
+  void _maybeSpeakGuide() {
+    final key = _guideKey;
+    if (_spokenKey == null || _spokenKey == key) return;
+    _spokenKey = key;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) unawaited(ref.read(audioServiceProvider).speak(_guideLines()));
     });
   }
 
@@ -87,6 +140,7 @@ class _CreativityScreenState extends ConsumerState<CreativityScreen> {
 
   @override
   Widget build(BuildContext context) {
+    _maybeSpeakGuide();
     final copy = AppStrings.of(ref.watch(currentProfileProvider), context);
     return SessionBinder(
       subject: 'creativity',

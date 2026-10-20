@@ -13,6 +13,7 @@ import 'package:mai_an_learning/data/repositories/profile_repository.dart';
 import 'package:mai_an_learning/domain/models/child_profile.dart';
 import 'package:mai_an_learning/domain/models/kana_item.dart';
 import 'package:mai_an_learning/features/creativity/presentation/creativity_screen.dart';
+import 'package:mai_an_learning/features/home/presentation/discovery_islands.dart';
 import 'package:mai_an_learning/features/home/presentation/home_screen.dart';
 import 'package:mai_an_learning/features/japanese/writing/presentation/widgets/writing_canvas.dart';
 import 'package:mai_an_learning/features/parent/presentation/parent_screen.dart';
@@ -73,13 +74,16 @@ void main() {
     expect(find.text('Học tiếp'), findsNothing);
     expect(find.text('Bắt đầu'), findsNothing);
     expect(find.text('Chơi ngay'), findsNothing);
-    expect(find.byType(GridView), findsOneWidget);
-    expect(find.byType(SliverGrid), findsOneWidget);
-    expect(find.byType(CanopyPathTrail), findsOneWidget);
-    expect(find.byType(DiscoveryNest), findsOneWidget);
+    // Six worlds, each its own island — Creativity is no longer hidden behind Thinking.
+    expect(find.byType(DiscoveryArchipelago), findsOneWidget);
+    for (final world in ['Tiếng Việt', 'Toán', 'Tư duy', 'Sáng tạo', 'Trò chơi']) {
+      expect(find.text(world), findsOneWidget, reason: world);
+    }
+    expect(find.byType(MaiGuide), findsOneWidget);
     expect(find.byType(TactileNode), findsWidgets);
     expect(find.byType(ParentOakGate), findsOneWidget);
     expect(find.byType(CanopyBgmToggle), findsOneWidget);
+    expect(find.byType(Switch), findsNothing, reason: 'AI on/off lives behind the parent gate');
     expect(find.text('Bài học hôm nay'), findsNothing);
     expect(find.text('Tiến bộ'), findsNothing);
     expect(find.text('Mai An'), findsNothing);
@@ -130,6 +134,25 @@ void main() {
       expect(find.textContaining('Hôm nay cùng khám phá nhé'), findsOneWidget, reason: 'Home greeting at $size');
     }
     addTearDown(() => tester.binding.setSurfaceSize(null));
+  });
+
+  test('Discovery Islands never overlap and stay inside the sea at every target size', () {
+    const sizes = [
+      Size(332, 470), Size(362, 690), Size(384, 760), Size(592, 760), Size(620, 620), Size(900, 560), Size(1000, 640),
+    ];
+    for (final size in sizes) {
+      final layout = ArchipelagoLayout.compute(size, 6);
+      final area = Offset.zero & size;
+      for (var i = 0; i < layout.slots.length; i++) {
+        final a = layout.slots[i];
+        expect(area.inflate(1).contains(a.topLeft) && area.inflate(1).contains(a.bottomRight), isTrue,
+            reason: 'island $i outside $size: $a');
+        for (var j = i + 1; j < layout.slots.length; j++) {
+          expect(a.deflate(2).overlaps(layout.slots[j].deflate(2)), isFalse, reason: 'islands $i/$j overlap at $size');
+        }
+      }
+      expect(layout.islandSize, greaterThanOrEqualTo(90), reason: 'islands too small to tap at $size');
+    }
   });
 
   testWidgets('Parent, thinking and creativity do not overflow at 360x800', (tester) async {

@@ -13,6 +13,8 @@ import '../../../domain/models/skill_mastery.dart';
 import '../../shared/widgets/vimai_mascot.dart';
 import '../../shared/widgets/vimai_ui.dart';
 import '../../shared/widgets/vimai_world.dart';
+import '../../../core/audio/kid_guide.dart';
+import '../../shared/widgets/listen_prompt.dart';
 
 class ProgressScreen extends ConsumerWidget {
   const ProgressScreen({super.key});
@@ -37,7 +39,9 @@ class ProgressScreen extends ConsumerWidget {
     final practicing = items.where((e) => e.attempts > 0 && !e.isMastered).length;
     final active = items.where((e) => e.attempts > 0).length;
 
-    return IllustratedScaffold(
+    return SpeakOnOpen(
+      lines: const [KidGuide.progress],
+      child: IllustratedScaffold(
       title: copy.progress,
       leading: IconButton(
         icon: const Icon(Icons.arrow_back_ios_new),
@@ -126,6 +130,7 @@ class ProgressScreen extends ConsumerWidget {
                   ),
               ],
             ),
+    ),
     );
   }
 

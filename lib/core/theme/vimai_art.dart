@@ -11,6 +11,14 @@ class VimaiArt {
   static const japanLesson = 'assets/illustrations/lesson_japan.png';
   static const gardenLesson = 'assets/illustrations/home_world_bg.png';
 
+  /// Transparent island cut-outs of the world art (tool/make_island_cutouts.py).
+  static const islandVietnamese = 'assets/illustrations/islands/vietnamese.png';
+  static const islandJapanese = 'assets/illustrations/islands/japanese.png';
+  static const islandMath = 'assets/illustrations/islands/math.png';
+  static const islandThinking = 'assets/illustrations/islands/thinking.png';
+  static const islandCreativity = 'assets/illustrations/islands/creativity.png';
+  static const islandGames = 'assets/illustrations/islands/games.png';
+
   static String? objectForWord(String word) {
     switch (word.trim().toLowerCase()) {
       case 'cá':
