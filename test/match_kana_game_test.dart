@@ -41,7 +41,7 @@ void main() {
     await _settle(tester);
 
     final faces = _cards(tester).map(_faceOf).toList();
-    final first = 0;
+    const first = 0;
     final other = faces.indexWhere((f) => f != faces[first]);
     final partner = faces.lastIndexOf(faces[first]);
 
