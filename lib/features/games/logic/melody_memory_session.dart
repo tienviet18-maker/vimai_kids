@@ -40,9 +40,10 @@ class MelodyMemorySession {
   int get startLength => age >= 7 ? 3 : 2;
   int get maxLength => age <= 3 ? 5 : (age <= 5 ? 7 : 9);
 
-  /// Melodies to finish: half the usual game rounds, because each melody is
-  /// several taps and grows by a note every time.
-  int get goal => (GameCatalog.roundsForAge(age) / 2).round();
+  /// Melodies to finish (4 at age 3, 5 at 4–5, 6 at 6–7): fewer than other
+  /// games because each melody is several taps and grows by a note every
+  /// time, so the last one is 5 notes at age 3 and 8 at age 7.
+  int get goal => GameCatalog.sessionRounds(GameKind.melodyMemory, age);
 
   /// Time between two notes when Mai plays (slower for the youngest).
   Duration get noteGap => Duration(milliseconds: age <= 4 ? 720 : 580);

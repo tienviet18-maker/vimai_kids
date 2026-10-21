@@ -60,7 +60,7 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
   static const _fallSlowdown = 0.5;
 
   int get _goal {
-    return GameCatalog.roundsForAge(ref.read(currentProfileProvider)?.age ?? 5);
+    return GameCatalog.sessionRounds(GameKind.catchLetters, ref.read(currentProfileProvider)?.age ?? 5);
   }
 
   Color get _accent {
@@ -85,12 +85,17 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
     }
   }
 
+  int get _age => ref.read(currentProfileProvider)?.age ?? 5;
+
+  /// Letters for the next round. Vietnamese: capitals (no marked letters)
+  /// for ages 3–4; from 5 on, about half the rounds are lowercase.
   List<KanaItem> _pool() {
     switch (widget.alphabet) {
       case CatchAlphabet.katakana:
         return katakanaData;
       case CatchAlphabet.vietnamese:
-        return CatchKanaRound.vietnamesePool();
+        final age = _age;
+        return CatchKanaRound.vietnamesePool(age: age, lowercase: age >= 5 && _random.nextBool());
       case CatchAlphabet.hiragana:
         return hiraganaData;
     }
@@ -106,11 +111,13 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
   /// letter does not come back again and again.
   CatchKanaRound _generate() {
     final pool = _pool();
-    var next = CatchKanaRound.generate(pool: pool, random: _random);
-    for (var guard = 0; guard < 12 && _recent.contains(next.target.id); guard++) {
-      next = CatchKanaRound.generate(pool: pool, random: _random);
+    final age = _age;
+    // Keyed by sound, so "a" does not follow "A" straight away.
+    var next = CatchKanaRound.generate(pool: pool, random: _random, age: age);
+    for (var guard = 0; guard < 12 && _recent.contains(next.target.romaji); guard++) {
+      next = CatchKanaRound.generate(pool: pool, random: _random, age: age);
     }
-    _recent.add(next.target.id);
+    _recent.add(next.target.romaji);
     if (_recent.length > 4) _recent.removeAt(0);
     return next;
   }
@@ -160,8 +167,7 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
     if (_lastTick != Duration.zero && elapsed - _lastTick < const Duration(milliseconds: 40)) return;
     final dtMs = _lastTick == Duration.zero ? 40 : max(1, (elapsed - _lastTick).inMilliseconds);
     _lastTick = elapsed;
-    final age = ref.read(currentProfileProvider)?.age ?? 5;
-    final pixels = GameCatalog.catchSpeed(age) * _fallSlowdown * (dtMs / 40.0);
+    final pixels = GameCatalog.catchSpeed(_age) * _fallSlowdown * (dtMs / 40.0);
     setState(() {
       for (final item in _items) {
         item.top = FallingLayout.advanceY(

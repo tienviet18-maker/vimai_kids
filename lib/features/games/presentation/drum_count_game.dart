@@ -56,7 +56,7 @@ class _DrumCountGameState extends ConsumerState<DrumCountGame> {
   bool? _correct;
   String? _feedback;
 
-  int get _goal => GameCatalog.roundsForAge(_age);
+  int get _goal => GameCatalog.sessionRounds(GameKind.drumCount, _age);
 
   @override
   void initState() {

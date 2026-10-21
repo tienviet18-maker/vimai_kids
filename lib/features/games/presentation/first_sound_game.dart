@@ -55,7 +55,7 @@ class _FirstSoundGameState extends ConsumerState<FirstSoundGame> {
   AudioService? _audio;
 
   int get _age => ref.read(currentProfileProvider)?.age ?? 5;
-  int get _goal => GameCatalog.roundsForAge(_age);
+  int get _goal => GameCatalog.sessionRounds(GameKind.firstSound, _age);
 
   /// Young children stay on three far-apart sounds; look-alike pairs from 4.
   int get _maxLevel => _age <= 3 ? 1 : FirstSound.maxLevel;

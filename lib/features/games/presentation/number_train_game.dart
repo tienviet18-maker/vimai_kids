@@ -40,7 +40,7 @@ class _NumberTrainGameState extends ConsumerState<NumberTrainGame> {
   /// "Chơi tiếp" and dispose so it never wipes a train the child started.
   Timer? _nextTrain;
 
-  int get _goal => GameCatalog.roundsForAge(ref.read(currentProfileProvider)?.age ?? 5);
+  int get _goal => GameCatalog.sessionRounds(GameKind.numberTrain, ref.read(currentProfileProvider)?.age ?? 5);
 
   @override
   void initState() {

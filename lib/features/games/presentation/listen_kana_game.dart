@@ -37,7 +37,7 @@ class _ListenKanaGameState extends ConsumerState<ListenKanaGame> {
   bool _finished = false;
   final _recent = <String>[];
 
-  int get _goal => GameCatalog.roundsForAge(ref.read(currentProfileProvider)?.age ?? 5);
+  int get _goal => GameCatalog.sessionRounds(GameKind.listenKana, ref.read(currentProfileProvider)?.age ?? 5);
 
   @override
   void initState() {
@@ -62,11 +62,14 @@ class _ListenKanaGameState extends ConsumerState<ListenKanaGame> {
     );
   }
 
+  /// Ages 3–4 never hear a sound with a look-alike or sound-alike (よ/ゆ)
+  /// among the choices; 6–7 get one on purpose (see [LetterChallenge]).
   CatchKanaRound _generate() {
-    var next = CatchKanaRound.generate(pool: hiraganaData, random: _random);
+    final age = ref.read(currentProfileProvider)?.age ?? 5;
+    var next = CatchKanaRound.generate(pool: hiraganaData, random: _random, age: age);
     var guard = 0;
     while (_recent.contains(next.target.id) && guard < 12) {
-      next = CatchKanaRound.generate(pool: hiraganaData, random: _random);
+      next = CatchKanaRound.generate(pool: hiraganaData, random: _random, age: age);
       guard++;
     }
     _recent.add(next.target.id);

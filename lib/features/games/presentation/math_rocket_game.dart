@@ -42,7 +42,7 @@ class _MathRocketGameState extends ConsumerState<MathRocketGame> {
   String? _feedback;
   bool? _correct;
 
-  int get _goal => GameCatalog.roundsForAge(ref.read(currentProfileProvider)?.age ?? 5);
+  int get _goal => GameCatalog.sessionRounds(GameKind.mathRocket, ref.read(currentProfileProvider)?.age ?? 5);
 
   @override
   void initState() {

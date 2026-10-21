@@ -46,7 +46,7 @@ class _FeedAnimalGameState extends ConsumerState<FeedAnimalGame> {
   bool? _correct;
   AudioService? _audio;
 
-  int get _goal => GameCatalog.roundsForAge(ref.read(currentProfileProvider)?.age ?? 5);
+  int get _goal => GameCatalog.sessionRounds(GameKind.feedAnimal, ref.read(currentProfileProvider)?.age ?? 5);
 
   @override
   void initState() {
