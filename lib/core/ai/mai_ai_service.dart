@@ -14,6 +14,12 @@ import 'mai_safety.dart';
 /// - Progressive Hint Model (Level 0 to 4)
 /// - Safe communication with Gemini API (timeout, API key protection, safety blocks)
 /// - Instant offline-first fallback guarantees (no raw errors or stack traces)
+///
+/// App Store Kids Category (1.3 / 5.1.4): store builds must NOT pass
+/// `--dart-define=GEMINI_API_KEY`. Without a key every reply comes from
+/// [MaiOfflineFallback] on the device and no request leaves the phone; the
+/// privacy policy (docs/privacy-policy.md) and the App Privacy answers rely on
+/// that. Google's Gemini API terms also exclude services directed at under-18s.
 class MaiAIService {
   final GeminiApiClient _apiClient;
   final MaiOfflineFallback _fallback;
