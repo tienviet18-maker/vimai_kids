@@ -8111,8 +8111,8 @@
    "text": "Ban đêm bé nhìn thấy gì trên trời?"
   },
   {
-   "id": "vi_say_b441daad",
-   "text": "Buồn ngủ thì bé nên?"
+   "id": "vi_say_d45c185f",
+   "text": "Buồn ngủ thì bé nên làm gì?"
   },
   {
    "id": "vi_say_d16b5f02",
@@ -8129,10 +8129,6 @@
   {
    "id": "vi_say_a4863ca0",
    "text": "Bên trái của quả táo quả chuối là?"
-  },
-  {
-   "id": "vi_say_979672df",
-   "text": "Bước tiếp: lên lên? (đi lên nữa)"
   },
   {
    "id": "vi_say_8d922256",
@@ -8157,10 +8153,6 @@
   {
    "id": "vi_say_ba70aa75",
    "text": "Chữ nhật"
-  },
-  {
-   "id": "vi_say_e7bbcfdf",
-   "text": "Chữ nào lớn hơn?"
   },
   {
    "id": "vi_say_b8f4c9c7",
@@ -8271,8 +8263,8 @@
    "text": "Hai hình này giống hay khác? con mèo con chó"
   },
   {
-   "id": "vi_say_e757ff8f",
-   "text": "Hai hình này giống hay khác? hình tròn hình tròn"
+   "id": "vi_say_10c7f2d2",
+   "text": "Hai hình này giống hay khác? hình thoi ô xanh dương"
   },
   {
    "id": "vi_say_bee581d2",
@@ -8347,36 +8339,8 @@
    "text": "Hai số này giống hay khác? 5 5"
   },
   {
-   "id": "vi_say_3542adec",
-   "text": "Hình cuối là gì? 7 8 9"
-  },
-  {
-   "id": "vi_say_813bf9a3",
-   "text": "Hình cuối là gì? bút chì chồng sách thước kẻ"
-  },
-  {
-   "id": "vi_say_aeb8ce68",
-   "text": "Hình cuối là gì? chấm đỏ chấm xanh dương chấm xanh lá"
-  },
-  {
-   "id": "vi_say_689a1d4b",
-   "text": "Hình cuối là gì? con cá con chim con ếch"
-  },
-  {
-   "id": "vi_say_1b24727e",
-   "text": "Hình cuối là gì? mặt trời đám mây mưa"
-  },
-  {
-   "id": "vi_say_d0735b5a",
-   "text": "Hình cuối là gì? ngôi sao mặt trăng mặt trời"
-  },
-  {
-   "id": "vi_say_3ff54bb6",
-   "text": "Hình cuối là gì? đàn piano đàn ghi ta cái trống"
-  },
-  {
-   "id": "vi_say_f632d2e1",
-   "text": "Hình cuối trong đàn piano đàn vi ô lông đàn ghi ta kèn là gì?"
+   "id": "vi_say_8ed3df9d",
+   "text": "Hình cuối là gì?"
   },
   {
    "id": "vi_say_d8e8eeae",
@@ -8551,40 +8515,12 @@
    "text": "Hình nào to nhất?"
   },
   {
-   "id": "vi_say_d2440396",
-   "text": "Hình nào ở trên?"
+   "id": "vi_say_654b47a3",
+   "text": "Hình thứ ba là gì?"
   },
   {
-   "id": "vi_say_9a210732",
-   "text": "Hình thứ ba là gì? bông hoa bông hoa cúc hoa hướng dương hoa dâm bụt"
-  },
-  {
-   "id": "vi_say_d7d3ba74",
-   "text": "Hình thứ ba là gì? xe ô tô xe taxi xe buýt xe điện"
-  },
-  {
-   "id": "vi_say_31c95f52",
-   "text": "Hình thứ hai là gì? 4 5 6"
-  },
-  {
-   "id": "vi_say_5b71568e",
-   "text": "Hình thứ hai là gì? X Y Z"
-  },
-  {
-   "id": "vi_say_8d5221ea",
-   "text": "Hình thứ hai là gì? ngôi nhà trường học bệnh viện"
-  },
-  {
-   "id": "vi_say_c317a17e",
-   "text": "Hình thứ hai là gì? xe ô tô xe buýt xe đạp"
-  },
-  {
-   "id": "vi_say_f0c100db",
-   "text": "Hình thứ hai là gì? ô đỏ ô xanh dương ô vàng"
-  },
-  {
-   "id": "vi_say_735c5ebe",
-   "text": "Hình thứ hai trong ô đỏ ô cam ô vàng ô xanh lá là gì?"
+   "id": "vi_say_dbf0fc1e",
+   "text": "Hình thứ hai là gì?"
   },
   {
    "id": "vi_say_78837135",
@@ -8671,32 +8607,12 @@
    "text": "Hình tiếp theo: đàn piano đàn ghi ta đàn piano đàn ghi ta?"
   },
   {
-   "id": "vi_say_f7d7f2f0",
-   "text": "Hình đầu là gì? bông hoa cái cây cỏ bốn lá"
+   "id": "vi_say_e04632e7",
+   "text": "Hình đầu là gì?"
   },
   {
-   "id": "vi_say_8673cd68",
-   "text": "Hình đầu là gì? con diều bóng bay hộp quà"
-  },
-  {
-   "id": "vi_say_22f93835",
-   "text": "Hình đầu là gì? tam giác hình tròn hình vuông"
-  },
-  {
-   "id": "vi_say_d260bca1",
-   "text": "Hình đầu tiên là gì? con chó con mèo con chuột"
-  },
-  {
-   "id": "vi_say_1a1ef91e",
-   "text": "Hình đầu tiên là gì? con voi hươu cao cổ ngựa vằn"
-  },
-  {
-   "id": "vi_say_9fbbd0e8",
-   "text": "Hình đầu tiên là gì? con ếch con rùa thằn lằn"
-  },
-  {
-   "id": "vi_say_63d6f0b0",
-   "text": "Hình đầu tiên là gì? quả táo quả chuối quả nho"
+   "id": "vi_say_1cfe4e0f",
+   "text": "Hình đầu tiên là gì?"
   },
   {
    "id": "vi_say_17d256ca",
@@ -8707,32 +8623,8 @@
    "text": "Hình đầu: trứng gà con gà con, đâu là đầu?"
   },
   {
-   "id": "vi_say_6ecba785",
-   "text": "Hình ở giữa là gì? 1 2 3"
-  },
-  {
-   "id": "vi_say_cf202fd5",
-   "text": "Hình ở giữa là gì? A B C"
-  },
-  {
-   "id": "vi_say_278b42c4",
-   "text": "Hình ở giữa là gì? bánh nướng bánh quy bánh vòng"
-  },
-  {
-   "id": "vi_say_634d9e50",
-   "text": "Hình ở giữa là gì? con mèo con chó con chuột"
-  },
-  {
-   "id": "vi_say_4e571035",
-   "text": "Hình ở giữa là gì? mặt trăng ngôi sao mặt trời"
-  },
-  {
-   "id": "vi_say_af425c72",
-   "text": "Hình ở giữa là gì? quả bóng tennis quả bóng bóng rổ"
-  },
-  {
-   "id": "vi_say_a816bcd5",
-   "text": "Hình ở giữa là gì? quả dưa hấu quả dâu tây quả anh đào"
+   "id": "vi_say_ff2a6b30",
+   "text": "Hình ở giữa là gì?"
   },
   {
    "id": "vi_say_cd4647f1",
@@ -8779,8 +8671,8 @@
    "text": "Muốn vẽ thì cần gì?"
   },
   {
-   "id": "vi_say_4b199c69",
-   "text": "Muốn đọc sách thì cần gì?"
+   "id": "vi_say_e02dc14a",
+   "text": "Muốn đọc truyện thì cần gì?"
   },
   {
    "id": "vi_say_11adfc1a",
@@ -8805,6 +8697,18 @@
   {
    "id": "vi_say_31dbf0c1",
    "text": "Mũi tên ngược với xuống là?"
+  },
+  {
+   "id": "vi_say_ffac0940",
+   "text": "Mũi tên nào chỉ lên trên?"
+  },
+  {
+   "id": "vi_say_abc39498",
+   "text": "Mũi tên nào chỉ sang phải?"
+  },
+  {
+   "id": "vi_say_4c15eb81",
+   "text": "Mũi tên nào chỉ xuống dưới?"
   },
   {
    "id": "vi_say_549d976f",
@@ -9023,10 +8927,6 @@
    "text": "Số tiếp theo: 2 4 6?"
   },
   {
-   "id": "vi_say_4b4b80c0",
-   "text": "Số tiếp theo: 20 18 16?"
-  },
-  {
    "id": "vi_say_370d91aa",
    "text": "Số tiếp theo: 3 6 9?"
   },
@@ -9075,8 +8975,8 @@
    "text": "Trước sau"
   },
   {
-   "id": "vi_say_e9294146",
-   "text": "Trời nắng thì bé thấy gì?"
+   "id": "vi_say_feaf7983",
+   "text": "Trời nắng thì trên trời có gì?"
   },
   {
    "id": "vi_say_447b4fc6",
@@ -9303,10 +9203,6 @@
    "text": "con voi"
   },
   {
-   "id": "vi_say_60ade60b",
-   "text": "con vật"
-  },
-  {
    "id": "vi_say_cd5fa06a",
    "text": "con vịt"
   },
@@ -9321,6 +9217,10 @@
   {
    "id": "vi_say_66454abc",
    "text": "cái cây"
+  },
+  {
+   "id": "vi_say_d0fc1b1f",
+   "text": "cái giường"
   },
   {
    "id": "vi_say_1353706f",
@@ -9507,12 +9407,12 @@
    "text": "nhà"
   },
   {
-   "id": "vi_say_1bd279e6",
-   "text": "nhìn"
+   "id": "vi_say_a297031a",
+   "text": "nhào lộn"
   },
   {
-   "id": "vi_say_7a6871fc",
-   "text": "nhảy"
+   "id": "vi_say_1bd279e6",
+   "text": "nhìn"
   },
   {
    "id": "vi_say_a6b7bb4c",
@@ -9589,10 +9489,6 @@
   {
    "id": "vi_say_df1ca102",
    "text": "sao"
-  },
-  {
-   "id": "vi_say_95611ca5",
-   "text": "sách"
   },
   {
    "id": "vi_say_9667d9fd",
@@ -9691,10 +9587,6 @@
    "text": "trứng"
   },
   {
-   "id": "vi_say_ea7f72d5",
-   "text": "tuyết"
-  },
-  {
    "id": "vi_say_da3d557f",
    "text": "tàu hỏa"
   },
@@ -9705,6 +9597,10 @@
   {
    "id": "vi_say_1ef5d518",
    "text": "uống"
+  },
+  {
+   "id": "vi_say_ef76fe6f",
+   "text": "viên kẹo"
   },
   {
    "id": "vi_say_9096328d",
@@ -9753,10 +9649,6 @@
   {
    "id": "vi_say_9c98d14e",
    "text": "ô đỏ"
-  },
-  {
-   "id": "vi_say_1ebc2fdc",
-   "text": "ăn kẹo"
   },
   {
    "id": "vi_say_7e101a93",
@@ -9911,14 +9803,6 @@
    "text": "Đường chữ U: phải xuống trái?"
   },
   {
-   "id": "vi_say_13f5c3f7",
-   "text": "Đường nào tới nhà? phải phải xuống"
-  },
-  {
-   "id": "vi_say_98966bdd",
-   "text": "Đường tới trường: phải phải phải bước cuối?"
-  },
-  {
    "id": "vi_say_525c86e8",
    "text": "Đường vòng về: phải xuống trái?"
   },
@@ -9973,10 +9857,6 @@
   {
    "id": "vi_say_30fa279a",
    "text": "đám mây"
-  },
-  {
-   "id": "vi_say_16e2c386",
-   "text": "đêm"
   },
   {
    "id": "vi_say_677f261c",
@@ -10583,6 +10463,10 @@
    "text": "Ghép dụng cụ"
   },
   {
+   "id": "vi_say_0291f1de",
+   "text": "Ghép hình cùng dạng"
+  },
+  {
    "id": "vi_say_8e0c8c1e",
    "text": "Ghép hình với bóng"
   },
@@ -10601,14 +10485,6 @@
   {
    "id": "vi_say_5f76b1ff",
    "text": "Ghép mùa với hình"
-  },
-  {
-   "id": "vi_say_54259eb9",
-   "text": "Ghép nhạc cụ"
-  },
-  {
-   "id": "vi_say_e540259b",
-   "text": "Ghép nửa hình"
   },
   {
    "id": "vi_say_a9928e1e",
@@ -10645,10 +10521,6 @@
   {
    "id": "vi_say_1eb35497",
    "text": "Hoa lá"
-  },
-  {
-   "id": "vi_say_90721c9a",
-   "text": "Hình hoàn chỉnh"
   },
   {
    "id": "vi_say_b310defa",
@@ -10785,6 +10657,10 @@
   {
    "id": "vi_say_169d143b",
    "text": "Hình tiếp theo: đàn piano đàn ghi ta đàn piano đàn ghi ta?"
+  },
+  {
+   "id": "vi_say_c9e6a343",
+   "text": "Hình đặc, hình rỗng"
   },
   {
    "id": "vi_say_c9e9fe5a",
@@ -11483,10 +11359,6 @@
    "text": "xuống"
   },
   {
-   "id": "vi_say_7d9227ec",
-   "text": "Âm nhạc"
-  },
-  {
    "id": "vi_say_85acf431",
    "text": "Ô tô"
   },
@@ -11629,6 +11501,10 @@
    "text": "Bé nhìn kỹ hình nhé, đáp án ở ngay đây thôi."
   },
   {
+   "id": "vi_say_4421da0e",
+   "text": "Bé nhìn thật kỹ và nhớ nhé!"
+  },
+  {
    "id": "vi_say_a7cdbc62",
    "text": "Bé suy nghĩ thêm một chút nhé."
   },
@@ -11713,6 +11589,10 @@
    "text": "Chạm vào cái loa để nghe lại nhé."
   },
   {
+   "id": "vi_say_2fa22355",
+   "text": "Chạm vào loa nhỏ để nghe từng đáp án nhé."
+  },
+  {
    "id": "vi_say_c7959182",
    "text": "Chạm vào nút to để học tiếp bài hôm trước nhé!"
   },
@@ -11751,6 +11631,10 @@
   {
    "id": "vi_say_a4604b0c",
    "text": "Cái nào không phải là đồ dùng trong nhà?"
+  },
+  {
+   "id": "vi_say_33be5e30",
+   "text": "Câu nào đúng nhỉ?"
   },
   {
    "id": "vi_say_eff5aed7",
@@ -11835,6 +11719,10 @@
   {
    "id": "vi_say_eb6e3c11",
    "text": "Nghe tên chữ, rồi chọn chữ đúng nhé."
+  },
+  {
+   "id": "vi_say_a37dc792",
+   "text": "Nghe và chọn từ đúng"
   },
   {
    "id": "vi_say_f5924e53",

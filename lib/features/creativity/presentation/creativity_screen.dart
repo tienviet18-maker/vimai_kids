@@ -625,6 +625,9 @@ class _CreativityScreenState extends ConsumerState<CreativityScreen> {
                     final matched = _matched.contains(actual);
                     return _PuzzlePiece(
                       glyph: puzzle.right[actual],
+                      // "Ghép bóng": the right column really is shadows,
+                      // not the same pictures again.
+                      shadow: puzzle.title == 'Ghép bóng' && !matched,
                       selected: false,
                       matched: matched,
                       color: VimaiColor.sky,
@@ -730,9 +733,11 @@ class _PuzzlePiece extends StatelessWidget {
     required this.matched,
     required this.color,
     required this.onTap,
+    this.shadow = false,
   });
 
   final String glyph;
+  final bool shadow;
   final bool selected;
   final bool matched;
   final Color color;
@@ -762,14 +767,19 @@ class _PuzzlePiece extends StatelessWidget {
                 width: selected ? 3.5 : 2,
               ),
             ),
-            child: Text(
-              glyph,
-              style: TextStyle(
-                fontSize: 56,
-                height: 1,
-                color: matched ? color.withValues(alpha: 0.55) : VimaiColor.ink,
-              ),
-            ),
+            child: shadow
+                ? ColorFiltered(
+                    colorFilter: const ColorFilter.mode(Color(0xFF3A3550), BlendMode.srcIn),
+                    child: Text(glyph, style: const TextStyle(fontSize: 56, height: 1)),
+                  )
+                : Text(
+                    glyph,
+                    style: TextStyle(
+                      fontSize: 56,
+                      height: 1,
+                      color: matched ? color.withValues(alpha: 0.55) : VimaiColor.ink,
+                    ),
+                  ),
           ),
         ),
       ),

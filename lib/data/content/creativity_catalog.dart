@@ -344,8 +344,8 @@ class CreativityCatalog {
         MatchPuzzle(id: 'match_home_2', title: 'Nơi sống', instruction: 'Con vật sống ở đâu?', ageMin: 5, ageMax: 7, left: ['🐝', '🐸', '🐧'], right: ['🌸', '🌿', '❄️']),
         MatchPuzzle(id: 'match_use_1', title: 'Công dụng', instruction: 'Dùng để làm gì?', ageMin: 4, ageMax: 6, left: ['✏️', '🥄', '🔑'], right: ['📝', '🍚', '🚪']),
         MatchPuzzle(id: 'match_use_2', title: 'Công dụng', instruction: 'Dùng để làm gì?', ageMin: 5, ageMax: 7, left: ['☂️', '🛏️', '🧼'], right: ['🌧️', '😴', '🚿']),
-        MatchPuzzle(id: 'match_shape_1', title: 'Hình hoàn chỉnh', instruction: 'Ghép nửa hình', ageMin: 3, ageMax: 5, left: ['◐', '▲', '■'], right: ['◑', '△', '□']),
-        MatchPuzzle(id: 'match_shape_2', title: 'Hình hoàn chỉnh', instruction: 'Ghép nửa hình', ageMin: 4, ageMax: 6, left: ['♥', '●', '◆'], right: ['♡', '○', '◇']),
+        MatchPuzzle(id: 'match_shape_1', title: 'Hình đặc — hình rỗng', instruction: 'Ghép hình cùng dạng', ageMin: 3, ageMax: 5, left: ['◐', '▲', '■'], right: ['◑', '△', '□']),
+        MatchPuzzle(id: 'match_shape_2', title: 'Hình đặc — hình rỗng', instruction: 'Ghép hình cùng dạng', ageMin: 4, ageMax: 6, left: ['♥', '●', '◆'], right: ['♡', '○', '◇']),
         MatchPuzzle(id: 'match_num_1', title: 'Số và lượng', instruction: 'Ghép số với chấm', ageMin: 3, ageMax: 5, left: ['1', '2', '3'], right: ['•', '••', '•••']),
         MatchPuzzle(id: 'match_num_2', title: 'Số và lượng', instruction: 'Ghép số với chấm', ageMin: 5, ageMax: 7, left: ['4', '5', '6'], right: ['••••', '•••••', '••••••']),
         MatchPuzzle(id: 'match_opposites', title: 'Đối lập', instruction: 'Ghép cặp đối lập', ageMin: 6, ageMax: 7, left: ['⬆️', '☀️', '🔥'], right: ['⬇️', '🌙', '❄️']),
@@ -354,9 +354,11 @@ class CreativityCatalog {
         MatchPuzzle(id: 'match_color_2', title: 'Màu sắc', instruction: 'Ghép màu với đồ vật', ageMin: 4, ageMax: 6, left: ['🟠', '🟣', '⚪'], right: ['🍊', '🍇', '☁️']),
         MatchPuzzle(id: 'match_weather', title: 'Thời tiết', instruction: 'Ghép với thời tiết', ageMin: 4, ageMax: 6, left: ['☀️', '🌧️', '❄️'], right: ['😎', '☂️', '🧤']),
         MatchPuzzle(id: 'match_jobs', title: 'Nghề nghiệp', instruction: 'Ai dùng gì?', ageMin: 5, ageMax: 7, left: ['👩‍🚒', '👨‍⚕️', '👩‍🏫'], right: ['🚒', '🩺', '📚']),
-        MatchPuzzle(id: 'match_baby', title: 'Con non', instruction: 'Con non của ai?', ageMin: 4, ageMax: 6, left: ['🐔', '🐄', '🐷'], right: ['🐣', '🐮', '🐽']),
+        // 🐮/🐽 are a cow's face and a pig's nose, not their babies.
+        MatchPuzzle(id: 'match_baby', title: 'Con non', instruction: 'Con non của ai?', ageMin: 4, ageMax: 6, left: ['🐔', '👩', '🦋'], right: ['🐣', '👶', '🐛']),
         MatchPuzzle(id: 'match_tools', title: 'Dụng cụ', instruction: 'Ghép dụng cụ', ageMin: 5, ageMax: 7, left: ['🔨', '✂️', '🧹'], right: ['🪵', '📄', '🍃']),
-        MatchPuzzle(id: 'match_sports', title: 'Thể thao', instruction: 'Ghép môn thể thao', ageMin: 4, ageMax: 7, left: ['⚽', '🏀', '🎾'], right: ['🥅', '⛹️', '🏸']),
+        // 🏸 is badminton, not tennis: the fishing pair has one clear match.
+        MatchPuzzle(id: 'match_sports', title: 'Thể thao', instruction: 'Ghép môn thể thao', ageMin: 4, ageMax: 7, left: ['⚽', '🏀', '🎣'], right: ['🥅', '⛹️', '🐟']),
         MatchPuzzle(id: 'match_family', title: 'Gia đình', instruction: 'Ghép thành viên', ageMin: 3, ageMax: 5, left: ['👨', '👩', '👶'], right: ['👔', '👗', '🍼']),
         MatchPuzzle(id: 'match_time', title: 'Buổi trong ngày', instruction: 'Ghép buổi với việc', ageMin: 5, ageMax: 7, left: ['🌅', '☀️', '🌙'], right: ['🥐', '🎮', '🛏️']),
         MatchPuzzle(id: 'match_season', title: 'Mùa', instruction: 'Ghép mùa với hình', ageMin: 5, ageMax: 7, left: ['🌸', '☀️', '🍂', '❄️'], right: ['🌷', '🏖️', '🍁', '⛄']),
@@ -364,10 +366,11 @@ class CreativityCatalog {
         MatchPuzzle(id: 'match_num_3', title: 'Số và lượng', instruction: 'Ghép số với chấm', ageMin: 6, ageMax: 7, left: ['7', '8', '9'], right: ['•••••••', '••••••••', '•••••••••']),
         MatchPuzzle(id: 'match_letters', title: 'Chữ cái', instruction: 'Ghép chữ hoa — thường', ageMin: 5, ageMax: 7, left: ['A', 'B', 'C'], right: ['a', 'b', 'c']),
         MatchPuzzle(id: 'match_emotion', title: 'Cảm xúc', instruction: 'Ghép cảm xúc', ageMin: 3, ageMax: 5, left: ['😊', '😢', '😡'], right: ['🎁', '💔', '💢']),
-        MatchPuzzle(id: 'match_body', title: 'Cơ thể', instruction: 'Dùng bộ phận nào?', ageMin: 4, ageMax: 6, left: ['👀', '👂', '👃'], right: ['👁️', '🎧', '🌸']),
+        MatchPuzzle(id: 'match_body', title: 'Cơ thể', instruction: 'Dùng bộ phận nào?', ageMin: 4, ageMax: 6, left: ['👀', '👂', '👃'], right: ['📖', '🎧', '🌸']),
         MatchPuzzle(id: 'match_kitchen', title: 'Nhà bếp', instruction: 'Dùng để làm gì?', ageMin: 5, ageMax: 7, left: ['🔪', '🍳', '🧊'], right: ['🥕', '🔥', '❄️']),
         MatchPuzzle(id: 'match_clothes', title: 'Quần áo', instruction: 'Mặc khi nào?', ageMin: 3, ageMax: 5, left: ['👕', '🧥', '🩱'], right: ['☀️', '❄️', '🏊']),
-        MatchPuzzle(id: 'match_music', title: 'Âm nhạc', instruction: 'Ghép nhạc cụ', ageMin: 5, ageMax: 7, left: ['🎹', '🎤', '🎧'], right: ['🎼', '🎶', '🎵']),
+        // Notes (🎼 🎶 🎵) fitted any instrument; shadows have one match each.
+        MatchPuzzle(id: 'match_music', title: 'Ghép bóng', instruction: 'Ghép hình với bóng', ageMin: 5, ageMax: 7, left: ['🎸', '🥁', '🎺'], right: ['🎸', '🥁', '🎺']),
         MatchPuzzle(id: 'match_plants', title: 'Cây cối', instruction: 'Ghép bộ phận cây', ageMin: 4, ageMax: 6, left: ['🌳', '🌸', '🍎'], right: ['🪵', '🐝', '🧺']),
         MatchPuzzle(id: 'match_space', title: 'Vũ trụ', instruction: 'Ghép vật thể trời', ageMin: 6, ageMax: 7, left: ['☀️', '🌙', '⭐'], right: ['🌞', '🌛', '✨']),
       ];

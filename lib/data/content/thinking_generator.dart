@@ -95,6 +95,7 @@ class ThinkingQuestionEngine {
           question: item.question,
           answer: item.answer,
           choices: item.choices == null ? null : (List<String>.from(item.choices!)..shuffle(_random)),
+          metadata: item.metadata,
         ),
     ];
     final items = [...base, ...doubled];
@@ -246,7 +247,7 @@ class ThinkingQuestionEngine {
         _item('s10', 'Lớn / nhỏ', 'Nhóm nào nhiều hơn?', '•••••', ['••', '•••••', '•••'], 6, 'size'),
         _item('s11', 'Lớn / nhỏ', 'Con nào to hơn?', '🐘', ['🐭', '🐘', '🐱'], 3, 'size'),
         _item('s12', 'Lớn / nhỏ', 'Quả nào nhỏ hơn?', '🍒', ['🍉', '🍒', '🍍'], 3, 'size'),
-        _item('s13', 'Lớn / nhỏ', 'Chữ nào lớn hơn?', 'A', ['a', 'A', '.'], 3, 'size'),
+        _item('s13', 'Lớn / nhỏ', 'Hình nào lớn hơn?', '🔴', ['🔴', '•'], 3, 'size'),
         _item('s14', 'Lớn / nhỏ', 'Số nào lớn hơn?', '5', ['1', '3', '5'], 3, 'size'),
         _item('s15', 'Lớn / nhỏ', 'Số nào nhỏ hơn?', '2', ['2', '6', '9'], 4, 'size'),
         _item('s16', 'Lớn / nhỏ', 'Nhóm nào ít hơn?', '•', ['••••', '•••', '•'], 4, 'size'),
@@ -329,44 +330,47 @@ class ThinkingQuestionEngine {
         _item('d27', 'Giống / khác', 'Hai hình này giống hay khác? 🐟 🐟', 'giống', ['giống', 'khác'], 4, 'same_diff'),
         _item('d28', 'Giống / khác', 'Hai số này giống hay khác? 0 0', 'giống', ['giống', 'khác'], 4, 'same_diff'),
         _item('d29', 'Giống / khác', 'Hai chữ này giống hay khác? b d', 'khác', ['giống', 'khác'], 6, 'same_diff'),
-        _item('d30', 'Giống / khác', 'Hai hình này giống hay khác? ◯ ○', 'giống', ['giống', 'khác'], 7, 'same_diff'),
+        _item('d30', 'Giống / khác', 'Hai hình này giống hay khác? 🔷 🟦', 'khác', ['giống', 'khác'], 7, 'same_diff'),
       ];
 
+  /// Nhớ vị trí: the screen shows [sequence] first, hides it, then asks.
+  /// The row is metadata, not part of the question, so it is never on
+  /// screen while the child answers.
   List<ContentItem> _memory() => [
-        _item('mem1', 'Nhớ vị trí', 'Hình ở giữa là gì? 🐱 🐶 🐭', '🐶', ['🐱', '🐶', '🐭', '🐰'], 5, 'memory'),
-        _item('mem2', 'Nhớ vị trí', 'Hình đầu tiên là gì? 🍎 🍌 🍇', '🍎', ['🍎', '🍌', '🍇', '🍊'], 5, 'memory'),
-        _item('mem3', 'Nhớ vị trí', 'Hình cuối là gì? ⭐ 🌙 ☀️', '☀️', ['⭐', '🌙', '☀️', '🌈'], 5, 'memory'),
-        _item('mem4', 'Nhớ vị trí', 'Hình ở giữa là gì? 1️⃣ 2️⃣ 3️⃣', '2️⃣', ['1️⃣', '2️⃣', '3️⃣', '4️⃣'], 5, 'memory'),
-        _item('mem5', 'Nhớ vị trí', 'Hình thứ hai là gì? 🚗 🚌 🚲', '🚌', ['🚗', '🚌', '🚲', '✈️'], 5, 'memory'),
-        _item('mem6', 'Nhớ vị trí', 'Hình đầu là gì? 🌸 🌳 🍀', '🌸', ['🌸', '🌳', '🍀', '🍁'], 4, 'memory'),
-        _item('mem7', 'Nhớ vị trí', 'Hình cuối là gì? 🐟 🐦 🐸', '🐸', ['🐟', '🐦', '🐸', '🐢'], 5, 'memory'),
-        _item('mem8', 'Nhớ vị trí', 'Hình ở giữa là gì? A B C', 'B', ['A', 'B', 'C', 'D'], 6, 'memory'),
-        _item('mem9', 'Nhớ vị trí', 'Hình thứ hai là gì? 🟥 🟦 🟨', '🟦', ['🟥', '🟦', '🟨', '🟩'], 6, 'memory'),
-        _item('mem10', 'Nhớ vị trí', 'Hình cuối là gì? 🎹 🎸 🥁', '🥁', ['🎹', '🎸', '🥁', '🎺'], 7, 'memory'),
-        _item('mem11', 'Nhớ vị trí', 'Hình đầu tiên là gì? 🐶 🐱 🐭', '🐶', ['🐶', '🐱', '🐭', '🐰'], 3, 'memory'),
-        _item('mem12', 'Nhớ vị trí', 'Hình cuối là gì? 🔴 🔵 🟢', '🟢', ['🔴', '🔵', '🟢', '🟡'], 3, 'memory'),
-        _item('mem13', 'Nhớ vị trí', 'Hình ở giữa là gì? 🍉 🍓 🍒', '🍓', ['🍉', '🍓', '🍒', '🍇'], 3, 'memory'),
-        _item('mem14', 'Nhớ vị trí', 'Hình thứ hai là gì? 🏠 🏫 🏥', '🏫', ['🏠', '🏫', '🏥', '🏪'], 4, 'memory'),
-        _item('mem15', 'Nhớ vị trí', 'Hình đầu là gì? ▲ ● ■', '▲', ['▲', '●', '■', '◆'], 3, 'memory'),
-        _item('mem16', 'Nhớ vị trí', 'Hình cuối là gì? 🌞 ☁️ 🌧️', '🌧️', ['🌞', '☁️', '🌧️', '❄️'], 4, 'memory'),
-        _item('mem17', 'Nhớ vị trí', 'Hình ở giữa là gì? 🎾 ⚽ 🏀', '⚽', ['🎾', '⚽', '🏀', '🏈'], 5, 'memory'),
-        _item('mem18', 'Nhớ vị trí', 'Hình thứ hai là gì? 4 5 6', '5', ['4', '5', '6', '7'], 4, 'memory'),
-        _item('mem19', 'Nhớ vị trí', 'Hình đầu tiên là gì? 🐘 🦒 🦓', '🐘', ['🐘', '🦒', '🦓', '🦁'], 5, 'memory'),
-        _item('mem20', 'Nhớ vị trí', 'Hình cuối là gì? ✏️ 📚 📏', '📏', ['✏️', '📚', '📏', '📎'], 5, 'memory'),
-        _item('mem21', 'Nhớ vị trí', 'Hình thứ ba là gì? 🌸 🌼 🌻 🌺', '🌻', ['🌸', '🌼', '🌻', '🌺'], 6, 'memory'),
-        _item('mem22', 'Nhớ vị trí', 'Hình ở giữa là gì? 🧁 🍪 🍩', '🍪', ['🧁', '🍪', '🍩', '🍰'], 4, 'memory'),
-        _item('mem23', 'Nhớ vị trí', 'Hình đầu là gì? 🪁 🎈 🎁', '🪁', ['🪁', '🎈', '🎁', '🧸'], 4, 'memory'),
-        _item('mem24', 'Nhớ vị trí', 'Hình thứ hai là gì? X Y Z', 'Y', ['X', 'Y', 'Z', 'W'], 6, 'memory'),
-        _item('mem25', 'Nhớ vị trí', 'Hình cuối là gì? 7 8 9', '9', ['7', '8', '9', '6'], 5, 'memory'),
-        _item('mem26', 'Nhớ vị trí', 'Hình thứ ba là gì? 🚗 🚕 🚌 🚎', '🚌', ['🚗', '🚕', '🚌', '🚎'], 6, 'memory'),
-        _item('mem27', 'Nhớ vị trí', 'Hình ở giữa là gì? 🌙 ⭐ ☀️', '⭐', ['🌙', '⭐', '☀️', '🌈'], 5, 'memory'),
-        _item('mem28', 'Nhớ vị trí', 'Hình đầu tiên là gì? 🐸 🐢 🦎', '🐸', ['🐸', '🐢', '🦎', '🐍'], 5, 'memory'),
-        _item('mem29', 'Nhớ vị trí', 'Hình thứ hai trong 🟥🟧🟨🟩 là gì?', '🟧', ['🟥', '🟧', '🟨', '🟩'], 7, 'memory'),
-        _item('mem30', 'Nhớ vị trí', 'Hình cuối trong 🎹🎻🎸🎺 là gì?', '🎺', ['🎹', '🎻', '🎸', '🎺'], 7, 'memory'),
+        _mem('mem1', 'Hình ở giữa là gì?', ['🐱', '🐶', '🐭'], '🐶', ['🐱', '🐶', '🐭', '🐰'], 5),
+        _mem('mem2', 'Hình đầu tiên là gì?', ['🍎', '🍌', '🍇'], '🍎', ['🍎', '🍌', '🍇', '🍊'], 5),
+        _mem('mem3', 'Hình cuối là gì?', ['⭐', '🌙', '☀️'], '☀️', ['⭐', '🌙', '☀️', '🌈'], 5),
+        _mem('mem4', 'Hình ở giữa là gì?', ['1️⃣', '2️⃣', '3️⃣'], '2️⃣', ['1️⃣', '2️⃣', '3️⃣', '4️⃣'], 5),
+        _mem('mem5', 'Hình thứ hai là gì?', ['🚗', '🚌', '🚲'], '🚌', ['🚗', '🚌', '🚲', '✈️'], 5),
+        _mem('mem6', 'Hình đầu là gì?', ['🌸', '🌳', '🍀'], '🌸', ['🌸', '🌳', '🍀', '🍁'], 4),
+        _mem('mem7', 'Hình cuối là gì?', ['🐟', '🐦', '🐸'], '🐸', ['🐟', '🐦', '🐸', '🐢'], 5),
+        _mem('mem8', 'Hình ở giữa là gì?', ['A', 'B', 'C'], 'B', ['A', 'B', 'C', 'D'], 6),
+        _mem('mem9', 'Hình thứ hai là gì?', ['🟥', '🟦', '🟨'], '🟦', ['🟥', '🟦', '🟨', '🟩'], 6),
+        _mem('mem10', 'Hình cuối là gì?', ['🎹', '🎸', '🥁'], '🥁', ['🎹', '🎸', '🥁', '🎺'], 7),
+        _mem('mem11', 'Hình đầu tiên là gì?', ['🐶', '🐱', '🐭'], '🐶', ['🐶', '🐱', '🐭', '🐰'], 3),
+        _mem('mem12', 'Hình cuối là gì?', ['🔴', '🔵', '🟢'], '🟢', ['🔴', '🔵', '🟢', '🟡'], 3),
+        _mem('mem13', 'Hình ở giữa là gì?', ['🍉', '🍓', '🍒'], '🍓', ['🍉', '🍓', '🍒', '🍇'], 3),
+        _mem('mem14', 'Hình thứ hai là gì?', ['🏠', '🏫', '🏥'], '🏫', ['🏠', '🏫', '🏥', '🏪'], 4),
+        _mem('mem15', 'Hình đầu là gì?', ['▲', '●', '■'], '▲', ['▲', '●', '■', '◆'], 3),
+        _mem('mem16', 'Hình cuối là gì?', ['🌞', '☁️', '🌧️'], '🌧️', ['🌞', '☁️', '🌧️', '❄️'], 4),
+        _mem('mem17', 'Hình ở giữa là gì?', ['🎾', '⚽', '🏀'], '⚽', ['🎾', '⚽', '🏀', '🏈'], 5),
+        _mem('mem18', 'Hình thứ hai là gì?', ['4', '5', '6'], '5', ['4', '5', '6', '7'], 4),
+        _mem('mem19', 'Hình đầu tiên là gì?', ['🐘', '🦒', '🦓'], '🐘', ['🐘', '🦒', '🦓', '🦁'], 5),
+        _mem('mem20', 'Hình cuối là gì?', ['✏️', '📚', '📏'], '📏', ['✏️', '📚', '📏', '📎'], 5),
+        _mem('mem21', 'Hình thứ ba là gì?', ['🌸', '🌼', '🌻', '🌺'], '🌻', ['🌸', '🌼', '🌻', '🌺'], 6),
+        _mem('mem22', 'Hình ở giữa là gì?', ['🧁', '🍪', '🍩'], '🍪', ['🧁', '🍪', '🍩', '🍰'], 4),
+        _mem('mem23', 'Hình đầu là gì?', ['🪁', '🎈', '🎁'], '🪁', ['🪁', '🎈', '🎁', '🧸'], 4),
+        _mem('mem24', 'Hình thứ hai là gì?', ['X', 'Y', 'Z'], 'Y', ['X', 'Y', 'Z', 'W'], 6),
+        _mem('mem25', 'Hình cuối là gì?', ['7', '8', '9'], '9', ['7', '8', '9', '6'], 5),
+        _mem('mem26', 'Hình thứ ba là gì?', ['🚗', '🚕', '🚌', '🚎'], '🚌', ['🚗', '🚕', '🚌', '🚎'], 6),
+        _mem('mem27', 'Hình ở giữa là gì?', ['🌙', '⭐', '☀️'], '⭐', ['🌙', '⭐', '☀️', '🌈'], 5),
+        _mem('mem28', 'Hình đầu tiên là gì?', ['🐸', '🐢', '🦎'], '🐸', ['🐸', '🐢', '🦎', '🐍'], 5),
+        _mem('mem29', 'Hình thứ hai là gì?', ['🟥', '🟧', '🟨', '🟩'], '🟧', ['🟥', '🟧', '🟨', '🟩'], 7),
+        _mem('mem30', 'Hình cuối là gì?', ['🎹', '🎻', '🎸', '🎺'], '🎺', ['🎹', '🎻', '🎸', '🎺'], 7),
       ];
 
   List<ContentItem> _paths() => [
-        _item('path1', 'Tìm đường', 'Đường nào tới nhà? → → ↓', '↓', ['↑', '↓', '←', '→'], 6, 'path'),
+        _item('path1', 'Tìm đường', 'Mũi tên nào chỉ xuống dưới?', '↓', ['↑', '↓', '←', '→'], 6, 'path'),
         _item('path2', 'Tìm đường', 'Đi lên thì chọn?', '↑', ['↑', '↓', '←', '→'], 5, 'path'),
         _item('path3', 'Tìm đường', 'Đi sang phải thì chọn?', '→', ['↑', '↓', '←', '→'], 5, 'path'),
         _item('path4', 'Tìm đường', 'Đi xuống thì chọn?', '↓', ['↑', '↓', '←', '→'], 5, 'path'),
@@ -382,10 +386,10 @@ class ThinkingQuestionEngine {
         _item('path14', 'Tìm đường', 'Mũi tên này chỉ đâu? ←', 'trái', ['lên', 'xuống', 'trái', 'phải'], 3, 'path'),
         _item('path15', 'Tìm đường', 'Để tới 🍎 bên trái, đi?', '←', ['↑', '↓', '←', '→'], 4, 'path'),
         _item('path16', 'Tìm đường', 'Để tới ⭐ phía dưới, đi?', '↓', ['↑', '↓', '←', '→'], 4, 'path'),
-        _item('path17', 'Tìm đường', 'Bước tiếp: ↑ ↑ ? (đi lên nữa)', '↑', ['↑', '↓', '←', '→'], 4, 'path'),
+        _item('path17', 'Tìm đường', 'Mũi tên nào chỉ lên trên?', '↑', ['↑', '↓', '←', '→'], 4, 'path'),
         _item('path18', 'Tìm đường', 'Mũi tên ngược với ↓ là?', '↑', ['↑', '↓', '←', '→'], 5, 'path'),
         _item('path19', 'Tìm đường', 'Mũi tên ngược với ← là?', '→', ['↑', '↓', '←', '→'], 5, 'path'),
-        _item('path20', 'Tìm đường', 'Đường tới trường: → → → bước cuối?', '→', ['↑', '↓', '←', '→'], 5, 'path'),
+        _item('path20', 'Tìm đường', 'Mũi tên nào chỉ sang phải?', '→', ['↑', '↓', '←', '→'], 5, 'path'),
         _item('path21', 'Tìm đường', 'Rẽ phải sau khi đi lên: ↑ rồi?', '→', ['↑', '↓', '←', '→'], 6, 'path'),
         _item('path22', 'Tìm đường', 'Đường vòng: ↓ ← ↑ ?', '→', ['↑', '↓', '←', '→'], 7, 'path'),
         _item('path23', 'Tìm đường', 'Để về chỗ cũ sau →, đi?', '←', ['↑', '↓', '←', '→'], 6, 'path'),
@@ -408,13 +412,13 @@ class ThinkingQuestionEngine {
         _item('l7', 'Logic đơn giản', 'Có 4 bánh, chia đều 2 bé, mỗi bé mấy bánh?', '2', ['1', '2', '4', '3'], 7, 'logic'),
         _item('l8', 'Logic đơn giản', 'Mẹ có 5 bông hoa, tặng 2 bông, còn mấy bông?', '3', ['2', '3', '5', '7'], 7, 'logic'),
         _item('l9', 'Logic đơn giản', 'Giày đi với gì?', 'chân', ['tay', 'chân', 'đầu'], 6, 'logic'),
-        _item('l10', 'Logic đơn giản', 'Muốn đọc sách thì cần gì?', 'sách', ['sách', 'bóng', 'kẹo'], 6, 'logic'),
+        _item('l10', 'Logic đơn giản', 'Muốn đọc truyện thì cần gì?', '📚', ['📚', '⚽', '🍬'], 6, 'logic'),
         _item('l11', 'Logic đơn giản', 'Chó kêu như thế nào?', 'gâu', ['gâu', 'meo', 'quạc'], 3, 'logic'),
         _item('l12', 'Logic đơn giản', 'Mèo kêu như thế nào?', 'meo', ['gâu', 'meo', 'ọ'], 3, 'logic'),
-        _item('l13', 'Logic đơn giản', 'Trời nắng thì bé thấy gì?', 'nắng', ['nắng', 'tuyết', 'đêm'], 3, 'logic'),
+        _item('l13', 'Logic đơn giản', 'Trời nắng thì trên trời có gì?', '☀️', ['☀️', '❄️', '⭐'], 3, 'logic'),
         _item('l14', 'Logic đơn giản', 'Muốn vẽ thì cần gì?', 'bút', ['bút', 'kẹo', 'giày'], 4, 'logic'),
         _item('l15', 'Logic đơn giản', 'Khát nước thì bé làm gì?', 'uống', ['ngủ', 'uống', 'chạy'], 4, 'logic'),
-        _item('l16', 'Logic đơn giản', 'Buồn ngủ thì bé nên?', 'ngủ', ['ăn kẹo', 'ngủ', 'nhảy'], 4, 'logic'),
+        _item('l16', 'Logic đơn giản', 'Buồn ngủ thì bé nên làm gì?', '🛏️', ['🍬', '🛏️', '🤸'], 4, 'logic'),
         _item('l17', 'Logic đơn giản', 'Có 1 quả, thêm 1 quả nữa thì có mấy quả?', '2', ['1', '2', '3', '0'], 3, 'logic'),
         _item('l18', 'Logic đơn giản', 'Tay dùng để làm gì?', 'cầm', ['đi', 'cầm', 'ngửi'], 5, 'logic'),
         _item('l19', 'Logic đơn giản', 'Mắt dùng để làm gì?', 'nhìn', ['nghe', 'nhìn', 'nếm'], 5, 'logic'),
@@ -431,6 +435,10 @@ class ThinkingQuestionEngine {
         _item('l30', 'Logic đơn giản', 'Cây cần gì để lớn?', 'nước', ['kẹo', 'nước', 'bóng'], 6, 'logic'),
       ];
 
+  ContentItem _mem(String id, String ask, List<String> sequence, String answer, List<String> choices, int ageMin) {
+    return _item(id, 'Nhớ vị trí', ask, answer, choices, ageMin, 'memory', metadata: {'sequence': sequence});
+  }
+
   ContentItem _odd(String id, List<String> choices, String answer, int ageMin) {
     return _item(id, 'Tìm hình khác', 'Hình nào khác với các hình còn lại?', answer, choices, ageMin, 'odd_one_out');
   }
@@ -442,8 +450,9 @@ class ThinkingQuestionEngine {
     String answer,
     List<String> choices,
     int ageMin,
-    String skill,
-  ) {
+    String skill, {
+    Map<String, dynamic>? metadata,
+  }) {
     return ContentItem(
       id: 'think_$id',
       subject: ContentSubject.thinking,
@@ -457,6 +466,7 @@ class ThinkingQuestionEngine {
       question: instruction,
       answer: answer,
       choices: List<String>.from(choices)..shuffle(_random),
+      metadata: metadata,
     );
   }
 }

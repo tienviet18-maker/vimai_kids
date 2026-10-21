@@ -258,6 +258,12 @@ class KidsCharacterBanner extends StatelessWidget {
 class WordSceneCue extends StatelessWidget {
   const WordSceneCue({super.key, required this.word, required this.color, this.size = 88});
 
+  /// True when there is real art or a drawing for [word]; anything else
+  /// gets a plain placeholder shape that shows nothing.
+  static bool canDraw(String word) =>
+      VimaiArt.objectForWord(word) != null ||
+      const {'cá', 'hoa', 'gà', 'voi', 'rùa', 'táo', 'quả', 'ớt', 'lá', 'xe'}.contains(word.trim().toLowerCase());
+
   final String word;
   final Color color;
   final double size;
