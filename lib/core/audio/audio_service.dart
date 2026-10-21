@@ -283,6 +283,9 @@ class AudioService {
       return k;
     }
 
+    // Mai's line clips (vi_say_<hash>) are real file names: the legacy
+    // vi_ → v_ mapping below turned them into v_say_* and none ever played.
+    if (k.startsWith(SpeechId.prefix)) return k;
     if (k.startsWith('vi_')) {
       final sub = k.substring(3);
       if (sub.startsWith('letter_')) {
