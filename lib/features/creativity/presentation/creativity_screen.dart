@@ -138,6 +138,11 @@ class _CreativityScreenState extends ConsumerState<CreativityScreen> {
     unawaited(ref.read(audioServiceProvider).playRandomSuccess());
   }
 
+  /// Wrong taps were silent; Mai gently says to try again.
+  void _retry() {
+    unawaited(ref.read(audioServiceProvider).playRandomTryAgain());
+  }
+
   @override
   Widget build(BuildContext context) {
     _maybeSpeakGuide();
@@ -527,12 +532,18 @@ class _CreativityScreenState extends ConsumerState<CreativityScreen> {
                 choices: _patternChoices(puzzle),
                 color: VimaiColor.coral,
                 onSelected: (value) {
+                  // Solved: extra taps must not re-cheer or hide "Bài tiếp theo".
+                  if (_patternDone) return;
                   final ok = value == puzzle.answer;
                   setState(() {
                     _patternFeedback = ok ? 'Giỏi lắm!' : 'Thử lại nhé!';
                     _patternDone = ok;
                   });
-                  if (ok) _cheer();
+                  if (ok) {
+                    _cheer();
+                  } else {
+                    _retry();
+                  }
                 },
               ),
             ),
@@ -660,6 +671,7 @@ class _CreativityScreenState extends ConsumerState<CreativityScreen> {
     if (_connected.contains(i)) return;
     if (_connected.length != i) {
       setState(() => _dotFeedback = 'Nối theo số nhé!');
+      _retry();
       return;
     }
     setState(() {
@@ -681,6 +693,7 @@ class _CreativityScreenState extends ConsumerState<CreativityScreen> {
       if (_matched.length == puzzle.left.length) _cheer();
     } else {
       setState(() => _matchLeft = null);
+      _retry();
     }
   }
 

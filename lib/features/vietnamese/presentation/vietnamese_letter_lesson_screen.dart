@@ -41,8 +41,8 @@ class VietnameseLetterLessonScreen extends ConsumerStatefulWidget {
 }
 
 class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterLessonScreen> {
-  late final PageController _controller;
-  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 400));
+  late PageController _controller;
+  final _answerTap = WebKitAnswerTap(holdDuration: kPraiseHold);
   late List<ContentItem> _letters;
   int _index = 0;
   bool _completed = false;
@@ -128,8 +128,10 @@ class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterL
 
   /// Next: page animation ONLY — audio via [onPageChanged].
   void _onNext() {
+    // A pending "correct → next letter" would move a second page.
+    _answerTap.reset();
     if (_index >= _letters.length - 1) {
-      setState(() => _completed = true);
+      _complete();
       return;
     }
     if (!_controller.hasClients) return;
@@ -144,6 +146,7 @@ class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterL
 
   /// Previous: page animation ONLY — audio via [onPageChanged].
   void _onPrevious() {
+    _answerTap.reset();
     if (_index <= 0) {
       popLearningScreen(context);
       return;
@@ -158,10 +161,36 @@ class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterL
     );
   }
 
+  void _complete() {
+    setState(() => _completed = true);
+    final audio = ref.read(audioServiceProvider);
+    audio.sfx(Sfx.win);
+    unawaited(audio.speakLine(KidGuide.sessionDone));
+  }
+
   void _jumpToPage(int index, {String? keepMode}) {
     if (index < 0) return;
     if (index >= _letters.length) {
-      setState(() => _completed = true);
+      _complete();
+      return;
+    }
+    if (_completed) {
+      // The PageView was not in the tree, so its controller has no clients:
+      // rebuild it on the review page instead of animating (which did nothing).
+      _controller.dispose();
+      _controller = PageController(initialPage: index);
+      setState(() {
+        _index = index;
+        _mode = keepMode ?? _mode;
+        _pendingMode = null;
+        _completed = false;
+        _feedback = null;
+        _lastChoice = null;
+        _lastCorrect = null;
+        _aiHint = null;
+        if (_mode == 'recognize') _rebuildRecognizeChoices();
+      });
+      unawaited(_playAt(index));
       return;
     }
     _pendingMode = keepMode ?? _mode;
@@ -200,7 +229,8 @@ class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterL
       case 'write':
         return 'Con hãy viết theo mẫu';
       case 'recognize':
-        return copy.findLetterForMai(glyph);
+        // Never print the letter to find: the child finds it by its sound.
+        return KidGuide.findLetter;
       default:
         if (phonics.phonics.isNotEmpty) {
           return phonics.exampleWord.isNotEmpty
@@ -290,7 +320,7 @@ class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterL
             final mode = active ? _mode : 'look';
             return LessonJourneyShell(
               backgroundAsset: VimaiArt.gardenLesson,
-              title: 'Học âm chữ: ${phonics.letter}',
+              title: mode == 'recognize' ? 'Tìm chữ' : 'Học âm chữ: ${phonics.letter}',
               speech: active ? _speechFor(letter, copy) : copy.letterIntro(phonics.letter),
               accent: AppTheme.primaryColor,
               mascotMood: active ? _moodFor() : MascotMood.happy,

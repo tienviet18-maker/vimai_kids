@@ -77,6 +77,10 @@ class _QuizViewState extends ConsumerState<_QuizView> {
   int _shake = 0;
   Timer? _timer;
 
+  /// Shortest time a solved question stays up, and time left for the name.
+  static const _minHold = Duration(milliseconds: 2300);
+  static const _nameTail = Duration(milliseconds: 2200);
+
   ExploreQuestion get _question => _round.questions[_q];
 
   @override
@@ -118,9 +122,23 @@ class _QuizViewState extends ConsumerState<_QuizView> {
       });
       if (!MediaQuery.disableAnimationsOf(context)) CelebrationOverlay.show(context);
       final line = ExploreGuide.correct[_rnd.nextInt(ExploreGuide.correct.length)];
-      _speak([line, item.name]);
       _timer?.cancel();
-      _timer = Timer(const Duration(milliseconds: 2300), _next);
+      // Praise (~3.5 s) + the name (~2 s) used to be cut after 2.3 s by the
+      // next question, so the child never heard the name. Move on once the
+      // name has started (speak resolves then) and had time to finish.
+      final q = _q;
+      final started = DateTime.now();
+      void advanceLater() {
+        if (!mounted || _q != q || _done) return;
+        final elapsed = DateTime.now().difference(started);
+        final wait = elapsed + _nameTail < _minHold ? _minHold - elapsed : _nameTail;
+        _timer?.cancel();
+        _timer = Timer(wait, _next);
+      }
+
+      unawaited(ref
+          .read(audioServiceProvider)
+          .speak([line, item.name]).then((_) => advanceLater(), onError: (Object _) => advanceLater()));
     } else {
       HapticFeedback.mediumImpact();
       setState(() {

@@ -31,12 +31,15 @@ class ThinkingScreen extends ConsumerStatefulWidget {
 
 class _ThinkingScreenState extends ConsumerState<ThinkingScreen> {
   late final ThinkingQuestionEngine _engine;
-  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 500));
+  final _answerTap = WebKitAnswerTap(holdDuration: kPraiseHold);
   ContentItem? _item;
   String? _feedback;
   bool? _correct;
   String? _lastChoice;
   int _score = 0;
+
+  /// Wrong taps on the current question; the answer is shown after two.
+  int _misses = 0;
   late final MaiCompanionController _maiController;
 
   @override
@@ -67,6 +70,7 @@ class _ThinkingScreenState extends ConsumerState<ThinkingScreen> {
     _feedback = null;
     _correct = null;
     _lastChoice = null;
+    _misses = 0;
     // Mai reads every question aloud (skill intro first on the first one).
     final intro = AudioService.introForThinkingSkill(item.skill);
     unawaited(
@@ -225,6 +229,15 @@ class _ThinkingScreenState extends ConsumerState<ThinkingScreen> {
                       text: item.instruction,
                       lines: [item.instruction, if (item.question != item.instruction) item.question],
                       color: VimaiColor.grape,
+                      // The puzzle itself ("🔴🔵🔴🔵 ?", the shape to find) was
+                      // only spoken, never shown, when it differs from the text.
+                      child: item.question != null && item.question!.trim().isNotEmpty && item.question != item.instruction
+                          ? Text(
+                              item.question!,
+                              textAlign: TextAlign.center,
+                              style: VimaiType.display.copyWith(color: VimaiColor.ink),
+                            )
+                          : null,
                     ),
                     const SizedBox(height: 16),
                     ChoiceGrid(
@@ -279,6 +292,7 @@ class _ThinkingScreenState extends ConsumerState<ThinkingScreen> {
                               _correct = false;
                               _lastChoice = value;
                               _feedback = copyLocal.tryAgain;
+                              _misses++;
                             },
                             playSound: () => unawaited(audio.playRandomTryAgain()),
                             sideEffects: sideEffects,
@@ -302,7 +316,8 @@ class _ThinkingScreenState extends ConsumerState<ThinkingScreen> {
                       },
                     ),
                     LessonFeedback(correct: _correct, message: _feedback),
-                    if (_correct == false && item.answer != null) ...[
+                    // Give the answer away only after two tries, not on the first miss.
+                    if (_correct == false && _misses >= 2 && item.answer != null) ...[
                       const SizedBox(height: 12),
                       SoftSurface(
                         color: VimaiColor.honeySoft.withValues(alpha: 0.55),

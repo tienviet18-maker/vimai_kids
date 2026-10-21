@@ -119,7 +119,7 @@ class MathQuizScreen extends ConsumerStatefulWidget {
 
 class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
   final _generator = MathQuestionGenerator();
-  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 500));
+  final _answerTap = WebKitAnswerTap(holdDuration: kPraiseHold);
   late QuizSession _session;
   AudioService? _audio;
   late final MaiCompanionController _maiController;
@@ -242,6 +242,9 @@ class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
         _session.busy = false;
         if (_session.score >= _goal) {
           _session.finished = true;
+          // The finish screen was silent: celebrate out loud.
+          audio.sfx(Sfx.win);
+          unawaited(audio.speakLine(KidGuide.sessionDone));
         } else {
           _session.generateNewQuestion();
           _maiController.dismissBubble();

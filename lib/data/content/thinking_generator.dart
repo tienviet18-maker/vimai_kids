@@ -27,7 +27,7 @@ class ThinkingQuestionEngine {
     final generated = _allForAge(age);
     final combined = [...bank.where((e) => age >= e.ageMin && age <= e.ageMax), ...generated];
     final weakIds = mastery.where((e) => e.skill.startsWith('thinking') && e.needsReview).map((e) => e.id).toSet();
-    var pool = combined.where((e) => !_recent.contains(e.id)).toList();
+    var pool = combined.where((e) => !_recent.contains(_rootId(e.id))).toList();
     if (pool.isEmpty) pool = combined;
     final weak = pool.where((e) => weakIds.contains(e.id)).toList();
     final pickFrom = weak.isNotEmpty && _random.nextBool() ? weak : pool;
@@ -50,16 +50,21 @@ class ThinkingQuestionEngine {
         choices: shuffled,
         metadata: item.metadata,
       );
-      _recent.add(refreshed.id);
+      // Remember the bank id, not the refreshed one: the random suffix never
+      // matched, so the same puzzle could come back straight away.
+      _recent.add(_rootId(item.id));
       if (_recent.length > 8) _recent.removeAt(0);
       return refreshed;
     }
-    _recent.add(item.id);
+    _recent.add(_rootId(item.id));
     if (_recent.length > 8) _recent.removeAt(0);
     return item;
   }
 
   List<ContentItem> allForAge(int age) => _allForAge(age);
+
+  /// "think_o1_b" (the doubled copy) is the same puzzle as "think_o1".
+  static String _rootId(String id) => id.endsWith('_b') ? id.substring(0, id.length - 2) : id;
 
   List<ContentItem> _allForAge(int age) {
     final base = <ContentItem>[
