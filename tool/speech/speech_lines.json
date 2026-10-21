@@ -3175,590 +3175,6 @@
  ],
  "math": [
   {
-   "id": "vi_say_96343961",
-   "text": "Bé có 1 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_0ba1c2b8",
-   "text": "Bé có 1 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_6e964347",
-   "text": "Bé có 1 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_b9b059dd",
-   "text": "Bé có 1 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_e6cb9276",
-   "text": "Bé có 1 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_89496973",
-   "text": "Bé có 1 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_93f929e6",
-   "text": "Bé có 1 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_84e45213",
-   "text": "Bé có 1 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_ecab00c5",
-   "text": "Bé có 1 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_358709bf",
-   "text": "Bé có 1 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_efc54f3a",
-   "text": "Bé có 1 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_e3c6ea91",
-   "text": "Bé có 1 ngôi sao, thêm 9 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_6ee155d0",
-   "text": "Bé có 1 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_469da04d",
-   "text": "Bé có 1 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_10c40d64",
-   "text": "Bé có 1 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_b04538cb",
-   "text": "Bé có 10 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_523b2a2d",
-   "text": "Bé có 10 ngôi sao, thêm 7 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_026e32bd",
-   "text": "Bé có 12 bông hoa, thêm 10 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_217e08d9",
-   "text": "Bé có 13 cái bánh, thêm 6 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_a2814640",
-   "text": "Bé có 13 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_2a097045",
-   "text": "Bé có 14 cái bánh, thêm 10 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_6a34cade",
-   "text": "Bé có 14 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_73fdf37b",
-   "text": "Bé có 14 quả bóng, thêm 8 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_fd39b682",
-   "text": "Bé có 15 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_21a34eb5",
-   "text": "Bé có 15 quả bóng, thêm 10 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_fd4b5ae0",
-   "text": "Bé có 16 bông hoa, thêm 8 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_74ae636f",
-   "text": "Bé có 16 ngôi sao, thêm 7 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_e0a5610e",
-   "text": "Bé có 17 cái bánh, thêm 9 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_e368f992",
-   "text": "Bé có 17 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_cabd3fdf",
-   "text": "Bé có 18 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_ec9c4b11",
-   "text": "Bé có 18 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_8ccf317d",
-   "text": "Bé có 18 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_81a00070",
-   "text": "Bé có 19 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_21e229c2",
-   "text": "Bé có 19 cái bánh, thêm 7 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_68bb7694",
-   "text": "Bé có 19 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_468a6d0a",
-   "text": "Bé có 19 cái kẹo, thêm 9 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_b3460b96",
-   "text": "Bé có 19 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_ef537597",
-   "text": "Bé có 19 ngôi sao, thêm 6 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_74ae87d3",
-   "text": "Bé có 2 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_4a0f7a29",
-   "text": "Bé có 2 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_6696f53c",
-   "text": "Bé có 2 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_4fa54b9c",
-   "text": "Bé có 2 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_43c67d2b",
-   "text": "Bé có 2 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_b10c1e72",
-   "text": "Bé có 2 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_e3ae60c6",
-   "text": "Bé có 2 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_18383098",
-   "text": "Bé có 2 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_34cd75f6",
-   "text": "Bé có 2 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_c78f9f01",
-   "text": "Bé có 2 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_666a6489",
-   "text": "Bé có 2 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_7b6384f4",
-   "text": "Bé có 2 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_070d055d",
-   "text": "Bé có 2 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_6ee6bc7f",
-   "text": "Bé có 20 bông hoa, thêm 6 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_916f82d6",
-   "text": "Bé có 20 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_7c94d913",
-   "text": "Bé có 20 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_2ae7eb8e",
-   "text": "Bé có 20 quả bóng, thêm 6 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_76dd07bf",
-   "text": "Bé có 3 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_7f2adf5c",
-   "text": "Bé có 3 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_5d47b849",
-   "text": "Bé có 3 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_2a4a699e",
-   "text": "Bé có 3 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_ddabccf3",
-   "text": "Bé có 3 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_48552a31",
-   "text": "Bé có 3 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_96b2d57e",
-   "text": "Bé có 3 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_b13032db",
-   "text": "Bé có 3 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_0cbd24da",
-   "text": "Bé có 3 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_6d3d22a7",
-   "text": "Bé có 3 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_a3c518d4",
-   "text": "Bé có 3 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_adfc70a6",
-   "text": "Bé có 3 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_5b41b4c8",
-   "text": "Bé có 3 ngôi sao, thêm 6 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_229a3874",
-   "text": "Bé có 3 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_316ec7ea",
-   "text": "Bé có 3 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_2f4635d6",
-   "text": "Bé có 4 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_45631a65",
-   "text": "Bé có 4 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_8d098ed7",
-   "text": "Bé có 4 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_4344e662",
-   "text": "Bé có 4 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_0ac93fde",
-   "text": "Bé có 4 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_31cbd18c",
-   "text": "Bé có 4 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_b954d0cf",
-   "text": "Bé có 4 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_fd4016f3",
-   "text": "Bé có 4 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_fd443646",
-   "text": "Bé có 4 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_ce8fc3f2",
-   "text": "Bé có 4 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_a09bf39e",
-   "text": "Bé có 4 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_ac673e8d",
-   "text": "Bé có 4 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_33de8a6c",
-   "text": "Bé có 4 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_216d6f95",
-   "text": "Bé có 4 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_d8f97382",
-   "text": "Bé có 4 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_a92bc5cb",
-   "text": "Bé có 4 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_cc07ef6e",
-   "text": "Bé có 5 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_739876b3",
-   "text": "Bé có 5 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_b85ada4a",
-   "text": "Bé có 5 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_448cd2d5",
-   "text": "Bé có 5 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_36b41164",
-   "text": "Bé có 5 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_1b1756e9",
-   "text": "Bé có 5 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_333f2845",
-   "text": "Bé có 5 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_22d1c2c4",
-   "text": "Bé có 5 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_51e6cae1",
-   "text": "Bé có 5 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_c80ee8f0",
-   "text": "Bé có 5 ngôi sao, thêm 8 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_bcaf7e5e",
-   "text": "Bé có 5 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_4141402c",
-   "text": "Bé có 6 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_9825cfba",
-   "text": "Bé có 6 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_77fd14f0",
-   "text": "Bé có 6 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_72c97ee8",
-   "text": "Bé có 6 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_f7e36ad7",
-   "text": "Bé có 6 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_581bcb14",
-   "text": "Bé có 6 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_059adb4e",
-   "text": "Bé có 6 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_45405e3c",
-   "text": "Bé có 6 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_1c9e569a",
-   "text": "Bé có 6 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_ff8dde14",
-   "text": "Bé có 6 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_9ea323a2",
-   "text": "Bé có 6 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_3805f255",
-   "text": "Bé có 6 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_3dad527d",
-   "text": "Bé có 6 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_6aff9b17",
-   "text": "Bé có 6 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_291f60a9",
-   "text": "Bé có 6 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_aa3310e2",
-   "text": "Bé có 7 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_810f75a7",
-   "text": "Bé có 7 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_283da4a4",
-   "text": "Bé có 7 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_c6f97d89",
-   "text": "Bé có 7 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_8422d267",
-   "text": "Bé có 7 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_dd2a8148",
-   "text": "Bé có 7 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_908babed",
-   "text": "Bé có 7 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_4a24774e",
-   "text": "Bé có 7 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_83f0889b",
-   "text": "Bé có 7 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_216bd083",
-   "text": "Bé có 7 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_e3b1655d",
-   "text": "Bé có 7 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_236560ca",
-   "text": "Bé có 7 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_cda223eb",
-   "text": "Bé có 7 ngôi sao, thêm 9 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_9656f788",
-   "text": "Bé có 7 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_65a6f57f",
-   "text": "Bé có 7 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_ffe6d132",
-   "text": "Bé có 8 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_a4d6e0d1",
-   "text": "Bé có 8 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_988cd364",
-   "text": "Bé có 8 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_1047155b",
-   "text": "Bé có 8 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
-  },
-  {
-   "id": "vi_say_46929c5a",
-   "text": "Bé có 8 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_b53a8f6d",
-   "text": "Bé có 8 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_6de52f68",
-   "text": "Bé có 8 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_27866cc3",
-   "text": "Bé có 8 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
-  },
-  {
-   "id": "vi_say_28c080d2",
-   "text": "Bé có 8 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_a9928bd4",
-   "text": "Bé có 8 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
-  },
-  {
-   "id": "vi_say_436b763a",
-   "text": "Bé có 8 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_849261e9",
-   "text": "Bé có 8 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_8f5c0e2c",
-   "text": "Bé có 8 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_2343aa9e",
-   "text": "Bé có 8 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
-  },
-  {
-   "id": "vi_say_2e353e13",
-   "text": "Bé có 8 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_98c55bc0",
-   "text": "Bé có 8 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_a2fd5069",
-   "text": "Bé có 8 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_dc88508e",
-   "text": "Bé có 8 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
-   "id": "vi_say_e94170d7",
-   "text": "Bé có 8 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
-  },
-  {
    "id": "vi_say_6f2aca42",
    "text": "Chẵn lẻ"
   },
@@ -4681,280 +4097,4004 @@
  ],
  "math_word_problem": [
   {
-   "id": "vi_say_e0519ca5",
-   "text": "1 cộng 1 bằng mấy"
+   "id": "vi_say_96343961",
+   "text": "Bé có 1 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
   },
   {
-   "id": "vi_say_77ae154e",
-   "text": "1 cộng 2 bằng mấy"
+   "id": "vi_say_e34c6f55",
+   "text": "Bé có 1 bông hoa, thêm 10 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
   },
   {
-   "id": "vi_say_59e162d3",
-   "text": "1 cộng 3 bằng mấy"
+   "id": "vi_say_4fedb382",
+   "text": "Bé có 1 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
   },
   {
-   "id": "vi_say_20f851b4",
-   "text": "1 cộng 4 bằng mấy"
+   "id": "vi_say_02755977",
+   "text": "Bé có 1 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
   },
   {
-   "id": "vi_say_9f639339",
-   "text": "1 cộng 5 bằng mấy"
+   "id": "vi_say_0ba1c2b8",
+   "text": "Bé có 1 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
   },
   {
-   "id": "vi_say_f25beb57",
-   "text": "1 cộng 7 bằng mấy"
+   "id": "vi_say_8bc56d85",
+   "text": "Bé có 1 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
   },
   {
-   "id": "vi_say_b5db7b3d",
-   "text": "1 cộng 9 bằng mấy"
+   "id": "vi_say_a94fbbf6",
+   "text": "Bé có 1 bông hoa, thêm 6 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
   },
   {
-   "id": "vi_say_5fd9be21",
-   "text": "10 cộng 5 bằng mấy"
+   "id": "vi_say_f92d89ab",
+   "text": "Bé có 1 bông hoa, thêm 7 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
   },
   {
-   "id": "vi_say_206d9a3f",
-   "text": "10 cộng 7 bằng mấy"
+   "id": "vi_say_96fee4cc",
+   "text": "Bé có 1 bông hoa, thêm 8 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
   },
   {
-   "id": "vi_say_1b076423",
-   "text": "12 cộng 10 bằng mấy"
+   "id": "vi_say_7a5533f9",
+   "text": "Bé có 1 bông hoa, thêm 9 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
   },
   {
-   "id": "vi_say_a7eca1dc",
-   "text": "13 cộng 1 bằng mấy"
+   "id": "vi_say_6e964347",
+   "text": "Bé có 1 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
   },
   {
-   "id": "vi_say_50c4a51b",
-   "text": "13 cộng 6 bằng mấy"
+   "id": "vi_say_9d38b3e3",
+   "text": "Bé có 1 cái bánh, thêm 10 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
   },
   {
-   "id": "vi_say_4199a539",
-   "text": "14 cộng 10 bằng mấy"
+   "id": "vi_say_772d3cd8",
+   "text": "Bé có 1 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
   },
   {
-   "id": "vi_say_5c72d9ad",
-   "text": "14 cộng 5 bằng mấy"
+   "id": "vi_say_b9b059dd",
+   "text": "Bé có 1 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
   },
   {
-   "id": "vi_say_2640bee4",
-   "text": "14 cộng 8 bằng mấy"
+   "id": "vi_say_e6cb9276",
+   "text": "Bé có 1 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
   },
   {
-   "id": "vi_say_899f64b8",
-   "text": "15 cộng 10 bằng mấy"
+   "id": "vi_say_89496973",
+   "text": "Bé có 1 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
   },
   {
-   "id": "vi_say_816d2e60",
-   "text": "15 cộng 3 bằng mấy"
+   "id": "vi_say_f61a2c44",
+   "text": "Bé có 1 cái bánh, thêm 6 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
   },
   {
-   "id": "vi_say_c46ec8b1",
-   "text": "16 cộng 7 bằng mấy"
+   "id": "vi_say_9775b129",
+   "text": "Bé có 1 cái bánh, thêm 7 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
   },
   {
-   "id": "vi_say_9eb5ec2e",
-   "text": "16 cộng 8 bằng mấy"
+   "id": "vi_say_4ad82432",
+   "text": "Bé có 1 cái bánh, thêm 8 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
   },
   {
-   "id": "vi_say_63e70144",
-   "text": "17 cộng 5 bằng mấy"
+   "id": "vi_say_01676d2f",
+   "text": "Bé có 1 cái bánh, thêm 9 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
   },
   {
-   "id": "vi_say_0d9cb108",
-   "text": "17 cộng 9 bằng mấy"
+   "id": "vi_say_b9def999",
+   "text": "Bé có 1 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
   },
   {
-   "id": "vi_say_9eae24d5",
-   "text": "18 cộng 1 bằng mấy"
+   "id": "vi_say_c856bef9",
+   "text": "Bé có 1 cái kẹo, thêm 10 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
   },
   {
-   "id": "vi_say_049b52be",
-   "text": "18 cộng 2 bằng mấy"
+   "id": "vi_say_93f929e6",
+   "text": "Bé có 1 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
   },
   {
-   "id": "vi_say_5ff61a44",
-   "text": "19 cộng 3 bằng mấy"
+   "id": "vi_say_84e45213",
+   "text": "Bé có 1 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
   },
   {
-   "id": "vi_say_0a1e1c1e",
-   "text": "19 cộng 5 bằng mấy"
+   "id": "vi_say_20884ce0",
+   "text": "Bé có 1 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
   },
   {
-   "id": "vi_say_8f9c17b5",
-   "text": "19 cộng 6 bằng mấy"
+   "id": "vi_say_ecab00c5",
+   "text": "Bé có 1 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
   },
   {
-   "id": "vi_say_79cbde30",
-   "text": "19 cộng 7 bằng mấy"
+   "id": "vi_say_cd25fa92",
+   "text": "Bé có 1 cái kẹo, thêm 6 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
   },
   {
-   "id": "vi_say_8fc8a16a",
-   "text": "19 cộng 9 bằng mấy"
+   "id": "vi_say_358709bf",
+   "text": "Bé có 1 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
   },
   {
-   "id": "vi_say_8ec322b4",
-   "text": "2 cộng 1 bằng mấy"
+   "id": "vi_say_5ba7e56c",
+   "text": "Bé có 1 cái kẹo, thêm 8 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
   },
   {
-   "id": "vi_say_6026bc57",
-   "text": "2 cộng 2 bằng mấy"
+   "id": "vi_say_37b75cd1",
+   "text": "Bé có 1 cái kẹo, thêm 9 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
   },
   {
-   "id": "vi_say_ba7a3e02",
-   "text": "2 cộng 3 bằng mấy"
+   "id": "vi_say_30ec3ae9",
+   "text": "Bé có 1 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
   },
   {
-   "id": "vi_say_4e1c6da5",
-   "text": "2 cộng 4 bằng mấy"
+   "id": "vi_say_fd1330cd",
+   "text": "Bé có 1 ngôi sao, thêm 10 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
   },
   {
-   "id": "vi_say_c3af5c60",
-   "text": "2 cộng 5 bằng mấy"
+   "id": "vi_say_efc54f3a",
+   "text": "Bé có 1 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
   },
   {
-   "id": "vi_say_ab7c9504",
-   "text": "20 cộng 3 bằng mấy"
+   "id": "vi_say_d59f415f",
+   "text": "Bé có 1 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
   },
   {
-   "id": "vi_say_3609cd75",
-   "text": "20 cộng 6 bằng mấy"
+   "id": "vi_say_0d1c78a0",
+   "text": "Bé có 1 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
   },
   {
-   "id": "vi_say_1bfd9c9f",
-   "text": "3 cộng 1 bằng mấy"
+   "id": "vi_say_db68ce8d",
+   "text": "Bé có 1 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
   },
   {
-   "id": "vi_say_9edf339c",
-   "text": "3 cộng 2 bằng mấy"
+   "id": "vi_say_cf9d839e",
+   "text": "Bé có 1 ngôi sao, thêm 6 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
   },
   {
-   "id": "vi_say_77c1ce01",
-   "text": "3 cộng 3 bằng mấy"
+   "id": "vi_say_f939e873",
+   "text": "Bé có 1 ngôi sao, thêm 7 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
   },
   {
-   "id": "vi_say_8ae71636",
-   "text": "3 cộng 4 bằng mấy"
+   "id": "vi_say_ac79c734",
+   "text": "Bé có 1 ngôi sao, thêm 8 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
   },
   {
-   "id": "vi_say_b13019db",
-   "text": "3 cộng 5 bằng mấy"
+   "id": "vi_say_e3c6ea91",
+   "text": "Bé có 1 ngôi sao, thêm 9 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
   },
   {
-   "id": "vi_say_d24257e8",
-   "text": "3 cộng 6 bằng mấy"
+   "id": "vi_say_6ee155d0",
+   "text": "Bé có 1 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
   },
   {
-   "id": "vi_say_000e7506",
-   "text": "4 cộng 1 bằng mấy"
+   "id": "vi_say_610d38b2",
+   "text": "Bé có 1 quả bóng, thêm 10 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
   },
   {
-   "id": "vi_say_c03fb9fd",
-   "text": "4 cộng 2 bằng mấy"
+   "id": "vi_say_577ddde3",
+   "text": "Bé có 1 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
   },
   {
-   "id": "vi_say_8dadf578",
-   "text": "4 cộng 3 bằng mấy"
+   "id": "vi_say_d958bf1a",
+   "text": "Bé có 1 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
   },
   {
-   "id": "vi_say_5e287daf",
-   "text": "4 cộng 4 bằng mấy"
+   "id": "vi_say_469da04d",
+   "text": "Bé có 1 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
   },
   {
-   "id": "vi_say_c8ff3e5a",
-   "text": "4 cộng 5 bằng mấy"
+   "id": "vi_say_10c40d64",
+   "text": "Bé có 1 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
   },
   {
-   "id": "vi_say_7317856c",
-   "text": "4 cộng 7 bằng mấy"
+   "id": "vi_say_0ec5ada7",
+   "text": "Bé có 1 quả bóng, thêm 6 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
   },
   {
-   "id": "vi_say_b9db3599",
-   "text": "5 cộng 1 bằng mấy"
+   "id": "vi_say_5345405e",
+   "text": "Bé có 1 quả bóng, thêm 7 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
   },
   {
-   "id": "vi_say_13bf5562",
-   "text": "5 cộng 2 bằng mấy"
+   "id": "vi_say_b1ceb251",
+   "text": "Bé có 1 quả bóng, thêm 8 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
   },
   {
-   "id": "vi_say_6cff66b7",
-   "text": "5 cộng 3 bằng mấy"
+   "id": "vi_say_f14b66e8",
+   "text": "Bé có 1 quả bóng, thêm 9 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
   },
   {
-   "id": "vi_say_e7ab25c0",
-   "text": "5 cộng 4 bằng mấy"
+   "id": "vi_say_31683c17",
+   "text": "Bé có 10 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
   },
   {
-   "id": "vi_say_d384b585",
-   "text": "5 cộng 5 bằng mấy"
+   "id": "vi_say_dc056cbf",
+   "text": "Bé có 10 bông hoa, thêm 10 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
   },
   {
-   "id": "vi_say_a432568c",
-   "text": "5 cộng 8 bằng mấy"
+   "id": "vi_say_cbceb7d4",
+   "text": "Bé có 10 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
   },
   {
-   "id": "vi_say_34feb3e8",
-   "text": "6 cộng 1 bằng mấy"
+   "id": "vi_say_c7ccda01",
+   "text": "Bé có 10 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
   },
   {
-   "id": "vi_say_13ec75db",
-   "text": "6 cộng 2 bằng mấy"
+   "id": "vi_say_e0dee616",
+   "text": "Bé có 10 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
   },
   {
-   "id": "vi_say_eda37236",
-   "text": "6 cộng 3 bằng mấy"
+   "id": "vi_say_b04538cb",
+   "text": "Bé có 10 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
   },
   {
-   "id": "vi_say_da7e2a01",
-   "text": "6 cộng 4 bằng mấy"
+   "id": "vi_say_27a758d8",
+   "text": "Bé có 10 bông hoa, thêm 6 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
   },
   {
-   "id": "vi_say_019b8f9c",
-   "text": "6 cộng 5 bằng mấy"
+   "id": "vi_say_33df6ea5",
+   "text": "Bé có 10 bông hoa, thêm 7 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
   },
   {
-   "id": "vi_say_4b64eb43",
-   "text": "7 cộng 1 bằng mấy"
+   "id": "vi_say_0a9c607a",
+   "text": "Bé có 10 bông hoa, thêm 8 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
   },
   {
-   "id": "vi_say_a2503d90",
-   "text": "7 cộng 2 bằng mấy"
+   "id": "vi_say_defc2f4f",
+   "text": "Bé có 10 bông hoa, thêm 9 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
   },
   {
-   "id": "vi_say_573b8895",
-   "text": "7 cộng 3 bằng mấy"
+   "id": "vi_say_047165d9",
+   "text": "Bé có 10 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
   },
   {
-   "id": "vi_say_c4cf04b2",
-   "text": "7 cộng 4 bằng mấy"
+   "id": "vi_say_3f3d92f1",
+   "text": "Bé có 10 cái bánh, thêm 10 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
   },
   {
-   "id": "vi_say_e731ca87",
-   "text": "7 cộng 5 bằng mấy"
+   "id": "vi_say_11020da6",
+   "text": "Bé có 10 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
   },
   {
-   "id": "vi_say_1458085b",
-   "text": "7 cộng 9 bằng mấy"
+   "id": "vi_say_d23c44a3",
+   "text": "Bé có 10 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
   },
   {
-   "id": "vi_say_e995991a",
-   "text": "8 cộng 1 bằng mấy"
+   "id": "vi_say_dd1c48c8",
+   "text": "Bé có 10 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
   },
   {
-   "id": "vi_say_3c47b1d1",
-   "text": "8 cộng 2 bằng mấy"
+   "id": "vi_say_6f3cbfcd",
+   "text": "Bé có 10 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
   },
   {
-   "id": "vi_say_94c1392c",
-   "text": "8 cộng 3 bằng mấy"
+   "id": "vi_say_4e17fd3a",
+   "text": "Bé có 10 cái bánh, thêm 6 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
   },
   {
-   "id": "vi_say_86f8fcab",
-   "text": "8 cộng 4 bằng mấy"
+   "id": "vi_say_d035b2b7",
+   "text": "Bé có 10 cái bánh, thêm 7 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
   },
   {
-   "id": "vi_say_90da16c6",
-   "text": "8 cộng 5 bằng mấy"
+   "id": "vi_say_5ce9fc1c",
+   "text": "Bé có 10 cái bánh, thêm 8 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_ab1083e1",
+   "text": "Bé có 10 cái bánh, thêm 9 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_ff7e7323",
+   "text": "Bé có 10 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_a96ade4f",
+   "text": "Bé có 10 cái kẹo, thêm 10 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_e6f97564",
+   "text": "Bé có 10 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_cb5cbae9",
+   "text": "Bé có 10 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_2444dda2",
+   "text": "Bé có 10 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_ca9044cf",
+   "text": "Bé có 10 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_640e3a30",
+   "text": "Bé có 10 cái kẹo, thêm 6 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_f4d236d5",
+   "text": "Bé có 10 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_2019ec0e",
+   "text": "Bé có 10 cái kẹo, thêm 8 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_01f24e5b",
+   "text": "Bé có 10 cái kẹo, thêm 9 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_f9b1e1ff",
+   "text": "Bé có 10 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_e25e7e37",
+   "text": "Bé có 10 ngôi sao, thêm 10 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_545ab1cc",
+   "text": "Bé có 10 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_e539ec09",
+   "text": "Bé có 10 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_039fdebe",
+   "text": "Bé có 10 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_dd742293",
+   "text": "Bé có 10 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_19335ac0",
+   "text": "Bé có 10 ngôi sao, thêm 6 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_523b2a2d",
+   "text": "Bé có 10 ngôi sao, thêm 7 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_92cd32e2",
+   "text": "Bé có 10 ngôi sao, thêm 8 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_bda505e7",
+   "text": "Bé có 10 ngôi sao, thêm 9 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_bfee0f16",
+   "text": "Bé có 10 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_fb0c4da4",
+   "text": "Bé có 10 quả bóng, thêm 10 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_55ca4ec5",
+   "text": "Bé có 10 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_1ee644dc",
+   "text": "Bé có 10 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_1931fcfb",
+   "text": "Bé có 10 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_1683ceb2",
+   "text": "Bé có 10 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_8c910851",
+   "text": "Bé có 10 quả bóng, thêm 6 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_cc0dbce8",
+   "text": "Bé có 10 quả bóng, thêm 7 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_e98803a7",
+   "text": "Bé có 10 quả bóng, thêm 8 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_2e07965e",
+   "text": "Bé có 10 quả bóng, thêm 9 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_87cd15f8",
+   "text": "Bé có 11 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_3641bb6e",
+   "text": "Bé có 11 bông hoa, thêm 10 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_f9a687eb",
+   "text": "Bé có 11 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_602ae536",
+   "text": "Bé có 11 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_3fedb4a1",
+   "text": "Bé có 11 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_2fa3a574",
+   "text": "Bé có 11 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_bfa65eb7",
+   "text": "Bé có 11 bông hoa, thêm 6 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_ac7c62c2",
+   "text": "Bé có 11 bông hoa, thêm 7 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_2ddd381d",
+   "text": "Bé có 11 bông hoa, thêm 8 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_c8b54e50",
+   "text": "Bé có 11 bông hoa, thêm 9 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_db46dc84",
+   "text": "Bé có 11 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_aff2b9de",
+   "text": "Bé có 11 cái bánh, thêm 10 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_36a19db3",
+   "text": "Bé có 11 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_2d799eb6",
+   "text": "Bé có 11 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_77a0421d",
+   "text": "Bé có 11 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_f7429b18",
+   "text": "Bé có 11 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_859d3e87",
+   "text": "Bé có 11 cái bánh, thêm 6 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_7b64014a",
+   "text": "Bé có 11 cái bánh, thêm 7 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_2c8ae8b1",
+   "text": "Bé có 11 cái bánh, thêm 8 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_cdd9572c",
+   "text": "Bé có 11 cái bánh, thêm 9 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_db98373a",
+   "text": "Bé có 11 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_d6889d38",
+   "text": "Bé có 11 cái kẹo, thêm 10 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_58bcfe8d",
+   "text": "Bé có 11 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_f9c41268",
+   "text": "Bé có 11 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_4f4cfc3b",
+   "text": "Bé có 11 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_3556f46e",
+   "text": "Bé có 11 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_f270b601",
+   "text": "Bé có 11 cái kẹo, thêm 6 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_e5deaddc",
+   "text": "Bé có 11 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_3fff3daf",
+   "text": "Bé có 11 cái kẹo, thêm 8 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_5dd95e82",
+   "text": "Bé có 11 cái kẹo, thêm 9 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_2a607490",
+   "text": "Bé có 11 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_e0183fb6",
+   "text": "Bé có 11 ngôi sao, thêm 10 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_20a99ba3",
+   "text": "Bé có 11 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_0dd9608e",
+   "text": "Bé có 11 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_66e9ac59",
+   "text": "Bé có 11 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_19492ddc",
+   "text": "Bé có 11 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_105dce4f",
+   "text": "Bé có 11 ngôi sao, thêm 6 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_62ff3f6a",
+   "text": "Bé có 11 ngôi sao, thêm 7 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_4354aa65",
+   "text": "Bé có 11 ngôi sao, thêm 8 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_3ad1cb18",
+   "text": "Bé có 11 ngôi sao, thêm 9 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_428c0191",
+   "text": "Bé có 11 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_fbcb8789",
+   "text": "Bé có 11 quả bóng, thêm 10 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_d6400ef2",
+   "text": "Bé có 11 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_2a9eec3b",
+   "text": "Bé có 11 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_f1283c1c",
+   "text": "Bé có 11 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_de369205",
+   "text": "Bé có 11 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_2ae63956",
+   "text": "Bé có 11 quả bóng, thêm 6 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_debcae9f",
+   "text": "Bé có 11 quả bóng, thêm 7 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_18bfbd10",
+   "text": "Bé có 11 quả bóng, thêm 8 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_46a22239",
+   "text": "Bé có 11 quả bóng, thêm 9 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_9149d6d9",
+   "text": "Bé có 12 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_026e32bd",
+   "text": "Bé có 12 bông hoa, thêm 10 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_6064d6ba",
+   "text": "Bé có 12 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_d4b6648f",
+   "text": "Bé có 12 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_403c1bf0",
+   "text": "Bé có 12 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_8307183d",
+   "text": "Bé có 12 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_a3ec386e",
+   "text": "Bé có 12 bông hoa, thêm 6 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_fce53dc3",
+   "text": "Bé có 12 bông hoa, thêm 7 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_fd92b914",
+   "text": "Bé có 12 bông hoa, thêm 8 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_84933241",
+   "text": "Bé có 12 bông hoa, thêm 9 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_d1e93b2f",
+   "text": "Bé có 12 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_9e231d3b",
+   "text": "Bé có 12 cái bánh, thêm 10 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_07a31ee0",
+   "text": "Bé có 12 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_54057ea5",
+   "text": "Bé có 12 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_a48710be",
+   "text": "Bé có 12 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_c8480ebb",
+   "text": "Bé có 12 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_59f981ec",
+   "text": "Bé có 12 cái bánh, thêm 6 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_98b2a071",
+   "text": "Bé có 12 cái bánh, thêm 7 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_0608d10a",
+   "text": "Bé có 12 cái bánh, thêm 8 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_3f181147",
+   "text": "Bé có 12 cái bánh, thêm 9 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_d5287481",
+   "text": "Bé có 12 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_8e9f4051",
+   "text": "Bé có 12 cái kẹo, thêm 10 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_d6ffd2ee",
+   "text": "Bé có 12 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_2432b0bb",
+   "text": "Bé có 12 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_e8263ae8",
+   "text": "Bé có 12 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_0d08250d",
+   "text": "Bé có 12 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_288037ba",
+   "text": "Bé có 12 cái kẹo, thêm 6 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_fbb8fb07",
+   "text": "Bé có 12 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_fd3fef44",
+   "text": "Bé có 12 cái kẹo, thêm 8 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_fb429bc9",
+   "text": "Bé có 12 cái kẹo, thêm 9 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_f8d2e421",
+   "text": "Bé có 12 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_be36dbd5",
+   "text": "Bé có 12 ngôi sao, thêm 10 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_1a377452",
+   "text": "Bé có 12 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_49044d97",
+   "text": "Bé có 12 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_8638f938",
+   "text": "Bé có 12 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_e9cd8585",
+   "text": "Bé có 12 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_0cf6e396",
+   "text": "Bé có 12 ngôi sao, thêm 6 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_01a9a72b",
+   "text": "Bé có 12 ngôi sao, thêm 7 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_0a7419fc",
+   "text": "Bé có 12 ngôi sao, thêm 8 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_816324f9",
+   "text": "Bé có 12 ngôi sao, thêm 9 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_9acc30f8",
+   "text": "Bé có 12 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_6da5694a",
+   "text": "Bé có 12 quả bóng, thêm 10 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_b6edb40b",
+   "text": "Bé có 12 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_e00557c2",
+   "text": "Bé có 12 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_975388d5",
+   "text": "Bé có 12 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_4f7ed4ac",
+   "text": "Bé có 12 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_b1d0eeaf",
+   "text": "Bé có 12 quả bóng, thêm 6 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_f112a066",
+   "text": "Bé có 12 quả bóng, thêm 7 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_c8d58b89",
+   "text": "Bé có 12 quả bóng, thêm 8 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_af0e0060",
+   "text": "Bé có 12 quả bóng, thêm 9 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_3348c952",
+   "text": "Bé có 13 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_8928415c",
+   "text": "Bé có 13 bông hoa, thêm 10 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_a8230bf1",
+   "text": "Bé có 13 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_196c4084",
+   "text": "Bé có 13 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_ac654d7b",
+   "text": "Bé có 13 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_a5c236c6",
+   "text": "Bé có 13 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_fb0f55d5",
+   "text": "Bé có 13 bông hoa, thêm 6 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_3129e6c8",
+   "text": "Bé có 13 bông hoa, thêm 7 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_d8584fff",
+   "text": "Bé có 13 bông hoa, thêm 8 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_add6062a",
+   "text": "Bé có 13 bông hoa, thêm 9 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_6b24a03a",
+   "text": "Bé có 13 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_537a7850",
+   "text": "Bé có 13 cái bánh, thêm 10 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_8c4962cd",
+   "text": "Bé có 13 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_fa28ebc8",
+   "text": "Bé có 13 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_ef48e7a3",
+   "text": "Bé có 13 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_2e0eb0a6",
+   "text": "Bé có 13 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_217e08d9",
+   "text": "Bé có 13 cái bánh, thêm 6 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_1bab3cf4",
+   "text": "Bé có 13 cái bánh, thêm 7 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_a1408c1f",
+   "text": "Bé có 13 cái bánh, thêm 8 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_4fe1efe2",
+   "text": "Bé có 13 cái bánh, thêm 9 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_a2814640",
+   "text": "Bé có 13 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_d177ed6a",
+   "text": "Bé có 13 cái kẹo, thêm 10 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_4ebb659f",
+   "text": "Bé có 13 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_a8f2d972",
+   "text": "Bé có 13 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_1b91f4f9",
+   "text": "Bé có 13 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_61072474",
+   "text": "Bé có 13 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_98dc7873",
+   "text": "Bé có 13 cái kẹo, thêm 6 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_db951bc6",
+   "text": "Bé có 13 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_be26157d",
+   "text": "Bé có 13 cái kẹo, thêm 8 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_05c1f598",
+   "text": "Bé có 13 cái kẹo, thêm 9 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_bbd207da",
+   "text": "Bé có 13 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_9f9464b4",
+   "text": "Bé có 13 ngôi sao, thêm 10 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_39d02189",
+   "text": "Bé có 13 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_8f2f654c",
+   "text": "Bé có 13 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_2e98f613",
+   "text": "Bé có 13 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_c91e7a3e",
+   "text": "Bé có 13 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_bfc58bad",
+   "text": "Bé có 13 ngôi sao, thêm 6 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_887e6440",
+   "text": "Bé có 13 ngôi sao, thêm 7 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_5c49e167",
+   "text": "Bé có 13 ngôi sao, thêm 8 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_531a4862",
+   "text": "Bé có 13 ngôi sao, thêm 9 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_9ce828b3",
+   "text": "Bé có 13 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_8e905047",
+   "text": "Bé có 13 quả bóng, thêm 10 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_dd73f9e0",
+   "text": "Bé có 13 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_2a420f09",
+   "text": "Bé có 13 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_8f13822e",
+   "text": "Bé có 13 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_376d6d77",
+   "text": "Bé có 13 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_f6b13f74",
+   "text": "Bé có 13 quả bóng, thêm 6 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_0b3f8bdd",
+   "text": "Bé có 13 quả bóng, thêm 7 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_a8c3e342",
+   "text": "Bé có 13 quả bóng, thêm 8 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_7e52ab8b",
+   "text": "Bé có 13 quả bóng, thêm 9 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_1a1d5043",
+   "text": "Bé có 14 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_cc333013",
+   "text": "Bé có 14 bông hoa, thêm 10 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_c45d2270",
+   "text": "Bé có 14 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_ae16a2bd",
+   "text": "Bé có 14 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_eadd893a",
+   "text": "Bé có 14 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_1cdaab0f",
+   "text": "Bé có 14 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_0a4055ac",
+   "text": "Bé có 14 bông hoa, thêm 6 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_68f2b359",
+   "text": "Bé có 14 bông hoa, thêm 7 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_8a61b7d6",
+   "text": "Bé có 14 bông hoa, thêm 8 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_b182f88b",
+   "text": "Bé có 14 bông hoa, thêm 9 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_90d055a5",
+   "text": "Bé có 14 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_2a097045",
+   "text": "Bé có 14 cái bánh, thêm 10 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_5824c932",
+   "text": "Bé có 14 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_0eb4122f",
+   "text": "Bé có 14 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_96c458ec",
+   "text": "Bé có 14 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_d57d7771",
+   "text": "Bé có 14 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_e151e7be",
+   "text": "Bé có 14 cái bánh, thêm 6 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_0512e5bb",
+   "text": "Bé có 14 cái bánh, thêm 7 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_8479e1d8",
+   "text": "Bé có 14 cái bánh, thêm 8 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_c6fcfedd",
+   "text": "Bé có 14 cái bánh, thêm 9 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_86677b0f",
+   "text": "Bé có 14 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_49c50f73",
+   "text": "Bé có 14 cái kẹo, thêm 10 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_0311fb70",
+   "text": "Bé có 14 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_48a4bf15",
+   "text": "Bé có 14 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_0eef7ff6",
+   "text": "Bé có 14 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_c8a73063",
+   "text": "Bé có 14 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_3e4dc9a4",
+   "text": "Bé có 14 cái kẹo, thêm 6 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_a7618f29",
+   "text": "Bé có 14 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_7079e99a",
+   "text": "Bé có 14 cái kẹo, thêm 8 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_9374c967",
+   "text": "Bé có 14 cái kẹo, thêm 9 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_84b733fb",
+   "text": "Bé có 14 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_452ac51b",
+   "text": "Bé có 14 ngôi sao, thêm 10 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_df88bd08",
+   "text": "Bé có 14 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_9e05ff55",
+   "text": "Bé có 14 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_04a330a2",
+   "text": "Bé có 14 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_c7df34a7",
+   "text": "Bé có 14 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_658deb14",
+   "text": "Bé có 14 ngôi sao, thêm 6 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_80a9def1",
+   "text": "Bé có 14 ngôi sao, thêm 7 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_7cf4497e",
+   "text": "Bé có 14 ngôi sao, thêm 8 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_9a652d53",
+   "text": "Bé có 14 ngôi sao, thêm 9 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_77cbfb9a",
+   "text": "Bé có 14 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_ae2cf130",
+   "text": "Bé có 14 quả bóng, thêm 10 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_b2d17279",
+   "text": "Bé có 14 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_e537ea50",
+   "text": "Bé có 14 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_a99f9627",
+   "text": "Bé có 14 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_6a34cade",
+   "text": "Bé có 14 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_065786cd",
+   "text": "Bé có 14 quả bóng, thêm 6 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_3deb1be4",
+   "text": "Bé có 14 quả bóng, thêm 7 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_73fdf37b",
+   "text": "Bé có 14 quả bóng, thêm 8 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_5ff6f132",
+   "text": "Bé có 14 quả bóng, thêm 9 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_d991caa4",
+   "text": "Bé có 15 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_7f70c992",
+   "text": "Bé có 15 bông hoa, thêm 10 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_a2708f67",
+   "text": "Bé có 15 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_a343bd72",
+   "text": "Bé có 15 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_dc2169f5",
+   "text": "Bé có 15 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_c54e1e68",
+   "text": "Bé có 15 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_a9e3db9b",
+   "text": "Bé có 15 bông hoa, thêm 6 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_9938af66",
+   "text": "Bé có 15 bông hoa, thêm 7 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_e3d1a2a9",
+   "text": "Bé có 15 bông hoa, thêm 8 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_b8a2b5bc",
+   "text": "Bé có 15 bông hoa, thêm 9 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_3cedc130",
+   "text": "Bé có 15 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_2e6f3172",
+   "text": "Bé có 15 cái bánh, thêm 10 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_71b6ca3f",
+   "text": "Bé có 15 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_fd39b682",
+   "text": "Bé có 15 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_0ab15501",
+   "text": "Bé có 15 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_b0e5fe3c",
+   "text": "Bé có 15 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_c096e44b",
+   "text": "Bé có 15 cái bánh, thêm 6 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_790d5e4e",
+   "text": "Bé có 15 cái bánh, thêm 7 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_aa1a736d",
+   "text": "Bé có 15 cái bánh, thêm 8 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_62c51368",
+   "text": "Bé có 15 cái bánh, thêm 9 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_655d6916",
+   "text": "Bé có 15 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_c288b9bc",
+   "text": "Bé có 15 cái kẹo, thêm 10 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_f605edc9",
+   "text": "Bé có 15 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_f8034144",
+   "text": "Bé có 15 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_4c171c2f",
+   "text": "Bé có 15 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_0b23b502",
+   "text": "Bé có 15 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_d565b635",
+   "text": "Bé có 15 cái kẹo, thêm 6 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_57e93910",
+   "text": "Bé có 15 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_1ef602bb",
+   "text": "Bé có 15 cái kẹo, thêm 8 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_d1c324ee",
+   "text": "Bé có 15 cái kẹo, thêm 9 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_7b48d1ac",
+   "text": "Bé có 15 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_0f71384a",
+   "text": "Bé có 15 ngôi sao, thêm 10 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_734d59df",
+   "text": "Bé có 15 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_2fd557ba",
+   "text": "Bé có 15 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_a985630d",
+   "text": "Bé có 15 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_c9907d20",
+   "text": "Bé có 15 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_8ca406f3",
+   "text": "Bé có 15 ngôi sao, thêm 6 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_4720f41e",
+   "text": "Bé có 15 ngôi sao, thêm 7 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_7b942d11",
+   "text": "Bé có 15 ngôi sao, thêm 8 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_7075e1b4",
+   "text": "Bé có 15 ngôi sao, thêm 9 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_da0e1425",
+   "text": "Bé có 15 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_21a34eb5",
+   "text": "Bé có 15 quả bóng, thêm 10 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_ce3f4676",
+   "text": "Bé có 15 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_aa9e0ebf",
+   "text": "Bé có 15 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_1a7374c8",
+   "text": "Bé có 15 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_016272b1",
+   "text": "Bé có 15 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_59828f12",
+   "text": "Bé có 15 quả bóng, thêm 6 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_cc13eddb",
+   "text": "Bé có 15 quả bóng, thêm 7 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_2019b644",
+   "text": "Bé có 15 quả bóng, thêm 8 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_ddb940ad",
+   "text": "Bé có 15 quả bóng, thêm 9 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_f9e53955",
+   "text": "Bé có 16 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_368bee71",
+   "text": "Bé có 16 bông hoa, thêm 10 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_f1876846",
+   "text": "Bé có 16 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_9a5e2efb",
+   "text": "Bé có 16 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_aa1e0e04",
+   "text": "Bé có 16 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_84c93771",
+   "text": "Bé có 16 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_a86736d2",
+   "text": "Bé có 16 bông hoa, thêm 6 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_2773f6c7",
+   "text": "Bé có 16 bông hoa, thêm 7 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_fd4b5ae0",
+   "text": "Bé có 16 bông hoa, thêm 8 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_0c353ced",
+   "text": "Bé có 16 bông hoa, thêm 9 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_c1e934bb",
+   "text": "Bé có 16 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_64de9fff",
+   "text": "Bé có 16 cái bánh, thêm 10 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_539aa7ec",
+   "text": "Bé có 16 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_9253c671",
+   "text": "Bé có 16 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_14fb1832",
+   "text": "Bé có 16 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_cb8a612f",
+   "text": "Bé có 16 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_014444e0",
+   "text": "Bé có 16 cái bánh, thêm 6 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_4da6a4a5",
+   "text": "Bé có 16 cái bánh, thêm 7 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_b0ee8676",
+   "text": "Bé có 16 cái bánh, thêm 8 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_536c5d73",
+   "text": "Bé có 16 cái bánh, thêm 9 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_55f85b7d",
+   "text": "Bé có 16 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_db003f75",
+   "text": "Bé có 16 cái kẹo, thêm 10 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_a6c351ea",
+   "text": "Bé có 16 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_1e7f7f37",
+   "text": "Bé có 16 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_07733fcc",
+   "text": "Bé có 16 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_957983b1",
+   "text": "Bé có 16 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_ea7dc1de",
+   "text": "Bé có 16 cái kẹo, thêm 6 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_4980996b",
+   "text": "Bé có 16 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_3a538c40",
+   "text": "Bé có 16 cái kẹo, thêm 8 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_6c044525",
+   "text": "Bé có 16 cái kẹo, thêm 9 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_2fc44d1d",
+   "text": "Bé có 16 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_e630bda9",
+   "text": "Bé có 16 ngôi sao, thêm 10 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_0b35b2ae",
+   "text": "Bé có 16 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_78038943",
+   "text": "Bé có 16 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_5be3f57c",
+   "text": "Bé có 16 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_e2746279",
+   "text": "Bé có 16 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_a40dd38a",
+   "text": "Bé có 16 ngôi sao, thêm 6 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_74ae636f",
+   "text": "Bé có 16 ngôi sao, thêm 7 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_fcd800b8",
+   "text": "Bé có 16 ngôi sao, thêm 8 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_9bb8a905",
+   "text": "Bé có 16 ngôi sao, thêm 9 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_ddd4d00c",
+   "text": "Bé có 16 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_b1de6e66",
+   "text": "Bé có 16 quả bóng, thêm 10 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_da191c0f",
+   "text": "Bé có 16 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_00f263c6",
+   "text": "Bé có 16 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_1cf00441",
+   "text": "Bé có 16 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_14e1b6d8",
+   "text": "Bé có 16 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_8e69b76b",
+   "text": "Bé có 16 quả bóng, thêm 6 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_f1df0022",
+   "text": "Bé có 16 quả bóng, thêm 7 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_7b81bcbd",
+   "text": "Bé có 16 quả bóng, thêm 8 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_be42b354",
+   "text": "Bé có 16 quả bóng, thêm 9 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_e68ca50e",
+   "text": "Bé có 17 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_c66810f0",
+   "text": "Bé có 17 bông hoa, thêm 10 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_ed3c845d",
+   "text": "Bé có 17 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_025afc90",
+   "text": "Bé có 17 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_bcf7362f",
+   "text": "Bé có 17 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_3b4741da",
+   "text": "Bé có 17 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_91145379",
+   "text": "Bé có 17 bông hoa, thêm 6 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_5102a24c",
+   "text": "Bé có 17 bông hoa, thêm 7 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_ef97cb2b",
+   "text": "Bé có 17 bông hoa, thêm 8 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_11e8bb76",
+   "text": "Bé có 17 bông hoa, thêm 9 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_b7cfbb86",
+   "text": "Bé có 17 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_9a7d6fe4",
+   "text": "Bé có 17 cái bánh, thêm 10 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_5a7845b9",
+   "text": "Bé có 17 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_223a1754",
+   "text": "Bé có 17 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_cd74e317",
+   "text": "Bé có 17 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_3ebc331a",
+   "text": "Bé có 17 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_2d36cb2d",
+   "text": "Bé có 17 cái bánh, thêm 6 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_2b4d3b28",
+   "text": "Bé có 17 cái bánh, thêm 7 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_04e7ad0b",
+   "text": "Bé có 17 cái bánh, thêm 8 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_e0a5610e",
+   "text": "Bé có 17 cái bánh, thêm 9 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_adea53dc",
+   "text": "Bé có 17 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_7e1e048e",
+   "text": "Bé có 17 cái kẹo, thêm 10 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_1758a23b",
+   "text": "Bé có 17 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_fd629a6e",
+   "text": "Bé có 17 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_20c8a48d",
+   "text": "Bé có 17 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_c1cfb868",
+   "text": "Bé có 17 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_71bf7c87",
+   "text": "Bé có 17 cái kẹo, thêm 6 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_a3a3dd3a",
+   "text": "Bé có 17 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_d47e1349",
+   "text": "Bé có 17 cái kẹo, thêm 8 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_e40392c4",
+   "text": "Bé có 17 cái kẹo, thêm 9 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_6559b3d6",
+   "text": "Bé có 17 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_02810da8",
+   "text": "Bé có 17 ngôi sao, thêm 10 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_ec3813c5",
+   "text": "Bé có 17 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_a02b7278",
+   "text": "Bé có 17 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_5e38efd7",
+   "text": "Bé có 17 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_e368f992",
+   "text": "Bé có 17 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_8d022061",
+   "text": "Bé có 17 ngôi sao, thêm 6 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_d0d06044",
+   "text": "Bé có 17 ngôi sao, thêm 7 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_8bf7ee03",
+   "text": "Bé có 17 ngôi sao, thêm 8 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_c7a6eb6e",
+   "text": "Bé có 17 ngôi sao, thêm 9 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_fce5fb97",
+   "text": "Bé có 17 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_44736153",
+   "text": "Bé có 17 quả bóng, thêm 10 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_0c0e1894",
+   "text": "Bé có 17 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_ce47a4fd",
+   "text": "Bé có 17 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_b7d7f18a",
+   "text": "Bé có 17 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_136e55d3",
+   "text": "Bé có 17 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_a2e2c880",
+   "text": "Bé có 17 quả bóng, thêm 6 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_5aab4929",
+   "text": "Bé có 17 quả bóng, thêm 7 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_aefe4e06",
+   "text": "Bé có 17 quả bóng, thêm 8 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_2b63374f",
+   "text": "Bé có 17 quả bóng, thêm 9 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_cabd3fdf",
+   "text": "Bé có 18 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_2bc63a37",
+   "text": "Bé có 18 bông hoa, thêm 10 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_861b63fc",
+   "text": "Bé có 18 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_cb2fb6e9",
+   "text": "Bé có 18 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_7d7c883e",
+   "text": "Bé có 18 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_3654a793",
+   "text": "Bé có 18 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_4cc50a40",
+   "text": "Bé có 18 bông hoa, thêm 6 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_c653b0cd",
+   "text": "Bé có 18 bông hoa, thêm 7 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_8f35bdb2",
+   "text": "Bé có 18 bông hoa, thêm 8 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_36775ea7",
+   "text": "Bé có 18 bông hoa, thêm 9 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_ec9c4b11",
+   "text": "Bé có 18 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_d4688c79",
+   "text": "Bé có 18 cái bánh, thêm 10 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_9f8e56de",
+   "text": "Bé có 18 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_9e98e15b",
+   "text": "Bé có 18 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_eb3b4700",
+   "text": "Bé có 18 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_64089345",
+   "text": "Bé có 18 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_36912852",
+   "text": "Bé có 18 cái bánh, thêm 6 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_4e19e7cf",
+   "text": "Bé có 18 cái bánh, thêm 7 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_f0b998e4",
+   "text": "Bé có 18 cái bánh, thêm 8 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_992dcdc9",
+   "text": "Bé có 18 cái bánh, thêm 9 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_937fb67b",
+   "text": "Bé có 18 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_d127ce77",
+   "text": "Bé có 18 cái kẹo, thêm 10 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_c8a91d1c",
+   "text": "Bé có 18 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_e74f8341",
+   "text": "Bé có 18 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_7468037a",
+   "text": "Bé có 18 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_c84312c7",
+   "text": "Bé có 18 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_33c82da8",
+   "text": "Bé có 18 cái kẹo, thêm 6 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_30bd47cd",
+   "text": "Bé có 18 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_acec02d6",
+   "text": "Bé có 18 cái kẹo, thêm 8 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_1de10e43",
+   "text": "Bé có 18 cái kẹo, thêm 9 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_cfb03107",
+   "text": "Bé có 18 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_8d42f08f",
+   "text": "Bé có 18 ngôi sao, thêm 10 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_02490b74",
+   "text": "Bé có 18 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_5bb1b4d1",
+   "text": "Bé có 18 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_364ec0c6",
+   "text": "Bé có 18 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_55a5a85b",
+   "text": "Bé có 18 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_269de0e8",
+   "text": "Bé có 18 ngôi sao, thêm 6 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_8fb21535",
+   "text": "Bé có 18 ngôi sao, thêm 7 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_1130517a",
+   "text": "Bé có 18 ngôi sao, thêm 8 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_d5a4149f",
+   "text": "Bé có 18 ngôi sao, thêm 9 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_d94674ce",
+   "text": "Bé có 18 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_479659ac",
+   "text": "Bé có 18 quả bóng, thêm 10 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_8ccf317d",
+   "text": "Bé có 18 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_2e220514",
+   "text": "Bé có 18 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_6135de53",
+   "text": "Bé có 18 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_9f66900a",
+   "text": "Bé có 18 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_78413fa9",
+   "text": "Bé có 18 quả bóng, thêm 6 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_bf385100",
+   "text": "Bé có 18 quả bóng, thêm 7 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_95395dcf",
+   "text": "Bé có 18 quả bóng, thêm 8 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_e1a09486",
+   "text": "Bé có 18 quả bóng, thêm 9 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_64624da0",
+   "text": "Bé có 19 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_6fb05486",
+   "text": "Bé có 19 bông hoa, thêm 10 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_80222773",
+   "text": "Bé có 19 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_b3c7761e",
+   "text": "Bé có 19 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_9e8f56c9",
+   "text": "Bé có 19 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_cf85f9dc",
+   "text": "Bé có 19 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_753bae3f",
+   "text": "Bé có 19 bông hoa, thêm 6 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_702da86a",
+   "text": "Bé có 19 bông hoa, thêm 7 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_f88c6d15",
+   "text": "Bé có 19 bông hoa, thêm 8 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_d7cbe608",
+   "text": "Bé có 19 bông hoa, thêm 9 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_3ac74f7c",
+   "text": "Bé có 19 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_40f14906",
+   "text": "Bé có 19 cái bánh, thêm 10 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_0f5ee18b",
+   "text": "Bé có 19 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_2bb12f8e",
+   "text": "Bé có 19 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_a1e972b5",
+   "text": "Bé có 19 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_81a00070",
+   "text": "Bé có 19 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_324d117f",
+   "text": "Bé có 19 cái bánh, thêm 6 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_21e229c2",
+   "text": "Bé có 19 cái bánh, thêm 7 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_53486839",
+   "text": "Bé có 19 cái bánh, thêm 8 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_79060fd4",
+   "text": "Bé có 19 cái bánh, thêm 9 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_d661a592",
+   "text": "Bé có 19 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_3bcc9c40",
+   "text": "Bé có 19 cái kẹo, thêm 10 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_f5e6abc5",
+   "text": "Bé có 19 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_29c3f7e0",
+   "text": "Bé có 19 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_8e1ffd13",
+   "text": "Bé có 19 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_9d34d4e6",
+   "text": "Bé có 19 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_c31aa499",
+   "text": "Bé có 19 cái kẹo, thêm 6 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_68bb7694",
+   "text": "Bé có 19 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_3258bd57",
+   "text": "Bé có 19 cái kẹo, thêm 8 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_468a6d0a",
+   "text": "Bé có 19 cái kẹo, thêm 9 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_2c882138",
+   "text": "Bé có 19 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_7a41c5ce",
+   "text": "Bé có 19 ngôi sao, thêm 10 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_a7f8cf2b",
+   "text": "Bé có 19 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_b3460b96",
+   "text": "Bé có 19 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_9f220c21",
+   "text": "Bé có 19 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_1a714804",
+   "text": "Bé có 19 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_ef537597",
+   "text": "Bé có 19 ngôi sao, thêm 6 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_c0869c52",
+   "text": "Bé có 19 ngôi sao, thêm 7 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_1c29b79d",
+   "text": "Bé có 19 ngôi sao, thêm 8 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_69ffd730",
+   "text": "Bé có 19 ngôi sao, thêm 9 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_6bd99a29",
+   "text": "Bé có 19 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_fd908d31",
+   "text": "Bé có 19 quả bóng, thêm 10 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_c906428a",
+   "text": "Bé có 19 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_249ca6d3",
+   "text": "Bé có 19 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_1d3c6994",
+   "text": "Bé có 19 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_df75f5fd",
+   "text": "Bé có 19 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_d177fd4e",
+   "text": "Bé có 19 quả bóng, thêm 6 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_0e144c97",
+   "text": "Bé có 19 quả bóng, thêm 7 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_b4748618",
+   "text": "Bé có 19 quả bóng, thêm 8 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_604e8481",
+   "text": "Bé có 19 quả bóng, thêm 9 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_89d00a80",
+   "text": "Bé có 2 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_e8752ae6",
+   "text": "Bé có 2 bông hoa, thêm 10 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_74ae87d3",
+   "text": "Bé có 2 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_c4eba07e",
+   "text": "Bé có 2 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_4a0f7a29",
+   "text": "Bé có 2 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_6696f53c",
+   "text": "Bé có 2 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_c40aa31f",
+   "text": "Bé có 2 bông hoa, thêm 6 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_3610e14a",
+   "text": "Bé có 2 bông hoa, thêm 7 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_aed23f75",
+   "text": "Bé có 2 bông hoa, thêm 8 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_a6e81de8",
+   "text": "Bé có 2 bông hoa, thêm 9 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_4fa54b9c",
+   "text": "Bé có 2 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_8de3a926",
+   "text": "Bé có 2 cái bánh, thêm 10 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_43c67d2b",
+   "text": "Bé có 2 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_c318ceae",
+   "text": "Bé có 2 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_5d3c5155",
+   "text": "Bé có 2 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_95c66d90",
+   "text": "Bé có 2 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_eca4ee9f",
+   "text": "Bé có 2 cái bánh, thêm 6 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_7a95f262",
+   "text": "Bé có 2 cái bánh, thêm 7 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_c83c2b59",
+   "text": "Bé có 2 cái bánh, thêm 8 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_f600bb74",
+   "text": "Bé có 2 cái bánh, thêm 9 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_b10c1e72",
+   "text": "Bé có 2 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_c79c9b20",
+   "text": "Bé có 2 cái kẹo, thêm 10 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_dc4b4425",
+   "text": "Bé có 2 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_aa9a8b40",
+   "text": "Bé có 2 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_a0f5bd73",
+   "text": "Bé có 2 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_e3ae60c6",
+   "text": "Bé có 2 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_23ab39f9",
+   "text": "Bé có 2 cái kẹo, thêm 6 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_69206974",
+   "text": "Bé có 2 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_8ec67e37",
+   "text": "Bé có 2 cái kẹo, thêm 8 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_170a50ea",
+   "text": "Bé có 2 cái kẹo, thêm 9 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_18383098",
+   "text": "Bé có 2 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_def3b2ae",
+   "text": "Bé có 2 ngôi sao, thêm 10 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_6e54840b",
+   "text": "Bé có 2 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_34cd75f6",
+   "text": "Bé có 2 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_c78f9f01",
+   "text": "Bé có 2 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_c425a264",
+   "text": "Bé có 2 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_73b95577",
+   "text": "Bé có 2 ngôi sao, thêm 6 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_64d314b2",
+   "text": "Bé có 2 ngôi sao, thêm 7 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_9bb39ffd",
+   "text": "Bé có 2 ngôi sao, thêm 8 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_dd17e810",
+   "text": "Bé có 2 ngôi sao, thêm 9 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_666a6489",
+   "text": "Bé có 2 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_a5983211",
+   "text": "Bé có 2 quả bóng, thêm 10 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_eecc266a",
+   "text": "Bé có 2 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_3a781e33",
+   "text": "Bé có 2 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_7b6384f4",
+   "text": "Bé có 2 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_070d055d",
+   "text": "Bé có 2 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_d09141ae",
+   "text": "Bé có 2 quả bóng, thêm 6 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_c619c0f7",
+   "text": "Bé có 2 quả bóng, thêm 7 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_386109f8",
+   "text": "Bé có 2 quả bóng, thêm 8 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_87b8fe61",
+   "text": "Bé có 2 quả bóng, thêm 9 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_1268d1e0",
+   "text": "Bé có 20 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_6e305146",
+   "text": "Bé có 20 bông hoa, thêm 10 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_76ec0fb3",
+   "text": "Bé có 20 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_3a98de5e",
+   "text": "Bé có 20 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_c281be09",
+   "text": "Bé có 20 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_134bd21c",
+   "text": "Bé có 20 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_6ee6bc7f",
+   "text": "Bé có 20 bông hoa, thêm 6 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_739e9aaa",
+   "text": "Bé có 20 bông hoa, thêm 7 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_0f02b055",
+   "text": "Bé có 20 bông hoa, thêm 8 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_daf8c948",
+   "text": "Bé có 20 bông hoa, thêm 9 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_41645c3c",
+   "text": "Bé có 20 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_59899146",
+   "text": "Bé có 20 cái bánh, thêm 10 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_5115424b",
+   "text": "Bé có 20 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_098bbc4e",
+   "text": "Bé có 20 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_5e687375",
+   "text": "Bé có 20 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_cd6c1f30",
+   "text": "Bé có 20 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_0235283f",
+   "text": "Bé có 20 cái bánh, thêm 6 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_8db81482",
+   "text": "Bé có 20 cái bánh, thêm 7 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_905e43f9",
+   "text": "Bé có 20 cái bánh, thêm 8 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_32746994",
+   "text": "Bé có 20 cái bánh, thêm 9 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_892c10d2",
+   "text": "Bé có 20 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_e42c3000",
+   "text": "Bé có 20 cái kẹo, thêm 10 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_9baac405",
+   "text": "Bé có 20 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_e0004e20",
+   "text": "Bé có 20 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_ff963653",
+   "text": "Bé có 20 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_450bfa26",
+   "text": "Bé có 20 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_1e8a7fd9",
+   "text": "Bé có 20 cái kẹo, thêm 6 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_09fe1bd4",
+   "text": "Bé có 20 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_f7069797",
+   "text": "Bé có 20 cái kẹo, thêm 8 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_1ada6a4a",
+   "text": "Bé có 20 cái kẹo, thêm 9 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_cc414178",
+   "text": "Bé có 20 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_9b5cde8e",
+   "text": "Bé có 20 ngôi sao, thêm 10 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_7f69ba6b",
+   "text": "Bé có 20 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_916f82d6",
+   "text": "Bé có 20 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_b917ef61",
+   "text": "Bé có 20 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_fce62f44",
+   "text": "Bé có 20 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_8a4ebed7",
+   "text": "Bé có 20 ngôi sao, thêm 6 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_0f7ec892",
+   "text": "Bé có 20 ngôi sao, thêm 7 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_6b27dbdd",
+   "text": "Bé có 20 ngôi sao, thêm 8 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_1a2f3d70",
+   "text": "Bé có 20 ngôi sao, thêm 9 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_f15ceb69",
+   "text": "Bé có 20 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_eb8efcf1",
+   "text": "Bé có 20 quả bóng, thêm 10 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_ef0de5ca",
+   "text": "Bé có 20 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_7c94d913",
+   "text": "Bé có 20 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_a6bc2ed4",
+   "text": "Bé có 20 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_19d4a83d",
+   "text": "Bé có 20 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_2ae7eb8e",
+   "text": "Bé có 20 quả bóng, thêm 6 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_37a10bd7",
+   "text": "Bé có 20 quả bóng, thêm 7 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_b1190858",
+   "text": "Bé có 20 quả bóng, thêm 8 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_42cef7c1",
+   "text": "Bé có 20 quả bóng, thêm 9 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_76dd07bf",
+   "text": "Bé có 3 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_69a1c297",
+   "text": "Bé có 3 bông hoa, thêm 10 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_7f2adf5c",
+   "text": "Bé có 3 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_5d47b849",
+   "text": "Bé có 3 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_2a4a699e",
+   "text": "Bé có 3 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_ddabccf3",
+   "text": "Bé có 3 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_97c11d20",
+   "text": "Bé có 3 bông hoa, thêm 6 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_52c4782d",
+   "text": "Bé có 3 bông hoa, thêm 7 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_568dc112",
+   "text": "Bé có 3 bông hoa, thêm 8 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_7384a507",
+   "text": "Bé có 3 bông hoa, thêm 9 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_48552a31",
+   "text": "Bé có 3 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_67729119",
+   "text": "Bé có 3 cái bánh, thêm 10 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_96b2d57e",
+   "text": "Bé có 3 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_77a79e7b",
+   "text": "Bé có 3 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_9230d5a0",
+   "text": "Bé có 3 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_a6810165",
+   "text": "Bé có 3 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_eda4a4f2",
+   "text": "Bé có 3 cái bánh, thêm 6 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_5c18baef",
+   "text": "Bé có 3 cái bánh, thêm 7 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_a3863a04",
+   "text": "Bé có 3 cái bánh, thêm 8 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_e6ad4fe9",
+   "text": "Bé có 3 cái bánh, thêm 9 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_b13032db",
+   "text": "Bé có 3 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_691ee7d7",
+   "text": "Bé có 3 cái kẹo, thêm 10 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_2a39e67c",
+   "text": "Bé có 3 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_9e4361a1",
+   "text": "Bé có 3 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_0cbd24da",
+   "text": "Bé có 3 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_6d3d22a7",
+   "text": "Bé có 3 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_b8206a88",
+   "text": "Bé có 3 cái kẹo, thêm 6 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_aa1fe12d",
+   "text": "Bé có 3 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_aa2f3c36",
+   "text": "Bé có 3 cái kẹo, thêm 8 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_baa831a3",
+   "text": "Bé có 3 cái kẹo, thêm 9 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_c4793767",
+   "text": "Bé có 3 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_cb9e9b6f",
+   "text": "Bé có 3 ngôi sao, thêm 10 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_a3c518d4",
+   "text": "Bé có 3 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_c40ef8b1",
+   "text": "Bé có 3 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_adfc70a6",
+   "text": "Bé có 3 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_813aefbb",
+   "text": "Bé có 3 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_5b41b4c8",
+   "text": "Bé có 3 ngôi sao, thêm 6 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_9aa7dd15",
+   "text": "Bé có 3 ngôi sao, thêm 7 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_24015dda",
+   "text": "Bé có 3 ngôi sao, thêm 8 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_e0abbd7f",
+   "text": "Bé có 3 ngôi sao, thêm 9 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_bafc7b2e",
+   "text": "Bé có 3 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_5267250c",
+   "text": "Bé có 3 quả bóng, thêm 10 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_372884dd",
+   "text": "Bé có 3 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_229a3874",
+   "text": "Bé có 3 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_c8d121b3",
+   "text": "Bé có 3 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_316ec7ea",
+   "text": "Bé có 3 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_562b0809",
+   "text": "Bé có 3 quả bóng, thêm 6 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_095cf2e0",
+   "text": "Bé có 3 quả bóng, thêm 7 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_7ce2592f",
+   "text": "Bé có 3 quả bóng, thêm 8 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_b55cece6",
+   "text": "Bé có 3 quả bóng, thêm 9 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_2f4635d6",
+   "text": "Bé có 4 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_533d5308",
+   "text": "Bé có 4 bông hoa, thêm 10 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_45631a65",
+   "text": "Bé có 4 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_9f984598",
+   "text": "Bé có 4 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_8d098ed7",
+   "text": "Bé có 4 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_4344e662",
+   "text": "Bé có 4 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_6313e0c1",
+   "text": "Bé có 4 bông hoa, thêm 6 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_afcb3d94",
+   "text": "Bé có 4 bông hoa, thêm 7 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_bf01ce43",
+   "text": "Bé có 4 bông hoa, thêm 8 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_47d130ee",
+   "text": "Bé có 4 bông hoa, thêm 9 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_0ac93fde",
+   "text": "Bé có 4 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_ae2d182c",
+   "text": "Bé có 4 cái bánh, thêm 10 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_57d73411",
+   "text": "Bé có 4 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_31cbd18c",
+   "text": "Bé có 4 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_b954d0cf",
+   "text": "Bé có 4 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_a1cc1152",
+   "text": "Bé có 4 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_cf437c45",
+   "text": "Bé có 4 cái bánh, thêm 6 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_56763000",
+   "text": "Bé có 4 cái bánh, thêm 7 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_ad03bc93",
+   "text": "Bé có 4 cái bánh, thêm 8 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_d78c3716",
+   "text": "Bé có 4 cái bánh, thêm 9 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_0af526f4",
+   "text": "Bé có 4 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_5d4784f6",
+   "text": "Bé có 4 cái kẹo, thêm 10 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_fd4016f3",
+   "text": "Bé có 4 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_fd443646",
+   "text": "Bé có 4 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_1357b3a5",
+   "text": "Bé có 4 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_3be566c0",
+   "text": "Bé có 4 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_df58401f",
+   "text": "Bé có 4 cái kẹo, thêm 6 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_ce8fc3f2",
+   "text": "Bé có 4 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_2e484c31",
+   "text": "Bé có 4 cái kẹo, thêm 8 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_f2ed524c",
+   "text": "Bé có 4 cái kẹo, thêm 9 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_a09bf39e",
+   "text": "Bé có 4 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_1b6d0040",
+   "text": "Bé có 4 ngôi sao, thêm 10 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_ac673e8d",
+   "text": "Bé có 4 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_de1ae8a0",
+   "text": "Bé có 4 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_a69db15f",
+   "text": "Bé có 4 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_c0c3bf3a",
+   "text": "Bé có 4 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_01eaaae9",
+   "text": "Bé có 4 ngôi sao, thêm 6 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_0cb4572c",
+   "text": "Bé có 4 ngôi sao, thêm 7 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_e036a11b",
+   "text": "Bé có 4 ngôi sao, thêm 8 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_95c25186",
+   "text": "Bé có 4 ngôi sao, thêm 9 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_5bcf166f",
+   "text": "Bé có 4 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_af98a73b",
+   "text": "Bé có 4 quả bóng, thêm 10 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_33de8a6c",
+   "text": "Bé có 4 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_216d6f95",
+   "text": "Bé có 4 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_d8f97382",
+   "text": "Bé có 4 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_a92bc5cb",
+   "text": "Bé có 4 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_f1e8dcb8",
+   "text": "Bé có 4 quả bóng, thêm 6 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_f8762821",
+   "text": "Bé có 4 quả bóng, thêm 7 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_dfe5dc6e",
+   "text": "Bé có 4 quả bóng, thêm 8 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_7fb630b7",
+   "text": "Bé có 4 quả bóng, thêm 9 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_ab22cf3d",
+   "text": "Bé có 5 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_cfb75c49",
+   "text": "Bé có 5 bông hoa, thêm 10 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_cc07ef6e",
+   "text": "Bé có 5 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_2500f4c3",
+   "text": "Bé có 5 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_319bfe2c",
+   "text": "Bé có 5 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_b9658dd9",
+   "text": "Bé có 5 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_88808dba",
+   "text": "Bé có 5 bông hoa, thêm 6 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_fcd21b8f",
+   "text": "Bé có 5 bông hoa, thêm 7 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_dde22018",
+   "text": "Bé có 5 bông hoa, thêm 8 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_52d46ae5",
+   "text": "Bé có 5 bông hoa, thêm 9 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_739876b3",
+   "text": "Bé có 5 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_3a185547",
+   "text": "Bé có 5 cái bánh, thêm 10 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_183db584",
+   "text": "Bé có 5 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_5db75169",
+   "text": "Bé có 5 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_b85ada4a",
+   "text": "Bé có 5 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_c2941787",
+   "text": "Bé có 5 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_34397418",
+   "text": "Bé có 5 cái bánh, thêm 6 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_b4971b1d",
+   "text": "Bé có 5 cái bánh, thêm 7 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_cdc39cfe",
+   "text": "Bé có 5 cái bánh, thêm 8 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_ee80a1fb",
+   "text": "Bé có 5 cái bánh, thêm 9 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_448cd2d5",
+   "text": "Bé có 5 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_f6ff955d",
+   "text": "Bé có 5 cái kẹo, thêm 10 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_73ff79a2",
+   "text": "Bé có 5 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_1a4ae0cf",
+   "text": "Bé có 5 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_36b41164",
+   "text": "Bé có 5 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_1b1756e9",
+   "text": "Bé có 5 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_0f91b7b6",
+   "text": "Bé có 5 cái kẹo, thêm 6 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_4f390f23",
+   "text": "Bé có 5 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_3211ba08",
+   "text": "Bé có 5 cái kẹo, thêm 8 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_e991e4ad",
+   "text": "Bé có 5 cái kẹo, thêm 9 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_333f2845",
+   "text": "Bé có 5 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_24b58721",
+   "text": "Bé có 5 ngôi sao, thêm 10 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_4f1fb256",
+   "text": "Bé có 5 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_fc49abeb",
+   "text": "Bé có 5 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_22d1c2c4",
+   "text": "Bé có 5 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_51e6cae1",
+   "text": "Bé có 5 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_9967f612",
+   "text": "Bé có 5 ngôi sao, thêm 6 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_5ca7e857",
+   "text": "Bé có 5 ngôi sao, thêm 7 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_c80ee8f0",
+   "text": "Bé có 5 ngôi sao, thêm 8 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_1258ed5d",
+   "text": "Bé có 5 ngôi sao, thêm 9 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_7a2e4b64",
+   "text": "Bé có 5 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_56a3620e",
+   "text": "Bé có 5 quả bóng, thêm 10 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_782feba7",
+   "text": "Bé có 5 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_bcaf7e5e",
+   "text": "Bé có 5 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_8cae79f9",
+   "text": "Bé có 5 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_d84b93d0",
+   "text": "Bé có 5 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_c0e81be3",
+   "text": "Bé có 5 quả bóng, thêm 6 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_42c2fd1a",
+   "text": "Bé có 5 quả bóng, thêm 7 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_e47236c5",
+   "text": "Bé có 5 quả bóng, thêm 8 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_ad8e2cdc",
+   "text": "Bé có 5 quả bóng, thêm 9 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_4141402c",
+   "text": "Bé có 6 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_7183f00a",
+   "text": "Bé có 6 bông hoa, thêm 10 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_0c775d8f",
+   "text": "Bé có 6 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_9825cfba",
+   "text": "Bé có 6 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_bac8113d",
+   "text": "Bé có 6 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_77fd14f0",
+   "text": "Bé có 6 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_34a636c3",
+   "text": "Bé có 6 bông hoa, thêm 6 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_dbad316e",
+   "text": "Bé có 6 bông hoa, thêm 7 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_bc542b41",
+   "text": "Bé có 6 bông hoa, thêm 8 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_3553b214",
+   "text": "Bé có 6 bông hoa, thêm 9 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_72c97ee8",
+   "text": "Bé có 6 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_9b11fbba",
+   "text": "Bé có 6 cái bánh, thêm 10 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_f7e36ad7",
+   "text": "Bé có 6 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_e7cf6bda",
+   "text": "Bé có 6 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_c0ddb179",
+   "text": "Bé có 6 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_581bcb14",
+   "text": "Bé có 6 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_e4588c43",
+   "text": "Bé có 6 cái bánh, thêm 6 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_7174d146",
+   "text": "Bé có 6 cái bánh, thêm 7 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_47a9caf5",
+   "text": "Bé có 6 cái bánh, thêm 8 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_6793c8b0",
+   "text": "Bé có 6 cái bánh, thêm 9 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_059adb4e",
+   "text": "Bé có 6 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_29605aa4",
+   "text": "Bé có 6 cái kẹo, thêm 10 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_bf079961",
+   "text": "Bé có 6 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_45405e3c",
+   "text": "Bé có 6 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_3f993667",
+   "text": "Bé có 6 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_1c9e569a",
+   "text": "Bé có 6 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_4c020fed",
+   "text": "Bé có 6 cái kẹo, thêm 6 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_98a0e548",
+   "text": "Bé có 6 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_74cb9d63",
+   "text": "Bé có 6 cái kẹo, thêm 8 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_bb13ecf6",
+   "text": "Bé có 6 cái kẹo, thêm 9 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_ff8dde14",
+   "text": "Bé có 6 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_07f5c942",
+   "text": "Bé có 6 ngôi sao, thêm 10 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_61df27a7",
+   "text": "Bé có 6 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_9ea323a2",
+   "text": "Bé có 6 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_3805f255",
+   "text": "Bé có 6 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_7988b008",
+   "text": "Bé có 6 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_1eb726fb",
+   "text": "Bé có 6 ngôi sao, thêm 6 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_16172ee6",
+   "text": "Bé có 6 ngôi sao, thêm 7 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_38c713c9",
+   "text": "Bé có 6 ngôi sao, thêm 8 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_0cdb838c",
+   "text": "Bé có 6 ngôi sao, thêm 9 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_3dad527d",
+   "text": "Bé có 6 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_18c83e9d",
+   "text": "Bé có 6 quả bóng, thêm 10 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_8a2495ce",
+   "text": "Bé có 6 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_6aff9b17",
+   "text": "Bé có 6 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_70167200",
+   "text": "Bé có 6 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_291f60a9",
+   "text": "Bé có 6 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_5044b10a",
+   "text": "Bé có 6 quả bóng, thêm 6 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_1213ff53",
+   "text": "Bé có 6 quả bóng, thêm 7 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_05d95bcc",
+   "text": "Bé có 6 quả bóng, thêm 8 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_a760a575",
+   "text": "Bé có 6 quả bóng, thêm 9 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_5a5b510b",
+   "text": "Bé có 7 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_b3d48deb",
+   "text": "Bé có 7 bông hoa, thêm 10 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_f0ff2818",
+   "text": "Bé có 7 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_65f172e5",
+   "text": "Bé có 7 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_aa3310e2",
+   "text": "Bé có 7 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_a51c2157",
+   "text": "Bé có 7 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_38cb7814",
+   "text": "Bé có 7 bông hoa, thêm 6 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_bfcbf141",
+   "text": "Bé có 7 bông hoa, thêm 7 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_df24f76e",
+   "text": "Bé có 7 bông hoa, thêm 8 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_381dfcc3",
+   "text": "Bé có 7 bông hoa, thêm 9 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_e4cc353d",
+   "text": "Bé có 7 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_4857f50d",
+   "text": "Bé có 7 cái bánh, thêm 10 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_1fedbe6a",
+   "text": "Bé có 7 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_810f75a7",
+   "text": "Bé có 7 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_283da4a4",
+   "text": "Bé có 7 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_c6f97d89",
+   "text": "Bé có 7 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_71bbfed6",
+   "text": "Bé có 7 cái bánh, thêm 6 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_d053a153",
+   "text": "Bé có 7 cái bánh, thêm 7 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_01a10ec0",
+   "text": "Bé có 7 cái bánh, thêm 8 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_dba60d05",
+   "text": "Bé có 7 cái bánh, thêm 9 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_8422d267",
+   "text": "Bé có 7 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_d79c005b",
+   "text": "Bé có 7 cái kẹo, thêm 10 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_dd2a8148",
+   "text": "Bé có 7 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_908babed",
+   "text": "Bé có 7 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_4a24774e",
+   "text": "Bé có 7 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_83f0889b",
+   "text": "Bé có 7 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_89c9fa3c",
+   "text": "Bé có 7 cái kẹo, thêm 6 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_03913561",
+   "text": "Bé có 7 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_9439a4e2",
+   "text": "Bé có 7 cái kẹo, thêm 8 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_7715840f",
+   "text": "Bé có 7 cái kẹo, thêm 9 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_216bd083",
+   "text": "Bé có 7 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_592c7813",
+   "text": "Bé có 7 ngôi sao, thêm 10 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_996760f0",
+   "text": "Bé có 7 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_e3b1655d",
+   "text": "Bé có 7 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_236560ca",
+   "text": "Bé có 7 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_82fab7af",
+   "text": "Bé có 7 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_48cbb9bc",
+   "text": "Bé có 7 ngôi sao, thêm 6 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_34960cb9",
+   "text": "Bé có 7 ngôi sao, thêm 7 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_20782a56",
+   "text": "Bé có 7 ngôi sao, thêm 8 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_cda223eb",
+   "text": "Bé có 7 ngôi sao, thêm 9 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_fba3ded2",
+   "text": "Bé có 7 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_8b409618",
+   "text": "Bé có 7 quả bóng, thêm 10 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_cd5d6771",
+   "text": "Bé có 7 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_9656f788",
+   "text": "Bé có 7 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_65a6f57f",
+   "text": "Bé có 7 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_68452436",
+   "text": "Bé có 7 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_d55f35e5",
+   "text": "Bé có 7 quả bóng, thêm 6 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_9a976cfc",
+   "text": "Bé có 7 quả bóng, thêm 7 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_bb5da483",
+   "text": "Bé có 7 quả bóng, thêm 8 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_0f04e6ba",
+   "text": "Bé có 7 quả bóng, thêm 9 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_ffe6d132",
+   "text": "Bé có 8 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_95cb37bc",
+   "text": "Bé có 8 bông hoa, thêm 10 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_a4d6e0d1",
+   "text": "Bé có 8 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_988cd364",
+   "text": "Bé có 8 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_1047155b",
+   "text": "Bé có 8 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_205ee726",
+   "text": "Bé có 8 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_39be7db5",
+   "text": "Bé có 8 bông hoa, thêm 6 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_4cc61e28",
+   "text": "Bé có 8 bông hoa, thêm 7 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_4757a15f",
+   "text": "Bé có 8 bông hoa, thêm 8 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_b2fa6e8a",
+   "text": "Bé có 8 bông hoa, thêm 9 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_46929c5a",
+   "text": "Bé có 8 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_f14f90f0",
+   "text": "Bé có 8 cái bánh, thêm 10 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_b53a8f6d",
+   "text": "Bé có 8 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_6de52f68",
+   "text": "Bé có 8 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_27866cc3",
+   "text": "Bé có 8 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_4ffd25c6",
+   "text": "Bé có 8 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_0b0001f9",
+   "text": "Bé có 8 cái bánh, thêm 6 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_ad162794",
+   "text": "Bé có 8 cái bánh, thêm 7 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_7cd6e63f",
+   "text": "Bé có 8 cái bánh, thêm 8 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_0859d282",
+   "text": "Bé có 8 cái bánh, thêm 9 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_7f94be20",
+   "text": "Bé có 8 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_0a350d4a",
+   "text": "Bé có 8 cái kẹo, thêm 10 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_697705ff",
+   "text": "Bé có 8 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_28c080d2",
+   "text": "Bé có 8 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_be1eefd9",
+   "text": "Bé có 8 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_a9928bd4",
+   "text": "Bé có 8 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_9f2aa653",
+   "text": "Bé có 8 cái kẹo, thêm 6 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_e4a06a26",
+   "text": "Bé có 8 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_d8603edd",
+   "text": "Bé có 8 cái kẹo, thêm 8 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_fdf24078",
+   "text": "Bé có 8 cái kẹo, thêm 9 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_436b763a",
+   "text": "Bé có 8 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_d6585614",
+   "text": "Bé có 8 ngôi sao, thêm 10 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_849261e9",
+   "text": "Bé có 8 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_8f5c0e2c",
+   "text": "Bé có 8 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_4ce00f73",
+   "text": "Bé có 8 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_2343aa9e",
+   "text": "Bé có 8 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_2f0ef58d",
+   "text": "Bé có 8 ngôi sao, thêm 6 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_60c29fa0",
+   "text": "Bé có 8 ngôi sao, thêm 7 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_727c78c7",
+   "text": "Bé có 8 ngôi sao, thêm 8 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_4541b042",
+   "text": "Bé có 8 ngôi sao, thêm 9 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_2e353e13",
+   "text": "Bé có 8 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_beb90f27",
+   "text": "Bé có 8 quả bóng, thêm 10 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_98c55bc0",
+   "text": "Bé có 8 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_a2fd5069",
+   "text": "Bé có 8 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_dc88508e",
+   "text": "Bé có 8 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_e94170d7",
+   "text": "Bé có 8 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_585c93d4",
+   "text": "Bé có 8 quả bóng, thêm 6 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_cb750d3d",
+   "text": "Bé có 8 quả bóng, thêm 7 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_81cc86a2",
+   "text": "Bé có 8 quả bóng, thêm 8 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_7e45dbeb",
+   "text": "Bé có 8 quả bóng, thêm 9 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_4f1f8339",
+   "text": "Bé có 9 bông hoa, thêm 1 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_9a1d519d",
+   "text": "Bé có 9 bông hoa, thêm 10 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_d03d369a",
+   "text": "Bé có 9 bông hoa, thêm 2 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_bed814ef",
+   "text": "Bé có 9 bông hoa, thêm 3 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_312fd350",
+   "text": "Bé có 9 bông hoa, thêm 4 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_9657bd1d",
+   "text": "Bé có 9 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_29c1c9ce",
+   "text": "Bé có 9 bông hoa, thêm 6 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_a6c7bea3",
+   "text": "Bé có 9 bông hoa, thêm 7 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_981e2a74",
+   "text": "Bé có 9 bông hoa, thêm 8 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_a86839a1",
+   "text": "Bé có 9 bông hoa, thêm 9 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?"
+  },
+  {
+   "id": "vi_say_842f74cf",
+   "text": "Bé có 9 cái bánh, thêm 1 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_a2c3bb5b",
+   "text": "Bé có 9 cái bánh, thêm 10 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_2150d400",
+   "text": "Bé có 9 cái bánh, thêm 2 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_9a1e2045",
+   "text": "Bé có 9 cái bánh, thêm 3 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_d5a3e3de",
+   "text": "Bé có 9 cái bánh, thêm 4 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_d4ae6e5b",
+   "text": "Bé có 9 cái bánh, thêm 5 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_fca6758c",
+   "text": "Bé có 9 cái bánh, thêm 6 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_22b1d811",
+   "text": "Bé có 9 cái bánh, thêm 7 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_3d38e1aa",
+   "text": "Bé có 9 cái bánh, thêm 8 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_70e6a6e7",
+   "text": "Bé có 9 cái bánh, thêm 9 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?"
+  },
+  {
+   "id": "vi_say_b53d7861",
+   "text": "Bé có 9 cái kẹo, thêm 1 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_7b84c2b1",
+   "text": "Bé có 9 cái kẹo, thêm 10 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_fbd0ba4e",
+   "text": "Bé có 9 cái kẹo, thêm 2 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_359ccb9b",
+   "text": "Bé có 9 cái kẹo, thêm 3 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_8ed6c448",
+   "text": "Bé có 9 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_4237eeed",
+   "text": "Bé có 9 cái kẹo, thêm 5 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_12d4359a",
+   "text": "Bé có 9 cái kẹo, thêm 6 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_35cf1567",
+   "text": "Bé có 9 cái kẹo, thêm 7 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_e0a815a4",
+   "text": "Bé có 9 cái kẹo, thêm 8 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_49bbdb29",
+   "text": "Bé có 9 cái kẹo, thêm 9 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?"
+  },
+  {
+   "id": "vi_say_f6a46c01",
+   "text": "Bé có 9 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_475ee835",
+   "text": "Bé có 9 ngôi sao, thêm 10 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_93e7e1b2",
+   "text": "Bé có 9 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_a2ce2277",
+   "text": "Bé có 9 ngôi sao, thêm 3 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_474cfd98",
+   "text": "Bé có 9 ngôi sao, thêm 4 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_1c85bce5",
+   "text": "Bé có 9 ngôi sao, thêm 5 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_63e242f6",
+   "text": "Bé có 9 ngôi sao, thêm 6 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_9d69510b",
+   "text": "Bé có 9 ngôi sao, thêm 7 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_3a1bd85c",
+   "text": "Bé có 9 ngôi sao, thêm 8 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_c9be2ad9",
+   "text": "Bé có 9 ngôi sao, thêm 9 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?"
+  },
+  {
+   "id": "vi_say_3201d458",
+   "text": "Bé có 9 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_20daf52a",
+   "text": "Bé có 9 quả bóng, thêm 10 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_4d8e42eb",
+   "text": "Bé có 9 quả bóng, thêm 2 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_5114eda2",
+   "text": "Bé có 9 quả bóng, thêm 3 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_a44c1635",
+   "text": "Bé có 9 quả bóng, thêm 4 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_1d08a78c",
+   "text": "Bé có 9 quả bóng, thêm 5 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_8afb638f",
+   "text": "Bé có 9 quả bóng, thêm 6 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_0303b746",
+   "text": "Bé có 9 quả bóng, thêm 7 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_7245b769",
+   "text": "Bé có 9 quả bóng, thêm 8 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
+  },
+  {
+   "id": "vi_say_680dc2c0",
+   "text": "Bé có 9 quả bóng, thêm 9 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?"
   }
  ],
  "thinking": [
@@ -5799,6 +8939,10 @@
    "text": "Số nào đứng sau 11?"
   },
   {
+   "id": "vi_say_9afcca87",
+   "text": "Số nào đứng sau 19?"
+  },
+  {
    "id": "vi_say_5a1e7b84",
    "text": "Số nào đứng sau 1?"
   },
@@ -6341,6 +9485,10 @@
   {
    "id": "vi_say_b9f9b665",
    "text": "ngôi sao ngôi sao mặt trăng ngôi sao ngôi sao mặt trăng?"
+  },
+  {
+   "id": "vi_say_c187eb1f",
+   "text": "ngọn lửa"
   },
   {
    "id": "vi_say_c8e9a493",

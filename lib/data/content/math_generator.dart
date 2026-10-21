@@ -272,9 +272,27 @@ class MathQuestionGenerator {
   /// ("cái bóng" would be a shadow, "cái hoa" is not said).
   static const _wordProblemThings = ['cái kẹo', 'quả bóng', 'bông hoa', 'ngôi sao', 'cái bánh'];
 
+  /// Largest first and second amounts in a word problem for [age].
+  static (int, int) _wordProblemRange(int age) => age >= 7 ? (20, 10) : (8, 5);
+
+  static String _wordProblemStory(int a, int b, String thing) =>
+      'Bé có $a $thing, thêm $b $thing nữa. Bé có tất cả bao nhiêu $thing?';
+
+  /// Every story [generateWordProblem] can tell, at any age, so each one can
+  /// have its own voice clip (tool/speech/export_speech_lines_test.dart).
+  static Iterable<String> allWordProblemStories() sync* {
+    final (maxA, maxB) = _wordProblemRange(7); // covers the younger range too
+    for (final thing in _wordProblemThings) {
+      for (var a = 1; a <= maxA; a++) {
+        for (var b = 1; b <= maxB; b++) {
+          yield _wordProblemStory(a, b, thing);
+        }
+      }
+    }
+  }
+
   ContentItem generateWordProblem(int age) {
-    final maxA = age >= 7 ? 20 : 8;
-    final maxB = age >= 7 ? 10 : 5;
+    final (maxA, maxB) = _wordProblemRange(age);
     final a = _random.nextInt(maxA) + 1;
     final b = _random.nextInt(maxB) + 1;
     final thing = _wordProblemThings[_random.nextInt(_wordProblemThings.length)];
@@ -287,7 +305,7 @@ class MathQuestionGenerator {
       skill: 'word_problem',
       difficulty: 3,
       title: 'Toán lời văn',
-      instruction: 'Bé có $a $thing, thêm $b $thing nữa. Bé có tất cả bao nhiêu $thing?',
+      instruction: _wordProblemStory(a, b, thing),
       question: '$a + $b = ?',
       answer: (a + b).toString(),
       choices: _distinctChoices(a + b, maxA + maxB, minValue: 2),

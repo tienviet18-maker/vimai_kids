@@ -62,42 +62,53 @@ void main() {
       }
     }
 
-    // Engines, sampled widely with fixed seeds.
-    for (var seed = 0; seed < 40; seed++) {
-      final rnd = Random(seed);
-      final math = MathQuestionGenerator(random: rnd);
+    // Each engine gets its own fixed seed, so a change in one (e.g. the math
+    // generator drawing numbers differently) cannot shift what another exports.
+    //
+    // Math prompts are a small, finite set ("Số nào đứng sau 37?", "Số 25 là
+    // số chẵn hay số lẻ?"): sample enough to cover every one of them.
+    for (var seed = 0; seed < 600; seed++) {
+      final math = MathQuestionGenerator(random: Random(seed));
       for (final skill in _mathSkills) {
+        if (skill == 'word_problem') continue;
         for (var age = 3; age <= 7; age++) {
           final item = math.generateBySkill(skill, age: age);
           add('math', item.title);
           add('math', item.instruction);
-          if (skill == 'word_problem') add('math_word_problem', item.question);
         }
       }
-      final thinking = ThinkingQuestionEngine(random: rnd);
+    }
+    // Word problems: every story the generator can tell, listed from its
+    // templates (not sampled). The sum under it ("3 + 2 = ?") is read with
+    // the math_num_* / math_op_* clips.
+    add('math', MathQuestionGenerator(random: Random(0)).generateWordProblem(7).title);
+    for (final story in MathQuestionGenerator.allWordProblemStories()) {
+      add('math_word_problem', story);
+    }
+
+    // Thinking: the whole question pool of every age (what next() picks
+    // from), plus next()'s own samples for the shape/colour questions it mixes in.
+    final thinkingPool = ThinkingQuestionEngine(random: Random(0));
+    for (var age = 3; age <= 7; age++) {
+      for (final item in thinkingPool.allForAge(age)) {
+        addItem('thinking', item);
+      }
+    }
+    for (var seed = 0; seed < 40; seed++) {
+      final thinking = ThinkingQuestionEngine(random: Random(seed));
       for (var age = 3; age <= 7; age++) {
         for (var i = 0; i < 30; i++) {
           addItem('thinking', thinking.next(age: age));
         }
       }
-      final repo = LearningRepositories(random: rnd);
+    }
+
+    for (var seed = 0; seed < 40; seed++) {
+      final repo = LearningRepositories(random: Random(seed));
       for (var i = 0; i < 10; i++) {
         addItem('learning', repo.shapeQuestion());
         addItem('learning', repo.colorQuestion());
         addItem('learning', repo.vietnameseLetterQuestion(), choices: false);
-      }
-    }
-    // Math prompts are a small, finite set ("Số nào đứng sau 37?", "Số 25 là
-    // số chẵn hay số lẻ?"): sample enough to cover every one of them. Word
-    // problems (over a thousand stories) stay sampled above; their sum is
-    // read with the math_num_* clips either way.
-    for (var seed = 0; seed < 600; seed++) {
-      final math = MathQuestionGenerator(random: Random(100000 + seed));
-      for (final skill in _mathSkills) {
-        if (skill == 'word_problem') continue;
-        for (var age = 3; age <= 7; age++) {
-          add('math', math.generateBySkill(skill, age: age).instruction);
-        }
       }
     }
     final thinkingBank = jsonDecode(File('assets/data/thinking/patterns.json').readAsStringSync());
