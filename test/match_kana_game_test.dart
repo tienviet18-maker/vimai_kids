@@ -68,5 +68,11 @@ void main() {
     final matched = [for (var i = 0; i < faces.length; i++) if (_cards(tester)[i].matched) i];
     expect(matched, unorderedEquals([first, partner]));
     await _settle(tester);
+    // Mai's line clips now resolve, so a player-op timeout may still be
+    // running: unmount and let it expire before the test ends.
+    await tester.pumpWidget(const SizedBox());
+    for (var i = 0; i < 12; i++) {
+      await tester.pump(const Duration(seconds: 1));
+    }
   });
 }
