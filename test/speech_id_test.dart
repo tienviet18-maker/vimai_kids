@@ -1,4 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
+import 'package:mai_an_learning/core/audio/audio_service.dart';
 import 'package:mai_an_learning/core/audio/speech_id.dart';
 
 void main() {
@@ -15,6 +16,14 @@ void main() {
     expect(SpeechId.forText('Đúng rồi! Bé giỏi quá!'), 'vi_say_4658469d');
     expect(SpeechId.forText('Bé nghe từng âm, rồi ghép lại thành tiếng nhé.'), 'vi_say_1ba4c730');
     expect(SpeechId.forText('Đúng rồi! Bé nhanh ghê!'), 'vi_say_68c26936');
+  });
+
+  // Regression: normalizeKey mapped every vi_* id to v_*, so playAudio looked
+  // for assets/audio/v_say_<hash>.mp3, which does not exist.
+  test('line clip ids reach playAudio unchanged', () {
+    expect(AudioService.normalizeKey('vi_say_4658469d'), 'vi_say_4658469d');
+    expect(AudioService.normalizeKey('assets/audio/vi_say_1ba4c730.mp3'), 'vi_say_1ba4c730');
+    expect(AudioService.normalizeKey('vi_word_aasm'), 'v_word_aasm');
   });
 
   test('only lines with letters are speakable', () {
