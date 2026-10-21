@@ -155,7 +155,9 @@ class _FindSimilarGameState extends ConsumerState<FindSimilarGame> {
       finished: _handDone,
       complete: GameCompletePanel(
         score: _pairCount,
-        wrong: _wrong,
+        // Like Ghép đôi chữ: the first look at each card is free (a miss is
+        // unavoidable before the child has seen where things are).
+        wrong: (_wrong - _pairCount).clamp(0, 99),
         total: _pairCount,
         onRetry: () => setState(_deal),
       ),

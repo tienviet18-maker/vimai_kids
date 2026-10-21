@@ -304,7 +304,7 @@ void main() {
     }
     final panel = tester.widget<GameCompletePanel>(find.byType(GameCompletePanel));
     expect(panel.score, 4);
-    expect(panel.wrong, 1);
+    expect(panel.wrong, 0, reason: 'early misses are free, as in Ghép đôi chữ');
     expect(find.text('Ván mới'), findsNothing);
     await _pumpFor(tester, 3600);
     expect(audio.said.last.lines, [KidGuide.gameWin]);
