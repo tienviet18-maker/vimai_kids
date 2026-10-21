@@ -6,6 +6,8 @@ import 'package:go_router/go_router.dart';
 
 import '../../../core/ai/mai_context.dart';
 import '../../../core/audio/audio_service.dart';
+import '../../../core/audio/kid_guide.dart';
+import '../../../core/audio/speech_id.dart';
 import '../../../core/game/webkit_answer_tap.dart';
 import '../../../core/l10n/app_strings.dart';
 import '../../../core/providers.dart';
@@ -23,7 +25,10 @@ import '../../shared/widgets/listen_prompt.dart';
 import '../../shared/widgets/vimai_ui.dart';
 
 class ThinkingScreen extends ConsumerStatefulWidget {
-  const ThinkingScreen({super.key});
+  const ThinkingScreen({super.key, this.engine});
+
+  /// Question source; tests pass one with fixed questions.
+  final ThinkingQuestionEngine? engine;
 
   @override
   ConsumerState<ThinkingScreen> createState() => _ThinkingScreenState();
@@ -42,48 +47,121 @@ class _ThinkingScreenState extends ConsumerState<ThinkingScreen> {
   int _misses = 0;
   late final MaiCompanionController _maiController;
 
+  /// Nhớ vị trí: the row is on screen for [_memoryShow], then hidden and
+  /// the question is asked. Choices only appear once it is hidden.
+  static const _memoryShow = Duration(seconds: 6);
+  static const _memoryPeek = Duration(seconds: 3);
+  bool _memoryHidden = false;
+  Timer? _memoryTimer;
+
+  /// "Chạm vào loa nhỏ…" is said once, on the first question with written answers.
+  bool _speakerHintSaid = false;
+
   @override
   void initState() {
     super.initState();
     _maiController = MaiCompanionController();
-    _engine = ThinkingQuestionEngine(bank: ref.read(contentRepositoryProvider).getThinkingPatterns());
+    _engine = widget.engine ?? ThinkingQuestionEngine(bank: ref.read(contentRepositoryProvider).getThinkingPatterns());
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (!mounted) return;
-      _next(playSkillIntro: true);
+      final item = _generate();
+      setState(() => _apply(item));
+      unawaited(ref.read(audioServiceProvider).speak(
+            const [],
+            leadIds: _promptClips(item, intro: true),
+            fallbackId: AudioService.introForThinkingSkill(item.skill),
+          ));
     });
   }
 
   @override
   void dispose() {
+    _memoryTimer?.cancel();
     _answerTap.dispose();
     _maiController.dispose();
     super.dispose();
   }
 
-  void _applyNextItem({bool playSkillIntro = false}) {
+  static bool _isMemory(ContentItem item) => item.metadata?['sequence'] is List;
+
+  static List<String> _sequence(ContentItem item) =>
+      [for (final e in (item.metadata?['sequence'] as List? ?? const [])) e.toString()];
+
+  /// Clips that say [text]: a number's own clip, else its vi_say_* line.
+  static List<String> _clipsFor(String? text) {
+    if (text == null || text.trim().isEmpty) return const [];
+    final math = AudioService.mathClips(text);
+    if (math != null) return math;
+    final id = SpeechId.idForLine(text);
+    return id == null ? const [] : [id];
+  }
+
+  /// A written answer (a word or a number) gets a speaker badge and is said
+  /// when tapped; pictures speak for themselves.
+  static bool _hearable(String choice) =>
+      RegExp(r'^\d+$').hasMatch(choice.trim()) || (SpeechId.isSpeakable(choice) && _clipsFor(choice).isNotEmpty);
+
+  ContentItem _generate() {
     final profile = ref.read(currentProfileProvider);
     final age = profile?.age ?? 5;
     final mastery = profile == null ? <SkillMastery>[] : ref.read(masteryRepositoryProvider).allForChild(profile.id);
+    return _engine.next(age: age, mastery: mastery);
+  }
+
+  /// What Mai says when [item] comes up: the question (the "look and
+  /// remember" line for Nhớ vị trí), with the skill intro first on the
+  /// first question and the speaker hint the first time answers are words.
+  List<String> _promptClips(ContentItem item, {bool intro = false}) {
+    final hint = !_speakerHintSaid && (item.choices ?? const <String>[]).any(_hearable);
+    if (hint) _speakerHintSaid = true;
+    return [
+      if (intro) AudioService.introForThinkingSkill(item.skill),
+      if (_isMemory(item))
+        ..._clipsFor(KidGuide.memoryLook)
+      else ...[
+        ..._clipsFor(item.instruction),
+        if (item.question != item.instruction) ..._clipsFor(item.question),
+        if (hint) ..._clipsFor(KidGuide.tapSmallSpeaker),
+      ],
+    ];
+  }
+
+  /// Shows [item] (call inside setState). Speech is started by the caller.
+  void _apply(ContentItem item) {
     _maiController.dismissBubble();
-    final item = _engine.next(age: age, mastery: mastery);
     _item = item;
     _feedback = null;
     _correct = null;
     _lastChoice = null;
     _misses = 0;
-    // Mai reads every question aloud (skill intro first on the first one).
-    final intro = AudioService.introForThinkingSkill(item.skill);
-    unawaited(
-      ref.read(audioServiceProvider).speak(
-        [item.instruction, if (item.question != item.instruction) item.question],
-        leadIds: playSkillIntro ? [intro] : const [],
-        fallbackId: playSkillIntro ? intro : null,
-      ),
-    );
+    _memoryTimer?.cancel();
+    _memoryHidden = false;
+    if (_isMemory(item)) _startMemoryTimer(_memoryShow);
   }
 
-  void _next({bool playSkillIntro = false}) {
-    setState(() => _applyNextItem(playSkillIntro: playSkillIntro));
+  void _startMemoryTimer(Duration show) {
+    _memoryTimer?.cancel();
+    _memoryTimer = Timer(show, () {
+      if (!mounted) return;
+      final item = _item;
+      if (item == null) return;
+      setState(() => _memoryHidden = true);
+      unawaited(ref.read(audioServiceProvider).speak([item.instruction]));
+    });
+  }
+
+  /// "Xem lại": the row comes back for a moment, then hides again.
+  void _peek() {
+    setState(() => _memoryHidden = false);
+    _startMemoryTimer(_memoryPeek);
+  }
+
+  void _say(ContentItem item) {
+    unawaited(ref.read(audioServiceProvider).speak(
+          _isMemory(item)
+              ? [_memoryHidden ? item.instruction : KidGuide.memoryLook]
+              : [item.instruction, if (item.question != item.instruction) item.question],
+        ));
   }
 
   @override
@@ -225,26 +303,51 @@ class _ThinkingScreenState extends ConsumerState<ThinkingScreen> {
                       color: VimaiColor.grape,
                     ),
                     const SizedBox(height: 8),
-                    ListenPrompt(
-                      text: item.instruction,
-                      lines: [item.instruction, if (item.question != item.instruction) item.question],
-                      color: VimaiColor.grape,
-                      // The puzzle itself ("🔴🔵🔴🔵 ?", the shape to find) was
-                      // only spoken, never shown, when it differs from the text.
-                      child: item.question != null && item.question!.trim().isNotEmpty && item.question != item.instruction
-                          ? Text(
-                              item.question!,
-                              textAlign: TextAlign.center,
-                              style: VimaiType.display.copyWith(color: VimaiColor.ink),
-                            )
-                          : null,
-                    ),
+                    if (_isMemory(item))
+                      _MemoryRow(
+                        sequence: _sequence(item),
+                        hidden: _memoryHidden,
+                        prompt: _memoryHidden ? item.instruction : KidGuide.memoryLook,
+                        onListen: () => _say(item),
+                        onPeek: _peek,
+                      )
+                    else
+                      Builder(builder: (context) {
+                        // "Hai hình này giống hay khác? ● ▲": the pictures were
+                        // tiny glyphs at the end of the sentence; show them big.
+                        final split = thinkingPromptParts(item.instruction);
+                        final puzzle = item.question != null &&
+                                item.question!.trim().isNotEmpty &&
+                                item.question != item.instruction
+                            ? item.question!
+                            : split.$2;
+                        return ListenPrompt(
+                          text: split.$1,
+                          color: VimaiColor.grape,
+                          onTap: () => _say(item),
+                          // The puzzle itself ("🔴🔵🔴🔵 ?", the shape to find) was
+                          // only spoken, never shown, when it differs from the text.
+                          child: puzzle == null
+                              ? null
+                              : Text(
+                                  puzzle,
+                                  textAlign: TextAlign.center,
+                                  style: VimaiType.display.copyWith(color: VimaiColor.ink),
+                                ),
+                        );
+                      }),
                     const SizedBox(height: 16),
+                    // Nhớ vị trí: nothing to answer until the row is hidden.
+                    if (!_isMemory(item) || _memoryHidden)
                     ChoiceGrid(
                       choices: item.choices ?? [],
                       color: VimaiColor.grape,
                       lastChoice: _lastChoice,
                       lastCorrect: _correct,
+                      hearable: _hearable,
+                      onHear: (value) => unawaited(
+                        ref.read(audioServiceProvider).speak(const [], leadIds: _clipsFor(value)),
+                      ),
                       onSelected: (value) {
                         if (_answerTap.locked) return;
                         final ok = value == item.answer;
@@ -294,12 +397,16 @@ class _ThinkingScreenState extends ConsumerState<ThinkingScreen> {
                               _feedback = copyLocal.tryAgain;
                               _misses++;
                             },
-                            playSound: () => unawaited(audio.playRandomTryAgain()),
+                            // A written answer is said first, then the nudge.
+                            playSound: () => unawaited(
+                              audio.playRandomTryAgain(leadIds: _hearable(value) ? _clipsFor(value) : const []),
+                            ),
                             sideEffects: sideEffects,
                           );
                           return;
                         }
 
+                        final upcoming = _generate();
                         _answerTap.handleCorrectAnswer(
                           setState: setState,
                           applyImmediateUi: () {
@@ -308,10 +415,15 @@ class _ThinkingScreenState extends ConsumerState<ThinkingScreen> {
                             _feedback = copyLocal.correct;
                             _score++;
                           },
-                          playSound: () => unawaited(audio.playRandomSuccess()),
+                          // One sequence: the answer, the praise, then the next
+                          // question. Asked on the advance timer, it cut the praise.
+                          playSound: () => unawaited(audio.playRandomSuccess(
+                                leadIds: _hearable(value) ? _clipsFor(value) : const [],
+                                trailIds: _promptClips(upcoming),
+                              )),
                           sideEffects: sideEffects,
                           isMounted: () => mounted,
-                          advanceOrFinish: _applyNextItem,
+                          advanceOrFinish: () => _apply(upcoming),
                         );
                       },
                     ),
@@ -335,4 +447,80 @@ class _ThinkingScreenState extends ConsumerState<ThinkingScreen> {
       ),
     );
   }
+}
+
+/// Nhớ vị trí: the row to remember, then the same number of covered cards.
+class _MemoryRow extends StatelessWidget {
+  const _MemoryRow({
+    required this.sequence,
+    required this.hidden,
+    required this.prompt,
+    required this.onListen,
+    required this.onPeek,
+  });
+
+  final List<String> sequence;
+  final bool hidden;
+  final String prompt;
+  final VoidCallback onListen;
+  final VoidCallback onPeek;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        ListenPrompt(text: prompt, color: VimaiColor.grape, onTap: onListen),
+        const SizedBox(height: 12),
+        Wrap(
+          spacing: 10,
+          runSpacing: 10,
+          alignment: WrapAlignment.center,
+          children: [
+            for (var i = 0; i < sequence.length; i++)
+              AnimatedSwitcher(
+                duration: VimaiMotion.of(context, VimaiMotion.feedback),
+                child: Container(
+                  key: ValueKey('mem-$i-$hidden'),
+                  width: 72,
+                  height: 72,
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(
+                    color: hidden ? VimaiColor.grape : Colors.white,
+                    borderRadius: BorderRadius.circular(VimaiRadius.lg),
+                    border: Border.all(color: VimaiColor.grape.withValues(alpha: 0.4), width: 2),
+                    boxShadow: VimaiShadow.lift,
+                  ),
+                  child: Text(
+                    hidden ? '?' : sequence[i],
+                    style: hidden
+                        ? VimaiType.display.copyWith(color: Colors.white, fontSize: 36)
+                        : const TextStyle(fontSize: 40, color: VimaiColor.ink, fontWeight: FontWeight.w800),
+                  ),
+                ),
+              ),
+          ],
+        ),
+        if (hidden) ...[
+          const SizedBox(height: 8),
+          TextButton.icon(
+            onPressed: onPeek,
+            icon: const Icon(Icons.visibility_rounded, color: VimaiColor.grape),
+            label: Text('Xem lại', style: VimaiType.cardTitle.copyWith(color: VimaiColor.grape)),
+          ),
+        ],
+      ],
+    );
+  }
+}
+
+/// Splits "Hai hình này giống hay khác? ● ▲" into the sentence and the
+/// pictures after it, so the pictures can be shown big. The second part is
+/// null when the text has no picture tail (or the tail has words).
+(String, String?) thinkingPromptParts(String instruction) {
+  final m = RegExp(r'^(.*?[?:])\s+([^]+)$').firstMatch(instruction.trim());
+  if (m == null) return (instruction, null);
+  final tail = m[2]!.trim();
+  final hasWord = RegExp(r'[A-Za-zÀ-ỹĐđ]{2,}').hasMatch(tail);
+  if (tail.isEmpty || hasWord) return (instruction, null);
+  return (m[1]!, tail);
 }

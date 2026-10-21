@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/audio/audio_service.dart';
 import '../../../core/audio/kid_guide.dart';
+import '../../../core/audio/speech_id.dart';
 import '../../../core/ai/mai_context.dart';
 import '../../../core/audio/vietnamese_phonics_guide.dart';
 import '../../../core/audio/vietnamese_phonics_view.dart';
@@ -28,6 +29,7 @@ import '../../shared/widgets/learning_pager.dart';
 import '../../shared/widgets/lesson_journey.dart';
 import '../../shared/widgets/vimai_mascot.dart';
 import '../../shared/widgets/vimai_ui.dart';
+import 'vietnamese_activities.dart' show vietnameseLettersSoundAlike;
 
 /// Decoupled modules: look-only, write-only, or recognize-only (locked by [startMode]).
 class VietnameseLetterLessonScreen extends ConsumerStatefulWidget {
@@ -58,6 +60,10 @@ class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterL
   String? _pendingMode;
   /// Ignore PageView callbacks until the first post-frame play has run.
   bool _pageAudioEnabled = false;
+
+  /// The next letter's sound was already queued after the praise (Tìm chữ),
+  /// so the page change must not say it again over the praise.
+  bool _promptChained = false;
 
   @override
   void initState() {
@@ -94,6 +100,10 @@ class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterL
   Future<void> _playAt(int index) async {
     if (!mounted || _letters.isEmpty) return;
     if (index < 0 || index >= _letters.length) return;
+    if (_promptChained) {
+      _promptChained = false;
+      return;
+    }
     final letter = _letters[index];
     final audioId = VietnamesePhonicsGuide.primaryAudioId(letter);
     if (audioId.isNotEmpty) {
@@ -122,7 +132,12 @@ class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterL
   void _rebuildRecognizeChoices() {
     if (_letters.isEmpty) return;
     final letter = _current;
-    final others = _letters.where((e) => e.question != letter.question).map((e) => e.question!).toList()..shuffle();
+    // C/K ("cờ") and I/Y ("i") sound the same: never both on screen.
+    final others = _letters
+        .where((e) => e.question != letter.question && !vietnameseLettersSoundAlike(e, letter))
+        .map((e) => e.question!)
+        .toList()
+      ..shuffle();
     _recognizeChoices = <String>{letter.question ?? '', ...others.take(3)}.toList()..shuffle();
   }
 
@@ -130,6 +145,7 @@ class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterL
   void _onNext() {
     // A pending "correct → next letter" would move a second page.
     _answerTap.reset();
+    _promptChained = false;
     if (_index >= _letters.length - 1) {
       _complete();
       return;
@@ -147,6 +163,7 @@ class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterL
   /// Previous: page animation ONLY — audio via [onPageChanged].
   void _onPrevious() {
     _answerTap.reset();
+    _promptChained = false;
     if (_index <= 0) {
       popLearningScreen(context);
       return;
@@ -161,17 +178,18 @@ class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterL
     );
   }
 
-  void _complete() {
+  void _complete({bool speak = true}) {
     setState(() => _completed = true);
     final audio = ref.read(audioServiceProvider);
     audio.sfx(Sfx.win);
-    unawaited(audio.speakLine(KidGuide.sessionDone));
+    if (speak) unawaited(audio.speakLine(KidGuide.sessionDone));
   }
 
   void _jumpToPage(int index, {String? keepMode}) {
     if (index < 0) return;
     if (index >= _letters.length) {
-      _complete();
+      _complete(speak: !_promptChained);
+      _promptChained = false;
       return;
     }
     if (_completed) {
@@ -376,7 +394,9 @@ class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterL
                     }
                     if (ok) {
                       unawaited(
-                        ref.read(gamificationServiceProvider).onCorrectAnswer(this.context),
+                        // Praise is already playing (with the next letter after it); a
+                        // second praise here cut that sequence off.
+                        ref.read(gamificationServiceProvider).onCorrectAnswer(this.context, playSound: false),
                       );
                     } else {
                       final aiCtx = MaiContext(
@@ -407,11 +427,20 @@ class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterL
                         _lastCorrect = false;
                         _feedback = 'Thử lại nhé!';
                       },
-                      playSound: () => unawaited(audio.playRandomTryAgain()),
+                      // The letter tapped, the nudge, then the sound to find again.
+                      playSound: () => unawaited(audio.playRandomTryAgain(
+                            leadIds: [AudioService.getAudioIdForLetter(value)],
+                            trailIds: [VietnamesePhonicsGuide.primaryAudioId(letter)],
+                          )),
                       sideEffects: sideEffects,
                     );
                     return;
                   }
+
+                  final nextIndex = _index + 1;
+                  final nextClip = nextIndex < _letters.length
+                      ? VietnamesePhonicsGuide.primaryAudioId(_letters[nextIndex])
+                      : (SpeechId.idForLine(KidGuide.sessionDone) ?? '');
 
                   _answerTap.handleCorrectAnswer(
                     setState: setState,
@@ -420,10 +449,19 @@ class _VietnameseLetterLessonScreenState extends ConsumerState<VietnameseLetterL
                       _lastCorrect = true;
                       _feedback = 'Giỏi lắm!';
                     },
-                    playSound: () => unawaited(audio.playRandomSuccess()),
+                    // One sequence: the letter, the praise, then the next
+                    // letter's sound (or the closing line); the page change
+                    // used to start it over the praise.
+                    playSound: () => unawaited(audio.playRandomSuccess(
+                          leadIds: [AudioService.getAudioIdForLetter(value)],
+                          trailIds: [if (nextClip.isNotEmpty) nextClip],
+                        )),
                     sideEffects: sideEffects,
                     isMounted: () => mounted,
-                    advanceOrFinish: () => _jumpToPage(_index + 1, keepMode: 'recognize'),
+                    advanceOrFinish: () {
+                      _promptChained = nextClip.isNotEmpty;
+                      _jumpToPage(nextIndex, keepMode: 'recognize');
+                    },
                   );
                 },
               ),
@@ -512,6 +550,7 @@ class _LetterHero extends StatelessWidget {
               const SizedBox(height: 14),
               WordExampleWidget(
                 word: phonics.exampleWord,
+                picture: letter.metadata?['exampleImage'] as String?,
                 onTap: () => onPlayWord(phonics.exampleWord),
               ),
             ],
@@ -523,11 +562,14 @@ class _LetterHero extends StatelessWidget {
 }
 
 /// Example word cue — always speaks the word, never the letter phoneme.
+/// Shows the word's picture ([picture], an emoji from the alphabet data, or
+/// a drawn one); a word with neither shows just the word, not a blank dot.
 class WordExampleWidget extends StatelessWidget {
-  const WordExampleWidget({super.key, required this.word, required this.onTap});
+  const WordExampleWidget({super.key, required this.word, required this.onTap, this.picture});
 
   final String word;
   final VoidCallback onTap;
+  final String? picture;
 
   @override
   Widget build(BuildContext context) {
@@ -537,7 +579,16 @@ class WordExampleWidget extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          WordSceneCue(word: word, color: VimaiColor.sky, size: 72),
+          if (picture != null && picture!.isNotEmpty)
+            Container(
+              width: 96,
+              height: 96,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(color: VimaiColor.sky.withValues(alpha: 0.16), shape: BoxShape.circle),
+              child: Text(picture!, style: const TextStyle(fontSize: 56)),
+            )
+          else if (WordSceneCue.canDraw(word))
+            WordSceneCue(word: word, color: VimaiColor.sky, size: 72),
           Text(
             word,
             style: VimaiType.title.copyWith(color: VimaiColor.sky, fontSize: 22),

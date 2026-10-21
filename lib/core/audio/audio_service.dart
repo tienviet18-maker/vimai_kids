@@ -751,13 +751,14 @@ class AudioService {
   }
 
   /// Soft "boop" and a gentle nudge to try again; never a buzzer.
-  /// [trailIds] are said after the nudge (e.g. the letter to find again).
-  void _comfort({List<String> trailIds = const []}) {
+  /// [leadIds] are said before the nudge (the answer the child tapped),
+  /// [trailIds] after it (e.g. the letter to find again).
+  void _comfort({List<String> leadIds = const [], List<String> trailIds = const []}) {
     sfx(Sfx.wrong);
     _streak = 0;
     final line = KidGuide.retry[_random.nextInt(KidGuide.retry.length)];
     final fallback = tryAgainKeys[_random.nextInt(tryAgainKeys.length)];
-    unawaited(speak([line], fallbackId: fallback, trailIds: trailIds)
+    unawaited(speak([line], fallbackId: fallback, leadIds: leadIds, trailIds: trailIds)
         .catchError((Object _) => const AudioPlayResult.unavailable('')));
   }
 
@@ -1017,8 +1018,8 @@ class AudioService {
     return Future.value(AudioPlayResult.ok(AudioLocalePolicy.localeFor(AudioLanguage.vietnamese)));
   }
 
-  Future<AudioPlayResult> playRandomTryAgain({List<String> trailIds = const []}) {
-    scheduleMicrotask(() => _comfort(trailIds: trailIds));
+  Future<AudioPlayResult> playRandomTryAgain({List<String> leadIds = const [], List<String> trailIds = const []}) {
+    scheduleMicrotask(() => _comfort(leadIds: leadIds, trailIds: trailIds));
     return Future.value(AudioPlayResult.ok(AudioLocalePolicy.localeFor(AudioLanguage.vietnamese)));
   }
 

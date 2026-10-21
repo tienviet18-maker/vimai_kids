@@ -46,6 +46,12 @@ class KidGuide {
   static const letterWhichSound = 'Chữ này đọc âm nào?';
   static const letterInWord = 'Chữ này có trong từ nào?';
   static const findLetter = 'Bé nghe rồi tìm đúng chữ nhé!';
+  // Short asks for the 2nd–10th question of a lesson round (the how-to
+  // above is said on the first one, or when the child taps the prompt).
+  static const listenPickWord = 'Nghe và chọn từ đúng';
+  static const whichSentence = 'Câu nào đúng nhỉ?';
+  // Written answers carry a small speaker that says them.
+  static const tapSmallSpeaker = 'Chạm vào loa nhỏ để nghe từng đáp án nhé.';
 
   // Japanese kana lesson (SEE → HEAR → WATCH → TRACE → WRITE → REPEAT → REWARD)
   static const kanaSee = 'Bé nhìn chữ tiếng Nhật này nhé.';
@@ -129,6 +135,8 @@ class KidGuide {
   static const drawHowTo = 'Bé chọn một màu, rồi dùng ngón tay vẽ lên giấy nhé.';
   static const colorHowTo = 'Bé chọn màu, rồi chạm vào từng phần để tô nhé.';
   static const musicHowTo = 'Bé chạm vào các phím để tạo ra bản nhạc của mình nhé!';
+  // Tư duy: Nhớ vị trí shows a row, then hides it before asking.
+  static const memoryLook = 'Bé nhìn thật kỹ và nhớ nhé!';
   static const puzzleHowTo = 'Bé suy nghĩ, rồi chọn hình đúng nhé.';
   static const saved = 'Mai đã cất bức tranh của bé rồi!';
 
@@ -166,6 +174,7 @@ class KidGuide {
     quizHowTo, tapSpeaker, nextQuestion, sessionDone, almost, hint,
     letterSee, letterHear, letterTrace, letterFind, letterSay, blendHowTo, wordHowTo, sentenceHowTo,
     sentencePick, rimeHowTo, listenPickLetter, hearLetterName, hearLetterSound, letterWhichSound, letterInWord, findLetter,
+    listenPickWord, whichSentence, tapSmallSpeaker, memoryLook,
     kanaSee, kanaHear, kanaWatch, kanaTrace, kanaWrite, kanaRepeat, kanaReward,
     gameCatchKana, gameListenKana, gameMatchKana, gameFeedAnimal, gameFindSimilar, gameMathRocket,
     gameNumberTrain, gameWin,
