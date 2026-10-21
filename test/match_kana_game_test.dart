@@ -67,6 +67,7 @@ void main() {
     await _settle(tester);
     final matched = [for (var i = 0; i < faces.length; i++) if (_cards(tester)[i].matched) i];
     expect(matched, unorderedEquals([first, partner]));
-    await _settle(tester);
+    // Let queued voice clips time out before the tree is torn down.
+    await tester.pump(const Duration(seconds: 12));
   });
 }
