@@ -56,6 +56,11 @@ class _MelodyMemoryGameState extends ConsumerState<MelodyMemoryGame> {
   bool _finished = false;
   int? _lit;
 
+  /// "Đến lượt bé! …" (3.4 s) is said on the first turn only: after that the
+  /// banner and the bars lighting up say it, and Mai talking over the child's
+  /// first taps makes the melody harder to remember.
+  bool _turnAnnounced = false;
+
   /// Notes of the melody shown as filled dots (Mai's playback or the child's).
   int _dots = 0;
   int _shake = 0;
@@ -72,7 +77,8 @@ class _MelodyMemoryGameState extends ConsumerState<MelodyMemoryGame> {
       _audio?.startGameBgm();
       setState(() => _session = MelodyMemorySession(age: profile?.age ?? 5));
       _say(KidGuide.gameMelodyIntro, fallbackId: 'sys_thinking_memory');
-      _playMelody(lead: const Duration(milliseconds: 3600));
+      // The intro's speech ends at ~3.4 s: start the bells just after it.
+      _playMelody(lead: const Duration(milliseconds: 3800));
     });
   }
 
@@ -143,19 +149,30 @@ class _MelodyMemoryGameState extends ConsumerState<MelodyMemoryGame> {
         _phase = _Phase.yourTurn;
         _dots = 0;
       });
-      if (announceTurn) _say(KidGuide.gameMelodyYourTurn);
+      if (announceTurn && !_turnAnnounced) {
+        _turnAnnounced = true;
+        _say(KidGuide.gameMelodyYourTurn);
+      }
     });
   }
 
-  void _startRound({bool newBell = false}) {
+  /// [announce]: say "Bé nghe Mai gõ nhé!" first (a fresh game). After a
+  /// success the praise line has just played, so the bells follow it.
+  void _startRound({bool newBell = false, bool announce = false}) {
     if (newBell) {
       _say(KidGuide.gameMelodyNewBell);
-      _playMelody(lead: const Duration(milliseconds: 2600));
-    } else {
+      _playMelody(lead: const Duration(milliseconds: 2400));
+    } else if (announce) {
       _say(KidGuide.gameMelodyListen);
-      _playMelody();
+      _playMelody(lead: const Duration(milliseconds: 1900));
+    } else {
+      _playMelody(lead: const Duration(milliseconds: 500));
     }
   }
+
+  /// Mai's praise line (speech up to ~2.9 s) before anything else is said
+  /// or rung, so it is never cut off.
+  static const _praiseHold = Duration(milliseconds: 3000);
 
   void _recordMastery(bool ok) {
     final profile = ref.read(currentProfileProvider);
@@ -190,7 +207,7 @@ class _MelodyMemoryGameState extends ConsumerState<MelodyMemoryGame> {
     setState(() => _phase = _Phase.celebrate);
     audio.playCorrectSound();
     GameFx.maybeOf(context)?.burst(count: 26);
-    _after(const Duration(milliseconds: 2300), () {
+    _after(_praiseHold, () {
       if (_session.finished) {
         _startConcert();
       } else {
@@ -208,14 +225,15 @@ class _MelodyMemoryGameState extends ConsumerState<MelodyMemoryGame> {
       _shake++;
       _dots = 0;
     });
-    audio.playWrongSound();
-    _after(const Duration(milliseconds: 2400), () {
-      if (outcome == MelodyMiss.shortened) {
-        _say(KidGuide.gameMelodyShorter);
-        _playMelody(lead: const Duration(milliseconds: 2200));
-      } else {
-        _playMelody(lead: const Duration(milliseconds: 300));
-      }
+    // A soft boop and the game's own short line right away, then the
+    // melody once she is done: a generic retry line (up to 3.8 s) used to run
+    // on under the replayed bells, or be cut by "Mình thử bài ngắn hơn nhé".
+    audio.sfx(Sfx.wrong);
+    audio.resetPraiseStreak();
+    final shorter = outcome == MelodyMiss.shortened;
+    _say(shorter ? KidGuide.gameMelodyShorter : KidGuide.gameMelodyListen);
+    _after(const Duration(milliseconds: 800), () {
+      _playMelody(lead: Duration(milliseconds: shorter ? 1400 : 1200));
     });
   }
 
@@ -260,10 +278,11 @@ class _MelodyMemoryGameState extends ConsumerState<MelodyMemoryGame> {
     setState(() {
       _session.restart();
       _finished = false;
+      _turnAnnounced = false;
       _lit = null;
       _dots = 0;
     });
-    _startRound();
+    _startRound(announce: true);
   }
 
   void _sayPrompt() {

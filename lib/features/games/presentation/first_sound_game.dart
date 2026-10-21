@@ -30,11 +30,16 @@ class _FirstSoundGameState extends ConsumerState<FirstSoundGame> {
   static const _color = Color(0xFF14A3B8);
 
   final _random = math.Random();
-  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 4300));
+  /// Blend ("bờ" clip 1.5 s + word, ends ~2.1 s), then the praise line from
+  /// 2.1 s (speech up to ~2.9 s): the next question waits for both.
+  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 5300));
   final _timers = <Timer>[];
   final _recentSounds = <String>[];
   final _recentWords = <String>[];
   final _shakes = <String, int>{};
+
+  /// Pictures already tried this round: tapping one again just says it.
+  final _tried = <String>{};
 
   late FirstSoundRound _round = FirstSoundRound.generate(level: 0, random: _random);
   int _level = 0;
@@ -107,6 +112,7 @@ class _FirstSoundGameState extends ConsumerState<FirstSoundGame> {
     _recentWords.add(_round.answer.word);
     if (_recentWords.length > 10) _recentWords.removeAt(0);
     _shakes.clear();
+    _tried.clear();
     _missedThisRound = false;
     _picked = null;
     _correct = null;
@@ -145,13 +151,20 @@ class _FirstSoundGameState extends ConsumerState<FirstSoundGame> {
   void _onCard(FirstSoundWord card) {
     if (_finished || _answerTap.locked || _picked != null) return;
     final audio = ref.read(audioServiceProvider);
+    final ok = _round.isCorrect(card);
+    if (!ok && _tried.contains(card.word)) {
+      // Already ruled out: say the word again, no second penalty.
+      audio.sfx(Sfx.tap);
+      unawaited(audio.playAudio(card.audioId));
+      return;
+    }
     _cancelTimers();
     audio.sfx(Sfx.tap);
-    // The picture always says its word first.
-    unawaited(audio.playAudio(card.audioId));
-    final ok = _round.isCorrect(card);
 
     if (!ok) {
+      _tried.add(card.word);
+      // The picture says its word first.
+      unawaited(audio.playAudio(card.audioId));
       _answerTap.handleWrongAnswer(
         setState: setState,
         applyImmediateUi: () {
@@ -168,9 +181,10 @@ class _FirstSoundGameState extends ConsumerState<FirstSoundGame> {
           }
         },
         playSound: () {
-          _later(800, audio.playWrongSound);
-          // Then Mai gives the sound again so the child can listen once more.
-          _later(3000, () {
+          _later(700, audio.playWrongSound);
+          // Then Mai gives the sound again so the child can listen once more,
+          // once her retry line (speech up to ~3.8 s) is over.
+          _later(4600, () {
             if (_picked == null && !_finished) _sayPrompt();
           });
         },
@@ -195,9 +209,11 @@ class _FirstSoundGameState extends ConsumerState<FirstSoundGame> {
       },
       playSound: () {
         audio.sfx(Sfx.pop);
-        _later(750, audio.playCorrectSound);
-        // Mai models the blend: onset sound → whole word ("bờ … bò").
-        _later(2500, () => unawaited(audio.speak(const [], leadIds: [_round.soundClip, card.audioId])));
+        // Mai models the blend at once: onset sound → the tapped word
+        // ("bờ … bò"), then praises. In the other order the blend cut the
+        // praise and the next question cut the word.
+        unawaited(audio.speak(const [], leadIds: [_round.soundClip, card.audioId]));
+        _later(2100, audio.playCorrectSound);
       },
       sideEffects: () => _recordMastery(true),
       isMounted: () => mounted,

@@ -26,8 +26,10 @@ class ListenKanaGame extends ConsumerStatefulWidget {
 
 class _ListenKanaGameState extends ConsumerState<ListenKanaGame> {
   final _random = Random();
-  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 500));
+  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 900));
   late CatchKanaRound _round;
+  /// Picked on a right answer so Mai says its sound right after the praise.
+  CatchKanaRound? _upcoming;
   String? _feedback;
   bool? _correct;
   int _score = 0;
@@ -40,7 +42,7 @@ class _ListenKanaGameState extends ConsumerState<ListenKanaGame> {
   @override
   void initState() {
     super.initState();
-    _round = CatchKanaRound.generate(pool: hiraganaData, random: _random);
+    _round = _generate();
     WidgetsBinding.instance.addPostFrameCallback((_) => _playPrompt());
   }
 
@@ -60,16 +62,21 @@ class _ListenKanaGameState extends ConsumerState<ListenKanaGame> {
     );
   }
 
-  void _prepareNextRound() {
+  CatchKanaRound _generate() {
     var next = CatchKanaRound.generate(pool: hiraganaData, random: _random);
     var guard = 0;
     while (_recent.contains(next.target.id) && guard < 12) {
       next = CatchKanaRound.generate(pool: hiraganaData, random: _random);
       guard++;
     }
-    _round = next;
-    _recent.add(_round.target.id);
+    _recent.add(next.target.id);
     if (_recent.length > 8) _recent.removeAt(0);
+    return next;
+  }
+
+  void _prepareNextRound() {
+    _round = _upcoming ?? _generate();
+    _upcoming = null;
     _feedback = null;
     _correct = null;
   }
@@ -101,7 +108,9 @@ class _ListenKanaGameState extends ConsumerState<ListenKanaGame> {
           _correct = false;
           _wrong++;
         },
-        playSound: () => unawaited(audio.playRandomTryAgain()),
+        // "Try again", then the sound once more: the child has to hear it to
+        // choose again.
+        playSound: () => unawaited(audio.playRandomTryAgain(trailIds: [_round.target.audioId])),
         sideEffects: () => _recordMastery(false),
       );
       return;
@@ -114,9 +123,14 @@ class _ListenKanaGameState extends ConsumerState<ListenKanaGame> {
         _correct = true;
         _score++;
       },
+      // One sequence: the chosen sound, the praise, then the next sound.
+      // Played separately, each clip cut the one before it.
       playSound: () {
-        unawaited(audio.playJapaneseAsset(tapped.audioId));
-        unawaited(audio.playRandomSuccess());
+        if (_score < _goal) _upcoming = _generate();
+        unawaited(audio.playRandomSuccess(
+          leadIds: [tapped.audioId],
+          trailIds: [if (_upcoming != null) _upcoming!.target.audioId],
+        ));
       },
       sideEffects: () => _recordMastery(true),
       isMounted: () => mounted,
@@ -127,7 +141,6 @@ class _ListenKanaGameState extends ConsumerState<ListenKanaGame> {
           _correct = null;
         } else {
           _prepareNextRound();
-          _playPrompt();
         }
       },
     );
@@ -139,6 +152,7 @@ class _ListenKanaGameState extends ConsumerState<ListenKanaGame> {
       _score = 0;
       _wrong = 0;
       _finished = false;
+      _upcoming = null;
       _recent.clear();
       _prepareNextRound();
     });

@@ -23,7 +23,12 @@ class GameCatalog {
   static List<int> numberTrain(int age, Random random) {
     final max = age <= 3 ? 5 : (age == 4 ? 8 : (age == 5 ? 10 : (age == 6 ? 12 : 15)));
     final start = 1 + random.nextInt(max - 4);
-    return List<int>.generate(5, (i) => start + i)..shuffle(random);
+    final numbers = List<int>.generate(5, (i) => start + i);
+    // Never hand out a train that is already in order (nothing to do).
+    do {
+      numbers.shuffle(random);
+    } while (numbers.join(',') == List<int>.generate(5, (i) => start + i).join(','));
+    return numbers;
   }
 
   static List<String> similarDeal(int age, Random random) {

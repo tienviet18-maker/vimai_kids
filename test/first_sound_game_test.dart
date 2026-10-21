@@ -40,6 +40,15 @@ class _FakeAudio extends AudioService {
     return const AudioPlayResult.unavailable('test');
   }
 
+  int praise = 0;
+  int retry = 0;
+
+  @override
+  void playCorrectSound() => praise++;
+
+  @override
+  void playWrongSound() => retry++;
+
   @override
   void sfx(Sfx effect) {}
 
@@ -111,6 +120,27 @@ void main() {
   });
 
   group('rounds', () {
+    test('sounds a northern voice says the same are never in one round', () {
+      for (final (a, b) in const [('s', 'x'), ('ch', 'tr'), ('d', 'gi'), ('d', 'r'), ('gi', 'r')]) {
+        expect(FirstSound.sameSound(a, b), isTrue, reason: '$a/$b');
+      }
+      for (var level = 0; level <= FirstSound.maxLevel; level++) {
+        final random = Random(100 + level);
+        for (var i = 0; i < 500; i++) {
+          final sounds = FirstSoundRound.generate(level: level, random: random).cards.map((c) => c.sound).toSet();
+          expect(sounds.containsAll(const ['s', 'x']), isFalse, reason: '$sounds');
+          expect(sounds.containsAll(const ['ch', 'tr']), isFalse, reason: '$sounds');
+        }
+      }
+    });
+
+    test('no picture a child would name with another first sound', () {
+      final words = FirstSound.words.map((w) => w.word).toSet();
+      for (final w in const ['nắng', 'gạo', 'heo', 'rừng', 'biển', 'nước', 'hát', 'nhạc']) {
+        expect(words, isNot(contains(w)));
+      }
+    });
+
     test('exactly one card has the sound, distractors never sound alike', () {
       for (var level = 0; level <= FirstSound.maxLevel; level++) {
         final random = Random(level);
@@ -164,19 +194,27 @@ void main() {
           expect(rect.width, greaterThanOrEqualTo(64), reason: 'touch target ${w.word} at $size');
         }
 
+        final saidBefore = audio.said.length;
         await tester.tap(find.text(answer.emoji));
         await tester.pump();
         expect(find.text('Giỏi lắm!'), findsOneWidget);
-        expect(audio.clips.last, answer.audioId);
+        // Mai models the blend at once: onset sound, then the word.
+        expect(audio.clips.sublist(audio.clips.length - 2), [FirstSound.clipFor(sound), answer.audioId]);
+        expect(audio.praise, 0);
 
-        await tester.pump(const Duration(seconds: 3));
-        // Mai models the blend: onset sound, then the word.
-        final blendAt = audio.clips.lastIndexOf(answer.audioId);
-        expect(audio.clips[blendAt - 1], FirstSound.clipFor(sound));
-
-        await tester.pump(const Duration(seconds: 2));
+        // Praise once the blend is over, never on top of it.
+        await tester.pump(const Duration(milliseconds: 2000));
+        expect(audio.praise, 0);
+        await tester.pump(const Duration(milliseconds: 200));
+        expect(audio.praise, 1);
         final progress = tester.widget<GameProgressBar>(find.byType(GameProgressBar));
         expect(progress.current, 1);
+
+        // The next question waits for the praise line to finish (~5 s).
+        await tester.pump(const Duration(milliseconds: 2900));
+        expect(audio.said.length, saidBefore);
+        await tester.pump(const Duration(milliseconds: 300));
+        expect(audio.said.last, KidGuide.firstSoundAsk);
         for (var i = 0; i < 6; i++) {
           await tester.pump(const Duration(seconds: 1));
         }
@@ -199,10 +237,30 @@ void main() {
       await tester.pump();
       expect(find.text('Thử lại nhé!'), findsOneWidget);
       expect(audio.clips.last, wrong.audioId);
+      await tester.pump(const Duration(milliseconds: 800));
+      expect(audio.retry, 1);
+      // The question comes again only after the retry line.
+      final saidBefore = audio.said.length;
+      await tester.pump(const Duration(milliseconds: 3600));
+      expect(audio.said.length, saidBefore);
+      await tester.pump(const Duration(milliseconds: 300));
+      expect(audio.said.last, KidGuide.firstSoundAsk);
+
+      // Tapping the same wrong picture again only says its word.
+      await tester.tap(find.text(wrong.emoji));
+      await tester.pump();
+      expect(audio.clips.last, wrong.audioId);
+      await tester.pump(const Duration(seconds: 1));
+      expect(audio.retry, 1);
+      await tester.tap(find.text(wrong.emoji));
+      await tester.pump(const Duration(seconds: 1));
+      expect(audio.retry, 1, reason: 'no second penalty for the same card');
       for (var i = 0; i < 5; i++) {
         await tester.pump(const Duration(seconds: 1));
       }
       expect(tester.widget<GameProgressBar>(find.byType(GameProgressBar)).current, 0);
+      final panel = find.byType(GameCompletePanel);
+      expect(panel, findsNothing);
       expect(tester.takeException(), isNull);
     });
   });

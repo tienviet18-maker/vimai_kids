@@ -89,15 +89,13 @@ class _FindSimilarGameState extends ConsumerState<FindSimilarGame> {
     final a = _first!;
     final b = _second!;
     final match = _cards[a] == _cards[b];
+    // "Thử lại nhé!" shows the moment a wrong pair opens; Mai says it then
+    // too, not a second later as the cards turn back.
+    if (!match) unawaited(ref.read(audioServiceProvider).playRandomTryAgain());
     _flipTimer?.cancel();
     _flipTimer = Timer(Duration(milliseconds: match ? 350 : 1000), () {
       if (!mounted) return;
-      final audio = ref.read(audioServiceProvider);
-      if (match) {
-        unawaited(audio.playRandomSuccess());
-      } else {
-        unawaited(audio.playRandomTryAgain());
-      }
+      if (match) unawaited(ref.read(audioServiceProvider).playRandomSuccess());
       setState(() {
         if (match) {
           _isMatched[a] = true;

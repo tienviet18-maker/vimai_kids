@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:mai_an_learning/core/audio/audio_locale_policy.dart';
 import 'package:mai_an_learning/core/audio/audio_service.dart';
 import 'package:mai_an_learning/core/audio/kid_guide.dart';
 import 'package:mai_an_learning/core/providers.dart';
@@ -15,14 +16,57 @@ import 'package:mai_an_learning/features/games/logic/drum_count_round.dart';
 import 'package:mai_an_learning/features/games/presentation/drum_count_game.dart';
 import 'package:mai_an_learning/features/games/presentation/widgets/game_play_scaffold.dart';
 
-Widget _app({required Size size, required int age}) {
+/// Records when (in fake time) Mai speaks and the beats play.
+class _TimedAudio extends AudioService {
+  int nowMs = 0;
+  final events = <(int, String)>[];
+
+  @override
+  Future<AudioPlayResult> speak(
+    List<String?> lines, {
+    String? fallbackId,
+    List<String> leadIds = const [],
+    List<String> trailIds = const [],
+  }) async {
+    for (final l in lines.whereType<String>()) {
+      events.add((nowMs, l));
+    }
+    return const AudioPlayResult.unavailable('test');
+  }
+
+  @override
+  void playCorrectSound() => events.add((nowMs, 'praise'));
+
+  @override
+  void playWrongSound() => events.add((nowMs, 'retry'));
+
+  @override
+  void sfx(Sfx effect) => events.add((nowMs, 'sfx_${effect.name}'));
+
+  @override
+  void bell(int index) => events.add((nowMs, 'bell'));
+
+  @override
+  Future<void> stop() async {}
+
+  int firstAt(String what, {int from = 0}) => events.firstWhere((e) => e.$1 >= from && e.$2 == what).$1;
+}
+
+Future<void> _run(WidgetTester tester, _TimedAudio audio, int ms) async {
+  for (var t = 0; t < ms; t += 50) {
+    await tester.pump(const Duration(milliseconds: 50));
+    audio.nowMs += 50;
+  }
+}
+
+Widget _app({required Size size, required int age, AudioService? audio}) {
   final notifier = CurrentProfileNotifier(ProfileRepository())
     ..state = ChildProfile(id: 'test', name: 'Lan', age: age, avatar: 'peach', createdAt: DateTime(2026, 1, 1));
   return ProviderScope(
     overrides: [
       profileRepositoryProvider.overrideWithValue(ProfileRepository()),
       currentProfileProvider.overrideWith((ref) => notifier),
-      audioServiceProvider.overrideWithValue(AudioService()..soundEnabled = false),
+      audioServiceProvider.overrideWithValue(audio ?? (AudioService()..soundEnabled = false)),
       kanaRepositoryProvider.overrideWithValue(KanaRepositoryImpl()),
       contentRepositoryProvider.overrideWithValue(ContentRepository()),
       masteryRepositoryProvider.overrideWithValue(MasteryRepository()),
@@ -161,6 +205,63 @@ void main() {
       expect(tester.widget<GameProgressBar>(find.byType(GameProgressBar)).current, 1);
       await _settle(tester, seconds: 20);
       expect(tester.takeException(), isNull);
+      await tester.pumpWidget(const SizedBox());
+      await _settle(tester, seconds: 2);
+    });
+
+    testWidgets('beats wait for Mai, and nothing cuts her lines short', (tester) async {
+      const size = Size(390, 844);
+      await tester.binding.setSurfaceSize(size);
+      addTearDown(() => tester.binding.setSurfaceSize(null));
+      final audio = _TimedAudio();
+      await tester.pumpWidget(_app(size: size, age: 4, audio: audio));
+      await tester.pump();
+      await _run(tester, audio, 12000);
+
+      // Intro clip (4.7 s, played to its end) + question (speech ~3.2 s):
+      // the first beat must not land on top of the question.
+      expect(audio.firstAt(KidGuide.gameDrumCount), 0);
+      expect(audio.firstAt('sfx_drum'), greaterThanOrEqualTo(7900));
+
+      // Right answer: the praise line (~2.9 s) plays before Mai counts "1".
+      final answer = _answer(tester);
+      await tester.tap(find.byKey(ValueKey('drum-card-$answer')));
+      final tapAt = audio.nowMs;
+      await _run(tester, audio, 6000);
+      expect(audio.firstAt('praise', from: tapAt), tapAt);
+      expect(audio.firstAt('1', from: tapAt) - tapAt, greaterThanOrEqualTo(2850)); // 50 ms pump steps
+      await tester.pumpWidget(const SizedBox());
+      await _settle(tester, seconds: 2);
+    });
+
+    testWidgets('after two misses Mai counts together once, not again after the answer', (tester) async {
+      const size = Size(390, 844);
+      await tester.binding.setSurfaceSize(size);
+      addTearDown(() => tester.binding.setSurfaceSize(null));
+      final audio = _TimedAudio();
+      await tester.pumpWidget(_app(size: size, age: 4, audio: audio));
+      await tester.pump();
+      await _run(tester, audio, 12000);
+      final answer = _answer(tester);
+      final wrongs = [1, 2, 3].where((n) => n != answer).toList();
+      await tester.tap(find.byKey(ValueKey('drum-card-${wrongs[0]}')));
+      await _run(tester, audio, 1000);
+      await tester.tap(find.byKey(ValueKey('drum-card-${wrongs[1]}')));
+      final secondMiss = audio.nowMs;
+      await tester.pump();
+      // "Mình cùng đếm lại nào!" straight away, no retry line for it to cut.
+      expect(audio.events.where((e) => e.$1 >= secondMiss).map((e) => e.$2), isNot(contains('retry')));
+      expect(audio.firstAt(KidGuide.drumCountTogether, from: secondMiss), secondMiss);
+      await _run(tester, audio, 1900 + answer * 780 + 600);
+      expect(audio.events.where((e) => e.$1 >= secondMiss && e.$2 == '$answer'), hasLength(1));
+
+      await tester.tap(find.byKey(ValueKey('drum-card-$answer')));
+      final tapAt = audio.nowMs;
+      await _run(tester, audio, 3500);
+      expect(tester.widget<GameProgressBar>(find.byType(GameProgressBar)).current, 1);
+      // No second count-along: the next question comes after the praise.
+      expect(audio.events.where((e) => e.$1 >= tapAt && e.$2 == '1'), isEmpty);
+      expect(audio.events.where((e) => e.$1 >= tapAt && e.$2.startsWith('Bé nghe thật kỹ')), isNotEmpty);
       await tester.pumpWidget(const SizedBox());
       await _settle(tester, seconds: 2);
     });

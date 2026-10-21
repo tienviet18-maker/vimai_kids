@@ -55,18 +55,21 @@ class FirstSound {
   /// How the onset is written on screen ("B", "Ch", "Ngh").
   static String glyphFor(String onset) => onset[0].toUpperCase() + onset.substring(1);
 
-  /// Sounds that are said the same in the northern voice Mai uses: never put
-  /// them in one round.
-  static const _sameSound = {'d', 'gi', 'r'};
+  /// Sounds that are said the same in the northern voice Mai uses (and by
+  /// most northern families): never put them in one round. "Sữa" and "xe",
+  /// "chó" and "trống" start with exactly the same sound there.
+  static const _sameSounds = [
+    {'d', 'gi', 'r'},
+    {'s', 'x'},
+    {'ch', 'tr'},
+  ];
 
-  /// Pairs a young ear easily mixes up: only used on the hardest level.
+  /// Pairs a young ear easily mixes up but Mai does say apart: only used on
+  /// the hardest level.
   static const near = <String, List<String>>{
     'd': ['đ'],
     'đ': ['d'],
-    'ch': ['tr'],
-    'tr': ['ch', 't'],
-    's': ['x'],
-    'x': ['s'],
+    'tr': ['t'],
     'n': ['ng', 'l', 'nh'],
     'ng': ['n'],
     'nh': ['n'],
@@ -76,7 +79,8 @@ class FirstSound {
   };
 
   /// True when [a] and [b] could not be told apart by ear at all.
-  static bool sameSound(String a, String b) => a == b || (_sameSound.contains(a) && _sameSound.contains(b));
+  static bool sameSound(String a, String b) =>
+      a == b || _sameSounds.any((group) => group.contains(a) && group.contains(b));
 
   static bool isNear(String a, String b) => near[a]?.contains(b) == true || near[b]?.contains(a) == true;
 
@@ -84,7 +88,10 @@ class FirstSound {
   static const easySounds = {'b', 'm', 'c', 'h', 'v', 'g', 's', 'l', 't', 'n'};
 
   /// Picture words whose emoji clearly shows the word. Abstract words,
-  /// vowel-initial words and duplicate pictures are left out.
+  /// vowel-initial words and duplicate pictures are left out, and so are
+  /// pictures a child would call by another word with another first sound
+  /// (☀️ "mặt trời" not "nắng", 🌾 "lúa" not "gạo", 🐷 "lợn" in the north,
+  /// 🌲 "cây thông", 🌊 "sóng", 💧 "giọt nước", 🎤 "micro", 🎵 "nốt nhạc").
   static const words = [
     FirstSoundWord('bà', '👵', 'v_word_baf'),
     FirstSoundWord('bò', '🐮', 'v_word_bof'),
@@ -92,7 +99,6 @@ class FirstSound {
     FirstSoundWord('bóng', '⚽', 'v_word_bosng'),
     FirstSoundWord('bánh', '🍞', 'v_word_basnh'),
     FirstSoundWord('bút', '✏️', 'v_word_bust'),
-    FirstSoundWord('biển', '🌊', 'v_word_bieern'),
     FirstSoundWord('cá', '🐟', 'v_word_cas'),
     FirstSoundWord('cây', '🌳', 'v_word_caay'),
     FirstSoundWord('cam', '🍊', 'v_word_cam'),
@@ -114,12 +120,9 @@ class FirstSound {
     FirstSoundWord('gà', '🐔', 'v_word_gaf'),
     FirstSoundWord('gấu', '🧸', 'v_word_gaasu'),
     FirstSoundWord('ghế', '🪑', 'v_word_ghees'),
-    FirstSoundWord('gạo', '🌾', 'v_word_gajo'),
     FirstSoundWord('giấy', '📄', 'v_word_giaasy'),
     FirstSoundWord('hoa', '🌸', 'v_word_hoa'),
-    FirstSoundWord('heo', '🐷', 'v_word_heo'),
     FirstSoundWord('hộp', '📦', 'v_word_hoojp'),
-    FirstSoundWord('hát', '🎤', 'v_word_hast'),
     FirstSoundWord('khóc', '😭', 'v_word_khosc'),
     FirstSoundWord('lá', '🍃', 'v_word_las'),
     FirstSoundWord('mèo', '🐱', 'v_word_mefo'),
@@ -129,19 +132,15 @@ class FirstSound {
     FirstSoundWord('mũi', '👃', 'v_word_muxi'),
     FirstSoundWord('mưa', '🌧️', 'v_word_muwa'),
     FirstSoundWord('mây', '☁️', 'v_word_maay'),
-    FirstSoundWord('nước', '💧', 'v_word_nuwowsc'),
     FirstSoundWord('nồi', '🍲', 'v_word_noofi'),
     FirstSoundWord('núi', '⛰️', 'v_word_nusi'),
-    FirstSoundWord('nắng', '☀️', 'v_word_nawsng'),
     FirstSoundWord('ngựa', '🐴', 'v_word_nguwja'),
     FirstSoundWord('ngủ', '😴', 'v_word_ngur'),
     FirstSoundWord('nhà', '🏠', 'v_word_nhaf'),
     FirstSoundWord('nho', '🍇', 'v_word_nho'),
-    FirstSoundWord('nhạc', '🎵', 'v_word_nhajc'),
     FirstSoundWord('phở', '🍜', 'v_word_phowr'),
     FirstSoundWord('rau', '🥬', 'v_word_rau'),
     FirstSoundWord('răng', '🦷', 'v_word_rawng'),
-    FirstSoundWord('rừng', '🌲', 'v_word_ruwfng'),
     FirstSoundWord('sữa', '🥛', 'v_word_suwxa'),
     FirstSoundWord('sách', '📖', 'v_word_sasch'),
     FirstSoundWord('sao', '⭐', 'v_word_sao'),

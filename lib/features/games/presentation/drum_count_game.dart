@@ -98,7 +98,14 @@ class _DrumCountGameState extends ConsumerState<DrumCountGame> {
   }
 
   /// Rough time Mai needs to say [lines], so the beats start after her.
-  static int _speechMs(List<String> lines) => lines.fold(250, (sum, l) => sum + l.length * 68 + 350);
+  /// Every clip but the last plays to its end, trailing silence included
+  /// (~1.3 s more than the words), before the next one starts.
+  static int _speechMs(List<String> lines) =>
+      lines.fold(450 + (lines.length - 1) * 1300, (sum, l) => sum + l.length * 68 + 350);
+
+  /// Mai's praise line (speech up to ~2.9 s) before the count-along starts,
+  /// so her first number does not cut it off.
+  static const _afterPraiseMs = 2900;
 
   void _sound(DrumSound s) {
     final audio = ref.read(audioServiceProvider);
@@ -215,6 +222,9 @@ class _DrumCountGameState extends ConsumerState<DrumCountGame> {
 
     if (n == _round.answer) {
       final firstTry = _tries == 0;
+      // After "Mình cùng đếm lại nào!" the child just heard the count; a
+      // second count-along would only make them wait.
+      final countedTogether = _showAnswer;
       setState(() {
         _phase = _Phase.counting;
         _correct = true;
@@ -232,7 +242,11 @@ class _DrumCountGameState extends ConsumerState<DrumCountGame> {
           _cleanStreak = 0;
         }
       }
-      _countAlong(1900, then: () => _after(500, _advance));
+      if (countedTogether) {
+        _after(_afterPraiseMs + 300, _advance);
+      } else {
+        _countAlong(_afterPraiseMs, then: () => _after(500, _advance));
+      }
       return;
     }
 
@@ -243,18 +257,21 @@ class _DrumCountGameState extends ConsumerState<DrumCountGame> {
       _correct = false;
       _feedback = 'Thử lại nhé!';
     });
-    audio.playWrongSound();
     if (_tries == 1) _recordMastery(false);
     _cleanStreak = 0;
     if (_tries == 2) {
       // Two misses: step down, then count together so the child hears how.
+      // Mai says so at once (a retry line first would be cut off by it).
+      audio.sfx(Sfx.wrong);
       if (_level > 0) _level--;
-      setState(() => _phase = _Phase.counting);
-      _after(1700, () {
-        _say([KidGuide.drumCountTogether]);
-        setState(() => _showAnswer = true);
-        _countAlong(1500, then: () => setState(() => _phase = _Phase.answering));
+      setState(() {
+        _phase = _Phase.counting;
+        _showAnswer = true;
       });
+      _say([KidGuide.drumCountTogether]);
+      _countAlong(1900, then: () => setState(() => _phase = _Phase.answering));
+    } else {
+      audio.playWrongSound();
     }
   }
 
