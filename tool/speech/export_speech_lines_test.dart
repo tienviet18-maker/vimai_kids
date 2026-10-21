@@ -87,6 +87,19 @@ void main() {
         addItem('learning', repo.vietnameseLetterQuestion(), choices: false);
       }
     }
+    // Math prompts are a small, finite set ("Số nào đứng sau 37?", "Số 25 là
+    // số chẵn hay số lẻ?"): sample enough to cover every one of them. Word
+    // problems (over a thousand stories) stay sampled above; their sum is
+    // read with the math_num_* clips either way.
+    for (var seed = 0; seed < 600; seed++) {
+      final math = MathQuestionGenerator(random: Random(100000 + seed));
+      for (final skill in _mathSkills) {
+        if (skill == 'word_problem') continue;
+        for (var age = 3; age <= 7; age++) {
+          add('math', math.generateBySkill(skill, age: age).instruction);
+        }
+      }
+    }
     final thinkingBank = jsonDecode(File('assets/data/thinking/patterns.json').readAsStringSync());
     if (thinkingBank is List) {
       for (final raw in thinkingBank.whereType<Map<String, dynamic>>()) {

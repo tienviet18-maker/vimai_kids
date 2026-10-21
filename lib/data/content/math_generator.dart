@@ -98,12 +98,15 @@ class MathQuestionGenerator {
   }
 
   String _fingerprint(ContentItem item) =>
-      '${item.skill}|${item.question}|${item.answer}|${item.instruction}';
+      '${item.skill}|${item.question}|${item.answer}|${item.instruction}|${item.choices?.join(',')}';
 
   ContentItem generateAddition(int maxSum, {int age = 5, String skill = 'addition_under_10'}) {
-    final cap = maxSum < 1 ? 1 : maxSum;
-    final a = _random.nextInt(cap + 1);
-    final b = _random.nextInt(cap - a + 1);
+    // Both addends are at least 1: "5 + 0" teaches nothing and a picture sum
+    // with an empty side (" + 🍎🍎") shows nothing to count.
+    // The sum is drawn first so every total is equally likely (drawing the
+    // addends first made "= 5" the answer to over half of the sums in 5).
+    final cap = maxSum < 2 ? 2 : maxSum;
+    final (a, b) = _addends(cap);
     final answer = a + b;
     final visual = age <= 4 && cap <= 10 && a <= 8 && b <= 8;
     final icon = countingIcons[_random.nextInt(countingIcons.length)];
@@ -116,13 +119,17 @@ class MathQuestionGenerator {
       question: visual ? '${icon * a} + ${icon * b}' : '$a + $b = ?',
       answer: answer,
       maxValue: cap,
+      minValue: 1,
     );
   }
 
   ContentItem generateSubtraction(int maxNum, {int age = 5, String skill = 'subtraction_under_10'}) {
-    final cap = maxNum < 1 ? 1 : maxNum;
-    final a = _random.nextInt(cap) + 1;
-    final b = _random.nextInt(a + 1);
+    // Take away at least 1 (never "7 - 0"). Ages 3–5 always keep something
+    // left; from 6 the child may also meet "5 - 5 = 0".
+    final cap = maxNum < 2 ? 2 : maxNum;
+    final allowZero = age >= 6;
+    final a = _random.nextInt(cap - 1) + 2;
+    final b = _random.nextInt(allowZero ? a : a - 1) + 1;
     final answer = a - b;
     if (answer < 0) {
       throw StateError('Invalid negative subtraction: $a - $b');
@@ -138,6 +145,7 @@ class MathQuestionGenerator {
       question: visual ? '${icon * a} − ${icon * b}' : '$a - $b = ?',
       answer: answer,
       maxValue: cap,
+      minValue: allowZero ? 0 : 1,
     );
   }
 
@@ -158,29 +166,31 @@ class MathQuestionGenerator {
       instruction: 'Có bao nhiêu $label?',
       question: List.filled(n, icon).join(),
       answer: n.toString(),
-      choices: _distinctChoices(n, cap),
+      choices: _distinctChoices(n, cap, minValue: 1),
       metadata: {'icon': icon, 'quantity': n},
     );
   }
 
+
+  /// "Which is bigger?" with two different amounts, so there is always
+  /// exactly one right answer and the choices are exactly the two things shown.
+  /// Up to 10: half the time two picture groups ("Nhóm nào nhiều hơn?"), the
+  /// child taps the bigger group; otherwise two numbers ("Số nào lớn hơn?").
+  /// Equal amounts and the >, <, = signs live in [generateCompareExpressions].
   ContentItem generateComparison(int maxNum) {
-    final useItems = _random.nextBool() && maxNum <= 10;
-    if (useItems) {
-      final a = _random.nextInt(maxNum) + 1;
-      final b = _random.nextInt(maxNum) + 1;
+    final cap = maxNum < 2 ? 2 : maxNum;
+    final a = _random.nextInt(cap) + 1;
+    var b = _random.nextInt(cap - 1) + 1;
+    if (b >= a) b++;
+    final usePictures = cap <= 10 && _random.nextBool();
+    if (usePictures) {
       final iconA = countingIcons[_random.nextInt(countingIcons.length)];
       var iconB = countingIcons[_random.nextInt(countingIcons.length)];
       if (iconB == iconA) {
         iconB = countingIcons[(countingIcons.indexOf(iconA) + 1) % countingIcons.length];
       }
-      String answer;
-      if (a > b) {
-        answer = 'trái';
-      } else if (b > a) {
-        answer = 'phải';
-      } else {
-        answer = 'bằng nhau';
-      }
+      final groupA = _group(a, iconA);
+      final groupB = _group(b, iconB);
       return ContentItem(
         id: 'gen_cmp_${_random.nextInt(999999)}',
         subject: ContentSubject.math,
@@ -190,22 +200,13 @@ class MathQuestionGenerator {
         skill: 'comparison',
         difficulty: 1,
         title: 'So sánh',
-        instruction: 'Bên nào nhiều hơn?',
-        question: '${List.filled(a, iconA).join()}   ?   ${List.filled(b, iconB).join()}',
-        answer: answer,
-        choices: _shuffled(['trái', 'phải', 'bằng nhau']),
+        instruction: 'Nhóm nào nhiều hơn?',
+        // No question row: the two groups are the buttons the child taps.
+        question: null,
+        answer: a > b ? groupA : groupB,
+        choices: [groupA, groupB],
+        metadata: {'mode': 'pictures', 'left': a, 'right': b},
       );
-    }
-
-    final a = _random.nextInt(maxNum) + 1;
-    final b = _random.nextInt(maxNum) + 1;
-    String answer;
-    if (a > b) {
-      answer = '$a';
-    } else if (b > a) {
-      answer = '$b';
-    } else {
-      answer = 'bằng nhau';
     }
     return ContentItem(
       id: 'gen_cmp_${_random.nextInt(999999)}',
@@ -217,30 +218,39 @@ class MathQuestionGenerator {
       difficulty: 1,
       title: 'So sánh',
       instruction: 'Số nào lớn hơn?',
-      question: '$a  ?  $b',
-      answer: answer,
-      choices: _shuffled(a == b ? [answer, '$a', '${a + 1}'] : ['$a', '$b', 'bằng nhau']),
+      question: '$a     $b',
+      answer: '${a > b ? a : b}',
+      choices: _shuffled(['$a', '$b']),
+      metadata: {'mode': 'numbers', 'left': a, 'right': b},
     );
   }
 
+  /// Mai names a number ("Số nào là số bảy?") and the child taps its numeral.
+  /// The numeral is not shown in the prompt (it would be the answer itself)
+  /// and the name is written in words, so the child recognises the digit.
   ContentItem generateNumberRecognition(int maxNum) {
-    final cap = maxNum.clamp(1, 20);
-    // Prefer 1..cap (kids rarely need zero in recognition drills).
+    final cap = maxNum.clamp(4, 20);
     final n = _random.nextInt(cap) + 1;
-    return _choiceItem(
-      idPrefix: 'gen_num',
+    return ContentItem(
+      id: 'gen_num_${_random.nextInt(999999)}',
+      subject: ContentSubject.math,
+      ageMin: 3,
+      ageMax: 7,
+      level: 1,
       skill: 'number_recognition',
-      age: 3,
+      difficulty: 1,
       title: 'Nhận biết số',
-      instruction: 'Đây là số mấy?',
-      question: '$n',
-      answer: n,
-      maxValue: cap,
+      instruction: 'Số nào là số ${numberWord(n)}?',
+      question: '?',
+      answer: '$n',
+      choices: _distinctChoices(n, cap, minValue: 1),
+      metadata: {'quantity': n},
     );
   }
 
   ContentItem generateMissingNumber(int maxNum) {
-    final start = _random.nextInt(maxNum - 3) + 1;
+    final cap = maxNum < 4 ? 4 : maxNum;
+    final start = _random.nextInt(cap - 3) + 1;
     final missing = start + 1;
     return ContentItem(
       id: 'gen_miss_${_random.nextInt(999999)}',
@@ -254,14 +264,20 @@ class MathQuestionGenerator {
       instruction: 'Điền số còn thiếu',
       question: '$start  ?  ${start + 2}',
       answer: missing.toString(),
-      choices: _distinctChoices(missing, maxNum),
+      choices: _distinctChoices(missing, cap, minValue: 1),
     );
   }
 
+  /// Things a child can hold, each with its own Vietnamese classifier
+  /// ("cái bóng" would be a shadow, "cái hoa" is not said).
+  static const _wordProblemThings = ['cái kẹo', 'quả bóng', 'bông hoa', 'ngôi sao', 'cái bánh'];
+
   ContentItem generateWordProblem(int age) {
-    final a = _random.nextInt(age >= 7 ? 20 : 8) + 1;
-    final b = _random.nextInt(age >= 7 ? 10 : 5) + 1;
-    final item = ['kẹo', 'bóng', 'hoa', 'sao', 'bánh'][_random.nextInt(5)];
+    final maxA = age >= 7 ? 20 : 8;
+    final maxB = age >= 7 ? 10 : 5;
+    final a = _random.nextInt(maxA) + 1;
+    final b = _random.nextInt(maxB) + 1;
+    final thing = _wordProblemThings[_random.nextInt(_wordProblemThings.length)];
     return ContentItem(
       id: 'gen_word_${_random.nextInt(999999)}',
       subject: ContentSubject.math,
@@ -271,15 +287,16 @@ class MathQuestionGenerator {
       skill: 'word_problem',
       difficulty: 3,
       title: 'Toán lời văn',
-      instruction: 'Bé có $a cái $item, thêm $b cái nữa. Bé có bao nhiêu cái?',
+      instruction: 'Bé có $a $thing, thêm $b $thing nữa. Bé có tất cả bao nhiêu $thing?',
       question: '$a + $b = ?',
       answer: (a + b).toString(),
-      choices: _distinctChoices(a + b, a + b + 5),
+      choices: _distinctChoices(a + b, maxA + maxB, minValue: 2),
     );
   }
 
   ContentItem generateBeforeAfter(int maxNum) {
-    final n = _random.nextInt(maxNum - 2) + 2;
+    final cap = maxNum < 3 ? 3 : maxNum;
+    final n = _random.nextInt(cap - 2) + 2;
     final askBefore = _random.nextBool();
     final answer = askBefore ? n - 1 : n + 1;
     return ContentItem(
@@ -294,13 +311,17 @@ class MathQuestionGenerator {
       instruction: askBefore ? 'Số nào đứng trước $n?' : 'Số nào đứng sau $n?',
       question: askBefore ? '?  $n' : '$n  ?',
       answer: answer.toString(),
-      choices: _distinctChoices(answer, maxNum),
+      choices: _distinctChoices(answer, cap, minValue: 1),
     );
   }
 
+  /// Either a picture group → pick its number, or a number → pick the group.
+  /// Groups to choose from stay at 10 or fewer pictures so each button can
+  /// still be counted (rows of five).
   ContentItem generateNumberMatch(int maxNum) {
-    final n = _random.nextInt(maxNum) + 1;
     final showPicture = _random.nextBool();
+    final cap = showPicture ? maxNum.clamp(4, 20) : maxNum.clamp(4, 10);
+    final n = _random.nextInt(cap) + 1;
     final icon = countingIcons[_random.nextInt(countingIcons.length)];
     return ContentItem(
       id: 'gen_nmatch_${_random.nextInt(999999)}',
@@ -311,10 +332,11 @@ class MathQuestionGenerator {
       skill: 'number_match',
       difficulty: 1,
       title: 'Ghép số',
-      instruction: showPicture ? 'Có bao nhiêu?' : 'Chọn nhóm đúng với số $n',
-      question: showPicture ? List.filled(n, icon).join() : '$n',
-      answer: showPicture ? n.toString() : List.filled(n, icon).join(),
-      choices: showPicture ? _distinctChoices(n, maxNum) : _iconGroupChoices(n, maxNum, icon),
+      instruction: showPicture ? 'Có bao nhiêu ${_labelForIcon(icon)}?' : 'Chọn nhóm đúng với số $n',
+      question: showPicture ? icon * n : '$n',
+      answer: showPicture ? n.toString() : _group(n, icon),
+      choices: showPicture ? _distinctChoices(n, cap, minValue: 1) : _iconGroupChoices(n, cap, icon),
+      metadata: {'icon': icon, 'quantity': n},
     );
   }
 
@@ -356,12 +378,14 @@ class MathQuestionGenerator {
     );
   }
 
+  /// Picture sums for the youngest: both sides always have pictures and
+  /// something is always left after taking away.
   ContentItem generatePictureMath(int cap) {
+    final top = cap < 3 ? 3 : cap;
     final icon = countingIcons[_random.nextInt(countingIcons.length)];
     final add = _random.nextBool();
     if (add) {
-      final a = _random.nextInt(cap + 1);
-      final b = _random.nextInt(cap - a + 1);
+      final (a, b) = _addends(top);
       final answer = a + b;
       return _choiceItem(
         idPrefix: 'gen_pic',
@@ -371,11 +395,12 @@ class MathQuestionGenerator {
         instruction: 'Đếm rồi tính',
         question: '${icon * a} + ${icon * b}',
         answer: answer,
-        maxValue: cap,
+        maxValue: top,
+        minValue: 1,
       );
     }
-    final a = _random.nextInt(cap) + 1;
-    final b = _random.nextInt(a + 1);
+    final a = _random.nextInt(top - 1) + 2;
+    final b = _random.nextInt(a - 1) + 1;
     final answer = a - b;
     return _choiceItem(
       idPrefix: 'gen_pic',
@@ -385,12 +410,14 @@ class MathQuestionGenerator {
       instruction: 'Còn lại bao nhiêu?',
       question: '${icon * a} − ${icon * b}',
       answer: answer,
-      maxValue: cap,
+      maxValue: top,
+      minValue: 1,
     );
   }
 
   ContentItem generateNumberLine(int maxNum) {
-    final start = _random.nextInt(maxNum - 4) + 1;
+    final cap = maxNum < 5 ? 5 : maxNum;
+    final start = _random.nextInt(cap - 4) + 1;
     final missingIndex = _random.nextInt(3) + 1;
     final values = [start, start + 1, start + 2, start + 3];
     final answer = values[missingIndex];
@@ -409,16 +436,36 @@ class MathQuestionGenerator {
       instruction: 'Số nào đứng ở dấu hỏi?',
       question: shown.join(' — '),
       answer: answer.toString(),
-      choices: _distinctChoices(answer, maxNum),
+      choices: _distinctChoices(answer, cap, minValue: 1),
     );
   }
 
+  /// "a + b ? c + d" with >, < or =. About a third of the items are equal,
+  /// so "=" is a real answer and not a give-away.
   ContentItem generateCompareExpressions(int cap) {
-    final a = _random.nextInt(cap ~/ 2 + 1);
-    final b = _random.nextInt(cap - a + 1);
-    final c = _random.nextInt(cap ~/ 2 + 1);
-    final d = _random.nextInt(cap - c + 1);
+    final top = cap < 4 ? 4 : cap;
+    final a = _random.nextInt(top ~/ 2) + 1;
+    final b = _random.nextInt(top - a) + 1;
     final left = a + b;
+    late int c;
+    late int d;
+    if (_random.nextInt(3) == 0) {
+      // The same total written another way (never the very same sum).
+      c = _random.nextInt(left - 1) + 1;
+      d = left - c;
+      if (c == a || c == b) {
+        c = c == 1 ? 2 : c - 1;
+        d = left - c;
+      }
+      if (c == a || c == b || d < 1) {
+        // left = a + b with a, b ≥ 1; fall back to any other split.
+        c = [for (var i = 1; i < left; i++) i].firstWhere((i) => i != a && i != b, orElse: () => a);
+        d = left - c;
+      }
+    } else {
+      c = _random.nextInt(top ~/ 2) + 1;
+      d = _random.nextInt(top - c) + 1;
+    }
     final right = c + d;
     final answer = left > right ? '>' : (left < right ? '<' : '=');
     return ContentItem(
@@ -434,28 +481,35 @@ class MathQuestionGenerator {
       question: '$a + $b  ?  $c + $d',
       answer: answer,
       choices: _shuffled(const ['>', '<', '=']),
+      metadata: {'left': left, 'right': right},
     );
   }
 
   ContentItem generateFindCorrectOp(int cap) {
+    final top = cap < 3 ? 3 : cap;
     final plus = _random.nextBool();
     late int a;
     late int b;
     late int result;
     late String op;
     if (plus) {
-      a = _random.nextInt(cap);
-      b = _random.nextInt(cap - a) + 1;
+      (a, b) = _addends(top);
       result = a + b;
       op = '+';
     } else {
-      a = _random.nextInt(cap) + 1;
-      b = a == 1 ? 1 : _random.nextInt(a) + 1;
+      a = _random.nextInt(top - 1) + 2;
+      b = _random.nextInt(a - 1) + 1;
       result = a - b;
       op = '−';
     }
     final wrongOp = plus ? '−' : '+';
-    final distractor = plus ? '$a + $b = ${result + 1}' : '$a − $b = ${result + 1}';
+    final correct = '$a $op $b = $result';
+    // Every distractor is a false sentence (b ≥ 1, so a + b ≠ a − b).
+    final wrongs = <String>{
+      '$a $wrongOp $b = $result',
+      '$a $op $b = ${result + 1}',
+      if (result >= 2) '$a $op $b = ${result - 1}' else '$a $op $b = ${result + 2}',
+    }..remove(correct);
     return ContentItem(
       id: 'gen_op_${_random.nextInt(999999)}',
       subject: ContentSubject.math,
@@ -466,34 +520,30 @@ class MathQuestionGenerator {
       difficulty: 3,
       title: 'Tìm phép tính',
       instruction: 'Phép tính nào đúng?',
-      question: '$a  □  $b  =  $result',
-      answer: '$a $op $b = $result',
-      choices: _shuffled([
-        '$a $op $b = $result',
-        '$a $wrongOp $b = $result',
-        distractor,
-        '$b $op $a = ${result + 2}',
-      ]),
+      question: '$a  ?  $b  =  $result',
+      answer: correct,
+      choices: _shuffled([correct, ...wrongs]),
     );
   }
 
   ContentItem generateFillPlusMinus(int cap) {
+    final top = cap < 3 ? 3 : cap;
     final plus = _random.nextBool();
     late int a;
     late int b;
     late int result;
     late String answer;
     if (plus) {
-      a = _random.nextInt(cap);
-      b = _random.nextInt(cap - a) + 1;
+      (a, b) = _addends(top);
       result = a + b;
       answer = '+';
     } else {
-      a = _random.nextInt(cap) + 1;
-      b = a == 1 ? 1 : _random.nextInt(a) + 1;
+      a = _random.nextInt(top - 1) + 2;
+      b = _random.nextInt(a - 1) + 1;
       result = a - b;
       answer = '−';
     }
+    // Only + and −: "2 ? 2 = 4" would also be right with ×.
     return ContentItem(
       id: 'gen_fill_${_random.nextInt(999999)}',
       subject: ContentSubject.math,
@@ -504,9 +554,9 @@ class MathQuestionGenerator {
       difficulty: 3,
       title: 'Điền + hoặc −',
       instruction: 'Điền dấu đúng vào ô trống',
-      question: '$a  □  $b  =  $result',
+      question: '$a  ?  $b  =  $result',
       answer: answer,
-      choices: _shuffled(const ['+', '−', '×']),
+      choices: _shuffled(const ['+', '−']),
     );
   }
 
@@ -530,22 +580,19 @@ class MathQuestionGenerator {
   }
 
   ContentItem generateNumberPattern(int maxNum) {
+    final cap = maxNum < 10 ? 10 : maxNum;
     final kind = _random.nextInt(3);
     late List<int> seq;
     late int answer;
     if (kind == 0) {
-      final start = _random.nextInt(maxNum - 4) + 1;
+      final start = _random.nextInt(cap - 4) + 1;
       seq = [start, start + 1, start + 2];
       answer = start + 3;
     } else if (kind == 1) {
       const step = 2;
-      final start = _random.nextInt((maxNum ~/ 2).clamp(1, 8)) + 1;
+      final start = _random.nextInt((cap - 6).clamp(1, 8)) + 1;
       seq = [start, start + step, start + step * 2];
       answer = start + step * 3;
-      if (answer > maxNum) {
-        seq = [2, 4, 6];
-        answer = 8;
-      }
     } else {
       final start = _random.nextInt(4) + 4;
       seq = [start, start - 1, start - 2];
@@ -563,14 +610,15 @@ class MathQuestionGenerator {
       instruction: 'Số tiếp theo là gì?',
       question: '${seq.join('  ')}  ?',
       answer: answer.toString(),
-      choices: _distinctChoices(answer, maxNum),
+      choices: _distinctChoices(answer, cap, minValue: 1),
     );
   }
 
   ContentItem generateClassifyNumbers(int maxNum) {
+    final cap = maxNum < 8 ? 8 : maxNum;
     final even = _random.nextBool();
-    final evens = [for (var i = 2; i <= maxNum; i += 2) i]..shuffle(_random);
-    final odds = [for (var i = 1; i <= maxNum; i += 2) i]..shuffle(_random);
+    final evens = [for (var i = 2; i <= cap; i += 2) i]..shuffle(_random);
+    final odds = [for (var i = 1; i <= cap; i += 2) i]..shuffle(_random);
     final target = even ? evens.first : odds.first;
     final others = even ? odds.take(3) : evens.take(3);
     final choices = [...others.map((e) => e.toString()), target.toString()]..shuffle(_random);
@@ -599,6 +647,7 @@ class MathQuestionGenerator {
     required String question,
     required int answer,
     required int maxValue,
+    int minValue = 0,
   }) {
     return ContentItem(
       id: '${idPrefix}_${DateTime.now().microsecondsSinceEpoch}_${_random.nextInt(999)}',
@@ -612,46 +661,71 @@ class MathQuestionGenerator {
       instruction: instruction,
       question: question,
       answer: answer.toString(),
-      choices: _distinctChoices(answer, maxValue),
+      choices: _distinctChoices(answer, maxValue, minValue: minValue),
     );
   }
 
-  /// Correct answer + up to 3 distinct distractors, always shuffled.
-  List<String> _distinctChoices(int answer, int maxValue) {
-    final cap = maxValue < 1 ? 1 : maxValue;
+  /// Two addends, both at least 1, whose sum is uniform over 2..[maxSum].
+  (int, int) _addends(int maxSum) {
+    final sum = _random.nextInt(maxSum - 1) + 2;
+    final a = _random.nextInt(sum - 1) + 1;
+    return (a, sum - a);
+  }
+
+  /// Correct answer + up to 3 distinct distractors near it, always shuffled.
+  /// Every choice stays inside [minValue]..[maxValue] (the skill's range:
+  /// no 12 when counting to 10, no 0 when counting things).
+  List<String> _distinctChoices(int answer, int maxValue, {int minValue = 0}) {
+    final lo = min(minValue, answer);
+    final hi = max(maxValue, answer);
     final choices = <String>{answer.toString()};
     var guard = 0;
     while (choices.length < 4 && guard < 80) {
       guard++;
       final delta = _random.nextInt(5) + 1;
       final wrong = _random.nextBool() ? answer + delta : answer - delta;
-      if (wrong < 0 || wrong > cap + 2) continue;
-      if (wrong == answer) continue;
+      if (wrong < lo || wrong > hi) continue;
       choices.add(wrong.toString());
     }
-    // Fallback fill if range is tiny.
-    var fill = 0;
-    while (choices.length < 4 && fill <= cap + 3) {
-      choices.add('$fill');
-      fill++;
-    }
-    final list = choices.toList()..shuffle(_random);
-    return list;
-  }
-
-  List<String> _iconGroupChoices(int answer, int maxNum, String icon) {
-    final choices = <String>{List.filled(answer, icon).join()};
-    var guard = 0;
-    while (choices.length < 4 && guard < 40) {
-      guard++;
-      final n = _random.nextInt(maxNum) + 1;
-      if (n == answer) continue;
-      choices.add(List.filled(n, icon).join());
+    // Tiny range: fill with the nearest numbers still inside it.
+    for (var d = 1; choices.length < 4 && d <= hi - lo; d++) {
+      for (final wrong in [answer - d, answer + d]) {
+        if (choices.length < 4 && wrong >= lo && wrong <= hi) choices.add('$wrong');
+      }
     }
     return choices.toList()..shuffle(_random);
   }
 
+  /// [n] pictures in short rows (2, 3 or 5 a row, like dice), so a group
+  /// drawn inside a button stays big enough to count.
+  static String _group(int n, String icon) {
+    final perRow = n <= 4 ? 2 : (n <= 9 ? 3 : 5);
+    return [
+      for (var i = 0; i < n; i += perRow) icon * (n - i < perRow ? n - i : perRow),
+    ].join('\n');
+  }
+
+  List<String> _iconGroupChoices(int answer, int maxNum, String icon) => [
+        for (final n in _distinctChoices(answer, maxNum, minValue: 1)) _group(int.parse(n), icon),
+      ];
+
   List<String> _shuffled(List<String> values) => List<String>.from(values)..shuffle(_random);
+
+  /// Vietnamese name of 0–100 as Mai says it ("bảy", "mười lăm", "hai mươi mốt").
+  static String numberWord(int n) {
+    const units = ['không', 'một', 'hai', 'ba', 'bốn', 'năm', 'sáu', 'bảy', 'tám', 'chín'];
+    if (n < 0 || n > 100) return '$n';
+    if (n < 10) return units[n];
+    if (n == 100) return 'một trăm';
+    final tens = n ~/ 10;
+    final unit = n % 10;
+    final head = tens == 1 ? 'mười' : '${units[tens]} mươi';
+    if (unit == 0) return head;
+    if (unit == 5) return '$head lăm';
+    if (unit == 1 && tens > 1) return '$head mốt';
+    if (unit == 4 && tens > 1) return '$head tư';
+    return '$head ${units[unit]}';
+  }
 
   String _labelForIcon(String icon) {
     const map = {
