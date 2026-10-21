@@ -24,7 +24,10 @@ class SpeechId {
     var hash = 0x811c9dc5;
     for (final b in bytes) {
       hash ^= b;
-      hash = (hash * 0x01000193) & 0xffffffff;
+      // hash * 0x01000193 (= 2^24 + 0x193) mod 2^32, split so no step
+      // passes 2^53: on the web ints are doubles and the plain product
+      // lost its low bits, so every vi_say_* id came out wrong there.
+      hash = ((hash & 0xff) * 0x1000000 + hash * 0x193) & 0xffffffff;
     }
     return '$prefix${hash.toRadixString(16).padLeft(8, '0')}';
   }
