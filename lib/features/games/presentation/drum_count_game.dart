@@ -13,6 +13,7 @@ import '../../../data/content/game_catalog.dart';
 import '../../../data/repositories/profile_repository.dart';
 import '../../shared/widgets/chunky_button.dart';
 import '../logic/drum_count_round.dart';
+import '../logic/final_cheer.dart';
 import 'widgets/game_play_scaffold.dart';
 
 /// "Đếm tiếng trống": Bạn gấu plays a drum (bell, coins…) a few times; the
@@ -232,7 +233,11 @@ class _DrumCountGameState extends ConsumerState<DrumCountGame> {
         _showAnswer = true;
         _score++;
       });
-      audio.playCorrectSound();
+      if (_score >= _goal) {
+        playWinningAnswer(audio);
+      } else {
+        audio.playCorrectSound();
+      }
       if (firstTry) {
         _recordMastery(true);
         _cleanStreak++;

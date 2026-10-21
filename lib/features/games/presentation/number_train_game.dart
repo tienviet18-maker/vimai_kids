@@ -10,6 +10,7 @@ import '../../../data/content/game_catalog.dart';
 import '../../../data/repositories/profile_repository.dart';
 import '../../shared/widgets/chunky_button.dart';
 import 'widgets/game_art.dart';
+import '../logic/final_cheer.dart';
 import 'widgets/game_play_scaffold.dart';
 import '../../../core/audio/kid_guide.dart';
 
@@ -101,7 +102,11 @@ class _NumberTrainGameState extends ConsumerState<NumberTrainGame> {
       });
       return;
     }
-    unawaited(audio.playRandomSuccess());
+    if (_score + 1 >= _goal) {
+      playWinningAnswer(audio);
+    } else {
+      unawaited(audio.playRandomSuccess());
+    }
     setState(() {
       _selected.add(n);
       _score++;

@@ -213,7 +213,7 @@ class _FirstSoundGameState extends ConsumerState<FirstSoundGame> {
         // ("bờ … bò"), then praises. In the other order the blend cut the
         // praise and the next question cut the word.
         unawaited(audio.speak(const [], leadIds: [_round.soundClip, card.audioId]));
-        _later(2100, audio.playCorrectSound);
+        if (_score < _goal) _later(2100, audio.playCorrectSound);
       },
       sideEffects: () => _recordMastery(true),
       isMounted: () => mounted,

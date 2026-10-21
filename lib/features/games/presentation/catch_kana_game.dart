@@ -17,6 +17,7 @@ import '../../../data/repositories/profile_repository.dart';
 import '../../../domain/models/kana_item.dart';
 import '../logic/catch_kana_round.dart';
 import '../logic/falling_layout.dart';
+import '../logic/final_cheer.dart';
 import 'widgets/game_play_scaffold.dart';
 import '../../../core/audio/kid_guide.dart';
 
@@ -271,7 +272,8 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
       // One sequence: the caught letter, the praise, then the next letter to
       // find. Played separately, each clip cut the one before it.
       playSound: () {
-        if (_score < _goal) _upcoming = _generate();
+        if (_score >= _goal) return playWinningAnswer(audio, leadIds: [_clipFor(kana)]);
+        _upcoming = _generate();
         unawaited(audio.playRandomSuccess(
           leadIds: [_clipFor(kana)],
           trailIds: [if (_upcoming != null) _clipFor(_upcoming!.target)],

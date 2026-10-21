@@ -11,6 +11,7 @@ import '../../../data/content/game_catalog.dart';
 import '../../../data/repositories/profile_repository.dart';
 import '../../shared/widgets/chunky_button.dart';
 import 'widgets/game_fx.dart';
+import '../logic/final_cheer.dart';
 import 'widgets/game_play_scaffold.dart';
 import '../../../core/audio/kid_guide.dart';
 
@@ -95,7 +96,11 @@ class _FindSimilarGameState extends ConsumerState<FindSimilarGame> {
     _flipTimer?.cancel();
     _flipTimer = Timer(Duration(milliseconds: match ? 350 : 1000), () {
       if (!mounted) return;
-      if (match) unawaited(ref.read(audioServiceProvider).playRandomSuccess());
+      if (match && _matches + 1 == _pairCount) {
+        playWinningAnswer(ref.read(audioServiceProvider));
+      } else if (match) {
+        unawaited(ref.read(audioServiceProvider).playRandomSuccess());
+      }
       setState(() {
         if (match) {
           _isMatched[a] = true;

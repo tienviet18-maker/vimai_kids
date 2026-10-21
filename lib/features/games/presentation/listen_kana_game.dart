@@ -14,6 +14,7 @@ import '../../shared/widgets/choice_grid.dart';
 import '../../shared/widgets/chunky_button.dart';
 import '../../shared/widgets/vimai_mascot.dart';
 import '../logic/catch_kana_round.dart';
+import '../logic/final_cheer.dart';
 import 'widgets/game_play_scaffold.dart';
 import '../../../core/audio/kid_guide.dart';
 
@@ -129,7 +130,8 @@ class _ListenKanaGameState extends ConsumerState<ListenKanaGame> {
       // One sequence: the chosen sound, the praise, then the next sound.
       // Played separately, each clip cut the one before it.
       playSound: () {
-        if (_score < _goal) _upcoming = _generate();
+        if (_score >= _goal) return playWinningAnswer(audio, leadIds: [tapped.audioId]);
+        _upcoming = _generate();
         unawaited(audio.playRandomSuccess(
           leadIds: [tapped.audioId],
           trailIds: [if (_upcoming != null) _upcoming!.target.audioId],
