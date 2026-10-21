@@ -106,3 +106,8 @@ class WebKitAnswerTap {
     }
   }
 }
+
+/// Hold after a correct answer in lesson quizzes: long enough that Mai's
+/// praise ("Đúng rồi! Bé giỏi quá!", spoken by playRandomSuccess) is heard
+/// before the next prompt interrupts it, instead of being cut after 0.5 s.
+const kPraiseHold = Duration(milliseconds: 1800);

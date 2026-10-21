@@ -114,7 +114,7 @@ class VietnameseQuizListScreen extends ConsumerStatefulWidget {
 }
 
 class _VietnameseQuizListScreenState extends ConsumerState<VietnameseQuizListScreen> {
-  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 500));
+  final _answerTap = WebKitAnswerTap(holdDuration: kPraiseHold);
   int _index = 0;
   int _stars = 0;
 
@@ -429,7 +429,8 @@ class _VietnameseQuizListScreenState extends ConsumerState<VietnameseQuizListScr
                           AudioService.notify(context, result);
                         },
                       ),
-                    if (item.syllable.isNotEmpty)
+                    // The joined syllable is the answer: show it only once found.
+                    if (item.syllable.isNotEmpty && _lastCorrect == true)
                       _BlendChip(label: item.syllable, emphasized: true, onTap: () => _playItem(item)),
                   ],
                 ),
@@ -653,10 +654,12 @@ class VietnameseLetterGameScreen extends ConsumerStatefulWidget {
 }
 
 class _VietnameseLetterGameScreenState extends ConsumerState<VietnameseLetterGameScreen> {
-  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 500));
+  final _answerTap = WebKitAnswerTap(holdDuration: kPraiseHold);
   ContentItem? _target;
   List<String> _choices = const [];
   String? _feedback;
+  String? _lastChoice;
+  bool? _lastCorrect;
   int _score = 0;
   int _wrong = 0;
   final _recent = <String>[];
@@ -689,7 +692,11 @@ class _VietnameseLetterGameScreenState extends ConsumerState<VietnameseLetterGam
       _choices.shuffle();
     }
     final first = _score == 0 && _wrong == 0 && _recent.length == 1;
-    setState(() => _feedback = null);
+    setState(() {
+      _feedback = null;
+      _lastChoice = null;
+      _lastCorrect = null;
+    });
     final audio = ref.read(audioServiceProvider);
     final letterId = AudioService.getAudioIdForLetter(_target!.question ?? _target!.letterName);
     if (letterId.isEmpty) {
@@ -726,6 +733,8 @@ class _VietnameseLetterGameScreenState extends ConsumerState<VietnameseLetterGam
               if (_choices.isNotEmpty)
               ChoiceGrid(
                 choices: _choices,
+                lastChoice: _lastChoice,
+                lastCorrect: _lastCorrect,
                 onSelected: (value) {
                   if (_answerTap.locked) return;
                   final target = _target;
@@ -751,6 +760,8 @@ class _VietnameseLetterGameScreenState extends ConsumerState<VietnameseLetterGam
                       setState: setState,
                       applyImmediateUi: () {
                         _feedback = 'Thử lại nhé! 💪';
+                        _lastChoice = value;
+                        _lastCorrect = false;
                         _wrong++;
                       },
                       playSound: () => unawaited(audio.playRandomTryAgain()),
@@ -763,6 +774,8 @@ class _VietnameseLetterGameScreenState extends ConsumerState<VietnameseLetterGam
                     setState: setState,
                     applyImmediateUi: () {
                       _feedback = 'Đúng rồi! ⭐';
+                      _lastChoice = value;
+                      _lastCorrect = true;
                       _score++;
                     },
                     playSound: () => unawaited(audio.playRandomSuccess()),
@@ -806,12 +819,14 @@ class VietnameseChooseLetterScreen extends ConsumerStatefulWidget {
 }
 
 class _VietnameseChooseLetterScreenState extends ConsumerState<VietnameseChooseLetterScreen> {
-  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 450));
+  final _answerTap = WebKitAnswerTap(holdDuration: kPraiseHold);
   final _recent = <String>[];
   ContentItem? _target;
   List<String> _choices = const [];
   String? _prompt;
   String? _feedback;
+  String? _lastChoice;
+  bool? _lastCorrect;
   int _score = 0;
   int _wrong = 0;
   int _round = 0;
@@ -858,7 +873,13 @@ class _VietnameseChooseLetterScreenState extends ConsumerState<VietnameseChooseL
         break;
       case _ChooseMode.letterToWord:
         _prompt = 'Chữ ${pick.question} có trong từ nào?';
-        final words = letters.map((e) => e.exampleWord).where((e) => e.isNotEmpty).toSet().toList()..shuffle();
+        // Distractors must not contain the letter too ("áo" and "cá" both have a).
+        final words = letters
+            .map((e) => e.exampleWord)
+            .where((e) => e.isNotEmpty && !vietnameseWordHasLetter(e, pick.lowercase))
+            .toSet()
+            .toList()
+          ..shuffle();
         _choices = <String>{pick.exampleWord, ...words.take(3)}.toList()..shuffle();
         break;
       case _ChooseMode.recognize:
@@ -866,7 +887,11 @@ class _VietnameseChooseLetterScreenState extends ConsumerState<VietnameseChooseL
         _choices = _letterChoices(letters, pick);
         break;
     }
-    setState(() => _feedback = null);
+    setState(() {
+      _feedback = null;
+      _lastChoice = null;
+      _lastCorrect = null;
+    });
     await _playPrompt();
   }
 
@@ -949,6 +974,8 @@ class _VietnameseChooseLetterScreenState extends ConsumerState<VietnameseChooseL
               if (_choices.isNotEmpty)
                 ChoiceGrid(
                   choices: _choices,
+                  lastChoice: _lastChoice,
+                  lastCorrect: _lastCorrect,
                   onSelected: (value) {
                     if (_answerTap.locked) return;
                     final ok = value == _answer;
@@ -973,6 +1000,8 @@ class _VietnameseChooseLetterScreenState extends ConsumerState<VietnameseChooseL
                         setState: setState,
                         applyImmediateUi: () {
                           _feedback = 'Thử lại nhé! 💪';
+                          _lastChoice = value;
+                          _lastCorrect = false;
                           _wrong++;
                         },
                         playSound: () => unawaited(audio.playRandomTryAgain()),
@@ -985,6 +1014,8 @@ class _VietnameseChooseLetterScreenState extends ConsumerState<VietnameseChooseL
                       setState: setState,
                       applyImmediateUi: () {
                         _feedback = 'Đúng rồi! ⭐';
+                        _lastChoice = value;
+                        _lastCorrect = true;
                         _score++;
                       },
                       playSound: () => unawaited(audio.playRandomSuccess()),
@@ -1017,4 +1048,21 @@ class _VietnameseChooseLetterScreenState extends ConsumerState<VietnameseChooseL
       ),
     );
   }
+}
+
+const _tonedVowels = {
+  'a': 'àáảãạ', 'ă': 'ằắẳẵặ', 'â': 'ầấẩẫậ', 'e': 'èéẻẽẹ', 'ê': 'ềếểễệ', 'i': 'ìíỉĩị',
+  'o': 'òóỏõọ', 'ô': 'ồốổỗộ', 'ơ': 'ờớởỡợ', 'u': 'ùúủũụ', 'ư': 'ừứửữự', 'y': 'ỳýỷỹỵ',
+};
+
+/// True when [word] contains the alphabet [letter], ignoring tone marks
+/// ("cá" has a, "cờ" has ơ) but not hats/breves (ă and â are other letters).
+bool vietnameseWordHasLetter(String word, String letter) {
+  final l = letter.toLowerCase();
+  if (l.isEmpty) return false;
+  final toned = _tonedVowels[l] ?? '';
+  for (final ch in word.toLowerCase().split('')) {
+    if (ch == l || toned.contains(ch)) return true;
+  }
+  return false;
 }
