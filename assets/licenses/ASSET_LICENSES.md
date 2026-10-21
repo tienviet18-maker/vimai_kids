@@ -22,5 +22,11 @@ This file records third-party assets bundled with the application.
 - Material Icons: Apache License 2.0 (Flutter SDK)
 - System/fallback text fonts provided by the OS
 
+## Fonts (bundled, never downloaded at runtime)
+- Baloo 2 (Regular to ExtraBold) and Poppins ExtraBold in `assets/google_fonts/`,
+  the exact files the google_fonts package would otherwise fetch from fonts.gstatic.com.
+- License: SIL Open Font License 1.1, see `assets/licenses/OFL_BALOO2.txt` and `assets/licenses/OFL_POPPINS.txt`.
+- Date bundled: 2026-10-21
+
 ## Code libraries
 See `pubspec.yaml` for Dart/Flutter package licenses (BSD, MIT, Apache 2.0).

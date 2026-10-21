@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 import 'core/audio/audio_service.dart';
@@ -19,6 +20,9 @@ import 'data/repositories/profile_repository.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  // Kids Category (App Store 1.3 / 5.1.4): fonts are bundled in
+  // assets/google_fonts/, so never contact fonts.gstatic.com at runtime.
+  GoogleFonts.config.allowRuntimeFetching = false;
   await Hive.initFlutter();
 
   final kanaRepo = KanaRepositoryImpl();

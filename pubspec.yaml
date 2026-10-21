@@ -62,6 +62,7 @@ flutter:
     - assets/content/thinking/
     - assets/content/games/
     - assets/licenses/
+    - assets/google_fonts/
     - assets/illustrations/
     - assets/illustrations/islands/
     - assets/audio/

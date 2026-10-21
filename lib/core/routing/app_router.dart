@@ -19,6 +19,7 @@ import '../../features/math/presentation/math_screen.dart';
 import '../../features/onboarding/presentation/create_profile_screen.dart';
 import '../../features/onboarding/presentation/profile_select_screen.dart';
 import '../../features/onboarding/presentation/welcome_screen.dart';
+import '../../features/parent/presentation/parent_gate.dart';
 import '../../features/parent/presentation/parent_screen.dart';
 import '../../features/progress/presentation/progress_screen.dart';
 import '../../features/thinking/presentation/thinking_screen.dart';
@@ -190,7 +191,11 @@ final goRouter = GoRouter(
     ),
     GoRoute(path: '/drawing', builder: (context, state) => const DrawingCanvasScreen()),
     GoRoute(path: '/creativity/draw', builder: (context, state) => const DrawingCanvasScreen()),
-    GoRoute(path: '/parent', builder: (context, state) => const ParentScreen()),
+    GoRoute(
+      path: '/parent',
+      // Kids Category 1.3: adults only, behind a parental gate.
+      builder: (context, state) => const ParentGateGuard(child: ParentScreen()),
+    ),
   ],
 );
 
