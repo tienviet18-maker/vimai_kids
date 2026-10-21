@@ -362,7 +362,7 @@ class _KanaLessonScreenState extends ConsumerState<KanaLessonScreen> {
                     }
                     if (ok) {
                       unawaited(
-                        ref.read(gamificationServiceProvider).onCorrectAnswer(this.context),
+                        ref.read(gamificationServiceProvider).onCorrectAnswer(this.context, playSound: false),
                       );
                     } else {
                       final aiCtx = MaiContext(
