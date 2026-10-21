@@ -4192,6 +4192,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-21"
  },
+ "vi_say_0291f1de": {
+  "text": "Ghép hình cùng dạng.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
+ },
  "vi_say_029876b2": {
   "text": "Bé suy nghĩ, rồi chọn hình đúng nhé.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -5641,6 +5648,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-21"
  },
+ "vi_say_10c7f2d2": {
+  "text": "Hai hình này giống hay khác? hình thoi ô xanh dương.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
+ },
  "vi_say_10ce9434": {
   "text": "Nghe âm của chữ.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -6805,6 +6819,13 @@
  },
  "vi_say_1cf54868": {
   "text": "Số nào đứng sau 43?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
+ },
+ "vi_say_1cfe4e0f": {
+  "text": "Hình đầu tiên là gì?",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
@@ -8602,6 +8623,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_2fa22355": {
+  "text": "Chạm vào loa nhỏ để nghe từng đáp án nhé.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
+ },
  "vi_say_2fa3a574": {
   "text": "Bé có 11 bông hoa, thêm 5 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -8986,6 +9014,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-20"
+ },
+ "vi_say_33be5e30": {
+  "text": "Câu nào đúng nhỉ?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
  },
  "vi_say_33c82da8": {
   "text": "Bé có 18 cái kẹo, thêm 6 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?",
@@ -10604,6 +10639,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_4421da0e": {
+  "text": "Bé nhìn thật kỹ và nhớ nhé!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
+ },
  "vi_say_442bb364": {
   "text": "bi.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -11341,6 +11383,13 @@
  },
  "vi_say_4c020fed": {
   "text": "Bé có 6 cái kẹo, thêm 6 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
+ },
+ "vi_say_4c15eb81": {
+  "text": "Mũi tên nào chỉ xuống dưới?",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
@@ -14293,6 +14342,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_654b47a3": {
+  "text": "Hình thứ ba là gì?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
+ },
  "vi_say_6559b3d6": {
   "text": "Bé có 17 ngôi sao, thêm 1 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -14939,6 +14995,13 @@
  },
  "vi_say_6bd99a29": {
   "text": "Bé có 19 quả bóng, thêm 1 quả bóng nữa. Bé có tất cả bao nhiêu quả bóng?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
+ },
+ "vi_say_6be5c7c9": {
+  "text": "Bạn nào không phải là côn trùng?",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
@@ -18115,6 +18178,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_8ed3df9d": {
+  "text": "Hình cuối là gì?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
+ },
  "vi_say_8ed6c448": {
   "text": "Bé có 9 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -20320,6 +20390,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_a297031a": {
+  "text": "nhào lộn.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
+ },
  "vi_say_a2b74c7b": {
   "text": "Con mực sống dưới biển, không giống các bạn kia.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -20469,6 +20546,13 @@
  },
  "vi_say_a3c518d4": {
   "text": "Bé có 3 ngôi sao, thêm 2 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
+ },
+ "vi_say_a3c8004d": {
+  "text": "Bạn nào không phải là chim?",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
@@ -21341,6 +21425,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
+ },
+ "vi_say_abc39498": {
+  "text": "Mũi tên nào chỉ sang phải?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
  },
  "vi_say_abcb32b5": {
   "text": "10 cộng 9 bằng mấy.",
@@ -24282,6 +24373,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_c9e6a343": {
+  "text": "Hình đặc, hình rỗng.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
+ },
  "vi_say_c9e9fe5a": {
   "text": "Kem ốc quế.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -25255,6 +25353,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_d45c185f": {
+  "text": "Buồn ngủ thì bé nên làm gì?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
+ },
  "vi_say_d4688c79": {
   "text": "Bé có 18 cái bánh, thêm 10 cái bánh nữa. Bé có tất cả bao nhiêu cái bánh?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -25850,6 +25955,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_dbf0fc1e": {
+  "text": "Hình thứ hai là gì?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
+ },
  "vi_say_dc056cbf": {
   "text": "Bé có 10 bông hoa, thêm 10 bông hoa nữa. Bé có tất cả bao nhiêu bông hoa?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -26347,8 +26459,22 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-21"
  },
+ "vi_say_e02dc14a": {
+  "text": "Muốn đọc truyện thì cần gì?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
+ },
  "vi_say_e036a11b": {
   "text": "Bé có 4 ngôi sao, thêm 8 ngôi sao nữa. Bé có tất cả bao nhiêu ngôi sao?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
+ },
+ "vi_say_e04632e7": {
+  "text": "Hình đầu là gì?",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
@@ -28111,6 +28237,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_ef76fe6f": {
+  "text": "viên kẹo.",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
+ },
  "vi_say_ef777e24": {
   "text": "Số nào đứng trước 20?",
   "voice": "vi-VN-HoaiMyNeural",
@@ -29686,6 +29819,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_feaf7983": {
+  "text": "Trời nắng thì trên trời có gì?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
+ },
  "vi_say_feb98215": {
   "text": "6 cộng 8 bằng mấy.",
   "voice": "vi-VN-HoaiMyNeural",
@@ -29727,6 +29867,13 @@
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-20"
+ },
+ "vi_say_ff2a6b30": {
+  "text": "Hình ở giữa là gì?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
  },
  "vi_say_ff3032d5": {
   "text": "Chữ R.",
@@ -29772,6 +29919,13 @@
  },
  "vi_say_ff963653": {
   "text": "Bé có 20 cái kẹo, thêm 4 cái kẹo nữa. Bé có tất cả bao nhiêu cái kẹo?",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
+ },
+ "vi_say_ffac0940": {
+  "text": "Mũi tên nào chỉ lên trên?",
   "voice": "vi-VN-HoaiMyNeural",
   "rate": "-10%",
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
