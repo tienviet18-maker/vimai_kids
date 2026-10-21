@@ -36,8 +36,12 @@ class CatchKanaGame extends ConsumerStatefulWidget {
 
 class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTickerProviderStateMixin {
   final _random = Random();
-  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 500));
+  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 900));
   late CatchKanaRound _round;
+  /// The round after this one, picked on a right answer so Mai can say its
+  /// letter right after the praise instead of cutting the praise off.
+  CatchKanaRound? _upcoming;
+  final _recent = <String>[];
   List<_Falling> _items = [];
   Size _board = Size.zero;
   Ticker? _ticker;
@@ -92,10 +96,29 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
     }
   }
 
+  /// The clip that says [kana]: Japanese kana have their own clip, the
+  /// Vietnamese letters use the letter-name clips (v_a, v_aw, …).
+  String _clipFor(KanaItem kana) => widget.alphabet == CatchAlphabet.vietnamese
+      ? AudioService.getAudioIdForLetter(kana.character)
+      : kana.audioId;
+
+  /// A new round whose target was not one of the last few, so the same
+  /// letter does not come back again and again.
+  CatchKanaRound _generate() {
+    final pool = _pool();
+    var next = CatchKanaRound.generate(pool: pool, random: _random);
+    for (var guard = 0; guard < 12 && _recent.contains(next.target.id); guard++) {
+      next = CatchKanaRound.generate(pool: pool, random: _random);
+    }
+    _recent.add(next.target.id);
+    if (_recent.length > 4) _recent.removeAt(0);
+    return next;
+  }
+
   @override
   void initState() {
     super.initState();
-    _round = CatchKanaRound.generate(pool: _pool(), random: _random);
+    _round = _generate();
     _ticker = createTicker(_onTick);
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (!mounted) return;
@@ -105,10 +128,22 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
       _audio?.bgmEnabled = profile?.bgmEnabled ?? true;
       _audio?.startGameBgm();
       unawaited(
-        _audio?.speak([KidGuide.gameCatchKana], trailIds: [_round.target.audioId], fallbackId: 'sys_game_catch') ??
+        _audio?.speak([KidGuide.gameCatchKana], trailIds: [_clipFor(_round.target)], fallbackId: 'sys_game_catch') ??
             Future.value(),
       );
     });
+  }
+
+  /// Going straight from one alphabet's catch game to another reuses this
+  /// State; start over so katakana letters never linger in a hiragana game.
+  @override
+  void didUpdateWidget(covariant CatchKanaGame oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (oldWidget.alphabet != widget.alphabet) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted) _restart();
+      });
+    }
   }
 
   @override
@@ -170,13 +205,14 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
     ];
   }
 
-  void _nextRound() {
-    _round = CatchKanaRound.generate(pool: _pool(), random: _random);
+  void _nextRound({bool say = true}) {
+    _round = _upcoming ?? _generate();
+    _upcoming = null;
     _shakeId = null;
     _celebrateId = null;
     _layoutLetters();
     // Mai says the kana to catch this round.
-    unawaited(ref.read(audioServiceProvider).speak(const [], trailIds: [_round.target.audioId]));
+    if (say) _sayTarget();
   }
 
   void _tap(KanaItem kana) {
@@ -206,7 +242,9 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
           _correct = false;
           _feedback = 'Thử lại nhé!';
         },
-        playSound: () => unawaited(audio.playRandomTryAgain()),
+        // "Try again" and then the letter once more, so the child remembers
+        // what to look for.
+        playSound: () => unawaited(audio.playRandomTryAgain(trailIds: [_clipFor(_round.target)])),
         sideEffects: recordMastery,
       );
       _shakeTimer?.cancel();
@@ -224,13 +262,14 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
         _correct = true;
         _feedback = 'Giỏi lắm!';
       },
+      // One sequence: the caught letter, the praise, then the next letter to
+      // find. Played separately, each clip cut the one before it.
       playSound: () {
-        if (widget.alphabet == CatchAlphabet.vietnamese) {
-          unawaited(audio.playVietnameseLetterSound(kana.character));
-        } else {
-          unawaited(audio.playJapaneseAsset(kana.audioId));
-        }
-        unawaited(audio.playRandomSuccess());
+        if (_score < _goal) _upcoming = _generate();
+        unawaited(audio.playRandomSuccess(
+          leadIds: [_clipFor(kana)],
+          trailIds: [if (_upcoming != null) _clipFor(_upcoming!.target)],
+        ));
       },
       sideEffects: recordMastery,
       isMounted: () => mounted,
@@ -242,7 +281,7 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
           _finished = true;
           _ticker?.stop();
         } else {
-          _nextRound();
+          _nextRound(say: false);
         }
       },
     );
@@ -259,6 +298,8 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
       _correct = null;
       _shakeId = null;
       _celebrateId = null;
+      _upcoming = null;
+      _recent.clear();
       _nextRound();
     });
     _lastTick = Duration.zero;
@@ -266,7 +307,7 @@ class _CatchKanaGameState extends ConsumerState<CatchKanaGame> with SingleTicker
   }
 
   void _sayTarget() {
-    unawaited(ref.read(audioServiceProvider).speak(const [], trailIds: [_round.target.audioId]));
+    unawaited(ref.read(audioServiceProvider).speak(const [], trailIds: [_clipFor(_round.target)]));
   }
 
   @override

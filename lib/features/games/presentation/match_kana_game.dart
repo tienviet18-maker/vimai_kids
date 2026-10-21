@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../core/audio/audio_service.dart';
 import '../../../core/providers.dart';
 import '../../../core/theme/app_theme.dart';
+import '../../../data/content/game_catalog.dart';
 import '../../../data/kana/hiragana_data.dart';
 import '../../../data/repositories/profile_repository.dart';
 import '../../../domain/models/kana_item.dart';
@@ -21,7 +22,7 @@ class MatchKanaGame extends ConsumerStatefulWidget {
 }
 
 class _MatchKanaGameState extends ConsumerState<MatchKanaGame> {
-  late List<String> _cards;
+  late List<KanaItem> _cards;
   final _flipped = <int>{};
   int? _first;
   int? _second;
@@ -32,7 +33,8 @@ class _MatchKanaGameState extends ConsumerState<MatchKanaGame> {
   Timer? _flipTimer;
   AudioService? _audio;
 
-  static const _pairs = 6;
+  /// Fewer cards for the youngest: 8 cards at 3–4, 12 at 5–6, 16 at 7.
+  int _pairs = 6;
 
   @override
   void dispose() {
@@ -57,8 +59,9 @@ class _MatchKanaGameState extends ConsumerState<MatchKanaGame> {
   }
 
   void _deal() {
+    _pairs = GameCatalog.pairCount(ref.read(currentProfileProvider)?.age ?? 5);
     final pool = hiraganaData.where((e) => e.kanaType == KanaType.basic).toList()..shuffle();
-    final selected = pool.take(_pairs).map((e) => e.character).toList();
+    final selected = pool.take(_pairs).toList();
     _cards = [...selected, ...selected]..shuffle();
     _flipped.clear();
     _first = null;
@@ -73,16 +76,21 @@ class _MatchKanaGameState extends ConsumerState<MatchKanaGame> {
     if (_lock || _flipped.contains(index) || _first == index || _finished) return;
     final audio = ref.read(audioServiceProvider);
     audio.sfx(Sfx.flip);
+    final a = _first;
+    final b = index;
+    final match = a != null && _cards[a].id == _cards[b].id;
     // Every card says its sound when it turns over, so the child also
-    // remembers by ear.
-    unawaited(audio.playKanaCharacter(_cards[index]));
-    if (_first == null) {
+    // remembers by ear. On a pair the praise follows that sound instead of
+    // cutting it off.
+    if (match) {
+      unawaited(audio.playRandomSuccess(leadIds: [_cards[b].audioId]));
+    } else {
+      unawaited(audio.playJapaneseAsset(_cards[b].audioId));
+    }
+    if (a == null) {
       setState(() => _first = index);
       return;
     }
-    final a = _first!;
-    final b = index;
-    final match = _cards[a] == _cards[b];
     setState(() {
       _second = b;
       _lock = true;
@@ -102,11 +110,7 @@ class _MatchKanaGameState extends ConsumerState<MatchKanaGame> {
         _second = null;
         _lock = false;
       });
-      if (match) {
-        audio.playCorrectSound();
-      } else {
-        audio.sfx(Sfx.flip);
-      }
+      if (!match) audio.sfx(Sfx.flip);
     });
   }
 
@@ -116,7 +120,7 @@ class _MatchKanaGameState extends ConsumerState<MatchKanaGame> {
   Widget build(BuildContext context) {
     final a = _first;
     final b = _second;
-    final miss = a != null && b != null && _cards[a] != _cards[b];
+    final miss = a != null && b != null && _cards[a].id != _cards[b].id;
     return GamePlayScaffold(
       title: 'Ghép đôi chữ',
       scene: GameScene.table,
@@ -142,10 +146,10 @@ class _MatchKanaGameState extends ConsumerState<MatchKanaGame> {
               open: open,
               matched: matched,
               color: AppTheme.hiraganaColor,
-              semanticLabel: open ? _cards[index] : 'Úp',
+              semanticLabel: open ? _cards[index].character : 'Úp',
               onTap: () => _tap(index),
               face: Text(
-                _cards[index],
+                _cards[index].character,
                 style: const TextStyle(fontSize: 48, fontWeight: FontWeight.w900, color: AppTheme.hiraganaColor, height: 1.1),
               ),
             ),

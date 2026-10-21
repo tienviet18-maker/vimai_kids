@@ -10,7 +10,7 @@ import 'package:mai_an_learning/features/games/presentation/widgets/game_play_sc
 
 Widget _app() {
   final notifier = CurrentProfileNotifier(ProfileRepository())
-    ..state = ChildProfile(id: 't', name: 'Lan', age: 5, avatar: 'peach', createdAt: DateTime(2026, 1, 1));
+    ..state = ChildProfile(id: 't', name: 'Lan', age: 5, avatar: 'peach', createdAt: DateTime(2026, 1, 1), settings: const {'sound': false});
   return ProviderScope(
     overrides: [
       profileRepositoryProvider.overrideWithValue(ProfileRepository()),

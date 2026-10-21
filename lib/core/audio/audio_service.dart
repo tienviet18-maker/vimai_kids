@@ -728,8 +728,10 @@ class AudioService {
   int _streak = 0;
 
   /// Bright chime now, then a varied praise from Mai; every few right answers
-  /// in a row she celebrates the streak.
-  void _cheer() {
+  /// in a row she celebrates the streak. [leadIds] are said before the praise
+  /// (the letter the child picked), [trailIds] after it (the next thing to
+  /// find), so one line never cuts another.
+  void _cheer({List<String> leadIds = const [], List<String> trailIds = const []}) {
     sfx(Sfx.correct);
     _streak++;
     final line = switch (_streak) {
@@ -740,16 +742,19 @@ class AudioService {
     };
     if (_streak == 3 || _streak == 5 || _streak == 10) sfx(Sfx.star);
     final fallback = successKeys[_random.nextInt(successKeys.length)];
-    unawaited(speak([line], fallbackId: fallback).catchError((Object _) => const AudioPlayResult.unavailable('')));
+    unawaited(speak([line], fallbackId: fallback, leadIds: leadIds, trailIds: trailIds)
+        .catchError((Object _) => const AudioPlayResult.unavailable('')));
   }
 
   /// Soft "boop" and a gentle nudge to try again; never a buzzer.
-  void _comfort() {
+  /// [trailIds] are said after the nudge (e.g. the letter to find again).
+  void _comfort({List<String> trailIds = const []}) {
     sfx(Sfx.wrong);
     _streak = 0;
     final line = KidGuide.retry[_random.nextInt(KidGuide.retry.length)];
     final fallback = tryAgainKeys[_random.nextInt(tryAgainKeys.length)];
-    unawaited(speak([line], fallbackId: fallback).catchError((Object _) => const AudioPlayResult.unavailable('')));
+    unawaited(speak([line], fallbackId: fallback, trailIds: trailIds)
+        .catchError((Object _) => const AudioPlayResult.unavailable('')));
   }
 
   /// Call from the first user gesture so Safari unlocks the Web Audio context.
@@ -1003,13 +1008,13 @@ class AudioService {
   Future<AudioPlayResult> playWrongAnswerSound() => playRandomTryAgain();
 
   // Never block UI / game loops waiting for Safari audio completion.
-  Future<AudioPlayResult> playRandomSuccess() {
-    scheduleMicrotask(_cheer);
+  Future<AudioPlayResult> playRandomSuccess({List<String> leadIds = const [], List<String> trailIds = const []}) {
+    scheduleMicrotask(() => _cheer(leadIds: leadIds, trailIds: trailIds));
     return Future.value(AudioPlayResult.ok(AudioLocalePolicy.localeFor(AudioLanguage.vietnamese)));
   }
 
-  Future<AudioPlayResult> playRandomTryAgain() {
-    scheduleMicrotask(_comfort);
+  Future<AudioPlayResult> playRandomTryAgain({List<String> trailIds = const []}) {
+    scheduleMicrotask(() => _comfort(trailIds: trailIds));
     return Future.value(AudioPlayResult.ok(AudioLocalePolicy.localeFor(AudioLanguage.vietnamese)));
   }
 
