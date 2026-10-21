@@ -129,7 +129,7 @@ class _MatchKanaGameState extends ConsumerState<MatchKanaGame> {
       complete: GameCompletePanel(score: _matches, wrong: (_wrong - _pairs).clamp(0, 99), total: _pairs, onRetry: () => setState(_deal)),
       instruction: GameTargetBanner(
         label: 'Tìm hai chữ giống nhau',
-        glyph: 'あ',
+        glyph: '◆',
         color: AppTheme.hiraganaColor,
         onTap: _sayHowTo,
       ),

@@ -652,7 +652,7 @@ class GameCompletePanel extends StatelessWidget {
     return SpeakOnOpen(
       lines: const [KidGuide.gameWin],
       effect: Sfx.win,
-      delay: const Duration(milliseconds: 1500),
+      delay: const Duration(milliseconds: 3200),
       child: _WinPanel(
         stars: starsFor(score, wrong),
         score: score,
