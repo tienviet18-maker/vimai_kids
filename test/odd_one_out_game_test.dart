@@ -80,6 +80,20 @@ void main() {
       }
     });
 
+    test('no picture beside the answer could also be the answer', () {
+      for (var seed = 0; seed < 3000; seed++) {
+        final r = OddOneOutRound.generate(_catalog, level: OddOneOutRound.maxLevel, random: Random(seed));
+        final others = r.cards.where((c) => !r.isOdd(c));
+        if (r.majority.id == 'veggies' && r.oddCategory.id == 'fruits') {
+          // A tomato or cucumber next to an apple reads as a second fruit.
+          expect(others.where((c) => c.name.startsWith('quả')), isEmpty, reason: '${r.cards.map((c) => c.name)}');
+        }
+        if (r.majority.id == 'pets' && r.oddCategory.id == 'sea') {
+          expect(const {'fish', 'turtle'}, isNot(contains(r.odd.id)));
+        }
+      }
+    });
+
     test('easy levels never mix close topics', () {
       const animals = {'pets', 'wild', 'sea', 'bugs_birds'};
       for (final (a, b) in OddOneOutRound.pairsFor(_catalog, 0)) {
@@ -124,19 +138,26 @@ void main() {
         await tester.tap(find.byKey(wrong.key!));
         await tester.pump();
         expect(find.text('Thử lại nhé!'), findsOneWidget);
-        await tester.pump(const Duration(seconds: 2));
+        // The name waits for Mai's retry line instead of cutting it off.
+        await tester.pump(const Duration(milliseconds: 2500));
+        expect(audio.said.last, isNot(wrong.item.name));
+        await tester.pump(const Duration(milliseconds: 600));
         expect(audio.said.last, wrong.item.name);
 
-        // The right one: Mai explains why it does not belong.
+        // The right one: Mai explains why it does not belong, straight away
+        // (no praise line for it to cut off).
         await tester.tap(find.byKey(odd.key!));
         await tester.pump();
         expect(find.text('Đúng rồi!'), findsOneWidget);
-        await tester.pump(const Duration(seconds: 2));
         expect(audio.said.last, endsWith('không giống các bạn kia.'));
         expect(audio.said.last, startsWith(odd.item.name[0].toUpperCase()));
+        final explanation = audio.said.last;
+        // Her ~4 s explanation is not cut by the next question.
+        await tester.pump(const Duration(milliseconds: 4400));
+        expect(audio.said.last, explanation);
 
         // Next round arrives with a new spoken question.
-        await tester.pump(const Duration(seconds: 3));
+        await tester.pump(const Duration(milliseconds: 600));
         expect(tester.takeException(), isNull);
         final next = tester.widget<GameTargetBanner>(find.byType(GameTargetBanner));
         expect(audio.said.last, next.label);

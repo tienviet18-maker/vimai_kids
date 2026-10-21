@@ -65,7 +65,7 @@ class OddOneOutRound {
     for (final (majority, oddCat) in pairs) {
       final majorityPool = [
         for (final item in majority.items)
-          if (canBeMajority(majority.id, item)) item,
+          if (canBeMajority(majority.id, item) && _pairAllowsMajority(majority.id, oddCat.id, item)) item,
       ]..shuffle(rnd);
       final oddPool = [
         for (final item in oddCat.items)
@@ -101,6 +101,16 @@ class OddOneOutRound {
   static bool _pairAllowsOdd(String majority, String oddCat, ExploreItem item) {
     // "Quả cà chua" looks like a fruit to a child: keep "quả …" vegetables out of fruit rounds.
     if (majority == 'fruits' && oddCat == 'veggies' && item.name.startsWith('quả')) return false;
+    // Fish and turtles are kept at home too: never the "not a pet" answer.
+    if (majority == 'pets' && oddCat == 'sea' && _petLikeSea.contains(item.id)) return false;
+    return true;
+  }
+
+  static bool _pairAllowsMajority(String majority, String oddCat, ExploreItem item) {
+    // "Cái nào không phải là rau củ?" with an apple as the answer: a tomato or
+    // cucumber beside it would look like a second fruit, so only clear
+    // vegetables stay on the table.
+    if (majority == 'veggies' && oddCat == 'fruits' && item.name.startsWith('quả')) return false;
     return true;
   }
 }
@@ -200,6 +210,9 @@ const _majorityOnlyOut = {
   'play/violin',
   'play/bell',
 };
+
+/// Sea animals a child may well have at home (goldfish bowl, pet turtle).
+const _petLikeSea = {'fish', 'turtle'};
 
 const _instruments = {'drum', 'guitar', 'piano', 'trumpet', 'violin', 'bell'};
 

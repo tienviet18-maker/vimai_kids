@@ -127,8 +127,17 @@ class MelodyMemorySession {
     // Swap out notes of a bell that just left.
     final allowed = bells.toSet();
     final fixed = <int>[];
-    for (final n in shorter) {
-      fixed.add(allowed.contains(n) ? n : _nextNote(fixed));
+    for (var i = 0; i < shorter.length; i++) {
+      final n = shorter[i];
+      if (allowed.contains(n)) {
+        fixed.add(n);
+        continue;
+      }
+      // Differ from the note before *and* the one after, so the swap never
+      // makes the same bar ring twice in a row.
+      final after = i + 1 < shorter.length && allowed.contains(shorter[i + 1]) ? shorter[i + 1] : null;
+      final options = bells.where((b) => (fixed.isEmpty || b != fixed.last) && b != after).toList();
+      fixed.add(options.isEmpty ? _nextNote(fixed) : options[_random.nextInt(options.length)]);
     }
     sequence = fixed;
     return MelodyMiss.shortened;

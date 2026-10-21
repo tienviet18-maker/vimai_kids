@@ -61,11 +61,13 @@ class _OddOneOutPlay extends ConsumerStatefulWidget {
 }
 
 class _OddOneOutPlayState extends ConsumerState<_OddOneOutPlay> {
-  /// Long enough for the chime, Mai's praise and her "why" before the next round.
+  /// Long enough for Mai's "why" (the longest clip's speech ends at ~4 s)
+  /// before the next question cuts in.
   static const _solvedHold = Duration(milliseconds: 4600);
 
-  /// Mai's praise/retry voice plays first; her own line follows after it.
-  static const _afterFeedbackVoice = Duration(milliseconds: 1500);
+  /// Mai's retry line (speech up to ~3.8 s) plays first; the tapped picture's
+  /// name follows after it instead of cutting it off mid-sentence.
+  static const _afterRetryVoice = Duration(milliseconds: 3000);
 
   final _answerTap = WebKitAnswerTap();
   late OddOneOutRound _round;
@@ -116,7 +118,7 @@ class _OddOneOutPlayState extends ConsumerState<_OddOneOutPlay> {
 
   void _sayLater(String line) {
     _sayTimer?.cancel();
-    _sayTimer = Timer(_afterFeedbackVoice, () {
+    _sayTimer = Timer(_afterRetryVoice, () {
       if (mounted) unawaited(_voice.speak([line]));
     });
   }
@@ -210,8 +212,12 @@ class _OddOneOutPlayState extends ConsumerState<_OddOneOutPlay> {
         }
       },
       playSound: () {
-        audio.playCorrectSound();
-        _sayLater(explanation);
+        // Chime, then Mai's "why" right away: a praise line first would be
+        // cut off by it (one voice player), and praise + why would hold every
+        // round for ~7 s. The explanation is the praise here.
+        _sayTimer?.cancel();
+        audio.sfx(Sfx.correct);
+        unawaited(audio.speak([explanation]));
       },
       sideEffects: () => _recordMastery(item, true),
       isMounted: () => mounted,

@@ -20,6 +20,7 @@ class _FakeAudio extends AudioService {
   final bells = <int>[];
   int correct = 0;
   int wrong = 0;
+  final effects = <Sfx>[];
 
   @override
   Future<AudioPlayResult> speak(
@@ -36,7 +37,7 @@ class _FakeAudio extends AudioService {
   void bell(int index) => bells.add(index);
 
   @override
-  void sfx(Sfx effect) {}
+  void sfx(Sfx effect) => effects.add(effect);
 
   @override
   void playCorrectSound() => correct++;
@@ -76,15 +77,16 @@ Future<void> _setSize(WidgetTester tester, Size size) async {
   addTearDown(tester.view.reset);
 }
 
-int _turns(_FakeAudio a) => a.said.where((l) => l == KidGuide.gameMelodyYourTurn).length;
+bool _yourTurn(WidgetTester tester) =>
+    tester.widget<GameTargetBanner>(find.byType(GameTargetBanner)).label == 'Đến lượt bé!';
 
 /// Pumps until Mai hands the child turn number [turn]; returns the melody
 /// she rang meanwhile.
 Future<List<int>> _waitForTurn(WidgetTester tester, _FakeAudio audio, int turn) async {
-  for (var i = 0; i < 120 && _turns(audio) < turn; i++) {
+  for (var i = 0; i < 120 && !_yourTurn(tester); i++) {
     await tester.pump(const Duration(milliseconds: 100));
   }
-  expect(_turns(audio), turn, reason: 'Mai should hand over turn $turn');
+  expect(_yourTurn(tester), isTrue, reason: 'Mai should hand over turn $turn');
   final melody = List.of(audio.bells);
   audio.bells.clear();
   return melody;
@@ -151,6 +153,22 @@ void main() {
       expect(s.mistakes, 2);
     });
 
+    test('a shortened melody never rings the same bar twice in a row', () {
+      for (var seed = 0; seed < 400; seed++) {
+        // Long enough that the melody is a fresh one over all six bells,
+        // so the bell that leaves can sit in the middle of it.
+        final s = MelodyMemorySession(age: 7, random: Random(seed));
+        for (var i = 0; i < 12; i++) {
+          s.completeMelody();
+        }
+        s.miss();
+        s.miss();
+        for (var i = 1; i < s.sequence.length; i++) {
+          expect(s.sequence[i], isNot(s.sequence[i - 1]), reason: 'seed $seed ${s.sequence}');
+        }
+      }
+    });
+
     test('goal follows the age-based round count', () {
       expect(MelodyMemorySession(age: 3).goal, 4);
       expect(MelodyMemorySession(age: 5).goal, 6);
@@ -200,11 +218,35 @@ void main() {
     final wrongBell = MelodyMemorySession.bellSets[3]!.firstWhere((b) => b != melody.first);
     await tester.tap(find.text(melodyBars[wrongBell].animal));
     await tester.pump(const Duration(milliseconds: 100));
-    expect(audio.wrong, 1);
+    // A soft boop and "Bé nghe Mai gõ nhé!" at once; the melody waits for her.
+    expect(audio.effects, contains(Sfx.wrong));
+    expect(audio.said.last, KidGuide.gameMelodyListen);
     expect(audio.correct, 0);
     audio.bells.clear();
+    await tester.pump(const Duration(milliseconds: 1800));
+    expect(audio.bells, isEmpty, reason: 'no bell over Mai\'s line');
     final replayed = await _waitForTurn(tester, audio, 2);
     expect(replayed, melody, reason: 'first slip replays the same melody');
+    expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('praise is not cut off, and "your turn" is said once', (tester) async {
+    const size = Size(390, 844);
+    await _setSize(tester, size);
+    final audio = _FakeAudio();
+    await tester.pumpWidget(_app(size: size, audio: audio, age: 5));
+    await tester.pump();
+    var melody = await _waitForTurn(tester, audio, 1);
+    await _tapMelody(tester, audio, melody);
+    expect(audio.correct, 1);
+    final saidAtPraise = audio.said.length;
+    await tester.pump(const Duration(milliseconds: 2800));
+    expect(audio.said.length, saidAtPraise, reason: 'nothing said over the praise line');
+    expect(audio.bells, isEmpty, reason: 'no bell over the praise line');
+    melody = await _waitForTurn(tester, audio, 2);
+    await _tapMelody(tester, audio, melody);
+    await _waitForTurn(tester, audio, 3);
+    expect(audio.said.where((l) => l == KidGuide.gameMelodyYourTurn), hasLength(1));
     expect(tester.takeException(), isNull);
   });
 

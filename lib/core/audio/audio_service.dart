@@ -685,6 +685,10 @@ class AudioService {
 
   void playWrongSound() => unawaited(playRandomTryAgain());
 
+  /// For a miss answered with the game's own line instead of [playWrongSound]:
+  /// the next praise must not count a "3 in a row" across it.
+  void resetPraiseStreak() => _streak = 0;
+
   // ---------------------------------------------------------------- effects
 
   bool sfxEnabled = true;
