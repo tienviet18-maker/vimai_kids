@@ -311,6 +311,16 @@ void main() {
     }
   });
 
+  test('every word-problem story the generator tells is in the voiced list', () {
+    final all = MathQuestionGenerator.allWordProblemStories().toSet();
+    expect(all.length, 1000);
+    final gen = MathQuestionGenerator(random: Random(12));
+    for (var i = 0; i < 5000; i++) {
+      final q = gen.generateWordProblem(3 + i % 5);
+      expect(all, contains(q.instruction));
+    }
+  });
+
   test('numberWord says Vietnamese numbers', () {
     expect(MathQuestionGenerator.numberWord(7), 'bảy');
     expect(MathQuestionGenerator.numberWord(10), 'mười');
