@@ -15854,6 +15854,13 @@
   "source": "synthetic TTS (edge-tts neural voice), not a human recording",
   "date": "2026-10-07"
  },
+ "vi_say_a78224c6": {
+  "text": "Bé xếp số từ nhỏ đến lớn lên toa tàu nhé!",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "-10%",
+  "source": "synthetic TTS (edge-tts neural voice), not a human recording",
+  "date": "2026-10-21"
+ },
  "vi_say_a7a443dc": {
   "text": "Cầu trượt là đồ chơi, không giống các bạn kia.",
   "voice": "vi-VN-HoaiMyNeural",
