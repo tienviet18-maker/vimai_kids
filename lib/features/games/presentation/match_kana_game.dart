@@ -26,6 +26,7 @@ class _MatchKanaGameState extends ConsumerState<MatchKanaGame> {
   int? _first;
   int? _second;
   int _matches = 0;
+  int _wrong = 0;
   bool _lock = false;
   bool _finished = false;
   Timer? _flipTimer;
@@ -63,26 +64,33 @@ class _MatchKanaGameState extends ConsumerState<MatchKanaGame> {
     _first = null;
     _second = null;
     _matches = 0;
+    _wrong = 0;
     _lock = false;
     _finished = false;
   }
 
   void _tap(int index) {
     if (_lock || _flipped.contains(index) || _first == index || _finished) return;
-    ref.read(audioServiceProvider).sfx(Sfx.flip);
-    setState(() {
-      if (_first == null) {
-        _first = index;
-        return;
-      }
-      _second = index;
-      _lock = true;
-    });
+    final audio = ref.read(audioServiceProvider);
+    audio.sfx(Sfx.flip);
+    // Every card says its sound when it turns over, so the child also
+    // remembers by ear.
+    unawaited(audio.playKanaCharacter(_cards[index]));
+    if (_first == null) {
+      setState(() => _first = index);
+      return;
+    }
     final a = _first!;
     final b = index;
     final match = _cards[a] == _cards[b];
+    setState(() {
+      _second = b;
+      _lock = true;
+      if (!match) _wrong++;
+    });
     _flipTimer?.cancel();
-    _flipTimer = Timer(Duration(milliseconds: match ? 280 : 520), () {
+    // A miss stays open long enough to remember both cards, then turns back.
+    _flipTimer = Timer(Duration(milliseconds: match ? 700 : 1400), () {
       if (!mounted) return;
       setState(() {
         if (match) {
@@ -94,6 +102,11 @@ class _MatchKanaGameState extends ConsumerState<MatchKanaGame> {
         _second = null;
         _lock = false;
       });
+      if (match) {
+        audio.playCorrectSound();
+      } else {
+        audio.sfx(Sfx.flip);
+      }
     });
   }
 
@@ -109,7 +122,7 @@ class _MatchKanaGameState extends ConsumerState<MatchKanaGame> {
       scene: GameScene.table,
       finished: _finished,
       correct: miss ? false : null,
-      complete: GameCompletePanel(score: _matches, wrong: 0, total: _pairs, onRetry: () => setState(_deal)),
+      complete: GameCompletePanel(score: _matches, wrong: (_wrong - _pairs).clamp(0, 99), total: _pairs, onRetry: () => setState(_deal)),
       instruction: GameTargetBanner(
         label: 'Tìm hai chữ giống nhau',
         glyph: 'あ',
