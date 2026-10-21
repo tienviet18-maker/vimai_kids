@@ -10,7 +10,6 @@ import '../../../core/theme/vimai_tokens.dart';
 import '../../../data/content/game_catalog.dart';
 import '../../../data/repositories/profile_repository.dart';
 import '../../shared/widgets/chunky_button.dart';
-import 'widgets/game_fx.dart';
 import '../logic/final_cheer.dart';
 import 'widgets/game_play_scaffold.dart';
 import '../../../core/audio/kid_guide.dart';
@@ -29,6 +28,8 @@ class _FindSimilarGameState extends ConsumerState<FindSimilarGame> {
   int? _first;
   int? _second;
   int _matches = 0;
+  /// Pairs that did not match, for the win panel's tally.
+  int _wrong = 0;
   int _rounds = 0;
   int _pairCount = 4;
   bool _lock = false;
@@ -67,6 +68,7 @@ class _FindSimilarGameState extends ConsumerState<FindSimilarGame> {
     _first = null;
     _second = null;
     _matches = 0;
+    _wrong = 0;
     _lock = false;
     _handDone = false;
   }
@@ -92,7 +94,10 @@ class _FindSimilarGameState extends ConsumerState<FindSimilarGame> {
     final match = _cards[a] == _cards[b];
     // "Thử lại nhé!" shows the moment a wrong pair opens; Mai says it then
     // too, not a second later as the cards turn back.
-    if (!match) unawaited(ref.read(audioServiceProvider).playRandomTryAgain());
+    if (!match) {
+      _wrong++;
+      unawaited(ref.read(audioServiceProvider).playRandomTryAgain());
+    }
     _flipTimer?.cancel();
     _flipTimer = Timer(Duration(milliseconds: match ? 350 : 1000), () {
       if (!mounted) return;
@@ -144,6 +149,16 @@ class _FindSimilarGameState extends ConsumerState<FindSimilarGame> {
       title: 'Tìm hình giống nhau',
       scene: GameScene.table,
       correct: miss ? false : (_handDone ? true : null),
+      // The same win panel as every other game: stars, Mai's "Bé thắng rồi!"
+      // and "Chơi tiếp" (it used to stop on a bare "Ván mới" button that
+      // covered the last row of cards and said nothing).
+      finished: _handDone,
+      complete: GameCompletePanel(
+        score: _pairCount,
+        wrong: _wrong,
+        total: _pairCount,
+        onRetry: () => setState(_deal),
+      ),
       instruction: GameTargetBanner(
         label: 'Tìm hai hình giống nhau',
         glyph: '◆',
@@ -176,42 +191,6 @@ class _FindSimilarGameState extends ConsumerState<FindSimilarGame> {
               },
             ),
           ),
-          if (_handDone)
-            Positioned.fill(
-              child: Stack(
-                children: [
-                  const ConfettiRain(count: 50),
-                  Align(
-                    alignment: const Alignment(0, 0.85),
-                    child: TweenAnimationBuilder<double>(
-                      tween: Tween(begin: 0.4, end: 1),
-                      duration: VimaiMotion.of(context, const Duration(milliseconds: 600)),
-                      curve: Curves.elasticOut,
-                      builder: (context, v, child) => Transform.scale(scale: v, child: child),
-                      child: SizedBox(
-                        width: 260,
-                        height: 76,
-                        child: ChunkyButton(
-                          color: VimaiColor.correct,
-                          depth: 7,
-                          radius: 28,
-                          semanticLabel: 'Ván mới',
-                          onTap: () => setState(_deal),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              const Icon(Icons.play_arrow_rounded, color: Colors.white, size: 40),
-                              const SizedBox(width: 6),
-                              Text('Ván mới', style: VimaiType.display.copyWith(color: Colors.white, fontSize: 28, height: 1)),
-                            ],
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-            ),
         ],
       ),
     );

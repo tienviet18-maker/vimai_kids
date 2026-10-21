@@ -13,6 +13,7 @@ import 'package:mai_an_learning/data/repositories/mastery_repository.dart';
 import 'package:mai_an_learning/data/repositories/profile_repository.dart';
 import 'package:mai_an_learning/domain/models/child_profile.dart';
 import 'package:mai_an_learning/features/games/presentation/catch_kana_game.dart';
+import 'package:mai_an_learning/features/games/presentation/find_similar_game.dart';
 import 'package:mai_an_learning/features/games/presentation/listen_kana_game.dart';
 import 'package:mai_an_learning/features/games/presentation/match_kana_game.dart';
 import 'package:mai_an_learning/features/games/presentation/widgets/game_play_scaffold.dart';
@@ -273,6 +274,44 @@ void main() {
     expect(find.byType(GameCompletePanel), findsOneWidget);
     expect(audio.said.last.lines, [KidGuide.gameWin]);
     expect(audio.said.where((s) => s.lines.any(KidGuide.praise.contains)), isEmpty);
+    await tester.pumpWidget(const SizedBox());
+  });
+
+  testWidgets('Find similar ends on the win panel with Mai\'s win line, and "Chơi tiếp" deals again', (tester) async {
+    _phone(tester);
+    final audio = _FakeAudio();
+    await tester.pumpWidget(_app(const FindSimilarGame(), audio, age: 3));
+    await _pumpFor(tester, 300);
+    String face(int i) => (tester.widget<GameFlipCard>(find.byType(GameFlipCard).at(i)).face as Text).data!;
+    final n = tester.widgetList(find.byType(GameFlipCard)).length;
+    expect(n, 8);
+    final faces = [for (var i = 0; i < n; i++) face(i)];
+    // One wrong pair first.
+    final other = faces.indexWhere((f) => f != faces[0]);
+    await tester.tap(find.byType(GameFlipCard).at(0));
+    await tester.pump();
+    await tester.tap(find.byType(GameFlipCard).at(other));
+    await _pumpFor(tester, 1500);
+    final done = <int>{};
+    for (var i = 0; i < n; i++) {
+      if (done.contains(i)) continue;
+      final j = [for (var k = i + 1; k < n; k++) k].firstWhere((k) => faces[k] == faces[i]);
+      done.addAll([i, j]);
+      await tester.tap(find.byType(GameFlipCard).at(i));
+      await tester.pump();
+      await tester.tap(find.byType(GameFlipCard).at(j));
+      await _pumpFor(tester, 800);
+    }
+    final panel = tester.widget<GameCompletePanel>(find.byType(GameCompletePanel));
+    expect(panel.score, 4);
+    expect(panel.wrong, 1);
+    expect(find.text('Ván mới'), findsNothing);
+    await _pumpFor(tester, 3600);
+    expect(audio.said.last.lines, [KidGuide.gameWin]);
+    await tester.tap(find.text('Chơi tiếp'));
+    await _pumpFor(tester, 600);
+    expect(find.byType(GameCompletePanel), findsNothing);
+    expect(tester.widget<GameProgressBar>(find.byType(GameProgressBar)).current, 0);
     await tester.pumpWidget(const SizedBox());
   });
 }
