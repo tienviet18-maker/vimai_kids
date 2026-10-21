@@ -61,9 +61,12 @@ class KidGuide {
   static const gameListenKana = 'Bé nghe thật kỹ, rồi chạm vào chữ Mai vừa đọc nhé.';
   static const gameMatchKana = 'Bé lật thẻ và tìm hai thẻ giống nhau nhé.';
   static const gameFeedAnimal = 'Bạn gấu trúc đói bụng rồi! Bé chọn đúng đáp án để cho bạn ăn nhé.';
-  static const gameFindSimilar = 'Bé tìm hình giống với hình mẫu nhé.';
+  // A memory game with no model picture: same "turn cards, find pairs" ask
+  // (and recorded clip) as Ghép đôi chữ.
+  static const gameFindSimilar = gameMatchKana;
   static const gameMathRocket = 'Tính đúng để phóng tên lửa lên vũ trụ nào!';
-  static const gameNumberTrain = 'Bé xếp số còn thiếu vào toa tàu nhé!';
+  // The child loads every number in order, not one "missing" number.
+  static const gameNumberTrain = 'Bé xếp số từ nhỏ đến lớn lên toa tàu nhé!';
   static const gameWin = 'Bé thắng rồi! Giỏi quá!';
 
   // Game: Cái nào khác nhóm? (odd-one-out). One hand-written question per

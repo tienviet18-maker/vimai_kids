@@ -4,6 +4,7 @@ import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../core/audio/audio_service.dart';
 import '../../../core/game/webkit_answer_tap.dart';
 import '../../../core/providers.dart';
 import '../../../core/theme/app_theme.dart';
@@ -11,6 +12,7 @@ import '../../../core/theme/vimai_tokens.dart';
 import '../../../data/content/game_catalog.dart';
 import '../../../data/content/math_generator.dart';
 import '../../../data/repositories/profile_repository.dart';
+import '../../../domain/content/content_item.dart';
 import '../../shared/widgets/choice_grid.dart';
 import '../../shared/widgets/chunky_button.dart';
 import 'widgets/game_art.dart';
@@ -26,8 +28,14 @@ class MathRocketGame extends ConsumerStatefulWidget {
 
 class _MathRocketGameState extends ConsumerState<MathRocketGame> {
   final _generator = MathQuestionGenerator();
-  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 500));
+  /// Long enough for the chime and Mai's whole praise line before the next
+  /// sum is read out (a shorter hold cut the praise off mid-word).
+  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 1800));
   late var _item = _generator.generateAddition(10);
+
+  /// Wrong answers already tried on this sum: tapping one again is not
+  /// counted twice against the child's stars.
+  final _triedWrong = <String>{};
   int _score = 0;
   int _wrong = 0;
   bool _finished = false;
@@ -43,13 +51,13 @@ class _MathRocketGameState extends ConsumerState<MathRocketGame> {
       if (!mounted) return;
       final age = ref.read(currentProfileProvider)?.age ?? 5;
       final skill = MathQuestionGenerator.skillForAge(age, addition: true);
-      setState(() => _item = _generator.generateBySkill(skill, age: age));
+      setState(() => _item = _generate(skill, age));
       final audio = ref.read(audioServiceProvider);
       final profile = ref.read(currentProfileProvider);
       audio.soundEnabled = profile?.soundEnabled ?? true;
       audio.bgmEnabled = profile?.bgmEnabled ?? true;
       audio.startGameBgm();
-      unawaited(audio.speak([KidGuide.gameMathRocket, _item.question], fallbackId: 'sys_math_calc_add'));
+      unawaited(audio.speak([KidGuide.gameMathRocket, ..._spokenQuestion()], fallbackId: 'sys_math_calc_add'));
     });
   }
 
@@ -59,11 +67,31 @@ class _MathRocketGameState extends ConsumerState<MathRocketGame> {
     super.dispose();
   }
 
+  /// A picture sum with an empty side (" + 🍎🍎") shows nothing to count on
+  /// one side, which puzzles a 3–4 year old, so such sums are skipped.
+  ContentItem _generate(String skill, int age) {
+    var item = _generator.generateBySkill(skill, age: age);
+    for (var i = 0; i < 20 && _hasEmptySide(item.question ?? ''); i++) {
+      item = _generator.generateBySkill(skill, age: age);
+    }
+    return item;
+  }
+
+  static bool _hasEmptySide(String q) => q.startsWith(' ') || q.endsWith(' ');
+
+  /// What Mai says for the sum: "3 + 4 = ?" is read as numbers; a picture
+  /// sum (🍎🍎 + 🍎) has no words, so she says its instruction ("Đếm rồi cộng").
+  List<String?> _spokenQuestion() {
+    final q = _item.question ?? '';
+    return [AudioService.mathClips(q) != null ? q : _item.instruction];
+  }
+
   void _nextItem() {
     final age = ref.read(currentProfileProvider)?.age ?? 5;
     final skill = MathQuestionGenerator.skillForAge(age, addition: true);
-    _item = _generator.generateBySkill(skill, age: age);
-    unawaited(ref.read(audioServiceProvider).speak([_item.question]));
+    _item = _generate(skill, age);
+    _triedWrong.clear();
+    unawaited(ref.read(audioServiceProvider).speak(_spokenQuestion()));
   }
 
   void _recordMastery(bool ok) {
@@ -85,6 +113,7 @@ class _MathRocketGameState extends ConsumerState<MathRocketGame> {
     final audio = ref.read(audioServiceProvider);
 
     if (!ok) {
+      if (!_triedWrong.add(value)) return;
       _answerTap.handleWrongAnswer(
         setState: setState,
         applyImmediateUi: () {
@@ -132,7 +161,7 @@ class _MathRocketGameState extends ConsumerState<MathRocketGame> {
     });
   }
 
-  void _sayQuestion() => unawaited(ref.read(audioServiceProvider).speak([_item.question]));
+  void _sayQuestion() => unawaited(ref.read(audioServiceProvider).speak(_spokenQuestion()));
 
   @override
   Widget build(BuildContext context) {

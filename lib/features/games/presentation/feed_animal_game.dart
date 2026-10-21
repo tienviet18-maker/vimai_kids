@@ -27,8 +27,18 @@ class FeedAnimalGame extends ConsumerStatefulWidget {
 
 class _FeedAnimalGameState extends ConsumerState<FeedAnimalGame> {
   final _generator = MathQuestionGenerator();
-  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 500));
-  late var _item = _generator.generateCounting(5);
+  /// Long enough for the panda's chomp and Mai's whole praise line before the
+  /// next question is read out (a shorter hold cut the praise off mid-word).
+  final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 1800));
+  late var _item = _nextItem();
+
+  /// The panda eats these; counting rounds with cats, cars or butterflies
+  /// (which would "hop into its mouth") are skipped.
+  static const _food = {'🍎', '🍌', '🍓', '🍇', '🍊', '🧁'};
+
+  /// Wrong answers already tried on this plate: tapping one again is not
+  /// counted twice against the child's stars.
+  final _triedWrong = <String>{};
   int _score = 0;
   int _wrong = 0;
   bool _finished = false;
@@ -42,7 +52,7 @@ class _FeedAnimalGameState extends ConsumerState<FeedAnimalGame> {
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      if (mounted) setState(() => _item = _nextItem());
+      if (!mounted) return;
       _audio = ref.read(audioServiceProvider);
       final profile = ref.read(currentProfileProvider);
       _audio?.soundEnabled = profile?.soundEnabled ?? true;
@@ -61,7 +71,12 @@ class _FeedAnimalGameState extends ConsumerState<FeedAnimalGame> {
 
   ContentItem _nextItem() {
     final age = ref.read(currentProfileProvider)?.age ?? 5;
-    return _generator.generateBySkill('counting', age: age);
+    _triedWrong.clear();
+    var item = _generator.generateBySkill('counting', age: age);
+    for (var i = 0; i < 40 && !_food.contains(item.metadata?['icon']); i++) {
+      item = _generator.generateBySkill('counting', age: age);
+    }
+    return item;
   }
 
   void _recordMastery(bool ok) {
@@ -83,6 +98,7 @@ class _FeedAnimalGameState extends ConsumerState<FeedAnimalGame> {
     final audio = ref.read(audioServiceProvider);
 
     if (!ok) {
+      if (!_triedWrong.add(value)) return;
       _answerTap.handleWrongAnswer(
         setState: setState,
         applyImmediateUi: () {

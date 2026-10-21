@@ -30,6 +30,16 @@ class _NumberTrainGameState extends ConsumerState<NumberTrainGame> {
   bool? _correct;
   int _trainLap = 0;
 
+  /// Wrong picks so far (shakes the train on each one).
+  int _misses = 0;
+
+  /// This train already had a wrong pick: it costs one mark, not one per tap.
+  bool _trainMissed = false;
+
+  /// Pending "next train" after a finished train; cancelled by "Làm lại",
+  /// "Chơi tiếp" and dispose so it never wipes a train the child started.
+  Timer? _nextTrain;
+
   int get _goal => GameCatalog.roundsForAge(ref.read(currentProfileProvider)?.age ?? 5);
 
   @override
@@ -44,7 +54,16 @@ class _NumberTrainGameState extends ConsumerState<NumberTrainGame> {
     });
   }
 
+  @override
+  void dispose() {
+    _nextTrain?.cancel();
+    super.dispose();
+  }
+
   void _reset() {
+    _nextTrain?.cancel();
+    _nextTrain = null;
+    _trainMissed = false;
     final age = ref.read(currentProfileProvider)?.age ?? 5;
     _numbers = GameCatalog.numberTrain(age, Random());
     _trainLap++;
@@ -53,40 +72,56 @@ class _NumberTrainGameState extends ConsumerState<NumberTrainGame> {
     _correct = null;
   }
 
+  /// Each box is checked as it is tapped: the right next number boards the
+  /// train (and Mai says it), a wrong one bounces back and the wagons already
+  /// filled stay, so a slip on the last box never throws away the whole train.
   void _pick(int n) {
-    if (_finished || _selected.contains(n)) return;
-    setState(() => _selected.add(n));
+    if (_finished || _nextTrain != null || _selected.contains(n)) return;
     final expected = List<int>.from(_numbers)..sort();
-    if (_selected.length != expected.length) return;
-    final ok = _selected.join() == expected.join();
-    if (ok) {
-      unawaited(ref.read(audioServiceProvider).playRandomSuccess());
+    if (_selected.length >= expected.length) return;
+    final audio = ref.read(audioServiceProvider);
+    if (n != expected[_selected.length]) {
+      unawaited(audio.playRandomTryAgain());
       setState(() {
-        _score++;
-        _correct = true;
-        _feedback = 'Giỏi lắm!';
-        if (_score >= _goal) {
-          _finished = true;
-        }
-      });
-      if (!_finished) {
-        Future<void>.delayed(const Duration(milliseconds: 650), () {
-          if (!mounted || _finished) return;
-          setState(_reset);
-        });
-      }
-    } else {
-      unawaited(ref.read(audioServiceProvider).playRandomTryAgain());
-      setState(() {
-        _wrong++;
+        if (!_trainMissed) _wrong++;
+        _trainMissed = true;
+        _misses++;
         _correct = false;
         _feedback = 'Thử lại nhé!';
-        _selected.clear();
+      });
+      return;
+    }
+    final done = _selected.length + 1 == expected.length;
+    if (!done) {
+      unawaited(audio.speak(['$n']));
+      setState(() {
+        _selected.add(n);
+        _correct = null;
+        _feedback = null;
+      });
+      return;
+    }
+    unawaited(audio.playRandomSuccess());
+    setState(() {
+      _selected.add(n);
+      _score++;
+      _correct = true;
+      _feedback = 'Giỏi lắm!';
+      if (_score >= _goal) {
+        _finished = true;
+      }
+    });
+    if (!_finished) {
+      // The train drives off while Mai praises; the next one rolls in after.
+      _nextTrain = Timer(const Duration(milliseconds: 1800), () {
+        _nextTrain = null;
+        if (!mounted || _finished) return;
+        setState(_reset);
       });
     }
   }
 
-  void _sayHowTo() => unawaited(ref.read(audioServiceProvider).speak([KidGuide.gameNumberTrain]));
+  void _sayHowTo() => unawaited(ref.read(audioServiceProvider).speak([KidGuide.gameNumberTrain], fallbackId: 'sys_math_order'));
 
   @override
   Widget build(BuildContext context) {
@@ -104,6 +139,7 @@ class _NumberTrainGameState extends ConsumerState<NumberTrainGame> {
         onRetry: () => setState(() {
           _score = 0;
           _wrong = 0;
+          _misses = 0;
           _finished = false;
           _reset();
         }),
@@ -151,7 +187,7 @@ class _NumberTrainGameState extends ConsumerState<NumberTrainGame> {
                                   duration: VimaiMotion.of(context, const Duration(milliseconds: 620)),
                                   curve: Curves.easeInCubic,
                                   child: ShakeOnChange(
-                                    trigger: _wrong == 0 ? null : _wrong,
+                                    trigger: _misses == 0 ? null : _misses,
                                     child: FittedBox(
                                       fit: BoxFit.contain,
                                       alignment: Alignment.bottomCenter,
