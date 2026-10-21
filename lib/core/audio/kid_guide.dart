@@ -81,7 +81,10 @@ class KidGuide {
   static const oddOutPets = 'Bạn nào không phải là con vật nuôi?';
   static const oddOutWild = 'Bạn nào không phải là động vật hoang dã?';
   static const oddOutSea = 'Bạn nào không sống dưới biển?';
-  static const oddOutBugsBirds = 'Bạn nào không phải côn trùng, cũng không phải chim?';
+  // Insects and birds share one explore topic; a round uses only one kind
+  // so the question has a single "không" (never "neither … nor …").
+  static const oddOutBirds = 'Bạn nào không phải là chim?';
+  static const oddOutBugs = 'Bạn nào không phải là côn trùng?';
   static const oddOutFruits = 'Cái nào không phải là hoa quả?';
   static const oddOutVeggies = 'Cái nào không phải là rau củ?';
   static const oddOutVehicles = 'Cái nào không phải là xe cộ?';
@@ -94,7 +97,8 @@ class KidGuide {
     'pets': oddOutPets,
     'wild': oddOutWild,
     'sea': oddOutSea,
-    'bugs_birds': oddOutBugsBirds,
+    // Birds-only rounds; insect-only rounds ask [oddOutBugs] instead.
+    'bugs_birds': oddOutBirds,
     'fruits': oddOutFruits,
     'veggies': oddOutVeggies,
     'vehicles': oddOutVehicles,
@@ -180,7 +184,7 @@ class KidGuide {
     gameNumberTrain, gameWin,
     drawHowTo, colorHowTo, musicHowTo, puzzleHowTo, saved,
     // Cái nào khác nhóm?
-    gameOddOneOut, oddOutPets, oddOutWild, oddOutSea, oddOutBugsBirds, oddOutFruits, oddOutVeggies,
+    gameOddOneOut, oddOutPets, oddOutWild, oddOutSea, oddOutBirds, oddOutBugs, oddOutFruits, oddOutVeggies,
     oddOutVehicles, oddOutHome, oddOutBody, oddOutNature, oddOutJobs, oddOutPlay,
     ...firstSoundLines,
     ...gameMelodyAll,

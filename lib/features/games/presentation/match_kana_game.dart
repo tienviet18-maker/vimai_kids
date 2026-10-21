@@ -11,6 +11,7 @@ import '../../../data/kana/hiragana_data.dart';
 import '../../../data/repositories/profile_repository.dart';
 import '../../../domain/models/kana_item.dart';
 import '../../shared/widgets/chunky_button.dart';
+import '../logic/final_cheer.dart';
 import 'widgets/game_play_scaffold.dart';
 import '../../../core/audio/kid_guide.dart';
 
@@ -82,7 +83,9 @@ class _MatchKanaGameState extends ConsumerState<MatchKanaGame> {
     // Every card says its sound when it turns over, so the child also
     // remembers by ear. On a pair the praise follows that sound instead of
     // cutting it off.
-    if (match) {
+    if (match && _matches + 1 == _pairs) {
+      playWinningAnswer(audio, leadIds: [_cards[b].audioId]);
+    } else if (match) {
       unawaited(audio.playRandomSuccess(leadIds: [_cards[b].audioId]));
     } else {
       unawaited(audio.playJapaneseAsset(_cards[b].audioId));

@@ -55,7 +55,7 @@ class _FirstSoundGameState extends ConsumerState<FirstSoundGame> {
   AudioService? _audio;
 
   int get _age => ref.read(currentProfileProvider)?.age ?? 5;
-  int get _goal => GameCatalog.roundsForAge(_age);
+  int get _goal => GameCatalog.sessionRounds(GameKind.firstSound, _age);
 
   /// Young children stay on three far-apart sounds; look-alike pairs from 4.
   int get _maxLevel => _age <= 3 ? 1 : FirstSound.maxLevel;
@@ -193,8 +193,13 @@ class _FirstSoundGameState extends ConsumerState<FirstSoundGame> {
       return;
     }
 
+    // The winning word: no praise line (the win panel says "Bé thắng rồi!"),
+    // so the panel opens once the blend is heard, not after a praise-length
+    // hold of silence.
+    final winning = _score + 1 >= _goal;
     _answerTap.handleCorrectAnswer(
       setState: setState,
+      hold: winning ? const Duration(milliseconds: 2400) : null,
       applyImmediateUi: () {
         _feedback = 'Giỏi lắm!';
         _correct = true;
@@ -213,7 +218,7 @@ class _FirstSoundGameState extends ConsumerState<FirstSoundGame> {
         // ("bờ … bò"), then praises. In the other order the blend cut the
         // praise and the next question cut the word.
         unawaited(audio.speak(const [], leadIds: [_round.soundClip, card.audioId]));
-        _later(2100, audio.playCorrectSound);
+        if (_score < _goal) _later(2100, audio.playCorrectSound);
       },
       sideEffects: () => _recordMastery(true),
       isMounted: () => mounted,

@@ -3,12 +3,17 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mai_an_learning/core/audio/audio_locale_policy.dart';
 import 'package:mai_an_learning/core/audio/audio_service.dart';
+import 'package:mai_an_learning/core/audio/kid_guide.dart';
+import 'package:mai_an_learning/data/content/game_catalog.dart';
+import 'package:mai_an_learning/domain/models/kana_item.dart';
+import 'package:mai_an_learning/features/games/logic/catch_kana_round.dart';
 import 'package:mai_an_learning/core/providers.dart';
 import 'package:mai_an_learning/data/kana/hiragana_data.dart';
 import 'package:mai_an_learning/data/repositories/mastery_repository.dart';
 import 'package:mai_an_learning/data/repositories/profile_repository.dart';
 import 'package:mai_an_learning/domain/models/child_profile.dart';
 import 'package:mai_an_learning/features/games/presentation/catch_kana_game.dart';
+import 'package:mai_an_learning/features/games/presentation/find_similar_game.dart';
 import 'package:mai_an_learning/features/games/presentation/listen_kana_game.dart';
 import 'package:mai_an_learning/features/games/presentation/match_kana_game.dart';
 import 'package:mai_an_learning/features/games/presentation/widgets/game_play_scaffold.dart';
@@ -223,6 +228,90 @@ void main() {
     await tester.pumpWidget(_app(const MatchKanaGame(), _FakeAudio()));
     await _pumpFor(tester, 300);
     expect(find.byType(GameFlipCard), findsNWidgets(12));
+    await tester.pumpWidget(const SizedBox());
+  });
+
+  testWidgets('Listen, age 3: no look-alikes on screen; the winning answer leaves the praise to the win panel',
+      (tester) async {
+    _phone(tester);
+    final audio = _FakeAudio();
+    await tester.pumpWidget(_app(const ListenKanaGame(), audio, age: 3));
+    await _pumpFor(tester, 300);
+    final goal = GameCatalog.sessionRounds(GameKind.listenKana, 3);
+    expect(goal, 6);
+    var clip = audio.said.first.trail.single;
+    for (var round = 1; round <= goal; round++) {
+      final shown = tester
+          .widgetList<ChunkyButton>(find.byType(ChunkyButton))
+          .map((b) => b.semanticLabel)
+          .whereType<String>()
+          .map((l) => hiraganaData.where((k) => k.character == l).firstOrNull)
+          .whereType<KanaItem>()
+          .toList();
+      expect(shown, hasLength(4));
+      for (final a in shown) {
+        for (final b in shown) {
+          if (a.id != b.id) expect(CatchKanaRound.confusable(a, b), isFalse, reason: '${a.character}/${b.character}');
+        }
+      }
+      final target = hiraganaData.firstWhere((k) => k.audioId == clip);
+      audio.said.clear();
+      await tester.tap(_button(target.character));
+      await tester.pump();
+      final cheer = audio.said.single;
+      expect(cheer.lead, [clip]);
+      if (round < goal) {
+        expect(cheer.lines, hasLength(1), reason: 'praise');
+        clip = cheer.trail.single;
+        await _pumpFor(tester, 1000);
+      } else {
+        // Last one: just the sound, no praise line for the win line to cut.
+        expect(cheer.lines, isEmpty);
+        expect(cheer.trail, isEmpty);
+      }
+    }
+    await _pumpFor(tester, 4500);
+    expect(find.byType(GameCompletePanel), findsOneWidget);
+    expect(audio.said.last.lines, [KidGuide.gameWin]);
+    expect(audio.said.where((s) => s.lines.any(KidGuide.praise.contains)), isEmpty);
+    await tester.pumpWidget(const SizedBox());
+  });
+
+  testWidgets('Find similar ends on the win panel with Mai\'s win line, and "Chơi tiếp" deals again', (tester) async {
+    _phone(tester);
+    final audio = _FakeAudio();
+    await tester.pumpWidget(_app(const FindSimilarGame(), audio, age: 3));
+    await _pumpFor(tester, 300);
+    String face(int i) => (tester.widget<GameFlipCard>(find.byType(GameFlipCard).at(i)).face as Text).data!;
+    final n = tester.widgetList(find.byType(GameFlipCard)).length;
+    expect(n, 8);
+    final faces = [for (var i = 0; i < n; i++) face(i)];
+    // One wrong pair first.
+    final other = faces.indexWhere((f) => f != faces[0]);
+    await tester.tap(find.byType(GameFlipCard).at(0));
+    await tester.pump();
+    await tester.tap(find.byType(GameFlipCard).at(other));
+    await _pumpFor(tester, 1500);
+    final done = <int>{};
+    for (var i = 0; i < n; i++) {
+      if (done.contains(i)) continue;
+      final j = [for (var k = i + 1; k < n; k++) k].firstWhere((k) => faces[k] == faces[i]);
+      done.addAll([i, j]);
+      await tester.tap(find.byType(GameFlipCard).at(i));
+      await tester.pump();
+      await tester.tap(find.byType(GameFlipCard).at(j));
+      await _pumpFor(tester, 800);
+    }
+    final panel = tester.widget<GameCompletePanel>(find.byType(GameCompletePanel));
+    expect(panel.score, 4);
+    expect(panel.wrong, 0, reason: 'early misses are free, as in Ghép đôi chữ');
+    expect(find.text('Ván mới'), findsNothing);
+    await _pumpFor(tester, 3600);
+    expect(audio.said.last.lines, [KidGuide.gameWin]);
+    await tester.tap(find.text('Chơi tiếp'));
+    await _pumpFor(tester, 600);
+    expect(find.byType(GameCompletePanel), findsNothing);
+    expect(tester.widget<GameProgressBar>(find.byType(GameProgressBar)).current, 0);
     await tester.pumpWidget(const SizedBox());
   });
 }

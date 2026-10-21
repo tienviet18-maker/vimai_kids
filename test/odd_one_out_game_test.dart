@@ -117,7 +117,7 @@ void main() {
 
         expect(audio.said, contains(KidGuide.gameOddOneOut));
         final banner = tester.widget<GameTargetBanner>(find.byType(GameTargetBanner));
-        expect(KidGuide.oddOneOutQuestions.values, contains(banner.label));
+        expect(OddOneOutRound.allQuestions, contains(banner.label));
         expect(audio.said, contains(banner.label));
 
         final cards = find.byType(OddOneOutCard);

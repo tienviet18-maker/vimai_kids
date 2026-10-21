@@ -169,10 +169,10 @@ void main() {
       }
     });
 
-    test('goal follows the age-based round count', () {
+    test('goal is a short session: 4 melodies at 3, 6 at 7', () {
       expect(MelodyMemorySession(age: 3).goal, 4);
-      expect(MelodyMemorySession(age: 5).goal, 6);
-      expect(MelodyMemorySession(age: 7).goal, 8);
+      expect(MelodyMemorySession(age: 5).goal, 5);
+      expect(MelodyMemorySession(age: 7).goal, 6);
     });
   });
 
@@ -198,7 +198,7 @@ void main() {
       await _tapMelody(tester, audio, melody);
       expect(audio.correct, 1, reason: 'one correct sound per full melody');
       expect(audio.wrong, 0);
-      expect(find.text('1 / 6'), findsOneWidget);
+      expect(find.text('1 / ${MelodyMemorySession(age: 5).goal}'), findsOneWidget);
 
       // Next round: Mai rings a longer melody.
       final next = await _waitForTurn(tester, audio, 2);

@@ -1228,6 +1228,38 @@ class GameCardGrid extends StatelessWidget {
   /// Card width / height.
   final double aspect;
 
+  /// Cards are big enough to tap and read at this width; a layout with
+  /// full rows (3 in a row, not 2 + 1) wins as long as its cards are at
+  /// least this wide or nearly as big as the biggest layout's.
+  static const comfortableWidth = 96.0;
+
+  /// Columns and card size for [itemCount] cards in a [maxW]×[maxH] table.
+  static ({int cols, double w, double h}) layout({
+    required int itemCount,
+    required double maxW,
+    required double maxH,
+    required double aspect,
+    double gap = 10,
+  }) {
+    var best = (cols: 3, w: 0.0, h: 0.0);
+    var bestFull = (cols: 3, w: 0.0, h: 0.0);
+    for (var cols = 2; cols <= 6; cols++) {
+      final rows = (itemCount / cols).ceil();
+      final cellW = (maxW - gap * (cols - 1)) / cols;
+      final cellH = (maxH - gap * (rows - 1)) / rows;
+      if (cellW <= 0 || cellH <= 0) continue;
+      var h = math.min(cellH, cellW / aspect);
+      var w = h * aspect;
+      w = math.min(w, 150);
+      h = w / aspect;
+      if (w > best.w) best = (cols: cols, w: w, h: h);
+      // Every row full, and no column left empty (3 cards in 4 columns).
+      if (itemCount % cols == 0 && w > bestFull.w) bestFull = (cols: cols, w: w, h: h);
+    }
+    if (bestFull.w > 0 && (bestFull.w >= comfortableWidth || bestFull.w >= best.w * 0.8)) return bestFull;
+    return best;
+  }
+
   @override
   Widget build(BuildContext context) {
     return LayoutBuilder(
@@ -1237,18 +1269,7 @@ class GameCardGrid extends StatelessWidget {
         const gap = 10.0;
         final maxW = math.min(constraints.maxWidth, 620.0) - pad * 2;
         final maxH = constraints.maxHeight - pad * 2;
-        var best = (cols: 3, w: 0.0, h: 0.0);
-        for (var cols = 2; cols <= 6; cols++) {
-          final rows = (itemCount / cols).ceil();
-          final cellW = (maxW - gap * (cols - 1)) / cols;
-          final cellH = (maxH - gap * (rows - 1)) / rows;
-          if (cellW <= 0 || cellH <= 0) continue;
-          var h = math.min(cellH, cellW / aspect);
-          var w = h * aspect;
-          w = math.min(w, 150);
-          h = w / aspect;
-          if (w > best.w) best = (cols: cols, w: w, h: h);
-        }
+        final best = GameCardGrid.layout(itemCount: itemCount, maxW: maxW, maxH: maxH, aspect: aspect, gap: gap);
         final cols = best.cols;
         final rows = (itemCount / cols).ceil();
         final w = math.max(40.0, best.w);
@@ -1272,14 +1293,13 @@ class GameCardGrid extends StatelessWidget {
                     Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        for (var c = 0; c < cols; c++) ...[
+                        // A short last row sits centred under the others.
+                        for (var c = 0; c < cols && r * cols + c < itemCount; c++) ...[
                           if (c > 0) const SizedBox(width: gap),
                           SizedBox(
                             width: w,
                             height: h,
-                            child: r * cols + c < itemCount
-                                ? builder(context, r * cols + c)
-                                : null,
+                            child: builder(context, r * cols + c),
                           ),
                         ],
                       ],
