@@ -193,8 +193,13 @@ class _FirstSoundGameState extends ConsumerState<FirstSoundGame> {
       return;
     }
 
+    // The winning word: no praise line (the win panel says "Bé thắng rồi!"),
+    // so the panel opens once the blend is heard, not after a praise-length
+    // hold of silence.
+    final winning = _score + 1 >= _goal;
     _answerTap.handleCorrectAnswer(
       setState: setState,
+      hold: winning ? const Duration(milliseconds: 2400) : null,
       applyImmediateUi: () {
         _feedback = 'Giỏi lắm!';
         _correct = true;
