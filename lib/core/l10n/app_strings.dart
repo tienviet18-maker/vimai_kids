@@ -199,6 +199,18 @@ class AppStrings {
   String get kanjivgCredit =>
       _t('Thứ tự nét: KanjiVG (CC BY-SA 3.0), Ulrich Apel.', 'Stroke order: KanjiVG (CC BY-SA 3.0), Ulrich Apel.', '書き順: KanjiVG (CC BY-SA 3.0)');
 
+  // Parental gate (App Store Kids Category 1.3): adult-only challenge.
+  String get parentGateTitle => _t('Dành cho phụ huynh', 'For parents only', '保護者の方へ');
+  String get parentGateBody => _t(
+        'Để tiếp tục, phụ huynh hãy nhập kết quả phép nhân:',
+        'To continue, a parent please enter the answer:',
+        '続けるには、保護者の方が答えを入力してください:',
+      );
+  String get parentGateWrong => _t('Chưa đúng, thử phép tính mới nhé.', 'Not quite. Try this new one.', 'ちがいます。新しい問題です。');
+  String get parentGateCancel => _t('Quay lại', 'Go back', 'もどる');
+  String get parentGateSubmit => _t('Xác nhận', 'Confirm', '確認');
+  String get parentGateClear => _t('Xóa số', 'Delete digit', '1文字けす');
+
   String _t(String vi, String en, String ja) {
     switch (lang) {
       case UiLang.en:
