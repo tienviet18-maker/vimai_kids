@@ -15,6 +15,7 @@ import '../../../domain/content/content_item.dart';
 import '../../shared/widgets/choice_grid.dart';
 import '../../shared/widgets/chunky_button.dart';
 import 'widgets/game_art.dart';
+import '../logic/final_cheer.dart';
 import 'widgets/game_play_scaffold.dart';
 import '../../../core/audio/kid_guide.dart';
 
@@ -30,6 +31,7 @@ class _FeedAnimalGameState extends ConsumerState<FeedAnimalGame> {
   /// Long enough for the panda's chomp and Mai's whole praise line before the
   /// next question is read out (a shorter hold cut the praise off mid-word).
   final _answerTap = WebKitAnswerTap(holdDuration: const Duration(milliseconds: 1800));
+  String? _lastIcon;
   late var _item = _nextItem();
 
   /// The panda eats these; counting rounds with cats, cars or butterflies
@@ -46,7 +48,7 @@ class _FeedAnimalGameState extends ConsumerState<FeedAnimalGame> {
   bool? _correct;
   AudioService? _audio;
 
-  int get _goal => GameCatalog.roundsForAge(ref.read(currentProfileProvider)?.age ?? 5);
+  int get _goal => GameCatalog.sessionRounds(GameKind.feedAnimal, ref.read(currentProfileProvider)?.age ?? 5);
 
   @override
   void initState() {
@@ -72,10 +74,15 @@ class _FeedAnimalGameState extends ConsumerState<FeedAnimalGame> {
   ContentItem _nextItem() {
     final age = ref.read(currentProfileProvider)?.age ?? 5;
     _triedWrong.clear();
+    // Food only, and not the same fruit as the round before ("Có bao nhiêu
+    // quả táo?" twice in a row sounds like the game did not move on).
+    final previous = _lastIcon;
+    bool ok(ContentItem it) => _food.contains(it.metadata?['icon']) && it.metadata?['icon'] != previous;
     var item = _generator.generateBySkill('counting', age: age);
-    for (var i = 0; i < 40 && !_food.contains(item.metadata?['icon']); i++) {
+    for (var i = 0; i < 60 && !ok(item); i++) {
       item = _generator.generateBySkill('counting', age: age);
     }
+    _lastIcon = item.metadata?['icon'] as String?;
     return item;
   }
 
@@ -119,7 +126,7 @@ class _FeedAnimalGameState extends ConsumerState<FeedAnimalGame> {
         _correct = true;
         _score++;
       },
-      playSound: () => unawaited(audio.playRandomSuccess()),
+      playSound: () => _score >= _goal ? playWinningAnswer(audio) : unawaited(audio.playRandomSuccess()),
       sideEffects: () => _recordMastery(true),
       isMounted: () => mounted,
       advanceOrFinish: () {

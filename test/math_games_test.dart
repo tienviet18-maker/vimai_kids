@@ -82,7 +82,7 @@ void main() {
     _bigScreen(tester);
     await tester.pumpWidget(_app(const MathRocketGame(), age: 3));
     await _settle(tester, 500);
-    final goal = GameCatalog.roundsForAge(3);
+    final goal = GameCatalog.sessionRounds(GameKind.mathRocket, 3);
     for (var r = 0; r < goal; r++) {
       final q = _sum(tester);
       expect(q.startsWith(' ') || q.endsWith(' '), isFalse, reason: 'empty side in "$q"');
@@ -126,7 +126,7 @@ void main() {
     await tester.pumpWidget(_app(const FeedAnimalGame(), age: 4));
     await _settle(tester, 500);
     const food = {'🍎', '🍌', '🍓', '🍇', '🍊', '🧁'};
-    for (var r = 0; r < GameCatalog.roundsForAge(4); r++) {
+    for (var r = 0; r < GameCatalog.sessionRounds(GameKind.feedAnimal, 4); r++) {
       final glyph = tester.widget<GameTargetBanner>(find.byType(GameTargetBanner)).glyph;
       expect(food, contains(glyph));
       await _solveRound(tester);
@@ -180,7 +180,7 @@ void main() {
       _bigScreen(tester);
       await tester.pumpWidget(_app(const NumberTrainGame(), age: 3));
       await _settle(tester, 500);
-      final goal = GameCatalog.roundsForAge(3);
+      final goal = GameCatalog.sessionRounds(GameKind.numberTrain, 3);
       for (var r = 0; r < goal; r++) {
         final nums = cargo(tester)..sort();
         if (r.isEven) {

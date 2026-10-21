@@ -88,7 +88,7 @@ class _OddOneOutPlayState extends ConsumerState<_OddOneOutPlay> {
   AudioService? _audio;
 
   int get _age => ref.read(currentProfileProvider)?.age ?? 5;
-  int get _goal => math.min(GameCatalog.roundsForAge(_age), 10);
+  int get _goal => GameCatalog.sessionRounds(GameKind.oddOneOut, _age);
 
   @override
   void initState() {
@@ -263,7 +263,7 @@ class _OddOneOutPlayState extends ConsumerState<_OddOneOutPlay> {
       ),
       instruction: GameTargetBanner(
         label: round.question,
-        glyph: round.majority.emoji,
+        glyph: round.majorityEmoji,
         color: _accent,
         onTap: _sayQuestion,
       ),
@@ -282,7 +282,7 @@ class _OddOneOutPlayState extends ConsumerState<_OddOneOutPlay> {
             ruledOut: _wrongIds.contains(item.id),
             solved: _solved,
             shake: _shakes[item.id],
-            badge: _solved ? (round.isOdd(item) ? round.oddCategory.emoji : round.majority.emoji) : null,
+            badge: _solved ? (round.isOdd(item) ? round.oddEmoji : round.majorityEmoji) : null,
             onTap: () => _onTap(item),
             onLongPress: () => _sayName(item),
           );

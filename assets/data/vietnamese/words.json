@@ -7034,7 +7034,7 @@
     "choices": [
       "ba ba"
     ],
-    "metadata": {
+    "metadata": {"image": "🐢", 
       "audioText": "ba ba",
       "audioLocale": "vi-VN",
       "audioId": "v_vocab_baba",
@@ -7106,7 +7106,7 @@
     "choices": [
       "ba mẹ"
     ],
-    "metadata": {
+    "metadata": {"image": "👨‍👩‍👧", 
       "audioText": "ba mẹ",
       "audioLocale": "vi-VN",
       "audioId": "v_vocab_bame",
@@ -7130,7 +7130,7 @@
     "choices": [
       "đo đỏ"
     ],
-    "metadata": {
+    "metadata": {"image": "🔴", 
       "audioText": "đo đỏ",
       "audioLocale": "vi-VN",
       "audioId": "v_vocab_dodo",

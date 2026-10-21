@@ -23,6 +23,12 @@ class ChoiceGrid extends StatefulWidget {
   /// Largest button edge; buttons shrink to fit narrow screens.
   final double maxItemSize;
 
+  /// When set, choices it accepts get a small speaker badge that says the
+  /// choice without answering, so a child who cannot read yet can hear
+  /// every written answer before picking one.
+  final ValueChanged<String>? onHear;
+  final bool Function(String choice)? hearable;
+
   const ChoiceGrid({
     super.key,
     required this.choices,
@@ -33,6 +39,8 @@ class ChoiceGrid extends StatefulWidget {
     this.color = AppTheme.primaryColor,
     this.palette,
     this.maxItemSize = 116,
+    this.onHear,
+    this.hearable,
   });
 
   @override
@@ -101,6 +109,10 @@ class _ChoiceGridState extends State<ChoiceGrid> {
                       ? _taps
                       : null,
                   onTap: () => _onTap(widget.choices[i]),
+                  onHear: widget.onHear == null ||
+                          !(widget.hearable?.call(widget.choices[i]) ?? true)
+                      ? null
+                      : () => widget.onHear!(widget.choices[i]),
                 ),
               ),
           ],
@@ -127,6 +139,7 @@ class _ChoiceBubble extends StatelessWidget {
     required this.isWrong,
     required this.shakeKey,
     required this.onTap,
+    this.onHear,
   });
 
   final String choice;
@@ -137,9 +150,46 @@ class _ChoiceBubble extends StatelessWidget {
   final bool isWrong;
   final Object? shakeKey;
   final VoidCallback onTap;
+  final VoidCallback? onHear;
 
   @override
   Widget build(BuildContext context) {
+    final button = _button(context);
+    if (onHear == null) return button;
+    final badge = (size * 0.34).clamp(36.0, 44.0);
+    return Stack(
+      children: [
+        Positioned.fill(child: button),
+        Positioned(
+          // Inside the cell: a badge hanging outside it could not be tapped.
+          top: 0,
+          right: 0,
+          child: Semantics(
+            button: true,
+            label: 'Nghe $choice',
+            child: GestureDetector(
+              key: ValueKey('hear-$choice'),
+              behavior: HitTestBehavior.opaque,
+              onTap: onHear,
+              child: Container(
+                width: badge,
+                height: badge,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  shape: BoxShape.circle,
+                  border: Border.all(color: color, width: 3),
+                  boxShadow: const [BoxShadow(color: Color(0x33000000), blurRadius: 4, offset: Offset(0, 2))],
+                ),
+                child: Icon(Icons.volume_up_rounded, color: color, size: badge * 0.58),
+              ),
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _button(BuildContext context) {
     final fill = isRight
         ? VimaiColor.correct
         : isWrong

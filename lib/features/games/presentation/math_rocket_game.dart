@@ -16,6 +16,7 @@ import '../../../domain/content/content_item.dart';
 import '../../shared/widgets/choice_grid.dart';
 import '../../shared/widgets/chunky_button.dart';
 import 'widgets/game_art.dart';
+import '../logic/final_cheer.dart';
 import 'widgets/game_play_scaffold.dart';
 import '../../../core/audio/kid_guide.dart';
 
@@ -42,7 +43,7 @@ class _MathRocketGameState extends ConsumerState<MathRocketGame> {
   String? _feedback;
   bool? _correct;
 
-  int get _goal => GameCatalog.roundsForAge(ref.read(currentProfileProvider)?.age ?? 5);
+  int get _goal => GameCatalog.sessionRounds(GameKind.mathRocket, ref.read(currentProfileProvider)?.age ?? 5);
 
   @override
   void initState() {
@@ -134,7 +135,7 @@ class _MathRocketGameState extends ConsumerState<MathRocketGame> {
         _correct = true;
         _score++;
       },
-      playSound: () => unawaited(audio.playRandomSuccess()),
+      playSound: () => _score >= _goal ? playWinningAnswer(audio) : unawaited(audio.playRandomSuccess()),
       sideEffects: () => _recordMastery(true),
       isMounted: () => mounted,
       advanceOrFinish: () {

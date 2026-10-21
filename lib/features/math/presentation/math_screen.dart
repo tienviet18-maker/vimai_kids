@@ -127,6 +127,10 @@ class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
   ContentItem get _item => _session.item;
   int get _goal => _session.totalQuestions;
 
+  /// Mai's last-resort hint says "đáp án đúng là 7! Bé chọn số 7": only a
+  /// number reads right there (not a picture group, a sign or a sentence).
+  String? get _hintAnswer => int.tryParse(_item.answer ?? '') != null ? _item.answer : null;
+
   @override
   void initState() {
     super.initState();
@@ -148,12 +152,16 @@ class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
   }
 
   /// Mai reads the instruction and the question ("3 cộng 4 bằng mấy").
+  /// "Số nào là số bảy?" shows no numeral, so Mai repeats the number to
+  /// find ("… bảy!") with its own math_num_* clip.
   void _speakQuestion({bool withIntro = false}) {
     final intro = AudioService.introForMathSkill(widget.skill);
+    final toFind = _item.skill == 'number_recognition' ? 'math_num_${_item.answer}' : null;
     unawaited(
       ref.read(audioServiceProvider).speak(
         [_item.instruction, _item.question],
         leadIds: withIntro ? [intro] : const [],
+        trailIds: toFind == null ? const [] : [toFind],
         fallbackId: withIntro ? intro : null,
       ),
     );
@@ -175,7 +183,7 @@ class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
       currentActivity: 'quiz',
       currentQuestion: _item.question ?? _item.instruction,
       learningObjective: _item.instruction,
-      expectedAnswer: _item.answer,
+      expectedAnswer: _hintAnswer,
       choices: _item.choices,
       childAge: profile?.age ?? 5,
     );
@@ -184,7 +192,7 @@ class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
       unawaited(
         ref.read(masteryRepositoryProvider).record(
               childId: profile.id,
-              itemId: '${widget.skill}:${_item.question}',
+              itemId: '${widget.skill}:${_item.question ?? _item.answer}',
               skill: 'math.${widget.skill}',
               correct: ok,
             ),
@@ -326,7 +334,7 @@ class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
                             currentActivity: 'quiz',
                             currentQuestion: _item.question ?? _item.instruction,
                             learningObjective: _item.instruction,
-                            expectedAnswer: _item.answer,
+                            expectedAnswer: _hintAnswer,
                             choices: _item.choices,
                             childAge: ref.watch(currentProfileProvider)?.age ?? 5,
                           ),
@@ -338,13 +346,18 @@ class _MathQuizScreenState extends ConsumerState<MathQuizScreen> {
                         ListenPrompt(
                           text: _item.instruction,
                           lines: [_item.instruction, _item.question],
+                          onTap: _speakQuestion,
                           color: AppTheme.mathColor,
                           style: VimaiType.subtitle,
-                          child: Text(
-                            _item.question ?? '',
-                            textAlign: TextAlign.center,
-                            style: VimaiType.display.copyWith(color: VimaiColor.ink),
-                          ),
+                          // "Nhóm nào nhiều hơn?" has no question row: the
+                          // two groups to compare are the buttons themselves.
+                          child: (_item.question ?? '').isEmpty
+                              ? null
+                              : Text(
+                                  _item.question!,
+                                  textAlign: TextAlign.center,
+                                  style: VimaiType.display.copyWith(color: VimaiColor.ink),
+                                ),
                         ),
                         const SizedBox(height: 24),
                         ChoiceGrid(

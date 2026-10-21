@@ -11,7 +11,13 @@ import '../../explore/data/explore_catalog.dart';
 /// child: a pet parrot, a toy car, a sea turtle in "wild animals" and the like
 /// are kept out (see [_excluded], [_majorityOnlyOut] and [_closePairs]).
 class OddOneOutRound {
-  const OddOneOutRound({required this.majority, required this.oddCategory, required this.odd, required this.cards});
+  const OddOneOutRound({
+    required this.majority,
+    required this.oddCategory,
+    required this.odd,
+    required this.cards,
+    this.majorityKind,
+  });
 
   /// The topic most cards belong to; its question is asked.
   final ExploreCategory majority;
@@ -21,7 +27,24 @@ class OddOneOutRound {
   /// Every card in play order (the [odd] one included).
   final List<ExploreItem> cards;
 
-  String get question => KidGuide.oddOneOutQuestions[majority.id]!;
+  /// For "bugs_birds": whether the matching pictures are all [birdKind]s
+  /// or all [bugKind]s. Null for every other topic.
+  final String? majorityKind;
+
+  static const birdKind = 'birds';
+  static const bugKind = 'bugs';
+
+  String get question => majorityKind == bugKind ? KidGuide.oddOutBugs : KidGuide.oddOneOutQuestions[majority.id]!;
+
+  /// Picture for the question banner and the matching cards' badges: a bird
+  /// for a birds-only round (the topic's own emoji is a butterfly).
+  String get majorityEmoji => majorityKind == birdKind ? '🐦' : majority.emoji;
+
+  /// Badge on the answer card once found.
+  String get oddEmoji => oddCategory.id == 'bugs_birds' && _birds.contains(odd.id) ? '🐦' : oddCategory.emoji;
+
+  /// Every question a round can ask.
+  static List<String> get allQuestions => [...KidGuide.oddOneOutQuestions.values, KidGuide.oddOutBugs];
   String get explanation => oddOneOutExplanation(odd, oddCategory.id);
   bool isOdd(ExploreItem item) => item.id == odd.id;
 
@@ -63,10 +86,19 @@ class OddOneOutRound {
     if (fresh.isNotEmpty) pairs = fresh;
     pairs.shuffle(rnd);
     for (final (majority, oddCat) in pairs) {
-      final majorityPool = [
+      var majorityPool = [
         for (final item in majority.items)
           if (canBeMajority(majority.id, item) && _pairAllowsMajority(majority.id, oddCat.id, item)) item,
       ]..shuffle(rnd);
+      String? kind;
+      if (majority.id == 'bugs_birds') {
+        // Only birds or only insects, so Mai can ask one simple question.
+        kind = rnd.nextBool() ? birdKind : bugKind;
+        majorityPool = [
+          for (final item in majorityPool)
+            if (_birds.contains(item.id) == (kind == birdKind)) item,
+        ];
+      }
       final oddPool = [
         for (final item in oddCat.items)
           if (canBeOdd(oddCat.id, item) && _pairAllowsOdd(majority.id, oddCat.id, item)) item,
@@ -74,7 +106,7 @@ class OddOneOutRound {
       if (majorityPool.length < count - 1 || oddPool.isEmpty) continue;
       final odd = oddPool.first;
       final cards = [...majorityPool.take(count - 1), odd]..shuffle(rnd);
-      return OddOneOutRound(majority: majority, oddCategory: oddCat, odd: odd, cards: cards);
+      return OddOneOutRound(majority: majority, oddCategory: oddCat, odd: odd, cards: cards, majorityKind: kind);
     }
     throw StateError('No odd-one-out round possible for level $level');
   }

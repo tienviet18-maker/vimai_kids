@@ -84,13 +84,21 @@ class AudioService {
   ];
 
   /// Skill / screen → bundled system intro id (Hoài My MP3).
+  /// An intro never contradicts the question after it: picture sums are not
+  /// "hình khối" (sys_math_shapes), a falling pattern is not "từ nhỏ đến lớn"
+  /// (sys_math_order), signs are not "nhóm nào nhiều hơn" (sys_math_compare),
+  /// and "+ hoặc −" is not "phép tính cộng"; those get the plain welcome.
   static String introForMathSkill(String skill) {
     switch (skill) {
       case 'counting':
         return 'sys_math_count';
       case 'comparison':
-      case 'compare_expressions':
         return 'sys_math_compare';
+      case 'picture_math':
+      case 'number_pattern':
+      case 'compare_expressions':
+      case 'fill_plus_minus':
+        return 'sys_math_intro';
       case 'number_recognition':
       case 'classify_numbers':
       case 'odd_even':
@@ -98,9 +106,6 @@ class AudioService {
         return 'sys_math_identify';
       case 'number_match':
         return 'sys_math_match';
-      case 'picture_math':
-        return 'sys_math_shapes';
-      case 'number_pattern':
       case 'number_line':
       case 'missing_number':
       case 'before_after':
@@ -112,7 +117,6 @@ class AudioService {
       case 'addition_under_50':
       case 'addition_under_100':
       case 'word_problem':
-      case 'fill_plus_minus':
         return 'sys_math_calc_add';
       case 'subtraction_under_5':
       case 'subtraction_under_10':
@@ -751,13 +755,14 @@ class AudioService {
   }
 
   /// Soft "boop" and a gentle nudge to try again; never a buzzer.
-  /// [trailIds] are said after the nudge (e.g. the letter to find again).
-  void _comfort({List<String> trailIds = const []}) {
+  /// [leadIds] are said before the nudge (the answer the child tapped),
+  /// [trailIds] after it (e.g. the letter to find again).
+  void _comfort({List<String> leadIds = const [], List<String> trailIds = const []}) {
     sfx(Sfx.wrong);
     _streak = 0;
     final line = KidGuide.retry[_random.nextInt(KidGuide.retry.length)];
     final fallback = tryAgainKeys[_random.nextInt(tryAgainKeys.length)];
-    unawaited(speak([line], fallbackId: fallback, trailIds: trailIds)
+    unawaited(speak([line], fallbackId: fallback, leadIds: leadIds, trailIds: trailIds)
         .catchError((Object _) => const AudioPlayResult.unavailable('')));
   }
 
@@ -1017,8 +1022,8 @@ class AudioService {
     return Future.value(AudioPlayResult.ok(AudioLocalePolicy.localeFor(AudioLanguage.vietnamese)));
   }
 
-  Future<AudioPlayResult> playRandomTryAgain({List<String> trailIds = const []}) {
-    scheduleMicrotask(() => _comfort(trailIds: trailIds));
+  Future<AudioPlayResult> playRandomTryAgain({List<String> leadIds = const [], List<String> trailIds = const []}) {
+    scheduleMicrotask(() => _comfort(leadIds: leadIds, trailIds: trailIds));
     return Future.value(AudioPlayResult.ok(AudioLocalePolicy.localeFor(AudioLanguage.vietnamese)));
   }
 

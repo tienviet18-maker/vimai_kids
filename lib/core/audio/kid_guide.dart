@@ -46,6 +46,12 @@ class KidGuide {
   static const letterWhichSound = 'Chữ này đọc âm nào?';
   static const letterInWord = 'Chữ này có trong từ nào?';
   static const findLetter = 'Bé nghe rồi tìm đúng chữ nhé!';
+  // Short asks for the 2nd–10th question of a lesson round (the how-to
+  // above is said on the first one, or when the child taps the prompt).
+  static const listenPickWord = 'Nghe và chọn từ đúng';
+  static const whichSentence = 'Câu nào đúng nhỉ?';
+  // Written answers carry a small speaker that says them.
+  static const tapSmallSpeaker = 'Chạm vào loa nhỏ để nghe từng đáp án nhé.';
 
   // Japanese kana lesson (SEE → HEAR → WATCH → TRACE → WRITE → REPEAT → REWARD)
   static const kanaSee = 'Bé nhìn chữ tiếng Nhật này nhé.';
@@ -75,7 +81,10 @@ class KidGuide {
   static const oddOutPets = 'Bạn nào không phải là con vật nuôi?';
   static const oddOutWild = 'Bạn nào không phải là động vật hoang dã?';
   static const oddOutSea = 'Bạn nào không sống dưới biển?';
-  static const oddOutBugsBirds = 'Bạn nào không phải côn trùng, cũng không phải chim?';
+  // Insects and birds share one explore topic; a round uses only one kind
+  // so the question has a single "không" (never "neither … nor …").
+  static const oddOutBirds = 'Bạn nào không phải là chim?';
+  static const oddOutBugs = 'Bạn nào không phải là côn trùng?';
   static const oddOutFruits = 'Cái nào không phải là hoa quả?';
   static const oddOutVeggies = 'Cái nào không phải là rau củ?';
   static const oddOutVehicles = 'Cái nào không phải là xe cộ?';
@@ -88,7 +97,8 @@ class KidGuide {
     'pets': oddOutPets,
     'wild': oddOutWild,
     'sea': oddOutSea,
-    'bugs_birds': oddOutBugsBirds,
+    // Birds-only rounds; insect-only rounds ask [oddOutBugs] instead.
+    'bugs_birds': oddOutBirds,
     'fruits': oddOutFruits,
     'veggies': oddOutVeggies,
     'vehicles': oddOutVehicles,
@@ -129,6 +139,8 @@ class KidGuide {
   static const drawHowTo = 'Bé chọn một màu, rồi dùng ngón tay vẽ lên giấy nhé.';
   static const colorHowTo = 'Bé chọn màu, rồi chạm vào từng phần để tô nhé.';
   static const musicHowTo = 'Bé chạm vào các phím để tạo ra bản nhạc của mình nhé!';
+  // Tư duy: Nhớ vị trí shows a row, then hides it before asking.
+  static const memoryLook = 'Bé nhìn thật kỹ và nhớ nhé!';
   static const puzzleHowTo = 'Bé suy nghĩ, rồi chọn hình đúng nhé.';
   static const saved = 'Mai đã cất bức tranh của bé rồi!';
 
@@ -166,12 +178,13 @@ class KidGuide {
     quizHowTo, tapSpeaker, nextQuestion, sessionDone, almost, hint,
     letterSee, letterHear, letterTrace, letterFind, letterSay, blendHowTo, wordHowTo, sentenceHowTo,
     sentencePick, rimeHowTo, listenPickLetter, hearLetterName, hearLetterSound, letterWhichSound, letterInWord, findLetter,
+    listenPickWord, whichSentence, tapSmallSpeaker, memoryLook,
     kanaSee, kanaHear, kanaWatch, kanaTrace, kanaWrite, kanaRepeat, kanaReward,
     gameCatchKana, gameListenKana, gameMatchKana, gameFeedAnimal, gameFindSimilar, gameMathRocket,
     gameNumberTrain, gameWin,
     drawHowTo, colorHowTo, musicHowTo, puzzleHowTo, saved,
     // Cái nào khác nhóm?
-    gameOddOneOut, oddOutPets, oddOutWild, oddOutSea, oddOutBugsBirds, oddOutFruits, oddOutVeggies,
+    gameOddOneOut, oddOutPets, oddOutWild, oddOutSea, oddOutBirds, oddOutBugs, oddOutFruits, oddOutVeggies,
     oddOutVehicles, oddOutHome, oddOutBody, oddOutNature, oddOutJobs, oddOutPlay,
     ...firstSoundLines,
     ...gameMelodyAll,
