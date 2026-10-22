@@ -1,0 +1,5 @@
+ViMai Kids is a learning app for children aged 3-7 (Vietnamese alphabet, Japanese hiragana/katakana, early math, logic, drawing, mini games). No account or login is required: on first launch, create a child profile with any name and age.
+
+The Parent area (lock icon at the top right of the home screen, hold for 3 seconds) is protected by a parental gate: a random multiplication question (for example 7 x 8) entered on a keypad. Three wrong answers close the gate. The only link out of the app (feedback e-mail via the Mail app) is inside this gated area.
+
+The app collects no data, has no ads, no in-app purchases, no analytics and no third-party SDKs. All content and audio are bundled and work offline. Voice guidance uses synthesized speech.
