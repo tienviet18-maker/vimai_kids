@@ -8,6 +8,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'core/audio/audio_service.dart';
 import 'core/branding/config.dart';
 import 'core/data_driven/data_driven_content_service.dart';
+import 'core/in_app_browser/in_app_browser_banner.dart';
 import 'core/providers.dart';
 import 'core/routing/app_router.dart';
 import 'core/theme/app_scroll_behavior.dart';
@@ -78,6 +79,18 @@ class ViMaiKidsApp extends ConsumerWidget {
         theme: AppTheme.theme,
         scrollBehavior: const AppScrollBehavior(),
         routerConfig: goRouter,
+        // Inside Messenger / Zalo...: open in Safari / Chrome.
+        builder: (context, child) => Stack(
+          children: [
+            if (child != null) child,
+            const Positioned(
+              top: 0,
+              left: 0,
+              right: 0,
+              child: InAppBrowserBanner(languageCode: 'vi'),
+            ),
+          ],
+        ),
       ),
     );
   }
