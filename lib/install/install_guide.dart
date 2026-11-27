@@ -276,7 +276,7 @@ class _InstallGuideSheetState extends State<InstallGuideSheet> {
               title: tr('Mở bằng Safari', 'Open in Safari'),
               body: [
                 _T(tr('Cài từ ', 'Install from ')),
-                _T('Safari', bold: true),
+                const _T('Safari', bold: true),
                 _T(tr(
                   '. Nếu đang xem trong Facebook, Zalo hay Messenger: bấm ⋯ rồi chọn ',
                   '. If you are inside Facebook, Zalo or Messenger, tap ⋯ and choose ',
@@ -298,7 +298,7 @@ class _InstallGuideSheetState extends State<InstallGuideSheet> {
                 _T(tr('Xem thêm', 'More'), bold: true),
                 _T(tr(') rồi chọn ', '), then choose ')),
                 _T(tr('Thêm vào Màn hình chính', 'Add to Home Screen'), bold: true),
-                _T('.'),
+                const _T('.'),
               ],
               art: _ShareSheetArt(
                 style: s,
@@ -320,7 +320,7 @@ class _InstallGuideSheetState extends State<InstallGuideSheet> {
                 _T(tr('Thêm', 'Add'), bold: true),
                 _T(tr('. Về màn hình chính và mở biểu tượng ', '. Go to your home screen and open ')),
                 _T(name, bold: true),
-                _T('.'),
+                const _T('.'),
               ],
               art: _AppArt(style: s, icon: widget.app.icon, name: name),
             ),
@@ -330,13 +330,13 @@ class _InstallGuideSheetState extends State<InstallGuideSheet> {
               title: tr('Mở bằng Chrome', 'Open in Chrome'),
               body: [
                 _T(tr('Cài từ ', 'Install from ')),
-                _T('Chrome', bold: true),
+                const _T('Chrome', bold: true),
                 _T(tr(
                   ' (hoặc Samsung Internet). Trong Facebook, Zalo: bấm ⋮ rồi chọn ',
                   ' (or Samsung Internet). Inside Facebook or Zalo, tap ⋮ and choose ',
                 )),
                 _T(tr('Mở bằng trình duyệt', 'Open in browser'), bold: true),
-                _T('.'),
+                const _T('.'),
               ],
               art: _BrowserArt(style: s, label: 'Chrome', safari: false),
               extra: copy,
@@ -348,7 +348,7 @@ class _InstallGuideSheetState extends State<InstallGuideSheet> {
                 _T(tr('Cài đặt ứng dụng', 'Install app'), bold: true),
                 _T(tr(' hoặc ', ' or ')),
                 _T(tr('Thêm vào màn hình chính', 'Add to Home screen'), bold: true),
-                _T('.'),
+                const _T('.'),
               ],
               art: _MenuArt(
                 style: s,
