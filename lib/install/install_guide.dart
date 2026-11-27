@@ -870,7 +870,7 @@ class InstallPill extends StatelessWidget {
               Icon(Icons.install_mobile_outlined, size: 15, color: s.text),
               const SizedBox(width: 6),
               Flexible(
-                Text(
+                child: Text(
                   InstallStrings.of(InstallStrings.pick(device: e.deviceLang, app: appLang ?? (en ? 'en' : 'vi'))).pill,
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
