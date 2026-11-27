@@ -62,6 +62,40 @@
     For more details:
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
+  <script>
+    // "Cài ứng dụng" (lib/install/): Chrome's install prompt is kept for the
+    // app's own button; vimaiInstallState() tells the app where it runs.
+    (function () {
+      var deferred = null;
+      window.addEventListener('beforeinstallprompt', function (e) {
+        e.preventDefault();
+        deferred = e;
+      });
+      window.addEventListener('appinstalled', function () { deferred = null; });
+      window.vimaiInstallState = function () {
+        var ua = navigator.userAgent || '';
+        var f = [];
+        var ios = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+        f.push(ios ? 'ios' : (/Android/.test(ua) ? 'android' : 'desktop'));
+        var standalone = navigator.standalone === true ||
+          (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches);
+        if (standalone) f.push('standalone');
+        if (deferred) f.push('prompt');
+        if (/FBAN|FBAV|FB_IAB|Messenger|Instagram|Zalo|Line\/|musical_ly|BytedanceWebview|Threads/.test(ua)) f.push('inapp');
+        var lang = (navigator.languages && navigator.languages[0]) || navigator.language || '';
+        if (lang) f.push('lang=' + String(lang).replace(/,/g, ''));
+        return f.join(',');
+      };
+      window.vimaiInstall = function () {
+        if (!deferred) return Promise.resolve('unavailable');
+        var e = deferred;
+        deferred = null;
+        e.prompt();
+        return e.userChoice.then(function (c) { return c && c.outcome ? c.outcome : 'dismissed'; },
+          function () { return 'dismissed'; });
+      };
+    })();
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
