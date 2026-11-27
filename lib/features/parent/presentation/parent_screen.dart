@@ -16,6 +16,8 @@ import '../../../domain/models/child_profile.dart';
 import '../../../domain/models/skill_mastery.dart';
 import '../../shared/widgets/vimai_mascot.dart';
 import '../../shared/widgets/vimai_ui.dart';
+import '../../../install/app_install.dart';
+import '../../../install/install_guide.dart';
 
 class ParentScreen extends ConsumerStatefulWidget {
   const ParentScreen({super.key});
@@ -89,6 +91,12 @@ class _ParentScreenState extends ConsumerState<ParentScreen> {
               physics: const ClampingScrollPhysics(),
               padding: const EdgeInsets.fromLTRB(20, 8, 20, 32),
               children: [
+                // Web only: parents install the app on the phone.
+                InstallPillRow(
+                  app: appInstall,
+                  en: Localizations.localeOf(context).languageCode == 'en',
+                  padding: const EdgeInsets.only(bottom: 8),
+                ),
                 _Card(
                   child: Row(
                     children: [
