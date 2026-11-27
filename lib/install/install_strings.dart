@@ -62,15 +62,20 @@ class InstallStrings {
 
   static const supported = ['vi', 'en', 'ja', 'id', 'zh', 'ko', 'th'];
 
-  /// The phone's language when we have it, else the app's, else English.
-  static String pick({String? device, String? app}) {
+  /// The language the customer reads the app in, unless the phone speaks a
+  /// language the app itself does not offer (an Indonesian phone on an app in
+  /// vi/en): then the phone's. English when neither is known.
+  static String pick({String? device, String? app, List<String> appLanguages = const ['vi', 'en']}) {
     String? code(String? tag) {
       if (tag == null || tag.isEmpty) return null;
       final c = tag.toLowerCase().split(RegExp('[-_]')).first;
       return supported.contains(c) ? c : null;
     }
 
-    return code(device) ?? code(app) ?? 'en';
+    final phone = code(device);
+    final chosen = code(app);
+    if (phone != null && !appLanguages.contains(phone)) return phone;
+    return chosen ?? phone ?? 'en';
   }
 
   static InstallStrings of(String lang) => switch (lang) {

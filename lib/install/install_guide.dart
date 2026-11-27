@@ -84,10 +84,11 @@ Future<void> showInstallGuide(
   required InstallGuideApp app,
   required bool en,
   String? appLang,
+  List<String> appLanguages = const ['vi', 'en'],
   InstallEnv? env,
 }) {
   final e = env ?? InstallEnv.current();
-  final lang = InstallStrings.pick(device: e.deviceLang, app: appLang ?? (en ? 'en' : 'vi'));
+  final lang = InstallStrings.pick(device: e.deviceLang, app: appLang ?? (en ? 'en' : 'vi'), appLanguages: appLanguages);
   return showModalBottomSheet<void>(
     context: context,
     isScrollControlled: true,
@@ -837,13 +838,23 @@ class _CloseButton extends StatelessWidget {
 /// The small "Cài ứng dụng" pill for the top of the app. Hidden when the app
 /// already runs from the home screen or outside the web.
 class InstallPill extends StatelessWidget {
-  const InstallPill({super.key, required this.app, required this.en, this.appLang, this.env});
+  const InstallPill({
+    super.key,
+    required this.app,
+    required this.en,
+    this.appLang,
+    this.appLanguages = const ['vi', 'en'],
+    this.env,
+  });
 
   final InstallGuideApp app;
   final bool en;
 
   /// The app's language code (vi, en, ja...) when it has more than vi/en.
   final String? appLang;
+
+  /// Languages the app's own UI offers.
+  final List<String> appLanguages;
   final InstallEnv? env;
 
   @override
@@ -856,7 +867,7 @@ class InstallPill extends StatelessWidget {
       child: InkWell(
         key: const Key('install-pill'),
         borderRadius: BorderRadius.circular(10),
-        onTap: () => showInstallGuide(context, app: app, en: en, appLang: appLang, env: e),
+        onTap: () => showInstallGuide(context, app: app, en: en, appLang: appLang, appLanguages: appLanguages, env: e),
         child: Container(
           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 7),
           decoration: BoxDecoration(
@@ -871,7 +882,7 @@ class InstallPill extends StatelessWidget {
               const SizedBox(width: 6),
               Flexible(
                 child: Text(
-                  InstallStrings.of(InstallStrings.pick(device: e.deviceLang, app: appLang ?? (en ? 'en' : 'vi'))).pill,
+                  InstallStrings.of(InstallStrings.pick(device: e.deviceLang, app: appLang ?? (en ? 'en' : 'vi'), appLanguages: appLanguages)).pill,
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                   style: TextStyle(color: s.text, fontSize: 13, fontWeight: FontWeight.w600),
@@ -892,6 +903,7 @@ class InstallPillRow extends StatelessWidget {
     required this.app,
     required this.en,
     this.appLang,
+    this.appLanguages = const ['vi', 'en'],
     this.env,
     this.padding = const EdgeInsets.only(top: 6),
   });
@@ -899,6 +911,7 @@ class InstallPillRow extends StatelessWidget {
   final InstallGuideApp app;
   final bool en;
   final String? appLang;
+  final List<String> appLanguages;
   final InstallEnv? env;
   final EdgeInsets padding;
 
@@ -908,7 +921,7 @@ class InstallPillRow extends StatelessWidget {
     if (!e.offer) return const SizedBox.shrink();
     return Padding(
       padding: padding,
-      child: Align(alignment: Alignment.centerRight, child: InstallPill(app: app, en: en, appLang: appLang, env: e)),
+      child: Align(alignment: Alignment.centerRight, child: InstallPill(app: app, en: en, appLang: appLang, appLanguages: appLanguages, env: e)),
     );
   }
 }
@@ -917,12 +930,19 @@ class InstallPillRow extends StatelessWidget {
 /// height when the guide is not offered (app opened from the home screen,
 /// iOS/Android build, tests).
 class InstallAppBarBottom extends StatelessWidget implements PreferredSizeWidget {
-  InstallAppBarBottom({super.key, required this.app, required this.en, this.appLang, InstallEnv? env})
-      : env = env ?? InstallEnv.current();
+  InstallAppBarBottom({
+    super.key,
+    required this.app,
+    required this.en,
+    this.appLang,
+    this.appLanguages = const ['vi', 'en'],
+    InstallEnv? env,
+  }) : env = env ?? InstallEnv.current();
 
   final InstallGuideApp app;
   final bool en;
   final String? appLang;
+  final List<String> appLanguages;
   final InstallEnv env;
 
   @override
@@ -933,7 +953,7 @@ class InstallAppBarBottom extends StatelessWidget implements PreferredSizeWidget
     if (!env.offer) return const SizedBox.shrink();
     return Padding(
       padding: const EdgeInsets.fromLTRB(12, 0, 12, 8),
-      child: Align(alignment: Alignment.centerRight, child: InstallPill(app: app, en: en, appLang: appLang, env: env)),
+      child: Align(alignment: Alignment.centerRight, child: InstallPill(app: app, en: en, appLang: appLang, appLanguages: appLanguages, env: env)),
     );
   }
 }

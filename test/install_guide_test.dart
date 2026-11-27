@@ -69,6 +69,12 @@ void main() {
     expect(tester.takeException(), isNull);
   });
 
+  testWidgets('app switched to English on a Vietnamese phone: English guide', (tester) async {
+    await open(tester, const InstallEnv(deviceLang: 'vi-VN'), en: true);
+    expect(find.text('Open in Safari'), findsOneWidget);
+    expect(find.text('Mở bằng Safari'), findsNothing);
+  });
+
   testWidgets('unknown phone language falls back to the app language', (tester) async {
     await open(tester, const InstallEnv(deviceLang: 'ne-NP'));
     expect(find.text('Mở bằng Safari'), findsOneWidget);
