@@ -58,4 +58,31 @@ void main() {
       });
     }
   }
+
+  testWidgets('follows the phone language: Japanese phone, Japanese guide', (tester) async {
+    await open(tester, const InstallEnv(deviceLang: 'ja-JP'));
+    expect(find.text('Safariで開く'), findsOneWidget);
+    expect(find.text('共有をタップ'), findsOneWidget);
+    await tester.tap(find.byKey(const Key('install-android')));
+    await tester.pumpAndSettle();
+    expect(find.text('Chromeで開く'), findsOneWidget);
+    expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('unknown phone language falls back to the app language', (tester) async {
+    await open(tester, const InstallEnv(deviceLang: 'ne-NP'));
+    expect(find.text('Mở bằng Safari'), findsOneWidget);
+  });
+
+  for (final lang in ['ja', 'id', 'zh', 'ko', 'th']) {
+    testWidgets('fits in $lang at 320x568, large text', (tester) async {
+      tester.platformDispatcher.textScaleFactorTestValue = 1.3;
+      addTearDown(tester.platformDispatcher.clearTextScaleFactorTestValue);
+      await open(tester, InstallEnv(platform: InstallPlatform.android, canPrompt: true, inAppBrowser: true, deviceLang: lang), size: const Size(320, 568));
+      expect(tester.takeException(), isNull);
+      await tester.tap(find.byKey(const Key('install-ios')));
+      await tester.pumpAndSettle();
+      expect(tester.takeException(), isNull);
+    });
+  }
 }

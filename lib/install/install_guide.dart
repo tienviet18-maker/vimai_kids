@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'install_env.dart';
+import 'install_strings.dart';
 
 /// Colours of the guide; each ViMai app passes its own palette.
 class InstallGuideStyle {
@@ -82,9 +83,11 @@ Future<void> showInstallGuide(
   BuildContext context, {
   required InstallGuideApp app,
   required bool en,
+  String? appLang,
   InstallEnv? env,
 }) {
   final e = env ?? InstallEnv.current();
+  final lang = InstallStrings.pick(device: e.deviceLang, app: appLang ?? (en ? 'en' : 'vi'));
   return showModalBottomSheet<void>(
     context: context,
     isScrollControlled: true,
@@ -93,15 +96,17 @@ Future<void> showInstallGuide(
     useRootNavigator: true,
     backgroundColor: Colors.transparent,
     barrierColor: Colors.black54,
-    builder: (_) => InstallGuideSheet(app: app, en: en, env: e),
+    builder: (_) => InstallGuideSheet(app: app, lang: lang, env: e),
   );
 }
 
 class InstallGuideSheet extends StatefulWidget {
-  const InstallGuideSheet({super.key, required this.app, required this.en, required this.env});
+  const InstallGuideSheet({super.key, required this.app, required this.lang, required this.env});
 
   final InstallGuideApp app;
-  final bool en;
+
+  /// One of [InstallStrings.supported].
+  final String lang;
   final InstallEnv env;
 
   @override
@@ -113,7 +118,8 @@ class _InstallGuideSheetState extends State<InstallGuideSheet> {
   bool _copied = false;
   String? _installResult;
 
-  String tr(String vi, String en) => widget.en ? en : vi;
+  late final InstallStrings t = InstallStrings.of(widget.lang);
+  String f(String text) => InstallStrings.fill(text, widget.app.name);
   InstallGuideStyle get s => widget.app.style;
 
   Future<void> _copyLink() async {
@@ -162,7 +168,7 @@ class _InstallGuideSheetState extends State<InstallGuideSheet> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            tr('LUÔN SẴN TRONG MÁY', 'ALWAYS ON YOUR PHONE'),
+                            t.eyebrow,
                             style: TextStyle(
                               color: s.accent,
                               fontSize: 11.5,
@@ -172,7 +178,7 @@ class _InstallGuideSheetState extends State<InstallGuideSheet> {
                           ),
                           const SizedBox(height: 6),
                           Text(
-                            tr('Cài $name lên điện thoại', 'Install $name on your phone'),
+                            f(t.title),
                             style: TextStyle(
                               color: s.text,
                               fontSize: 25,
@@ -185,7 +191,7 @@ class _InstallGuideSheetState extends State<InstallGuideSheet> {
                       ),
                     ),
                     const SizedBox(width: 8),
-                    _CloseButton(style: s, tooltip: tr('Đóng', 'Close')),
+                    _CloseButton(style: s, tooltip: t.close),
                   ],
                 ),
               ),
@@ -196,12 +202,7 @@ class _InstallGuideSheetState extends State<InstallGuideSheet> {
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
                       Text(
-                        tr(
-                          'Mở $name bằng một chạm từ màn hình chính, toàn màn hình như app thật. '
-                              'Không cần App Store, gần như không tốn dung lượng, tiến độ học giữ nguyên.',
-                          'Open $name with one tap from your home screen, full screen like a real app. '
-                              'No app store, almost no storage, your progress stays.',
-                        ),
+                        f(t.intro),
                         style: TextStyle(color: s.muted, fontSize: 14, height: 1.5),
                       ),
                       const SizedBox(height: 14),
@@ -209,16 +210,15 @@ class _InstallGuideSheetState extends State<InstallGuideSheet> {
                         spacing: 8,
                         runSpacing: 8,
                         children: [
-                          _Chip(Icons.touch_app_outlined, tr('Mở 1 chạm', 'One tap'), s),
-                          _Chip(Icons.fullscreen_rounded, tr('Toàn màn hình', 'Full screen'), s),
-                          _Chip(Icons.cloud_done_outlined, tr('Giữ tiến độ', 'Keeps progress'), s),
+                          _Chip(Icons.touch_app_outlined, t.chipOneTap, s),
+                          _Chip(Icons.fullscreen_rounded, t.chipFullScreen, s),
+                          _Chip(Icons.cloud_done_outlined, t.chipProgress, s),
                         ],
                       ),
                       const SizedBox(height: 18),
                       _PlatformSwitch(
                         value: _platform,
                         style: s,
-                        en: widget.en,
                         onChanged: (p) => setState(() => _platform = p),
                       ),
                       if (widget.env.canPrompt) ...[
@@ -226,7 +226,7 @@ class _InstallGuideSheetState extends State<InstallGuideSheet> {
                         _OneTap(
                           name: name,
                           style: s,
-                          en: widget.en,
+                          t: t,
                           result: _installResult,
                           onTap: _install,
                         ),
@@ -235,10 +235,7 @@ class _InstallGuideSheetState extends State<InstallGuideSheet> {
                       ..._steps(ios, name),
                       const SizedBox(height: 14),
                       Text(
-                        tr(
-                          'Hình minh hoạ thao tác; vị trí và tên nút có thể khác theo phiên bản trình duyệt.',
-                          'Illustrations only; button names and places can differ between browser versions.',
-                        ),
+                        t.note,
                         style: TextStyle(color: s.muted, fontSize: 12, height: 1.45),
                       ),
                     ],
@@ -266,113 +263,42 @@ class _InstallGuideSheetState extends State<InstallGuideSheet> {
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
               ),
               icon: Icon(_copied ? Icons.check_rounded : Icons.link_rounded, size: 18),
-              label: Text(_copied ? tr('Đã chép link', 'Link copied') : tr('Sao chép link', 'Copy link')),
+              label: Text(_copied ? t.copied : t.copyLink),
             ),
           )
         : null;
-    final steps = ios
-        ? [
-            _StepData(
-              title: tr('Mở bằng Safari', 'Open in Safari'),
-              body: [
-                _T(tr('Cài từ ', 'Install from ')),
-                const _T('Safari', bold: true),
-                _T(tr(
-                  '. Nếu đang xem trong Facebook, Zalo hay Messenger: bấm ⋯ rồi chọn ',
-                  '. If you are inside Facebook, Zalo or Messenger, tap ⋯ and choose ',
-                )),
-                _T(tr('Mở bằng trình duyệt', 'Open in browser'), bold: true),
-                _T(tr(', hoặc sao chép link dán vào Safari.', ', or copy the link into Safari.')),
+    final texts = ios ? t.iosSteps : t.androidSteps;
+    final arts = <Widget>[
+      _BrowserArt(style: s, label: ios ? 'Safari' : 'Chrome', safari: ios),
+      ios
+          ? _ShareSheetArt(
+              style: s,
+              share: t.share,
+              swipe: t.swipeUp,
+              rows: [
+                (Icons.star_border_rounded, t.favourites),
+                (Icons.find_in_page_outlined, t.findOnPage),
               ],
-              art: _BrowserArt(style: s, label: 'Safari', safari: true),
-              extra: copy,
+              target: t.addToHome,
+            )
+          : _MenuArt(
+              style: s,
+              icon: Icons.more_vert_rounded,
+              label: t.menu,
+              row: t.installApp,
+              rowIcon: Icons.install_mobile_outlined,
             ),
-            _StepData(
-              title: tr('Bấm Chia sẻ', 'Tap Share'),
-              body: [
-                _T(tr('Bấm nút ', 'Tap ')),
-                _T(tr('Chia sẻ', 'Share'), bold: true),
-                _T(tr(' ở thanh dưới của Safari, ', ' in the Safari toolbar, ')),
-                _T(tr('vuốt bảng lên', 'swipe the sheet up'), bold: true),
-                _T(tr(' (hoặc bấm ', ' (or tap ')),
-                _T(tr('Xem thêm', 'More'), bold: true),
-                _T(tr(') rồi chọn ', '), then choose ')),
-                _T(tr('Thêm vào Màn hình chính', 'Add to Home Screen'), bold: true),
-                const _T('.'),
-              ],
-              art: _ShareSheetArt(
-                style: s,
-                share: tr('Chia sẻ', 'Share'),
-                swipe: tr('Vuốt lên', 'Swipe up'),
-                rows: [
-                  (Icons.star_border_rounded, tr('Thêm vào Mục ưa thích', 'Add to Favourites')),
-                  (Icons.find_in_page_outlined, tr('Tìm trên trang', 'Find on Page')),
-                ],
-                target: tr('Thêm vào Màn hình chính', 'Add to Home Screen'),
-              ),
-            ),
-            _StepData(
-              title: tr('Thêm và mở ứng dụng', 'Add and open'),
-              body: [
-                _T(tr('Bật ', 'Turn on ')),
-                _T(tr('Mở dưới dạng ứng dụng web', 'Open as Web App'), bold: true),
-                _T(tr(' nếu có, rồi bấm ', ' if shown, then tap ')),
-                _T(tr('Thêm', 'Add'), bold: true),
-                _T(tr('. Về màn hình chính và mở biểu tượng ', '. Go to your home screen and open ')),
-                _T(name, bold: true),
-                const _T('.'),
-              ],
-              art: _AppArt(style: s, icon: widget.app.icon, name: name),
-            ),
-          ]
-        : [
-            _StepData(
-              title: tr('Mở bằng Chrome', 'Open in Chrome'),
-              body: [
-                _T(tr('Cài từ ', 'Install from ')),
-                const _T('Chrome', bold: true),
-                _T(tr(
-                  ' (hoặc Samsung Internet). Trong Facebook, Zalo: bấm ⋮ rồi chọn ',
-                  ' (or Samsung Internet). Inside Facebook or Zalo, tap ⋮ and choose ',
-                )),
-                _T(tr('Mở bằng trình duyệt', 'Open in browser'), bold: true),
-                const _T('.'),
-              ],
-              art: _BrowserArt(style: s, label: 'Chrome', safari: false),
-              extra: copy,
-            ),
-            _StepData(
-              title: tr('Mở menu ⋮', 'Open the ⋮ menu'),
-              body: [
-                _T(tr('Bấm ⋮ ở góc trên bên phải, chọn ', 'Tap ⋮ at the top right and choose ')),
-                _T(tr('Cài đặt ứng dụng', 'Install app'), bold: true),
-                _T(tr(' hoặc ', ' or ')),
-                _T(tr('Thêm vào màn hình chính', 'Add to Home screen'), bold: true),
-                const _T('.'),
-              ],
-              art: _MenuArt(
-                style: s,
-                icon: Icons.more_vert_rounded,
-                label: tr('Menu', 'Menu'),
-                row: tr('Cài đặt ứng dụng', 'Install app'),
-                rowIcon: Icons.install_mobile_outlined,
-              ),
-            ),
-            _StepData(
-              title: tr('Cài và mở ứng dụng', 'Install and open'),
-              body: [
-                _T(tr('Bấm ', 'Tap ')),
-                _T(tr('Cài đặt', 'Install'), bold: true),
-                _T(tr('. Biểu tượng ', '. The ')),
-                _T(name, bold: true),
-                _T(tr(
-                  ' có trên màn hình chính và trong danh sách ứng dụng.',
-                  ' icon appears on your home screen and in your apps.',
-                )),
-              ],
-              art: _AppArt(style: s, icon: widget.app.icon, name: name),
-            ),
-          ];
+      _AppArt(style: s, icon: widget.app.icon, name: name),
+    ];
+    final steps = [
+      for (var i = 0; i < 3; i++)
+        _StepData(
+          title: texts[i].$1,
+          body: _T.parse(f(texts[i].$2)),
+          art: arts[i],
+          extra: i == 0 ? copy : null,
+        ),
+    ];
     return [
       for (var i = 0; i < steps.length; i++) ...[
         if (i > 0) Divider(height: 1, color: s.line),
@@ -386,6 +312,15 @@ class _T {
   const _T(this.text, {this.bold = false});
   final String text;
   final bool bold;
+
+  /// `**bold**` parts are button names.
+  static List<_T> parse(String text) {
+    final parts = text.split('**');
+    return [
+      for (var i = 0; i < parts.length; i++)
+        if (parts[i].isNotEmpty) _T(parts[i], bold: i.isOdd),
+    ];
+  }
 }
 
 class _StepData {
@@ -752,10 +687,9 @@ class _Chip extends StatelessWidget {
 }
 
 class _PlatformSwitch extends StatelessWidget {
-  const _PlatformSwitch({required this.value, required this.style, required this.en, required this.onChanged});
+  const _PlatformSwitch({required this.value, required this.style, required this.onChanged});
   final InstallPlatform value;
   final InstallGuideStyle style;
-  final bool en;
   final ValueChanged<InstallPlatform> onChanged;
 
   @override
@@ -821,19 +755,19 @@ class _OneTap extends StatelessWidget {
   const _OneTap({
     required this.name,
     required this.style,
-    required this.en,
+    required this.t,
     required this.result,
     required this.onTap,
   });
   final String name;
   final InstallGuideStyle style;
-  final bool en;
+  final InstallStrings t;
   final String? result;
   final VoidCallback onTap;
 
   @override
   Widget build(BuildContext context) {
-    String tr(String vi, String e) => en ? e : vi;
+    String f(String text) => InstallStrings.fill(text, name);
     if (result == 'accepted') {
       return Row(
         children: [
@@ -841,7 +775,7 @@ class _OneTap extends StatelessWidget {
           const SizedBox(width: 8),
           Expanded(
             child: Text(
-              tr('Đã cài $name. Mở từ màn hình chính nhé!', '$name is installed. Open it from your home screen!'),
+              f(t.installed),
               style: TextStyle(color: style.text, fontWeight: FontWeight.w600),
             ),
           ),
@@ -862,12 +796,11 @@ class _OneTap extends StatelessWidget {
             textStyle: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
           ),
           icon: const Icon(Icons.download_rounded),
-          label: Text(tr('Cài $name ngay', 'Install $name now')),
+          label: Text(f(t.installNow)),
         ),
         const SizedBox(height: 6),
         Text(
-          tr('Trình duyệt này cài được bằng một chạm. Hoặc làm theo các bước dưới.',
-              'This browser installs in one tap. Or follow the steps below.'),
+          t.oneTapNote,
           textAlign: TextAlign.center,
           style: TextStyle(color: style.muted, fontSize: 12.5),
         ),
@@ -904,10 +837,13 @@ class _CloseButton extends StatelessWidget {
 /// The small "Cài ứng dụng" pill for the top of the app. Hidden when the app
 /// already runs from the home screen or outside the web.
 class InstallPill extends StatelessWidget {
-  const InstallPill({super.key, required this.app, required this.en, this.env});
+  const InstallPill({super.key, required this.app, required this.en, this.appLang, this.env});
 
   final InstallGuideApp app;
   final bool en;
+
+  /// The app's language code (vi, en, ja...) when it has more than vi/en.
+  final String? appLang;
   final InstallEnv? env;
 
   @override
@@ -920,7 +856,7 @@ class InstallPill extends StatelessWidget {
       child: InkWell(
         key: const Key('install-pill'),
         borderRadius: BorderRadius.circular(10),
-        onTap: () => showInstallGuide(context, app: app, en: en, env: e),
+        onTap: () => showInstallGuide(context, app: app, en: en, appLang: appLang, env: e),
         child: Container(
           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 7),
           decoration: BoxDecoration(
@@ -934,7 +870,7 @@ class InstallPill extends StatelessWidget {
               Icon(Icons.install_mobile_outlined, size: 15, color: s.text),
               const SizedBox(width: 6),
               Text(
-                en ? 'Install app' : 'Cài ứng dụng',
+                InstallStrings.of(InstallStrings.pick(device: e.deviceLang, app: appLang ?? (en ? 'en' : 'vi'))).pill,
                 maxLines: 1,
                 style: TextStyle(color: s.text, fontSize: 13, fontWeight: FontWeight.w600),
               ),
@@ -948,10 +884,18 @@ class InstallPill extends StatelessWidget {
 
 /// The pill on the right, on its own slim row at the top of a page.
 class InstallPillRow extends StatelessWidget {
-  const InstallPillRow({super.key, required this.app, required this.en, this.env, this.padding = const EdgeInsets.only(top: 6)});
+  const InstallPillRow({
+    super.key,
+    required this.app,
+    required this.en,
+    this.appLang,
+    this.env,
+    this.padding = const EdgeInsets.only(top: 6),
+  });
 
   final InstallGuideApp app;
   final bool en;
+  final String? appLang;
   final InstallEnv? env;
   final EdgeInsets padding;
 
@@ -961,7 +905,7 @@ class InstallPillRow extends StatelessWidget {
     if (!e.offer) return const SizedBox.shrink();
     return Padding(
       padding: padding,
-      child: Align(alignment: Alignment.centerRight, child: InstallPill(app: app, en: en, env: e)),
+      child: Align(alignment: Alignment.centerRight, child: InstallPill(app: app, en: en, appLang: appLang, env: e)),
     );
   }
 }
@@ -970,11 +914,12 @@ class InstallPillRow extends StatelessWidget {
 /// height when the guide is not offered (app opened from the home screen,
 /// iOS/Android build, tests).
 class InstallAppBarBottom extends StatelessWidget implements PreferredSizeWidget {
-  InstallAppBarBottom({super.key, required this.app, required this.en, InstallEnv? env})
+  InstallAppBarBottom({super.key, required this.app, required this.en, this.appLang, InstallEnv? env})
       : env = env ?? InstallEnv.current();
 
   final InstallGuideApp app;
   final bool en;
+  final String? appLang;
   final InstallEnv env;
 
   @override
@@ -985,7 +930,7 @@ class InstallAppBarBottom extends StatelessWidget implements PreferredSizeWidget
     if (!env.offer) return const SizedBox.shrink();
     return Padding(
       padding: const EdgeInsets.fromLTRB(12, 0, 12, 8),
-      child: Align(alignment: Alignment.centerRight, child: InstallPill(app: app, en: en, env: env)),
+      child: Align(alignment: Alignment.centerRight, child: InstallPill(app: app, en: en, appLang: appLang, env: env)),
     );
   }
 }
